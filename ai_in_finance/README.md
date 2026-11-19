@@ -1,0 +1,35 @@
+# AI in Finance – eigene Agenten auf Basis von FinRobot
+
+Dieser Ordner enthaelt alles, was im Rahmen des Kursprojekts **neu** entstanden ist. Die
+Original-Tutorials von FinRobot liegen unveraendert unter `finrobot_autogen/tutorials_*`.
+
+## Struktur
+
+| Ordner | Inhalt |
+|---|---|
+| `notebooks/` | Eigene Notebooks, z. B. `annual_report_agent.ipynb` |
+| `lib/` | Eigene Agenten und Tools (`report_agent.py`, `peer_tools.py`) |
+| `reports/` | Erzeugte Reports und Faktencheck-JSONs; `reports/prototypes/` = fruehe Versionen |
+| `notes/` | Belege fuer den Kurs-Report (z. B. Halluzinationen im Original) |
+| `scripts/` | Diagnose- und Testskripte fuer die Datenquellen |
+
+## Anpassungen an FinRobot selbst (`finrobot_autogen/finrobot/`)
+
+Einige Fehler und veraltete Teile mussten direkt in der Bibliothek behoben werden. Alle Stellen
+sind im Code mit `Angepasst` kommentiert; der Originalzustand ist ueber Git nachvollziehbar.
+
+| Datei | Aenderung | Grund |
+|---|---|---|
+| `data_source/fmp_utils.py` | FMP ersetzt durch SEC EDGAR + Yahoo Finance; `n/a`/`n/m` statt Fantasiewerten; EV/Sales | FMP-Legacy-Endpunkte fuer neue Konten gesperrt (403/402) |
+| `data_source/sec_utils.py` | HTML-Entities umwandeln, UTF-8 | Sonderzeichen, Windows-Kodierung |
+| `agents/workflow.py` | Shadow-Agent: 1 statt 2 Runden; `parallel_tool_calls` fuer Shadow entfernt | Analysen gingen verloren (leere Zusammenfassung) |
+| `agents/utils.py` | Erkennung paralleler Tool-Aufrufe, UTF-8 | Absturz bei mehreren Pfaden |
+| `functional/analyzer.py` | 52-Wochen-Spanne korrigiert; Peer-Namen aus Daten; fest kodierte Jahre im Prompt entfernt | Fehler im Original |
+| `functional/charting.py` | Kurs-Chart 3 Jahre; Bewertungs-Chart (KGV- bzw. EV/Sales-Band + FCF-Rendite) | KGV bei Verlusten sinnlos |
+| `functional/reportlab.py` | Neues Layout, Investment Summary, Quellen [1]-[4], Segment-/Peer-Tabelle, Plausibilitaetspruefung, Faktencheck-Anhang | Lesbarkeit, Nachpruefbarkeit |
+| `functional/fact_check.py` | **neu**: automatischer Faktencheck | Kern des Projekts |
+
+## Nutzung
+1. VS Code: `ai_in_finance/notebooks/annual_report_agent.ipynb` oeffnen, Kernel `.venv` waehlen.
+2. In Zelle 2/3 Modell, Ticker, Geschaeftsjahr und ggf. Peers setzen.
+3. Run All. Ergebnis liegt in `ai_in_finance/reports/<TICKER>_<FY>_<Modell>/`.

@@ -47,3 +47,8 @@ finrobot_equity/core/output/build/
 
 OAI_CONFIG_LIST
 config_api_keys
+
+# AI in Finance (eigene Notebooks)
+ai_in_finance/notebooks/.cache/
+ai_in_finance/notebooks/coding/
+__pycache__/

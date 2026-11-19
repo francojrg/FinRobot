@@ -1,10 +1,11 @@
 """Diagnose: welche FMP-Endpunkte (alt /api/v3 vs. neu /stable) und SEC EDGAR funktionieren?
-Ausfuehren im Ordner finrobot_autogen:  python scripts/check_data_sources.py
+Ausfuehren (beliebiger Ordner): python ai_in_finance/scripts/check_data_sources.py
 Gibt nur Statuscodes und Feldnamen aus, niemals API-Keys."""
 import os, json, requests
 from finrobot.utils import register_keys_from_json
 
-register_keys_from_json("config_api_keys")
+from pathlib import Path
+register_keys_from_json(str(Path(__file__).resolve().parents[2] / "finrobot_autogen" / "config_api_keys"))
 KEY = os.environ.get("FMP_API_KEY", "")
 T = "RKLB"
 print("FMP-Key gesetzt:", bool(KEY) and not KEY.startswith("YOUR_"))

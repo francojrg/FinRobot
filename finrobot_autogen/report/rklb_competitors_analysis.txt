@@ -1,0 +1,294 @@
+
+
+Revenue:
+RKLB: 2022    211
+2023    245
+2024    436
+2025    602
+Name: Revenue, dtype: object
+LUNR: 2022     86
+2023     80
+2024    228
+2025    207
+Name: Revenue, dtype: object
+RDW: 2022    161
+2023    244
+2024    304
+2025    335
+Name: Revenue, dtype: object
+PL: 2023    191
+2024    221
+2025    244
+2026    308
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+RKLB: 2022      n/a
+2023    15.9%
+2024    78.3%
+2025    38.0%
+Name: Revenue Growth, dtype: object
+LUNR: 2022       n/a
+2023     -7.4%
+2024    186.6%
+2025     -9.2%
+Name: Revenue Growth, dtype: object
+RDW: 2022      n/a
+2023    51.9%
+2024    24.7%
+2025    10.3%
+Name: Revenue Growth, dtype: object
+PL: 2023      n/a
+2024    15.4%
+2025    10.7%
+2026    25.9%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+RKLB: 2022     19
+2023     51
+2024    116
+2025    207
+Name: Gross Profit, dtype: object
+LUNR: 2022     10
+2023    -24
+2024      3
+2025      6
+Name: Gross Profit, dtype: object
+RDW: 2022    29
+2023    58
+2024    44
+2025    17
+Name: Gross Profit, dtype: object
+PL: 2023     94
+2024    113
+2025    140
+2026    172
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+RKLB: 2022    0.09
+2023    0.21
+2024    0.27
+2025    0.34
+Name: Gross Margin, dtype: object
+LUNR: 2022    0.12
+2023   -0.31
+2024    0.01
+2025    0.03
+Name: Gross Margin, dtype: object
+RDW: 2022    0.18
+2023    0.24
+2024    0.15
+2025    0.05
+Name: Gross Margin, dtype: object
+PL: 2023    0.49
+2024    0.51
+2025    0.57
+2026    0.56
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+RKLB: 2022     -95
+2023    -132
+2024    -130
+2025    -155
+Name: EBITDA, dtype: object
+LUNR: 2022      -5
+2023     -59
+2024    -345
+2025     -95
+Name: EBITDA, dtype: object
+RDW: 2022    -119
+2023      -6
+2024     -91
+2025    -179
+Name: EBITDA, dtype: object
+PL: 2023    -132
+2024     -92
+2025     -74
+2026    -197
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+RKLB: 2022   -0.45
+2023   -0.54
+2024    -0.3
+2025   -0.26
+Name: EBITDA Margin, dtype: object
+LUNR: 2022   -0.05
+2023   -0.74
+2024   -1.51
+2025   -0.46
+Name: EBITDA Margin, dtype: object
+RDW: 2022   -0.74
+2023   -0.03
+2024    -0.3
+2025   -0.53
+Name: EBITDA Margin, dtype: object
+PL: 2023   -0.69
+2024   -0.42
+2025    -0.3
+2026   -0.64
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+RKLB: 2022    -149
+2023    -154
+2024    -116
+2025    -322
+Name: FCF, dtype: object
+LUNR: 2022    -16
+2023    -75
+2024    -68
+2025    -56
+Name: FCF, dtype: object
+RDW: 2022     -36
+2023      -7
+2024     -28
+2025    -201
+Name: FCF, dtype: object
+PL: 2023    -87
+2024    -93
+2025    -69
+2026     51
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+LUNR: 2022     n/m
+2023   -1.22
+2024     n/m
+2025     n/m
+Name: FCF Conversion, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+PL: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+RKLB: 2022    -12.0%
+2023    -18.2%
+2024    -15.5%
+2025     -9.3%
+Name: ROIC, dtype: object
+LUNR: 2022    14.8%
+2023    23.6%
+2024    25.6%
+2025    17.5%
+Name: ROIC, dtype: object
+RDW: 2022    -171.5%
+2023     -37.4%
+2024     160.5%
+2025     -16.6%
+Name: ROIC, dtype: object
+PL: 2023    -22.6%
+2024    -20.1%
+2025    -20.2%
+2026    -22.5%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+LUNR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+PL: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: EV/EBITDA, dtype: object
+
+
+PE Ratio:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+LUNR: 2022     n/m
+2023    0.89
+2024     n/m
+2025     n/m
+Name: PE Ratio, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+PL: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+RKLB: 2022     2.66
+2023     4.88
+2024    33.59
+2025    23.88
+Name: PB Ratio, dtype: object
+LUNR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PB Ratio, dtype: object
+RDW: 2022    1.83
+2023    3.53
+2024     n/m
+2025    1.28
+Name: PB Ratio, dtype: object
+PL: 2023     2.34
+2024     1.26
+2025     4.15
+2026    44.44
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for RKLB and ['LUNR', 'RDW', 'PL'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple years (indicated as 0, 1, 2, 3, with 0 being the latest year and 3 the earliest year). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest year (3) to the latest year (0) for {company}. But when generating analysis, you need to write 1: year 3 = year 2023, 2: year 2 = year 2022, 3: year 1 = year 2021 and 4: year 0 = year 2020. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

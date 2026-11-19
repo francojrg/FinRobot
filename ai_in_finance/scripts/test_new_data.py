@@ -1,9 +1,9 @@
-"""Test der neuen Datenabrufe (EDGAR + Yahoo statt FMP). Ausfuehren in finrobot_autogen:
-    python scripts/test_new_data.py RKLB 2025
+"""Test der neuen Datenabrufe (EDGAR + Yahoo statt FMP). Ausfuehren: python ai_in_finance/scripts/test_new_data.py RKLB 2025
 Jeder Schritt wird einzeln geprueft; Fehler werden angezeigt, nicht verschluckt."""
 import sys, traceback
 from finrobot.utils import register_keys_from_json
-register_keys_from_json("config_api_keys")
+from pathlib import Path
+register_keys_from_json(str(Path(__file__).resolve().parents[2] / "finrobot_autogen" / "config_api_keys"))
 from finrobot.data_source import FMPUtils, SECUtils
 from finrobot.functional.analyzer import ReportAnalysisUtils
 
