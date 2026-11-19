@@ -31,7 +31,18 @@ from typing import Annotated, List
 # build_annual_report erhalten, wird aber nicht mehr aufgerufen.
 # ---------------------------------------------------------------------------
 # >>> Name deines Report-Tools: hier aendern <<<
-REPORT_BRAND = "FinRobot (modified)"
+REPORT_BRAND = "Franci's FINRobot"
+# >>> Akzentfarbe des Reports (Hex). Vorschlaege: "#0B2545" Navy, "#0F4C5C" Petrol,
+#     "#1B4D3E" Tannengruen, "#6D1A36" Bordeaux, "#2F3B45" Anthrazit
+REPORT_COLOR = "#0F4C5C"
+
+
+def _tint(hex_color, share_white):
+    """Mischt eine Farbe mit Weiss (share_white 0..1) fuer Kasten- und Linienfarben."""
+    h = hex_color.lstrip("#")
+    r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+    mix = lambda c: round(c + (255 - c) * share_white)
+    return "#{:02X}{:02X}{:02X}".format(mix(r), mix(g), mix(b))
 
 def _heading_font():
     """Georgia Bold fuer Ueberschriften, falls installiert (Windows/macOS); sonst Times-Bold."""
@@ -192,10 +203,11 @@ def _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics
     return [s1, s2, s4], len(files)
 
 
-def _factcheck_flowables(fc, n_tenk_files, styles, usable):
+def _factcheck_flowables(fc, n_tenk_files, styles, usable, heading=None):
     from xml.sax.saxutils import escape
     h2, body, small, cell, cell_r, line = styles
-    out = [Spacer(1, 14), Paragraph("Appendix: Automated Fact Check", h2),
+    H = heading or (lambda t, space_before=10: [Spacer(1, space_before), Paragraph(t, h2)])
+    out = H("Appendix: Automated Fact Check", 14) + [
            Paragraph(
                "Every number in the report text was compared with the data the agent received: the 10-K sections [1], "
                "the company's Yahoo Finance data [2] and the peer data [4]. A match means the figure appears in a source "
@@ -203,7 +215,7 @@ def _factcheck_flowables(fc, n_tenk_files, styles, usable):
                "computed by the model) and requires manual review. Ticker names are checked against the official company names.",
                small), Spacer(1, 6)]
     rate = f"{fc['match_rate'] * 100:.0f}%" if fc["match_rate"] is not None else "n/a"
-    rows = [[Paragraph("<b>Summary</b>", cell), ""],
+    rows = [[Paragraph("<font color='white'><b>Summary</b></font>", cell), ""],
             [Paragraph("Numeric claims checked", cell), Paragraph(str(fc["total_claims"]), cell_r)],
             [Paragraph("Found in sources", cell), Paragraph(f"{fc['matched']} ({rate})", cell_r)]]
     for src, n in fc["by_source"].items():
@@ -218,15 +230,15 @@ def _factcheck_flowables(fc, n_tenk_files, styles, usable):
     out += [t, Spacer(1, 8)]
 
     if fc["name_issues"]:
-        out.append(Paragraph("Name/ticker mismatches", h2))
+        out += H("Name/ticker mismatches")
         for i in fc["name_issues"]:
             out.append(Paragraph(
                 f"<font color='#c62828'><b>{escape(i['written'])} ({i['ticker']})</b></font>: official name is "
                 f"<b>{escape(i['official'])}</b> (section: {escape(i['section'])}).", body))
 
     if fc["unmatched"]:
-        out.append(Paragraph("Figures not found in the sources (manual review)", h2))
-        rows = [[Paragraph("<b>Section</b>", cell), Paragraph("<b>Figure</b>", cell), Paragraph("<b>Context</b>", cell)]]
+        out += H("Figures not found in the sources (manual review)")
+        rows = [[Paragraph("<font color='white'><b>Section</b></font>", cell), Paragraph("<font color='white'><b>Figure</b></font>", cell), Paragraph("<font color='white'><b>Context</b></font>", cell)]]
         for u in fc["unmatched"][:45]:
             rows.append([Paragraph(escape(u["section"]), cell), Paragraph(escape(u["text"]), cell),
                          Paragraph(escape(u["context"]), cell)])
@@ -443,6 +455,271 @@ def _build_report_v3(ticker_symbol, pdf_path, summary, sections, share_img, val_
             f"in the sources, {len(fc['name_issues'])} name/ticker mismatch(es). Details in the appendix of the PDF.")
 
 
+def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_img, filing_date,
+                     peer_tickers=None, segments=None):
+    from datetime import date
+    from reportlab.lib.units import cm
+    from reportlab.platypus import KeepInFrame, CondPageBreak
+
+    page_w, page_h = pagesizes.A4
+    m = 1.6 * cm
+    usable = page_w - 2 * m
+    NAVY, PANEL, RULE, GREY = (colors.HexColor(REPORT_COLOR), colors.HexColor(_tint(REPORT_COLOR, 0.93)),
+                               colors.HexColor(_tint(REPORT_COLOR, 0.75)), colors.HexColor("#5A6472"))
+    doc = SimpleDocTemplate(
+        pdf_path, pagesize=pagesizes.A4,
+        leftMargin=m, rightMargin=m, topMargin=2.0 * cm, bottomMargin=1.6 * cm,
+        title=f"{ticker_symbol} Equity Research Report",
+    )
+    ss = getSampleStyleSheet()
+    hfont = _heading_font()
+    body = ParagraphStyle("BodyV3", parent=ss["Normal"], fontName="Helvetica",
+                          fontSize=10, leading=14, alignment=TA_JUSTIFY, spaceAfter=7)
+    body_s = ParagraphStyle("BodySV3", parent=body, fontSize=9.5, leading=13, spaceAfter=6)
+    small = ParagraphStyle("SmallV3", parent=ss["Normal"], fontName="Helvetica",
+                           fontSize=7.5, leading=9.5, textColor=colors.HexColor("#555555"))
+    cell = ParagraphStyle("CellV3", parent=ss["Normal"], fontName="Helvetica", fontSize=8, leading=10)
+    cell_r = ParagraphStyle("CellRV3", parent=cell, alignment=2)
+    title = ParagraphStyle("TitleV3", parent=ss["Title"], fontName=hfont, textColor=NAVY,
+                           fontSize=20, leading=24, alignment=TA_LEFT, spaceAfter=2)
+    headline = ParagraphStyle("HeadlineV4", parent=ss["Normal"], fontName=hfont, fontSize=11.5, leading=15,
+                              textColor=colors.HexColor("#1F2933"), spaceAfter=4)
+    exh = ParagraphStyle("ExhV4", parent=ss["Normal"], fontName="Helvetica-Bold", fontSize=8, leading=10,
+                         textColor=NAVY, spaceBefore=2, spaceAfter=2)
+    src_style = ParagraphStyle("SrcV4", parent=ss["Normal"], fontName="Helvetica", fontSize=6.8, leading=8.5,
+                               textColor=GREY, spaceBefore=1, spaceAfter=4)
+    cell_w = ParagraphStyle("CellWV4", parent=ss["Normal"], fontName="Helvetica-Bold", fontSize=8, leading=10,
+                            textColor=colors.white)
+    over = ParagraphStyle("OverV3", parent=ss["Normal"], fontName="Helvetica-Bold", fontSize=8,
+                          leading=10, textColor=colors.HexColor("#1f4e79"), spaceAfter=1)
+    sub = ParagraphStyle("SubV3", parent=ss["Normal"], fontName="Helvetica",
+                         fontSize=9, leading=12, textColor=colors.HexColor("#444444"), spaceAfter=8)
+    h2 = ParagraphStyle("H2V3", parent=ss["Heading2"], fontName=hfont, textColor=NAVY,
+                        fontSize=12.5, leading=15, spaceBefore=0, spaceAfter=0)
+    h3 = ParagraphStyle("H3V3", parent=ss["Heading3"], fontName=hfont,
+                        fontSize=10.5, leading=13, spaceBefore=2, spaceAfter=3)
+    ref = ParagraphStyle("RefV3", parent=ss["Normal"], fontName="Helvetica", fontSize=9, leading=12,
+                         leftIndent=0.8 * cm, firstLineIndent=-0.8 * cm, spaceAfter=4)
+    line = TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), NAVY),
+        ("LINEBELOW", (0, 1), (-1, -1), 0.4, RULE),
+        ("LINEBELOW", (0, -1), (-1, -1), 1.0, NAVY),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("TOPPADDING", (0, 0), (-1, -1), 1.8), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.8),
+    ])
+
+    def heading(text, space_before=10):
+        t = Table([[Paragraph(text, h2)]], colWidths=[usable])
+        t.setStyle(TableStyle([("LINEBELOW", (0, 0), (-1, -1), 1.2, NAVY),
+                               ("LEFTPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+                               ("TOPPADDING", (0, 0), (-1, -1), 0)]))
+        return [Spacer(1, space_before), t, Spacer(1, 5)]
+
+    def exhibit(num, text):
+        return Paragraph(f"Exhibit {num}: {text}", exh)
+
+    def source(text):
+        return Paragraph(f"Source: {text}", src_style)
+
+    info = YFinanceUtils.get_stock_info(ticker_symbol) or {}
+    name = info.get("shortName") or info.get("longName") or ticker_symbol
+    currency = info.get("currency", "USD")
+    sector = " / ".join(x for x in [info.get("sector"), info.get("industry")] if x) or "Equity Research"
+    exchange = info.get("exchange") or ""
+    import re as _re
+    first_sentence = _re.split(r"(?<=[.!?])\s", str(summary).strip(), maxsplit=1)[0]
+    first_sentence = _re.sub(r"\s*\[\d+\](\[\d+\])*", "", first_sentence)
+
+    content = [
+        Paragraph(f"{name} <font size=12 color='#5A6472'>({ticker_symbol}{', ' + exchange if exchange else ''})</font>", title),
+        Paragraph(first_sentence, headline),
+        Paragraph(f"Based on the 10-K filed {filing_date} [1] &nbsp;|&nbsp; {sector} &nbsp;|&nbsp; Generated by {REPORT_BRAND}", sub),
+    ]
+
+    # --- Seite 1: links Text, rechts Charts und Key Data -------------------
+    gap = 0.5 * cm
+    left_w = usable * 0.52
+    right_w = usable - left_w - gap
+    row_h = 15.0 * cm
+
+    hs = Table([[Paragraph("Investment Summary", h2)]], colWidths=[left_w])
+    hs.setStyle(TableStyle([("LINEBELOW", (0, 0), (-1, -1), 1.2, NAVY), ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                            ("BOTTOMPADDING", (0, 0), (-1, -1), 3), ("TOPPADDING", (0, 0), (-1, -1), 0)]))
+    left = [hs, Spacer(1, 5)] + _paragraphs(summary, body_s)
+
+    key_data = ReportAnalysisUtils.get_key_data(ticker_symbol, filing_date)
+    pad = 0.25 * cm
+    inner = right_w - 2 * pad
+    kd_rows = [[Paragraph("Key data", cell_w), ""]]
+    kd_rows += [[Paragraph(str(k), cell), Paragraph(str(v), cell_r)] for k, v in key_data.items()]
+    kd = Table(kd_rows, colWidths=[inner * 0.52, inner * 0.48])
+    kd.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)), ("BACKGROUND", (0, 1), (-1, -1), colors.white)]))
+    right = [
+        exhibit(1, "Share price vs S&amp;P 500, rebased to 100"), _scaled_image(share_img, inner, 4.1 * cm),
+        source("Yahoo Finance [2]"),
+        kd,
+        source("Prices as of the filing date [2]; rating and target price: current analyst consensus [3]"),
+        exhibit(2, "Valuation: historical multiple band and FCF yield"), _scaled_image(val_img, inner, 5.6 * cm),
+        source("Yahoo Finance [2], own calculations"),
+    ]
+    panel = Table([[KeepInFrame(inner, row_h - 2 * pad, right, mode="shrink")]], colWidths=[right_w])
+    panel.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), PANEL), ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                               ("LEFTPADDING", (0, 0), (-1, -1), pad), ("RIGHTPADDING", (0, 0), (-1, -1), pad),
+                               ("TOPPADDING", (0, 0), (-1, -1), pad), ("BOTTOMPADDING", (0, 0), (-1, -1), pad)]))
+    row = Table(
+        [[KeepInFrame(left_w, row_h, left, mode="shrink"), "", panel]],
+        colWidths=[left_w, gap, right_w],
+    )
+    row.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
+                             ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                             ("TOPPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
+    content += [row, Spacer(1, 0.3 * cm)]
+
+    # --- Seite 1 unten: Financial Metrics -----------------------------------
+    metrics = FMPUtils.get_financial_metrics(ticker_symbol, years=5)
+    df = metrics.reset_index()
+    df = df.rename(columns={"index": f"FY ({currency} mn)"})
+    n = df.shape[1]
+    first_w = usable * 0.28
+    cell_wr = ParagraphStyle("CellWRV4", parent=cell_w, alignment=2)
+    fm_rows = [[Paragraph(str(c), cell_w if i == 0 else cell_wr) for i, c in enumerate(df.columns)]]
+    fmt = lambda v: f"<i>{v}</i>" if isinstance(v, str) and v.endswith("%") else str(v)
+    fm_rows += [[Paragraph(fmt(v), cell if i == 0 else cell_r) for i, v in enumerate(r)] for r in df.values.tolist()]
+    fm = Table(fm_rows, colWidths=[first_w] + [(usable - first_w) / (n - 1)] * (n - 1))
+    fm.setStyle(TableStyle(line.getCommands() + [
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor(_tint(REPORT_COLOR, 0.96))]),
+        ("TOPPADDING", (0, 0), (-1, -1), 1.2), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.2),
+    ]))
+    from reportlab.platypus import KeepTogether
+    content += [KeepTogether([exhibit(3, "Financial metrics"), fm,
+                              source("Yahoo Finance [2], own calculations. n/a = not available; n/m = not meaningful "
+                                     "(e.g. multiple with negative denominator).")]),
+                PageBreak()]
+
+    # --- Ab Seite 2: Abschnitte ---------------------------------------------
+    sec = dict(sections)
+    own_fy = str(sorted(metrics.columns)[-1]) if len(metrics.columns) else "current"
+    # Peer-Daten (fuer Tabelle und Faktencheck)
+    peers = list(peer_tickers or []) or _peer_tickers_from_text(sec.get("Competitors Analysis", ""), ticker_symbol)
+    peer_metrics, peer_errors = {}, []
+    for ptk in peers:
+        try:
+            peer_metrics[ptk] = FMPUtils.get_financial_metrics(ptk, years=4)
+        except Exception as e:
+            peer_errors.append(f"{ptk}: {e}")
+    names = {t_: _company_name(t_) for t_ in [ticker_symbol] + list(peer_metrics)}
+
+    for sec_title, text in sections:
+        content += heading(sec_title)
+        content += _paragraphs(text, body)
+        if sec_title == "Operating Results" and segments:
+            prior_fy = str(int(own_fy) - 1) if own_fy.isdigit() else "prior"
+            rows = [[Paragraph(c, cell_w if i == 0 else cell_wr) for i, c in
+                     enumerate([f"Segment ({currency} mn)", f"FY{prior_fy}", f"FY{own_fy}", "Growth"])]]
+            for sg in segments:
+                g = (sg["current"] / sg["prior"] - 1) * 100 if sg["prior"] else None
+                rows.append([Paragraph(sg["segment"], cell),
+                             Paragraph("n/a" if sg["prior"] is None else f"{sg['prior']:,.1f}", cell_r),
+                             Paragraph(f"{sg['current']:,.1f}", cell_r),
+                             Paragraph("n/a" if g is None else f"<i>{g:+.1f}%</i>", cell_r)])
+            tot_p = sum(sg["prior"] for sg in segments if sg["prior"]) if all(sg["prior"] for sg in segments) else None
+            tot_c = sum(sg["current"] for sg in segments)
+            rows.append([Paragraph("<b>Total</b>", cell),
+                         Paragraph("n/a" if tot_p is None else f"<b>{tot_p:,.1f}</b>", cell_r),
+                         Paragraph(f"<b>{tot_c:,.1f}</b>", cell_r),
+                         Paragraph("n/a" if not tot_p else f"<i><b>{(tot_c / tot_p - 1) * 100:+.1f}%</b></i>", cell_r)])
+            tb = Table(rows, colWidths=[usable * 0.40, usable * 0.20, usable * 0.20, usable * 0.20])
+            tb.setStyle(TableStyle(line.getCommands() + [("LINEABOVE", (0, -1), (-1, -1), 0.8, NAVY)]))
+            content += [KeepTogether([Spacer(1, 4), exhibit(4, "Segment revenue"), tb,
+                                      source("10-K [1]; growth: own calculation")])]
+        if sec_title == "Competitors Analysis" and peer_metrics:
+            cols = ["Company", "FY", f"Revenue ({currency} mn)", "Growth", "Gross margin", "EBITDA margin",
+                    "FCF margin", "EV/Sales", "P/B"]
+            rows = [[Paragraph(c, cell_w if i == 0 else cell_wr) for i, c in enumerate(cols)]]
+            for t_, m_ in [(ticker_symbol, metrics)] + list(peer_metrics.items()):
+                vals = [f"{names.get(t_, t_)} ({t_})", str(sorted(m_.columns)[-1]), _latest(m_, "Revenue"),
+                        _latest(m_, "Revenue Growth"), _latest(m_, "Gross Margin"), _latest(m_, "EBITDA Margin"),
+                        _fcf_margin(m_), _latest(m_, "EV/Sales"), _latest(m_, "PB Ratio")]
+                bold = t_ == ticker_symbol
+                rows.append([Paragraph((f"<b>{v}</b>" if bold else str(v)) if i == 0 else
+                                       (f"<i>{v}</i>" if str(v).endswith("%") else str(v)), cell if i == 0 else cell_r)
+                             for i, v in enumerate(vals)])
+            w0 = usable * 0.26
+            tb = Table(rows, colWidths=[w0] + [(usable - w0) / 8] * 8)
+            tb.setStyle(TableStyle(line.getCommands() + [("BACKGROUND", (0, 1), (-1, 1), PANEL)]))
+            note = "Yahoo Finance [2][4], own calculations. Fiscal year ends can differ between companies."
+            if peer_errors:
+                note += " Not available: " + "; ".join(peer_errors)
+            content += [KeepTogether([Spacer(1, 4), exhibit(5, "Peer comparison, latest fiscal year"), tb, source(note)])]
+
+    # --- Quellenverzeichnis ---------------------------------------------------
+    today = date.today().isoformat()
+    tenk = _tenk_reference(ticker_symbol, filing_date)
+    if tenk:
+        r1 = (f"{name}, Form 10-K for the fiscal year ended {tenk.get('report_date', 'n/a')}, filed {tenk.get('filing_date')}, "
+              f"SEC EDGAR, {tenk.get('url')} (Items 1, 1A and 7 retrieved via sec-api.io).")
+    else:
+        r1 = f"{name}, Form 10-K filed {filing_date}, SEC EDGAR (Items 1, 1A and 7 retrieved via sec-api.io)."
+    refs = [
+        r1,
+        f"Yahoo Finance: annual financial statements and daily share prices for {ticker_symbol}, retrieved {today} via yfinance.",
+        f"Yahoo Finance: analyst recommendations and price targets for {ticker_symbol}, retrieved {today} (current consensus, not as of the filing date).",
+        f"Yahoo Finance: annual financial statements of the peer companies named in the Competitors Analysis, retrieved {today}.",
+    ]
+    content += [CondPageBreak(6 * cm)] + heading("Sources")
+    content += [Paragraph(f"[{i}]&nbsp;&nbsp;{r}", ref) for i, r in enumerate(refs, 1)]
+    content.append(Paragraph("Report generated with an agent workflow built on the open-source FinRobot framework "
+                             "(AI4Finance Foundation, Apache 2.0) with own extensions.", src_style))
+
+    # --- Anhang: automatischer Faktencheck -----------------------------------
+    from .fact_check import run_fact_check, save_json
+    fc_sections = [("Investment Summary", summary)] + list(sections)
+    if segments:
+        fc_sections.append(("Segment table", "; ".join(
+            f"{sg['segment']}: ${sg['current']} million" + (f", prior ${sg['prior']} million" if sg["prior"] else "")
+            for sg in segments)))
+    srcs, n_tenk = _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics)
+    fc = run_fact_check(fc_sections, srcs, names)
+    fc["peer_tickers"] = list(peer_metrics)
+    save_json(fc, os.path.splitext(pdf_path)[0] + "_factcheck.json")
+    content += _factcheck_flowables(fc, n_tenk, (h2, body, small, cell, cell_r, line), usable, heading)
+
+    gen_date = date.today().strftime("%d %B %Y")
+
+    def _footer(canv, d):
+        canv.setStrokeColor(RULE); canv.setLineWidth(0.5)
+        canv.line(m, 1.25 * cm, page_w - m, 1.25 * cm)
+        canv.setFont("Helvetica", 7); canv.setFillColor(GREY)
+        canv.drawString(m, 0.85 * cm, f"Generated by {REPORT_BRAND} - for academic purposes only, not investment advice")
+        canv.drawRightString(page_w - m, 0.85 * cm, f"Page {d.page}")
+
+    def _first(canv, d):
+        canv.saveState()
+        canv.setFillColor(NAVY); canv.rect(0, page_h - 1.15 * cm, page_w, 1.15 * cm, stroke=0, fill=1)
+        canv.setFillColor(colors.white); canv.setFont("Helvetica-Bold", 9)
+        canv.drawString(m, page_h - 0.72 * cm, "EQUITY RESEARCH")
+        canv.setFont("Helvetica", 9)
+        canv.drawString(m + 3.3 * cm, page_h - 0.72 * cm, f"|   {sector}")
+        canv.drawRightString(page_w - m, page_h - 0.72 * cm, gen_date)
+        _footer(canv, d)
+        canv.restoreState()
+
+    def _later(canv, d):
+        canv.saveState()
+        canv.setFillColor(NAVY); canv.setFont("Helvetica-Bold", 8)
+        canv.drawString(m, page_h - 1.0 * cm, f"{name} ({ticker_symbol})")
+        canv.setFont("Helvetica", 8); canv.setFillColor(GREY)
+        canv.drawRightString(page_w - m, page_h - 1.0 * cm, f"Equity Research  |  {gen_date}")
+        canv.setStrokeColor(NAVY); canv.setLineWidth(1)
+        canv.line(m, page_h - 1.15 * cm, page_w - m, page_h - 1.15 * cm)
+        _footer(canv, d)
+        canv.restoreState()
+
+    doc.build(content, onFirstPage=_first, onLaterPages=_later)
+    return (f"Annual report generated successfully. Fact check: {fc['matched']} of {fc['total_claims']} figures found "
+            f"in the sources, {len(fc['name_issues'])} name/ticker mismatch(es). Details in the appendix of the PDF.")
+
+
 class ReportLabUtils:
 
     def build_annual_report(
@@ -532,7 +809,7 @@ class ReportLabUtils:
             pdf_path = (os.path.join(save_path, f"{ticker_symbol}_Equity_Research_report.pdf")
                         if os.path.isdir(save_path) else save_path)
             os.makedirs(os.path.dirname(pdf_path) or ".", exist_ok=True)
-            return _build_report_v3(
+            return _build_report_v4(
                 ticker_symbol, pdf_path, investment_summary,
                 [("Business Overview", business_overview), ("Market Position", market_position),
                  ("Operating Results", operating_results), ("Risk Assessment", risk_assessment),

@@ -22,12 +22,22 @@ sind im Code mit `Angepasst` kommentiert; der Originalzustand ist ueber Git nach
 |---|---|---|
 | `data_source/fmp_utils.py` | FMP ersetzt durch SEC EDGAR + Yahoo Finance; `n/a`/`n/m` statt Fantasiewerten; EV/Sales | FMP-Legacy-Endpunkte fuer neue Konten gesperrt (403/402) |
 | `data_source/sec_utils.py` | HTML-Entities umwandeln, UTF-8 | Sonderzeichen, Windows-Kodierung |
-| `agents/workflow.py` | Shadow-Agent: 1 statt 2 Runden; `parallel_tool_calls` fuer Shadow entfernt | Analysen gingen verloren (leere Zusammenfassung) |
+| `agents/workflow.py` | Shadow-Agent: 1 statt 2 Runden; Ergebnis als "ANALYSIS RESULT (tool output)" gekennzeichnet; `parallel_tool_calls` fuer Shadow entfernt | Analysen gingen verloren bzw. wurden vom Modell als selbst erfunden verworfen |
 | `agents/utils.py` | Erkennung paralleler Tool-Aufrufe, UTF-8 | Absturz bei mehreren Pfaden |
 | `functional/analyzer.py` | 52-Wochen-Spanne korrigiert; Peer-Namen aus Daten; fest kodierte Jahre im Prompt entfernt | Fehler im Original |
 | `functional/charting.py` | Kurs-Chart 3 Jahre; Bewertungs-Chart (KGV- bzw. EV/Sales-Band + FCF-Rendite) | KGV bei Verlusten sinnlos |
 | `functional/reportlab.py` | Neues Layout, Investment Summary, Quellen [1]-[4], Segment-/Peer-Tabelle, Plausibilitaetspruefung, Faktencheck-Anhang | Lesbarkeit, Nachpruefbarkeit |
 | `functional/fact_check.py` | **neu**: automatischer Faktencheck | Kern des Projekts |
+
+## Architektur des eigenen Agenten (`lib/report_agent.py`)
+
+Im Original schreiben die Analyse-Tools nur eine Auftragsdatei; ein zweiter "Shadow"-Agent verfasst
+die Analyse in einem verschachtelten Chat, und das Ergebnis erscheint als eigene Nachricht des
+Haupt-Agenten. Claude Haiku hielt diese Analysen fuer selbst erfunden und verwarf sie. Im eigenen
+Agenten rufen die Analyse-Tools das Modell deshalb direkt auf und geben die Analyse als
+**Tool-Ergebnis** zurueck ("ANALYSIS RESULT ..."), zusaetzlich gespeichert als `*_analysis.txt`.
+Die Peer-Suche (`lib/peer_tools.py`) kombiniert Finnhub-Branchenpeers mit vom Agenten vorgeschlagenen
+Tickern, sortiert nach Groessenaehnlichkeit und zeigt eine Kurzbeschreibung des Geschaeftsmodells.
 
 ## Nutzung
 1. VS Code: `ai_in_finance/notebooks/annual_report_agent.ipynb` oeffnen, Kernel `.venv` waehlen.

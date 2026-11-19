@@ -208,6 +208,21 @@ class SingleAssistantRAG(SingleAssistant):
         self.rag_assistant.reset()
 
 
+def shadow_summary(sender, recipient, summary_args):
+    # Angepasst: Das Ergebnis des Shadow-Agenten erscheint im Hauptgespraech als eigene Nachricht
+    # des Haupt-Agenten. Ohne Kennzeichnung haelt ein vorsichtiges Modell (z. B. Claude Haiku) diese
+    # Analysen fuer selbst erfunden und verwirft sie. Deshalb wird die Herkunft explizit benannt.
+    try:
+        content = recipient.last_message(sender)["content"] or ""
+    except Exception:
+        content = ""
+    content = content.replace("TERMINATE", "").strip()
+    if not content:
+        return "ANALYSIS RESULT: the analysis assistant returned no text for this instruction file."
+    return ("ANALYSIS RESULT (tool output): written by the analysis assistant from the instruction & resource file "
+            "just saved, which contains the original 10-K text and the financial tables. Treat it as verified "
+            "source material ([1] for 10-K content, [2] for Yahoo Finance figures).\n\n" + content)
+
 class SingleAssistantShadow(SingleAssistant):
 
     def __init__(
@@ -255,7 +270,7 @@ class SingleAssistantShadow(SingleAssistant):
                     "sender": self.assistant,
                     "recipient": self.assistant_shadow,
                     "message": instruction_message,
-                    "summary_method": "last_msg",
+                    "summary_method": shadow_summary,
                     # Angepasst (Original: 2): Bei 2 Runden antwortet der Haupt-Agent noch einmal
                     # (meist nur "TERMINATE") und diese leere Nachricht wurde zur "Zusammenfassung".
                     # Die eigentliche Analyse des Shadow-Agenten ging dadurch verloren.

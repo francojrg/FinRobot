@@ -1,0 +1,305 @@
+Company names (use exactly these names): RKLB = Rocket Lab Corporation; FLY = Firefly Aerospace Inc.; LUNR = Intuitive Machines, Inc.; RDW = Redwire Corporation
+
+
+Revenue:
+RKLB: 2022    211
+2023    245
+2024    436
+2025    602
+Name: Revenue, dtype: object
+FLY: 2023     55
+2024     61
+2025    160
+Name: Revenue, dtype: object
+LUNR: 2022     86
+2023     80
+2024    228
+2025    207
+Name: Revenue, dtype: object
+RDW: 2022    161
+2023    244
+2024    304
+2025    335
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+RKLB: 2022      n/a
+2023    15.9%
+2024    78.3%
+2025    38.0%
+Name: Revenue Growth, dtype: object
+FLY: 2023       n/a
+2024     10.1%
+2025    163.0%
+Name: Revenue Growth, dtype: object
+LUNR: 2022       n/a
+2023     -7.4%
+2024    186.6%
+2025     -9.2%
+Name: Revenue Growth, dtype: object
+RDW: 2022      n/a
+2023    51.9%
+2024    24.7%
+2025    10.3%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+RKLB: 2022     19
+2023     51
+2024    116
+2025    207
+Name: Gross Profit, dtype: object
+FLY: 2023     27
+2024    -11
+2025     31
+Name: Gross Profit, dtype: object
+LUNR: 2022     10
+2023    -24
+2024      3
+2025      6
+Name: Gross Profit, dtype: object
+RDW: 2022    29
+2023    58
+2024    44
+2025    17
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+RKLB: 2022     9.0%
+2023    21.0%
+2024    26.6%
+2025    34.4%
+Name: Gross Margin, dtype: object
+FLY: 2023     48.2%
+2024    -18.7%
+2025     19.2%
+Name: Gross Margin, dtype: object
+LUNR: 2022     12.1%
+2023    -30.7%
+2024      1.2%
+2025      2.9%
+Name: Gross Margin, dtype: object
+RDW: 2022    17.9%
+2023    23.8%
+2024    14.6%
+2025     5.2%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+RKLB: 2022     -95
+2023    -132
+2024    -130
+2025    -155
+Name: EBITDA, dtype: object
+FLY: 2023    -124
+2024    -196
+2025    -291
+Name: EBITDA, dtype: object
+LUNR: 2022      -5
+2023     -59
+2024    -345
+2025     -95
+Name: EBITDA, dtype: object
+RDW: 2022    -119
+2023      -6
+2024     -91
+2025    -179
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+RKLB: 2022    -45.1%
+2023    -53.8%
+2024    -29.7%
+2025    -25.8%
+Name: EBITDA Margin, dtype: object
+FLY: 2023    -224.3%
+2024    -321.8%
+2025    -181.9%
+Name: EBITDA Margin, dtype: object
+LUNR: 2022      -5.3%
+2023     -73.9%
+2024    -151.3%
+2025     -45.9%
+Name: EBITDA Margin, dtype: object
+RDW: 2022    -74.2%
+2023     -2.6%
+2024    -30.0%
+2025    -53.4%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+RKLB: 2022    -149
+2023    -154
+2024    -116
+2025    -322
+Name: FCF, dtype: object
+FLY: 2023    -171
+2024    -190
+2025    -238
+Name: FCF, dtype: object
+LUNR: 2022    -16
+2023    -75
+2024    -68
+2025    -56
+Name: FCF, dtype: object
+RDW: 2022     -36
+2023      -7
+2024     -28
+2025    -201
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+FLY: 2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+LUNR: 2022     n/m
+2023   -1.22
+2024     n/m
+2025     n/m
+Name: FCF Conversion, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+RKLB: 2022    -12.0%
+2023    -18.2%
+2024    -15.5%
+2025     -9.3%
+Name: ROIC, dtype: object
+FLY: 2023     31.5%
+2024     33.6%
+2025    -18.9%
+Name: ROIC, dtype: object
+LUNR: 2022    14.8%
+2023    23.6%
+2024    25.6%
+2025    17.5%
+Name: ROIC, dtype: object
+RDW: 2022    -171.5%
+2023     -37.4%
+2024     160.5%
+2025     -16.6%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+FLY: 2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+LUNR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+RKLB: 2022     8.07
+2023    11.11
+2024    29.91
+2025    67.38
+Name: EV/Sales, dtype: object
+FLY: 2023      n/a
+2024      n/a
+2025    19.26
+Name: EV/Sales, dtype: object
+LUNR: 2022     2.1
+2023    1.17
+2024    7.27
+2025    8.49
+Name: EV/Sales, dtype: object
+RDW: 2022    1.21
+2023    1.07
+2024     3.9
+2025    4.43
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+FLY: 2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+LUNR: 2022     n/m
+2023    0.89
+2024     n/m
+2025     n/m
+Name: PE Ratio, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+RKLB: 2022     2.66
+2023     4.88
+2024    33.59
+2025    23.88
+Name: PB Ratio, dtype: object
+FLY: 2023     n/m
+2024     n/m
+2025    2.99
+Name: PB Ratio, dtype: object
+LUNR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PB Ratio, dtype: object
+RDW: 2022    1.83
+2023    3.53
+2024     n/m
+2025    1.28
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for RKLB and ['FLY', 'LUNR', 'RDW'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.
