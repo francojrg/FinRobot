@@ -1,57 +1,305 @@
-# Rocket Lab Corporation (RKLB): Financial Metrics Analysis Against Firefly Aerospace Inc. (FLY), Intuitive Machines, Inc. (LUNR), and Redwire Corporation (RDW)
+Company names (use exactly these names): RKLB = Rocket Lab Corporation; FLY = Firefly Aerospace Inc.; LUNR = Intuitive Machines, Inc.; RDW = Redwire Corporation
 
-The resources do not state the fiscal year ends for each company, so this analysis compares figures by the fiscal year labels as given. Figures are presented as they appear in the data, and the data does not specify units. Several metrics are marked "n/m" (not meaningful) for most companies, which limits the comparison, particularly on valuation and cash flow conversion.
 
-## Revenue
+Revenue:
+RKLB: 2022    211
+2023    245
+2024    436
+2025    602
+Name: Revenue, dtype: object
+FLY: 2023     55
+2024     61
+2025    160
+Name: Revenue, dtype: object
+LUNR: 2022     86
+2023     80
+2024    228
+2025    207
+Name: Revenue, dtype: object
+RDW: 2022    161
+2023    244
+2024    304
+2025    335
+Name: Revenue, dtype: object
 
-Rocket Lab Corporation grew revenue from 211 in 2022 to 245 in 2023, 436 in 2024, and 602 in 2025. The growth was steady in 2023 and then accelerated sharply in 2024, with revenue nearly doubling before rising a further 38% in 2025. By 2025 it was the largest revenue base of the four companies. Redwire Corporation reached 335, Intuitive Machines, Inc. reached 207, and Firefly Aerospace Inc. reached 160.
 
-Relative positioning shifted over time. In 2022, Rocket Lab Corporation (211) was ahead of Redwire Corporation (161) and Intuitive Machines, Inc. (86), and it had no Firefly Aerospace Inc. figure for that year. In 2023, Rocket Lab Corporation (245) and Redwire Corporation (244) were nearly level, with Intuitive Machines, Inc. at 80 and Firefly Aerospace Inc. at 55. In 2024, Rocket Lab Corporation (436) pulled clearly ahead of Redwire Corporation (304), Intuitive Machines, Inc. (228), and Firefly Aerospace Inc. (61). In 2025, Firefly Aerospace Inc. (160) was the smallest of the group, and Redwire Corporation (335) was the second largest.
+Revenue Growth:
+RKLB: 2022      n/a
+2023    15.9%
+2024    78.3%
+2025    38.0%
+Name: Revenue Growth, dtype: object
+FLY: 2023       n/a
+2024     10.1%
+2025    163.0%
+Name: Revenue Growth, dtype: object
+LUNR: 2022       n/a
+2023     -7.4%
+2024    186.6%
+2025     -9.2%
+Name: Revenue Growth, dtype: object
+RDW: 2022      n/a
+2023    51.9%
+2024    24.7%
+2025    10.3%
+Name: Revenue Growth, dtype: object
 
-## Revenue Growth
 
-Rocket Lab Corporation's growth went 15.9% in 2023, 78.3% in 2024, and 38.0% in 2025. Growth was modest in the first year, peaked in the second, and remained strong in the third, which signals a sustained expansion rather than a one-time spike. Rocket Lab Corporation's 2024 growth exceeded every peer in that year, with the exception of Intuitive Machines, Inc.
+Gross Profit:
+RKLB: 2022     19
+2023     51
+2024    116
+2025    207
+Name: Gross Profit, dtype: object
+FLY: 2023     27
+2024    -11
+2025     31
+Name: Gross Profit, dtype: object
+LUNR: 2022     10
+2023    -24
+2024      3
+2025      6
+Name: Gross Profit, dtype: object
+RDW: 2022    29
+2023    58
+2024    44
+2025    17
+Name: Gross Profit, dtype: object
 
-The peers show very different patterns. Firefly Aerospace Inc. grew 10.1% in 2024 and then 163.0% in 2025, a sharp breakout from a small base. Intuitive Machines, Inc. declined 7.4% in 2023, surged 186.6% in 2024, and then fell 9.2% in 2025, which indicates lumpy, project-driven revenue. Redwire Corporation shows the most consistent deceleration: 51.9% in 2023, 24.7% in 2024, and 10.3% in 2025. In 2025, Rocket Lab Corporation's 38.0% growth was well ahead of Redwire Corporation's 10.3% and Intuitive Machines, Inc.'s decline, but it trailed Firefly Aerospace Inc.'s 163.0%, which came from a much smaller base.
 
-## Gross Margin
+Gross Margin:
+RKLB: 2022     9.0%
+2023    21.0%
+2024    26.6%
+2025    34.4%
+Name: Gross Margin, dtype: object
+FLY: 2023     48.2%
+2024    -18.7%
+2025     19.2%
+Name: Gross Margin, dtype: object
+LUNR: 2022     12.1%
+2023    -30.7%
+2024      1.2%
+2025      2.9%
+Name: Gross Margin, dtype: object
+RDW: 2022    17.9%
+2023    23.8%
+2024    14.6%
+2025     5.2%
+Name: Gross Margin, dtype: object
 
-Rocket Lab Corporation's gross margin improved in every year, rising from 9.0% in 2022 to 21.0% in 2023, 26.6% in 2024, and 34.4% in 2025. This is one of the clearest improvement trends in the dataset, and the 2025 level is the highest among the four companies.
 
-Peer comparisons vary by year. In 2022, Rocket Lab Corporation (9.0%) lagged Redwire Corporation (17.9%) and Intuitive Machines, Inc. (12.1%). In 2023, Firefly Aerospace Inc. posted 48.2%, well above Rocket Lab Corporation (21.0%), Redwire Corporation (23.8%, slightly above), and Intuitive Machines, Inc. (-30.7%). In 2024, Rocket Lab Corporation (26.6%) was ahead of Redwire Corporation (14.6%), Intuitive Machines, Inc. (1.2%), and Firefly Aerospace Inc. (-18.7%). In 2025, Rocket Lab Corporation (34.4%) led Firefly Aerospace Inc. (19.2%), Redwire Corporation (5.2%), and Intuitive Machines, Inc. (2.9%).
+EBITDA:
+RKLB: 2022     -95
+2023    -132
+2024    -130
+2025    -155
+Name: EBITDA, dtype: object
+FLY: 2023    -124
+2024    -196
+2025    -291
+Name: EBITDA, dtype: object
+LUNR: 2022      -5
+2023     -59
+2024    -345
+2025     -95
+Name: EBITDA, dtype: object
+RDW: 2022    -119
+2023      -6
+2024     -91
+2025    -179
+Name: EBITDA, dtype: object
 
-The peers show a pattern of margin erosion. Redwire Corporation declined from 23.8% in 2023 to 14.6% in 2024 and 5.2% in 2025. Firefly Aerospace Inc. swung from 48.2% to a negative margin in 2024 before recovering to 19.2%. Intuitive Machines, Inc. has stayed in the low single digits since 2024. Rocket Lab Corporation is the only company in the group with a consistently rising gross margin across the full period.
 
-## EBITDA Margin
+EBITDA Margin:
+RKLB: 2022    -45.1%
+2023    -53.8%
+2024    -29.7%
+2025    -25.8%
+Name: EBITDA Margin, dtype: object
+FLY: 2023    -224.3%
+2024    -321.8%
+2025    -181.9%
+Name: EBITDA Margin, dtype: object
+LUNR: 2022      -5.3%
+2023     -73.9%
+2024    -151.3%
+2025     -45.9%
+Name: EBITDA Margin, dtype: object
+RDW: 2022    -74.2%
+2023     -2.6%
+2024    -30.0%
+2025    -53.4%
+Name: EBITDA Margin, dtype: object
 
-Rocket Lab Corporation's EBITDA margin was -45.1% in 2022, -53.8% in 2023, -29.7% in 2024, and -25.8% in 2025. The company remained unprofitable at the EBITDA level throughout, but the margin improved meaningfully in 2024 and 2025 as revenue scaled faster than EBITDA losses. The absolute EBITDA loss went from -95 in 2022 to -132 in 2023, -130 in 2024, and -155 in 2025, so the margin improved because revenue grew faster than losses, not because losses shrank.
 
-In the most recent year, Rocket Lab Corporation's -25.8% was the least negative of the four companies. Intuitive Machines, Inc. was at -45.9%, Redwire Corporation at -53.4%, and Firefly Aerospace Inc. at -181.9%. In 2024, Rocket Lab Corporation (-29.7%) was nearly level with Redwire Corporation (-30.0%) and well ahead of Intuitive Machines, Inc. (-151.3%) and Firefly Aerospace Inc. (-321.8%). In 2023, Redwire Corporation (-2.6%) and Intuitive Machines, Inc. (-73.9%) were the only peers with smaller losses relative to revenue, and Rocket Lab Corporation (-53.8%) was ahead of Firefly Aerospace Inc. (-224.3%). In 2022, Intuitive Machines, Inc. (-5.3%) had the smallest negative margin, while Rocket Lab Corporation (-45.1%) was ahead of Redwire Corporation (-74.2%).
+FCF:
+RKLB: 2022    -149
+2023    -154
+2024    -116
+2025    -322
+Name: FCF, dtype: object
+FLY: 2023    -171
+2024    -190
+2025    -238
+Name: FCF, dtype: object
+LUNR: 2022    -16
+2023    -75
+2024    -68
+2025    -56
+Name: FCF, dtype: object
+RDW: 2022     -36
+2023      -7
+2024     -28
+2025    -201
+Name: FCF, dtype: object
 
-## EV/EBITDA
 
-EV/EBITDA is "n/m" for all four companies in every year. This is because EBITDA is negative across the board, so the multiple cannot be used to judge whether any company is over or undervalued relative to peers. The resources do not provide an alternative earnings-based valuation measure that could fill this gap, so no conclusion about relative EV/EBITDA valuation can be drawn.
+FCF Conversion:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+FLY: 2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+LUNR: 2022     n/m
+2023   -1.22
+2024     n/m
+2025     n/m
+Name: FCF Conversion, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
 
-The closest available valuation measure is EV/Sales. Rocket Lab Corporation's EV/Sales rose from 8.07 in 2022 to 11.11 in 2023, 29.91 in 2024, and 67.38 in 2025. Among peers, Firefly Aerospace Inc. was at 19.26 in 2025, Intuitive Machines, Inc. ranged from 1.17 to 8.49 across the period (8.49 in 2025), and Redwire Corporation ranged from 1.07 to 4.43 (4.43 in 2025). Rocket Lab Corporation has carried a substantial premium to every peer in every year for which EV/Sales is available. In 2025, its multiple was roughly 3.5 times that of Firefly Aerospace Inc., about eight times that of Intuitive Machines, Inc., and about fifteen times that of Redwire Corporation. Because the multiple expanded sharply while the EBITDA margin remained negative, the market appears to be pricing expectations well beyond current profitability. Whether that is justified cannot be verified from the resources, which contain no forward estimates or enterprise value components.
 
-## FCF Conversion
+ROIC:
+RKLB: 2022    -12.0%
+2023    -18.2%
+2024    -15.5%
+2025     -9.3%
+Name: ROIC, dtype: object
+FLY: 2023     31.5%
+2024     33.6%
+2025    -18.9%
+Name: ROIC, dtype: object
+LUNR: 2022    14.8%
+2023    23.6%
+2024    25.6%
+2025    17.5%
+Name: ROIC, dtype: object
+RDW: 2022    -171.5%
+2023     -37.4%
+2024     160.5%
+2025     -16.6%
+Name: ROIC, dtype: object
 
-FCF conversion is "n/m" for Rocket Lab Corporation, Firefly Aerospace Inc., and Redwire Corporation in every year. It is also "n/m" for Intuitive Machines, Inc. in 2022, 2024, and 2025. The only meaningful value is Intuitive Machines, Inc. in 2023, at -1.22. This figure does not reconcile cleanly with the underlying data, since free cash flow of -75 divided by EBITDA of -59 would produce a positive ratio of about 1.27. The resource does not explain the difference, so this value should be treated with caution.
 
-Because conversion cannot be measured for most companies, cash flow efficiency must be judged from absolute free cash flow. Rocket Lab Corporation's free cash flow was -149 in 2022, -154 in 2023, -116 in 2024, and -322 in 2025. The 2025 outflow was the largest of its series and accompanied the strongest revenue growth in the period. Firefly Aerospace Inc. recorded -171, -190, and -238 across 2023 to 2025, showing a similar pattern of growing burn. Intuitive Machines, Inc. burned between -16 and -75 per year, and Redwire Corporation's burn ranged from -7 to -36 before reaching -201 in 2025. Rocket Lab Corporation's cash burn is therefore large in absolute terms, but it is not unusual in this group, where Firefly Aerospace Inc. burned more in each year it reported.
+EV/EBITDA:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+FLY: 2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+LUNR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
 
-## ROIC
 
-Rocket Lab Corporation's ROIC was negative in every year: -12.0% in 2022, -18.2% in 2023, -15.5% in 2024, and -9.3% in 2025. The 2025 figure is the least negative of the series, which suggests some improvement in the return the company generates on its capital, though it remains below zero.
+EV/Sales:
+RKLB: 2022     8.07
+2023    11.11
+2024    29.91
+2025    67.38
+Name: EV/Sales, dtype: object
+FLY: 2023      n/a
+2024      n/a
+2025    19.26
+Name: EV/Sales, dtype: object
+LUNR: 2022     2.1
+2023    1.17
+2024    7.27
+2025    8.49
+Name: EV/Sales, dtype: object
+RDW: 2022    1.21
+2023    1.07
+2024     3.9
+2025    4.43
+Name: EV/Sales, dtype: object
 
-Peer ROIC is more volatile. Firefly Aerospace Inc. posted 31.5% in 2023 and 33.6% in 2024 before falling to -18.9% in 2025. Intuitive Machines, Inc. was positive in every year, at 14.8%, 23.6%, 25.6%, and 17.5%, with a decline in the most recent year. Redwire Corporation was -171.5% in 2022, -37.4% in 2023, 160.5% in 2024, and -16.6% in 2025. Redwire Corporation's 2024 result is an outlier and is not explained by the resources.
 
-Several of these figures are counterintuitive. Firefly Aerospace Inc. and Redwire Corporation report positive ROIC in years when EBITDA was deeply negative, which suggests that the ROIC definition or invested capital base used in the data differs from a simple EBITDA-based view. The resources do not provide the calculation method, so these values should be interpreted carefully. On the reported figures, Rocket Lab Corporation has not yet generated a positive return on its invested capital, and its 2025 improvement is modest. Its ROIC trails Intuitive Machines, Inc. in every year and Firefly Aerospace Inc. in 2023 and 2024.
+PE Ratio:
+RKLB: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+FLY: 2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+LUNR: 2022     n/m
+2023    0.89
+2024     n/m
+2025     n/m
+Name: PE Ratio, dtype: object
+RDW: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
 
-## Conclusion
 
-Rocket Lab Corporation's financial profile in these metrics combines a clear operational trajectory with continued losses and an expensive valuation. Its revenue more than doubled from 211 in 2022 to 602 in 2025, and its 2025 revenue was the largest of the four companies. Its gross margin improved in every year, from 9.0% to 34.4%, and its 2025 gross margin led the group. Its EBITDA margin improved from -53.8% in 2023 to -25.8% in 2025, and in 2025 it was the least negative among the four companies. These are meaningful signs of improving unit economics and operating leverage.
+PB Ratio:
+RKLB: 2022     2.66
+2023     4.88
+2024    33.59
+2025    23.88
+Name: PB Ratio, dtype: object
+FLY: 2023     n/m
+2024     n/m
+2025    2.99
+Name: PB Ratio, dtype: object
+LUNR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PB Ratio, dtype: object
+RDW: 2022    1.83
+2023    3.53
+2024     n/m
+2025    1.28
+Name: PB Ratio, dtype: object
 
-The weaknesses are equally clear. EBITDA losses have grown in absolute terms, from -95 to -155 over the period. Free cash flow burn reached -322 in 2025, the largest outflow in its history in the dataset. ROIC remains negative in every year, although the 2025 figure improved. The company's EV/Sales multiple expanded from 8.07 to 67.38, a level far above all peers, while EV/EBITDA cannot be computed for any company in the group.
 
-Taken together, the metrics partly justify the market's enthusiasm. Rapid revenue growth combined with a sustained improvement in gross margin and a narrowing EBITDA margin support the view that the business is scaling and becoming more efficient. However, the metrics do not confirm that current valuation is supported by present earnings or cash generation, because the company remains unprofitable on every measure in the data except gross profit. The EV/Sales premium rests on expectations about future profitability that the resources do not quantify. Based solely on the provided data, Rocket Lab Corporation appears to be the strongest operator among the four companies on growth and margin trajectory, but its valuation depends on a continued conversion of that growth into sustained profit and positive returns on capital, neither of which the historical figures yet show.
+Resource: Financial metrics for RKLB and ['FLY', 'LUNR', 'RDW'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

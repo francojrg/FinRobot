@@ -131,6 +131,8 @@ def extract_claims(text):
                     continue  # Tagesdatum
                 if val < 2 and "." not in num:
                     continue  # "1", "0" usw. (Aufzaehlungen)
+                if re.match(r"\s?-?(week|day|month|year|quarter)\b", text[m.end():m.end() + 9], re.I):
+                    continue  # Zeitraum ("52-week range", "12-month target")
             unit = (m.group(2) or "").lower() if kind == "money" and m.lastindex and m.lastindex >= 2 else ""
             mn = None
             if kind == "money":

@@ -456,10 +456,13 @@ def _build_report_v3(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
 
 def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_img, filing_date,
-                     peer_tickers=None, segments=None):
+                     peer_tickers=None, segments=None, takeaways=None):
     from datetime import date
+    from xml.sax.saxutils import escape as _esc
     from reportlab.lib.units import cm
     from reportlab.platypus import KeepInFrame, CondPageBreak
+    import pandas as pd
+    from .outlook import get_consensus, get_liquidity, outlook_text, fmt_mn, fmt_runway, fmt_pct
 
     page_w, page_h = pagesizes.A4
     m = 1.6 * cm
@@ -542,26 +545,51 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     right_w = usable - left_w - gap
     row_h = 15.0 * cm
 
-    hs = Table([[Paragraph("Investment Summary", h2)]], colWidths=[left_w])
-    hs.setStyle(TableStyle([("LINEBELOW", (0, 0), (-1, -1), 1.2, NAVY), ("LEFTPADDING", (0, 0), (-1, -1), 0),
-                            ("BOTTOMPADDING", (0, 0), (-1, -1), 3), ("TOPPADDING", (0, 0), (-1, -1), 0)]))
-    left = [hs, Spacer(1, 5)] + _paragraphs(summary, body_s)
+    from reportlab.platypus import HRFlowable
+
+    def col_heading(text):
+        # Ueberschrift mit Linie ueber die volle Spaltenbreite (HRFlowable passt sich der Breite an)
+        return [Paragraph(text, h2), HRFlowable(width="100%", thickness=1.2, color=NAVY, spaceBefore=2, spaceAfter=5)]
+    left = []
+    if takeaways:
+        bullet = ParagraphStyle("BulletV5", parent=body_s, leftIndent=9, bulletIndent=0, spaceAfter=4,
+                                bulletFontName="Helvetica-Bold", bulletColor=NAVY)
+        left += col_heading("Key Takeaways") + [Paragraph(_esc(t_), bullet, bulletText="\u2022") for t_ in takeaways]
+        left += [Spacer(1, 6)]
+    left += col_heading("Investment Summary") + _paragraphs(summary, body_s)
 
     key_data = ReportAnalysisUtils.get_key_data(ticker_symbol, filing_date)
     pad = 0.25 * cm
     inner = right_w - 2 * pad
     kd_rows = [[Paragraph("Key data", cell_w), ""]]
-    kd_rows += [[Paragraph(str(k), cell), Paragraph(str(v), cell_r)] for k, v in key_data.items()]
+    short = lambda k, v: str(v).split(", current")[0].replace("range ", "") if k == "Target Price" else str(v)
+    labels = {"52 Week Price Range (USD)": "52-week range (USD)", "6m avg daily vol (USDmn)": "6m avg. daily vol. (USD mn)",
+              "Market Cap (USDmn)": "Market cap (USD mn)", "Closing Price (USD)": "Closing price (USD)",
+              "Target Price": "Target price (USD)"}
+    kd_rows += [[Paragraph(labels.get(k, str(k)), cell), Paragraph(short(k, v), cell_r)] for k, v in key_data.items()]
     kd = Table(kd_rows, colWidths=[inner * 0.52, inner * 0.48])
-    kd.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)), ("BACKGROUND", (0, 1), (-1, -1), colors.white)]))
-    right = [
-        exhibit(1, "Share price vs S&amp;P 500, rebased to 100"), _scaled_image(share_img, inner, 4.1 * cm),
-        source("Yahoo Finance [2]"),
-        kd,
-        source("Prices as of the filing date [2]; rating and target price: current analyst consensus [3]"),
-        exhibit(2, "Valuation: historical multiple band and FCF yield"), _scaled_image(val_img, inner, 5.6 * cm),
-        source("Yahoo Finance [2], own calculations"),
-    ]
+    kd.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)), ("BACKGROUND", (0, 1), (-1, -1), colors.white),
+                                                  ("TOPPADDING", (0, 0), (-1, -1), 1.3), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.3)]))
+    fixed = [exhibit(1, "Share price vs S&amp;P 500, rebased to 100"), source("Yahoo Finance [2]"), kd,
+             source(f"Prices at the filing date [2]; rating/target: consensus as of {date.today().isoformat()} [3]"),
+             exhibit(2, "Valuation: multiple band and FCF yield"),
+             source("Yahoo Finance [2], own calculations")]
+    # Charts so gross wie moeglich: Resthoehe des Kastens auf die beiden Bilder verteilen
+    fixed_h = sum(f_.wrap(inner, 100 * cm)[1] + f_.getSpaceBefore() + f_.getSpaceAfter() for f_ in fixed)
+    avail = row_h - 2 * pad - fixed_h - 0.2 * cm
+
+    def _ratio(path_, default):
+        try:
+            from reportlab.lib.utils import ImageReader
+            w_, h_ = ImageReader(path_).getSize()
+            return h_ / w_
+        except Exception:
+            return default
+    h1_full, h2_full = inner * _ratio(share_img, 0.5), inner * _ratio(val_img, 0.7)
+    f_img = min(1.0, avail / (h1_full + h2_full))  # beide Charts gleich stark verkleinern, falls noetig
+    img_h1, img_h2 = h1_full * f_img, h2_full * f_img
+    right = [fixed[0], _scaled_image(share_img, inner, img_h1), fixed[1], fixed[2], fixed[3],
+             fixed[4], _scaled_image(val_img, inner, img_h2), fixed[5]]
     panel = Table([[KeepInFrame(inner, row_h - 2 * pad, right, mode="shrink")]], colWidths=[right_w])
     panel.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), PANEL), ("VALIGN", (0, 0), (-1, -1), "TOP"),
                                ("LEFTPADDING", (0, 0), (-1, -1), pad), ("RIGHTPADDING", (0, 0), (-1, -1), pad),
@@ -577,7 +605,42 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
     # --- Seite 1 unten: Financial Metrics -----------------------------------
     metrics = FMPUtils.get_financial_metrics(ticker_symbol, years=5)
-    df = metrics.reset_index()
+    own_fy = str(sorted(metrics.columns)[-1]) if len(metrics.columns) else "current"
+    tbl = metrics.copy()
+    # EPS-Zeile (Ist-Werte aus der GuV)
+    eps_hist = {}
+    try:
+        inc_ = YFinanceUtils.get_income_stmt(ticker_symbol)
+        for c_ in inc_.columns:
+            for r_ in ("Diluted EPS", "Basic EPS"):
+                if r_ in inc_.index and pd.notna(inc_.loc[r_, c_]):
+                    eps_hist[str(pd.Timestamp(c_).year)] = f"{float(inc_.loc[r_, c_]):.2f}"
+                    break
+    except Exception:
+        pass
+    pos = list(tbl.index).index("EBITDA Margin") + 1 if "EBITDA Margin" in tbl.index else len(tbl.index)
+    eps_row = pd.DataFrame([[eps_hist.get(str(c_), "n/a") for c_ in tbl.columns]], index=["EPS (diluted)"],
+                           columns=tbl.columns)
+    tbl = pd.concat([tbl.iloc[:pos], eps_row, tbl.iloc[pos:]])
+    # Konsens-Spalten (E)
+    try:
+        con = get_consensus(ticker_symbol, last_fy=int(own_fy)) if own_fy.isdigit() else {"years": [], "error": "no fiscal year"}
+    except Exception as e:
+        con = {"years": [], "error": str(e), "price": None, "methodology": None}
+    n_hist = tbl.shape[1]
+    for y in con["years"]:
+        vals = {r_: "\u2013" for r_ in tbl.index}
+        if y["rev"] is not None:
+            vals["Revenue"] = round(y["rev"])
+        if y["growth"] is not None:
+            vals["Revenue Growth"] = f"{round(y['growth'] * 100, 1)}%"
+        if y["eps"] is not None:
+            vals["EPS (diluted)"] = f"{y['eps']:.2f}"
+        if y["ev_sales"] is not None:
+            vals["EV/Sales"] = round(y["ev_sales"], 2)
+        vals["PE Ratio"] = round(y["pe"], 2) if y["pe"] is not None else ("n/m" if y["eps"] is not None else "\u2013")
+        tbl[f"{y['fy']}E"] = pd.Series(vals)
+    df = tbl.reset_index()
     df = df.rename(columns={"index": f"FY ({currency} mn)"})
     n = df.shape[1]
     first_w = usable * 0.28
@@ -586,19 +649,35 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     fmt = lambda v: f"<i>{v}</i>" if isinstance(v, str) and v.endswith("%") else str(v)
     fm_rows += [[Paragraph(fmt(v), cell if i == 0 else cell_r) for i, v in enumerate(r)] for r in df.values.tolist()]
     fm = Table(fm_rows, colWidths=[first_w] + [(usable - first_w) / (n - 1)] * (n - 1))
+    est_style = []
+    if con["years"]:
+        est_style = [("BACKGROUND", (n_hist + 1, 1), (-1, -1), PANEL),
+                     ("LINEBEFORE", (n_hist + 1, 0), (n_hist + 1, -1), 0.8, NAVY)]
     fm.setStyle(TableStyle(line.getCommands() + [
         ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor(_tint(REPORT_COLOR, 0.96))]),
-        ("TOPPADDING", (0, 0), (-1, -1), 1.2), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.2),
-    ]))
+        ("TOPPADDING", (0, 0), (-1, -1), 0.9), ("BOTTOMPADDING", (0, 0), (-1, -1), 0.9),
+    ] + est_style))
+    fm_note = ("Yahoo Finance [2], own calculations. n/a = not available; n/m = not meaningful "
+               "(e.g. multiple with negative denominator).")
+    if con["years"]:
+        price_txt = f" at the current share price of {con['price']:.2f}" if con.get("price") else " at the current share price"
+        meth = f", EPS {con['methodology']}" if con.get("methodology") else ""
+        fm_note += (f" E = analyst consensus (mean) retrieved {date.today().isoformat()} [3]{meth}; "
+                    f"forward P/E and EV/Sales{price_txt}. \u2013 = no consensus available.")
+    elif con.get("error"):
+        fm_note += f" Consensus estimates not shown: {con['error']}."
     from reportlab.platypus import KeepTogether
-    content += [KeepTogether([exhibit(3, "Financial metrics"), fm,
-                              source("Yahoo Finance [2], own calculations. n/a = not available; n/m = not meaningful "
-                                     "(e.g. multiple with negative denominator).")]),
+    content += [KeepTogether([exhibit(3, "Financial metrics and consensus estimates" if con["years"] else "Financial metrics"),
+                              fm, source(fm_note)]),
                 PageBreak()]
 
     # --- Ab Seite 2: Abschnitte ---------------------------------------------
     sec = dict(sections)
-    own_fy = str(sorted(metrics.columns)[-1]) if len(metrics.columns) else "current"
+    ex_no = [3]
+
+    def next_ex():
+        ex_no[0] += 1
+        return ex_no[0]
     # Peer-Daten (fuer Tabelle und Faktencheck)
     peers = list(peer_tickers or []) or _peer_tickers_from_text(sec.get("Competitors Analysis", ""), ticker_symbol)
     peer_metrics, peer_errors = {}, []
@@ -630,27 +709,62 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
                          Paragraph("n/a" if not tot_p else f"<i><b>{(tot_c / tot_p - 1) * 100:+.1f}%</b></i>", cell_r)])
             tb = Table(rows, colWidths=[usable * 0.40, usable * 0.20, usable * 0.20, usable * 0.20])
             tb.setStyle(TableStyle(line.getCommands() + [("LINEABOVE", (0, -1), (-1, -1), 0.8, NAVY)]))
-            content += [KeepTogether([Spacer(1, 4), exhibit(4, "Segment revenue"), tb,
+            content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Segment revenue"), tb,
                                       source("10-K [1]; growth: own calculation")])]
+        if sec_title == "Operating Results":
+            try:
+                liq = get_liquidity(ticker_symbol, fy=int(own_fy)) if own_fy.isdigit() else {"columns": []}
+            except Exception:
+                liq = {"columns": []}
+            if liq["columns"]:
+                ratio = lambda v: "n/a" if v is None else f"{v:.1f}x"
+                pct_i = lambda v: "n/a" if v is None else f"<i>{fmt_pct(v)}</i>"
+                spec = [("Cash and short-term investments", "cash", fmt_mn), ("Total debt", "debt", fmt_mn),
+                        ("Net cash / (net debt)", "net_cash", fmt_mn), ("Free cash flow", "fcf", fmt_mn),
+                        ("Cash runway at this FCF burn", "runway", fmt_runway), ("Current ratio", "current_ratio", ratio),
+                        ("Shares outstanding (mn)", "shares", fmt_mn), ("Change in share count y/y", "share_change", pct_i)]
+                rows = [[Paragraph(c, cell_w if i == 0 else cell_wr) for i, c in
+                         enumerate([f"Liquidity and funding ({currency} mn)"] + [l_ for l_, _ in liq["columns"]])]]
+                for lab, key, f_ in spec:
+                    rows.append([Paragraph(lab, cell)] + [Paragraph(f_(d_[key]), cell_r) for _, d_ in liq["columns"]])
+                k = len(liq["columns"])
+                tb = Table(rows, colWidths=[usable * 0.40] + [usable * 0.30] * k, hAlign="LEFT")
+                tb.setStyle(TableStyle(line.getCommands() + [("LINEABOVE", (0, 3), (-1, 3), 0.8, NAVY)]))
+                note = ("Yahoo Finance [2], own calculations. Runway = cash and short-term investments / negative free "
+                        "cash flow; 'self-funded' if free cash flow is positive.")
+                if k > 1:
+                    note += (f" Latest quarter: retrieved {date.today().isoformat()}, i.e. after the 10-K; "
+                             "free cash flow is the trailing twelve months.")
+                content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Liquidity and funding"), tb, source(note)])]
         if sec_title == "Competitors Analysis" and peer_metrics:
-            cols = ["Company", "FY", f"Revenue ({currency} mn)", "Growth", "Gross margin", "EBITDA margin",
-                    "FCF margin", "EV/Sales", "P/B"]
-            rows = [[Paragraph(c, cell_w if i == 0 else cell_wr) for i, c in enumerate(cols)]]
+            cols = ["Company", "FY", f"Sales ({currency} mn)", "Growth", "Gross margin", "EBITDA margin",
+                    "FCF margin", "EV/ Sales", "Fwd EV/ Sales", "P/B"]
+            hdr_s = ParagraphStyle("PeerHdrV5", parent=cell_wr, fontSize=7.2, leading=8.6)
+            rows = [[Paragraph(c, cell_w if i == 0 else hdr_s) for i, c in enumerate(cols)]]
+
+            def _fwd(t_):
+                try:
+                    ys = get_consensus(t_)["years"]
+                    return "n/a" if not ys or ys[0]["ev_sales"] is None else round(ys[0]["ev_sales"], 2)
+                except Exception:
+                    return "n/a"
             for t_, m_ in [(ticker_symbol, metrics)] + list(peer_metrics.items()):
                 vals = [f"{names.get(t_, t_)} ({t_})", str(sorted(m_.columns)[-1]), _latest(m_, "Revenue"),
                         _latest(m_, "Revenue Growth"), _latest(m_, "Gross Margin"), _latest(m_, "EBITDA Margin"),
-                        _fcf_margin(m_), _latest(m_, "EV/Sales"), _latest(m_, "PB Ratio")]
+                        _fcf_margin(m_), _latest(m_, "EV/Sales"), _fwd(t_), _latest(m_, "PB Ratio")]
                 bold = t_ == ticker_symbol
                 rows.append([Paragraph((f"<b>{v}</b>" if bold else str(v)) if i == 0 else
                                        (f"<i>{v}</i>" if str(v).endswith("%") else str(v)), cell if i == 0 else cell_r)
                              for i, v in enumerate(vals)])
             w0 = usable * 0.26
-            tb = Table(rows, colWidths=[w0] + [(usable - w0) / 8] * 8)
+            w0, w_fy = usable * 0.25, usable * 0.06
+            tb = Table(rows, colWidths=[w0, w_fy] + [(usable - w0 - w_fy) / 8] * 8)
             tb.setStyle(TableStyle(line.getCommands() + [("BACKGROUND", (0, 1), (-1, 1), PANEL)]))
-            note = "Yahoo Finance [2][4], own calculations. Fiscal year ends can differ between companies."
+            note = ("Yahoo Finance [2][4], own calculations. Fiscal year ends can differ between companies. "
+                    "Fwd EV/Sales: current enterprise value / consensus revenue for the current fiscal year [3].")
             if peer_errors:
                 note += " Not available: " + "; ".join(peer_errors)
-            content += [KeepTogether([Spacer(1, 4), exhibit(5, "Peer comparison, latest fiscal year"), tb, source(note)])]
+            content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Peer comparison, latest fiscal year"), tb, source(note)])]
 
     # --- Quellenverzeichnis ---------------------------------------------------
     today = date.today().isoformat()
@@ -662,8 +776,8 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
         r1 = f"{name}, Form 10-K filed {filing_date}, SEC EDGAR (Items 1, 1A and 7 retrieved via sec-api.io)."
     refs = [
         r1,
-        f"Yahoo Finance: annual financial statements and daily share prices for {ticker_symbol}, retrieved {today} via yfinance.",
-        f"Yahoo Finance: analyst recommendations and price targets for {ticker_symbol}, retrieved {today} (current consensus, not as of the filing date).",
+        f"Yahoo Finance: annual and quarterly financial statements and daily share prices for {ticker_symbol}, retrieved {today} via yfinance.",
+        f"Yahoo Finance: analyst recommendations, price targets and consensus estimates (revenue, EPS) for {ticker_symbol} and its peers, retrieved {today} (current consensus, not as of the filing date).",
         f"Yahoo Finance: annual financial statements of the peer companies named in the Competitors Analysis, retrieved {today}.",
     ]
     content += [CondPageBreak(6 * cm)] + heading("Sources")
@@ -673,12 +787,21 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
     # --- Anhang: automatischer Faktencheck -----------------------------------
     from .fact_check import run_fact_check, save_json
-    fc_sections = [("Investment Summary", summary)] + list(sections)
+    fc_sections = ([("Key Takeaways", " ".join(takeaways))] if takeaways else []) + [("Investment Summary", summary)] + list(sections)
     if segments:
         fc_sections.append(("Segment table", "; ".join(
             f"{sg['segment']}: ${sg['current']} million" + (f", prior ${sg['prior']} million" if sg["prior"] else "")
             for sg in segments)))
     srcs, n_tenk = _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics)
+    try:
+        from .fact_check import SourceIndex
+        s3 = SourceIndex("[2][3] Liquidity and consensus")
+        s3.add_text(outlook_text(ticker_symbol, own_fy))
+        for v_ in tbl.values.flatten():
+            s3.add_value(v_)
+        srcs.insert(2, s3)
+    except Exception:
+        pass
     fc = run_fact_check(fc_sections, srcs, names)
     fc["peer_tickers"] = list(peer_metrics)
     save_json(fc, os.path.splitext(pdf_path)[0] + "_factcheck.json")
@@ -764,6 +887,11 @@ class ReportLabUtils:
             'optional JSON list with segment revenue from the 10-K in USD millions, e.g. '
             '[{"segment": "Space Systems", "prior_revenue": 310.9, "current_revenue": 402.8}]. Use only figures stated in the 10-K.',
         ] = "",
+        key_takeaways: Annotated[
+            List[str],
+            "3-4 short bullet points (max. 25 words each) for the 'Key takeaways' box on page 1: the most important "
+            "conclusions (e.g. growth, profitability/funding, valuation vs consensus, key risk), each with a citation [1]-[4]",
+        ] = None,
     ) -> str:
         """
         Aggregate a company's business_overview, market_position, operating_results,
@@ -794,6 +922,19 @@ class ReportLabUtils:
         except Exception as e:
             problems.append(f"segment_data: kein gueltiges JSON im erwarteten Format ({e})")
             segments = []
+        takeaways = []
+        if key_takeaways:
+            if isinstance(key_takeaways, str):
+                key_takeaways = [l_ for l_ in key_takeaways.splitlines() if l_.strip()]
+            takeaways = [str(t_).strip().lstrip("-*\u2022 ").strip() for t_ in key_takeaways if str(t_).strip()]
+            if not 3 <= len(takeaways) <= 5:
+                problems.append(f"key_takeaways: {len(takeaways)} Punkte, erwartet 3-4")
+            for t_ in takeaways:
+                if len(t_.split()) > 40:
+                    problems.append(f"key_takeaways: Punkt mit {len(t_.split())} Woertern, maximal 25 ('{t_[:60]}')")
+        if takeaways and len((investment_summary or "").split()) > 200:
+            problems.append(f"investment_summary: {len(investment_summary.split())} Woerter, mit Key Takeaways maximal 180 "
+                            "(passt sonst nicht auf Seite 1)")
         if len((investment_summary or "").split()) > 320:
             problems.append(f"investment_summary: {len(investment_summary.split())} Woerter, maximal 320 (passt sonst nicht auf Seite 1)")
         if problems:
@@ -815,7 +956,7 @@ class ReportLabUtils:
                  ("Operating Results", operating_results), ("Risk Assessment", risk_assessment),
                  ("Competitors Analysis", competitors_analysis)],
                 share_performance_image_path, pe_eps_performance_image_path, filing_date,
-                peer_tickers=peer_tickers, segments=segments,
+                peer_tickers=peer_tickers, segments=segments, takeaways=takeaways or None,
             )
         except Exception:
             return traceback.format_exc()

@@ -1,42 +1,27 @@
 {
-  "total_claims": 154,
-  "matched": 152,
-  "match_rate": 0.987,
+  "total_claims": 141,
+  "matched": 139,
+  "match_rate": 0.986,
   "by_kind": {
     "money": {
-      "total": 78,
-      "matched": 76
+      "total": 63,
+      "matched": 61
     },
     "pct": {
-      "total": 43,
-      "matched": 43
-    },
-    "multiple": {
-      "total": 6,
-      "matched": 6
+      "total": 48,
+      "matched": 48
     },
     "plain": {
-      "total": 27,
-      "matched": 27
+      "total": 30,
+      "matched": 30
     }
   },
   "by_source": {
-    "[1] 10-K": 106,
-    "[2] Yahoo Finance": 35,
-    "[4] Peer data": 11
+    "[1] 10-K": 99,
+    "[2] Yahoo Finance": 27,
+    "[4] Peer data": 13
   },
   "unmatched": [
-    {
-      "kind": "money",
-      "text": "$81.5 million",
-      "value": 81.5,
-      "unit": "million",
-      "money_mn": 81.5,
-      "decimals": 1,
-      "context": "...cost of revenues because segment profit is not disclosed, rose from $81.5 million to $126.0 million in Space Systems and from...",
-      "section": "Operating Results",
-      "source": null
-    },
     {
       "kind": "money",
       "text": "$126.0 million",
@@ -44,7 +29,18 @@
       "unit": "million",
       "money_mn": 126.0,
       "decimals": 1,
-      "context": "...because segment profit is not disclosed, rose from $81.5 million to $126.0 million in Space Systems and from $34.6 million to $81.2...",
+      "context": "...margin to 34.4% from 26.6%  . Implied segment gross profit rose to $126.0 million in Space Systems from $81.5 million and to $81.2...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$81.5 million",
+      "value": 81.5,
+      "unit": "million",
+      "money_mn": 81.5,
+      "decimals": 1,
+      "context": "...segment gross profit rose to $126.0 million in Space Systems from $81.5 million and to $81.2 million in Launch Services from...",
       "section": "Operating Results",
       "source": null
     }
@@ -58,7 +54,7 @@
       "unit": "million",
       "money_mn": 601.8,
       "decimals": 1,
-      "context": "...Lab delivered strong top-line momentum in 2025. Revenue rose 38% to $601.8 million, gross margin expanded to 34.4% from 26.6%, and...",
+      "context": "Rocket Lab is scaling quickly. Revenue rose 38% to $601.8 million in 2025, launch cadence increased to 21 missions...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -69,18 +65,18 @@
       "unit": "million",
       "money_mn": 1847.3,
       "decimals": 1,
-      "context": "...cadence rose to 21 missions from 16, and total backlog reached $1,847.3 million, of which $1,371.7 million related to Space...",
+      "context": "...and gross margin improved to 34.4% from 26.6%  . Backlog reached $1,847.3 million at year-end, and the Space Development Agency...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$1,371.7 million",
-      "value": 1371.7,
+      "text": "$816 million",
+      "value": 816.0,
       "unit": "million",
-      "money_mn": 1371.7,
-      "decimals": 1,
-      "context": "...from 16, and total backlog reached $1,847.3 million, of which $1,371.7 million related to Space Systems  . The business is...",
+      "money_mn": 816.0,
+      "decimals": 0,
+      "context": "...the Space Development Agency Tranche 3 agreement could add up to $816 million  . Electron's flight record of 75 successful...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -91,18 +87,18 @@
       "unit": "million",
       "money_mn": 198.2,
       "decimals": 1,
-      "context": "...financial trajectory is less comfortable. The net loss widened to $198.2 million, operating cash flow was -$165.5 million, and...",
+      "context": "....  The financial trajectory remains costly. The net loss widened to $198.2 million, research and development rose 55% to $270.7...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "-$165.5 million",
-      "value": 165.5,
+      "text": "$270.7 million",
+      "value": 270.7,
       "unit": "million",
-      "money_mn": 165.5,
+      "money_mn": 270.7,
       "decimals": 1,
-      "context": "...The net loss widened to $198.2 million, operating cash flow was -$165.5 million, and free cash flow reached about -$321.8...",
+      "context": "...widened to $198.2 million, research and development rose 55% to $270.7 million on Neutron, and free cash flow was about -$321.8...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -113,20 +109,9 @@
       "unit": "million",
       "money_mn": 321.8,
       "decimals": 1,
-      "context": "...cash flow was -$165.5 million, and free cash flow reached about -$321.8 million  . Liquidity is strong, with cash of $828.7...",
+      "context": "...rose 55% to $270.7 million on Neutron, and free cash flow was about -$321.8 million  . The company funded this burn with $1,119.5...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$828.7 million",
-      "value": 828.7,
-      "unit": "million",
-      "money_mn": 828.7,
-      "decimals": 1,
-      "context": "...reached about -$321.8 million  . Liquidity is strong, with cash of $828.7 million and a current ratio of about 4.1x  . Funding,...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
     },
     {
       "kind": "money",
@@ -135,7 +120,29 @@
       "unit": "million",
       "money_mn": 1119.5,
       "decimals": 1,
-      "context": "...however, depends on equity markets: at-the-market issuance raised $1,119.5 million in 2025, and management expects losses to...",
+      "context": "...flow was about -$321.8 million  . The company funded this burn with $1,119.5 million of at-the-market equity proceeds, which lifted...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$828.7 million",
+      "value": 828.7,
+      "unit": "million",
+      "money_mn": 828.7,
+      "decimals": 1,
+      "context": "...at-the-market equity proceeds, which lifted cash and equivalents to $828.7 million  . Aggregate indebtedness was $157.4 million,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$157.4 million",
+      "value": 157.4,
+      "unit": "million",
+      "money_mn": 157.4,
+      "decimals": 1,
+      "context": "...and equivalents to $828.7 million  . Aggregate indebtedness was $157.4 million, and management expects existing cash and...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -146,7 +153,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...12 months  .  Valuation is the central debate. The stock closed at $70.20, with a market capitalization of about $42.8...",
+      "context": "...future  .  Valuation is the central debate. At a closing price of $70.20, the market capitalization was about $42.8...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
     },
@@ -157,29 +164,7 @@
       "unit": "billion",
       "money_mn": 42800.0,
       "decimals": 1,
-      "context": "...The stock closed at $70.20, with a market capitalization of about $42.8 billion and a 52-week range of $14.71 to $99.58  ....",
-      "section": "Investment Summary",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$14.71",
-      "value": 14.71,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...market capitalization of about $42.8 billion and a 52-week range of $14.71 to $99.58  . Analyst consensus carries a Buy...",
-      "section": "Investment Summary",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$99.58",
-      "value": 99.58,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...of about $42.8 billion and a 52-week range of $14.71 to $99.58  . Analyst consensus carries a Buy rating with a...",
+      "context": "...At a closing price of $70.20, the market capitalization was about $42.8 billion, and trailing EV/Sales was roughly 67 times,...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
     },
@@ -190,7 +175,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": ".... Analyst consensus carries a Buy rating with a mean target of $93.15 and a range of $58 to $127  . That target is...",
+      "context": ".... The analyst consensus is a Buy rating with a mean target of $93.15 (range $58 to $127)  . That consensus is dated 19...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
     },
@@ -201,18 +186,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...carries a Buy rating with a mean target of $93.15 and a range of $58 to $127  . That target is dated after the filing...",
+      "context": "...consensus is a Buy rating with a mean target of $93.15 (range $58 to $127)  . That consensus is dated 19 November...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
     },
     {
       "kind": "money",
-      "text": "$127",
+      "text": "$127)",
       "value": 127.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...a Buy rating with a mean target of $93.15 and a range of $58 to $127  . That target is dated after the filing and...",
+      "context": "...is a Buy rating with a mean target of $93.15 (range $58 to $127)  . That consensus is dated 19 November 2026 in...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -223,7 +208,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "Rocket Lab delivered strong top-line momentum in 2025. Revenue rose 38% to $601.8 million, gross margin expanded to...",
+      "context": "Rocket Lab is scaling quickly. Revenue rose 38% to $601.8 million in 2025, launch cadence...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -234,7 +219,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...2025. Revenue rose 38% to $601.8 million, gross margin expanded to 34.4% from 26.6%, and the operating margin improved to...",
+      "context": "...increased to 21 missions from 16, and gross margin improved to 34.4% from 26.6%  . Backlog reached $1,847.3 million...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -245,29 +230,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...rose 38% to $601.8 million, gross margin expanded to 34.4% from 26.6%, and the operating margin improved to -38.1%...",
+      "context": "...to 21 missions from 16, and gross margin improved to 34.4% from 26.6%  . Backlog reached $1,847.3 million at year-end,...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "-38.1%",
-      "value": 38.1,
+      "text": "55%",
+      "value": 55.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 1,
-      "context": "...expanded to 34.4% from 26.6%, and the operating margin improved to -38.1% from -43.6%  . Launch cadence rose to 21...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "-43.6%",
-      "value": 43.6,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...34.4% from 26.6%, and the operating margin improved to -38.1% from -43.6%  . Launch cadence rose to 21 missions from 16,...",
+      "decimals": 0,
+      "context": "...net loss widened to $198.2 million, research and development rose 55% to $270.7 million on Neutron, and free cash flow...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -278,31 +252,9 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...include reliance on government customers, which represent about 47% of revenue  , and the Neutron first launch, now...",
+      "context": "...concentration, with U.S. government-related revenue at about 47% of 2025 revenue  . Neutron's first launch has...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
-    },
-    {
-      "kind": "multiple",
-      "text": "4.1x",
-      "value": 4.1,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...is strong, with cash of $828.7 million and a current ratio of about 4.1x  . Funding, however, depends on equity markets:...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "multiple",
-      "text": "67x",
-      "value": 67.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...be read as a later view. The trailing EV/Sales multiple of about 67x is far above every peer in the group  . Key...",
-      "section": "Investment Summary",
-      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "plain",
@@ -311,7 +263,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...margin improved to -38.1% from -43.6%  . Launch cadence rose to 21 missions from 16, and total backlog reached...",
+      "context": "...rose 38% to $601.8 million in 2025, launch cadence increased to 21 missions from 16, and gross margin improved to...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -322,29 +274,62 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...to -38.1% from -43.6%  . Launch cadence rose to 21 missions from 16, and total backlog reached $1,847.3 million, of...",
+      "context": "...million in 2025, launch cadence increased to 21 missions from 16, and gross margin improved to 34.4% from 26.6%...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "plain",
-      "text": "12",
-      "value": 12.0,
+      "text": "3",
+      "value": 3.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...and management expects losses to continue for at least the next 12 months  .  Valuation is the central debate. The...",
+      "context": "...million at year-end, and the Space Development Agency Tranche 3 agreement could add up to $816 million  ....",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "plain",
-      "text": "52",
-      "value": 52.0,
+      "text": "75",
+      "value": 75.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...$70.20, with a market capitalization of about $42.8 billion and a 52-week range of $14.71 to $99.58  . Analyst...",
+      "context": "...could add up to $816 million  . Electron's flight record of 75 successful missions supports the launch...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "67",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was about $42.8 billion, and trailing EV/Sales was roughly 67 times, against 4 to 19 times for Firefly,...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$42.8 billion, and trailing EV/Sales was roughly 67 times, against 4 to 19 times for Firefly, Intuitive Machines and...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion, and trailing EV/Sales was roughly 67 times, against 4 to 19 times for Firefly, Intuitive Machines and...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
     },
@@ -355,117 +340,7 @@
       "unit": "million",
       "money_mn": 402.8,
       "decimals": 1,
-      "context": "...business reports two revenue lines: Space Systems, which generated $402.8 million in 2025, and Launch Services, which generated...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$199.0 million",
-      "value": 199.0,
-      "unit": "million",
-      "money_mn": 199.0,
-      "decimals": 1,
-      "context": "...$402.8 million in 2025, and Launch Services, which generated $199.0 million  .  The technology base rests on carbon...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$132.4 million",
-      "value": 132.4,
-      "unit": "million",
-      "money_mn": 132.4,
-      "decimals": 1,
-      "context": "...kg to low Earth orbit  . During 2025 the company acquired GEOST for $132.4 million in cash and signed the Space Development Agency...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$816 million",
-      "value": 816.0,
-      "unit": "million",
-      "money_mn": 816.0,
-      "decimals": 0,
-      "context": "...the Space Development Agency Tranche 3 agreement, worth up to $816 million  . Its product set spans Electron (up to 300 kg...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$70.20",
-      "value": 70.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...systems  .  From a market perspective, Rocket Lab shares closed at $70.20 with a market capitalization of about $42.8...",
-      "section": "Business Overview",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$42.8 billion",
-      "value": 42.8,
-      "unit": "billion",
-      "money_mn": 42800.0,
-      "decimals": 1,
-      "context": "...Lab shares closed at $70.20 with a market capitalization of about $42.8 billion, against a 52-week range of $14.71 to $99.58  ....",
-      "section": "Business Overview",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$14.71",
-      "value": 14.71,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...capitalization of about $42.8 billion, against a 52-week range of $14.71 to $99.58  . Analyst consensus carries a Buy...",
-      "section": "Business Overview",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$99.58",
-      "value": 99.58,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...of about $42.8 billion, against a 52-week range of $14.71 to $99.58  . Analyst consensus carries a Buy rating with a...",
-      "section": "Business Overview",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$93.15",
-      "value": 93.15,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": ".... Analyst consensus carries a Buy rating with a mean target of $93.15, within a range of $58 to $127  . A market value...",
-      "section": "Business Overview",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$58",
-      "value": 58.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...a Buy rating with a mean target of $93.15, within a range of $58 to $127  . A market value of this size against...",
-      "section": "Business Overview",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$127",
-      "value": 127.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...a Buy rating with a mean target of $93.15, within a range of $58 to $127  . A market value of this size against $601.8...",
+      "context": "....  Revenue is reported in two lines. Space Systems generated $402.8 million in 2025, about 67% of the $601.8 million total,...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -476,7 +351,117 @@
       "unit": "million",
       "money_mn": 601.8,
       "decimals": 1,
-      "context": "...a range of $58 to $127  . A market value of this size against $601.8 million of revenue means investors are paying for growth...",
+      "context": "...Space Systems generated $402.8 million in 2025, about 67% of the $601.8 million total, and Launch Services generated $199.0...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$199.0 million",
+      "value": 199.0,
+      "unit": "million",
+      "money_mn": 199.0,
+      "decimals": 1,
+      "context": "...67% of the $601.8 million total, and Launch Services generated $199.0 million, or about 33%  . The product roadmap extends...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$70.20",
+      "value": 70.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...which is under construction for Neutron  .  At a closing price of $70.20, Rocket Lab's market capitalization was about...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$42.8 billion",
+      "value": 42.8,
+      "unit": "billion",
+      "money_mn": 42800.0,
+      "decimals": 1,
+      "context": "...price of $70.20, Rocket Lab's market capitalization was about $42.8 billion, and the 52-week range was $14.71 to $99.58  ....",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$14.71",
+      "value": 14.71,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...capitalization was about $42.8 billion, and the 52-week range was $14.71 to $99.58  . The valuation reflects expectations...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$99.58",
+      "value": 99.58,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was about $42.8 billion, and the 52-week range was $14.71 to $99.58  . The valuation reflects expectations for...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$93.15",
+      "value": 93.15,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Analyst consensus carries a Buy rating and a mean target price of $93.15, within a range of $58 to $127  . The consensus...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$58",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a Buy rating and a mean target price of $93.15, within a range of $58 to $127  . The consensus data is dated 19...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$127",
+      "value": 127.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rating and a mean target price of $93.15, within a range of $58 to $127  . The consensus data is dated 19 November 2026...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in two lines. Space Systems generated $402.8 million in 2025, about 67% of the $601.8 million total, and Launch Services...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...total, and Launch Services generated $199.0 million, or about 33%  . The product roadmap extends beyond Electron...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -487,7 +472,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...mission lifecycle. Its Electron small launch vehicle has completed 75 successful missions and delivered more than 200...",
+      "context": "...more affordable  . Its Electron small launch vehicle had completed 75 successful missions and delivered more than 200...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -498,7 +483,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...has completed 75 successful missions and delivered more than 200 spacecraft through December 31, 2025, and the...",
+      "context": "...had completed 75 successful missions and delivered more than 200 spacecraft through December 31, 2025, and...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -509,51 +494,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...structures, electric turbo-pump 3D-printed Rutherford engines (over 800 flown), and a kick stage that can be converted...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "120",
-      "value": 120.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...infrastructure includes LC-1 in New Zealand, which supports up to 120 launches per year; LC-2 in Virginia, licensed...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "2",
-      "value": 2.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...LC-1 in New Zealand, which supports up to 120 launches per year; LC-2 in Virginia, licensed for 8 missions per year;...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "8",
-      "value": 8.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...up to 120 launches per year; LC-2 in Virginia, licensed for 8 missions per year; and LC-3, under construction...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "3",
-      "value": 3.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...year; LC-2 in Virginia, licensed for 8 missions per year; and LC-3, under construction to support Neutron, a...",
+      "context": "...the United States, New Zealand, and Canada, and has flown more than 800 of its 3D-printed Rutherford engines  .  Revenue...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -564,7 +505,29 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...to support Neutron, a reusable medium-lift vehicle targeting about 13,000 kg to low Earth orbit  . During 2025 the company...",
+      "context": "...suborbital vehicles, the Neutron medium-lift rocket targeting about 13,000 kg to reusable low Earth orbit, the Photon...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "120",
+      "value": 120.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...infrastructure includes LC-1 in New Zealand, which supports up to 120 launches a year, LC-2 in Virginia, licensed for...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...LC-1 in New Zealand, which supports up to 120 launches a year, LC-2 in Virginia, licensed for eight missions a year,...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -575,18 +538,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...million in cash and signed the Space Development Agency Tranche 3 agreement, worth up to $816 million  . Its...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "300",
-      "value": 300.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...worth up to $816 million  . Its product set spans Electron (up to 300 kg to low Earth orbit), the HASTE suborbital...",
+      "context": "...year, LC-2 in Virginia, licensed for eight missions a year, and LC-3, which is under construction for Neutron  .  At...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -597,7 +549,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...with a market capitalization of about $42.8 billion, against a 52-week range of $14.71 to $99.58  . Analyst...",
+      "context": "...Rocket Lab's market capitalization was about $42.8 billion, and the 52-week range was $14.71 to $99.58  . The valuation...",
       "section": "Business Overview",
       "source": "[2] Yahoo Finance"
     },
@@ -608,7 +560,7 @@
       "unit": "million",
       "money_mn": 1847.3,
       "decimals": 1,
-      "context": "...customers held about 77% of year-end backlog  . Backlog totaled $1,847.3 million, of which $1,371.7 million related to Space...",
+      "context": "...customers are smaller satellite operators.  Backlog totaled $1,847.3 million at year-end, of which $1,371.7 million related...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -619,7 +571,29 @@
       "unit": "million",
       "money_mn": 1371.7,
       "decimals": 1,
-      "context": "...of year-end backlog  . Backlog totaled $1,847.3 million, of which $1,371.7 million related to Space Systems, including the SDA...",
+      "context": "...operators.  Backlog totaled $1,847.3 million at year-end, of which $1,371.7 million related to Space Systems  . The Space...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$816 million",
+      "value": 816.0,
+      "unit": "million",
+      "money_mn": 816.0,
+      "decimals": 0,
+      "context": "...Tranche 3 agreement, signed in December 2025, could be worth up to $816 million, and the GEOST acquisition, completed in August...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$132.4 million",
+      "value": 132.4,
+      "unit": "million",
+      "money_mn": 132.4,
+      "decimals": 1,
+      "context": "...million, and the GEOST acquisition, completed in August 2025 for $132.4 million in cash, added optical and imaging capability to...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -630,7 +604,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...prime contractor revenue, including subcontracts, reached about 47% of 2025 revenue, up from 33% in 2024 and 31% in...",
+      "context": "...U.S. prime contractors, and their subcontracts reached about 47% of 2025 revenue, up from 33% in 2024 and 31% in...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -641,7 +615,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...including subcontracts, reached about 47% of 2025 revenue, up from 33% in 2024 and 31% in 2023  . That shift means the...",
+      "context": "...and their subcontracts reached about 47% of 2025 revenue, up from 33% in 2024 and 31% in 2023  . The five largest...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -652,7 +626,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...reached about 47% of 2025 revenue, up from 33% in 2024 and 31% in 2023  . That shift means the company's growth...",
+      "context": "...reached about 47% of 2025 revenue, up from 33% in 2024 and 31% in 2023  . The five largest customers accounted...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -663,7 +637,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...concentration is high. The top five customers accounted for about 49% of 2025 revenue, and the top five backlog...",
+      "context": "...and 31% in 2023  . The five largest customers accounted for about 49% of 2025 revenue and about 77% of year-end...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -674,7 +648,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...49% of 2025 revenue, and the top five backlog customers held about 77% of year-end backlog  . Backlog totaled $1,847.3...",
+      "context": "...largest customers accounted for about 49% of 2025 revenue and about 77% of year-end backlog  . Concentration is...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Rocket Lab's customer base is weighted toward government. Its 10-K lists the U.S. Department of War, NASA, DARPA,...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -685,29 +670,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...million related to Space Systems, including the SDA Tranche 3 award and the GEOST acquisition  . The company...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "1,400",
-      "value": 1400.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...of buyers and on federal budget timing. Headcount rose from about 1,400 employees in December 2022 to more than 2,600 by...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "2,600",
-      "value": 2600.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...rose from about 1,400 employees in December 2022 to more than 2,600 by December 31, 2025, which reflects the scale...",
+      "context": "...related to Space Systems  . The Space Development Agency Tranche 3 agreement, signed in December 2025, could be...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -718,7 +681,7 @@
       "unit": "million",
       "money_mn": 601.8,
       "decimals": 1,
-      "context": "Revenue increased 38% to $601.8 million in 2025 from $436.2 million, with both lines...",
+      "context": "Revenue rose 38% to $601.8 million in 2025 from $436.2 million, driven by both...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -729,7 +692,7 @@
       "unit": "million",
       "money_mn": 436.2,
       "decimals": 1,
-      "context": "Revenue increased 38% to $601.8 million in 2025 from $436.2 million, with both lines growing  . Space Systems rose...",
+      "context": "Revenue rose 38% to $601.8 million in 2025 from $436.2 million, driven by both segments  . Space Systems grew...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -740,7 +703,7 @@
       "unit": "million",
       "money_mn": 91.9,
       "decimals": 1,
-      "context": "...from $436.2 million, with both lines growing  . Space Systems rose $91.9 million (30%) to $402.8 million, driven by spacecraft...",
+      "context": "...from $436.2 million, driven by both segments  . Space Systems grew $91.9 million, or 30%, to $402.8 million on spacecraft...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -751,7 +714,7 @@
       "unit": "million",
       "money_mn": 402.8,
       "decimals": 1,
-      "context": "...both lines growing  . Space Systems rose $91.9 million (30%) to $402.8 million, driven by spacecraft manufacturing and partly...",
+      "context": "...by both segments  . Space Systems grew $91.9 million, or 30%, to $402.8 million on spacecraft manufacturing growth, partly...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -762,7 +725,7 @@
       "unit": "million",
       "money_mn": 7.9,
       "decimals": 1,
-      "context": "...driven by spacecraft manufacturing and partly offset by a net $7.9 million downward cumulative catch-up adjustment on one...",
+      "context": "...million on spacecraft manufacturing growth, partly offset by a net $7.9 million downward catch-up adjustment on a contract  ....",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -773,7 +736,7 @@
       "unit": "million",
       "money_mn": 73.7,
       "decimals": 1,
-      "context": "...catch-up adjustment on one contract  . Launch Services rose $73.7 million (59%) to $199.0 million on 21 missions versus...",
+      "context": "...downward catch-up adjustment on a contract  . Launch Services grew $73.7 million, or 59%, to $199.0 million, as launch cadence...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -784,7 +747,7 @@
       "unit": "million",
       "money_mn": 199.0,
       "decimals": 1,
-      "context": "...on one contract  . Launch Services rose $73.7 million (59%) to $199.0 million on 21 missions versus 16, with revenue per...",
+      "context": "...on a contract  . Launch Services grew $73.7 million, or 59%, to $199.0 million, as launch cadence rose to 21 missions from 16...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -795,7 +758,7 @@
       "unit": "million",
       "money_mn": 8.5,
       "decimals": 1,
-      "context": "...$199.0 million on 21 missions versus 16, with revenue per launch of $8.5 million versus $7.8 million, and some revenue was...",
+      "context": "...rose to 21 missions from 16 and revenue per launch increased to $8.5 million from $7.8 million  . Cost per launch fell to...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -806,53 +769,9 @@
       "unit": "million",
       "money_mn": 7.8,
       "decimals": 1,
-      "context": "...missions versus 16, with revenue per launch of $8.5 million versus $7.8 million, and some revenue was recognized over time on...",
+      "context": "...from 16 and revenue per launch increased to $8.5 million from $7.8 million  . Cost per launch fell to $4.8 million from...",
       "section": "Operating Results",
       "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$81.5 million",
-      "value": 81.5,
-      "unit": "million",
-      "money_mn": 81.5,
-      "decimals": 1,
-      "context": "...cost of revenues because segment profit is not disclosed, rose from $81.5 million to $126.0 million in Space Systems and from...",
-      "section": "Operating Results",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$126.0 million",
-      "value": 126.0,
-      "unit": "million",
-      "money_mn": 126.0,
-      "decimals": 1,
-      "context": "...because segment profit is not disclosed, rose from $81.5 million to $126.0 million in Space Systems and from $34.6 million to $81.2...",
-      "section": "Operating Results",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$34.6 million",
-      "value": 34.6,
-      "unit": "million",
-      "money_mn": 34.6,
-      "decimals": 1,
-      "context": "...rose from $81.5 million to $126.0 million in Space Systems and from $34.6 million to $81.2 million in Launch Services  . Launch...",
-      "section": "Operating Results",
-      "source": "[4] Peer data"
-    },
-    {
-      "kind": "money",
-      "text": "$81.2 million",
-      "value": 81.2,
-      "unit": "million",
-      "money_mn": 81.2,
-      "decimals": 1,
-      "context": "...to $126.0 million in Space Systems and from $34.6 million to $81.2 million in Launch Services  . Launch Services therefore...",
-      "section": "Operating Results",
-      "source": "[4] Peer data"
     },
     {
       "kind": "money",
@@ -861,7 +780,7 @@
       "unit": "million",
       "money_mn": 4.8,
       "decimals": 1,
-      "context": "...lifting gross margin to 34.4% from 26.6%  . Cost per launch fell to $4.8 million from $5.7 million, which management attributes...",
+      "context": "...to $8.5 million from $7.8 million  . Cost per launch fell to $4.8 million from $5.7 million, which management attributed...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -872,9 +791,53 @@
       "unit": "million",
       "money_mn": 5.7,
       "decimals": 1,
-      "context": "...to 34.4% from 26.6%  . Cost per launch fell to $4.8 million from $5.7 million, which management attributes to scale...",
+      "context": "...from $7.8 million  . Cost per launch fell to $4.8 million from $5.7 million, which management attributed to scale...",
       "section": "Operating Results",
       "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$126.0 million",
+      "value": 126.0,
+      "unit": "million",
+      "money_mn": 126.0,
+      "decimals": 1,
+      "context": "...margin to 34.4% from 26.6%  . Implied segment gross profit rose to $126.0 million in Space Systems from $81.5 million and to $81.2...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$81.5 million",
+      "value": 81.5,
+      "unit": "million",
+      "money_mn": 81.5,
+      "decimals": 1,
+      "context": "...segment gross profit rose to $126.0 million in Space Systems from $81.5 million and to $81.2 million in Launch Services from...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$81.2 million",
+      "value": 81.2,
+      "unit": "million",
+      "money_mn": 81.2,
+      "decimals": 1,
+      "context": "...rose to $126.0 million in Space Systems from $81.5 million and to $81.2 million in Launch Services from $34.6 million, though...",
+      "section": "Operating Results",
+      "source": "[4] Peer data"
+    },
+    {
+      "kind": "money",
+      "text": "$34.6 million",
+      "value": 34.6,
+      "unit": "million",
+      "money_mn": 34.6,
+      "decimals": 1,
+      "context": "...from $81.5 million and to $81.2 million in Launch Services from $34.6 million, though the filing does not disclose segment...",
+      "section": "Operating Results",
+      "source": "[4] Peer data"
     },
     {
       "kind": "money",
@@ -883,7 +846,7 @@
       "unit": "million",
       "money_mn": 270.7,
       "decimals": 1,
-      "context": "...to scale efficiencies  . Research and development rose 55% to $270.7 million, mainly for Neutron, and the operating loss...",
+      "context": "...segment operating profit  . Research and development rose 55% to $270.7 million, mainly for Neutron, so the operating loss...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -894,7 +857,7 @@
       "unit": "million",
       "money_mn": 228.8,
       "decimals": 1,
-      "context": "...million, mainly for Neutron, and the operating loss widened to $228.8 million, though operating margin improved to -38.1% from...",
+      "context": "...million, mainly for Neutron, so the operating loss widened to $228.8 million even as the operating margin improved to -38.1%...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -905,7 +868,7 @@
       "unit": "million",
       "money_mn": 198.2,
       "decimals": 1,
-      "context": "...margin improved to -38.1% from -43.6%  . The net loss widened to $198.2 million from $190.2 million, but net margin improved to...",
+      "context": "...margin improved to -38.1% from -43.6%  . The net loss widened to $198.2 million from $190.2 million, but the net margin improved...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -916,7 +879,7 @@
       "unit": "million",
       "money_mn": 190.2,
       "decimals": 1,
-      "context": "...-38.1% from -43.6%  . The net loss widened to $198.2 million from $190.2 million, but net margin improved to -33.1% from -43.7%,...",
+      "context": "...-38.1% from -43.6%  . The net loss widened to $198.2 million from $190.2 million, but the net margin improved to -33.1% from...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -927,7 +890,7 @@
       "unit": "million",
       "money_mn": 27.7,
       "decimals": 1,
-      "context": "...million, but net margin improved to -33.1% from -43.7%, aided by a $27.7 million tax benefit. EPS was -$0.37 versus -$0.38 as...",
+      "context": "...but the net margin improved to -33.1% from -43.7%, helped by a $27.7 million tax benefit. Diluted EPS was -$0.37 versus...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -938,7 +901,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...-33.1% from -43.7%, aided by a $27.7 million tax benefit. EPS was -$0.37 versus -$0.38 as diluted shares rose 7%  . The...",
+      "context": "...from -43.7%, helped by a $27.7 million tax benefit. Diluted EPS was -$0.37 versus -$0.38, as the diluted share count rose 7%...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
@@ -949,117 +912,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...-43.7%, aided by a $27.7 million tax benefit. EPS was -$0.37 versus -$0.38 as diluted shares rose 7%  . The gap between a...",
-      "section": "Operating Results",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "-$165.5 million",
-      "value": 165.5,
-      "unit": "million",
-      "money_mn": 165.5,
-      "decimals": 1,
-      "context": "...flow shows the cost of this growth. Operating cash flow was -$165.5 million versus -$48.9 million, capital expenditures rose...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "-$48.9 million",
-      "value": 48.9,
-      "unit": "million",
-      "money_mn": 48.9,
-      "decimals": 1,
-      "context": "...cost of this growth. Operating cash flow was -$165.5 million versus -$48.9 million, capital expenditures rose to $156.3 million...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$156.3 million",
-      "value": 156.3,
-      "unit": "million",
-      "money_mn": 156.3,
-      "decimals": 1,
-      "context": "...-$165.5 million versus -$48.9 million, capital expenditures rose to $156.3 million from $67.1 million, and free cash flow was about...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$67.1 million",
-      "value": 67.1,
-      "unit": "million",
-      "money_mn": 67.1,
-      "decimals": 1,
-      "context": "...-$48.9 million, capital expenditures rose to $156.3 million from $67.1 million, and free cash flow was about -$321.8 million  ....",
-      "section": "Operating Results",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "-$321.8 million",
-      "value": 321.8,
-      "unit": "million",
-      "money_mn": 321.8,
-      "decimals": 1,
-      "context": "...to $156.3 million from $67.1 million, and free cash flow was about -$321.8 million  . The shortfall was funded mainly by $1,119.5...",
-      "section": "Operating Results",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$1,119.5 million",
-      "value": 1119.5,
-      "unit": "million",
-      "money_mn": 1119.5,
-      "decimals": 1,
-      "context": "...was about -$321.8 million  . The shortfall was funded mainly by $1,119.5 million of at-the-market equity proceeds. Year-end cash...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$828.7 million",
-      "value": 828.7,
-      "unit": "million",
-      "money_mn": 828.7,
-      "decimals": 1,
-      "context": "...million of at-the-market equity proceeds. Year-end cash was $828.7 million, plus $270.2 million of marketable securities  ....",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$270.2 million",
-      "value": 270.2,
-      "unit": "million",
-      "money_mn": 270.2,
-      "decimals": 1,
-      "context": "...equity proceeds. Year-end cash was $828.7 million, plus $270.2 million of marketable securities  . The balance sheet...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$1,011.9 million",
-      "value": 1011.9,
-      "unit": "million",
-      "money_mn": 1011.9,
-      "decimals": 1,
-      "context": "...to about 0.15x from 1.22x, but the accumulated deficit widened to $1,011.9 million  . Goodwill and intangibles rose to $430.5...",
-      "section": "Operating Results",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$430.5 million",
-      "value": 430.5,
-      "unit": "million",
-      "money_mn": 430.5,
-      "decimals": 1,
-      "context": "...widened to $1,011.9 million  . Goodwill and intangibles rose to $430.5 million following the GEOST acquisition  .",
+      "context": "...by a $27.7 million tax benefit. Diluted EPS was -$0.37 versus -$0.38, as the diluted share count rose 7%  .  The...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
@@ -1070,7 +923,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "Revenue increased 38% to $601.8 million in 2025 from $436.2 million,...",
+      "context": "Revenue rose 38% to $601.8 million in 2025 from $436.2 million,...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1081,7 +934,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...with both lines growing  . Space Systems rose $91.9 million (30%) to $402.8 million, driven by spacecraft...",
+      "context": "...driven by both segments  . Space Systems grew $91.9 million, or 30%, to $402.8 million on spacecraft manufacturing...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1092,7 +945,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...adjustment on one contract  . Launch Services rose $73.7 million (59%) to $199.0 million on 21 missions versus 16,...",
+      "context": "...adjustment on a contract  . Launch Services grew $73.7 million, or 59%, to $199.0 million, as launch cadence rose to 21...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1103,7 +956,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...profit gain relative to its revenue base.  Cost of revenues grew 23%, lifting gross margin to 34.4% from 26.6%  ....",
+      "context": "...attributed to scale efficiencies  .  Cost of revenues grew only 23%, lifting gross margin to 34.4% from 26.6%  ....",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1114,7 +967,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...revenue base.  Cost of revenues grew 23%, lifting gross margin to 34.4% from 26.6%  . Cost per launch fell to $4.8...",
+      "context": "....  Cost of revenues grew only 23%, lifting gross margin to 34.4% from 26.6%  . Implied segment gross profit rose...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1125,7 +978,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...of revenues grew 23%, lifting gross margin to 34.4% from 26.6%  . Cost per launch fell to $4.8 million from...",
+      "context": "...of revenues grew only 23%, lifting gross margin to 34.4% from 26.6%  . Implied segment gross profit rose to $126.0...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1136,7 +989,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...attributes to scale efficiencies  . Research and development rose 55% to $270.7 million, mainly for Neutron, and the...",
+      "context": "...disclose segment operating profit  . Research and development rose 55% to $270.7 million, mainly for Neutron, so the...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1147,7 +1000,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...loss widened to $228.8 million, though operating margin improved to -38.1% from -43.6%  . The net loss widened to $198.2...",
+      "context": "...widened to $228.8 million even as the operating margin improved to -38.1% from -43.6%  . The net loss widened to $198.2...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1158,7 +1011,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...to $228.8 million, though operating margin improved to -38.1% from -43.6%  . The net loss widened to $198.2 million from...",
+      "context": "...$228.8 million even as the operating margin improved to -38.1% from -43.6%  . The net loss widened to $198.2 million from...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1169,7 +1022,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...to $198.2 million from $190.2 million, but net margin improved to -33.1% from -43.7%, aided by a $27.7 million tax...",
+      "context": "...$198.2 million from $190.2 million, but the net margin improved to -33.1% from -43.7%, helped by a $27.7 million tax...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1180,7 +1033,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...million from $190.2 million, but net margin improved to -33.1% from -43.7%, aided by a $27.7 million tax benefit. EPS was...",
+      "context": "...from $190.2 million, but the net margin improved to -33.1% from -43.7%, helped by a $27.7 million tax benefit. Diluted...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1191,53 +1044,64 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...tax benefit. EPS was -$0.37 versus -$0.38 as diluted shares rose 7%  . The gap between a higher gross margin and a...",
+      "context": "...EPS was -$0.37 versus -$0.38, as the diluted share count rose 7%  .  The outlook carries material timing risk....",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
     {
-      "kind": "multiple",
-      "text": "4.1x",
-      "value": 4.1,
+      "kind": "pct",
+      "text": "34.4%",
+      "value": 34.4,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...strengthened on liquidity, with the current ratio rising to about 4.1x from 2.0x and debt-to-equity falling to about...",
+      "context": "...21, 2026  . Against peers, Rocket Lab's 2025 gross margin of 34.4% was well above Firefly (19.2%), Redwire (5.2%),...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
     {
-      "kind": "multiple",
-      "text": "2.0x",
-      "value": 2.0,
+      "kind": "pct",
+      "text": "19.2%",
+      "value": 19.2,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...on liquidity, with the current ratio rising to about 4.1x from 2.0x and debt-to-equity falling to about 0.15x from...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "multiple",
-      "text": "0.15x",
-      "value": 0.15,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...rising to about 4.1x from 2.0x and debt-to-equity falling to about 0.15x from 1.22x, but the accumulated deficit widened...",
+      "context": "...Rocket Lab's 2025 gross margin of 34.4% was well above Firefly (19.2%), Redwire (5.2%), and Intuitive Machines (2.9%),...",
       "section": "Operating Results",
       "source": "[4] Peer data"
     },
     {
-      "kind": "multiple",
-      "text": "1.22x",
-      "value": 1.22,
+      "kind": "pct",
+      "text": "5.2%",
+      "value": 5.2,
       "unit": "",
       "money_mn": null,
-      "decimals": 2,
-      "context": "...about 4.1x from 2.0x and debt-to-equity falling to about 0.15x from 1.22x, but the accumulated deficit widened to $1,011.9...",
+      "decimals": 1,
+      "context": "...2025 gross margin of 34.4% was well above Firefly (19.2%), Redwire (5.2%), and Intuitive Machines (2.9%), and its EBITDA...",
+      "section": "Operating Results",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "2.9%",
+      "value": 2.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...well above Firefly (19.2%), Redwire (5.2%), and Intuitive Machines (2.9%), and its EBITDA margin of -25.8% was the least...",
       "section": "Operating Results",
       "source": "[4] Peer data"
+    },
+    {
+      "kind": "pct",
+      "text": "-25.8%",
+      "value": 25.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(5.2%), and Intuitive Machines (2.9%), and its EBITDA margin of -25.8% was the least negative of the group  . The...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "plain",
@@ -1246,7 +1110,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": ".... Launch Services rose $73.7 million (59%) to $199.0 million on 21 missions versus 16, with revenue per launch of...",
+      "context": "...$73.7 million, or 59%, to $199.0 million, as launch cadence rose to 21 missions from 16 and revenue per launch...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1257,62 +1121,29 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...rose $73.7 million (59%) to $199.0 million on 21 missions versus 16, with revenue per launch of $8.5 million versus...",
+      "context": "...59%, to $199.0 million, as launch cadence rose to 21 missions from 16 and revenue per launch increased to $8.5 million...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "-$165.5 million",
+      "text": "$165.5 million",
       "value": 165.5,
       "unit": "million",
       "money_mn": 165.5,
       "decimals": 1,
-      "context": "...continue for at least the next 12 months  . Operating cash flow was -$165.5 million in 2025, and the company relied on $1,119.5...",
+      "context": "...for at least the next 12 months, and operating cash outflow was $165.5 million in 2025, with free cash flow of about -$321.8...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$1,119.5 million",
-      "value": 1119.5,
+      "text": "-$321.8 million",
+      "value": 321.8,
       "unit": "million",
-      "money_mn": 1119.5,
+      "money_mn": 321.8,
       "decimals": 1,
-      "context": "...cash flow was -$165.5 million in 2025, and the company relied on $1,119.5 million of at-the-market equity sales to fund growth  ....",
-      "section": "Risk Assessment",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$70.20",
-      "value": 70.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...equity sales to fund growth  . The share price, which closed at $70.20 against a 52-week range of $14.71 to $99.58,...",
-      "section": "Risk Assessment",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$14.71",
-      "value": 14.71,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": ".... The share price, which closed at $70.20 against a 52-week range of $14.71 to $99.58, shows how volatile the equity funding...",
-      "section": "Risk Assessment",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$99.58",
-      "value": 99.58,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...price, which closed at $70.20 against a 52-week range of $14.71 to $99.58, shows how volatile the equity funding route can...",
+      "context": "...outflow was $165.5 million in 2025, with free cash flow of about -$321.8 million  . Aggregate indebtedness was $157.4 million at...",
       "section": "Risk Assessment",
       "source": "[2] Yahoo Finance"
     },
@@ -1323,7 +1154,51 @@
       "unit": "million",
       "money_mn": 157.4,
       "decimals": 1,
-      "context": "...the equity funding route can be  . Aggregate indebtedness was $157.4 million at year-end 2025, and convertible notes may...",
+      "context": "...cash flow of about -$321.8 million  . Aggregate indebtedness was $157.4 million at year-end, including $155.7 million of...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$155.7 million",
+      "value": 155.7,
+      "unit": "million",
+      "money_mn": 155.7,
+      "decimals": 1,
+      "context": ".... Aggregate indebtedness was $157.4 million at year-end, including $155.7 million of convertible senior notes that may require...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$828.7 million",
+      "value": 828.7,
+      "unit": "million",
+      "money_mn": 828.7,
+      "decimals": 1,
+      "context": "...dividends without approval  . Management expects existing cash of $828.7 million and marketable securities of $270.2 million,...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$270.2 million",
+      "value": 270.2,
+      "unit": "million",
+      "money_mn": 270.2,
+      "decimals": 1,
+      "context": "...existing cash of $828.7 million and marketable securities of $270.2 million, together with operating cash flow, to meet...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$1,119.5 million",
+      "value": 1119.5,
+      "unit": "million",
+      "money_mn": 1119.5,
+      "decimals": 1,
+      "context": "...needs for the foreseeable future  . However, the company relied on $1,119.5 million of at-the-market equity sales in 2025, so...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1334,7 +1209,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...in the past  . With U.S. government-linked revenue at about 47% of 2025 revenue and the top five customers at...",
+      "context": "...of large customers. U.S. government-related revenue reached about 47% of 2025 revenue, and the top five customers...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1345,29 +1220,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...at about 47% of 2025 revenue and the top five customers at about 49%, a funding delay or award slip has a material...",
+      "context": "...of 2025 revenue, and the top five customers accounted for roughly 49% of revenue and 77% of backlog  . Government...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "75%",
-      "value": 75.0,
+      "text": "77%",
+      "value": 77.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...on unfavorable terms  . The loss-to-revenue ratio improved from 75% in 2023 to 33% in 2025, a positive signal, but...",
-      "section": "Risk Assessment",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "33%",
-      "value": 33.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...terms  . The loss-to-revenue ratio improved from 75% in 2023 to 33% in 2025, a positive signal, but absolute losses...",
+      "context": "...and the top five customers accounted for roughly 49% of revenue and 77% of backlog  . Government contracts are largely...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1378,7 +1242,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...and launch reliability is the second risk. Electron has flown 75 successful missions, but three customer launches...",
+      "context": "...reliability and development execution. Rocket Lab has recorded 75 successful missions and three failed customer...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1389,86 +1253,9 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...significantly and expects losses to continue for at least the next 12 months  . Operating cash flow was -$165.5...",
+      "context": "...The company expects losses to continue for at least the next 12 months, and operating cash outflow was $165.5...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "52",
-      "value": 52.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...to fund growth  . The share price, which closed at $70.20 against a 52-week range of $14.71 to $99.58, shows how...",
-      "section": "Risk Assessment",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$3.7 billion",
-      "value": 3.7,
-      "unit": "billion",
-      "money_mn": 3700.0,
-      "decimals": 1,
-      "context": "...and more diversified  . Their market capitalizations of roughly $3.7 billion, $1.9 billion, and $1.8 billion compare with...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$1.9 billion",
-      "value": 1.9,
-      "unit": "billion",
-      "money_mn": 1900.0,
-      "decimals": 1,
-      "context": ".... Their market capitalizations of roughly $3.7 billion, $1.9 billion, and $1.8 billion compare with Rocket Lab's...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$1.8 billion",
-      "value": 1.8,
-      "unit": "billion",
-      "money_mn": 1800.0,
-      "decimals": 1,
-      "context": "...market capitalizations of roughly $3.7 billion, $1.9 billion, and $1.8 billion compare with Rocket Lab's approximately $42.8...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$42.8 billion",
-      "value": 42.8,
-      "unit": "billion",
-      "money_mn": 42800.0,
-      "decimals": 1,
-      "context": "...billion, and $1.8 billion compare with Rocket Lab's approximately $42.8 billion  .  On the reported figures, Rocket Lab has the...",
-      "section": "Competitors Analysis",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$601.8 million",
-      "value": 601.8,
-      "unit": "million",
-      "money_mn": 601.8,
-      "decimals": 1,
-      "context": "...figures, Rocket Lab has the largest revenue base in the group at $601.8 million, and it grew 38% in 2025  . That was behind...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$93.15",
-      "value": 93.15,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...here. Analyst consensus rates the stock Buy with a mean target of $93.15  , but the market is pricing profit that has not...",
-      "section": "Competitors Analysis",
-      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "money",
@@ -1477,7 +1264,18 @@
       "unit": "million",
       "money_mn": 321.8,
       "decimals": 1,
-      "context": "...is pricing profit that has not yet arrived. Free cash flow was -$321.8 million, the largest outflow in the dataset, and ROIC...",
+      "context": "...Machines, and 4.4 times for Redwire  . Its 2025 free cash flow of -$321.8 million was the largest cash outflow in the group, ahead...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$42.8 billion",
+      "value": 42.8,
+      "unit": "billion",
+      "money_mn": 42800.0,
+      "decimals": 1,
+      "context": "...for all four companies  . At a market capitalization of about $42.8 billion  , the premium rests on expectations for Neutron...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
@@ -1488,7 +1286,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...largest revenue base in the group at $601.8 million, and it grew 38% in 2025  . That was behind Firefly's 163% growth...",
+      "context": "...because they are far larger  .  Rocket Lab's 2025 revenue growth of 38% trailed Firefly's 163%, which came from a much...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1499,7 +1297,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...million, and it grew 38% in 2025  . That was behind Firefly's 163% growth from a much smaller base, but ahead of...",
+      "context": "....  Rocket Lab's 2025 revenue growth of 38% trailed Firefly's 163%, which came from a much smaller base, but...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
@@ -1510,7 +1308,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...163% growth from a much smaller base, but ahead of Redwire's 10.3% and Intuitive Machines' decline of 9.2%  . Its...",
+      "context": "...163%, which came from a much smaller base, but exceeded Redwire's 10.3% and Intuitive Machines' decline of 9.2%  . Its...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
@@ -1521,7 +1319,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...but ahead of Redwire's 10.3% and Intuitive Machines' decline of 9.2%  . Its gross margin of 34.4% led the group,...",
+      "context": "...but exceeded Redwire's 10.3% and Intuitive Machines' decline of 9.2%  . Its 34.4% gross margin was the highest in the...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
@@ -1532,7 +1330,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...and Intuitive Machines' decline of 9.2%  . Its gross margin of 34.4% led the group, compared with 19.2% at Firefly,...",
+      "context": "...Redwire's 10.3% and Intuitive Machines' decline of 9.2%  . Its 34.4% gross margin was the highest in the group,...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1543,7 +1341,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...of 9.2%  . Its gross margin of 34.4% led the group, compared with 19.2% at Firefly, 5.2% at Redwire, and 2.9% at...",
+      "context": ".... Its 34.4% gross margin was the highest in the group, against 19.2% for Firefly, 5.2% for Redwire, and 2.9% for...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
@@ -1554,7 +1352,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...margin of 34.4% led the group, compared with 19.2% at Firefly, 5.2% at Redwire, and 2.9% at Intuitive Machines  ....",
+      "context": "...margin was the highest in the group, against 19.2% for Firefly, 5.2% for Redwire, and 2.9% for Intuitive Machines  ....",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1565,7 +1363,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...led the group, compared with 19.2% at Firefly, 5.2% at Redwire, and 2.9% at Intuitive Machines  . Its EBITDA margin of...",
+      "context": "...in the group, against 19.2% for Firefly, 5.2% for Redwire, and 2.9% for Intuitive Machines  . Its EBITDA margin of...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
@@ -1576,31 +1374,9 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...at Redwire, and 2.9% at Intuitive Machines  . Its EBITDA margin of -25.8% was the least negative, against -45.9% at...",
+      "context": "...Redwire, and 2.9% for Intuitive Machines  . Its EBITDA margin of -25.8% was less negative than Firefly's -181.9%,...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "-45.9%",
-      "value": 45.9,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": ".... Its EBITDA margin of -25.8% was the least negative, against -45.9% at Intuitive Machines, -53.4% at Redwire, and...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "-53.4%",
-      "value": 53.4,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...was the least negative, against -45.9% at Intuitive Machines, -53.4% at Redwire, and -181.9% at Firefly  . Rocket...",
-      "section": "Competitors Analysis",
-      "source": "[4] Peer data"
     },
     {
       "kind": "pct",
@@ -1609,20 +1385,31 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...against -45.9% at Intuitive Machines, -53.4% at Redwire, and -181.9% at Firefly  . Rocket Lab's gross margin rose in...",
+      "context": ".... Its EBITDA margin of -25.8% was less negative than Firefly's -181.9%, Redwire's -53.4%, and Intuitive Machines'...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
     {
       "kind": "pct",
-      "text": "9.0%",
-      "value": 9.0,
+      "text": "-53.4%",
+      "value": 53.4,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...at Firefly  . Rocket Lab's gross margin rose in every year from 9.0% in 2022, while Redwire's fell from 23.8% in 2023...",
+      "context": "...of -25.8% was less negative than Firefly's -181.9%, Redwire's -53.4%, and Intuitive Machines' -45.9%  . Rocket Lab's...",
       "section": "Competitors Analysis",
-      "source": "[2] Yahoo Finance"
+      "source": "[4] Peer data"
+    },
+    {
+      "kind": "pct",
+      "text": "-45.9%",
+      "value": 45.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...than Firefly's -181.9%, Redwire's -53.4%, and Intuitive Machines' -45.9%  . Rocket Lab's gross margin has risen every...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
     },
     {
       "kind": "pct",
@@ -1631,7 +1418,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...rose in every year from 9.0% in 2022, while Redwire's fell from 23.8% in 2023 to 5.2% in 2025  . The peer data...",
+      "context": "...has risen every year since 2022, while Redwire's has fallen from 23.8% in 2023 to 5.2% in 2025  .  Valuation and cash...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
@@ -1642,7 +1429,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...year from 9.0% in 2022, while Redwire's fell from 23.8% in 2023 to 5.2% in 2025  . The peer data therefore supports the...",
+      "context": "...year since 2022, while Redwire's has fallen from 23.8% in 2023 to 5.2% in 2025  .  Valuation and cash burn set Rocket...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1653,7 +1440,51 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...the largest outflow in the dataset, and ROIC remained negative at -9.3%  . Rocket Lab is the strongest operator in the...",
+      "context": "...peer data reports as -238 and -201 in the same units  . Its ROIC of -9.3% was negative but improving, while Intuitive...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "pct",
+      "text": "17.5%",
+      "value": 17.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...but improving, while Intuitive Machines reported a positive 17.5%  . EV/EBITDA cannot be compared because it is...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data"
+    },
+    {
+      "kind": "plain",
+      "text": "0.4",
+      "value": 0.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...missions, and it is the most similar in scale at about 0.4 times Rocket Lab's revenue. Intuitive Machines...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "0.8",
+      "value": 0.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Machines offers space delivery and infrastructure services at 0.8 times, and Redwire provides space systems and...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "0.5",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...systems and components for government and commercial customers at 0.5 times  . Planet Labs and AST SpaceMobile were...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
@@ -1664,7 +1495,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...Rocket Lab stands apart. Its trailing EV/Sales multiple was about 67 in 2025, versus about 19 at Firefly, 8.5 at...",
+      "context": "...and cash burn set Rocket Lab apart. Its EV/Sales multiple was about 67 times in 2025, compared with about 19 times for...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
@@ -1675,7 +1506,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...Its trailing EV/Sales multiple was about 67 in 2025, versus about 19 at Firefly, 8.5 at Intuitive Machines, and 4.4...",
+      "context": "...EV/Sales multiple was about 67 times in 2025, compared with about 19 times for Firefly, 8.5 times for Intuitive...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
@@ -1686,7 +1517,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...EV/Sales multiple was about 67 in 2025, versus about 19 at Firefly, 8.5 at Intuitive Machines, and 4.4 at Redwire  ....",
+      "context": "...about 67 times in 2025, compared with about 19 times for Firefly, 8.5 times for Intuitive Machines, and 4.4 times for...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1697,9 +1528,31 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...in 2025, versus about 19 at Firefly, 8.5 at Intuitive Machines, and 4.4 at Redwire  . EV/EBITDA cannot be computed for...",
+      "context": "...about 19 times for Firefly, 8.5 times for Intuitive Machines, and 4.4 times for Redwire  . Its 2025 free cash flow of...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "-238",
+      "value": 238.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ahead of Firefly and Redwire, whose burns the peer data reports as -238 and -201 in the same units  . Its ROIC of -9.3%...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "plain",
+      "text": "-201",
+      "value": 201.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Firefly and Redwire, whose burns the peer data reports as -238 and -201 in the same units  . Its ROIC of -9.3% was...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data"
     },
     {
       "kind": "money",

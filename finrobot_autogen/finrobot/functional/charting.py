@@ -276,7 +276,7 @@ class ReportChartUtils:
 
         name = (YFinanceUtils.get_stock_info(ticker_symbol) or {}).get("shortName", ticker_symbol)
         plt.rcParams.update({"font.size": 11})
-        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(9, 7.5), gridspec_kw={"height_ratios": [2.2, 1]})
+        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(9, 5.6), gridspec_kw={"height_ratios": [2.2, 1]})
         ax1.plot(series.index, series.values, color="#1f4e79", lw=1.4, label=f"{label}, current {series.iloc[-1]:.1f}x")
         ax1.axhline(mu, color="#444444", ls="--", lw=1, label=f"Mean {mu:.1f}x")
         ax1.axhline(mu + sd, color="#999999", ls=":", lw=1, label=f"\u00b11 SD ({mu - sd:.1f}x \u2013 {mu + sd:.1f}x)")

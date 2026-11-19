@@ -21,6 +21,7 @@ from finrobot.agents.workflow import SingleAssistant
 from finrobot.functional.analyzer import ReportAnalysisUtils
 from finrobot.functional.reportlab import ReportLabUtils
 
+from .outlook_tools import get_consensus_and_liquidity
 from .peer_tools import get_peer_candidates
 
 # Analyse-Tools, die im Original nur eine Auftragsdatei schreiben
@@ -92,7 +93,7 @@ def make_agent_config(llm_config):
             tools.append(_ignore_unknown_kwargs(t))
         else:
             tools.append(t)
-    cfg["toolkits"] = tools + [get_peer_candidates]
+    cfg["toolkits"] = tools + [get_peer_candidates, get_consensus_and_liquidity]
     cfg["profile"] = cfg["profile"].replace(
         "Reply TERMINATE when everything is settled.",
         "Never invent data, companies or tickers; if a tool fails, say so. "
@@ -129,9 +130,13 @@ def default_message(company, fyear, work_dir, peers=None):
         - Use the analysis tools (income statement, balance sheet, cash flow, segments, business highlights,
           company description, risk assessment, competitors) and base the report on their ANALYSIS RESULT outputs.
         - Each of the five sections should be roughly 350-450 words, split into 2-4 paragraphs.
-        - Also write an investment summary of 150-300 words for page 1.
+        - Call get_consensus_and_liquidity once for {company} and {fyear}. Use its figures for valuation and funding
+          (consensus growth and EPS, forward EV/Sales, cash runway, dilution) and say that they are dated after the 10-K.
+        - Write an investment summary of 130-180 words for page 1.
+        - Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations): growth, profitability or
+          funding, valuation vs consensus, and the main risk. Do not simply repeat the first sentences of the summary.
         - Cite sources inline as [1] 10-K, [2] Yahoo Finance financials/prices, [3] analyst consensus, [4] peer financials.
-        - When calling build_annual_report, pass peer_tickers with the chosen peers and segment_data with the segment
-          revenues for the last two fiscal years as stated in the 10-K (USD millions).
+        - When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
+          revenues for the last two fiscal years as stated in the 10-K (USD millions) and key_takeaways as a list.
         - Do not generate the pdf until all of this is fulfilled.
     """)
