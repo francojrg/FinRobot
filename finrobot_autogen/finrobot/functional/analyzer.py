@@ -15,7 +15,7 @@ def combine_prompt(instruction, resource, table_str=None):
 
 def save_to_file(data: str, file_path: str):
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
-    with open(file_path, "w") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write(data)
 
 
@@ -375,8 +375,9 @@ class ReportAnalysisUtils:
             else 0
         )
 
-        fiftyTwoWeekLow = hist["High"].min()
-        fiftyTwoWeekHigh = hist["Low"].max()
+        # Original-Bug korrigiert: Low/High waren vertauscht (High.min / Low.max)
+        fiftyTwoWeekLow = hist["Low"].min()
+        fiftyTwoWeekHigh = hist["High"].max()
 
         # avg_daily_volume_6m = hist['Volume'].mean()
 

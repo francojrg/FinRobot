@@ -1,4 +1,5 @@
 import os
+import html
 import requests
 from sec_api import ExtractorApi, QueryApi, RenderApi
 from functools import wraps
@@ -184,17 +185,17 @@ class SECUtils:
             CACHE_PATH, f"sec_utils/{ticker_symbol}_{fyear}_{section}.txt"
         )
         if os.path.exists(cache_path):
-            with open(cache_path, "r") as f:
-                section_text = f.read()
+            with open(cache_path, "r", encoding="utf-8") as f:
+                section_text = html.unescape(f.read())
         else:
-            section_text = extractor_api.get_section(report_address, section, "text")
+            section_text = html.unescape(extractor_api.get_section(report_address, section, "text"))  # HTML-Entities wie &#8220; in Text umwandeln
             os.makedirs(os.path.dirname(cache_path), exist_ok=True)
-            with open(cache_path, "w") as f:
+            with open(cache_path, "w", encoding="utf-8") as f:
                 f.write(section_text)
 
         if save_path:
             os.makedirs(os.path.dirname(save_path), exist_ok=True)
-            with open(save_path, "w") as f:
+            with open(save_path, "w", encoding="utf-8") as f:
                 f.write(section_text)
 
         return section_text
