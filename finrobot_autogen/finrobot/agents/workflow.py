@@ -240,10 +240,13 @@ class SingleAssistantShadow(SingleAssistant):
         else:
             agent_config_shadow = agent_config + "_Shadow"
 
+        # Angepasst: Der Shadow-Agent hat keine Tools; "parallel_tool_calls" ist ohne Tools
+        # nicht zulaessig und wird deshalb entfernt.
+        shadow_llm_config = {k: v for k, v in llm_config.items() if k != "parallel_tool_calls"}
         self.assistant_shadow = FinRobot(
             agent_config,
             toolkits=[],
-            llm_config=llm_config,
+            llm_config=shadow_llm_config,
             proxy=None,
         )
         self.assistant.register_nested_chats(
@@ -253,7 +256,10 @@ class SingleAssistantShadow(SingleAssistant):
                     "recipient": self.assistant_shadow,
                     "message": instruction_message,
                     "summary_method": "last_msg",
-                    "max_turns": 2,
+                    # Angepasst (Original: 2): Bei 2 Runden antwortet der Haupt-Agent noch einmal
+                    # (meist nur "TERMINATE") und diese leere Nachricht wurde zur "Zusammenfassung".
+                    # Die eigentliche Analyse des Shadow-Agenten ging dadurch verloren.
+                    "max_turns": 1,
                     "silent": True,  # mute the chat summary
                 }
             ],

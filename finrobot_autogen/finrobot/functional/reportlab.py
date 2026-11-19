@@ -21,7 +21,426 @@ from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
 
 from ..data_source import FMPUtils, YFinanceUtils
 from .analyzer import ReportAnalysisUtils
-from typing import Annotated
+from typing import Annotated, List
+
+
+# ---------------------------------------------------------------------------
+# Angepasstes Layout (v3): Seite 1 = links Investment Summary (Text), rechts Charts
+# und Key Data, unten Financial Metrics. Ab Seite 2 die fuenf Abschnitte in voller
+# Breite, am Ende das Quellenverzeichnis [1]-[4]. Das Original-Layout bleibt in
+# build_annual_report erhalten, wird aber nicht mehr aufgerufen.
+# ---------------------------------------------------------------------------
+# >>> Name deines Report-Tools: hier aendern <<<
+REPORT_BRAND = "FinRobot (modified)"
+
+def _heading_font():
+    """Georgia Bold fuer Ueberschriften, falls installiert (Windows/macOS); sonst Times-Bold."""
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    if "Georgia-Bold" in pdfmetrics.getRegisteredFontNames():
+        return "Georgia-Bold"
+    candidates = [
+        os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "georgiab.ttf"),
+        "/Library/Fonts/Georgia Bold.ttf", "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+        "/usr/share/fonts/truetype/msttcorefonts/Georgia_Bold.ttf",
+    ]
+    for path in candidates:
+        if os.path.isfile(path):
+            try:
+                pdfmetrics.registerFont(TTFont("Georgia-Bold", path))
+                return "Georgia-Bold"
+            except Exception:
+                pass
+    return "Times-Bold"
+
+CITATION_GUIDE = (
+    " Cite sources inline with numbers: [1] = the 10-K filing, [2] = Yahoo Finance financial statements and prices,"
+    " [3] = analyst consensus (rating, target price), [4] = peer company financials."
+    " Separate 2-4 paragraphs with a blank line."
+)
+
+
+def _scaled_image(path, max_width, max_height=None):
+    from reportlab.lib.utils import ImageReader
+    if not path or not os.path.isfile(path):
+        return Paragraph(f"<i>Chart not available ({path})</i>", getSampleStyleSheet()["Normal"])
+    w, h = ImageReader(path).getSize()
+    scale = max_width / w
+    if max_height and h * scale > max_height:
+        scale = max_height / h
+    return Image(path, width=w * scale, height=h * scale)
+
+
+def _paragraphs(text, style):
+    import html as _html
+    out = []
+    for para in [p.strip() for p in str(text).replace("\r", "").split("\n") if p.strip()]:
+        out.append(Paragraph(_html.escape(para, quote=False), style))
+    return out
+
+
+def _tenk_reference(ticker_symbol, filing_date):
+    """Sucht das 10-K mit dem angegebenen Einreichungsdatum in EDGAR (fuer das Quellenverzeichnis)."""
+    try:
+        from ..data_source.fmp_utils import _find_10k
+        y = int(str(filing_date)[:4])
+        for fy in (str(y - 1), str(y), "latest"):
+            try:
+                hit = _find_10k(ticker_symbol, fy)
+            except Exception:
+                continue
+            if hit.get("filing_date") == str(filing_date) or fy == "latest":
+                return hit
+    except Exception:
+        pass
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Eigene Ergaenzungen: Segmenttabelle, Peer-Tabelle, Faktencheck-Anhang
+# ---------------------------------------------------------------------------
+def _parse_segments(segment_data):
+    """segment_data: JSON-Liste [{"segment": str, "prior_revenue": float, "current_revenue": float}] in USD Mio."""
+    import json
+    if not segment_data or not str(segment_data).strip():
+        return []
+    data = json.loads(segment_data) if isinstance(segment_data, str) else segment_data
+    rows = []
+    for d in data:
+        rows.append({"segment": str(d["segment"]),
+                     "prior": float(d["prior_revenue"]) if d.get("prior_revenue") not in (None, "") else None,
+                     "current": float(d["current_revenue"])})
+    return rows
+
+
+def _company_name(sym):
+    try:
+        inf = YFinanceUtils.get_stock_info(sym) or {}
+        return inf.get("longName") or inf.get("shortName") or sym
+    except Exception:
+        return sym
+
+
+def _peer_tickers_from_text(text, own):
+    import re
+    found = []
+    for t in re.findall(r"\(([A-Z]{1,5})\)", str(text)):
+        if t != own and t not in found:
+            found.append(t)
+    return found
+
+
+def _latest(df, row):
+    if df is None or df.empty or row not in df.index:
+        return "n/a"
+    return df.loc[row, sorted(df.columns)[-1]]
+
+
+def _fcf_margin(df):
+    try:
+        f, r = float(_latest(df, "FCF")), float(_latest(df, "Revenue"))
+        return f"{f / r * 100:.1f}%" if r else "n/a"
+    except (TypeError, ValueError):
+        return "n/a"
+
+
+def _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics):
+    """Baut die Quellen-Indizes fuer den Faktencheck aus genau den Daten, die der Agent bekam."""
+    import glob
+    from .fact_check import SourceIndex
+    from ..data_source.sec_utils import CACHE_PATH
+
+    s1 = SourceIndex("[1] 10-K")
+    tenk = _tenk_reference(ticker_symbol, filing_date)
+    fy = (tenk or {}).get("report_date", "")[:4] or "*"
+    files = glob.glob(os.path.join(CACHE_PATH, "sec_utils", f"{ticker_symbol}_{fy}_*.txt"))
+    for f in files:
+        with open(f, encoding="utf-8", errors="ignore") as fh:
+            s1.add_text(fh.read())
+
+    s2 = SourceIndex("[2] Yahoo Finance")
+    for getter in (YFinanceUtils.get_income_stmt, YFinanceUtils.get_balance_sheet, YFinanceUtils.get_cash_flow):
+        try:
+            df = getter(ticker_symbol)
+            for v in df.values.flatten():
+                s2.add_raw_usd(v)
+        except Exception:
+            pass
+    for v in metrics.values.flatten():
+        s2.add_value(v)
+    for v in key_data.values():
+        s2.add_text(str(v))
+    try:
+        for row in ("Diluted EPS", "Basic EPS"):
+            inc = YFinanceUtils.get_income_stmt(ticker_symbol)
+            if row in inc.index:
+                for v in inc.loc[row].values:
+                    s2.add_value(v)
+    except Exception:
+        pass
+
+    s4 = SourceIndex("[4] Peer data")
+    for sym, df in peer_metrics.items():
+        for v in df.values.flatten():
+            s4.add_value(v)
+        try:
+            for getter in (YFinanceUtils.get_income_stmt, YFinanceUtils.get_cash_flow):
+                for v in getter(sym).values.flatten():
+                    s4.add_raw_usd(v)
+        except Exception:
+            pass
+    return [s1, s2, s4], len(files)
+
+
+def _factcheck_flowables(fc, n_tenk_files, styles, usable):
+    from xml.sax.saxutils import escape
+    h2, body, small, cell, cell_r, line = styles
+    out = [Spacer(1, 14), Paragraph("Appendix: Automated Fact Check", h2),
+           Paragraph(
+               "Every number in the report text was compared with the data the agent received: the 10-K sections [1], "
+               "the company's Yahoo Finance data [2] and the peer data [4]. A match means the figure appears in a source "
+               "(within rounding). 'Not found' does not automatically mean wrong: the figure may be derived (e.g. a ratio "
+               "computed by the model) and requires manual review. Ticker names are checked against the official company names.",
+               small), Spacer(1, 6)]
+    rate = f"{fc['match_rate'] * 100:.0f}%" if fc["match_rate"] is not None else "n/a"
+    rows = [[Paragraph("<b>Summary</b>", cell), ""],
+            [Paragraph("Numeric claims checked", cell), Paragraph(str(fc["total_claims"]), cell_r)],
+            [Paragraph("Found in sources", cell), Paragraph(f"{fc['matched']} ({rate})", cell_r)]]
+    for src, n in fc["by_source"].items():
+        rows.append([Paragraph(f"&nbsp;&nbsp;thereof {escape(src)}", cell), Paragraph(str(n), cell_r)])
+    for k, v in fc["by_kind"].items():
+        rows.append([Paragraph(f"Type '{k}': found / total", cell), Paragraph(f"{v['matched']} / {v['total']}", cell_r)])
+    rows.append([Paragraph("Name/ticker mismatches", cell), Paragraph(str(len(fc["name_issues"])), cell_r)])
+    if n_tenk_files == 0:
+        rows.append([Paragraph("<font color='#c62828'>Warning: no cached 10-K text found, source [1] not checked</font>", cell), ""])
+    t = Table(rows, colWidths=[usable * 0.6, usable * 0.2])
+    t.setStyle(line)
+    out += [t, Spacer(1, 8)]
+
+    if fc["name_issues"]:
+        out.append(Paragraph("Name/ticker mismatches", h2))
+        for i in fc["name_issues"]:
+            out.append(Paragraph(
+                f"<font color='#c62828'><b>{escape(i['written'])} ({i['ticker']})</b></font>: official name is "
+                f"<b>{escape(i['official'])}</b> (section: {escape(i['section'])}).", body))
+
+    if fc["unmatched"]:
+        out.append(Paragraph("Figures not found in the sources (manual review)", h2))
+        rows = [[Paragraph("<b>Section</b>", cell), Paragraph("<b>Figure</b>", cell), Paragraph("<b>Context</b>", cell)]]
+        for u in fc["unmatched"][:45]:
+            rows.append([Paragraph(escape(u["section"]), cell), Paragraph(escape(u["text"]), cell),
+                         Paragraph(escape(u["context"]), cell)])
+        t = Table(rows, colWidths=[usable * 0.18, usable * 0.12, usable * 0.70], repeatRows=1)
+        t.setStyle(TableStyle(line.getCommands() + [("VALIGN", (0, 0), (-1, -1), "TOP"),
+                                                    ("LINEBELOW", (0, 0), (-1, 0), 0.6, colors.black)]))
+        out.append(t)
+        if len(fc["unmatched"]) > 45:
+            out.append(Paragraph(f"... and {len(fc['unmatched']) - 45} more (see the JSON file next to the PDF).", small))
+    return out
+
+
+def _build_report_v3(ticker_symbol, pdf_path, summary, sections, share_img, val_img, filing_date,
+                     peer_tickers=None, segments=None):
+    from datetime import date
+    from reportlab.lib.units import cm
+    from reportlab.platypus import KeepInFrame, CondPageBreak
+
+    page_w, page_h = pagesizes.A4
+    m = 1.6 * cm
+    usable = page_w - 2 * m
+    doc = SimpleDocTemplate(
+        pdf_path, pagesize=pagesizes.A4,
+        leftMargin=m, rightMargin=m, topMargin=m, bottomMargin=m,
+        title=f"{ticker_symbol} Equity Research Report",
+    )
+    ss = getSampleStyleSheet()
+    hfont = _heading_font()
+    body = ParagraphStyle("BodyV3", parent=ss["Normal"], fontName="Helvetica",
+                          fontSize=10, leading=14, alignment=TA_JUSTIFY, spaceAfter=7)
+    body_s = ParagraphStyle("BodySV3", parent=body, fontSize=9.5, leading=13, spaceAfter=6)
+    small = ParagraphStyle("SmallV3", parent=ss["Normal"], fontName="Helvetica",
+                           fontSize=7.5, leading=9.5, textColor=colors.HexColor("#555555"))
+    cell = ParagraphStyle("CellV3", parent=ss["Normal"], fontName="Helvetica", fontSize=8, leading=10)
+    cell_r = ParagraphStyle("CellRV3", parent=cell, alignment=2)
+    title = ParagraphStyle("TitleV3", parent=ss["Title"], fontName=hfont,
+                           fontSize=18, leading=22, alignment=TA_LEFT, spaceAfter=2)
+    over = ParagraphStyle("OverV3", parent=ss["Normal"], fontName="Helvetica-Bold", fontSize=8,
+                          leading=10, textColor=colors.HexColor("#1f4e79"), spaceAfter=1)
+    sub = ParagraphStyle("SubV3", parent=ss["Normal"], fontName="Helvetica",
+                         fontSize=9, leading=12, textColor=colors.HexColor("#444444"), spaceAfter=8)
+    h2 = ParagraphStyle("H2V3", parent=ss["Heading2"], fontName=hfont,
+                        fontSize=13, leading=16, spaceBefore=8, spaceAfter=4)
+    h3 = ParagraphStyle("H3V3", parent=ss["Heading3"], fontName=hfont,
+                        fontSize=10.5, leading=13, spaceBefore=2, spaceAfter=3)
+    ref = ParagraphStyle("RefV3", parent=ss["Normal"], fontName="Helvetica", fontSize=9, leading=12,
+                         leftIndent=0.8 * cm, firstLineIndent=-0.8 * cm, spaceAfter=4)
+    line = TableStyle([
+        ("LINEBELOW", (0, 0), (-1, 0), 1.2, colors.black),
+        ("LINEBELOW", (0, -1), (-1, -1), 1.2, colors.black),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("TOPPADDING", (0, 0), (-1, -1), 1.5), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.5),
+    ])
+
+    info = YFinanceUtils.get_stock_info(ticker_symbol) or {}
+    name = info.get("shortName") or info.get("longName") or ticker_symbol
+    currency = info.get("currency", "USD")
+
+    content = [
+        Paragraph("EQUITY RESEARCH REPORT", over),
+        Paragraph(f"{name} ({ticker_symbol})", title),
+        Paragraph(f"Based on the 10-K filed {filing_date} [1] &nbsp;|&nbsp; generated with {REPORT_BRAND}"
+                  + ("" if "FinRobot" in REPORT_BRAND else " (built on FinRobot)"), sub),
+    ]
+
+    # --- Seite 1: links Text, rechts Charts und Key Data -------------------
+    gap = 0.5 * cm
+    left_w = usable * 0.52
+    right_w = usable - left_w - gap
+    row_h = 16.6 * cm
+
+    left = [Paragraph("Investment Summary", h2)] + _paragraphs(summary, body_s)
+
+    key_data = ReportAnalysisUtils.get_key_data(ticker_symbol, filing_date)
+    kd_rows = [[Paragraph("<b>Key data</b>", h3), ""]]
+    kd_rows += [[Paragraph(str(k), cell), Paragraph(str(v), cell_r)] for k, v in key_data.items()]
+    kd = Table(kd_rows, colWidths=[right_w * 0.55, right_w * 0.45])
+    kd.setStyle(line)
+    right = [
+        Paragraph("Share Performance", h3), _scaled_image(share_img, right_w, 4.6 * cm), Spacer(1, 0.2 * cm),
+        kd,
+        Paragraph("Prices as of the filing date [2]; rating and target price are the current analyst consensus [3].", small),
+        Spacer(1, 0.25 * cm),
+        Paragraph("Valuation", h3), _scaled_image(val_img, right_w, 6.4 * cm),
+    ]
+    row = Table(
+        [[KeepInFrame(left_w, row_h, left, mode="shrink"), "", KeepInFrame(right_w, row_h, right, mode="shrink")]],
+        colWidths=[left_w, gap, right_w],
+    )
+    row.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
+                             ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                             ("TOPPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
+    content += [row, Spacer(1, 0.3 * cm)]
+
+    # --- Seite 1 unten: Financial Metrics -----------------------------------
+    metrics = FMPUtils.get_financial_metrics(ticker_symbol, years=5)
+    df = metrics.reset_index()
+    df = df.rename(columns={"index": f"FY ({currency} mn)"})
+    n = df.shape[1]
+    first_w = usable * 0.28
+    fm_rows = [[Paragraph("<b>Financial Metrics</b> [2]", h3)] + [""] * (n - 1)]
+    fm_rows += [[Paragraph(f"<b>{c}</b>", cell if i == 0 else cell_r) for i, c in enumerate(df.columns)]]
+    fmt = lambda v: f"<i>{v}</i>" if isinstance(v, str) and v.endswith("%") else str(v)
+    fm_rows += [[Paragraph(fmt(v), cell if i == 0 else cell_r) for i, v in enumerate(r)] for r in df.values.tolist()]
+    fm = Table(fm_rows, colWidths=[first_w] + [(usable - first_w) / (n - 1)] * (n - 1))
+    fm.setStyle(TableStyle(line.getCommands() + [
+        ("SPAN", (0, 0), (-1, 0)), ("LINEBELOW", (0, 1), (-1, 1), 0.6, colors.black),
+        ("ROWBACKGROUNDS", (0, 2), (-1, -1), [colors.white, colors.HexColor("#F3F4F6")]),
+    ]))
+    content += [fm, Paragraph("n/a = not available; n/m = not meaningful (e.g. multiple with negative denominator).", small),
+                PageBreak()]
+
+    # --- Ab Seite 2: Abschnitte ---------------------------------------------
+    sec = dict(sections)
+    own_fy = str(sorted(metrics.columns)[-1]) if len(metrics.columns) else "current"
+    # Peer-Daten (fuer Tabelle und Faktencheck)
+    peers = list(peer_tickers or []) or _peer_tickers_from_text(sec.get("Competitors Analysis", ""), ticker_symbol)
+    peer_metrics, peer_errors = {}, []
+    for ptk in peers:
+        try:
+            peer_metrics[ptk] = FMPUtils.get_financial_metrics(ptk, years=4)
+        except Exception as e:
+            peer_errors.append(f"{ptk}: {e}")
+    names = {t_: _company_name(t_) for t_ in [ticker_symbol] + list(peer_metrics)}
+
+    for heading, text in sections:
+        content.append(Paragraph(heading, h2))
+        content += _paragraphs(text, body)
+        if heading == "Operating Results" and segments:
+            prior_fy = str(int(own_fy) - 1) if own_fy.isdigit() else "prior"
+            rows = [[Paragraph("<b>Segment revenue</b> [1]", h3), "", "", ""],
+                    [Paragraph(f"<b>{c}</b>", cell if i == 0 else cell_r) for i, c in
+                     enumerate([f"Segment ({currency} mn)", f"FY{prior_fy}", f"FY{own_fy}", "Growth"])]]
+            for sg in segments:
+                g = (sg["current"] / sg["prior"] - 1) * 100 if sg["prior"] else None
+                rows.append([Paragraph(sg["segment"], cell),
+                             Paragraph("n/a" if sg["prior"] is None else f"{sg['prior']:,.1f}", cell_r),
+                             Paragraph(f"{sg['current']:,.1f}", cell_r),
+                             Paragraph("n/a" if g is None else f"<i>{g:+.1f}%</i>", cell_r)])
+            tot_p = sum(sg["prior"] for sg in segments if sg["prior"]) if all(sg["prior"] for sg in segments) else None
+            tot_c = sum(sg["current"] for sg in segments)
+            rows.append([Paragraph("<b>Total</b>", cell),
+                         Paragraph("n/a" if tot_p is None else f"<b>{tot_p:,.1f}</b>", cell_r),
+                         Paragraph(f"<b>{tot_c:,.1f}</b>", cell_r),
+                         Paragraph("n/a" if not tot_p else f"<i><b>{(tot_c / tot_p - 1) * 100:+.1f}%</b></i>", cell_r)])
+            tb = Table(rows, colWidths=[usable * 0.40, usable * 0.20, usable * 0.20, usable * 0.20])
+            tb.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)),
+                                                         ("LINEBELOW", (0, 1), (-1, 1), 0.6, colors.black),
+                                                         ("LINEABOVE", (0, -1), (-1, -1), 0.6, colors.black)]))
+            content += [Spacer(1, 4), tb, Spacer(1, 8)]
+        if heading == "Competitors Analysis" and peer_metrics:
+            cols = ["Company", "FY", f"Revenue ({currency} mn)", "Growth", "Gross margin", "EBITDA margin",
+                    "FCF margin", "EV/Sales", "P/B"]
+            rows = [[Paragraph("<b>Peer comparison, latest fiscal year</b> [2][4]", h3)] + [""] * 8,
+                    [Paragraph(f"<b>{c}</b>", cell if i == 0 else cell_r) for i, c in enumerate(cols)]]
+            for t_, m_ in [(ticker_symbol, metrics)] + list(peer_metrics.items()):
+                vals = [f"{names.get(t_, t_)} ({t_})", str(sorted(m_.columns)[-1]), _latest(m_, "Revenue"),
+                        _latest(m_, "Revenue Growth"), _latest(m_, "Gross Margin"), _latest(m_, "EBITDA Margin"),
+                        _fcf_margin(m_), _latest(m_, "EV/Sales"), _latest(m_, "PB Ratio")]
+                bold = t_ == ticker_symbol
+                rows.append([Paragraph((f"<b>{v}</b>" if bold else str(v)) if i == 0 else
+                                       (f"<i>{v}</i>" if str(v).endswith("%") else str(v)), cell if i == 0 else cell_r)
+                             for i, v in enumerate(vals)])
+            w0 = usable * 0.26
+            tb = Table(rows, colWidths=[w0] + [(usable - w0) / 8] * 8)
+            tb.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)),
+                                                         ("LINEBELOW", (0, 1), (-1, 1), 0.6, colors.black)]))
+            content += [Spacer(1, 4), tb]
+            note = "Fiscal year ends can differ between companies (e.g. Planet Labs ends in January)."
+            if peer_errors:
+                note += " Not available: " + "; ".join(peer_errors)
+            content += [Paragraph(note, small), Spacer(1, 8)]
+
+    # --- Quellenverzeichnis ---------------------------------------------------
+    today = date.today().isoformat()
+    tenk = _tenk_reference(ticker_symbol, filing_date)
+    if tenk:
+        r1 = (f"{name}, Form 10-K for the fiscal year ended {tenk.get('report_date', 'n/a')}, filed {tenk.get('filing_date')}, "
+              f"SEC EDGAR, {tenk.get('url')} (Items 1, 1A and 7 retrieved via sec-api.io).")
+    else:
+        r1 = f"{name}, Form 10-K filed {filing_date}, SEC EDGAR (Items 1, 1A and 7 retrieved via sec-api.io)."
+    refs = [
+        r1,
+        f"Yahoo Finance: annual financial statements and daily share prices for {ticker_symbol}, retrieved {today} via yfinance.",
+        f"Yahoo Finance: analyst recommendations and price targets for {ticker_symbol}, retrieved {today} (current consensus, not as of the filing date).",
+        f"Yahoo Finance: annual financial statements of the peer companies named in the Competitors Analysis, retrieved {today}.",
+    ]
+    content += [CondPageBreak(6 * cm), Paragraph("Sources", h2)]
+    content += [Paragraph(f"[{i}]&nbsp;&nbsp;{r}", ref) for i, r in enumerate(refs, 1)]
+
+    # --- Anhang: automatischer Faktencheck -----------------------------------
+    from .fact_check import run_fact_check, save_json
+    fc_sections = [("Investment Summary", summary)] + list(sections)
+    if segments:
+        fc_sections.append(("Segment table", "; ".join(
+            f"{sg['segment']}: ${sg['current']} million" + (f", prior ${sg['prior']} million" if sg["prior"] else "")
+            for sg in segments)))
+    srcs, n_tenk = _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics)
+    fc = run_fact_check(fc_sections, srcs, names)
+    fc["peer_tickers"] = list(peer_metrics)
+    save_json(fc, os.path.splitext(pdf_path)[0] + "_factcheck.json")
+    content += _factcheck_flowables(fc, n_tenk, (h2, body, small, cell, cell_r, line), usable)
+
+    def _footer(canv, d):
+        canv.saveState()
+        canv.setFont("Helvetica", 7.5)
+        canv.setFillColor(colors.HexColor("#777777"))
+        canv.drawString(m, 0.9 * cm, f"{name} ({ticker_symbol}) - {REPORT_BRAND} - for academic purposes only, not investment advice")
+        canv.drawRightString(page_w - m, 0.9 * cm, f"Page {d.page}")
+        canv.restoreState()
+
+    doc.build(content, onFirstPage=_footer, onLaterPages=_footer)
+    return (f"Annual report generated successfully. Fact check: {fc['matched']} of {fc['total_claims']} figures found "
+            f"in the sources, {len(fc['name_issues'])} name/ticker mismatch(es). Details in the appendix of the PDF.")
 
 
 class ReportLabUtils:
@@ -31,36 +450,99 @@ class ReportLabUtils:
         save_path: Annotated[str, "path to save the annual report pdf"],
         operating_results: Annotated[
             str,
-            "a paragraph of text: the company's income summarization from its financial report",
+            "a paragraph of text: the company's income summarization from its financial report" + CITATION_GUIDE,
         ],
         market_position: Annotated[
             str,
-            "a paragraph of text: the company's current situation and end market (geography), major customers (blue chip or not), market share from its financial report, avoid similar sentences also generated in the business overview section, classify it into either of the two",
+            "a paragraph of text: the company's current situation and end market (geography), major customers (blue chip or not), market share from its financial report, avoid similar sentences also generated in the business overview section, classify it into either of the two" + CITATION_GUIDE,
         ],
         business_overview: Annotated[
             str,
-            "a paragraph of text: the company's description and business highlights from its financial report",
+            "a paragraph of text: the company's description and business highlights from its financial report" + CITATION_GUIDE,
         ],
         risk_assessment: Annotated[
             str,
-            "a paragraph of text: the company's risk assessment from its financial report",
+            "a paragraph of text: the company's risk assessment from its financial report" + CITATION_GUIDE,
         ],
         competitors_analysis: Annotated[
             str,
-            "a paragraph of text: the company's competitors analysis from its financial report and competitors' financial report",
+            "a paragraph of text: the company's competitors analysis from its financial report and competitors' financial report" + CITATION_GUIDE,
         ],
         share_performance_image_path: Annotated[
             str, "path to the share performance image"
         ],
         pe_eps_performance_image_path: Annotated[
-            str, "path to the PE and EPS performance image"
+            str, "path to the valuation chart image (from get_pe_eps_performance)"
         ],
         filing_date: Annotated[str, "filing date of the analyzed financial report"],
+        investment_summary: Annotated[
+            str,
+            "the investment summary for page 1: 150-300 words with the key conclusions (business momentum, financial trajectory, valuation, main risks)" + CITATION_GUIDE,
+        ],
+        peer_tickers: Annotated[
+            List[str], "ticker symbols of the peer companies used in the competitors analysis, e.g. ['LUNR', 'RDW', 'PL']"
+        ] = None,
+        segment_data: Annotated[
+            str,
+            'optional JSON list with segment revenue from the 10-K in USD millions, e.g. '
+            '[{"segment": "Space Systems", "prior_revenue": 310.9, "current_revenue": 402.8}]. Use only figures stated in the 10-K.',
+        ] = "",
     ) -> str:
         """
         Aggregate a company's business_overview, market_position, operating_results,
         risk assessment, competitors analysis and share performance, PE & EPS performance charts all into a PDF report.
+        Also requires an investment_summary (150-300 words) for page 1. All text arguments must be final prose
+        (not file paths) and should cite sources as [1]-[4]; the source list is added automatically.
         """
+        # Angepasst: Plausibilitaetspruefung der Textabschnitte. Kleinere Modelle uebergeben hier
+        # oft Dateipfade oder Platzhalter statt fertigem Text; das Original hat diese dann
+        # woertlich ins PDF geschrieben. Jetzt wird das abgelehnt und dem Agenten erklaert.
+        sections = {
+            "operating_results": operating_results,
+            "market_position": market_position,
+            "business_overview": business_overview,
+            "risk_assessment": risk_assessment,
+            "competitors_analysis": competitors_analysis,
+            "investment_summary": investment_summary,
+        }
+        problems = []
+        for name, text in sections.items():
+            t = (text or "").strip()
+            if t.endswith(".txt") or t.startswith(("../", "./", "/")) or os.path.isfile(t):
+                problems.append(f"{name}: ist ein Dateipfad ('{t[:80]}'), kein Text")
+            elif len(t.split()) < 40:
+                problems.append(f"{name}: nur {len(t.split())} Woerter ('{t[:80]}')")
+        try:
+            segments = _parse_segments(segment_data)
+        except Exception as e:
+            problems.append(f"segment_data: kein gueltiges JSON im erwarteten Format ({e})")
+            segments = []
+        if len((investment_summary or "").split()) > 320:
+            problems.append(f"investment_summary: {len(investment_summary.split())} Woerter, maximal 320 (passt sonst nicht auf Seite 1)")
+        if problems:
+            return (
+                "PDF NOT generated. Each text argument must contain the final written paragraph "
+                "(roughly 60-120 words), not a file path or placeholder. Problems: "
+                + "; ".join(problems)
+                + ". Write the paragraphs from the analyses you received, then call build_annual_report again."
+            )
+
+        # Angepasst: neues Layout (siehe _build_report_v2). Das Original folgt unveraendert darunter.
+        try:
+            pdf_path = (os.path.join(save_path, f"{ticker_symbol}_Equity_Research_report.pdf")
+                        if os.path.isdir(save_path) else save_path)
+            os.makedirs(os.path.dirname(pdf_path) or ".", exist_ok=True)
+            return _build_report_v3(
+                ticker_symbol, pdf_path, investment_summary,
+                [("Business Overview", business_overview), ("Market Position", market_position),
+                 ("Operating Results", operating_results), ("Risk Assessment", risk_assessment),
+                 ("Competitors Analysis", competitors_analysis)],
+                share_performance_image_path, pe_eps_performance_image_path, filing_date,
+                peer_tickers=peer_tickers, segments=segments,
+            )
+        except Exception:
+            return traceback.format_exc()
+
         try:
             # 2. 创建PDF并插入图像
             # 页面设置

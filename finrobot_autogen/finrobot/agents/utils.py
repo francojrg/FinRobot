@@ -8,10 +8,19 @@ def instruction_trigger(sender):
 
 
 def instruction_message(recipient, messages, sender, config):
-    # Extract the path to the instruction text file from the last message
+    # Extract the path to the instruction text file from the last message.
+    # Angepasst: Hat das Modell mehrere Tools gleichzeitig aufgerufen, stehen mehrere Pfade
+    # (und weitere Tool-Ausgaben) in einer Nachricht. Das Original hat daraus einen ungueltigen
+    # Dateinamen gebaut (OSError). Jetzt wird das erkannt und klar gemeldet.
     full_order = recipient.chat_messages_for_summary(sender)[-1]["content"]
-    txt_path = full_order.replace("instruction & resources saved to ", "").strip()
-    with open(txt_path, "r", encoding="utf-8") as f:
+    paths = re.findall(r"instruction & resources saved to (\S+?\.txt)", full_order)
+    if len(paths) != 1:
+        raise RuntimeError(
+            f"Erwartet wurde genau ein Analyse-Auftrag, gefunden: {len(paths)} ({paths}). "
+            "Das Modell hat vermutlich mehrere Tools parallel aufgerufen. "
+            'Setze im llm_config "parallel_tool_calls": False.'
+        )
+    with open(paths[0], "r", encoding="utf-8") as f:
         instruction = f.read() + "\n\nReply TERMINATE at the end of your response."
     return instruction
 

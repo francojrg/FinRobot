@@ -232,7 +232,16 @@ class ReportAnalysisUtils:
         financial_data = FMPUtils.get_competitor_financial_metrics(ticker_symbol, competitors, years=4)
 
         # Construct the financial data summary
-        table_str = ""
+        # Angepasst: Firmennamen aus Yahoo Finance mitgeben, damit das Modell sie nicht
+        # aus dem Gedaechtnis ergaenzt (vorher z. B. 'Luna Innovations' statt Intuitive Machines fuer LUNR).
+        def _company_name(sym):
+            try:
+                inf = YFinanceUtils.get_stock_info(sym) or {}
+                return inf.get("longName") or inf.get("shortName") or sym
+            except Exception:
+                return sym
+        names = {s: _company_name(s) for s in [ticker_symbol] + list(competitors)}
+        table_str = "Company names (use exactly these names): " + "; ".join(f"{k} = {v}" for k, v in names.items()) + "\n"
         for metric in financial_data[ticker_symbol].index:
             table_str += f"\n\n{metric}:\n"
             company_value = financial_data[ticker_symbol].loc[metric]
@@ -244,8 +253,8 @@ class ReportAnalysisUtils:
         # Prepare the instructions for analysis
         instruction = dedent(
           """
-          Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple years (indicated as 0, 1, 2, 3, with 0 being the latest year and 3 the earliest year). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
-          For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest year (3) to the latest year (0) for {company}. But when generating analysis, you need to write 1: year 3 = year 2023, 2: year 2 = year 2022, 3: year 1 = year 2021 and 4: year 0 = year 2020. Highlight any significant improvements, declines, or stability in these metrics over time.
+          Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+          For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
           Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
           Metric-Specific Insights:
 
