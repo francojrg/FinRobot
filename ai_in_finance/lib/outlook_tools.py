@@ -17,7 +17,10 @@ def get_consensus_and_liquidity(
     """
     Analyst consensus estimates (revenue and EPS for the current and next fiscal year, forward multiples)
     and liquidity/funding data (cash, debt, net cash, free cash flow burn, cash runway, current ratio,
-    share count change) at the 10-K fiscal year end and the latest quarter. Use it for the key takeaways,
+    share count change) at the 10-K fiscal year end and the latest quarter, plus a reverse DCF (revenue growth
+    implied by the current enterprise value) with the implied return (IRR) on the consensus path, EPS estimate
+    revisions, the last four earnings surprises and financial quality scores (Piotroski, Altman Z, Beneish M).
+    Use it for the key takeaways,
     the investment summary and the valuation/funding discussion. Consensus figures are cited as [3],
     balance sheet and cash flow figures as [2]; both are dated after the 10-K.
     """

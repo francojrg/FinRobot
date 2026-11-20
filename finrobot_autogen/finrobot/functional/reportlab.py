@@ -36,6 +36,95 @@ REPORT_BRAND = "Franci's FINRobot"
 #     "#1B4D3E" Tannengruen, "#6D1A36" Bordeaux, "#2F3B45" Anthrazit
 REPORT_COLOR = "#0F4C5C"
 
+# Selbstkorrektur: nach dem ersten PDF bekommt der Agent die nicht belegten Zahlen zurueck (eine Runde).
+# Abschalten fuer Vergleichslaeufe: Umgebungsvariable FINROBOT_SELF_CORRECT=0
+_BUILD_ROUNDS = {}
+
+
+def SELF_CORRECT():
+    return os.environ.get("FINROBOT_SELF_CORRECT", "1") != "0"
+
+
+def _momentum_chart(mo, path, color):
+    """Earnings Momentum als Chart: links EPS-Konsens im Zeitverlauf, rechts Schaetzung vs. Ist der letzten Quartale."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    tint = _tint(color, 0.6)
+    panels = (1 if mo["trend"] else 0) + (1 if mo["surprises"] else 0)
+    fig, axes = plt.subplots(1, panels, figsize=(9.2, 3.1), squeeze=False)
+    axes = list(axes[0])
+    plt.rcParams.update({"font.size": 8})
+    if mo["trend"]:
+        ax = axes.pop(0)
+        labels = ["90d ago", "60d ago", "30d ago", "7d ago", "Today"]
+        for tr_, ls, mk in zip(mo["trend"], ("-", "--"), ("o", "s")):
+            ys = [tr_.get("d90"), tr_.get("d60"), tr_.get("d30"), tr_.get("d7"), tr_.get("current")]
+            pts = [(i, y) for i, y in enumerate(ys) if y is not None]
+            if not pts:
+                continue
+            ax.plot([p_[0] for p_ in pts], [p_[1] for p_ in pts], ls, marker=mk, color=color, lw=1.6, ms=4,
+                    label=f"{tr_['period'].replace(' fiscal year', ' FY')}  (up/down 30d: "
+                          f"{int(tr_.get('up30') or 0)}/{int(tr_.get('down30') or 0)})")
+            ax.annotate(f"{pts[-1][1]:.2f}", pts[-1], xytext=(5, 0), textcoords="offset points", va="center",
+                        fontsize=7.5, color=color)
+        ax.set_xticks(range(5))
+        ax.set_xticklabels(labels, fontsize=7.5)
+        ax.set_title("EPS consensus: revisions", fontsize=9, color=color, loc="left", fontweight="bold")
+        ax.legend(fontsize=7, frameon=False, loc="best")
+        ax.set_xlim(-0.3, 4.6)
+    if mo["surprises"]:
+        ax = axes.pop(0)
+        q = list(reversed(mo["surprises"]))  # chronologisch
+        x = list(range(len(q)))
+        est = [s_["estimate"] for s_ in q]
+        act = [s_["actual"] for s_ in q]
+        pe = [(i, v) for i, v in zip(x, est) if v is not None]
+        pa = [(i, v) for i, v in zip(x, act) if v is not None]
+        ax.plot([p_[0] for p_ in pe], [p_[1] for p_ in pe], "--", marker="o", mfc="white", mec=color, color=tint,
+                lw=1.2, ms=5, label="Estimate")
+        ax.plot([p_[0] for p_ in pa], [p_[1] for p_ in pa], "-", color=color, lw=1.6, zorder=2)
+        GREEN, RED = "#2D8A4E", "#B42318"
+        sc = lambda sp_: color if sp_ is None or abs(sp_) < 0.005 else (GREEN if sp_ > 0 else RED)
+        ax.scatter([i for i, v in zip(x, act) if v is not None], [v for v in act if v is not None], s=34, zorder=3,
+                   color=[sc(s_["surprise"]) for s_ in q if s_["actual"] is not None], edgecolors="white", linewidths=0.6)
+        ax.plot([], [], "o", color=GREEN, ms=5, label="Actual: beat")
+        ax.plot([], [], "o", color=RED, ms=5, label="Actual: miss")
+        vals = [v for v in est + act if v is not None] or [0]
+        lo, hi = min(vals), max(vals)
+        pad = (hi - lo) * 0.25 or 0.02
+        for i, s_ in enumerate(q):
+            if s_["surprise"] is None or s_["actual"] is None:
+                continue
+            above = s_["actual"] >= (s_["estimate"] if s_["estimate"] is not None else s_["actual"])
+            ax.annotate(f"{s_['surprise'] * 100:+.0f}%", (i, s_["actual"]), xytext=(0, 9 if above else -13),
+                        textcoords="offset points", ha="center", fontsize=7.5, fontweight="bold",
+                        color=sc(s_["surprise"]))
+        ax.set_ylim(lo - pad, hi + pad)
+        ax.set_xlim(-0.4, len(q) - 0.6)
+        ax.set_xticks(list(x))
+        ax.set_xticklabels([s_["quarter"][:7] for s_ in q], fontsize=7.5)
+        from matplotlib.ticker import FormatStrFormatter as _F
+        ax.yaxis.set_major_formatter(_F("%.2f"))
+        ax.set_title("EPS surprises", fontsize=9, color=color, loc="left", fontweight="bold")
+        ax.legend(fontsize=7, frameon=False, loc="lower right", bbox_to_anchor=(1.0, 1.0), ncol=3, borderaxespad=0.2,
+                  handletextpad=0.3, columnspacing=0.8)
+    for ax in fig.axes:
+        for sp in ("top", "right"):
+            ax.spines[sp].set_visible(False)
+        ax.tick_params(labelsize=7.5)
+        ax.grid(axis="y", color="#E5E5E5", lw=0.6)
+        ax.set_axisbelow(True)
+    fig.tight_layout(w_pad=3)
+    fig.savefig(path, dpi=200)
+    plt.close(fig)
+    return path
+
+
+def reset_build_rounds():
+    """Vor jedem neuen Agenten-Lauf aufrufen (zaehlt die PDF-Builds je Datei)."""
+    _BUILD_ROUNDS.clear()
+
 
 def _tint(hex_color, share_white):
     """Mischt eine Farbe mit Weiss (share_white 0..1) fuer Kasten- und Linienfarben."""
@@ -237,6 +326,8 @@ def _factcheck_flowables(fc, n_tenk_files, styles, usable, heading=None):
                 f"<b>{escape(i['official'])}</b> (section: {escape(i['section'])}).", body))
 
     if fc["unmatched"]:
+        from reportlab.platypus import CondPageBreak as _CPB
+        out.append(_CPB(4 * 28.35))
         out += H("Figures not found in the sources (manual review)")
         rows = [[Paragraph("<font color='white'><b>Section</b></font>", cell), Paragraph("<font color='white'><b>Figure</b></font>", cell), Paragraph("<font color='white'><b>Context</b></font>", cell)]]
         for u in fc["unmatched"][:45]:
@@ -462,7 +553,7 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     from reportlab.lib.units import cm
     from reportlab.platypus import KeepInFrame, CondPageBreak
     import pandas as pd
-    from .outlook import get_consensus, get_liquidity, outlook_text, fmt_mn, fmt_runway, fmt_pct
+    from .outlook import get_consensus, get_liquidity, outlook_text, fmt_mn, fmt_runway, fmt_pct, reverse_dcf, fmt_g, implied_irr, estimate_momentum, quality_scores
 
     page_w, page_h = pagesizes.A4
     m = 1.6 * cm
@@ -736,6 +827,64 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
                     note += (f" Latest quarter: retrieved {date.today().isoformat()}, i.e. after the 10-K; "
                              "free cash flow is the trailing twelve months.")
                 content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Liquidity and funding"), tb, source(note)])]
+            try:
+                mo = estimate_momentum(ticker_symbol)
+            except Exception:
+                mo = {"error": "n/a", "trend": [], "surprises": []}
+            if mo["trend"] or mo["surprises"]:
+                try:
+                    img_p = _momentum_chart(mo, os.path.splitext(pdf_path)[0] + "_earnings_momentum.png", REPORT_COLOR)
+                    chart = _scaled_image(img_p, usable, 6.5 * cm)
+                except Exception:
+                    chart = None
+                note = (f"Yahoo Finance [3], retrieved {date.today().isoformat()}, i.e. after the 10-K. Left: mean EPS "
+                        "estimate for the current and next fiscal year over the last 90 days; in brackets the number of "
+                        "analysts raising/cutting in the last 30 days. Right: reported EPS vs consensus, with surprise in %.")
+                if chart is not None:
+                    content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Earnings momentum: estimate revisions and surprises"),
+                                              chart, source(note)])]
+        if sec_title == "Risk Assessment":
+            try:
+                q = quality_scores(ticker_symbol, fy=int(own_fy)) if own_fy.isdigit() else {"error": "n/a"}
+            except Exception:
+                q = {"error": "n/a"}
+            if not q.get("error"):
+                half = usable * 0.55
+                pi = q["piotroski"]
+                r_ = [[Paragraph(f"Piotroski F-Score: FY{q['fy']} vs FY{q['fy'] - 1}", cell_w), Paragraph("Result", cell_wr)]]
+                res_style = []
+                for i, cr_ in enumerate(pi["criteria"], start=1):
+                    txt = ("n/a" if cr_["pass"] is None else
+                           (f'<font color="{REPORT_COLOR}"><b>Pass</b></font>' if cr_["pass"] else
+                            '<font color="#9B2226"><b>Fail</b></font>'))
+                    r_.append([Paragraph(cr_["criterion"], cell), Paragraph(txt, cell_r)])
+                    if cr_["pass"] is not None:
+                        res_style.append(("TEXTCOLOR", (1, i), (1, i), NAVY if cr_["pass"] else colors.HexColor("#9B2226")))
+                r_.append([Paragraph("<b>Score</b>", cell), Paragraph(f"<b>{pi['score']} / {pi['available']}</b>", cell_r)])
+                tp = Table(r_, colWidths=[half * 0.78, half * 0.22])
+                tp.setStyle(TableStyle(line.getCommands() + [("BACKGROUND", (0, len(r_) - 1), (-1, len(r_) - 1), PANEL)]))
+                w2 = usable * 0.41
+                r2 = [[Paragraph("Score", cell_w), Paragraph("Value", cell_wr), Paragraph("Reading", cell_w)]]
+                if q["altman"]:
+                    r2.append([Paragraph("Altman Z", cell), Paragraph(f"{q['altman']['z']:.2f}", cell_r),
+                               Paragraph(f"{q['altman']['zone']} zone (&gt;2.99 safe, &lt;1.81 distress)", cell)])
+                if q["beneish"]:
+                    r2.append([Paragraph("Beneish M", cell), Paragraph(f"{q['beneish']['m']:.2f}", cell_r),
+                               Paragraph("warning sign (&gt; -1.78)" if q["beneish"]["flag"] else "no warning sign (&lt; -1.78)", cell)])
+                blocks = [tp]
+                if len(r2) > 1:
+                    t2_ = Table(r2, colWidths=[w2 * 0.27, w2 * 0.2, w2 * 0.53])
+                    t2_.setStyle(TableStyle(line.getCommands()))
+                    blocks.append(t2_)
+                row_ = Table([[blocks[0], "", blocks[1] if len(blocks) > 1 else ""]], colWidths=[half, usable * 0.04, w2])
+                row_.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                                          ("RIGHTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 0),
+                                          ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
+                note = ("Own calculation from Yahoo Finance statements [2]. Piotroski: one point per criterion met. "
+                        "Altman Z (original formula) uses the current market capitalisation and is designed for "
+                        "manufacturers; less reliable for young growth companies. Beneish M: statistical screen for "
+                        "earnings manipulation, not proof.")
+                content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Financial quality scores"), row_, source(note)])]
         if sec_title == "Competitors Analysis" and peer_metrics:
             cols = ["Company", "FY", f"Sales ({currency} mn)", "Growth", "Gross margin", "EBITDA margin",
                     "FCF margin", "EV/ Sales", "Fwd EV/ Sales", "P/B"]
@@ -765,6 +914,70 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
             if peer_errors:
                 note += " Not available: " + "; ".join(peer_errors)
             content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Peer comparison, latest fiscal year"), tb, source(note)])]
+        if sec_title == "Competitors Analysis":
+            try:
+                rd = reverse_dcf(ticker_symbol, fy=int(own_fy)) if own_fy.isdigit() else {"error": "no fiscal year"}
+            except Exception as e:
+                rd = {"error": str(e)}
+            if not rd.get("error"):
+                p_ = lambda v: fmt_pct(v, sign=False)
+                inputs = [
+                    (f"Enterprise value, current ({currency} mn)", fmt_mn(rd["ev"], 0)),
+                    (f"Revenue FY{rd['fy']} ({currency} mn)", fmt_mn(rd["rev0"])),
+                    (f"FCF margin FY{rd['fy']}", p_(rd["m0"])),
+                    (f"FCF margin in year {rd['years']} (assumed)", p_(rd["m_target"])),
+                    ("WACC", f"{p_(rd['wacc'])}"),
+                    ("&nbsp;&nbsp;risk-free rate / beta / ERP", f"{p_(rd['rf'])} / {rd['beta']:.2f} / 5.0%"),
+                    ("Terminal growth", p_(rd["tg"])),
+                    (f"<b>Implied revenue CAGR, {rd['years']} years</b>", f"<b>{fmt_g(rd['implied_g'])}</b>"),
+                    (f"Implied revenue FY{rd['fy'] + rd['years']} ({currency} mn)",
+                     fmt_mn(rd["rev_end"], 0) if rd["rev_end"] else "n/a"),
+                    ("Historical revenue CAGR, 3 years", fmt_g(rd["hist_cagr3"])),
+                ]
+                try:
+                    ir = implied_irr(ticker_symbol, fy=int(own_fy))
+                except Exception:
+                    ir = {"error": "n/a"}
+                irr_row = None
+                if not ir.get("error"):
+                    irr_row = len(inputs) + 1
+                    inputs.append(("<b>Implied return (IRR), consensus path</b>", f"<b>{fmt_g(ir['irr'])}</b>"))
+                    if ir["spread"] is not None:
+                        inputs.append(("&nbsp;&nbsp;vs WACC", f"{ir['spread'] * 100:+.1f} pp"))
+                for y_ in con["years"]:
+                    inputs.append((f"Consensus revenue growth FY{y_['fy']}E", fmt_g(y_["growth"])))
+                left_w2 = usable * 0.50
+                t1 = Table([[Paragraph(f"Inputs and result", cell_w), ""]] +
+                           [[Paragraph(a_, cell), Paragraph(b_, cell_r)] for a_, b_ in inputs],
+                           colWidths=[left_w2 * 0.66, left_w2 * 0.34])
+                t1.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)),
+                                                             ("BACKGROUND", (0, 8), (-1, 8), PANEL)]
+                                       + ([("BACKGROUND", (0, irr_row), (-1, irr_row), PANEL)] if irr_row else [])))
+                right_w2 = usable * 0.46
+                hdr = [Paragraph("FCF margin \\ WACC", cell_w)] + [Paragraph(p_(w_), cell_wr) for w_ in rd["grid_waccs"]]
+                g_rows = [hdr]
+                base_r = next(i_ for i_, m_ in enumerate(rd["grid_margins"]) if abs(m_ - rd["m_target"]) < 1e-9)
+                for m_, row_ in zip(rd["grid_margins"], rd["grid"]):
+                    g_rows.append([Paragraph(p_(m_), cell)] + [Paragraph(f"<i>{fmt_g(v_)}</i>", cell_r) for v_ in row_])
+                t2 = Table(g_rows, colWidths=[right_w2 * 0.25] + [right_w2 * 0.15] * 5)
+                t2.setStyle(TableStyle(line.getCommands() + [
+                    ("BACKGROUND", (3, base_r + 1), (3, base_r + 1), PANEL),
+                    ("BOX", (3, base_r + 1), (3, base_r + 1), 0.8, NAVY)]))
+                cap = ParagraphStyle("CapV5", parent=cell, fontName="Helvetica-Bold", textColor=NAVY, spaceAfter=3)
+                both = Table([[t1, "", [Paragraph(f"Implied {rd['years']}-year revenue CAGR: sensitivity", cap), t2]]],
+                             colWidths=[left_w2, usable * 0.04, right_w2])
+                both.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
+                                          ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                          ("TOPPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
+                note = (f"Own calculation from Yahoo Finance data [2][3]. Solves for the constant revenue growth over "
+                        f"{rd['years']} years at which the present value of free cash flow equals the current enterprise value. "
+                        f"The FCF margin moves linearly from FY{rd['fy']} to the assumed margin; WACC = 10-year US Treasury "
+                        f"yield + beta x 5.0% equity risk premium (simplified, equity only). Highlighted: base case. "
+                        f"IRR: discount rate at which consensus revenue for two years, growth fading linearly to 2.5% by "
+                        f"year {rd['years']} and the same margin path equal the current enterprise value. "
+                        f"Illustrative model, not a price target.")
+                content += [KeepTogether([Spacer(1, 6), exhibit(next_ex(), "Reverse DCF: growth implied by the current valuation"),
+                                          both, source(note)])]
 
     # --- Quellenverzeichnis ---------------------------------------------------
     today = date.today().isoformat()
@@ -804,7 +1017,20 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
         pass
     fc = run_fact_check(fc_sections, srcs, names)
     fc["peer_tickers"] = list(peer_metrics)
-    save_json(fc, os.path.splitext(pdf_path)[0] + "_factcheck.json")
+    base_ = os.path.splitext(pdf_path)[0]
+    key_ = os.path.abspath(pdf_path)
+    _BUILD_ROUNDS[key_] = _BUILD_ROUNDS.get(key_, 0) + 1
+    build_round = _BUILD_ROUNDS[key_]
+    fc["build_round"] = build_round
+    fc["self_correct"] = SELF_CORRECT()
+    if build_round == 1:
+        save_json(fc, base_ + "_factcheck_round1.json")
+    elif os.path.exists(base_ + "_factcheck_round1.json"):
+        import json as _json
+        r1 = _json.load(open(base_ + "_factcheck_round1.json", encoding="utf-8"))
+        fc["round1"] = {k_: r1.get(k_) for k_ in ("total_claims", "matched", "match_rate")}
+        fc["round1"]["name_issues"] = len(r1.get("name_issues", []))
+    save_json(fc, base_ + "_factcheck.json")
     content += _factcheck_flowables(fc, n_tenk, (h2, body, small, cell, cell_r, line), usable, heading)
 
     gen_date = date.today().strftime("%d %B %Y")
@@ -839,8 +1065,23 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
         canv.restoreState()
 
     doc.build(content, onFirstPage=_first, onLaterPages=_later)
-    return (f"Annual report generated successfully. Fact check: {fc['matched']} of {fc['total_claims']} figures found "
-            f"in the sources, {len(fc['name_issues'])} name/ticker mismatch(es). Details in the appendix of the PDF.")
+    msg = (f"Annual report generated successfully. Fact check: {fc['matched']} of {fc['total_claims']} figures found "
+           f"in the sources, {len(fc['name_issues'])} name/ticker mismatch(es). Details in the appendix of the PDF.")
+    if fc.get("round1"):
+        r1 = fc["round1"]
+        msg += f" Revision round completed (before revision: {r1['matched']} of {r1['total_claims']} figures found)."
+    if build_round == 1 and SELF_CORRECT() and (fc["unmatched"] or fc["name_issues"]):
+        items = [f"- [{u_['section']}] {u_['text']}: \"{' '.join(str(u_.get('context', '')).split()).strip('. ')[:170]}\""
+                 for u_ in fc["unmatched"][:25]]
+        items += [f"- [{n_['section']}] name '{n_['written']}' for ticker {n_['ticker']}; official name: {n_['official']}"
+                  for n_ in fc["name_issues"][:10]]
+        msg += ("\n\nSELF-CHECK (one revision round): the automated fact check could not find these figures or names "
+                "in the source data:\n" + "\n".join(items) +
+                "\n\nFor each item: correct it to the value in your sources (10-K analysis results and tool outputs), "
+                "remove it, or keep it only if it is a correct calculation from source figures (e.g. a growth rate or "
+                "difference). Never invent replacements. Then call build_annual_report exactly once more with the "
+                "revised texts and otherwise the same arguments. After that, reply TERMINATE.")
+    return msg
 
 
 class ReportLabUtils:

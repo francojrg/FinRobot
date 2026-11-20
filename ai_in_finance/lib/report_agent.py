@@ -19,7 +19,7 @@ import autogen
 from finrobot.agents.agent_library import library
 from finrobot.agents.workflow import SingleAssistant
 from finrobot.functional.analyzer import ReportAnalysisUtils
-from finrobot.functional.reportlab import ReportLabUtils
+from finrobot.functional.reportlab import ReportLabUtils, reset_build_rounds
 
 from .outlook_tools import get_consensus_and_liquidity
 from .peer_tools import get_peer_candidates
@@ -37,6 +37,10 @@ ANALYST_SYSTEM = (
 )
 
 
+# Alle LLM-Clients der Analyse-Tools (fuer Token-Zaehlung in der Evaluation)
+ANALYSIS_CLIENTS = []
+
+
 def _analysis_llm_config(llm_config):
     cfg = {k: v for k, v in llm_config.items() if k not in ("parallel_tool_calls", "tools", "functions")}
     return cfg
@@ -44,6 +48,7 @@ def _analysis_llm_config(llm_config):
 
 def _wrap_analysis_tool(func, llm_config):
     client = autogen.OpenAIWrapper(**_analysis_llm_config(llm_config))
+    ANALYSIS_CLIENTS.append(client)
 
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
@@ -80,6 +85,8 @@ def _ignore_unknown_kwargs(func):
 
 
 def make_agent_config(llm_config):
+    ANALYSIS_CLIENTS.clear()
+    reset_build_rounds()
     cfg = copy.deepcopy(library["Expert_Investor"])
     tools = []
     for t in cfg["toolkits"]:
@@ -131,7 +138,10 @@ def default_message(company, fyear, work_dir, peers=None):
           company description, risk assessment, competitors) and base the report on their ANALYSIS RESULT outputs.
         - Each of the five sections should be roughly 350-450 words, split into 2-4 paragraphs.
         - Call get_consensus_and_liquidity once for {company} and {fyear}. Use its figures for valuation and funding
-          (consensus growth and EPS, forward EV/Sales, cash runway, dilution) and say that they are dated after the 10-K.
+          (consensus growth and EPS, forward EV/Sales, cash runway, dilution, reverse DCF and implied return, estimate
+          revisions, earnings surprises, quality scores) and say that they are dated
+          after the 10-K. In the investment summary, compare the growth implied by the reverse DCF with consensus and
+          historical growth: what does the current valuation require?
         - Write an investment summary of 130-180 words for page 1.
         - Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations): growth, profitability or
           funding, valuation vs consensus, and the main risk. Do not simply repeat the first sentences of the summary.
@@ -139,4 +149,5 @@ def default_message(company, fyear, work_dir, peers=None):
         - When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
           revenues for the last two fiscal years as stated in the 10-K (USD millions) and key_takeaways as a list.
         - Do not generate the pdf until all of this is fulfilled.
+        - If build_annual_report returns a SELF-CHECK list, revise the texts once as instructed and rebuild.
     """)
