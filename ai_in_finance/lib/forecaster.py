@@ -12,6 +12,7 @@ Ergaenzungen:
 - Jede Vorhersage wird mit Schlusskurs am Prognosetag in forecasts/forecast_log.csv protokolliert;
   scripts/score_forecasts.py prueft sie eine Woche spaeter gegen den tatsaechlichen Kurs.
 - Optional (extended=True): zusaetzlich Konsens, Revisionen und Quality Scores (outlook.py).
+- Ab v3: News und Profil ueber lib/news_tools.py (neueste News ohne Duplikate, neutrales Profil).
 """
 import csv
 import os
@@ -23,10 +24,15 @@ import autogen
 from finrobot.data_source import FinnHubUtils, YFinanceUtils
 from finrobot.toolkits import register_toolkits
 
+from . import news_tools
 from .outlook_tools import get_consensus_and_liquidity
 
 AIF = Path(__file__).resolve().parents[1]
 LOG = AIF / "forecasts" / "forecast_log.csv"
+PROMPT_VERSION = "v3"
+# v1: Formatbeispiel mit Zahlen ("DOWN 1-2%") -> Modell uebernahm die Spanne fast immer
+# v2: Format ohne Zahlenbeispiel
+# v3: zusaetzlich neueste News ohne Duplikate statt Zufallsauswahl, neutrales Firmenprofil (lib/news_tools.py)
 PRED_RE = re.compile(r"PREDICTION:\s*(UP|DOWN|FLAT)\s*(?:by\s*)?(\d+(?:\.\d+)?)?\s*(?:-|to|–)?\s*(\d+(?:\.\d+)?)?\s*%?", re.I)
 
 SYSTEM = ("As a Market Analyst, one must possess strong analytical and problem-solving abilities, collect necessary "
@@ -44,10 +50,10 @@ def build_forecaster(llm_config, extended=False):
         code_execution_config=False,
     )
     tools = [
-        {"function": FinnHubUtils.get_company_profile, "name": "get_company_profile",
+        {"function": news_tools.get_company_profile, "name": "get_company_profile",
          "description": "get a company's profile information"},
-        {"function": FinnHubUtils.get_company_news, "name": "get_company_news",
-         "description": "retrieve market news related to designated company"},
+        {"function": news_tools.get_company_news, "name": "get_company_news",
+         "description": "retrieve the most recent market news related to designated company"},
         {"function": FinnHubUtils.get_basic_financials, "name": "get_financial_basics",
          "description": "get latest financial basics for a designated company"},
         {"function": YFinanceUtils.get_stock_data, "name": "get_stock_data",
@@ -66,8 +72,9 @@ def forecast_message(ticker, today=None):
             f"developments and potential concerns of {ticker} with 2-4 most important factors respectively and keep them "
             "concise. Most factors should be inferred from company related news. "
             f"Then make a rough prediction (e.g. up/down by 2-3%) of the {ticker} stock price movement for next week. "
-            "Provide a summary analysis to support your prediction. End your answer with one line in exactly this format: "
-            "'PREDICTION: UP 2-3%' or 'PREDICTION: DOWN 1-2%', followed by TERMINATE.")
+            "Provide a summary analysis to support your prediction. End your answer with one line in the format "
+            "'PREDICTION: <UP|DOWN|FLAT> <low>-<high>%' with direction and range taken from your own analysis "
+            "(the format shows the structure only; any direction and size is allowed), followed by TERMINATE.")
 
 
 def parse_prediction(text):
@@ -113,15 +120,23 @@ def forecast(llm_config, ticker, model_name="", extended=False, out_dir=None):
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M")
     md = out_dir / f"{ticker}_{stamp}_forecast.md"
     md.write_text(f"# Forecast {ticker} ({stamp})\n\n{answer}\n", encoding="utf-8")
-    new = not LOG.exists()
+    header = ["timestamp", "ticker", "model", "extended", "direction", "low_pct", "high_pct", "mid_pct",
+              "close", "close_date", "answer_file", "prompt_version"]
     LOG.parent.mkdir(parents=True, exist_ok=True)
+    if LOG.exists():  # aeltere Protokolle ohne prompt_version-Spalte ergaenzen (= v1)
+        rows = list(csv.reader(open(LOG, encoding="utf-8")))
+        if rows and "prompt_version" not in rows[0]:
+            with open(LOG, "w", newline="", encoding="utf-8") as f:
+                w = csv.writer(f)
+                w.writerow(rows[0] + ["prompt_version"])
+                w.writerows(r + ["v1"] for r in rows[1:] if r)
+    new = not LOG.exists()
     with open(LOG, "a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         if new:
-            w.writerow(["timestamp", "ticker", "model", "extended", "direction", "low_pct", "high_pct", "mid_pct",
-                        "close", "close_date", "answer_file"])
+            w.writerow(header)
         w.writerow([stamp, ticker, model_name, extended, (pred or {}).get("direction", "n/a"),
                     (pred or {}).get("low"), (pred or {}).get("high"), (pred or {}).get("mid_pct"),
-                    close, close_date, md.name])
+                    close, close_date, md.name, PROMPT_VERSION])
     print(f"\nVorhersage: {pred}  |  Schlusskurs {close} ({close_date})  |  gespeichert: {md}")
     return answer, pred

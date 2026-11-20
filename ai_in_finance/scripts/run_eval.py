@@ -128,7 +128,16 @@ def run_one(company, fyear, model, reasoning, max_rounds, peers=None):
     finally:
         log.close()
     meta["seconds"] = round(time.time() - t0, 1)
-    usage_after = openrouter_usage(entry)
+    # OpenRouter bucht den Verbrauch mit Verzoegerung: warten, bis der Zaehler sich nicht mehr aendert
+    usage_after, waited = openrouter_usage(entry), 0
+    while usage_after is not None and waited < 120:
+        time.sleep(20)
+        waited += 20
+        nxt = openrouter_usage(entry)
+        if nxt is None or abs(nxt - usage_after) < 1e-6:
+            break
+        usage_after = nxt
+    meta["cost_wait_seconds"] = waited
     meta["cost_usd"] = round(usage_after - usage_before, 4) if None not in (usage_before, usage_after) else None
     if agent is not None:
         msgs = agent.user_proxy.chat_messages.get(agent.assistant, [])

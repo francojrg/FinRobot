@@ -104,7 +104,7 @@ def extract_claims(text):
         return any(not (b <= s or a >= e) for s, e in taken)
 
     patterns = [
-        ("money", rf"-?\$\s?\(?({NUM})\)?\s?(million|billion|thousand)?"),
+        ("money", rf"-?\$\s?\(?({NUM})\)?\s?(million|billion|thousand|mn|bn|m|b|k)?(?![a-z])"),
         ("pct", rf"(-?(?:{NUM}))\s?%"),
         ("multiple", rf"\b({NUM})\s?x\b"),
         ("plain", rf"(?<![\w.])(-?(?:{NUM}))(?![\w.%])"),
@@ -134,6 +134,7 @@ def extract_claims(text):
                 if re.match(r"\s?-?(week|day|month|year|quarter)\b", text[m.end():m.end() + 9], re.I):
                     continue  # Zeitraum ("52-week range", "12-month target")
             unit = (m.group(2) or "").lower() if kind == "money" and m.lastindex and m.lastindex >= 2 else ""
+            unit = {"mn": "million", "m": "million", "bn": "billion", "b": "billion", "k": "thousand"}.get(unit, unit)
             mn = None
             if kind == "money":
                 mn = val * {"million": 1, "billion": 1000, "thousand": 0.001}.get(unit, 0) if unit else None

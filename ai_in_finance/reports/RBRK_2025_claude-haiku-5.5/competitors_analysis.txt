@@ -1,4 +1,4 @@
-Company names (use exactly these names): RBRK = Rubrik, Inc.; CVLT = Commvault Systems, Inc.; VRNS = Varonis Systems, Inc.; S = SentinelOne, Inc.
+Company names (use exactly these names): RBRK = Rubrik, Inc.; CVLT = Commvault Systems, Inc.; NTNX = Nutanix, Inc.; ZS = Zscaler, Inc.
 
 
 Revenue:
@@ -12,15 +12,15 @@ CVLT: 2023     785
 2025     996
 2026    1184
 Name: Revenue, dtype: object
-VRNS: 2022    474
-2023    499
-2024    551
-2025    624
+NTNX: 2023    1863
+2024    2149
+2025    2538
+2026    2854
 Name: Revenue, dtype: object
-S: 2023     422
-2024     621
-2025     821
-2026    1001
+ZS: 2023    1617
+2024    2168
+2025    2673
+2026    3353
 Name: Revenue, dtype: object
 
 
@@ -35,15 +35,15 @@ CVLT: 2023      n/a
 2025    18.6%
 2026    18.9%
 Name: Revenue Growth, dtype: object
-VRNS: 2022      n/a
-2023     5.4%
-2024    10.4%
-2025    13.2%
+NTNX: 2023      n/a
+2024    15.3%
+2025    18.1%
+2026    12.4%
 Name: Revenue Growth, dtype: object
-S: 2023      n/a
-2024    47.1%
-2025    32.2%
-2026    21.9%
+ZS: 2023      n/a
+2024    34.1%
+2025    23.3%
+2026    25.4%
 Name: Revenue Growth, dtype: object
 
 
@@ -58,15 +58,15 @@ CVLT: 2023    649
 2025    817
 2026    961
 Name: Gross Profit, dtype: object
-VRNS: 2022    404
-2023    427
-2024    457
-2025    492
+NTNX: 2023    1531
+2024    1825
+2025    2203
+2026    2477
 Name: Gross Profit, dtype: object
-S: 2023    278
-2024    442
-2025    610
-2026    742
+ZS: 2023    1254
+2024    1691
+2025    2055
+2026    2575
 Name: Gross Profit, dtype: object
 
 
@@ -81,15 +81,15 @@ CVLT: 2023    82.7%
 2025    82.0%
 2026    81.2%
 Name: Gross Margin, dtype: object
-VRNS: 2022    85.3%
-2023    85.6%
-2024    83.0%
-2025    78.8%
+NTNX: 2023    82.2%
+2024    84.9%
+2025    86.8%
+2026    86.8%
 Name: Gross Margin, dtype: object
-S: 2023    65.8%
-2024    71.1%
-2025    74.3%
-2026    74.1%
+ZS: 2023    77.6%
+2024    78.0%
+2025    76.9%
+2026    76.8%
 Name: Gross Margin, dtype: object
 
 
@@ -104,15 +104,15 @@ CVLT: 2023     -5
 2025     91
 2026    106
 Name: EBITDA, dtype: object
-VRNS: 2022    -95
-2023    -72
-2024    -67
-2025    -97
+NTNX: 2023    -93
+2024     81
+2025    293
+2026    410
 Name: EBITDA, dtype: object
-S: 2023    -353
-2024    -333
-2025    -287
-2026    -254
+ZS: 2023    -109
+2024      61
+2025     108
+2026     179
 Name: EBITDA, dtype: object
 
 
@@ -127,15 +127,15 @@ CVLT: 2023    -0.6%
 2025     9.1%
 2026     9.0%
 Name: EBITDA Margin, dtype: object
-VRNS: 2022    -20.2%
-2023    -14.4%
-2024    -12.2%
-2025    -15.6%
+NTNX: 2023    -5.0%
+2024     3.8%
+2025    11.5%
+2026    14.4%
 Name: EBITDA Margin, dtype: object
-S: 2023    -83.6%
-2024    -53.6%
-2025    -34.9%
-2026    -25.4%
+ZS: 2023    -6.8%
+2024     2.8%
+2025     4.0%
+2026     5.3%
 Name: EBITDA Margin, dtype: object
 
 
@@ -150,15 +150,15 @@ CVLT: 2023    167
 2025    204
 2026    237
 Name: FCF, dtype: object
-VRNS: 2022      0
-2023     54
-2024    102
-2025    132
+NTNX: 2023    207
+2024    598
+2025    750
+2026    841
 Name: FCF, dtype: object
-S: 2023    -212
-2024     -87
-2025       7
-2026      52
+ZS: 2023    334
+2024    585
+2025    727
+2026    779
 Name: FCF, dtype: object
 
 
@@ -173,12 +173,12 @@ CVLT: 2023     n/m
 2025    2.68
 2026    3.36
 Name: FCF Conversion, dtype: object
-VRNS: 2022    n/m
-2023    n/m
-2024    n/m
-2025    n/m
+NTNX: 2023     n/m
+2024     n/m
+2025    3.98
+2026    0.56
 Name: FCF Conversion, dtype: object
-S: 2023    n/m
+ZS: 2023    n/m
 2024    n/m
 2025    n/m
 2026    n/m
@@ -196,15 +196,15 @@ CVLT: 2023    -5.9%
 2025    23.5%
 2026     8.3%
 Name: ROIC, dtype: object
-VRNS: 2022    -10.6%
-2023     -8.4%
-2024     -5.0%
-2025     -7.8%
+NTNX: 2023    -24.6%
+2024     -3.6%
+2025     30.2%
+2026      9.9%
 Name: ROIC, dtype: object
-S: 2023    -22.7%
-2024    -17.3%
-2025    -14.7%
-2026    -12.9%
+ZS: 2023    -7.5%
+2024    -0.7%
+2025    -0.3%
+2026    -0.2%
 Name: ROIC, dtype: object
 
 
@@ -219,15 +219,15 @@ CVLT: 2023      n/m
 2025    73.63
 2026     30.4
 Name: EV/EBITDA, dtype: object
-VRNS: 2022    n/m
-2023    n/m
-2024    n/m
-2025    n/m
+NTNX: 2023       n/m
+2024    166.21
+2025     71.53
+2026     40.81
 Name: EV/EBITDA, dtype: object
-S: 2023    n/m
-2024    n/m
-2025    n/m
-2026    n/m
+ZS: 2023       n/m
+2024    445.89
+2025    412.62
+2026    143.31
 Name: EV/EBITDA, dtype: object
 
 
@@ -242,15 +242,15 @@ CVLT: 2023    2.84
 2025     6.7
 2026    2.73
 Name: EV/Sales, dtype: object
-VRNS: 2022     5.33
-2023    10.06
-2024    10.11
-2025      6.7
+NTNX: 2023    4.32
+2024    6.25
+2025    8.25
+2026    5.86
 Name: EV/Sales, dtype: object
-S: 2023     9.99
-2024    12.77
-2025     9.29
-2026     4.56
+ZS: 2023    14.57
+2024    12.53
+2025    16.69
+2026     7.63
 Name: EV/Sales, dtype: object
 
 
@@ -265,12 +265,12 @@ CVLT: 2023      n/m
 2025     93.9
 2026     49.3
 Name: PE Ratio, dtype: object
-VRNS: 2022    n/m
-2023    n/m
-2024    n/m
-2025    n/m
+NTNX: 2023       n/m
+2024       n/m
+2025    115.65
+2026     11.41
 Name: PE Ratio, dtype: object
-S: 2023    n/m
+ZS: 2023    n/m
 2024    n/m
 2025    n/m
 2026    n/m
@@ -288,19 +288,19 @@ CVLT: 2023     13.46
 2025      21.4
 2026    428.79
 Name: PB Ratio, dtype: object
-VRNS: 2022     5.13
-2023    10.09
-2024    10.97
-2025     6.44
+NTNX: 2023      n/m
+2024      n/m
+2025      n/m
+2026    22.75
 Name: PB Ratio, dtype: object
-S: 2023    2.61
-2024    5.12
-2025    4.67
-2026    3.29
+ZS: 2023    32.55
+2024    21.47
+2025    25.12
+2026     9.49
 Name: PB Ratio, dtype: object
 
 
-Resource: Financial metrics for RBRK and ['CVLT', 'VRNS', 'S'].
+Resource: Financial metrics for RBRK and ['CVLT', 'NTNX', 'ZS'].
 
 Instruction: 
 Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 

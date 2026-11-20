@@ -1,0 +1,55 @@
+{
+  "company": "RKLB",
+  "fyear": "2025",
+  "model": "anthropic/claude-haiku-5.5",
+  "reasoning": null,
+  "started": "2026-11-20T10:09:34",
+  "max_rounds": 30,
+  "self_correct": true,
+  "exception": null,
+  "seconds": 229.5,
+  "cost_usd": 0.0458,
+  "n_messages": 36,
+  "tool_calls": {
+    "get_sec_report": 1,
+    "analyze_income_stmt": 1,
+    "analyze_balance_sheet": 1,
+    "analyze_cash_flow": 1,
+    "analyze_segment_stmt": 1,
+    "analyze_business_highlights": 1,
+    "analyze_company_description": 1,
+    "get_risk_assessment": 1,
+    "get_peer_candidates": 1,
+    "get_competitors_analysis": 1,
+    "get_consensus_and_liquidity": 1,
+    "get_key_data": 1,
+    "get_share_performance": 1,
+    "get_pe_eps_performance": 1,
+    "build_annual_report": 3
+  },
+  "n_tool_calls": 17,
+  "tool_errors": [
+    "Error: Expecting ',' delimiter: line 1 column 6450 (char 6449)\n The argument must be in JSON format."
+  ],
+  "n_tool_errors": 1,
+  "build_attempts": 3,
+  "prompt_tokens": 533972,
+  "completion_tokens": 61214,
+  "success": true,
+  "claims": 141,
+  "matched": 141,
+  "match_rate": 1.0,
+  "name_issues": 0,
+  "peers": [
+    "FLY",
+    "RDW",
+    "LUNR"
+  ],
+  "build_round": 2,
+  "round1": {
+    "total_claims": 145,
+    "matched": 141,
+    "match_rate": 0.972,
+    "name_issues": 0
+  }
+}

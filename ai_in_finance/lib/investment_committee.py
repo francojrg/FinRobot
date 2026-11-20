@@ -12,7 +12,8 @@ Anpassungen gegenueber dem Original (alles andere - Rollen, Hierarchie, Workflow
 - Modell ueber OpenRouter statt gpt-4-0125-preview.
 - RAG ueber eine fest eingetragene PDD-20-F-URL ersetzt durch Stichwortsuche im gecachten 10-K der gewaehlten
   Firma (das Original uebergibt zudem versehentlich ein Tupel an register_function und laeuft so nicht).
-- Reddit-Tool entfernt (keine Reddit-Zugangsdaten noetig); Finnhub-News bleiben.
+- Reddit-Tool entfernt (keine Reddit-Zugangsdaten noetig); Finnhub-News ueber lib/news_tools.py
+  (neueste Meldungen ohne Duplikate statt Zufallsauswahl mit Zuruecklegen).
 - Zusaetzliches Tool fuer Risk und Fundamental: Konsens, Liquiditaet, Reverse DCF, Quality Scores (outlook.py).
 - Firma, Datum und Geschaeftsjahr sind Parameter statt fest "PDD, 2023-04-26".
 - Keine Ausfuehrung von generiertem Python-Code auf dem Rechner (code_execution_config=False); Agenten nutzen Tools.
@@ -20,6 +21,7 @@ Anpassungen gegenueber dem Original (alles andere - Rollen, Hierarchie, Workflow
 import copy
 import json
 import os
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -28,13 +30,41 @@ from textwrap import dedent
 import autogen
 from autogen import register_function
 
+import finrobot.agents.workflow as _wf
+from finrobot.agents.prompts import order_template
 from finrobot.agents.workflow import MultiAssistant, MultiAssistantWithLeader
 
+from . import news_tools
 from .outlook_tools import get_consensus_and_liquidity
 from .tenk_search import make_tenk_search
 
 FR = Path(__file__).resolve().parents[2] / "finrobot_autogen"
 WITH_LEADER = {"Market Sentiment Analysts": True, "Risk Assessment Analysts": True, "Fundamental Analysts": True}
+
+
+def _name_regex(name):
+    """'Senior_Fundamental_Analyst' passt auch auf 'Senior Fundamental Analyst' (Gross-/Kleinschreibung egal)."""
+    return r"\[\s*" + r"[ _]+".join(map(re.escape, re.split(r"[ _]+", name.strip("[]")))) + r"\s*\]"
+
+
+def _order_trigger(sender, name, pattern):
+    # Fehler im Original: Der Leiter sieht die Namen mit Leerzeichen ("Senior Fundamental Analyst"),
+    # der Ausloeser verlangt Unterstriche ("[Senior_Fundamental_Analyst]") -> Auftraege kamen nie an.
+    return sender.name == name and re.search(_name_regex(pattern), sender.last_message()["content"] or "", re.I) is not None
+
+
+def _order_message(pattern, recipient, messages, sender, config):
+    full = recipient.chat_messages_for_summary(sender)[-1]["content"]
+    m = re.search(_name_regex(pattern) + r"(?::)?\s*(.+?)(?=\n\s*\[|$)", full, re.DOTALL | re.I)
+    return order_template.format(order=m.group(1).strip() if m else full)
+
+
+# In FinRobots Workflow-Modul einsetzen, bevor die Gruppen gebaut werden
+_wf.order_trigger = _order_trigger
+_wf.order_message = _order_message
+
+NO_ORDER_REPLY = ("No order was delivered: address exactly one team member with '[Name] <order>' using a name from "
+                  "your team list (e.g. [Senior_Fundamental_Analyst] ...). Team members have the data tools; you do not.")
 
 
 def _load_group_config():
@@ -53,6 +83,9 @@ def _patch_toolkits(cfg):
         for variant in ("with_leader", "without_leader"):
             for emp in g[variant]["employees"]:
                 tools = [t for t in emp.get("toolkits", []) if getattr(t, "__name__", "") != "get_reddit_posts"]
+                # Zufaellige News-Auswahl des Originals durch neueste News ohne Duplikate ersetzen
+                tools = [news_tools.get_company_news if getattr(t, "__name__", "") == "get_company_news" else t
+                         for t in tools]
                 if gname in ("Risk Assessment Analysts", "Fundamental Analysts"):
                     tools.append(get_consensus_and_liquidity)
                 emp["toolkits"] = tools
@@ -66,9 +99,12 @@ def build_committee(llm_config, ticker, fyear, max_auto_reply=20):
     user_proxy = autogen.UserProxyAgent(
         name="User",
         human_input_mode="NEVER",
-        is_termination_msg=lambda x: x.get("content", "") and "TERMINATE" in x.get("content", ""),
+        # Original: "TERMINATE" irgendwo im Text beendet alles - auch "the earlier TERMINATE is withdrawn".
+        # Hier nur, wenn die Nachricht mit TERMINATE endet.
+        is_termination_msg=lambda x: str(x.get("content") or "").rstrip().rstrip("*.").endswith("TERMINATE"),
         max_consecutive_auto_reply=max_auto_reply,
         code_execution_config=False,
+        default_auto_reply=NO_ORDER_REPLY,
     )
     search_10k = make_tenk_search(ticker, fyear)
     representatives, groups = [], []
@@ -103,6 +139,13 @@ def committee_task(ticker, fyear, today=None):
         Notes (all members in your group should be informed):
         - Use only the provided tools (search_10k, company news, stock data, financial metrics, consensus and
           liquidity data). Do not write code. Do not invent figures; state the source of every number.
+        - search_10k covers the 10-K text (Business, Risk Factors, MD&A), not the cover page or the financial
+          statements; take figures such as share count, cash and debt from the financial data tools.
+        - Figures can legitimately differ by date (e.g. share count at fiscal year end vs. latest quarter). Use the
+          most recent figure for valuation, state its date, and move on; do not block the project on such differences.
+        - Work efficiently: give each group one comprehensive order (about 6-8 orders in total). If data is missing,
+          proceed with what is available and flag the gap instead of re-ordering the same data.
+        - Only the CIO ends the project, with the final deliverable followed by TERMINATE on the last line.
 
         [Coordinate with Market Sentiment Analysts]:
         Task: Analyze recent market sentiment around {ticker} based on company news of the last 1-3 months.

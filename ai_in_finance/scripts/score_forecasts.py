@@ -71,6 +71,12 @@ def main():
         print(f"Mittlerer absoluter Fehler: {sum(errs) / len(errs):.2f} Prozentpunkte")
     if inr:
         print(f"Bewegung innerhalb der Spanne: {sum(inr)}/{len(inr)}")
+    versions = sorted({s.get("prompt_version") or "v1" for s in scored})
+    if len(versions) > 1:
+        for v in versions:
+            hv = [s["direction_hit"] for s in scored if (s.get("prompt_version") or "v1") == v and s["direction_hit"] is not None]
+            if hv:
+                print(f"  Prompt {v}: Richtung getroffen {sum(hv)}/{len(hv)}")
     print(f"Details: {OUT}")
 
 

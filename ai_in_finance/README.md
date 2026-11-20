@@ -7,8 +7,8 @@ Original-Tutorials von FinRobot liegen unveraendert unter `finrobot_autogen/tuto
 
 | Ordner | Inhalt |
 |---|---|
-| `notebooks/` | `annual_report_agent.ipynb` (Annual Report), `investment_committee.ipynb` (CIO + 3 Analystengruppen, aus FinRobot `experiments/portfolio_optimization.py`), `fingpt_forecaster.ipynb` (Wochenprognose, aus FinRobot-Tutorial) |
-| `lib/` | Eigene Agenten und Tools (`report_agent.py`, `investment_committee.py`, `forecaster.py`, `peer_tools.py`, `outlook_tools.py`, `tenk_search.py`) |
+| `notebooks/` | `annual_report_agent.ipynb` (Annual Report), `investment_committee.ipynb` (CIO + 3 Analystengruppen, aus FinRobot `experiments/portfolio_optimization.py`), `fingpt_forecaster.ipynb` (Wochenprognose, aus FinRobot-Tutorial), `earnings_reviewer.ipynb` (Quartals-Update, neuestes Quartal), `earnings_reviewer_multi.ipynb` (alle Quartale seit dem 10-K, Thesen-Protokoll) |
+| `lib/` | Eigene Agenten und Tools (`report_agent.py`, `investment_committee.py`, `forecaster.py`, `peer_tools.py`, `outlook_tools.py`, `tenk_search.py`, `news_tools.py`, `earnings_reviewer.py`, `earnings_reviewer_multi.py`, `quarterly_data.py`) |
 | `forecasts/` | Protokoll der Forecaster-Vorhersagen und Auswertung (`scripts/score_forecasts.py`) |
 | `reports/` | Erzeugte Reports und Faktencheck-JSONs; `reports/prototypes/` = fruehe Versionen |
 | `notes/` | Belege fuer den Kurs-Report (z. B. Halluzinationen im Original) |
@@ -30,6 +30,7 @@ sind im Code mit `Angepasst` kommentiert; der Originalzustand ist ueber Git nach
 | `functional/charting.py` | Kurs-Chart 3 Jahre; Bewertungs-Chart (KGV- bzw. EV/Sales-Band + FCF-Rendite) | KGV bei Verlusten sinnlos |
 | `functional/reportlab.py` | Neues Layout, Investment Summary, Quellen [1]-[4], Segment-/Peer-Tabelle, Plausibilitaetspruefung, Faktencheck-Anhang | Lesbarkeit, Nachpruefbarkeit |
 | `functional/fact_check.py` | **neu**: automatischer Faktencheck | Kern des Projekts |
+| `data_source/finnhub_utils.py` | `get_basic_financials`: Fehler im Original behoben (dict waehrend Iteration veraendert, leere Reihen) | Tool lieferte bei jeder Spaltenauswahl nur Fehler |
 | `functional/outlook.py` | **neu**: Analystenkonsens (Umsatz, EPS, Forward-Multiples) und Liquiditaet (Cash, Schulden, FCF, Cash Runway, Verwaesserung) und Reverse DCF aus Yahoo, deterministisch berechnet | Sell-Side-Standard: Prognosen und Finanzierung; Zahlen nicht vom LLM |
 
 ## Architektur des eigenen Agenten (`lib/report_agent.py`)

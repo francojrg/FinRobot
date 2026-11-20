@@ -1,0 +1,318 @@
+Company names (use exactly these names): RBRK = Rubrik, Inc.; CVLT = Commvault Systems, Inc.; NTNX = Nutanix, Inc.; S = SentinelOne, Inc.
+
+
+Revenue:
+RBRK: 2023     600
+2024     628
+2025     887
+2026    1316
+Name: Revenue, dtype: object
+CVLT: 2023     785
+2024     839
+2025     996
+2026    1184
+Name: Revenue, dtype: object
+NTNX: 2023    1863
+2024    2149
+2025    2538
+2026    2854
+Name: Revenue, dtype: object
+S: 2023     422
+2024     621
+2025     821
+2026    1001
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+RBRK: 2023      n/a
+2024     4.7%
+2025    41.2%
+2026    48.5%
+Name: Revenue Growth, dtype: object
+CVLT: 2023      n/a
+2024     7.0%
+2025    18.6%
+2026    18.9%
+Name: Revenue Growth, dtype: object
+NTNX: 2023      n/a
+2024    15.3%
+2025    18.1%
+2026    12.4%
+Name: Revenue Growth, dtype: object
+S: 2023      n/a
+2024    47.1%
+2025    32.2%
+2026    21.9%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+RBRK: 2023     418
+2024     483
+2025     621
+2026    1054
+Name: Gross Profit, dtype: object
+CVLT: 2023    649
+2024    688
+2025    817
+2026    961
+Name: Gross Profit, dtype: object
+NTNX: 2023    1531
+2024    1825
+2025    2203
+2026    2477
+Name: Gross Profit, dtype: object
+S: 2023    278
+2024    442
+2025    610
+2026    742
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+RBRK: 2023    69.7%
+2024    76.9%
+2025    70.0%
+2026    80.1%
+Name: Gross Margin, dtype: object
+CVLT: 2023    82.7%
+2024    81.9%
+2025    82.0%
+2026    81.2%
+Name: Gross Margin, dtype: object
+NTNX: 2023    82.2%
+2024    84.9%
+2025    86.8%
+2026    86.8%
+Name: Gross Margin, dtype: object
+S: 2023    65.8%
+2024    71.1%
+2025    74.3%
+2026    74.1%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+RBRK: 2023     -235
+2024     -273
+2025    -1078
+2026     -272
+Name: EBITDA, dtype: object
+CVLT: 2023     -5
+2024     90
+2025     91
+2026    106
+Name: EBITDA, dtype: object
+NTNX: 2023    -93
+2024     81
+2025    293
+2026    410
+Name: EBITDA, dtype: object
+S: 2023    -353
+2024    -333
+2025    -287
+2026    -254
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+RBRK: 2023     -39.2%
+2024     -43.5%
+2025    -121.6%
+2026     -20.7%
+Name: EBITDA Margin, dtype: object
+CVLT: 2023    -0.6%
+2024    10.8%
+2025     9.1%
+2026     9.0%
+Name: EBITDA Margin, dtype: object
+NTNX: 2023    -5.0%
+2024     3.8%
+2025    11.5%
+2026    14.4%
+Name: EBITDA Margin, dtype: object
+S: 2023    -83.6%
+2024    -53.6%
+2025    -34.9%
+2026    -25.4%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+RBRK: 2023    -15
+2024    -25
+2025     22
+2026    238
+Name: FCF, dtype: object
+CVLT: 2023    167
+2024    200
+2025    204
+2026    237
+Name: FCF, dtype: object
+NTNX: 2023    207
+2024    598
+2025    750
+2026    841
+Name: FCF, dtype: object
+S: 2023    -212
+2024     -87
+2025       7
+2026      52
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+RBRK: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: FCF Conversion, dtype: object
+CVLT: 2023     n/m
+2024    1.18
+2025    2.68
+2026    3.36
+Name: FCF Conversion, dtype: object
+NTNX: 2023     n/m
+2024     n/m
+2025    3.98
+2026    0.56
+Name: FCF Conversion, dtype: object
+S: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+RBRK: 2023     21.1%
+2024     19.5%
+2025    356.1%
+2026    -30.4%
+Name: ROIC, dtype: object
+CVLT: 2023    -5.9%
+2024    22.5%
+2025    23.5%
+2026     8.3%
+Name: ROIC, dtype: object
+NTNX: 2023    -24.6%
+2024     -3.6%
+2025     30.2%
+2026      9.9%
+Name: ROIC, dtype: object
+S: 2023    -22.7%
+2024    -17.3%
+2025    -14.7%
+2026    -12.9%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+RBRK: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: EV/EBITDA, dtype: object
+CVLT: 2023      n/m
+2024    45.51
+2025    73.63
+2026     30.4
+Name: EV/EBITDA, dtype: object
+NTNX: 2023       n/m
+2024    166.21
+2025     71.53
+2026     40.81
+Name: EV/EBITDA, dtype: object
+S: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+RBRK: 2023      n/a
+2024      n/a
+2025    15.85
+2026     9.18
+Name: EV/Sales, dtype: object
+CVLT: 2023    2.84
+2024     4.9
+2025     6.7
+2026    2.73
+Name: EV/Sales, dtype: object
+NTNX: 2023    4.32
+2024    6.25
+2025    8.25
+2026    5.86
+Name: EV/Sales, dtype: object
+S: 2023     9.99
+2024    12.77
+2025     9.29
+2026     4.56
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+RBRK: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: PE Ratio, dtype: object
+CVLT: 2023      n/m
+2024    27.05
+2025     93.9
+2026     49.3
+Name: PE Ratio, dtype: object
+NTNX: 2023       n/m
+2024       n/m
+2025    115.65
+2026     11.41
+Name: PE Ratio, dtype: object
+S: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+RBRK: 2023    n/m
+2024    n/m
+2025    n/m
+2026    n/m
+Name: PB Ratio, dtype: object
+CVLT: 2023     13.46
+2024     15.88
+2025      21.4
+2026    428.79
+Name: PB Ratio, dtype: object
+NTNX: 2023      n/m
+2024      n/m
+2025      n/m
+2026    22.75
+Name: PB Ratio, dtype: object
+S: 2023    2.61
+2024    5.12
+2025    4.67
+2026    3.29
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for RBRK and ['CVLT', 'NTNX', 'S'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

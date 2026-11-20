@@ -1,85 +1,52 @@
 {
-  "total_claims": 146,
-  "matched": 139,
-  "match_rate": 0.952,
+  "total_claims": 151,
+  "matched": 146,
+  "match_rate": 0.967,
   "by_kind": {
     "money": {
-      "total": 68,
-      "matched": 64
+      "total": 71,
+      "matched": 71
     },
     "pct": {
-      "total": 52,
-      "matched": 49
+      "total": 54,
+      "matched": 51
     },
     "plain": {
-      "total": 19,
-      "matched": 19
+      "total": 13,
+      "matched": 11
     },
     "multiple": {
-      "total": 7,
-      "matched": 7
+      "total": 13,
+      "matched": 13
     }
   },
   "by_source": {
-    "[1] 10-K": 109,
-    "[2] Yahoo Finance": 21,
-    "[2][3] Liquidity and consensus": 1,
-    "[4] Peer data": 8
+    "[1] 10-K": 108,
+    "[2] Yahoo Finance": 24,
+    "[2][3] Liquidity and consensus": 8,
+    "[4] Peer data": 6
   },
   "unmatched": [
     {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
-      "unit": "million",
-      "money_mn": 372.7,
+      "kind": "pct",
+      "text": "40.1%",
+      "value": 40.1,
+      "unit": "",
+      "money_mn": null,
       "decimals": 1,
-      "context": ".... Free cash flow turned positive at $21.6 million, and net cash of $372.7 million offsets a $1,154.8 million net loss  . Consensus...",
+      "context": "...well above the filing-date $70.96 close, yet the reverse DCF needs 40.1% growth for a decade  . Revenue timing during the...",
       "section": "Key Takeaways",
       "source": null
     },
     {
       "kind": "pct",
-      "text": "75%",
-      "value": 75.0,
+      "text": "40.1%",
+      "value": 40.1,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...net loss  . Consensus rates Buy with a $124.18 target, about 75% above the $70.96 price; both postdate the 10-K...",
-      "section": "Key Takeaways",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
-      "unit": "million",
-      "money_mn": 372.7,
       "decimals": 1,
-      "context": "...million against $332.4 million of total debt give net cash of $372.7 million, but shares outstanding rose 7.9% year over year...",
+      "context": "...At an enterprise value of about $23.2 billion, the market implies 40.1% annual revenue growth for ten years, based on...",
       "section": "Investment Summary",
-      "source": null
-    },
-    {
-      "kind": "pct",
-      "text": "75%",
-      "value": 75.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...the 10-K, rates the stock Buy with a $124.18 average target, about 75% above the $70.96 price in the data pull  ....",
-      "section": "Investment Summary",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
-      "unit": "million",
-      "money_mn": 372.7,
-      "decimals": 1,
-      "context": "...of $110 to $155  . Funding supports the position, with net cash of $372.7 million at FY2025 year end  .",
-      "section": "Market Position",
       "source": null
     },
     {
@@ -89,19 +56,30 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...compensation after the IPO, and operating margin deteriorated to -128% from -49%  . The net loss widened to $1,154.8...",
+      "context": "...recognized after the IPO, which pushed the operating margin to -128% from -49%  . The net loss widened to $1,154.8...",
       "section": "Operating Results",
       "source": null
     },
     {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
-      "unit": "million",
-      "money_mn": 372.7,
-      "decimals": 1,
-      "context": "...carries a Buy rating and a $124.18 target  . Rubrik's net cash of $372.7 million is a funding advantage over these peers, but...",
-      "section": "Competitors Analysis",
+      "kind": "plain",
+      "text": "1.13",
+      "value": 1.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...sheet strengthened on liquidity. The current ratio improved to 1.13 from 0.84, and working capital swung to $127.5...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "0.84",
+      "value": 0.84,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...strengthened on liquidity. The current ratio improved to 1.13 from 0.84, and working capital swung to $127.5 million...",
+      "section": "Operating Results",
       "source": null
     }
   ],
@@ -109,36 +87,36 @@
   "claims": [
     {
       "kind": "money",
-      "text": "$1,092.6 million",
-      "value": 1092.6,
+      "text": "$875.6 million",
+      "value": 875.6,
       "unit": "million",
-      "money_mn": 1092.6,
+      "money_mn": 875.6,
       "decimals": 1,
-      "context": "Subscription ARR rose 39% to $1,092.6 million and Cloud ARR rose 67%, the core growth engine...",
+      "context": "Cloud ARR climbed 67% to $875.6 million, showing the shift to Rubrik Security Cloud is...",
       "section": "Key Takeaways",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$21.6 million",
-      "value": 21.6,
+      "text": "$705.1 million",
+      "value": 705.1,
       "unit": "million",
-      "money_mn": 21.6,
+      "money_mn": 705.1,
       "decimals": 1,
-      "context": "...67%, the core growth engine  . Free cash flow turned positive at $21.6 million, and net cash of $372.7 million offsets a...",
+      "context": "...Cloud is the engine of growth  . Cash and short-term investments of $705.1 million exceed $332.4 million of total debt, but...",
       "section": "Key Takeaways",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
+      "text": "$332.4 million",
+      "value": 332.4,
       "unit": "million",
-      "money_mn": 372.7,
+      "money_mn": 332.4,
       "decimals": 1,
-      "context": ".... Free cash flow turned positive at $21.6 million, and net cash of $372.7 million offsets a $1,154.8 million net loss  . Consensus...",
+      "context": "...growth  . Cash and short-term investments of $705.1 million exceed $332.4 million of total debt, but stock-based compensation...",
       "section": "Key Takeaways",
-      "source": null
+      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "money",
@@ -147,7 +125,7 @@
       "unit": "million",
       "money_mn": 1154.8,
       "decimals": 1,
-      "context": "...positive at $21.6 million, and net cash of $372.7 million offsets a $1,154.8 million net loss  . Consensus rates Buy with a $124.18...",
+      "context": "...of total debt, but stock-based compensation drove most of the $1,154.8 million net loss  . Post-10-K consensus Buy target of...",
       "section": "Key Takeaways",
       "source": "[1] 10-K"
     },
@@ -158,7 +136,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...offsets a $1,154.8 million net loss  . Consensus rates Buy with a $124.18 target, about 75% above the $70.96 price; both...",
+      "context": "...the $1,154.8 million net loss  . Post-10-K consensus Buy target of $124.18 sits well above the filing-date $70.96 close, yet...",
       "section": "Key Takeaways",
       "source": "[2] Yahoo Finance"
     },
@@ -169,18 +147,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": ".... Consensus rates Buy with a $124.18 target, about 75% above the $70.96 price; both postdate the 10-K  . Revenue timing...",
-      "section": "Key Takeaways",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "39%",
-      "value": 39.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "Subscription ARR rose 39% to $1,092.6 million and Cloud ARR rose 67%, the...",
+      "context": "...consensus Buy target of $124.18 sits well above the filing-date $70.96 close, yet the reverse DCF needs 40.1% growth for...",
       "section": "Key Takeaways",
       "source": "[1] 10-K"
     },
@@ -191,31 +158,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "Subscription ARR rose 39% to $1,092.6 million and Cloud ARR rose 67%, the core growth engine  . Free cash flow turned...",
+      "context": "Cloud ARR climbed 67% to $875.6 million, showing the shift to Rubrik...",
       "section": "Key Takeaways",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "75%",
-      "value": 75.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...net loss  . Consensus rates Buy with a $124.18 target, about 75% above the $70.96 price; both postdate the 10-K...",
-      "section": "Key Takeaways",
-      "source": null
-    },
-    {
-      "kind": "pct",
-      "text": "7.9%",
-      "value": 7.9,
+      "text": "40.1%",
+      "value": 40.1,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...postdate the 10-K  . Revenue timing during the RSC transition and 7.9% share dilution make near-term earnings and cash...",
+      "context": "...well above the filing-date $70.96 close, yet the reverse DCF needs 40.1% growth for a decade  . Revenue timing during the...",
       "section": "Key Takeaways",
-      "source": "[4] Peer data"
+      "source": null
     },
     {
       "kind": "plain",
@@ -224,7 +180,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...$124.18 target, about 75% above the $70.96 price; both postdate the 10-K  . Revenue timing during the RSC transition...",
+      "context": "...compensation drove most of the $1,154.8 million net loss  . Post-10-K consensus Buy target of $124.18 sits well...",
       "section": "Key Takeaways",
       "source": "[1] 10-K"
     },
@@ -235,7 +191,7 @@
       "unit": "million",
       "money_mn": 886.5,
       "decimals": 1,
-      "context": "...31, 2025) shows strong top-line momentum. Revenue rose 41% to $886.5 million, subscription revenue rose 54%, and Subscription...",
+      "context": "Rubrik's fiscal 2025 revenue rose 41% to $886.5 million, and Subscription ARR grew 39% to $1,092.6...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -246,18 +202,18 @@
       "unit": "million",
       "money_mn": 1092.6,
       "decimals": 1,
-      "context": "...subscription revenue rose 54%, and Subscription ARR reached $1,092.6 million, up 39%  . Free cash flow turned positive at...",
+      "context": "...rose 41% to $886.5 million, and Subscription ARR grew 39% to $1,092.6 million  . Operating cash flow turned positive at $48.2...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$21.6 million",
-      "value": 21.6,
+      "text": "$48.2 million",
+      "value": 48.2,
       "unit": "million",
-      "money_mn": 21.6,
+      "money_mn": 48.2,
       "decimals": 1,
-      "context": "...$1,092.6 million, up 39%  . Free cash flow turned positive at $21.6 million  .  Profitability is the weak point. The net...",
+      "context": "...39% to $1,092.6 million  . Operating cash flow turned positive at $48.2 million, but a $1,154.8 million net loss, driven by...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -268,7 +224,7 @@
       "unit": "million",
       "money_mn": 1154.8,
       "decimals": 1,
-      "context": "....  Profitability is the weak point. The net loss widened to $1,154.8 million, largely from $913.9 million of post-IPO...",
+      "context": ".... Operating cash flow turned positive at $48.2 million, but a $1,154.8 million net loss, driven by $913.9 million of...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -279,9 +235,53 @@
       "unit": "million",
       "money_mn": 913.9,
       "decimals": 1,
-      "context": "...weak point. The net loss widened to $1,154.8 million, largely from $913.9 million of post-IPO stock-based compensation, and gross...",
+      "context": "...at $48.2 million, but a $1,154.8 million net loss, driven by $913.9 million of stock-based compensation, leaves...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$23.2 billion",
+      "value": 23.2,
+      "unit": "billion",
+      "money_mn": 23200.0,
+      "decimals": 1,
+      "context": "...reverse DCF sets a demanding bar. At an enterprise value of about $23.2 billion, the market implies 40.1% annual revenue growth...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "money",
+      "text": "$0.50",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Consensus, dated after the 10-K, expects EPS to rise from $0.50 to $0.78 next year, but no revenue consensus was...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "money",
+      "text": "$0.78",
+      "value": 0.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Consensus, dated after the 10-K, expects EPS to rise from $0.50 to $0.78 next year, but no revenue consensus was available...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "money",
+      "text": "$124.18",
+      "value": 124.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...flow margin to rise from 2.4% to 15% while growth holds, against a $124.18 consensus target  . Cash and short-term...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "money",
@@ -290,7 +290,7 @@
       "unit": "million",
       "money_mn": 705.1,
       "decimals": 1,
-      "context": "...margin fell to 70% from 77%  . Cash and short-term investments of $705.1 million against $332.4 million of total debt give net...",
+      "context": "...a $124.18 consensus target  . Cash and short-term investments of $705.1 million against $332.4 million of total debt remove...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -301,53 +301,9 @@
       "unit": "million",
       "money_mn": 332.4,
       "decimals": 1,
-      "context": "...77%  . Cash and short-term investments of $705.1 million against $332.4 million of total debt give net cash of $372.7 million,...",
+      "context": "...target  . Cash and short-term investments of $705.1 million against $332.4 million of total debt remove funding as the binding...",
       "section": "Investment Summary",
       "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
-      "unit": "million",
-      "money_mn": 372.7,
-      "decimals": 1,
-      "context": "...million against $332.4 million of total debt give net cash of $372.7 million, but shares outstanding rose 7.9% year over year...",
-      "section": "Investment Summary",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$553.7 million",
-      "value": 553.7,
-      "unit": "million",
-      "money_mn": 553.7,
-      "decimals": 1,
-      "context": "...rose 7.9% year over year  . The stockholders' deficit of $553.7 million remains a balance-sheet watch item...",
-      "section": "Investment Summary",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$124.18",
-      "value": 124.18,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "....  Consensus, dated after the 10-K, rates the stock Buy with a $124.18 average target, about 75% above the $70.96 price...",
-      "section": "Investment Summary",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$70.96",
-      "value": 70.96,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...the stock Buy with a $124.18 average target, about 75% above the $70.96 price in the data pull  . Consensus growth and...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
     },
     {
       "kind": "pct",
@@ -356,18 +312,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...to January 31, 2025) shows strong top-line momentum. Revenue rose 41% to $886.5 million, subscription revenue rose...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "54%",
-      "value": 54.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...Revenue rose 41% to $886.5 million, subscription revenue rose 54%, and Subscription ARR reached $1,092.6 million,...",
+      "context": "Rubrik's fiscal 2025 revenue rose 41% to $886.5 million, and Subscription ARR grew 39%...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -378,53 +323,64 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...revenue rose 54%, and Subscription ARR reached $1,092.6 million, up 39%  . Free cash flow turned positive at $21.6...",
+      "context": "...2025 revenue rose 41% to $886.5 million, and Subscription ARR grew 39% to $1,092.6 million  . Operating cash flow...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "70%",
-      "value": 70.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...of post-IPO stock-based compensation, and gross margin fell to 70% from 77%  . Cash and short-term investments of...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "77%",
-      "value": 77.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...stock-based compensation, and gross margin fell to 70% from 77%  . Cash and short-term investments of $705.1...",
-      "section": "Investment Summary",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "7.9%",
-      "value": 7.9,
+      "text": "40.1%",
+      "value": 40.1,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...debt give net cash of $372.7 million, but shares outstanding rose 7.9% year over year  . The stockholders' deficit of...",
+      "context": "...At an enterprise value of about $23.2 billion, the market implies 40.1% annual revenue growth for ten years, based on...",
       "section": "Investment Summary",
-      "source": "[4] Peer data"
+      "source": null
     },
     {
       "kind": "pct",
-      "text": "75%",
-      "value": 75.0,
+      "text": "41%",
+      "value": 41.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...the 10-K, rates the stock Buy with a $124.18 average target, about 75% above the $70.96 price in the data pull  ....",
+      "context": "...based on our own calculation  . That is close to fiscal 2025's 41% and roughly double the 22% two-year revenue CAGR...",
       "section": "Investment Summary",
-      "source": null
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... That is close to fiscal 2025's 41% and roughly double the 22% two-year revenue CAGR from fiscal 2023, which we...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "pct",
+      "text": "2.4%",
+      "value": 2.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...valuation therefore needs free cash flow margin to rise from 2.4% to 15% while growth holds, against a $124.18...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...therefore needs free cash flow margin to rise from 2.4% to 15% while growth holds, against a $124.18 consensus...",
+      "section": "Investment Summary",
+      "source": "[4] Peer data"
     },
     {
       "kind": "plain",
@@ -433,7 +389,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...remains a balance-sheet watch item  .  Consensus, dated after the 10-K, rates the stock Buy with a $124.18 average...",
+      "context": "...two-year revenue CAGR from fiscal 2023, which we calculated from 10-K revenue  . Consensus, dated after the 10-K,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...which we calculated from 10-K revenue  . Consensus, dated after the 10-K, expects EPS to rise from $0.50 to $0.78 next...",
       "section": "Investment Summary",
       "source": "[1] 10-K"
     },
@@ -444,7 +411,7 @@
       "unit": "million",
       "money_mn": 828.7,
       "decimals": 1,
-      "context": "...the shift to recurring revenue. Subscription revenue rose 54% to $828.7 million and made up 93% of total revenue of $886.5...",
+      "context": "...falls into three categories. Subscription revenue rose 54% to $828.7 million in fiscal 2025 and made up 93% of total revenue...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -455,18 +422,7 @@
       "unit": "million",
       "money_mn": 886.5,
       "decimals": 1,
-      "context": "...rose 54% to $828.7 million and made up 93% of total revenue of $886.5 million, with gross profit up 39% to $613.7 million  ....",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$613.7 million",
-      "value": 613.7,
-      "unit": "million",
-      "money_mn": 613.7,
-      "decimals": 1,
-      "context": "...93% of total revenue of $886.5 million, with gross profit up 39% to $613.7 million  . Subscription ARR grew 39% to $1,092.6...",
+      "context": "...$828.7 million in fiscal 2025 and made up 93% of total revenue of $886.5 million  . Subscription ARR grew 39% to $1,092.6...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -477,7 +433,7 @@
       "unit": "million",
       "money_mn": 1092.6,
       "decimals": 1,
-      "context": "...profit up 39% to $613.7 million  . Subscription ARR grew 39% to $1,092.6 million, of which Cloud ARR was $875.6 million, up 67%,...",
+      "context": "...of total revenue of $886.5 million  . Subscription ARR grew 39% to $1,092.6 million, and Cloud ARR grew 67% to $875.6 million, about...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -488,7 +444,7 @@
       "unit": "million",
       "money_mn": 875.6,
       "decimals": 1,
-      "context": "...ARR grew 39% to $1,092.6 million, of which Cloud ARR was $875.6 million, up 67%, and average subscription dollar-based...",
+      "context": "...ARR grew 39% to $1,092.6 million, and Cloud ARR grew 67% to $875.6 million, about 80% of Subscription ARR  . Average...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -499,7 +455,29 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...dollar-based net retention exceeded 120%  . Customers with at least $100,000 in Subscription ARR rose to 2,246  . Legacy lines...",
+      "context": "...net retention exceeded 120%, and customers with at least $100,000 of Subscription ARR rose to 2,246  . Total...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$599.8 million",
+      "value": 599.8,
+      "unit": "million",
+      "money_mn": 599.8,
+      "decimals": 1,
+      "context": "...$100,000 of Subscription ARR rose to 2,246  . Total revenue was $599.8 million in fiscal 2023 and $627.9 million in fiscal 2024...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$627.9 million",
+      "value": 627.9,
+      "unit": "million",
+      "money_mn": 627.9,
+      "decimals": 1,
+      "context": "...to 2,246  . Total revenue was $599.8 million in fiscal 2023 and $627.9 million in fiscal 2024 before the fiscal 2025 step-up...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -510,7 +488,7 @@
       "unit": "million",
       "money_mn": 18.4,
       "decimals": 1,
-      "context": "...lines are shrinking as expected: Maintenance revenue fell 52% to $18.4 million as customers moved to RSC, and Other revenue,...",
+      "context": "...revenue, the legacy perpetual license stream, fell 52% to $18.4 million as customers move to RSC, a transition...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -521,7 +499,84 @@
       "unit": "million",
       "money_mn": 39.4,
       "decimals": 1,
-      "context": "...Rubrik-branded appliances and professional services, fell 23% to $39.4 million  . Gross margin on the total business fell to...",
+      "context": "...appliances and professional services, declined 23% to $39.4 million as appliance sales fell $10.4 million during the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$10.4 million",
+      "value": 10.4,
+      "unit": "million",
+      "money_mn": 10.4,
+      "decimals": 1,
+      "context": "...services, declined 23% to $39.4 million as appliance sales fell $10.4 million during the move to contract manufacturers  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$49.5 million",
+      "value": 49.5,
+      "unit": "million",
+      "money_mn": 49.5,
+      "decimals": 1,
+      "context": ".... Subscription gross margin fell to 74% from 82% because of $49.5 million of post-IPO stock-based compensation and $48.5...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$48.5 million",
+      "value": 48.5,
+      "unit": "million",
+      "money_mn": 48.5,
+      "decimals": 1,
+      "context": "...because of $49.5 million of post-IPO stock-based compensation and $48.5 million of higher hosting costs  . At the filing date...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$70.96",
+      "value": 70.96,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of higher hosting costs  . At the filing date the stock closed at $70.96, a market capitalization of about $13.3 billion,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$13.3 billion",
+      "value": 13.3,
+      "unit": "billion",
+      "money_mn": 13300.0,
+      "decimals": 1,
+      "context": "...date the stock closed at $70.96, a market capitalization of about $13.3 billion, within a 52-week range of $28.34 to $80.00  ....",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$28.34",
+      "value": 28.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...capitalization of about $13.3 billion, within a 52-week range of $28.34 to $80.00  . The equity story therefore depends...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$80.00",
+      "value": 80.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of about $13.3 billion, within a 52-week range of $28.34 to $80.00  . The equity story therefore depends on...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -532,7 +587,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...confirms the shift to recurring revenue. Subscription revenue rose 54% to $828.7 million and made up 93% of total...",
+      "context": "....\\n\\nRevenue falls into three categories. Subscription revenue rose 54% to $828.7 million in fiscal 2025 and made up 93%...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -543,7 +598,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...Subscription revenue rose 54% to $828.7 million and made up 93% of total revenue of $886.5 million, with gross...",
+      "context": "...revenue rose 54% to $828.7 million in fiscal 2025 and made up 93% of total revenue of $886.5 million  ....",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -554,18 +609,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...up 93% of total revenue of $886.5 million, with gross profit up 39% to $613.7 million  . Subscription ARR grew 39%...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "39%",
-      "value": 39.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...with gross profit up 39% to $613.7 million  . Subscription ARR grew 39% to $1,092.6 million, of which Cloud ARR was...",
+      "context": "...up 93% of total revenue of $886.5 million  . Subscription ARR grew 39% to $1,092.6 million, and Cloud ARR grew 67% to...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -576,7 +620,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...39% to $1,092.6 million, of which Cloud ARR was $875.6 million, up 67%, and average subscription dollar-based net...",
+      "context": ".... Subscription ARR grew 39% to $1,092.6 million, and Cloud ARR grew 67% to $875.6 million, about 80% of Subscription ARR...",
+      "section": "Business Overview",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "80%",
+      "value": 80.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$1,092.6 million, and Cloud ARR grew 67% to $875.6 million, about 80% of Subscription ARR  . Average subscription...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -587,7 +642,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...67%, and average subscription dollar-based net retention exceeded 120%  . Customers with at least $100,000 in...",
+      "context": "...ARR  . Average subscription dollar-based net retention exceeded 120%, and customers with at least $100,000 of...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -598,7 +653,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": ".... Legacy lines are shrinking as expected: Maintenance revenue fell 52% to $18.4 million as customers moved to RSC, and...",
+      "context": "....\\n\\nMaintenance revenue, the legacy perpetual license stream, fell 52% to $18.4 million as customers move to RSC, a...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -609,40 +664,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...mainly Rubrik-branded appliances and professional services, fell 23% to $39.4 million  . Gross margin on the total...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "70%",
-      "value": 70.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...23% to $39.4 million  . Gross margin on the total business fell to 70% from 77%, while subscription ARR contribution...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "77%",
-      "value": 77.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...million  . Gross margin on the total business fell to 70% from 77%, while subscription ARR contribution margin...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "2%",
-      "value": 2.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...from 77%, while subscription ARR contribution margin improved to 2% from (12)%  .  Demand drivers in the 10-K...",
+      "context": "...Rubrik-branded appliances and professional services, declined 23% to $39.4 million as appliance sales fell $10.4...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -653,7 +675,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...growth depends on whether subscription gross margin, which fell to 74% from 82%, recovers as post-IPO stock...",
+      "context": "...AI data defense product  . Subscription gross margin fell to 74% from 82% because of $49.5 million of post-IPO...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -664,7 +686,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...on whether subscription gross margin, which fell to 74% from 82%, recovers as post-IPO stock compensation and...",
+      "context": "...data defense product  . Subscription gross margin fell to 74% from 82% because of $49.5 million of post-IPO stock-based...",
       "section": "Business Overview",
       "source": "[1] 10-K"
     },
@@ -675,41 +697,8 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": ".... Customers with at least $100,000 in Subscription ARR rose to 2,246  . Legacy lines are shrinking as expected:...",
+      "context": "...and customers with at least $100,000 of Subscription ARR rose to 2,246  . Total revenue was $599.8 million in fiscal...",
       "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "12",
-      "value": 12.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...while subscription ARR contribution margin improved to 2% from (12)%  .  Demand drivers in the 10-K include rising...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...margin improved to 2% from (12)%  .  Demand drivers in the 10-K include rising cyberattack volumes, generative...",
-      "section": "Business Overview",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$100,000",
-      "value": 100000.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...software vendors  . The growing number of customers with at least $100,000 of Subscription ARR, now 2,246, suggests it is...",
-      "section": "Market Position",
       "source": "[1] 10-K"
     },
     {
@@ -719,7 +708,7 @@
       "unit": "million",
       "money_mn": 186.4,
       "decimals": 1,
-      "context": "...International revenue from EMEA and Asia-Pacific grew from $186.4 million to $250.4 million, and customers outside the...",
+      "context": ".... International revenue from EMEA and Asia-Pacific rose from $186.4 million to $250.4 million, and customers outside the...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -730,128 +719,7 @@
       "unit": "million",
       "money_mn": 250.4,
       "decimals": 1,
-      "context": "...revenue from EMEA and Asia-Pacific grew from $186.4 million to $250.4 million, and customers outside the United States...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$124.18",
-      "value": 124.18,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": ".... Consensus, dated after the 10-K, carries a Buy rating and a $124.18 average target price with a range of $110 to $155...",
-      "section": "Market Position",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$110",
-      "value": 110.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...a Buy rating and a $124.18 average target price with a range of $110 to $155  . Funding supports the position, with...",
-      "section": "Market Position",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$155",
-      "value": 155.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...rating and a $124.18 average target price with a range of $110 to $155  . Funding supports the position, with net cash...",
-      "section": "Market Position",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
-      "unit": "million",
-      "money_mn": 372.7,
-      "decimals": 1,
-      "context": "...of $110 to $155  . Funding supports the position, with net cash of $372.7 million at FY2025 year end  .",
-      "section": "Market Position",
-      "source": null
-    },
-    {
-      "kind": "pct",
-      "text": "73%",
-      "value": 73.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...and Ingram Micro, together with their affiliates, generated about 73% of revenue in FY2025, down from 76% in FY2024  ....",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "76%",
-      "value": 76.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...affiliates, generated about 73% of revenue in FY2025, down from 76% in FY2024  . The partner agreements are...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "31%",
-      "value": 31.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...million, and customers outside the United States accounted for 31% of revenue in FY2025 compared with 32% in FY2024...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "32%",
-      "value": 32.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...United States accounted for 31% of revenue in FY2025 compared with 32% in FY2024  . Customers range from the largest...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...as an emerging challenger rather than an established leader. The 10-K describes the data security market as at an...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "2,246",
-      "value": 2246.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...number of customers with at least $100,000 of Subscription ARR, now 2,246, suggests it is winning larger deployments,...",
-      "section": "Market Position",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...not name specific blue-chip customers  . Consensus, dated after the 10-K, carries a Buy rating and a $124.18 average...",
+      "context": "...revenue from EMEA and Asia-Pacific rose from $186.4 million to $250.4 million, and customers outside the United States...",
       "section": "Market Position",
       "source": "[1] 10-K"
     },
@@ -862,29 +730,172 @@
       "unit": "million",
       "money_mn": 886.5,
       "decimals": 1,
-      "context": "Revenue rose 41% to $886.5 million in FY2025, from $627.9 million in FY2024, led by...",
-      "section": "Operating Results",
+      "context": "...to incumbents rather than an established category leader. Its $886.5 million revenue base is still below Commvault's fiscal...",
+      "section": "Market Position",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$627.9 million",
-      "value": 627.9,
+      "text": "$996 million",
+      "value": 996.0,
       "unit": "million",
-      "money_mn": 627.9,
+      "money_mn": 996.0,
+      "decimals": 0,
+      "context": "...revenue base is still below Commvault's fiscal 2025 revenue of $996 million in the peer data, so it competes against vendors...",
+      "section": "Market Position",
+      "source": "[4] Peer data"
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$250.4 million, and customers outside the United States generated 31% of fiscal 2025 revenue, down from 32%  . Three...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "32%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the United States generated 31% of fiscal 2025 revenue, down from 32%  . Three Channel Partners, Arrow Enterprise...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "73%",
+      "value": 73.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Networks and Ingram Micro, with their affiliates, generated about 73% of fiscal 2025 revenue, down from 76%  . That...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "76%",
+      "value": 76.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...affiliates, generated about 73% of fiscal 2025 revenue, down from 76%  . That reach extends the company into smaller...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Within the peer data, Rubrik's fiscal 2025 revenue growth of 41% was the fastest of the group, ahead of Zscaler...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth of 41% was the fastest of the group, ahead of Zscaler at 23%, Commvault at 19% and Nutanix at 18%  . Its...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was the fastest of the group, ahead of Zscaler at 23%, Commvault at 19% and Nutanix at 18%  . Its trailing EV/Sales of...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the group, ahead of Zscaler at 23%, Commvault at 19% and Nutanix at 18%  . Its trailing EV/Sales of 15.85x was second...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "multiple",
+      "text": "15.85x",
+      "value": 15.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Commvault at 19% and Nutanix at 18%  . Its trailing EV/Sales of 15.85x was second only to Zscaler's 16.69x and well...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "multiple",
+      "text": "16.69x",
+      "value": 16.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...18%  . Its trailing EV/Sales of 15.85x was second only to Zscaler's 16.69x and well above Nutanix at 8.25x and Commvault at...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "multiple",
+      "text": "8.25x",
+      "value": 8.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was second only to Zscaler's 16.69x and well above Nutanix at 8.25x and Commvault at 6.7x  .\\n\\nWe classify Rubrik...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "multiple",
+      "text": "6.7x",
+      "value": 6.7,
+      "unit": "",
+      "money_mn": null,
       "decimals": 1,
-      "context": "Revenue rose 41% to $886.5 million in FY2025, from $627.9 million in FY2024, led by subscription revenue up 54% to...",
-      "section": "Operating Results",
+      "context": "...Zscaler's 16.69x and well above Nutanix at 8.25x and Commvault at 6.7x  .\\n\\nWe classify Rubrik as a challenger to...",
+      "section": "Market Position",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but it also concentrates revenue in a few distributors.\\n\\nThe 10-K does not quantify market share or name...",
+      "section": "Market Position",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$828.7 million",
-      "value": 828.7,
+      "text": "$886.5 million",
+      "value": 886.5,
       "unit": "million",
-      "money_mn": 828.7,
+      "money_mn": 886.5,
       "decimals": 1,
-      "context": "...$627.9 million in FY2024, led by subscription revenue up 54% to $828.7 million  . Cost of revenue rose 83% to $265.7 million,...",
+      "context": "Total revenue rose 41% to $886.5 million in fiscal 2025, led by subscription revenue up...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -895,18 +906,18 @@
       "unit": "million",
       "money_mn": 265.7,
       "decimals": 1,
-      "context": "...revenue up 54% to $828.7 million  . Cost of revenue rose 83% to $265.7 million, and gross margin fell to 70% from 77% as...",
+      "context": "...and other revenue declined  . Cost of revenue rose 83% to $265.7 million, and gross margin fell to 70% from 77%  ....",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$49.5 million",
-      "value": 49.5,
+      "text": "$5.2 million",
+      "value": 5.2,
       "unit": "million",
-      "money_mn": 49.5,
+      "money_mn": 5.2,
       "decimals": 1,
-      "context": "...fell to 70% from 77% as subscription costs rose 120%, including $49.5 million of stock-based compensation and higher hosting...",
+      "context": "...margin fell to 67% from 83%, and other revenue swung to a $5.2 million gross loss  .\\n\\nOperating expenses rose 122% to...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -917,7 +928,7 @@
       "unit": "million",
       "money_mn": 1754.8,
       "decimals": 1,
-      "context": "...compensation and higher hosting costs  . Operating expenses reached $1,754.8 million, up 122%, mainly because of $913.9 million of...",
+      "context": "...to a $5.2 million gross loss  .\\n\\nOperating expenses rose 122% to $1,754.8 million, mainly because of $913.9 million of total...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -928,7 +939,7 @@
       "unit": "million",
       "money_mn": 913.9,
       "decimals": 1,
-      "context": "...expenses reached $1,754.8 million, up 122%, mainly because of $913.9 million of total stock-based compensation after the IPO,...",
+      "context": "...expenses rose 122% to $1,754.8 million, mainly because of $913.9 million of total stock-based compensation recognized...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -939,7 +950,7 @@
       "unit": "million",
       "money_mn": 1154.8,
       "decimals": 1,
-      "context": "...margin deteriorated to -128% from -49%  . The net loss widened to $1,154.8 million from $354.2 million, and loss per share was...",
+      "context": "...the operating margin to -128% from -49%  . The net loss widened to $1,154.8 million from $354.2 million, and loss per share was...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -961,7 +972,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...to $1,154.8 million from $354.2 million, and loss per share was $7.48 versus $5.84  . The growth is real, but the cost...",
+      "context": "...to $1,154.8 million from $354.2 million, and loss per share was $7.48 versus $5.84  . The accumulated deficit reached...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -972,7 +983,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...million from $354.2 million, and loss per share was $7.48 versus $5.84  . The growth is real, but the cost base expanded...",
+      "context": "...million from $354.2 million, and loss per share was $7.48 versus $5.84  . The accumulated deficit reached $2,837.3...",
+      "section": "Operating Results",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$2,837.3 million",
+      "value": 2837.3,
+      "unit": "million",
+      "money_mn": 2837.3,
+      "decimals": 1,
+      "context": "...per share was $7.48 versus $5.84  . The accumulated deficit reached $2,837.3 million  . The one clear positive is unit economics: the...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -983,7 +1005,7 @@
       "unit": "million",
       "money_mn": 48.2,
       "decimals": 1,
-      "context": "...has turned positive but remains thin. Operating cash flow was $48.2 million, compared with $(4.5) million a year earlier,...",
+      "context": "...generation improved. Operating cash flow turned positive at $48.2 million from $(4.5) million, and free cash flow was...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -994,7 +1016,7 @@
       "unit": "million",
       "money_mn": 4.5,
       "decimals": 1,
-      "context": "...remains thin. Operating cash flow was $48.2 million, compared with $(4.5) million a year earlier, and free cash flow was $21.6...",
+      "context": "...improved. Operating cash flow turned positive at $48.2 million from $(4.5) million, and free cash flow was $21.6 million after a...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1005,7 +1027,7 @@
       "unit": "million",
       "money_mn": 21.6,
       "decimals": 1,
-      "context": "...compared with $(4.5) million a year earlier, and free cash flow was $21.6 million after a $22.8 million payroll tax outlay tied to...",
+      "context": "...at $48.2 million from $(4.5) million, and free cash flow was $21.6 million after a $22.8 million payroll tax outlay tied to...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1016,18 +1038,7 @@
       "unit": "million",
       "money_mn": 22.8,
       "decimals": 1,
-      "context": "...a year earlier, and free cash flow was $21.6 million after a $22.8 million payroll tax outlay tied to IPO-related vesting...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "money",
-      "text": "$398.0 million",
-      "value": 398.0,
-      "unit": "million",
-      "money_mn": 398.0,
-      "decimals": 1,
-      "context": "...tax outlay tied to IPO-related vesting  . Financing inflows of $398.0 million reflected $815.2 million of IPO proceeds, partly...",
+      "context": "...from $(4.5) million, and free cash flow was $21.6 million after a $22.8 million payroll tax outlay tied to IPO-related vesting...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1038,7 +1049,7 @@
       "unit": "million",
       "money_mn": 815.2,
       "decimals": 1,
-      "context": "...vesting  . Financing inflows of $398.0 million reflected $815.2 million of IPO proceeds, partly offset by $432.5 million...",
+      "context": "...payroll tax outlay tied to IPO-related vesting  . IPO proceeds of $815.2 million were partly offset by $432.5 million of taxes...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1049,7 +1060,7 @@
       "unit": "million",
       "money_mn": 432.5,
       "decimals": 1,
-      "context": "...million reflected $815.2 million of IPO proceeds, partly offset by $432.5 million of taxes paid on the net share settlement of...",
+      "context": "...vesting  . IPO proceeds of $815.2 million were partly offset by $432.5 million of taxes paid on net share settlement, and cash...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1060,9 +1071,20 @@
       "unit": "million",
       "money_mn": 705.1,
       "decimals": 1,
-      "context": "...of vested awards  . Cash and short-term investments reached $705.1 million, and management says liquidity is sufficient for...",
+      "context": "...net share settlement, and cash and short-term investments rose to $705.1 million from $279.3 million  .\\n\\nThe balance sheet...",
       "section": "Operating Results",
       "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$279.3 million",
+      "value": 279.3,
+      "unit": "million",
+      "money_mn": 279.3,
+      "decimals": 1,
+      "context": "...and cash and short-term investments rose to $705.1 million from $279.3 million  .\\n\\nThe balance sheet strengthened on...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "money",
@@ -1071,29 +1093,18 @@
       "unit": "million",
       "money_mn": 127.5,
       "decimals": 1,
-      "context": "...rose to 1.13 from 0.84, and working capital turned positive at $127.5 million  . The stockholders' deficit narrowed to $553.7...",
+      "context": "...ratio improved to 1.13 from 0.84, and working capital swung to $127.5 million from a $107.6 million deficit  . Deferred...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
     {
       "kind": "money",
-      "text": "$553.7 million",
-      "value": 553.7,
+      "text": "$107.6 million",
+      "value": 107.6,
       "unit": "million",
-      "money_mn": 553.7,
+      "money_mn": 107.6,
       "decimals": 1,
-      "context": "...positive at $127.5 million  . The stockholders' deficit narrowed to $553.7 million from $1,419.3 million, and deferred revenue of...",
-      "section": "Operating Results",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$1,419.3 million",
-      "value": 1419.3,
-      "unit": "million",
-      "money_mn": 1419.3,
-      "decimals": 1,
-      "context": ".... The stockholders' deficit narrowed to $553.7 million from $1,419.3 million, and deferred revenue of $1,419.5 million,...",
+      "context": "...1.13 from 0.84, and working capital swung to $127.5 million from a $107.6 million deficit  . Deferred revenue of $1,419.5 million...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
@@ -1104,7 +1115,29 @@
       "unit": "million",
       "money_mn": 1419.5,
       "decimals": 1,
-      "context": "...to $553.7 million from $1,419.3 million, and deferred revenue of $1,419.5 million, mostly customer prepayments, dominates...",
+      "context": "...$127.5 million from a $107.6 million deficit  . Deferred revenue of $1,419.5 million dominates liabilities, and the stockholders'...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$553.7 million",
+      "value": 553.7,
+      "unit": "million",
+      "money_mn": 553.7,
+      "decimals": 1,
+      "context": "...dominates liabilities, and the stockholders' deficit narrowed to $553.7 million from $1,419.3 million  . Long-term debt of...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "money",
+      "text": "$1,419.3 million",
+      "value": 1419.3,
+      "unit": "million",
+      "money_mn": 1419.3,
+      "decimals": 1,
+      "context": "...and the stockholders' deficit narrowed to $553.7 million from $1,419.3 million  . Long-term debt of $322.3 million is due in...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
@@ -1115,7 +1148,7 @@
       "unit": "million",
       "money_mn": 322.3,
       "decimals": 1,
-      "context": "...customer prepayments, dominates liabilities  . Long-term debt of $322.3 million is due in fiscal 2029  . Subscription gross...",
+      "context": "...to $553.7 million from $1,419.3 million  . Long-term debt of $322.3 million is due in fiscal 2029  .",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1126,7 +1159,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "Revenue rose 41% to $886.5 million in FY2025, from $627.9 million...",
+      "context": "Total revenue rose 41% to $886.5 million in fiscal 2025, led by...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1137,7 +1170,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...from $627.9 million in FY2024, led by subscription revenue up 54% to $828.7 million  . Cost of revenue rose 83% to...",
+      "context": "...to $886.5 million in fiscal 2025, led by subscription revenue up 54%, while maintenance and other revenue declined  ....",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1148,7 +1181,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...revenue up 54% to $828.7 million  . Cost of revenue rose 83% to $265.7 million, and gross margin fell to 70%...",
+      "context": "...maintenance and other revenue declined  . Cost of revenue rose 83% to $265.7 million, and gross margin fell to 70%...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1159,7 +1192,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...of revenue rose 83% to $265.7 million, and gross margin fell to 70% from 77% as subscription costs rose 120%,...",
+      "context": "...of revenue rose 83% to $265.7 million, and gross margin fell to 70% from 77%  . Subscription gross margin dropped...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1170,18 +1203,51 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...rose 83% to $265.7 million, and gross margin fell to 70% from 77% as subscription costs rose 120%, including $49.5...",
+      "context": "...rose 83% to $265.7 million, and gross margin fell to 70% from 77%  . Subscription gross margin dropped from 82% to...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "120%",
-      "value": 120.0,
+      "text": "82%",
+      "value": 82.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...and gross margin fell to 70% from 77% as subscription costs rose 120%, including $49.5 million of stock-based...",
+      "context": "...fell to 70% from 77%  . Subscription gross margin dropped from 82% to 74%, maintenance margin fell to 67% from 83%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 70% from 77%  . Subscription gross margin dropped from 82% to 74%, maintenance margin fell to 67% from 83%, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...gross margin dropped from 82% to 74%, maintenance margin fell to 67% from 83%, and other revenue swung to a $5.2...",
+      "section": "Operating Results",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "83%",
+      "value": 83.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin dropped from 82% to 74%, maintenance margin fell to 67% from 83%, and other revenue swung to a $5.2 million gross...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1192,7 +1258,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...hosting costs  . Operating expenses reached $1,754.8 million, up 122%, mainly because of $913.9 million of total...",
+      "context": "...swung to a $5.2 million gross loss  .\\n\\nOperating expenses rose 122% to $1,754.8 million, mainly because of $913.9...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
@@ -1203,7 +1269,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...compensation after the IPO, and operating margin deteriorated to -128% from -49%  . The net loss widened to $1,154.8...",
+      "context": "...recognized after the IPO, which pushed the operating margin to -128% from -49%  . The net loss widened to $1,154.8...",
       "section": "Operating Results",
       "source": null
     },
@@ -1214,29 +1280,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...after the IPO, and operating margin deteriorated to -128% from -49%  . The net loss widened to $1,154.8 million from...",
+      "context": "...after the IPO, which pushed the operating margin to -128% from -49%  . The net loss widened to $1,154.8 million from...",
       "section": "Operating Results",
       "source": "[2] Yahoo Finance"
     },
     {
       "kind": "pct",
-      "text": "74%",
-      "value": 74.0,
+      "text": "2%",
+      "value": 2.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...million is due in fiscal 2029  . Subscription gross margin fell to 74% from 82% while Maintenance and Other revenue...",
-      "section": "Operating Results",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "82%",
-      "value": 82.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...is due in fiscal 2029  . Subscription gross margin fell to 74% from 82% while Maintenance and Other revenue shrank as...",
+      "context": "...economics: the Subscription ARR contribution margin improved to 2% from (12)%  .\\n\\nCash generation improved....",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1247,7 +1302,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...million, and management says liquidity is sufficient for at least 12 months  . Free cash flow is small relative to...",
+      "context": "...the Subscription ARR contribution margin improved to 2% from (12)%  .\\n\\nCash generation improved. Operating cash...",
       "section": "Operating Results",
       "source": "[1] 10-K"
     },
@@ -1258,9 +1313,9 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...but still carries a structural deficit. The current ratio rose to 1.13 from 0.84, and working capital turned positive...",
+      "context": "...sheet strengthened on liquidity. The current ratio improved to 1.13 from 0.84, and working capital swung to $127.5...",
       "section": "Operating Results",
-      "source": "[4] Peer data"
+      "source": null
     },
     {
       "kind": "plain",
@@ -1269,20 +1324,9 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...carries a structural deficit. The current ratio rose to 1.13 from 0.84, and working capital turned positive at $127.5...",
+      "context": "...strengthened on liquidity. The current ratio improved to 1.13 from 0.84, and working capital swung to $127.5 million...",
       "section": "Operating Results",
-      "source": "[4] Peer data"
-    },
-    {
-      "kind": "money",
-      "text": "$2,837.3 million",
-      "value": 2837.3,
-      "unit": "million",
-      "money_mn": 2837.3,
-      "decimals": 1,
-      "context": "...keep falling through fiscal 2027  . The accumulated deficit grew to $2,837.3 million, and the $1,346.1 million of federal NOL...",
-      "section": "Risk Assessment",
-      "source": "[1] 10-K"
+      "source": null
     },
     {
       "kind": "money",
@@ -1291,7 +1335,7 @@
       "unit": "million",
       "money_mn": 1346.1,
       "decimals": 1,
-      "context": "...2027  . The accumulated deficit grew to $2,837.3 million, and the $1,346.1 million of federal NOL carryforwards depend on reaching...",
+      "context": "...payments and shrink contract sizes  . Accumulated losses and $1,346.1 million of federal NOL carryforwards are useful only if...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1302,40 +1346,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...log files  . The Ransomware Recovery Warranty reimburses up to $10,000,000 of recovery expense, and widespread claims could...",
+      "context": "...internal code  . The Ransomware Recovery Warranty reimburses up to $10,000,000 of recovery expense, and widespread claims could...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$110",
-      "value": 110.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": ".... Consensus, dated after the 10-K, shows a wide target range of $110 to $155, a $45 spread that signals uncertainty...",
-      "section": "Risk Assessment",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$155",
-      "value": 155.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...dated after the 10-K, shows a wide target range of $110 to $155, a $45 spread that signals uncertainty about the...",
-      "section": "Risk Assessment",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$45",
-      "value": 45.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...dated after the 10-K, shows a wide target range of $110 to $155, a $45 spread that signals uncertainty about the outlook...",
+      "text": "$48.5 million",
+      "value": 48.5,
+      "unit": "million",
+      "money_mn": 48.5,
+      "decimals": 1,
+      "context": "...all infrastructure runs on GCP, Azure and AWS  . Hosting costs rose $48.5 million in fiscal 2025 and could weigh further on gross...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1346,31 +1368,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...third key risk. The three largest channel partners generated about 73% of FY2025 revenue, partner agreements are...",
+      "context": "...cloud hosting. The three largest Channel Partners generated about 73% of fiscal 2025 revenue, and their agreements are...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "70%",
-      "value": 70.0,
+      "text": "31%",
+      "value": 31.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...costs could further pressure gross margins, which already fell to 70%  . For shareholders, dilution is a concern:...",
+      "context": "...carries insurance, and it holds FedRAMP certification  . With 31% of revenue generated outside the United States,...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "7.9%",
-      "value": 7.9,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": ".... For shareholders, dilution is a concern: shares outstanding rose 7.9% year over year to 189.8 million  . Consensus,...",
-      "section": "Risk Assessment",
-      "source": "[4] Peer data"
     },
     {
       "kind": "plain",
@@ -1379,7 +1390,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "The 10-K's top risk is the transition to RSC, which...",
+      "context": "The first risk is the revenue transition to RSC. The 10-K says revenue shifts from upfront term licenses...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
@@ -1390,20 +1401,9 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...depend on reaching profitability and may be limited under Section 382  .  Security exposure is inherent in the...",
+      "context": "...carryforwards are useful only if profitability arrives, and Section 382 may limit their use  .\\n\\nThe second risk is...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "189.8",
-      "value": 189.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...is a concern: shares outstanding rose 7.9% year over year to 189.8 million  . Consensus, dated after the 10-K,...",
-      "section": "Risk Assessment",
-      "source": "[2] Yahoo Finance"
     },
     {
       "kind": "plain",
@@ -1412,31 +1412,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...7.9% year over year to 189.8 million  . Consensus, dated after the 10-K, shows a wide target range of $110 to $155, a...",
+      "context": "...it is virtually impossible to eliminate the risk entirely  . The 10-K discloses a March 2023 incident in a...",
       "section": "Risk Assessment",
       "source": "[1] 10-K"
     },
     {
       "kind": "money",
-      "text": "$124.18",
-      "value": 124.18,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...Consensus, dated after the 10-K, carries a Buy rating and a $124.18 target  . Rubrik's net cash of $372.7 million is...",
-      "section": "Competitors Analysis",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$372.7 million",
-      "value": 372.7,
+      "text": "$913.9 million",
+      "value": 913.9,
       "unit": "million",
-      "money_mn": 372.7,
+      "money_mn": 913.9,
       "decimals": 1,
-      "context": "...carries a Buy rating and a $124.18 target  . Rubrik's net cash of $372.7 million is a funding advantage over these peers, but...",
+      "context": "...Zscaler in the same peer-data year  . Stock-based compensation of $913.9 million, which the 10-K ties to the IPO, is the largest...",
       "section": "Competitors Analysis",
-      "source": null
+      "source": "[1] 10-K"
     },
     {
       "kind": "pct",
@@ -1445,29 +1434,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...FY2025 growth, Rubrik led the group. Its revenue growth of 41% compared with about 32% for SentinelOne, 13% for...",
+      "context": "...security platform at 2.2x  . Rubrik's fiscal 2025 revenue growth of 41% exceeded Zscaler's 23%, Commvault's 19% and...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "32%",
-      "value": 32.0,
+      "text": "23%",
+      "value": 23.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...Rubrik led the group. Its revenue growth of 41% compared with about 32% for SentinelOne, 13% for Varonis and 19% for...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "13%",
-      "value": 13.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...Its revenue growth of 41% compared with about 32% for SentinelOne, 13% for Varonis and 19% for Commvault  . Rubrik's...",
+      "context": ".... Rubrik's fiscal 2025 revenue growth of 41% exceeded Zscaler's 23%, Commvault's 19% and Nutanix's 18%  . Scale is...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1478,75 +1456,108 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...of 41% compared with about 32% for SentinelOne, 13% for Varonis and 19% for Commvault  . Rubrik's gross margin of 70%...",
+      "context": "...2025 revenue growth of 41% exceeded Zscaler's 23%, Commvault's 19% and Nutanix's 18%  . Scale is the gap: Rubrik's...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
     {
       "kind": "pct",
-      "text": "70%",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth of 41% exceeded Zscaler's 23%, Commvault's 19% and Nutanix's 18%  . Scale is the gap: Rubrik's revenue trails all...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus"
+    },
+    {
+      "kind": "pct",
+      "text": "70.0%",
       "value": 70.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...13% for Varonis and 19% for Commvault  . Rubrik's gross margin of 70% was the lowest of the group in FY2025, below...",
+      "decimals": 1,
+      "context": "...base  .\\n\\nMargins are where Rubrik trails. Its gross margin of 70.0% in fiscal 2025 was the lowest in the group,...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "82%",
+      "text": "76.9%",
+      "value": 76.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin of 70.0% in fiscal 2025 was the lowest in the group, against 76.9% for Zscaler, 82.0% for Commvault and 86.8% for...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "pct",
+      "text": "82.0%",
       "value": 82.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...70% was the lowest of the group in FY2025, below Commvault at about 82%, Varonis at about 79% and SentinelOne at about...",
+      "decimals": 1,
+      "context": "...fiscal 2025 was the lowest in the group, against 76.9% for Zscaler, 82.0% for Commvault and 86.8% for Nutanix  . Its...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
     {
       "kind": "pct",
-      "text": "79%",
-      "value": 79.0,
+      "text": "86.8%",
+      "value": 86.8,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...the group in FY2025, below Commvault at about 82%, Varonis at about 79% and SentinelOne at about 74%  . The difference...",
+      "decimals": 1,
+      "context": "...in the group, against 76.9% for Zscaler, 82.0% for Commvault and 86.8% for Nutanix  . Its EBITDA margin of -121.6%...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
     {
       "kind": "pct",
-      "text": "74%",
-      "value": 74.0,
+      "text": "-121.6%",
+      "value": 121.6,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...at about 82%, Varonis at about 79% and SentinelOne at about 74%  . The difference reflects Rubrik's post-IPO...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "pct",
-      "text": "-122%",
-      "value": 122.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...cost base  . Rubrik's EBITDA margin was deeply negative, at about -122% in FY2025, while Commvault remained positive at...",
+      "decimals": 1,
+      "context": "...82.0% for Commvault and 86.8% for Nutanix  . Its EBITDA margin of -121.6% compares with 9.1% for Commvault, 11.5% for...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
     {
       "kind": "pct",
-      "text": "9%",
-      "value": 9.0,
+      "text": "9.1%",
+      "value": 9.1,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...about -122% in FY2025, while Commvault remained positive at about 9%, and SentinelOne and Varonis were also...",
+      "decimals": 1,
+      "context": "...and 86.8% for Nutanix  . Its EBITDA margin of -121.6% compares with 9.1% for Commvault, 11.5% for Nutanix and 4.0% for...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Its EBITDA margin of -121.6% compares with 9.1% for Commvault, 11.5% for Nutanix and 4.0% for Zscaler in the same...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data"
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of -121.6% compares with 9.1% for Commvault, 11.5% for Nutanix and 4.0% for Zscaler in the same peer-data year  ....",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
     },
     {
       "kind": "multiple",
@@ -1555,73 +1566,106 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...competitor in data protection and cyber recovery, and it is about 0.8x Rubrik's revenue  . Varonis is the closest...",
+      "context": "...as a competitor in data protection and recovery, and its revenue is 0.8x Rubrik's  . Nutanix was selected next for its...",
       "section": "Competitors Analysis",
       "source": "[2][3] Liquidity and consensus"
     },
     {
       "kind": "multiple",
-      "text": "0.5x",
-      "value": 0.5,
+      "text": "1.9x",
+      "value": 1.9,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...peer, focused on data discovery and classification, at about 0.5x Rubrik's revenue  . SentinelOne is a...",
+      "context": "...next for its subscription-transitioning infrastructure model at 1.9x Rubrik's revenue, and Zscaler for its...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "multiple",
+      "text": "2.2x",
+      "value": 2.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and Zscaler for its cloud-native subscription security platform at 2.2x  . Rubrik's fiscal 2025 revenue growth of 41%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "multiple",
+      "text": "15.85x",
+      "value": 15.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is the clearest difference. Rubrik's trailing EV/Sales of 15.85x was second only to Zscaler's 16.69x and well...",
       "section": "Competitors Analysis",
       "source": "[2] Yahoo Finance"
     },
     {
       "kind": "multiple",
-      "text": "0.7x",
-      "value": 0.7,
+      "text": "16.69x",
+      "value": 16.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Rubrik's trailing EV/Sales of 15.85x was second only to Zscaler's 16.69x and well above Nutanix at 8.25x and Commvault at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "multiple",
+      "text": "8.25x",
+      "value": 8.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was second only to Zscaler's 16.69x and well above Nutanix at 8.25x and Commvault at 6.7x  . On the latest peer-data...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "multiple",
+      "text": "6.7x",
+      "value": 6.7,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...cybersecurity platform of similar scale to Commvault, at about 0.7x, and was chosen over Netskope and Qualys because...",
+      "context": "...Zscaler's 16.69x and well above Nutanix at 8.25x and Commvault at 6.7x  . On the latest peer-data year, Rubrik's...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "multiple",
+      "text": "9.18x",
+      "value": 9.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...at 6.7x  . On the latest peer-data year, Rubrik's EV/Sales of 9.18x was still the highest in the group, above...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance"
+    },
+    {
+      "kind": "multiple",
+      "text": "7.63x",
+      "value": 7.63,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 9.18x was still the highest in the group, above Zscaler's 7.63x  . Commvault was the least richly valued of the...",
       "section": "Competitors Analysis",
       "source": "[4] Peer data"
     },
     {
-      "kind": "multiple",
-      "text": "15.9x",
-      "value": 15.9,
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 1,
-      "context": "...meaningful because EBITDA is negative. Its FY2025 EV/Sales of about 15.9x was well above Commvault at about 6.7x, Varonis...",
-      "section": "Competitors Analysis",
-      "source": "[2] Yahoo Finance"
-    },
-    {
-      "kind": "multiple",
-      "text": "6.7x",
-      "value": 6.7,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...FY2025 EV/Sales of about 15.9x was well above Commvault at about 6.7x, Varonis at about 6.7x and SentinelOne at about...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "multiple",
-      "text": "6.7x",
-      "value": 6.7,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...15.9x was well above Commvault at about 6.7x, Varonis at about 6.7x and SentinelOne at about 9.3x  . The premium is...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "multiple",
-      "text": "9.3x",
-      "value": 9.3,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...at about 6.7x, Varonis at about 6.7x and SentinelOne at about 9.3x  . The premium is supported by growth rather...",
+      "decimals": 0,
+      "context": "Commvault was chosen as the closest peer because the 10-K names it as a competitor in data protection...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1632,40 +1676,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...SentinelOne (S). Commvault is the closest business-model peer: the 10-K names it as a direct competitor in data...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...size are closer to Rubrik's  . Veeam and Cohesity are named in the 10-K but are private, so they are not included.  On...",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...post-IPO stock compensation and higher hosting costs, which the 10-K attributes to the subscription cost base  ....",
-      "section": "Competitors Analysis",
-      "source": "[1] 10-K"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...by growth rather than current earnings. Consensus, dated after the 10-K, carries a Buy rating and a $124.18 target  ....",
+      "context": "...year  . Stock-based compensation of $913.9 million, which the 10-K ties to the IPO, is the largest single driver...",
       "section": "Competitors Analysis",
       "source": "[1] 10-K"
     },
@@ -1687,7 +1698,7 @@
       "unit": "million",
       "money_mn": 537.9,
       "decimals": 1,
-      "context": "Subscription: $828.7 million, prior $537.9 million; Maintenance: $18.4 million, prior $38.7 million",
+      "context": "Subscription: $828.7 million, prior $537.9 million; Maintenance: $18.4 million, prior $38.7...",
       "section": "Segment table",
       "source": "[1] 10-K"
     },
@@ -1698,7 +1709,7 @@
       "unit": "million",
       "money_mn": 18.4,
       "decimals": 1,
-      "context": "Subscription: $828.7 million, prior $537.9 million; Maintenance: $18.4 million, prior $38.7 million",
+      "context": "Subscription: $828.7 million, prior $537.9 million; Maintenance: $18.4 million, prior $38.7 million; Other: $39.4 million,...",
       "section": "Segment table",
       "source": "[1] 10-K"
     },
@@ -1709,14 +1720,44 @@
       "unit": "million",
       "money_mn": 38.7,
       "decimals": 1,
-      "context": "...million, prior $537.9 million; Maintenance: $18.4 million, prior $38.7 million",
+      "context": "...million, prior $537.9 million; Maintenance: $18.4 million, prior $38.7 million; Other: $39.4 million, prior $51.3 million",
+      "section": "Segment table",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$39.4 million",
+      "value": 39.4,
+      "unit": "million",
+      "money_mn": 39.4,
+      "decimals": 1,
+      "context": "...million; Maintenance: $18.4 million, prior $38.7 million; Other: $39.4 million, prior $51.3 million",
+      "section": "Segment table",
+      "source": "[1] 10-K"
+    },
+    {
+      "kind": "money",
+      "text": "$51.3 million",
+      "value": 51.3,
+      "unit": "million",
+      "money_mn": 51.3,
+      "decimals": 1,
+      "context": "...$18.4 million, prior $38.7 million; Other: $39.4 million, prior $51.3 million",
       "section": "Segment table",
       "source": "[1] 10-K"
     }
   ],
   "peer_tickers": [
     "CVLT",
-    "VRNS",
-    "S"
-  ]
+    "NTNX",
+    "ZS"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 149,
+    "matched": 142,
+    "match_rate": 0.953,
+    "name_issues": 0
+  }
 }

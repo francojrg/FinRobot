@@ -174,7 +174,9 @@ def _scaled_image(path, max_width, max_height=None):
 def _paragraphs(text, style):
     import html as _html
     out = []
-    for para in [p.strip() for p in str(text).replace("\r", "").split("\n") if p.strip()]:
+    # Modelle uebergeben Absatzwechsel manchmal als Text "\\n" statt als echten Zeilenumbruch
+    text = str(text).replace("\r", "").replace("\\n", "\n")
+    for para in [p.strip() for p in text.split("\n") if p.strip()]:
         out.append(Paragraph(_html.escape(para, quote=False), style))
     return out
 
@@ -547,7 +549,7 @@ def _build_report_v3(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
 
 def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_img, filing_date,
-                     peer_tickers=None, segments=None, takeaways=None):
+                     peer_tickers=None, segments=None, takeaways=None, theses=None):
     from datetime import date
     from xml.sax.saxutils import escape as _esc
     from reportlab.lib.units import cm
@@ -696,6 +698,17 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
     # --- Seite 1 unten: Financial Metrics -----------------------------------
     metrics = FMPUtils.get_financial_metrics(ticker_symbol, years=5)
+    # Nur Geschaeftsjahre bis einschliesslich des analysierten 10-K zeigen (sonst mischt der Report z. B. das
+    # 10-K fuer FY2025 mit Yahoo-Zahlen fuer FY2026, wenn dieses schon berichtet ist)
+    try:
+        hit_ = _tenk_reference(ticker_symbol, filing_date)
+        tenk_fy = int(str(hit_["report_date"])[:4]) if hit_ and hit_.get("report_date") else None
+    except Exception:
+        tenk_fy = None
+    if tenk_fy:
+        keep_ = [c_ for c_ in metrics.columns if str(c_)[:4].isdigit() and int(str(c_)[:4]) <= tenk_fy]
+        if keep_:
+            metrics = metrics[keep_]
     own_fy = str(sorted(metrics.columns)[-1]) if len(metrics.columns) else "current"
     tbl = metrics.copy()
     # EPS-Zeile (Ist-Werte aus der GuV)
@@ -778,6 +791,17 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
         except Exception as e:
             peer_errors.append(f"{ptk}: {e}")
     names = {t_: _company_name(t_) for t_ in [ticker_symbol] + list(peer_metrics)}
+
+    if theses:
+        rows = [[Paragraph(h_, cell_w) for h_ in ("Thesis", "Evidence", "Signpost (what we watch)", "What would prove it wrong")]]
+        for th_ in theses:
+            rows.append([Paragraph(f"<b>{_esc(th_['thesis'])}</b>", cell), Paragraph(_esc(th_["evidence"]), cell),
+                         Paragraph(_esc(th_["signpost"]), cell), Paragraph(_esc(th_["invalidation"]), cell)])
+        tth = Table(rows, colWidths=[usable * 0.27, usable * 0.29, usable * 0.22, usable * 0.22], repeatRows=1)
+        tth.setStyle(TableStyle(line.getCommands() + [("VALIGN", (0, 0), (-1, -1), "TOP")]))
+        content += heading("Investment Thesis") + [exhibit(next_ex(), "Investment theses, signposts and invalidation"), tth,
+                                                   source("Agent's assessment based on the 10-K [1] and market data [2][3]; "
+                                                          "signposts are checked in the earnings and thesis updates.")]
 
     for sec_title, text in sections:
         content += heading(sec_title)
@@ -1001,6 +1025,9 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     # --- Anhang: automatischer Faktencheck -----------------------------------
     from .fact_check import run_fact_check, save_json
     fc_sections = ([("Key Takeaways", " ".join(takeaways))] if takeaways else []) + [("Investment Summary", summary)] + list(sections)
+    if theses:
+        fc_sections.append(("Investment Thesis", " ".join(f"{t_['thesis']} {t_['evidence']} {t_['signpost']} {t_['invalidation']}"
+                                                          for t_ in theses)))
     if segments:
         fc_sections.append(("Segment table", "; ".join(
             f"{sg['segment']}: ${sg['current']} million" + (f", prior ${sg['prior']} million" if sg["prior"] else "")
@@ -1133,6 +1160,12 @@ class ReportLabUtils:
             "3-4 short bullet points (max. 25 words each) for the 'Key takeaways' box on page 1: the most important "
             "conclusions (e.g. growth, profitability/funding, valuation vs consensus, key risk), each with a citation [1]-[4]",
         ] = None,
+        investment_theses: Annotated[
+            List[dict],
+            "3-4 investment theses, each {'thesis': the view in one sentence (a claim that can turn out wrong), "
+            "'evidence': why, with figures and a citation, 'signpost': the measurable KPI or event (with timing) that will "
+            "confirm it, 'invalidation': what would prove it wrong}. Shown as a table and checked by the earnings reviewer.",
+        ] = None,
     ) -> str:
         """
         Aggregate a company's business_overview, market_position, operating_results,
@@ -1173,6 +1206,25 @@ class ReportLabUtils:
             for t_ in takeaways:
                 if len(t_.split()) > 40:
                     problems.append(f"key_takeaways: Punkt mit {len(t_.split())} Woertern, maximal 25 ('{t_[:60]}')")
+        theses = []
+        if investment_theses:
+            if isinstance(investment_theses, str):
+                try:
+                    import json as _j
+                    investment_theses = _j.loads(investment_theses)
+                except Exception:
+                    problems.append("investment_theses must be a list of objects")
+                    investment_theses = []
+            for x_ in investment_theses or []:
+                th_ = {k_: str((x_ or {}).get(k_, "")).strip() for k_ in ("thesis", "evidence", "signpost", "invalidation")}
+                missing = [k_ for k_, v_ in th_.items() if not v_]
+                if missing:
+                    problems.append(f"investment_theses: missing {', '.join(missing)} in '{th_['thesis'][:50]}'")
+                if any(len(v_.split()) > 60 for v_ in th_.values()):
+                    problems.append(f"investment_theses: field longer than 60 words in '{th_['thesis'][:50]}'")
+                theses.append(th_)
+            if not 2 <= len(theses) <= 5:
+                problems.append(f"investment_theses: {len(theses)} entries, expected 3-4")
         if takeaways and len((investment_summary or "").split()) > 200:
             problems.append(f"investment_summary: {len(investment_summary.split())} Woerter, mit Key Takeaways maximal 180 "
                             "(passt sonst nicht auf Seite 1)")
@@ -1191,6 +1243,21 @@ class ReportLabUtils:
             pdf_path = (os.path.join(save_path, f"{ticker_symbol}_Equity_Research_report.pdf")
                         if os.path.isdir(save_path) else save_path)
             os.makedirs(os.path.dirname(pdf_path) or ".", exist_ok=True)
+            # Argumente sichern: Grundlage fuer Neubau ohne LLM und fuer den Earnings/Thesis Reviewer
+            try:
+                import json as _json
+                _json.dump({"ticker_symbol": ticker_symbol, "save_path": save_path, "filing_date": filing_date,
+                            "investment_summary": investment_summary, "key_takeaways": takeaways,
+                            "business_overview": business_overview, "market_position": market_position,
+                            "operating_results": operating_results, "risk_assessment": risk_assessment,
+                            "competitors_analysis": competitors_analysis, "peer_tickers": peer_tickers,
+                            "segment_data": segment_data, "investment_theses": theses,
+                            "share_performance_image_path": share_performance_image_path,
+                            "pe_eps_performance_image_path": pe_eps_performance_image_path},
+                           open(os.path.splitext(pdf_path)[0] + "_build_args.json", "w", encoding="utf-8"),
+                           indent=2, ensure_ascii=False)
+            except Exception:
+                pass
             return _build_report_v4(
                 ticker_symbol, pdf_path, investment_summary,
                 [("Business Overview", business_overview), ("Market Position", market_position),
@@ -1198,6 +1265,7 @@ class ReportLabUtils:
                  ("Competitors Analysis", competitors_analysis)],
                 share_performance_image_path, pe_eps_performance_image_path, filing_date,
                 peer_tickers=peer_tickers, segments=segments, takeaways=takeaways or None,
+                theses=theses or None,
             )
         except Exception:
             return traceback.format_exc()

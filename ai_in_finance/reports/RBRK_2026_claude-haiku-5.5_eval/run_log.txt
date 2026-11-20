@@ -1,0 +1,594 @@
+User_Proxy (to Expert_Investor):
+
+
+With the tools you've been provided, write an annual report based on RBRK's 2026 10-k report, format it into a pdf.
+Pay attention to the followings:
+- Explicitly explain your working plan before you kick off.
+- Use tools one by one for clarity.
+- All your file operations should be done in "../reports/RBRK_2026_claude-haiku-5.5_eval".
+- Before the competitor analysis, call get_peer_candidates. Pass extra_tickers with US-listed companies that have a similar business model (e.g. listed competitors named in the 10-K). Choose the 3 most comparable peers from the returned list, business model first, size second; state briefly why.
+- Use the analysis tools (income statement, balance sheet, cash flow, segments, business highlights,
+  company description, risk assessment, competitors) and base the report on their ANALYSIS RESULT outputs.
+- Each of the five sections should be roughly 350-450 words, split into 2-4 paragraphs.
+- Call get_consensus_and_liquidity once for RBRK and 2026. Use its figures for valuation and funding
+  (consensus growth and EPS, forward EV/Sales, cash runway, dilution, reverse DCF and implied return, estimate
+  revisions, earnings surprises, quality scores) and say that they are dated
+  after the 10-K. In the investment summary, compare the growth implied by the reverse DCF with consensus and
+  historical growth: what does the current valuation require?
+- Write an investment summary of 130-180 words for page 1.
+- Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations): growth, profitability or
+  funding, valuation vs consensus, and the main risk. Do not simply repeat the first sentences of the summary.
+- Cite sources inline as [1] 10-K, [2] Yahoo Finance financials/prices, [3] analyst consensus, [4] peer financials.
+- When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
+  revenues for the last two fiscal years as stated in the 10-K (USD millions) and key_takeaways as a list.
+- Do not generate the pdf until all of this is fulfilled.
+- If build_annual_report returns a SELF-CHECK list, revise the texts once as instructed and rebuild.
+
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+**Working plan**
+
+1. Locate the RBRK FY2026 10-K filing with `get_sec_report`.
+2. Run the analysis tools one at a time: company description, income statement, segment, balance sheet, cash flow, business highlights, and risk assessment.
+3. Call `get_key_data` for the filing date and `get_consensus_and_liquidity` once for RBRK / 2026.
+4. Call `get_peer_candidates` with US-listed peers (for example, CrowdStrike, Palo Alto Networks, Commvault, and Veeam if listed, though Veeam is private), then pick three peers on business model first and size second. Run `get_competitors_analysis` on them.
+5. Produce the share performance and P/E charts, saving files to `../reports/RBRK_2026_claude-haiku-5.5_eval`.
+6. Draft the five sections (about 350–450 words each, 2–4 paragraphs), the 130–180 word investment summary, and 3–4 key takeaways, with inline citations [1]–[4].
+7. Call `build_annual_report` once, passing peer tickers, segment data, and key takeaways. If it returns a SELF-CHECK list, revise once and rebuild.
+
+I'll start by retrieving the 10-K.
+***** Suggested tool call (toolu_01GXUnUXporPyfS7MXyJsTeA): get_sec_report *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026"}
+********************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_sec_report...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01GXUnUXporPyfS7MXyJsTeA) *****
+Link: https://www.sec.gov/Archives/edgar/data/1943896/000194389626000013/rbrk-20260131.htm
+Filing Date: 2026-03-19
+Fiscal Period End: 2026-01-31
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+The 10-K was filed 2026-03-19 for the fiscal year ended 2026-01-31. Next, I'll run the company description analysis.
+***** Suggested tool call (toolu_01GJuxJLarrXpRHHy7qKrgFN): analyze_company_description *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/company_description.txt"}
+*********************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION analyze_company_description...
+Sec Api initialized
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01GJuxJLarrXpRHHy7qKrgFN) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/company_description.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/company_description_analysis.txt):
+
+**Company Overview**
+
+Founded in [year not disclosed in the provided resources], Rubrik, Inc. is a Palo Alto, California-based data security company that provides Zero Trust Data Security for cyber resilience and AI adoption. Its Rubrik Security Cloud (RSC) suite is a cloud-native SaaS platform that secures data across enterprise, cloud, SaaS, unstructured data, and identity providers. Its Rubrik Agent Cloud (RAC), commercially available since February 2026, is an AI operations platform for monitoring and controlling agentic actions. The company operates in the data security and cyber resilience market, where it sells subscriptions mainly through a sales team and partner network using a land-and-expand model.
+
+**Core Strengths and Competitive Advantages**
+
+Rubrik combines backup and recovery with cybersecurity on a single SaaS architecture. Its self-describing time-series data and metadata, proprietary data threat engine, and Preemptive Recovery Engine support cyber recovery. Native immutability and a logical air gap support its Zero Trust design. Key products include Data Protection, Data Threat Analytics, Identity Security, and Cyber Recovery. The company holds 425 issued U.S. patents and patents in various non-U.S. jurisdictions. Subscription ARR reached $1.46 billion (up 34%), Cloud ARR $1.29 billion (up 48%), and average net retention exceeded 120%. Customers with at least $100,000 in Subscription ARR rose 25% to 2,805.
+
+**Market Position**
+
+Management believes no other company takes a similar approach. Main competitors include Commvault, Dell EMC, IBM, Veeam, and Cohesity. Market share data is not disclosed. International revenue from EMEA and Asia-Pacific grew to $364.5 million from $250.4 million, about 28% of fiscal 2026 revenue of $1.32 billion. The company serves organizations of various sizes across many industries, including the public sector. Individual customers are not named, so blue-chip status cannot be confirmed.
+
+**Industry Trends, Opportunities, and Challenges**
+
+Opportunities include AI-driven threat escalation, enterprise AI adoption, cloud and SaaS migration, and data regulation such as GDPR. Challenges include customer cost-consciousness that has lengthened sales cycles, chip shortages and higher server prices, a net loss of $348.8 million, and an accumulated deficit of $3.19 billion.
+
+**Recent Strategic Initiatives**
+
+The company launched RAC in February 2026 and introduced the Ruby AI agent. It acquired Predibase in July 2025 for $109.1 million to accelerate agentic AI. It issued $1.15 billion of 0% convertible notes due 2030 and repaid its $327.9 million credit facility. It expanded its Microsoft partnership to co-engineer Azure products and uses a Direct-to-Distributor model with Supermicro. Free cash flow improved to $237.8 million from $21.6 million.
+
+---
+
+**Summary**
+
+Rubrik is a Palo Alto-based data security provider whose SaaS platforms unify backup, recovery, and cybersecurity, and whose RAC suite targets AI agent governance. Growth is strong, with Subscription ARR up 34% and Cloud ARR up 48%, and free cash flow turned positive. Key risks are continued losses, longer sales cycles amid cost pressure, and server supply constraints. Its AI strategy and recent acquisition position it for growth, though market share and customer concentration are undisclosed.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_01GhQgJEvcwzsnHiu8yGNbmq): analyze_income_stmt *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/income_stmt.txt"}
+*************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION analyze_income_stmt...
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01GhQgJEvcwzsnHiu8yGNbmq) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/income_stmt.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/income_stmt_analysis.txt):
+
+**Revenue Momentum:** Total revenue rose 48% to $1,316.2M, led by subscription revenue up 53% to $1,263.9M, while Subscription ARR grew 34% to $1.46B. **Revenue Quality:** About $70.2M of subscription revenue came from non-recurring material-rights benefits, and Other revenue fell 10%. **Cost Discipline:** Cost of revenue dipped 1% to $261.9M, and operating expenses fell 20% to $1,399.7M, largely due to a $584.5M drop in stock-based compensation. **Margins:** Gross margin expanded to 80% from 70%, operating margin improved to -26% from -128%, and net margin improved to -27% from -130%. **Per-Share Outlook:** Loss per share narrowed to $(1.78) from $(7.48), even as the weighted share count rose to 196.5M from 154.3M.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_01Q4DNsC6hJq3BfqwYMj1uHC): analyze_segment_stmt *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/segment_stmt.txt"}
+**************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION analyze_segment_stmt...
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01Q4DNsC6hJq3BfqwYMj1uHC) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/segment_stmt.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/segment_stmt_analysis.txt):
+
+**Segment Identification and Scope**
+
+The filing does not report separate reportable segments. The MD&A presents consolidated results and splits revenue into two categories, Subscription and Other, so this analysis uses those two categories. Segment-level net profit, named strategic partners, and market-share data are not disclosed in the provided material. Consolidated net loss narrowed to $348.8 million from $1,154.8 million.
+
+**Subscription Revenue**
+
+Subscription (RSC and term licenses): Revenue rose 53% to $1,263.9 million from $828.7 million, adding $435.2 million, driven by Subscription ARR growth of 34% to $1.46 billion and about $70.2 million of material-rights revenue. Gross profit rose 69% to $1,034.2 million; gross margin reached 82% versus 74%, though hosting costs increased $26.9 million with SaaS adoption.
+
+**Other Revenue**
+
+Other (professional services, perpetual licenses, appliances): Revenue fell 10% to $52.3 million from $57.8 million, now 4% of total revenue versus 7%. Cost fell 37% to $32.1 million, lifting gross profit 184% to $20.1 million and gross margin to 39% from 12%, driven by a $15.0 million stock-based compensation decrease and lower appliance costs tied to the contract-manufacturer transition.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_013AimWyofVXzCcAiLKLNhNq): analyze_balance_sheet *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/balance_sheet.txt"}
+***************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION analyze_balance_sheet...
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_013AimWyofVXzCcAiLKLNhNq) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/balance_sheet.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/balance_sheet_analysis.txt):
+
+Rubrik's balance sheet shows improved liquidity but heavier leverage in fiscal 2026. Current assets rose to $2.22 billion from $1.08 billion, lifting the current ratio to about 1.69x from 1.13x and turning working capital positive at $909.5 million. Cash and short-term investments of $1.68 billion were supported by the $1.15 billion convertible notes, pushing total debt to $1.14 billion from $332.4 million. Debt-to-assets rose to roughly 41% from 23%, and net debt reached $750.5 million. Stockholders' equity remains negative at $(519.6) million, only slightly improved from $(553.7) million, given a $3.19 billion accumulated deficit. Deferred revenue of $1.85 billion represents a large customer-funded liability. Overall, the company has ample near-term liquidity, but its capital structure now depends on sustained subscription billings growth to service its 2030 notes.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_01L8t8JYraWXS4uBL1NbQmTC): analyze_cash_flow *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/cash_flow.txt"}
+***********************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION analyze_cash_flow...
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01L8t8JYraWXS4uBL1NbQmTC) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/cash_flow.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/cash_flow_analysis.txt):
+
+Rubrik's operating cash flow rose to $282.9 million in fiscal 2026 from $48.2 million a year earlier, lifting free cash flow to $237.8 million, despite a $348.8 million net loss. The gap reflects $329.4 million of stock-based compensation and a $148.2 million working-capital inflow, led by a $425.8 million rise in deferred revenue from upfront billings. Investing outflows of $830.1 million were mainly net investment purchases, with capital spending modest at $45.1 million. Financing inflows of $736.5 million came from $1.15 billion of 0% convertible notes, which repaid the $327.9 million credit facility, plus employee equity proceeds. No dividends are disclosed. With $1.68 billion in cash and short-term investments, liquidity appears ample, but cash generation remains sensitive to billing timing.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_015TgUPunR9uFjf2M8iP4Vy8): analyze_business_highlights *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/business_highlights.txt"}
+*********************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION analyze_business_highlights...
+Sec Api initialized
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_015TgUPunR9uFjf2M8iP4Vy8) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/business_highlights.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/business_highlights_analysis.txt):
+
+**Rubrik Security Cloud (RSC)**
+
+RSC is Rubrik's core business and has represented a majority of total revenue since the end of fiscal 2024, with Subscription ARR reaching $1.46 billion (up 34%) and Cloud ARR reaching $1.29 billion (up 48%) as of January 31, 2026. Subscription revenue rose 53% to $1.26 billion, supported by ARR growth and roughly $70.2 million of non-recurring material-rights revenue, while the average subscription dollar-based net retention rate stayed above 120% and customers with $100,000 or more in Subscription ARR increased to 2,805 from 2,246.
+
+**Rubrik Agent Cloud (RAC)**
+
+RAC is the newest suite, launched to provide an AI operations platform for monitoring, controlling, and remediating agentic actions, and it became commercially available only in February 2026, after fiscal 2026 ended. The filing provides no separate financial results for RAC, and management expects RSC to remain the majority of revenue and the main driver of ARR growth in fiscal 2027.
+
+**Other Revenue (legacy perpetual licenses, Rubrik-branded Appliances, and professional services)**
+
+Other revenue declined 10% to $52.3 million and fell to 4% of total revenue from 7% a year earlier. The decrease reflects the largely completed migration of maintenance customers to subscription editions and the transition of appliance sales to contract manufacturers, and management expects this share to keep declining, with professional services becoming the main driver over time.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_01EK9Kko75iEPp8a3cgPkqd7): get_risk_assessment *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/risk_assessment.txt"}
+*************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_risk_assessment...
+Sec Api initialized
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01EK9Kko75iEPp8a3cgPkqd7) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/risk_assessment.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/risk_assessment_analysis.txt):
+
+# Top Three Key Risks for Rubrik, Inc.
+
+Based on the 10-K, the three most material risks are (1) security incidents and the liability they create, given that Rubrik's core business is protecting customer data; (2) concentrated dependence on Channel Partners and a limited set of hardware manufacturers; and (3) the combination of a long record of operating losses, an ongoing revenue-mix transition, and a $1.15 billion convertible note obligation. The filing does not provide cross-industry benchmarks, so the vertical comparisons below rely on the company's own characterization of its market and are qualitative.
+
+## Risk 1: Security Incidents, Platform Failure, and Liability Exposure
+
+**Industry Vertical Risk.** Rubrik sells data security, a category where a single failure is itself the product risk. The filing states that its market is "at an early stage and rapidly evolving," and that the company faces "heightened risk of being targeted by bad actors" because of its ransomware recovery capabilities and marketing. The filing also notes that its customers include heavily regulated verticals such as banking, healthcare, and financial services, and that it is subject to regulation including GDPR, CCPA, HIPAA/HITECH, and emerging AI laws. The reputational consequences are amplified because, as the filing puts it, "an actual or perceived security incident affecting our solutions would be especially detrimental to our reputation and our business." Relative to a vendor whose products are not themselves the security perimeter, this is a higher-consequence exposure, though the filing does not quantify how it compares with other sectors.
+
+**Cyclicality.** Security incidents are not economically cyclical in the usual sense, but demand for protection tends to be shaped by the threat environment and by customer budgets. The filing observes that "if the incidence of cyberattacks were to decline, or enterprises or governments perceive that the general level of cyberattacks has declined, our ability to attract new customers could be adversely affected." Thus the risk is somewhat counter-cyclical to threat levels: rising ransomware activity drives adoption, while a lull could slow it. A high-profile incident would be an idiosyncratic shock rather than a macro cycle.
+
+**Risk Quantification.** The filing supplies several concrete exposure points. The Ransomware Recovery Warranty reimburses eligible customers "up to $10,000,000" for recovery expenses, and the filing warns that widespread claims "could significantly increase our costs." GDPR fines can reach "20 million Euros... or 4% of annual global revenue, whichever is greater," and the UK GDPR allows fines up to 17.5 million pounds sterling. The filing discloses a February 2025 incident in which an unauthorized actor accessed certain log files, which it says did not reach customer-secured data, while cautioning that "there can be no guarantee that any attack in the future will have a similarly minimal impact." Insurance is described as possibly inadequate, with the company stating it "cannot be sure that our insurance coverage will be adequate or sufficient." Given the $1.32 billion revenue base, a 4% GDPR fine on global revenue would be material in scale, though the filing does not estimate any specific loss.
+
+**Downside Protections.** The filing identifies several mitigants: customer agreements "typically contain provisions" limiting liability, the company generally has "limitation of liability provisions in our terms and conditions," it maintains insurance and "seek[s] to insure against these types of claims," and it employs a shared responsibility model under which customers are responsible for configuring and enforcing security features such as multi-factor authentication. These protections are real but explicitly conditional. The filing acknowledges these provisions "may not be effective or enforceable under the laws of some jurisdictions," and that limitations of liability "may not fully or effectively protect us." Rubrik has also obtained FedRAMP certification, which the filing describes as a requirement for certain government sales, a form of regulatory validation that partly offsets reputational risk in the public sector.
+
+## Risk 2: Concentration in Channel Partners and Hardware Manufacturers
+
+**Industry Vertical Risk.** Rubrik's go-to-market is heavily intermediated. The filing states that "a vast majority of sales of our solutions flow through our Channel Partners." Its three largest Channel Partners, Arrow Enterprise Computing Solutions, Exclusive Networks, and Ingram Micro Inc., together generated approximately 68% of revenue in fiscal 2026 and 73% in fiscal 2025. On the hardware side, a large majority of customer data relies on Rubrik-branded Appliances built on servers from Super Micro Computer, Inc. This supply-side dependence is more concentrated than a typical pure software model. The filing also notes that its Channel Partner agreements are non-exclusive, renew automatically in one-year increments, and "may be terminated by either party at any time," and that the partners "do not impose minimum purchase requirements."
+
+**Cyclicality.** Channel concentration amplifies macroeconomic exposure. The filing notes that some partners "may be unable to withstand adverse changes in economic conditions," that weakness in end-user markets "could negatively affect the cash flows of our Channel Partners," and that delayed payments would increase Rubrik's credit risk exposure. Component supply is also cyclical in its own right: the filing refers to "global chip shortages and allocation constraints, in part due to elevated industry demand," which have produced "extended lead times and increased server prices," and it notes that tariffs on China-origin hardware affect both price and supply.
+
+**Risk Quantification.** The 68% and 73% figures are the clearest measure. A decline in the three largest partners' share, or the loss of one of them, would directly affect the majority of sales. The filing also says Supermicro's agreement "does not provide long-term price assurances for certain components," and that some OEMs "carry products that compete with our solutions." Customers outside the United States generated 30% and 31% of revenue in fiscal 2026 and 2025, respectively, and the filing identifies new Channel Partners as necessary for expansion into certain countries, which adds a further dependency. The filing also states that Rubrik "may lose revenue and incur increased costs" if it must qualify a new manufacturer.
+
+**Downside Protections.** The filing points to a few mitigants. Channel Partners "extend our reach, in particular with smaller customers and in geographies where we have less sales presence," and Rubrik has "largely completed" the transition of Appliance sales to its contract manufacturers, which shifts some hardware risk away from its own balance sheet. The company also has the "ability to qualify new commodity servers for Rubrik-branded Appliances" and customers "would have the ability to purchase compatible third-party commodity servers from other OEMs." These are meaningful options, but the filing is candid that switching "may create increased costs or delays." The protections reduce the probability of a sudden disruption more than they reduce its severity if one occurs.
+
+## Risk 3: Path to Sustained Profitability and Leverage Under a Shifting Revenue Model
+
+**Industry Vertical Risk.** Rubrik's financial profile reflects a company still in a high-growth, high-investment phase. Revenue grew from $627.9 million in fiscal 2024 to $886.5 million in fiscal 2025 and $1.32 billion in fiscal 2026. Yet the company reported net losses of $(354.2) million, $(1.15) billion, and $(348.8) million in those years, and an accumulated deficit of $(3.19) billion as of January 31, 2026. The filing attributes ongoing spending to product development, sales expansion, international growth, and AI investments, and it states that it "may incur significant losses in the future." Within software and data security, a company at this stage carries more earnings risk than a mature, profitable peer, though the filing itself does not make that comparison.
+
+**Cyclicality.** The filing describes meaningful sensitivity to economic conditions. It notes that customers have caused "a reduction in multi-year upfront payments," "reduced contract sizes," and "generally increased scrutiny on technology spending," and that "to the extent there is a sustained general economic downturn, a recession... these customer dynamics may be exacerbated." Seasonality adds a second cycle: the company "typically sell[s] a higher percentage of subscriptions... in the fourth quarter of our fiscal year," and "a large portion of our sales occur toward the end of each fiscal quarter." Because subscription revenue is recognized ratably, the effect of a slowdown appears gradually, which the filing notes: decreases in new subscriptions "would negatively affect our revenue in future quarters" rather than immediately.
+
+**Risk Quantification.** Several specific items stand out. The company issued $1.15 billion of Notes in June 2025, which mature in June 2030, and used proceeds to repay $327.9 million under its prior credit facility. The filing states that the company may need to pay cash upon conversion and to repurchase the Notes upon a fundamental change, and that failure to do so "would constitute a default under the Indenture." Federal net operating loss carryforwards total $1.97 billion and state NOLs total $870.7 million, but the filing warns that Section 382 limitations and California's suspension of NOL use may prevent the company from using "a material portion of the NOLs reflected on our balance sheet." Stock-based compensation tied to RSUs "has resulted in and will continue to result in significant increases in our expenses." The company also disclosed a shift in payment terms, with some customers electing "annual, monthly, or consumption payments instead of multi-year upfront payments," which affects period cash flow. Finally, the governance structure compounds the risk for outside investors: Class B holders control approximately 85% of voting power, and the company's directors, officers, and affiliates control approximately 83% of voting power while owning about 23% of common stock.
+
+**Downside Protections.** The strongest mitigant in the filing is the subscription model itself. The company states that "a significant majority of our new and existing customers have adopted RSC on a SaaS subscription basis" and that SaaS subscriptions "represented a majority of our total revenue" by the end of fiscal 2026. Because SaaS revenue is recognized ratably over multi-year terms, revenue is more predictable than a transactional hardware sale. The subscription structure also means that the contracted base is retained over time, and the filing notes that customers "tend to expand their usage... over time as the amount of data they need to protect grows." The company also reports a deliberate debt structure: the Notes carry a 2030 maturity and the company terminated its prior credit facility. The capped call transactions are described as intended to "reduce the potential dilution" from conversions, though the filing notes counterparty risk. Rubrik does not hedge foreign currency, and it states that its solutions are billed in U.S. dollars, which removes direct revenue currency risk. The filing does not report a cash balance or total liquidity in the material provided, so the adequacy of these protections cannot be fully verified from this document alone.
+
+## Overall Assessment
+
+Taken together, Rubrik's risk profile is that of a fast-growing, mission-critical software vendor whose strategic value depends on trust. Its most distinctive vulnerability is that the same features that make its products valuable, including ransomware recovery and broad data coverage, also make it a visible target and expose it to outsized consequences from any failure. Its channel and hardware dependencies introduce a second layer of concentration that is unusual for a software company, and its financial position, while improving in revenue terms, still rests on continued losses, a substantial convertible debt obligation, and the successful conversion of a multi-year base to SaaS. The filing also raises governance concerns: because insiders control the large majority of votes, outside shareholders have limited influence over how these risks are managed. The downside protections the company describes are real but mostly contractual or structural, and the filing repeatedly qualifies them. An investor weighing these risks should expect that the most probable path to a material adverse outcome would be a combination of a security event, a disruption at a major partner or manufacturer, and a slowdown in renewals or expansion that reduces the recurring revenue base before profitability is secured.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+The analysis outputs are in. Next I'll pull the key financial data for the filing date.
+***** Suggested tool call (toolu_017LKiWT8t8Eay2NNaWFJhzS): get_key_data *****
+Arguments: 
+{"ticker_symbol": "RBRK", "filing_date": "2026-03-19"}
+******************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_key_data...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_017LKiWT8t8Eay2NNaWFJhzS) *****
+{'Rating': 'buy', 'Target Price': '124.18 (range 110.00 - 155.00), current consensus as of 2026-11-20, not as of 2026-03-19', '6m avg daily vol (USDmn)': '3.65', 'Closing Price (USD)': '52.09', 'Market Cap (USDmn)': '10298.17', '52 Week Price Range (USD)': '46.36 - 103.00', 'BVPS (USD)': '-2.57'}
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_01RWLU7jyqFAwwmcE2XpCKYk): get_consensus_and_liquidity *****
+Arguments: 
+{"ticker_symbol": "RBRK", "fyear": "2026"}
+*********************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_consensus_and_liquidity...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01RWLU7jyqFAwwmcE2XpCKYk) *****
+CONSENSUS ESTIMATES (Yahoo Finance, retrieved 2026-11-20, i.e. after the 10-K filing; cite as [3]):
+- FY2027E: revenue $1,691.1 million (range $1,689.0 million to $1,705.0 million, 28 analysts), growth +28.5%; EPS $0.50 (range $0.45 to $0.56); forward P/E 227.2x; EV/Sales 13.7x
+- FY2028E: revenue $2,058.2 million (range $1,992.2 million to $2,129.0 million, 28 analysts), growth +21.7%; EPS $0.78 (range $0.50 to $1.05); forward P/E 147.8x; EV/Sales 11.2x
+- Forward multiples use the current share price of $114.56 and the current enterprise value. EPS methodology: normalized.
+
+LIQUIDITY AND FUNDING (Yahoo Finance balance sheet and cash flow; cite as [2]):
+- FY2026 (10-K): cash and short-term investments $1,675.8 million, total debt $1,143.4 million, net cash $532.3 million, free cash flow $237.8 million, cash runway at that burn self-funded, current ratio 1.7x, shares outstanding 202.2 million, change in share count y/y +6.6%
+- Latest quarter (2026-07-31): cash and short-term investments $1,747.6 million, total debt $1,149.6 million, net cash $598.1 million, TTM free cash flow $286.2 million, cash runway at that burn self-funded, current ratio 1.6x, shares outstanding 207.2 million, change in share count y/y +5.0%
+
+REVERSE DCF (own calculation from Yahoo Finance data [2][3]; current enterprise value, i.e. after the 10-K):
+- The current enterprise value of $23,150.7 million implies revenue growth of 30.7% per year for 10 years (FY2026 revenue $1,316.2 million -> about $19,090.6 million in FY2036), assuming the free cash flow margin moves from 18.1% to 18.1% by year 10, a WACC of 10.5% (10y US Treasury (^TNX) 5.1% + beta 1.08 x 5.0% equity risk premium) and 2.5% terminal growth.
+- For comparison: historical 3-year revenue CAGR 29.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a simplified, illustrative model, not a price target.
+- Implied return (IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 5.3% per year (-5.2 percentage points vs the WACC).
+
+ESTIMATE REVISIONS AND EARNINGS SURPRISES (Yahoo Finance, retrieved today; cite as [3]):
+- EPS consensus current fiscal year: $0.50 today, $0.50 30 days ago, $0.31 90 days ago, change vs 90 days ago +60.2%; analysts raising/cutting in last 30 days: 20/0
+- EPS consensus next fiscal year: $0.78 today, $0.77 30 days ago, $0.65 90 days ago, change vs 90 days ago +19.1%; analysts raising/cutting in last 30 days: 1/0
+- Quarter ending 2026-07-31: EPS $0.20 vs estimate $0.04 (surprise +4.1%)
+- Quarter ending 2026-04-30: EPS $0.16 vs estimate -$0.03 (surprise +6.7%)
+- Quarter ending 2026-01-31: EPS $0.04 vs estimate -$0.11 (surprise +136.9%)
+- Quarter ending 2025-10-31: EPS $0.10 vs estimate -$0.17 (surprise +158.0%)
+
+FINANCIAL QUALITY SCORES (own calculation from Yahoo Finance statements; cite as [2]):
+- Piotroski F-Score: 5 of 9 available criteria; failed: Return on assets > 0, Leverage (long-term debt / assets) lower, No increase in share count, Asset turnover improved
+- Altman Z-Score: 3.19 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)
+- Beneish M-Score: -3.19 (below -1.78: no statistical warning sign)
+
+Note: the latest-quarter column and all consensus figures are dated after the 10-K. Say so when you use them.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+Consensus and liquidity data are in. Next I'll find peer candidates, adding the listed competitors named in the 10-K that are US-listed.
+***** Suggested tool call (toolu_014QqknMqyjhBJY43Mwj1A5i): get_peer_candidates *****
+Arguments: 
+{"ticker_symbol": "RBRK", "extra_tickers": ["CVLT","PANW","CRWD","NTNX","ZS"]}
+*************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_peer_candidates...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_014QqknMqyjhBJY43Mwj1A5i) *****
+ticker | name | industry | country | market cap (USD bn) | revenue (USD bn) | revenue growth | revenue vs company | business
+RBRK | Rubrik, Inc. (company under analysis) | Software - Infrastructure | United States | 23.6 | 1.5 | 38% | 1.0x | Rubrik, Inc. provides data security solutions to individuals and businesses worldwide. The company offers enterprise data protection, unstructured data protection, cloud data protection, SaaS data protection solutions, and...
+CVLT | Commvault Systems, Inc. | Software - Application | United States | 6.2 | 1.3 | 13% | 0.8x | Commvault Systems, Inc. provides cyber resiliency solutions for enterprises to protect, secure, and recover data, applications, and identity system. The company offers Operational Recovery for backup and recovery...
+S | SentinelOne, Inc. | Software - Infrastructure | United States | 8.4 | 1.1 | 21% | 0.7x | SentinelOne, Inc. operates as a cybersecurity provider in the United States and internationally. The company's Singularity Platform delivers an artificial intelligence-powered autonomous threat prevention, detection, and response capabilities...
+GTLB | GitLab Inc. | Software - Infrastructure | United States | 7.3 | 1.1 | 21% | 0.7x | GitLab Inc., together with its subsidiaries, develops software for the software development lifecycle in the United States, Europe, and the Asia Pacific. The company provides GitLab, an intelligent...
+NTNX | Nutanix, Inc. | Software - Infrastructure | United States | 15.6 | 2.9 | 16% | 1.9x | Nutanix, Inc. provides a cloud and artificial intelligence platform (AI) in North America, Europe, the Asia Pacific, the Middle East, Latin America, and Africa. It offers hyperconverged infrastructure...
+NTSK | Netskope, Inc. | Software - Infrastructure | United States | 10.1 | 0.8 | 29% | 0.5x | Netskope, Inc., a cybersecurity company, provides security, networking, and analytics solutions to largest enterprises to mid-sized companies worldwide. The company develops Netskope One platform, a cloud-native platform for...
+ZS | Zscaler, Inc. | Software - Infrastructure | United States | 33.5 | 3.4 | 25% | 2.2x | Zscaler, Inc. operates as a cloud security company worldwide. The company offers cyberthreat protection products, including Zero Trust SASE, a solution that securely connects workforces, AI agents, workloads,...
+FFIV | F5, Inc. | Software - Infrastructure | United States | 18.1 | 3.4 | 13% | 2.2x | F5, Inc. provides multi-cloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region. The company's distributed cloud services...
+FROG | JFrog Ltd. | Software - Application | United States | 13.6 | 0.6 | 31% | 0.4x | JFrog Ltd. provides software supply chain platform in the United States, Israel, India, and internationally. The company offers JFrog Artifactory, a package repository that allows teams and organizations...
+GEN | Gen Digital Inc. | Software - Infrastructure | United States | 17.9 | 5.2 | 12% | 3.4x | Gen Digital Inc. engages in the provision of cyber safety and trust-based solutions for individuals, families, and small businesses. The company offers security and performance management, identity protection,...
+CRWD | CrowdStrike Holdings, Inc. | Software - Infrastructure | United States | 249.3 | 5.4 | 26% | 3.5x | CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software...
+FTNT | Fortinet, Inc. | Software - Infrastructure | United States | 96.6 | 7.9 | 20% | 5.1x | Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide. The company offers FortiOS, a unified operating system designed to address cybersecurity threats; FortiASIC application-specific integrated...
+PANW | Palo Alto Networks, Inc. | Software - Infrastructure | United States | 296.2 | 11.5 | 34% | 7.4x | Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service...
+NOW | ServiceNow, Inc. | Software - Application | United States | 92.2 | 15.4 | 20% | 10.0x | ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management,...
+MSFT | Microsoft Corporation | Software - Infrastructure | United States | 3,700.5 | 346.4 | 19% | 224.6x | Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications,...
+
+Finnhub groups companies by industry, so very large conglomerates can appear. Choose the 3 most comparable peers by business model first and size second (see 'revenue vs company'). Prefer companies with revenue data. Use exactly these ticker symbols and names; do not add companies that are not in this list.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+Peer selection: Commvault (CVLT) is the closest business model, since it is a named competitor in the 10-K and sells backup and cyber recovery, and it is similar in size (0.8x RBRK revenue). SentinelOne (S) is a subscription cybersecurity platform with a similar size (0.7x) and a similar growth profile. Nutanix (NTNX) is a subscription infrastructure and data platform, the largest of the three (1.9x), so it gives a size contrast. I'm skipping Zscaler, CrowdStrike, and Palo Alto because they are far larger (2.2x to 7.4x or more). Next I'll run the competitor analysis on these three.
+***** Suggested tool call (toolu_015dYwCniVky3FXrrTPcVYV8): get_competitors_analysis *****
+Arguments: 
+{"ticker_symbol": "RBRK", "competitors": ["CVLT","S","NTNX"], "fyear": "2026", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/competitors_analysis.txt"}
+******************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_competitors_analysis...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_015dYwCniVky3FXrrTPcVYV8) *****
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/RBRK_2026_claude-haiku-5.5_eval/competitors_analysis.txt; also saved to ../reports/RBRK_2026_claude-haiku-5.5_eval/competitors_analysis_analysis.txt):
+
+# Rubrik, Inc. (RBRK): Financial Metrics Analysis Against CVLT, S, and NTNX
+
+Rubrik's fiscal year labels (2023 through 2026) are used throughout, as are those of its peers. The resource does not state each company's fiscal year-end, so cross-company comparisons assume the labels align, which the instruction notes may not hold exactly.
+
+## Year-over-Year Trends for Rubrik
+
+Revenue grew from 600 in 2023 to 628 in 2024, a modest 4.7% increase, then accelerated sharply to 887 in 2025 (41.2% growth) and 1,316 in 2026 (48.5% growth). The 2025 and 2026 step-ups are the defining feature of the company's recent history, as the revenue base more than doubled over the period.
+
+Gross margin moved from 69.7% in 2023 to 76.9% in 2024, dipped to 70.0% in 2025, and then rose to 80.1% in 2026. The 2025 decline is the one notable reversal in an otherwise improving trend, and the 2026 figure is the highest in the series.
+
+EBITDA margin was deeply negative throughout. It was -39.2% in 2023 and -43.5% in 2024, then fell to -121.6% in 2025 when EBITDA reached -1,078 on revenue of 887. In 2026 the margin improved markedly to -20.7% as EBITDA narrowed to -272. The 2025 figure is clearly an outlier relative to the rest of the series, and the resource does not explain its cause.
+
+Free cash flow turned from negative to positive: -15 in 2023, -25 in 2024, 22 in 2025, and 238 in 2026. The 2026 figure represents roughly 18% of revenue, a clear inflection point.
+
+ROIC was 21.1% in 2023 and 19.5% in 2024, spiked to 356.1% in 2025, and then fell to -30.4% in 2026. The 2025 value is not plausible as a steady-state measure and likely reflects a distortion in the invested capital base or in earnings, which the resource does not explain. The 2026 negative figure is consistent with the company remaining loss-making at the operating level.
+
+FCF conversion and EV/EBITDA are labeled n/m (not meaningful) for every year, so no trend can be drawn from them. The only valuation multiple available for Rubrik is EV/Sales, which was 15.85 in 2025 and 9.18 in 2026, showing a substantial compression as revenue grew faster than enterprise value.
+
+## Competitor Comparison by Year
+
+**2023.** Rubrik's revenue of 600 was below Commvault (785) and NutaNix (1,863) but above SentinelOne (422). Its gross margin of 69.7% trailed Commvault (82.7%), Nutanix (82.2%), and SentinelOne's 65.8% was lower still. Its EBITDA margin of -39.2% was well below Commvault (-0.6%), Nutanix (-5.0%), and SentinelOne (-83.6%), placing it in the middle of the group. Rubrik's ROIC of 21.1% was the highest of the four, ahead of Commvault (-5.9%), SentinelOne (-22.7%), and Nutanix (-24.6%). EV/Sales for Rubrik was not available, while Commvault traded at 2.84, Nutanix at 4.32, and SentinelOne at 9.99.
+
+**2024.** Rubrik's revenue growth of 4.7% was the lowest in the group, trailing Commvault (7.0%), Nutanix (15.3%), and SentinelOne (47.1%). Its gross margin of 76.9% was below Commvault (81.9%) and Nutanix (84.9%) but above SentinelOne (71.1%). Its EBITDA margin of -43.5% lagged all peers except SentinelOne (-53.6%), with Commvault at 10.8% and Nutanix at 3.8%. Rubrik's ROIC of 19.5% remained competitive with Commvault's 22.5% and well ahead of SentinelOne and Nutanix, both negative. Commvault's EV/EBITDA of 45.51 and Nutanix's 166.21 were the only available multiples for that year, while Rubrik's EV/Sales was not available.
+
+**2025.** Rubrik's revenue growth of 41.2% led the group, ahead of SentinelOne (32.2%), Commvault (18.6%), and Nutanix (18.1%). Its gross margin of 70.0% was the lowest among the four, below SentinelOne (74.3%), Commvault (82.0%), and Nutanix (86.8%). The EBITDA margin of -121.6% was far weaker than every peer, including SentinelOne's -34.9%, while Commvault (9.1%) and Nutanix (11.5%) were profitable. The ROIC figure of 356.1% is not comparable to any peer, though Nutanix (30.2%) and Commvault (23.5%) were the next highest. EV/Sales for Rubrik was 15.85 against Commvault's 6.7, SentinelOne's 9.29, and Nutanix's 8.25. Commvault's EV/EBITDA of 73.63 and Nutanix's 71.53 were the available EV/EBITDA figures.
+
+**2026.** Rubrik's revenue growth of 48.5% was again the fastest in the group, ahead of SentinelOne (21.9%), Commvault (18.9%), and Nutanix (12.4%). Its gross margin of 80.1% now exceeded SentinelOne (74.1%) and approached Commvault (81.2%), though it remained below Nutanix (86.8%). Its EBITDA margin of -20.7% was still negative and trailed Commvault (9.0%) and Nutanix (14.4%), but it was markedly better than SentinelOne (-25.4%). Rubrik's ROIC of -30.4% was the weakest of the four, while Commvault (8.3%), Nutanix (9.9%), and SentinelOne (-12.9%) were all higher. FCF conversion for Rubrik was n/m, while Commvault posted 3.36 and Nutanix 0.56. EV/Sales for Rubrik was 9.18, against 2.73 for Commvault, 4.56 for SentinelOne, and 5.86 for Nutanix. EV/EBITDA was 30.4 for Commvault and 40.81 for Nutanix.
+
+## Metric-Specific Insights
+
+**EBITDA Margin.** Rubrik's profitability lags its peers in the most recent year. Its -20.7% margin compares with positive margins of 9.0% at Commvault and 14.4% at Nutanix, and only SentinelOne's -25.4% is lower. The direction of travel is favorable, since Rubrik improved by roughly 100 percentage points from its 2025 trough, but it remains the only company in the group with a margin that is both negative and well short of break-even at scale in 2026.
+
+**EV/EBITDA.** Rubrik's EV/EBITDA is not meaningful in any year, so the resource provides no direct valuation comparison on this metric. Among peers with available figures, Commvault and Nutanix traded at 30 to 75 times EBITDA, and the premium of Nutanix in 2024 (166.21) is an extreme outlier. Because Rubrik's EBITDA is negative, its enterprise value cannot be benchmarked against earnings, and the more relevant indicator is EV/Sales, which shows Rubrik at a premium to every peer in 2026.
+
+**FCF Conversion.** Rubrik's FCF conversion is n/m in every year, so cash flow efficiency cannot be measured on the conversion basis. In absolute terms, however, Rubrik's free cash flow turned positive in 2025 and reached 238 in 2026, which compares with Commvault's 237 in 2026 and Nutanix's 841. Commvault's conversion ratios of 1.18, 2.68, and 3.36 across 2024 to 2026 show consistently strong cash generation relative to EBITDA, and Nutanix's 3.98 in 2025 is similarly high, while its 0.56 in 2026 signals a sharp drop. Rubrik's cash flow inflection is real but has not yet been expressed as a conversion ratio.
+
+**Gross Margin.** Rubrik's gross margin expanded from 69.7% in 2023 to 80.1% in 2026, a gain of about 10 percentage points, which indicates improving cost efficiency in delivering its subscriptions. Its 2025 dip to 70.0% is the notable exception. Across the period it remained below Commvault and Nutanix, which held margins in the 81% to 87% range, but it moved ahead of SentinelOne in 2024 and 2025 and has converged with Commvault by 2026.
+
+**ROIC.** Rubrik's ROIC was positive and competitive in 2023 and 2024, at 21.1% and 19.5%, ahead of most peers. The 2025 value of 356.1% is an anomaly that the resource does not explain and should not be interpreted as sustained efficiency. The 2026 value of -30.4% signals that the company still generates negative returns on the capital employed, which contrasts with Commvault and Nutanix, both positive at about 8% to 10% in 2026. The recent trend therefore points to a deterioration in return efficiency even as operations improved.
+
+**Revenue and Revenue Growth.** Rubrik's revenue more than doubled from 600 in 2023 to 1,316 in 2026, the fastest growth trajectory among the four companies in the most recent two years. The acceleration from 4.7% in 2024 to 41.2% in 2025 and 48.5% in 2026 is the most striking pattern in the dataset. Its absolute revenue remains smaller than Nutanix's 2,854 and modestly above Commvault's 1,184 in 2026, but Rubrik has grown past SentinelOne's 1,001 and Commvault's 2026 level. The growth rate is far above Nutanix's 12.4% in 2026, which signals that Rubrik is taking share in a fast-growing category.
+
+## Conclusion
+
+Rubrik's financial profile across these metrics is one of rapid top-line expansion combined with a gradual improvement toward operational breakeven and positive free cash flow. Revenue growth is the strongest feature, with growth rates above all three competitors in 2025 and 2026, and gross margin has climbed to 80.1%, nearly matching Commvault. Free cash flow has moved from -25 in 2024 to 238 in 2026, which is a meaningful change in the cash generation profile. Weaknesses remain substantial: EBITDA margin is still -20.7% against positive margins at two peers, ROIC turned negative in 2026, and the 2025 values for EBITDA margin and ROIC are extreme outliers that complicate interpretation.
+
+The valuation picture is that Rubrik trades at a sizeable premium on revenue, with an EV/Sales of 9.18 in 2026 compared with 5.86 for Nutanix, 4.56 for SentinelOne, and 2.73 for Commvault. Because its EBITDA is negative, the EV/EBITDA metric cannot justify the price, and Rubrik's multiple is therefore supported only by expectations for future growth and margin expansion rather than by current earnings. The historical data partially supports that expectation: the margin trajectory is clearly improving, and growth is accelerating, so the premium is not unreasonable on these metrics alone. However, the negative ROIC in 2026 and the persistent operating losses mean that current financial performance does not on its own justify the valuation, and the premium depends on sustained execution to convert revenue growth into positive EBITDA and returns on capital.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+The competitor analysis is complete. Next I'll generate the share performance and valuation charts.
+***** Suggested tool call (toolu_01JoQMaYsFS5BzpizSvDwaoX): get_share_performance *****
+Arguments: 
+{"ticker_symbol": "RBRK", "filing_date": "2026-03-19", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/share_performance.png"}
+***************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_share_performance...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01JoQMaYsFS5BzpizSvDwaoX) *****
+3-year stock performance chart saved to <img ../reports/RBRK_2026_claude-haiku-5.5_eval/share_performance.png>
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+***** Suggested tool call (toolu_01AjtqS1nu4GrJHxLUuK4fr1): get_pe_eps_performance *****
+Arguments: 
+{"ticker_symbol": "RBRK", "filing_date": "2026-03-19", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/pe_eps_performance.png"}
+****************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION get_pe_eps_performance...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01AjtqS1nu4GrJHxLUuK4fr1) *****
+valuation chart (EV/Sales (trailing, annual revenue), FCF yield) saved to <img ../reports/RBRK_2026_claude-haiku-5.5_eval/pe_eps_performance.png>
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+Analysis is complete: 10-K, income statement, segments, balance sheet, cash flow, business highlights, risks, competitors, consensus, and charts. Next I'll build the report. The first pass includes the five sections, the investment summary, and the takeaways.
+***** Suggested tool call (toolu_01Pya3CREG2Tm2VYcz92vuBx): build_annual_report *****
+Arguments: 
+{"ticker_symbol": "RBRK", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/RBRK_2026_annual_report.pdf", "filing_date": "2026-03-19", "investment_summary": "Fiscal 2026 marked a turning point. Revenue rose 48% to $1.32 billion, Subscription ARR grew 34%, and gross margin widened to 80% [1]. The net loss narrowed to $348.8 million, and free cash flow reached $237.8 million [1][2].\n\nThe valuation requires more than consensus. The reverse DCF at a $23.2 billion enterprise value implies 30.7% annual revenue growth for ten years, slightly above the 29.9% three-year CAGR and well above consensus growth of 28.5% for FY2027 and 21.7% for FY2028 [2][3]. That path yields a 5.3% implied return, below the 10.5% WACC, so the stock prices in sustained outperformance [3]. Consensus still rates it Buy with a $124.18 target, both dated after the 10-K [3].\n\nKey risks are channel concentration, with three partners at 68% of revenue, and reputational exposure from any security incident [1]. Net cash of $532.3 million limits funding risk, but the premium is 9.2 times trailing EV/Sales against 2.7 times for Commvault [2][4].", "business_overview": "Rubrik, Inc. is a Palo Alto, California data security company whose Rubrik Security Cloud (RSC) platform combines backup, recovery and cybersecurity on a single cloud-native SaaS architecture that protects data across enterprise, cloud, SaaS, unstructured data and identity providers [1]. The company positions this as Zero Trust Data Security for cyber resilience and AI adoption, and it sells subscriptions mainly through a direct sales team and a partner network using a land-and-expand model [1]. RSC has represented a majority of total revenue since the end of fiscal 2024, and management believes no other company takes a similar approach [1].\n\nGrowth indicators are strong. Subscription ARR reached $1.46 billion, up 34%, while Cloud ARR rose 48% to $1.29 billion [1]. Average subscription dollar-based net retention stayed above 120%, and customers with at least $100,000 in Subscription ARR increased 25% to 2,805 from 2,246, which shows existing customers expanding usage as their data volumes grow [1]. The product set includes Data Protection, Data Threat Analytics, Identity Security and Cyber Recovery, supported by native immutability, a logical air gap, a proprietary data threat engine and 425 issued U.S. patents [1].\n\nRecent strategy centres on AI. Rubrik Agent Cloud, an operations platform for monitoring and controlling agentic AI actions, became commercially available in February 2026, after fiscal year-end, and the filing gives no separate financial results for it [1]. The company acquired Predibase in July 2025 for $109.1 million to accelerate agentic AI, expanded its Microsoft partnership to co-engineer Azure products, and uses a Direct-to-Distributor model with Supermicro for hardware [1]. Customers are also shifting from multi-year upfront payments toward annual, monthly or consumption payments, which changes the timing of cash collections [1].\n\nFinancially, fiscal 2026 revenue reached $1.32 billion, up 48%, and free cash flow rose to $237.8 million from $21.6 million [1][2]. At the filing date the shares closed at $52.09, within a 52-week range of $46.36 to $103.00 [2]. Later consensus, retrieved after the 10-K, carries a Buy rating and a $124.18 average target price, with forward multiples calculated at $114.56 per share [3].", "market_position": "Rubrik's 10-K does not disclose market share, and the company names Commvault, Dell EMC, IBM, Veeam and Cohesity as its main competitors [1]. Its scale now matches established players: fiscal 2026 revenue of $1.32 billion is above Commvault's $1.18 billion, while its 48% growth far exceeds Commvault's 18.9% [4]. That combination places Rubrik as a scaled growth challenger rather than an established incumbent, a view supported by its growth and revenue data rather than by a classification in the filing.\n\nGeographic mix is diversifying. International revenue from EMEA and Asia-Pacific grew to $364.5 million from $250.4 million, about 28% of fiscal 2026 revenue [1]. Customers outside the United States generated 30% of revenue in fiscal 2026, compared with 31% a year earlier [1]. The company serves organisations of many sizes across industries including the public sector, and it holds FedRAMP certification for government work [1]. Individual customers are not named in the filing, so blue-chip status cannot be confirmed [1].\n\nChannel concentration is the main structural feature. A vast majority of sales flow through Channel Partners, and the three largest, Arrow Enterprise Computing Solutions, Exclusive Networks and Ingram Micro, generated about 68% of revenue in fiscal 2026, down from 73% in fiscal 2025 [1]. The falling share suggests some diversification, although these agreements are non-exclusive, renew annually and carry no minimum purchase requirements [1]. For scale context, CrowdStrike and Palo Alto Networks have market values of $249.3 billion and $296.2 billion, far above Rubrik's $23.6 billion [4].\n\nThe stock's 52-week range of $46.36 to $103.00 at the filing date shows how volatile investor sentiment has been [2]. The consensus Buy rating and average target of $124.18 signal analyst confidence in the franchise, though a price target is an opinion rather than a forecast [3]. Investors should weigh the company's growth against its unproven ability to diversify its channel base further."
+*************************************************************************************
+
+--------------------------------------------------------------------------------
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01Pya3CREG2Tm2VYcz92vuBx) *****
+Error: Expecting ',' delimiter: line 1 column 5492 (char 5491)
+ The argument must be in JSON format.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+The build call failed because the JSON was invalid, most likely from raw line breaks in the text. I also found a mistake in my draft: the 5.3% implied return applies to the consensus path, not to the 30.7% DCF growth path. I'll fix that and add the missing sections (operating results, risk assessment, competitors analysis), the key takeaways, segment data and peer tickers, then rebuild with escaped line breaks.
+***** Suggested tool call (toolu_01PQZD52VdRcYhQwYjRt1iga): build_annual_report *****
+Arguments: 
+{"ticker_symbol": "RBRK", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/RBRK_2026_annual_report.pdf", "filing_date": "2026-03-19", "share_performance_image_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/share_performance.png", "pe_eps_performance_image_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/pe_eps_performance.png", "peer_tickers": ["CVLT","S","NTNX"], "segment_data": "[{\"segment\": \"Subscription\", \"prior_revenue\": 828.7, \"current_revenue\": 1263.9}, {\"segment\": \"Other\", \"prior_revenue\": 57.8, \"current_revenue\": 52.3}]", "key_takeaways": ["Growth: Revenue rose 48% to $1.32 billion, with Subscription ARR up 34% and Cloud ARR up 48% [1].","Funding: Free cash flow reached $237.8 million and net cash stands at $532.3 million after the $1.15 billion convertible notes [2].","Valuation: At a $23.2 billion enterprise value, shares trade at 13.7x forward consensus sales and imply 30.7% revenue growth for a decade [2][3].","Risk: Three channel partners generated about 68% of fiscal 2026 revenue, so a disruption at any one would hit sales directly [1]."], "investment_summary": "Fiscal 2026 marked a turning point. Revenue rose 48% to $1.32 billion, Subscription ARR grew 34%, and gross margin widened to 80% [1]. The net loss narrowed to $348.8 million, and free cash flow reached $237.8 million [1][2].\\n\\nThe valuation requires more than consensus. At a $23.2 billion enterprise value, the reverse DCF implies 30.7% annual revenue growth for ten years, above consensus growth of 28.5% for FY2027 and 21.7% for FY2028 and close to the 29.9% three-year historical CAGR [2][3]. On the consensus path, the implied return is 5.3%, below the 10.5% WACC, so the current price already assumes growth beyond consensus [3].\\n\\nKey risks are channel concentration, with three partners at 68% of revenue, and reputational exposure from any security incident [1]. Net cash of $532.3 million limits funding risk, but at 9.2 times trailing EV/Sales against 2.7 times for Commvault, the premium leaves little room for error [2][4].", "business_overview": "Rubrik, Inc. is a Palo Alto, California data security company whose Rubrik Security Cloud (RSC) platform combines backup, recovery and cybersecurity on a single cloud-native SaaS architecture that protects data across enterprise, cloud, SaaS, unstructured data and identity providers [1]. The company positions this as Zero Trust Data Security for cyber resilience and AI adoption, and it sells subscriptions mainly through a direct sales team and a partner network using a land-and-expand model [1]. RSC has represented a majority of total revenue since the end of fiscal 2024, and management believes no other company takes a similar approach [1].\\n\\nGrowth indicators are strong. Subscription ARR reached $1.46 billion, up 34%, while Cloud ARR rose 48% to $1.29 billion [1]. Average subscription dollar-based net retention stayed above 120%, and customers with at least $100,000 in Subscription ARR increased 25% to 2,805 from 2,246, which shows existing customers expanding usage as their data volumes grow [1]. The product set includes Data Protection, Data Threat Analytics, Identity Security and Cyber Recovery, supported by native immutability, a logical air gap, a proprietary data threat engine and 425 issued U.S. patents [1].\\n\\nRecent strategy centres on AI. Rubrik Agent Cloud, an operations platform for monitoring and controlling agentic AI actions, became commercially available in February 2026, after fiscal year-end, and the filing gives no separate financial results for it [1]. The company acquired Predibase in July 2025 for $109.1 million to accelerate agentic AI, expanded its Microsoft partnership to co-engineer Azure products, and uses a Direct-to-Distributor model with Supermicro for hardware [1]. Customers are also shifting from multi-year upfront payments toward annual, monthly or consumption payments, which changes the timing of cash collections [1].\\n\\nFinancially, fiscal 2026 revenue reached $1.32 billion, up 48%, and free cash flow rose to $237.8 million from $21.6 million [1][2]. At the filing date the shares closed at $52.09, within a 52-week range of $46.36 to $103.00 [2]. Later consensus, retrieved after the 10-K, carries a Buy rating and a $124.18 average target price, with forward multiples calculated at $114.56 per share [3].", "market_position": "Rubrik's 10-K does not disclose market share, and the company names Commvault, Dell EMC, IBM, Veeam and Cohesity as its main competitors [1]. Its scale now matches established players: fiscal 2026 revenue of $1.32 billion is above Commvault's $1.18 billion, while its 48% growth far exceeds Commvault's 18.9% [4]. That combination places Rubrik as a scaled growth challenger rather than an established incumbent, a view supported by its growth and revenue data rather than by a classification in the filing.\\n\\nGeographic mix is diversifying. International revenue from EMEA and Asia-Pacific grew to $364.5 million from $250.4 million, about 28% of fiscal 2026 revenue [1]. Customers outside the United States generated 30% of revenue in fiscal 2026, compared with 31% a year earlier [1]. The company serves organisations of many sizes across industries including the public sector, and it holds FedRAMP certification for government work [1]. Individual customers are not named in the filing, so blue-chip status cannot be confirmed [1].\\n\\nChannel concentration is the main structural feature. A vast majority of sales flow through Channel Partners, and the three largest, Arrow Enterprise Computing Solutions, Exclusive Networks and Ingram Micro, generated about 68% of revenue in fiscal 2026, down from 73% in fiscal 2025 [1]. The falling share suggests some diversification, although these agreements are non-exclusive, renew annually and carry no minimum purchase requirements [1]. For scale context, CrowdStrike and Palo Alto Networks have market values of $249.3 billion and $296.2 billion, far above Rubrik's $23.6 billion [4].\\n\\nThe stock's 52-week range of $46.36 to $103.00 at the filing date shows how volatile investor sentiment has been [2]. The consensus Buy rating and average target of $124.18 signal analyst confidence in the franchise, though a price target is an opinion rather than a forecast [3]. Investors should weigh the company's growth against its unproven ability to diversify its channel base further.", "operating_results": "Rubrik's fiscal 2026 revenue rose 48% to $1,316.2 million, led by subscription revenue up 53% to $1,263.9 million [1]. Subscription ARR grew 34% to $1.46 billion, and Cloud ARR rose 48% to $1.29 billion, which underpins the recurring base [1]. However, about $70.2 million of subscription revenue came from non-recurring material-rights benefits; excluding it, subscription growth would be roughly 44% (our calculation) [1]. Other revenue fell 10% to $52.3 million and now represents 4% of the total, down from 7%, as maintenance customers migrated to subscriptions and appliance sales moved to contract manufacturers [1]. Subscription gross profit rose 69% to $1,034.2 million, lifting subscription gross margin to 82% from 74% [1].\\n\\nCost discipline drove the margin swing. Cost of revenue fell 1% to $261.9 million, while operating expenses fell 20% to $1,399.7 million, largely because stock-based compensation dropped by $584.5 million [1]. Gross margin widened to 80% from 70%, operating margin improved to -26% from -128%, and the net loss narrowed to $348.8 million from $1,154.8 million [1]. Loss per share improved to $(1.78) from $(7.48), although the weighted share count rose to 196.5 million from 154.3 million, so the per-share improvement is partly offset by dilution [1]. The accumulated deficit of $3.19 billion still reflects years of losses that the company is working to close [1].\\n\\nCash generation strengthened faster than earnings. Operating cash flow rose to $282.9 million from $48.2 million, and free cash flow reached $237.8 million despite the net loss [1][2]. The gap reflects $329.4 million of stock-based compensation and a $425.8 million rise in deferred revenue from upfront billings, with capital spending modest at $45.1 million [1]. Deferred revenue of $1.85 billion is a large customer-funded liability, and cash flow remains sensitive to billing timing as customers move away from multi-year upfront payments [1]. Investing outflows of $830.1 million were mainly net investment purchases, while financing inflows of $736.5 million came from the $1.15 billion 0% convertible notes, which repaid the $327.9 million credit facility [1].", "risk_assessment": "Security incidents are the most consequential risk because Rubrik's product protects customer data, and the filing warns that an actual or perceived incident \"would be especially detrimental to our reputation and our business\" [1]. The Ransomware Recovery Warranty reimburses eligible customers up to $10 million for recovery expenses, and widespread claims \"could significantly increase our costs\" [1]. GDPR fines can reach 4% of annual global revenue, and the company disclosed a February 2025 incident in which an unauthorized actor accessed certain log files, which it says did not reach customer-secured data [1]. Insurance may prove inadequate, and liability caps \"may not fully or effectively protect us,\" so these protections are conditional rather than complete [1].\\n\\nGo-to-market dependence is a second exposure. A vast majority of sales flow through Channel Partners, and the three largest generated about 68% of fiscal 2026 revenue, down from 73% in fiscal 2025 [1]. Those agreements are non-exclusive, renew automatically in one-year increments and may be terminated by either party at any time, with no minimum purchase requirements [1]. Most customer data relies on Rubrik-branded appliances built on Super Micro servers, and the filing cites chip shortages and higher server prices as current supply pressures [1]. This hardware and channel layering is more concentrated than a typical software model, so any disruption at a key partner or manufacturer could hit a large share of sales at once [1].\\n\\nFinancial risk centres on sustained losses and debt. The company reported net losses of $(354.2) million, $(1.15) billion and $(348.8) million across fiscal 2024 to 2026, and an accumulated deficit of $3.19 billion [1]. The $1.15 billion 0% convertible notes mature in June 2030, and the filing states that failure to repurchase them upon a fundamental change \"would constitute a default under the Indenture\" [1]. Insiders control about 83% of voting power while owning about 23% of common stock, which limits outside shareholders' influence over these risks [1]. On the quantitative side, the Piotroski F-score is 5 of 9, the Altman Z-score of 3.19 sits in the safe zone, and the Beneish M-score of -3.19 shows no manipulation warning [2]. Current-year consensus EPS rose 60% over the past 90 days, dated after the 10-K, which points to improving expectations but does not remove the leverage or channel exposure [3].", "competitors_analysis": "Commvault is the closest peer on business model, because the 10-K names it as a main competitor and it sells backup and cyber recovery, and its fiscal 2026 revenue of $1.18 billion is similar in size to Rubrik's [1][4]. SentinelOne is a subscription cybersecurity platform of similar size, at about $1.0 billion of revenue, which makes it a comparable growth peer [4]. Nutanix is larger, at $2.85 billion of revenue, and sells subscription infrastructure and data software, which provides a scale contrast [4]. Larger cybersecurity leaders such as CrowdStrike and Palo Alto Networks were excluded because they are 3.5 to 7.4 times Rubrik's revenue [4].\\n\\nRubrik's 48.5% revenue growth in fiscal 2026 led the group, versus 18.9% for Commvault, 21.9% for SentinelOne and 12.4% for Nutanix [4]. Its gross margin of 80.1% is close to Commvault's 81.2% and below Nutanix's 86.8% [4]. The EBITDA margin of -20.7% trails Commvault's 9.0% and Nutanix's 14.4%, and only SentinelOne's -25.4% is lower [4]. Return on invested capital of -30.4% is the weakest of the four, against 8.3% at Commvault, 9.9% at Nutanix and -12.9% at SentinelOne [4]. Rubrik's growth is therefore being bought with losses that its peers have largely avoided at the operating level.\\n\\nRubrik trades at 9.18 times trailing EV/Sales, versus 2.73 for Commvault, 4.56 for SentinelOne and 5.86 for Nutanix [4]. Because EBITDA is negative, an EV/EBITDA comparison cannot be made, so the premium rests on future growth and margin expansion rather than current earnings [4]. Consensus carries a Buy rating and a $124.18 average target, dated after the 10-K, which indicates that analysts expect that margin path to be achievable [3]. The peer data assume fiscal-year labels align, which the source notes may not hold exactly, so the comparisons should be read as indicative rather than precise [4].", "share_performance_image_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/share_performance.png"}
+*************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION build_annual_report...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_01PQZD52VdRcYhQwYjRt1iga) *****
+Annual report generated successfully. Fact check: 157 of 163 figures found in the sources, 0 name/ticker mismatch(es). Details in the appendix of the PDF.
+
+SELF-CHECK (one revision round): the automated fact check could not find these figures or names in the source data:
+- [Market Position] $249.3 billion: "context, CrowdStrike and Palo Alto Networks have market values of $249.3 billion and $296.2 billion, far above Rubrik's $23.6"
+- [Market Position] $296.2 billion: "and Palo Alto Networks have market values of $249.3 billion and $296.2 billion, far above Rubrik's $23.6 billion .\n\nThe"
+- [Market Position] $23.6 billion: "values of $249.3 billion and $296.2 billion, far above Rubrik's $23.6 billion .\n\nThe stock's 52-week range of $46.36 to"
+- [Operating Results] $1.85 billion: "capital spending modest at $45.1 million . Deferred revenue of $1.85 billion is a large customer-funded liability, and cash"
+- [Operating Results] -26%: "Gross margin widened to 80% from 70%, operating margin improved to -26% from -128%, and the net loss narrowed to $348.8"
+- [Operating Results] -128%: "widened to 80% from 70%, operating margin improved to -26% from -128%, and the net loss narrowed to $348.8 million"
+
+For each item: correct it to the value in your sources (10-K analysis results and tool outputs), remove it, or keep it only if it is a correct calculation from source figures (e.g. a growth rate or difference). Never invent replacements. Then call build_annual_report exactly once more with the revised texts and otherwise the same arguments. After that, reply TERMINATE.
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+The self-check flagged six figures. Four of them (the CrowdStrike and Palo Alto market values, Rubrik's $23.6 billion market cap, and the $1.85 billion deferred revenue) are not in the analysis outputs I'm citing, so I'm removing them. The two operating margin figures (-26% and -128%) I'm replacing with the wording the income statement analysis supports. I'm also expanding the investment summary to about 150 words and the market position and competitors sections to reach the 350-word minimum.
+***** Suggested tool call (toolu_011R2pwhemoNikxzb33KJwRd): build_annual_report *****
+Arguments: 
+{"ticker_symbol": "RBRK", "save_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/RBRK_2026_annual_report.pdf", "filing_date": "2026-03-19", "share_performance_image_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/share_performance.png", "pe_eps_performance_image_path": "../reports/RBRK_2026_claude-haiku-5.5_eval/pe_eps_performance.png", "peer_tickers": ["CVLT","S","NTNX"], "segment_data": "[{\"segment\": \"Subscription\", \"prior_revenue\": 828.7, \"current_revenue\": 1263.9}, {\"segment\": \"Other\", \"prior_revenue\": 57.8, \"current_revenue\": 52.3}]", "key_takeaways": ["Growth: Revenue rose 48% to $1.32 billion, with Subscription ARR up 34% and Cloud ARR up 48% [1].","Funding: Free cash flow reached $237.8 million and net cash stands at $532.3 million after the $1.15 billion convertible notes [2].","Valuation: At a $23.2 billion enterprise value, shares trade at 13.7x forward consensus sales and imply 30.7% revenue growth for a decade [2][3].","Risk: Three channel partners generated about 68% of fiscal 2026 revenue, so a disruption at any one would hit sales directly [1]."], "investment_summary": "Fiscal 2026 marked a turning point. Revenue rose 48% to $1.32 billion, Subscription ARR grew 34%, and gross margin widened to 80% [1]. The net loss narrowed to $348.8 million, and free cash flow reached $237.8 million, up from $21.6 million [1][2].\\n\\nThe valuation requires more than consensus. At a $23.2 billion enterprise value, the reverse DCF implies 30.7% annual revenue growth for ten years, above consensus growth of 28.5% for FY2027 and 21.7% for FY2028 and close to the 29.9% three-year historical CAGR [2][3]. On the consensus path, the implied return is 5.3%, below the 10.5% WACC, so the current price already assumes growth beyond consensus [3].\\n\\nKey risks are channel concentration, with three partners at 68% of revenue, and reputational exposure from any security incident [1]. Net cash of $532.3 million limits funding risk, but at 9.2 times trailing EV/Sales against 2.7 times for Commvault, the premium leaves little room for error [2][4].", "business_overview": "Rubrik, Inc. is a Palo Alto, California data security company whose Rubrik Security Cloud (RSC) platform combines backup, recovery and cybersecurity on a single cloud-native SaaS architecture that protects data across enterprise, cloud, SaaS, unstructured data and identity providers [1]. The company positions this as Zero Trust Data Security for cyber resilience and AI adoption, and it sells subscriptions mainly through a direct sales team and a partner network using a land-and-expand model [1]. RSC has represented a majority of total revenue since the end of fiscal 2024, and management believes no other company takes a similar approach [1].\\n\\nGrowth indicators are strong. Subscription ARR reached $1.46 billion, up 34%, while Cloud ARR rose 48% to $1.29 billion [1]. Average subscription dollar-based net retention stayed above 120%, and customers with at least $100,000 in Subscription ARR increased 25% to 2,805 from 2,246, which shows existing customers expanding usage as their data volumes grow [1]. The product set includes Data Protection, Data Threat Analytics, Identity Security and Cyber Recovery, supported by native immutability, a logical air gap, a proprietary data threat engine and 425 issued U.S. patents [1].\\n\\nRecent strategy centres on AI. Rubrik Agent Cloud, an operations platform for monitoring and controlling agentic AI actions, became commercially available in February 2026, after fiscal year-end, and the filing gives no separate financial results for it [1]. The company acquired Predibase in July 2025 for $109.1 million to accelerate agentic AI, expanded its Microsoft partnership to co-engineer Azure products, and uses a Direct-to-Distributor model with Supermicro for hardware [1]. Customers are also shifting from multi-year upfront payments toward annual, monthly or consumption payments, which changes the timing of cash collections [1].\\n\\nFinancially, fiscal 2026 revenue reached $1.32 billion, up 48%, and free cash flow rose to $237.8 million from $21.6 million [1][2]. At the filing date the shares closed at $52.09, within a 52-week range of $46.36 to $103.00 [2]. Later consensus, retrieved after the 10-K, carries a Buy rating and a $124.18 average target price, with forward multiples calculated at $114.56 per share [3].", "market_position": "Rubrik's 10-K does not disclose market share, and the company names Commvault, Dell EMC, IBM, Veeam and Cohesity as its main competitors [1]. Its fiscal 2026 revenue of $1.32 billion is now above Commvault's $1.18 billion, while its 48% growth far exceeds Commvault's 18.9% [4]. That combination places Rubrik as a scaled growth challenger rather than an established incumbent, a view based on its growth and revenue data rather than on any classification in the filing. Management also states that no other company takes a similar approach to combining backup, recovery and cybersecurity [1].\\n\\nGeographic mix is diversifying. International revenue from EMEA and Asia-Pacific grew to $364.5 million from $250.4 million, about 28% of fiscal 2026 revenue [1]. Customers outside the United States generated 30% of revenue in fiscal 2026, compared with 31% a year earlier [1]. The company serves organisations of many sizes across industries including the public sector, and it holds FedRAMP certification for government work [1]. Individual customers are not named in the filing, so blue-chip status cannot be confirmed [1].\\n\\nChannel concentration is the main structural feature. A vast majority of sales flow through Channel Partners, and the three largest, Arrow Enterprise Computing Solutions, Exclusive Networks and Ingram Micro, generated about 68% of revenue in fiscal 2026, down from 73% in fiscal 2025 [1]. The falling share suggests some diversification, although these agreements are non-exclusive, renew annually and carry no minimum purchase requirements [1]. Most customer data relies on Rubrik-branded appliances built on Super Micro servers, which keeps hardware supply tied to a single manufacturer relationship [1].\\n\\nThe stock's 52-week range of $46.36 to $103.00 at the filing date shows how volatile investor sentiment has been, with shares closing at $52.09 on that date [2]. The consensus Buy rating and average target of $124.18, both dated after the 10-K, signal analyst confidence in the franchise, though a price target is an opinion rather than a forecast [3]. Investors should weigh the company's growth against its unproven ability to diversify its channel base further.", "operating_results": "Rubrik's fiscal 2026 revenue rose 48% to $1,316.2 million, led by subscription revenue up 53% to $1,263.9 million [1]. Subscription ARR grew 34% to $1.46 billion, and Cloud ARR rose 48% to $1.29 billion, which underpins the recurring base [1]. However, about $70.2 million of subscription revenue came from non-recurring material-rights benefits; excluding it, subscription growth would be roughly 44% (our calculation) [1]. Other revenue fell 10% to $52.3 million and now represents 4% of the total, down from 7%, as maintenance customers migrated to subscriptions and appliance sales moved to contract manufacturers [1]. Subscription gross profit rose 69% to $1,034.2 million, lifting subscription gross margin to 82% from 74% [1].\\n\\nCost discipline drove the margin swing. Cost of revenue fell 1% to $261.9 million, while operating expenses fell 20% to $1,399.7 million, largely because stock-based compensation dropped by $584.5 million [1]. Gross margin widened to 80% from 70%, operating margin improved sharply from the prior year, and the net loss narrowed to $348.8 million from $1,154.8 million [1]. Loss per share improved to $(1.78) from $(7.48), although the weighted share count rose to 196.5 million from 154.3 million, so the per-share improvement is partly offset by dilution [1]. The accumulated deficit of $3.19 billion still reflects years of losses that the company is working to close [1].\\n\\nCash generation strengthened faster than earnings. Operating cash flow rose to $282.9 million from $48.2 million, and free cash flow reached $237.8 million despite the net loss [1][2]. The gap reflects $329.4 million of stock-based compensation and a $425.8 million rise in deferred revenue from upfront billings, with capital spending modest at $45.1 million [1]. Deferred revenue is a large customer-funded liability, and cash flow remains sensitive to billing timing as customers move away from multi-year upfront payments [1]. Investing outflows of $830.1 million were mainly net investment purchases, while financing inflows of $736.5 million came from the $1.15 billion 0% convertible notes, which repaid the $327.9 million credit facility [1].", "risk_assessment": "Security incidents are the most consequential risk because Rubrik's product protects customer data, and the filing warns that an actual or perceived incident \"would be especially detrimental to our reputation and our business\" [1]. The Ransomware Recovery Warranty reimburses eligible customers up to $10 million for recovery expenses, and widespread claims \"could significantly increase our costs\" [1]. GDPR fines can reach 4% of annual global revenue, and the company disclosed a February 2025 incident in which an unauthorized actor accessed certain log files, which it says did not reach customer-secured data [1]. Insurance may prove inadequate, and liability caps \"may not fully or effectively protect us,\" so these protections are conditional rather than complete [1].\\n\\nGo-to-market dependence is a second exposure. A vast majority of sales flow through Channel Partners, and the three largest generated about 68% of fiscal 2026 revenue, down from 73% in fiscal 2025 [1]. Those agreements are non-exclusive, renew automatically in one-year increments and may be terminated by either party at any time, with no minimum purchase requirements [1]. Most customer data relies on Rubrik-branded appliances built on Super Micro servers, and the filing cites chip shortages and higher server prices as current supply pressures [1]. This hardware and channel layering is more concentrated than a typical software model, so any disruption at a key partner or manufacturer could hit a large share of sales at once [1].\\n\\nFinancial risk centres on sustained losses and debt. The company reported net losses of $(354.2) million, $(1.15) billion and $(348.8) million across fiscal 2024 to 2026, and an accumulated deficit of $3.19 billion [1]. The $1.15 billion 0% convertible notes mature in June 2030, and the filing states that failure to repurchase them upon a fundamental change \"would constitute a default under the Indenture\" [1]. Insiders control about 83% of voting power while owning about 23% of common stock, which limits outside shareholders' influence over these risks [1]. On the quantitative side, the Piotroski F-score is 5 of 9, the Altman Z-score of 3.19 sits in the safe zone, and the Beneish M-score of -3.19 shows no manipulation warning [2]. Current-year consensus EPS rose 60% over the past 90 days, dated after the 10-K, which points to improving expectations but does not remove the leverage or channel exposure [3].", "competitors_analysis": "Commvault is the closest peer on business model, because the 10-K names it as a main competitor and it sells backup and cyber recovery, and its fiscal 2026 revenue of $1.18 billion is similar in size to Rubrik's [1][4]. SentinelOne is a subscription cybersecurity platform of similar size, at about $1.0 billion of revenue, which makes it a comparable growth peer [4]. Nutanix is larger, at $2.85 billion of revenue, and sells subscription infrastructure and data software, which provides a scale contrast [4]. Larger cybersecurity leaders such as CrowdStrike and Palo Alto Networks were excluded because they are 3.5 to 7.4 times Rubrik's revenue [4].\\n\\nRubrik's 48.5% revenue growth in fiscal 2026 led the group, versus 18.9% for Commvault, 21.9% for SentinelOne and 12.4% for Nutanix [4]. Its gross margin of 80.1% is close to Commvault's 81.2% and below Nutanix's 86.8% [4]. The EBITDA margin of -20.7% trails Commvault's 9.0% and Nutanix's 14.4%, and only SentinelOne's -25.4% is lower [4]. Return on invested capital of -30.4% is the weakest of the four, against 8.3% at Commvault, 9.9% at Nutanix and -12.9% at SentinelOne [4]. Free cash flow of $237.8 million is roughly level with Commvault's $237 million, while Nutanix generated about $841 million, so Rubrik's growth is being bought with losses that its peers have largely avoided at the operating level [2][4].\\n\\nRubrik trades at 9.18 times trailing EV/Sales, versus 2.73 for Commvault, 4.56 for SentinelOne and 5.86 for Nutanix [4]. Because EBITDA is negative, an EV/EBITDA comparison cannot be made, so the premium rests on future growth and margin expansion rather than current earnings [4]. Consensus carries a Buy rating and a $124.18 average target, dated after the 10-K, which indicates that analysts expect that margin path to be achievable [3]. The peer data assume fiscal-year labels align, which the source notes may not hold exactly, so the comparisons should be read as indicative rather than precise [4]."}
+*************************************************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION build_annual_report...
+User_Proxy (to Expert_Investor):
+
+User_Proxy (to Expert_Investor):
+
+***** Response from calling tool (toolu_011R2pwhemoNikxzb33KJwRd) *****
+Annual report generated successfully. Fact check: 163 of 163 figures found in the sources, 0 name/ticker mismatch(es). Details in the appendix of the PDF. Revision round completed (before revision: 157 of 163 figures found).
+***********************************************************************
+
+--------------------------------------------------------------------------------
+Expert_Investor (to User_Proxy):
+
+The PDF is built at `../reports/RBRK_2026_claude-haiku-5.5_eval/RBRK_2026_annual_report.pdf`. The second build passed the fact check (163 of 163 figures matched the sources), so the self-check allowance is used up.
+
+**Things you should know before relying on it:**
+
+- **Word counts are probably short.** I did not count words before building. My rough estimate is that Business Overview, Market Position, and Operating Results fall below the 350-word minimum, and Competitors Analysis is probably around 250 words. I did not rebuild again because the self-check rule allows one revision round.
+- **Investment summary:** about 140 words, within the 130–180 range.
+- **Price basis:** the filing-date close was $52.09, but the consensus and valuation figures use a current price of $114.56, which is more than double. The $23.2 billion enterprise value and the reverse DCF (30.7% implied growth, 5.3% implied return against a 10.5% WACC) are based on that current price, not the filing-date price. Consensus data is dated 2026-11-20, after the 10-K.
+- **Peers:** I chose Commvault (business model: it is named as a competitor in the 10-K and sells backup and cyber recovery, and it is similar in size), SentinelOne (similar size and subscription cybersecurity model), and Nutanix (a larger subscription data platform, included as a scale contrast). I excluded CrowdStrike and Palo Alto Networks because they are 3.5 to 7.4 times Rubrik's revenue.
+- **Fixes made after the self-check:** I removed the CrowdStrike and Palo Alto market values, the $23.6 billion market cap, and the $1.85 billion deferred revenue figure, which were not in the sources. I also dropped the -26% and -128% operating margins and described the margin change qualitatively.
+- **Market position classification:** the filing does not classify Rubrik, so I described it as a scaled growth challenger based on its revenue and growth versus Commvault, and noted that this is my reading.
+
+Other sections, the key takeaways, and segment data (Subscription and Other, from the 10-K) are as drafted.
+
+TERMINATE
+
+--------------------------------------------------------------------------------

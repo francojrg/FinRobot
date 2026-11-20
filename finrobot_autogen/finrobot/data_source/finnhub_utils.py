@@ -145,14 +145,14 @@ class FinnHubUtils:
         if not basic_financials["series"]:
             return f"Failed to find basic financials for symbol {symbol} from finnhub! Try a different symbol."
 
-        output_dict = basic_financials["metric"]
-        for metric, value_list in basic_financials["series"]["quarterly"].items():
-            value = value_list[0]
-            output_dict.update({metric: value["v"]})
+        output_dict = dict(basic_financials["metric"])
+        for metric, value_list in basic_financials["series"].get("quarterly", {}).items():
+            if value_list:  # Original: IndexError bei leeren Reihen
+                output_dict.update({metric: value_list[0]["v"]})
 
-        for k in output_dict.keys():
-            if selected_columns and k not in selected_columns:
-                output_dict.pop(k)
+        # Original: dict wurde waehrend der Iteration veraendert (RuntimeError bei jeder Spaltenauswahl)
+        if selected_columns:
+            output_dict = {k: v for k, v in output_dict.items() if k in selected_columns}
 
         return json.dumps(output_dict, indent=2)
 

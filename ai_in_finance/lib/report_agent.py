@@ -143,11 +143,17 @@ def default_message(company, fyear, work_dir, peers=None):
           after the 10-K. In the investment summary, compare the growth implied by the reverse DCF with consensus and
           historical growth: what does the current valuation require?
         - Write an investment summary of 130-180 words for page 1.
-        - Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations): growth, profitability or
-          funding, valuation vs consensus, and the main risk. Do not simply repeat the first sentences of the summary.
+        - Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations). Phrase them as your
+          investment view, not as plain facts: each states a claim and the main reason (e.g. "Margin expansion should
+          continue as launch volumes scale: gross margin rose to 34.4% [1]"). Do not repeat the summary's first sentences.
+        - Write 3-4 investment_theses that match the takeaways, each with: thesis (the view, a claim that can turn out
+          wrong), evidence (figures with citation), signpost (a measurable KPI or dated event that will confirm it, e.g.
+          "Neutron first launch by Q4 2026" or "Subscription ARR growth above 30%") and invalidation (what would prove it
+          wrong). The earnings reviewer will check these signposts after each quarter.
         - Cite sources inline as [1] 10-K, [2] Yahoo Finance financials/prices, [3] analyst consensus, [4] peer financials.
         - When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
-          revenues for the last two fiscal years as stated in the 10-K (USD millions) and key_takeaways as a list.
+          revenues for the last two fiscal years as stated in the 10-K (USD millions), key_takeaways as a list and
+          investment_theses as a list of objects.
         - Do not generate the pdf until all of this is fulfilled.
         - If build_annual_report returns a SELF-CHECK list, revise the texts once as instructed and rebuild.
     """)

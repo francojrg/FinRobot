@@ -1,0 +1,863 @@
+Resource: Resource: Company Name: Rubrik, Inc.
+
+Business summary:
+ Item 1. Business 
+
+We are on a mission to secure and accelerate the world’s AI transformation. 
+
+Organizations are facing new challenges. Cyberattacks are inevitable. Prevention and detection are not enough. Realizing that cyberattacks ultimately target data, we created Zero Trust Data Security to deliver cyber resilience so that organizations can secure their data across the cloud and recover from cyberattacks. As enterprises embrace the forthcoming AI transformation, they are grappling with a threat landscape that is now amplified at an AI-scale. We believe that cyber resilience will result in AI resilience and that the future of cybersecurity is data security—if your data is secure, your business is resilient. 
+
+We built the Rubrik Security Cloud (“RSC”) suite with Zero Trust design principles to secure data across enterprise, cloud, SaaS, unstructured data, and identity providers. RSC delivers a cloud native SaaS platform that detects, analyzes, and remediates data security risks and unauthorized user activities. Our platform is architected to help organizations achieve cyber resilience, which encompasses cyber posture and cyber recovery. We enable organizations to confidently accelerate digital transformation and leverage the cloud to realize business agility. 
+
+In fiscal 2026, we built Rubrik Agent Cloud (“RAC”), to accelerate enterprise AI transformation. RAC is designed to provide a comprehensive AI operations platform that can dynamically monitor, control, and remediate agentic actions. RAC became commercially available in February 2026. 
+
+Our Rubrik Security Cloud and Rubrik Agent Cloud suites are built on the same technology architecture. 
+
+Architecture matters when it comes to securing data and accelerating enterprise AI transformation. Our unique SaaS-based architecture combines data and metadata from business applications across enterprise, identity, cloud, and SaaS applications to create self-describing data as a time-series. Self-describing data contains information such as application context, identity, data sensitivity, and application lineage. Our data threat engine, powered by AI and machine learning analyzes the self-describing data time-series to derive security intelligence from data and deliver cyber recovery. This enables our unique Preemptive Recovery Engine to identify clean recovery points in advance of an attack to shorten cyber recovery times. We combined backup and recovery and cybersecurity into a single platform built with a Zero Trust architecture, significantly shrinking the attack surface that exists with legacy solutions. Our Zero Trust Data Security platform assumes that information technology infrastructure will be breached, and nothing can be trusted without authentication. 
+
+Our architecture’s ability to understand data, application, and identity context allows us to deliver Rubrik Agent Cloud, which serves as an enterprise control layer for managing the AI agent lifecycle. 
+
+Automation is at the core of our architecture ethos. Our automated policy-driven platform delivers data security enforcement, incident response orchestration, and API integrations with the broader security ecosystem. 
+
+Our business is indexed to business data growth. Our customers’ need for our solutions grows in lockstep with their business data growth and their need for additional data security capabilities. We primarily sell subscriptions to RSC through our sales team and partner network by employing a land and expand sales strategy. We land new customers by selling subscriptions to RSC to secure any one of five distinct types of data: enterprise, unstructured data, identity, cloud, and SaaS applications. Expansion happens primarily along three vectors: the growth of data from applications already secured by Rubrik; new applications or identities secured; and additional security products. This expansion is driven by a natural flywheel effect in which the value of our platform increases as our customers’ data grows across various applications. As organizations manage more data and identities with RSC, they gain deeper insights into their data, strengthen their overall security posture, and reduce compliance risk. 
+
+Our Platform and Products 
+
+Rubrik has a unique and purpose-built Zero Trust Data Security approach to help organizations achieve business resilience against cyberattacks, malicious insiders, operational disruptions, and accelerate AI adoption by reducing risk. We enable organizations to implement a Zero Trust framework at the data layer, deliver data availability that withstands the aforementioned adverse conditions, and uphold data integrity even when infrastructure is compromised or attacked. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 6 
+
+##TABLE_END
+
+Table of Contents 
+
+RSC, built with a Zero Trust design, automates data policy management and enforcement, delivers threat analytics and response, and orchestrates rapid recovery. RSC is a cloud native SaaS suite that secures data across disparate sources, allowing customers to have a single point of control from one user interface. RSC is built on a proprietary framework that represents time-series data and metadata generated across enterprise, unstructured data, identity, cloud, and SaaS applications. We build products on top of RSC to address myriad use cases that help our customers achieve cyber resilience, from hardening their data security posture to cyber recovery. These use cases include protection and recovery from cyberattacks, malicious insiders, and operational disruptions; orchestration of cyber and operational recovery, failover/failback testing, and cloud migration; sensitive data classification and visibility into over-privileged data access; monitoring for governance, regulatory compliance, and data breaches; and identification, containment, and remediation of ransomware and other security threats. 
+
+Our access to time-series data and metadata allows us to deliver a breadth of products across two suites, Rubrik Security Cloud and Rubrik Agent Cloud. 
+
+Rubrik Security Cloud 
+
+Data Protection. Cyber-proofs various sources of data in an organization with secure, access-controlled backups. Our data protection products are built for ease of deployment and use, scalability, and rapid recovery from cyberattacks, malicious insiders, and operational disruptions. We offer data protection products to manage enterprise, unstructured data, cloud, and SaaS applications. We also protect identity provider services, such as Microsoft Active Directory, EntraID and Okta. 
+
+Data Threat Analytics and Data Security. Detects data threats and identifies the blast radius of a cyberattack to speed up data recovery. Combines Anomaly Detection, Threat Monitoring, and Turbo Threat Hunting. Anomaly Detection uses advanced machine learning to detect deletions, modifications, and encryptions. Threat Monitoring continuously monitors for indicators of compromise commonly used by bad actors to establish persistent access, move laterally, or exfiltrate data. Turbo Threat Hunting allows incident responders and Security Operations Center (SOC) analysts to hunt for indicators of compromise and determine the initial point, scope, and time of infection. Turbo Threat Hunting capabilities enable customers to instantly check against precomputed hash values to locate malware-free recovery points. Data Security strengthens cyber posture by locating sensitive data proliferation and identifying data risks. Includes Sensitive Data Monitoring and User Intelligence, which altogether discovers where data lives, sensitivity of data, and user access and activity. 
+
+Identity Security. Delivers visibility, continuous monitoring, risk remediation, attack rollback and orchestrated recovery across identity services providers. Identity Recovery orchestrates fast, reliable recovery of Microsoft Active Directory, EntraID, and Okta. Identity Resilience is designed to continuously monitor identity risks and policy violations and rapidly identify compromised accounts. 
+
+Cyber Recovery. Improves cyber readiness and incident response with orchestrated Cyber Recovery Simulation, Threat Containment, and orchestrated Active Directory Forest Recovery. Cyber Recovery Simulation is used to create, test, and validate recovery plans, while also staying compliant with policy and audit requirements. Cyber Recovery can also be used to recover compromised data within a safe environment for forensic analysis. Threat Containment is used to quarantine data infected with malware so that recovery is enabled without reinfection. Active Directory Forest Recovery orchestrates the recovery of an organization’s Active Directory identity service to the desired point in time while avoiding malware reintroduction. 
+
+Rubrik Agent Cloud. Designed to provide a comprehensive AI operations platform that can dynamically monitor, control, and remediate agentic actions. RAC is designed to accelerate AI transformation for our customers without introducing added risk. It became commercially available in February 2026. 
+
+Architecture Matters 
+
+We believe the following attributes of our platform architecture allow us to offer a differentiated approach to data security: 
+
+• Time-Series Data and Metadata. We design our platform to manage time-series data and metadata as core assets. Our platform combines data and metadata together into self-describing data and records its history over time. To provide a single point of control for data across enterprise, cloud, and SaaS applications, we have constructed a proprietary framework to uniformly represent self-describing data across time. Doing so gives us full context of data and unlocks security use cases, allowing us to build products for cyber recovery and security intelligence. 
+
+• Data Threat Engine. We have developed a proprietary machine learning and artificial intelligence-based data threat monitoring and management engine to surface anomalous activities and indicators of data breaches. Our self-describing data, which combines data and metadata, gives us the ability to surface emergent data threats, understand data sensitivity, and identify malicious user activities. In addition, our platform continuously scans self-describing data for indicators of compromise (IOCs) and malicious patterns using our native data threat engine and integrated threat intelligence. This allows us to pre-identify the last known clean snapshots and automate recovery workflows. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 7 
+
+##TABLE_END
+
+Table of Contents 
+
+• Zero Trust Design. We employ Zero Trust principles to prevent threats at the data layer. Our use of native immutability, secure protocols, logical air gap, encryption, role-based access controls, multi-factor authentication, and native services uphold data integrity and availability. 
+
+• Automation. Core to our product design ethos is automation. To consistently secure and manage data at scale, our platform delivers automated end-to-end policy management and enforcement, orchestration of security incident response, and API integrations. 
+
+Key Benefits to Our Customers 
+
+Leading businesses, governments, and public entities around the world and across all industries and segments choose Rubrik to: 
+
+• Achieve cyber and operational resilience. Our platform allows organizations to continue business operations even when data and applications are compromised by cyberattacks, malicious insiders, and operational disruptions. From the beginning, we have built our platform with the assumption that security breaches are inevitable and that data availability and integrity must be maintained to minimize business downtime and data loss. 
+
+• Secure, govern, and recover data across hybrid multi-cloud and SaaS applications. We recognize that organizations are in various stages of their cloud and SaaS journeys, and are accumulating data across enterprise, cloud, and SaaS applications. Our platform provides a consistent, policy managed experience across hybrid multi-cloud and SaaS environments, allowing organizations to uniformly deliver data security, governance, and recovery. 
+
+• Strengthen identity and data security posture. Our platform helps organizations manage security threats with detection and analysis of security risks. We combine machine learning and threat intelligence to detect anomalies and unusual behavior in application and identity data. Our platform also analyzes the blast radius of impact, automates ransomware monitoring, and rapidly recovers impacted data and identity services. Our ability to continuously discover and classify sensitive data, in addition to understanding user access, helps reduce the risk of data exfiltration. Our products can be integrated into security operations’ automated playbooks for managing and mitigating ransomware and other data attacks. 
+
+• Accelerate AI transformation. Our platform helps enterprises move from their AI pilots to production by addressing the fundamentals expected of mission-critical systems: visibility, control, and recovery. 
+
+• Comply with data regulations. Our platform continuously discovers and classifies sensitive data, which provides increasing value to organizations as more data is accumulated across enterprise, cloud, and SaaS applications. This allows organizations to facilitate compliance with evolving data privacy and security regulations, such as GDPR, and reduce risk of double extortion ransomware attacks. 
+
+• Catalog and govern data assets. We provide a single platform for complete visibility and management as organizations accumulate more data across enterprise, cloud, and SaaS applications. We help organizations understand what data they have, where that data resides, sensitivity of data, and who has unqualified data access. As a result, our customers can shrink their attack surface, reduce risk of security breaches, and accelerate industry regulatory compliance. Our understanding of sensitive data and user access can help enterprises adopt generative AI by setting guardrails to mitigate exposure to compliance, data privacy, and cybersecurity risks. 
+
+• Improve operational efficiency. As organizations adopt hybrid multi-cloud and SaaS strategies, they encounter many different tools, interfaces, and workflows. Organizations can streamline and standardize data security and management operations with our unified policy automation engine and workflows. This reduces the need for employee training, simplifies security and governance challenges, provides reliable and rapid recoveries, and makes it easier to manage exponential data growth and the accumulation of diverse data sources. 
+
+Our Growth Strategy 
+
+Key elements of our growth strategy include: 
+
+• Continuing to grow our SaaS solutions. We believe there is a large and growing market opportunity for our multi-tenant, cloud native solutions as more organizations and customers move their applications and data to the cloud. We plan to continue to invest in the development of RSC and RAC, building additional products on top of our platform, and our accompanying go-to-market motion to capitalize on this meaningful opportunity. 
+
+• Growing our customer base. As cyberattacks increase in scale and sophistication amidst accelerated digitization and ever-evolving data regulations, organizations are rethinking how to secure data across various data sources. We believe we will continue to acquire new customers based on our ability to drive cyber resilience, identity security, AI transformation, and regulatory compliance. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 8 
+
+##TABLE_END
+
+Table of Contents 
+
+• Expanding within our customer base. Our existing customer base represents a significant growth opportunity. As our customers accelerate digitization, they adopt more applications and generate more data that must be secured and readily available. We expect to expand our data security products to cover additional scale and scope of data, in addition to cross-selling identity security, data governance and compliance products and the RAC suite. 
+
+• Innovating and extending our product leadership. We have a history of creating and introducing disruptive technologies that help our customers achieve business resilience. We intend to continue making significant investments in research and development as well as hiring top technical talent to further increase our product differentiation. In particular, we believe that generative AI will play an important role driving further need for new products to help secure sensitive data and user access, monitor agents adoption, govern agent access and recover unwanted agentic actions. As we continue to invest in our platform, we will focus on features and functionalities that help enterprises securely adopt generative AI within an evolving threat landscape. 
+
+• Growing and harnessing our partner ecosystem. We plan to continue investing in building out and leveraging our partner ecosystem to broaden our distribution footprint, drive more platform usage, and drive greater awareness of our platform. Our partner ecosystem includes distributors and resellers, or Channel Partners, system integrators, managed system providers, and technology partners. 
+
+• Expanding our global footprint. As organizations around the world create more data across enterprise, cloud, and SaaS applications and grapple with an ever-increasing threat level of cyberattacks, including ransomware, and ever-evolving data privacy and security regulations, we believe there is significant opportunity to expand the use of our platform in all major global markets. We have invested in research and development, sales and marketing, and customer support across EMEA and Asia-Pacific regions and expect to continue to do so. We grew our international revenue from such regions from $250.4 million in fiscal year ended 2025 to $364.5 million in fiscal year ended 2026. 
+
+• Pursuing strategic acquisitions. We have a history of acquiring and integrating strategic products and technologies into our platform to deliver comprehensive data security products to our customers and partners. We intend to continue to pursue strategic teams, technologies, and products to accelerate time-to-market for new data security capabilities and widen the competitive moat for our products and solutions. 
+
+Our Customers 
+
+We sell to organizations of various sizes that operate across a wide range of industries, including financial services; retail, trade, and transportation; energy and industrials; healthcare and life sciences; public sector and education; technology, media, and communications; and services. 
+
+Our Commercial Offerings 
+
+Rubrik Security Cloud 
+
+RSC is a cloud native SaaS platform that secures data across disparate sources. We build products on top of RSC to address a myriad of use cases that help our customers achieve cyber resilience. The primary commercial products in our RSC suite are as follows: 
+
+Data Protection 
+
+• Enterprise Data Protection. Cyber-proofs enterprise data on physical systems, operating systems, virtual machines, databases, file systems, and containers with air-gapped, immutable, access-controlled backups. 
+
+• Unstructured Data Protection. Cyber-proofs unstructured file and object data stored on petabyte scale NAS systems with air-gapped, immutable backups. 
+
+• Cloud Data Protection. Cyber-proofs Azure, AWS, GCP and Oracle cloud application data and databases with secure, access-controlled backups. 
+
+• SaaS Data Protection. Cyber-proofs M365, Salesforce, and Atlassian Jira Cloud data with air-gapped, immutable data resilience and rapid recovery at scale. 
+
+Data Security | Data Threat Analytics 
+
+• Data Security Posture Management. Strengthens cyber posture by locating sensitive data proliferation and identifying data risks. Includes Sensitive Data Monitoring and User Intelligence, which altogether enables discovery of where data lives, its sensitivity, and user access and activity. A hardened cyber posture helps customers proactively reduce the risk of cyberattacks, data exfiltration, and sensitive data exposure, in addition to enhancing data governance for generative AI. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 9 
+
+##TABLE_END
+
+Table of Contents 
+
+• Anomaly Detection, Threat Monitoring, and Turbo Threat Hunting. Detects data threats and identifies the blast radius of a cyberattack to speed up data recovery. Anomaly Detection uses advanced machine learning to detect deletions, modifications, and encryptions. Threat Monitoring continuously monitors for indicators of compromise commonly used by bad actors to establish persistent access, move laterally, or exfiltrate data. Turbo Threat Hunting allows incident responders and SOC analysts to hunt for indicators of compromise and determine the initial point, scope, and time of infection. 
+
+Identity Security 
+
+• Identity Recovery. Cyber-proofs Microsoft Active Directory, EntraID, and Okta with immutable backups and rapid recovery across hybrid environments. 
+
+• Identity Resilience. Monitors and protects human and non-human identities, tracks misconfigurations and high risk or malicious changes within Active Directory and Entra ID. It also enhances risk posture and accelerates cyber recovery by linking identity-based information such as privileged access with Rubrik's DSPM sensitive data context and activity. 
+
+Cyber Recovery 
+
+• Improves cyber readiness and incident response with orchestrated Cyber Recovery Simulation, Threat Containment, and orchestrated Active Directory Forest Recovery. Cyber Recovery Simulation is used by our customers to create, test, and validate recovery plans, while also staying compliant with policy and audit requirements. Cyber Recovery can also be used to recover compromised data within a safe environment for forensic analysis. Threat Containment quarantines data infected with malware to prevent malware reinfection during recovery. Active Directory Forest Recovery orchestrates the recovery of an organization’s Active Directory identity service to the desired point in time while avoiding malware reintroduction. 
+
+In addition, we offer Ruby, an AI agent for cyber resilience designed to help customers scale their data security operations through intelligent automation that increases productivity and bridges the users’ skills gap. To ensure optimal performance, Ruby is designed to be interoperable with multiple high-performing models, enabling the selection of the best-fit LLM for a customer's needs. These models work in combination with our proprietary, internally developed software, which augments user queries and enhances model outputs to generate responses or execute actions. For more information regarding the risks related to the use of AI in our business, see the risk factor titled “Our use of generative and other AI tools may pose risks to business and operations, including our proprietary software and systems, and may subject us to legal liability” in the section titled “Risk Factors.” 
+
+Our commercial products are used by customers to deliver business resilience against operational failures and cyberattacks. Customers use our Data Protection, Identity Security, and Cyber Recovery products to strengthen cyber posture, comply with regulations, and conduct recovery from cyber attacks, operational failures, human errors, or natural disasters. During a cyberattack, customers use Data Threat Analytics in addition to the above products to identify, contain, and remediate data threats, determine scope of sensitive data exposure, recover data, and conduct event response. 
+
+Our RSC platform is built to be highly flexible and scalable, enabling us to innovate and deliver new data security products in the future. 
+
+Our products are available for purchase via four subscription editions to our RSC platform, which are as follows: 
+
+• Foundation Edition. Keeps data secure and recoverable from cyberattacks and operational failures. 
+
+• Business Edition. Builds upon Foundation Edition by proactively monitoring for ransomware. 
+
+• Enterprise Edition. Builds upon Business Edition by continuously monitoring data risk and orchestrating cyber recovery. 
+
+Our commercial offerings are accompanied by customer support. We offer several support solutions and capabilities that enhance the value proposition of our software and SaaS solutions: 
+
+• SentryAI. SentryAI is our proprietary AI deep learning-based platform for system health monitoring, allowing us to deliver proactive customer service throughout the entire customer lifecycle. Our platform uses AI to detect anomalous behavior from telemetry data from our customers. Data analyzed includes performance, security and SLA compliance, and capacity utilization. SentryAI is included within our base support offering. 
+
+• Premium-Plus Add-on Support. Our program provides a CEM and an Assigned Support Engineer, or ASE, for personalized, technical support. Our dedicated teams develop an in-depth understanding of our customers’ unique environment requirements, collaborate closely with our customers’ operation teams, and provide a direct path to accelerate resolution times. 
+
+• Ransomware Recovery Team. Our 24x7 Ransomware Recovery Team assists and complements our customers’ recovery plans. 
+
+• Education. We offer Rubrik University, which includes instructor-led training with hands-on labs, on-demand e-learning courses, and certification exams. Education capabilities are targeted at different types of users and delivery modalities to suit end-customer needs. We have instructor-led training and self-paced on-demand courses. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 10 
+
+##TABLE_END
+
+Table of Contents 
+
+• Certification Program. Our certification program enables technical personnel to demonstrate and validate in-depth knowledge of data security by becoming a Rubrik Certified Systems Administrator. 
+
+In February 2026, Rubrik Agent Cloud became commercially available. RAC provides a comprehensive AI operations platform that can dynamically monitor, control, and remediate agentic actions. RAC is designed to accelerate AI transformation for our customers without introducing added risk. 
+
+Our Technology 
+
+We have designed a highly differentiated and innovative architecture that is comprised of the following elements: 
+
+• Time-Series Data and Metadata. Our architecture combines data and metadata from business applications to create self-describing data as a time-series. Self-describing data is important since it contains information such as application context, user identity, data sensitivity, and application lineage, allowing us to understand emergent data threats and deliver cyber recovery. In addition, we have constructed a proprietary framework to uniformly represent this time-series data and metadata from enterprise, cloud, and SaaS applications. Since we have a common way to represent data across a multitude of application sources, we can easily introduce new products on top of our platform. 
+
+• Zero Trust Design. We employ Zero Trust principles to prevent threats at the data layer. Our usage of native immutability, secure protocols, logical air gap, encryption, role-based access controls, multi-factor authentication, and native services allows us to preserve data integrity and reduce software supply chain risk. 
+
+• Native Immutability. Our platform was custom designed to provide built-in immutability and preserve data integrity. Our proprietary, append-only file system, combined with data integrity checks, protects data from unauthorized modification, encryption, or deletion, thereby preventing data from being compromised. 
+
+• Secure Protocols. We architected our platform to allow data access only in an authenticated manner and via secure protocols. Contrast this approach to that of legacy technologies, which offer multi-tier architectures with a full trust security model leveraging insecure network and storage protocols, thereby leaving data vulnerable to corruption, deletion, or theft. 
+
+• Logical Air Gap. Data is protected by creating a multi-layered barrier between data and malicious actors. Logical processes, such as encryption, hashing, and granular role-based access controls, prevent data from being modified, deleted, or stolen. Our immutable, append-only file system also contributes to establishing a logical air gap by preventing data from being manipulated once written. 
+
+• Native Services. Our platform provides robust built-in functionality with native services. We do not provide privileged access to third-party applications, thereby reducing the risk of software supply chain attacks. 
+
+• Threat Engine. Our threat engine uses machine learning and threat intelligence to analyze our time-series data and metadata, detecting anomalies, encryption, content sensitivity, and malware. We can identify the initial point, scope, and time of attack to avoid malware reinfection during recovery. 
+
+• Automation. Core to our design ethos is automation. To secure data at scale and with consistency, our platform is architected to deliver automated end-to-end policy management, orchestration of security incident response, and API integrations. 
+
+• Policy Automation. Our fully orchestrated policy engine simplifies how data security objectives are created, enforced, and managed. By providing simplicity and automation in securing data, organizations easily deliver a consistent and uniform data security posture. 
+
+• Integration with Security Operations. Our solutions integrate with security tools, such as SIEM/SOAR and cloud security, to address a critical gap: security risks and threats at the data layer. Existing security tools pull in data from every corner of the infrastructure (network, applications, endpoints, etc.) but not from the data itself. By integrating continuous monitoring of data and user context, SecOps teams accelerate risk mitigation, incident response, and business resiliency. 
+
+• API-integration. Our API-first design means that any operation performed via Rubrik’s UI is performed through multi-factor authenticated APIs. We offer an extensive collection of pre-built integrations that allow customers to leverage our APIs to integrate data security and data policy management into self-service automation, infrastructure as code, centralized monitoring, log management, and security operations. 
+
+Our Go-to-Market Strategy 
+
+We primarily sell subscriptions to RSC through our global sales team and partner network. We target the largest organizations worldwide to mid-sized organizations. We sell to smaller customers through a high velocity engagement model driven by our inside sales team. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 11 
+
+##TABLE_END
+
+Table of Contents 
+
+We utilize a land and expand approach, acquiring new customers and expanding with existing customers. We sell our products through subscriptions to RSC editions and can land in five distinct ways by securing enterprise, unstructured data, cloud, SaaS, and identity providers. After initial purchase, our customers often expand the deployment of our platform within their organization. Expansion happens along three vectors: the growth of data from applications already secured by Rubrik; new applications secured; and additional data security products. This expansion is driven by a natural flywheel effect in which the value of our platform increases as our customers’ data grows across various applications. As organizations manage more data with RSC and adopt additional data security products, they gain deeper insights into their data, strengthen their overall security posture, and reduce compliance risk, increasing their overall affinity with Rubrik. 
+
+Our sales organization includes sales development, inside sales, sales engineering, and field sales personnel and is segmented both geographically and by the size of prospective customers. We also have dedicated sales teams for the public sector, including federal, state, and local government organizations. Our sales teams identify prospective customers, manage customer accounts, and identify expansion opportunities, while working with our partner network. 
+
+We sell our subscriptions to customers through our Channel Partners utilizing a two-tier, indirect fulfillment model. We also offer SaaS products through the marketplaces of our technology alliance partners, including GCP, Azure, and AWS. 
+
+Our marketing organization works closely with our sales team to build brand and product awareness and drive sales pipeline. We leverage a mix of outbound marketing tactics such as industry conferences, user events, webinars, and digital programs to target new business, as well as support our upsell and cross-sell efforts. Every year, we organize our user conference, Rubrik Forward, to help our customers realize greater business results through data security. In addition, we leverage inbound marketing activities to generate pipeline and engage in joint marketing activities with our channel and technology alliance partners. 
+
+Our Partnerships 
+
+Our partnerships consist of Channel Partners, system integrators, managed service providers, and technology partners. Our partner program is designed to maximize technology expertise, technology alliances, and geographic coverage. Our Rubrik Transform Partner Program is a global program that manages our business relationships with our partners. 
+
+Our partners help expand the reach of our technology by building brand and product awareness, generating leads, implementing our solutions, providing value-added professional services, and reselling our services. On occasion, we may form deeper strategic relationships, such as our partnership with Microsoft that extends from driving go-to-market activities to co-engineering projects to delivering integrated Zero Trust Data Security products built on Azure. 
+
+Research and Development 
+
+Our research and development team is responsible for the design, development, testing, operation, and quality of our data security platform. This organization works closely with our cloud operations team to ensure that our platform is available, reliable, and stable. Rubrik Zero Labs is our internal data security research lab that analyzes the global threat landscape, works to eliminate threats with our data security platform, and reports on emerging data security issues. Our research and development leadership team is located in Palo Alto, California, Tel Aviv, Israel and Bangalore, India. We intend to continue to invest in our research and development capabilities to extend our platform and drive innovation of new products to expand our market size and customer impact. 
+
+Manufacturing 
+
+We rely on a limited number of contract manufacturers, including Super Micro Computer, Inc., or Supermicro, to assemble, test, and load our software onto Supermicro servers to deliver Rubrik-branded commodity servers, or Rubrik-branded Appliances, which the customer enterprise data we secure relies upon. All Rubrik-branded Appliances are currently built on servers designed and supplied by Supermicro. Our Original Equipment Manufacturer Agreement with Supermicro expires in November 2026, with the option to terminate upon each automatic annual renewal thereafter, and does not contain minimum purchase requirements that we must satisfy. We and Supermicro have also agreed to a “Direct-to-Distributor” model, whereby our Channel Partners are authorized to place purchase orders directly with Supermicro, and Supermicro is authorized to sell our Rubrik-branded Appliances directly to our Channel Partners. 
+
+Our Competition 
+
+The markets we serve are highly competitive and rapidly evolving. Our competition is specific to use cases that we target. We believe the Rubrik Platform is unique and we are not aware of other companies that take a similar approach to deliver cyber resilience and accelerate enterprise AI transformation. Legacy backup and recovery solutions have significant shortfalls in addressing cyber recovery, data security and agentic AI operations as they were primarily built for recoveries from operational and natural disaster. At the same time, traditional cybersecurity approaches have failed to not only prevent but also provide recovery from increasingly rampant and sophisticated cyberattacks. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 12 
+
+##TABLE_END
+
+Table of Contents 
+
+As customer requirements evolve and new technologies are introduced, we anticipate competition will increase as established or emerging companies develop solutions that address the data security market. Our main competitors fall into the following categories: 
+
+• Data management and protection vendors, such as Commvault, Dell EMC, IBM, Veeam, and Cohesity; 
+
+• Smaller cloud and SaaS data management vendors with products that compete in some of our markets; and 
+
+• Vendors that provide cyber/ransomware detection and investigation, identity recovery and resilience, data security posture management, insider threat detection, data classification, incident containment, and other security and data governance technologies. 
+
+We believe the principal competitive factors in our market are: 
+
+• Ability to converge backup and recovery and cybersecurity in a cloud architecture; 
+
+• Ability to automatically manage and secure diverse data types across hybrid cloud, public cloud, and SaaS environments in an easy-to-use, unified platform; 
+
+• Ability to provide cyber recovery from a cyberattack; 
+
+• Ability to harden data security posture by continuously observing data for security risks; 
+
+• Business data access for cyber resilience; 
+
+• Ease of deployment, implementation, and use; 
+
+• Performance, scalability, and reliability; 
+
+• Ease of integration and collection of pre-built integrations with a wide variety of applications, infrastructure, automation, and security products driven by an API-first architecture; 
+
+• Time to value and pricing; 
+
+• Integrated data governance and compliance capabilities; 
+
+• Quality of customer success and professional services; and 
+
+• Brand recognition and reputation. 
+
+Our Culture and Employees 
+
+We consider our culture and employees to be important to our success. Our vision for our people is to establish an environment where our people can grow their careers and feel like they belong and succeed at Rubrik, allowing us to attract, develop, and retain the best talent in the industry to drive Rubrik’s success well into the future. We do this through incentivizing and integrating our employees through our competitive rewards and benefits, including equity-based compensation, and by our unique culture. 
+
+Our culture is driven by our core company values, and we measure performance against these values: 
+
+• Relentlessness. Unyielding will and curiosity to tackle the hardest challenges. 
+
+• Integrity. Do what you say and do the right thing. 
+
+• Velocity. Drive clarity, decide quickly, and move fast to delight our customers. 
+
+• Excellence. Set a high standard and strive for greatness. 
+
+• Transparency. Build trust and drive smart decisions through transparent communication. 
+
+As of January 31, 2026, we had approximately 3,797 full-time employees worldwide. We also engage contractors and consultants. None of our employees are represented by a labor union. In certain countries in which we operate, including Germany and France, we are subject to, and comply with, local labor law requirements, which include works councils and industry-wide collective bargaining agreements. We have not experienced any work stoppages, and we consider our relations with our employees to be good. 
+
+Social Responsibility and Community Initiatives 
+
+At Rubrik, we are committed to making the world a more secure and better place. In furtherance of our values and this goal, we have joined the Pledge 1% movement, and have committed to donating 1,354,671 shares of our Class A common stock representing approximately 1% of our outstanding capital stock as of immediately prior to our initial public offering over the next 10 years to fund our social impact and environmental, social, and governance initiatives. We plan to commit our time, in addition to our equity and financial resources (including via the donor-advised fund we have established), to support our social responsibility and community initiatives. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 13 
+
+##TABLE_END
+
+Table of Contents 
+
+Intellectual Property 
+
+Intellectual property rights are important to the success of our business. We rely on a combination of patents, copyrights, trademarks, and trade secret laws in the United States and other jurisdictions, as well as license agreements, confidentiality procedures, non-disclosure agreements with third parties, and other contractual protections, to protect our intellectual property rights, including rights in our proprietary technology, software, know-how and brand. We also use open source software in our offering. 
+
+As of January 31, 2026, we had 425 issued U.S. patents and patents in various non-U.S. jurisdictions, 260 patent applications pending in the United States, and 9 patent applications pending in various non-U.S. jurisdictions. Our issued patents as of January 31, 2026 expire between April 30, 2034 and January 30, 2045. As of January 31, 2026, we had 10 registered trademarks in the United States, 4 trademark applications pending in the United States, and 29 registered trademarks in various non-U.S. jurisdictions. 
+
+Although we rely on intellectual property rights, including contractual protections, to establish and protect our intellectual property, we believe that factors such as the technological and creative skills of our personnel, creation of new services, features and functionality, and frequent enhancements to our platform are essential to establishing and maintaining our technology leadership position. 
+
+We control access to and use of our proprietary technology and other confidential information through the use of internal and external controls, including contractual protections with employees, contractors, customers, and partners. We require our employees, consultants, independent contractors, and other third parties to enter into confidentiality and proprietary rights agreements, and we control and monitor access to our software, documentation, proprietary technology, and confidential information. Our policy is to require all employees, consultants, and independent contractors to sign agreements assigning to us any inventions, trade secrets, works of authorship, developments, processes, and other intellectual property generated by them on our behalf and under which they agree to protect our confidential information. In addition, we generally enter into confidentiality agreements with our customers, technology alliance partners, and Channel Partners. See the section titled “Risk Factors” for a more comprehensive description of risks related to our intellectual property. 
+
+Available Information 
+
+We are headquartered in Palo Alto, California. Our website address is www.rubrik.com. Information found on, or accessible through, our website is not a part of, and is not incorporated into, this Annual Report on Form 10-K. We file electronically with the Securities and Exchange Commission, or the SEC, our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange Act. We make available on our website at www.rubrik.com, free of charge, copies of these reports and other information as soon as reasonably practicable after we electronically file such material with, or furnish it to, the SEC. The SEC also maintains an internet site at www.sec.gov that contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 14 
+
+##TABLE_END
+
+Table of Contents 
+
+
+
+Management's Discussion and Analysis of Financial Condition and Results of Operations:
+ Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 
+
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes appearing elsewhere in this Annual Report on Form 10-K. Some of the information contained in this discussion and analysis, including information with respect to our planned investments in our research and development, sales and marketing, and general and administrative functions, includes forward-looking statements that involve risks and uncertainties as described under the heading “Special Note About Forward-Looking Statements” in this Annual Report on Form 10-K. You should review the disclosure under the heading “Risk Factors” in this Annual Report on Form 10-K for a discussion of important factors that could cause our actual results to differ materially from those anticipated in these forward-looking statements. 
+
+Unless the context otherwise requires, all references in this Annual Report on Form 10-K to “we,” “us,” “our,” “our company,” and “Rubrik” refer to Rubrik, Inc. and its consolidated subsidiaries. Unless otherwise indicated, references to our “common stock” include our Class A common stock and Class B common stock. 
+
+A discussion regarding our financial condition and results of operations for the fiscal year ended January 31, 2026 compared to the fiscal year ended January 31, 2025 is presented below. A discussion regarding our financial condition and results of operations for the fiscal year ended January 31, 2025 compared to the fiscal year ended January 31, 2024 can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in the Annual Report on Form 10-K for the fiscal year ended January 31, 2025 filed with the SEC on March 20, 2025. 
+
+Overview 
+
+We are on a mission to secure and accelerate the world’s AI transformation. 
+
+Cyberattacks are inevitable. Prevention and detection are not enough. Realizing that cyberattacks ultimately target data, we created Zero Trust Data Security to deliver cyber resilience so that organizations can secure their data across the cloud and recover from cyberattacks. As enterprises embrace the forthcoming AI transformation, they are grappling with a threat landscape that is now amplified at an AI-scale. We believe that cyber resilience will result in AI resilience and that the future of cybersecurity is data security—if your data is secure, your business is resilient. 
+
+We built the Rubrik Security Cloud ( “ RSC ” ) suite with Zero Trust design principles to secure data across enterprise, cloud, SaaS, unstructured data, and identity providers. RSC delivers a cloud native SaaS platform that detects, analyzes, and remediates data security risks and unauthorized user activities. Our platform is architected to help organizations achieve cyber resilience, which encompasses cyber posture and cyber recovery. We enable organizations to confidently accelerate digital transformation and leverage the cloud to realize business agility. 
+
+We launched our first enterprise software product, Converged Data Management, in fiscal 2016, which combined data and metadata together into a single layer of software to offer Zero Trust data protection, and sold it as a perpetual license along with associated maintenance contracts. In fiscal 2019, we extended data protection to cloud native applications and rebranded Converged Data Management to Cloud Data Management ("CDM"). Data protection for cloud native applications are sold as a SaaS subscription product. In addition, we began offering new SaaS subscription products, Anomaly Detection and Sensitive Data Monitoring. In fiscal 2020, we continued our business evolution to a subscription pricing model by offering CDM as a subscription term-based license with associated support. Included in this subscription term-based license was the right to next generation Rubrik-branded commodity servers ("Rubrik-branded Appliances") at no cost for qualified customers ("Refresh Rights"). As of February 1, 2022, we stopped offering CDM as a perpetual license. 
+
+In fiscal 2023, to meet customer demands for data security and a single, unified cloud-based control plane, we launched RSC, a suite built on top of our comprehensive Zero Trust Data Security platform. RSC culminates our early vision of providing one point of control to secure data across enterprise, cloud, SaaS, unstructured data, and identity providers. RSC is primarily adopted by our customers as a cloud-native, fully managed SaaS solution. It is also available as an enterprise-ready, self-managed version ("RSC-Private"), for a few select customers that are subject to stringent data control policies. For U.S. public sector organizations, we also offer a specialized cloud-native fully managed SaaS solution called RSC-Government. 
+
+We began transitioning customers from our legacy CDM capabilities to RSC, which is offered on a subscription basis, in fiscal 2023. As part of this business transition, we began transitioning the sale of Rubrik-branded Appliances from us to our contract manufacturers and stopped offering the Refresh Rights as part of our subscription offerings. In lieu of offering Refresh Rights, we offered Subscription Credits to qualifying customers (which are customer options that are accounted for as material rights). We recognize ratable revenue upon utilization or upfront revenue upon expiration of Subscription Credits, and utilization of Subscription Credits also offsets Subscription ARR for the applicable period. Since the end of fiscal 2024, RSC has represented a majority of our total revenue. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 63 
+
+##TABLE_END
+
+Table of Contents 
+
+We recognize revenue from the sales of our RSC suite (excluding RSC-Private) ratably over the term of the subscription. We recognize a portion of revenue from sales of RSC-Private upon delivery and the remainder ratably over the term of the subscription. The majority of sales of our subscriptions are for three-year terms with upfront payment, and renewals are typically for one-year terms. 
+
+New and existing customers have largely adopted RSC. We have largely migrated our existing customers from our legacy CDM capabilities to RSC. During this migration, certain existing customers consumed our platform and products through a mix of RSC and a transitional CDM license ("RCDM-T"), during which time we recognized a portion of the associated revenue from these customers upfront at the time we transferred control of the license to the customer, and we have largely completed this transition in fiscal 2026. In addition, we expect our subscription revenue to continue to benefit from customers exercising or forfeiting their Subscription Credits through fiscal 2027, although we expect the benefits to significantly reduce sequentially. 
+
+In fiscal 2026, we launched RAC, our AI agent operations suite, to accelerate enterprise AI transformation without introducing added risk. RAC is designed to monitor and audit agentic actions, enforce real-time guardrails for agentic changes, fine-tune agents for accuracy and, finally, undo agent mistakes. Built on our unique architecture that understands data, identity and application contexts, RAC is designed to give customers security, accuracy, and efficiency as they transform their organizations into AI enterprises. As RAC only became commercially available in February of 2026, we expect the RSC suite to continue to be the majority of our revenue in fiscal 2027 and the main driver for ARR growth. 
+
+Factors Affecting Our Performance 
+
+Evolution of the Market and Adoption of Our Solutions 
+
+Our future success depends in part on the market adoption of our approach to Zero Trust Data Security. Many organizations have focused on preventing cyberattacks instead of protecting their data and having a plan to recover it in case of a cyberattack. We believe that the existing security ecosystem lacks a data security platform that will secure a customer’s data, wherever it lives, across enterprise, cloud, SaaS, unstructured data, and identity providers. RSC is our Zero Trust Data Security platform that addresses the growing demand from organizations of virtually any size, across a wide range of industries, to address data security and cyberattack risks. As the data security market continues to evolve, we expect to continuously innovate our platform and product functionality to keep us in a strong position to capture the large opportunity ahead. 
+
+New Customer Acquisition 
+
+Our business model relies on rapidly and efficiently engaging with new customers. Our ability to attract new customers will depend on a number of factors, including our ability to innovate upon our product breadth and capabilities, our success in recruiting and scaling our sales and marketing organization, our ability to accelerate ramp time of our sales force, our ability to develop and maintain strong partnerships, the impact of marketing efforts to enhance our brand, and competitive dynamics in our target markets. 
+
+Retaining and Expanding Within Our Existing Customer Base 
+
+Our ability to retain customers and expand within existing customers is integral to our growth and future success. Our growing base of customers represents a significant opportunity for further expansion across our platform. Our customers typically start with securing data in one or more applications on our platform, and then expand by securing additional applications and increasing the amount of data secured. They further extend their use of our platform through adoption of additional security products. Several of our largest customers have deployed our platform to secure large amounts of their data across enterprise, cloud, SaaS, unstructured data, and identity providers. Our ability to expand and extend within our customer base depends on, and has been impacted by, a number of factors, including platform performance, our customers’ satisfaction with our platform, competitive offerings, pricing, overall changes in our customers’ spending levels, and the effectiveness of our efforts to help our customers realize the benefits of our platform. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 64 
+
+##TABLE_END
+
+Table of Contents 
+
+Macroeconomic and Supply Chain Conditions 
+
+Our overall performance depends in part on worldwide economic and geopolitical conditions and their impact on customer behavior. Macroeconomic conditions, including inflation, fluctuations in interest rates, foreign currency fluctuations, tariffs or other trade restrictions, geopolitical issues, changes in government policy or spending, and other changes in economic conditions, may adversely affect the buying patterns of our customers and prospective customers. For example, in light of current macroeconomic conditions, such as higher cost-consciousness around information technology budgets, as well as constraints affecting the availability or pricing of compatible commodity servers needed to deploy our solutions, we have observed a lengthening of our sales cycles. Additionally, key components of the commodity servers that are compatible with our solutions have been, and continue to be, adversely affected by global chip shortages and allocation constraints, in part due to elevated industry demand, which in certain cases have resulted in extended lead times and increased server prices. While we have largely completed the sales of Rubrik-branded Appliances transitioning from us to our contract manufacturers in fiscal 2025, such delays, constraints and increased costs may adversely affect our customers’ purchasing decisions and deployment timelines. In response, we may in the future provide commercial accommodations, which could reduce our margins or adversely affect our revenue and operating results if such practices become widespread or prolonged. Due to our subscription-focused business model, any impact of the current macroeconomic environment and supply chain constraints on our business may not be fully reflected in our results of operations until future periods. As we continue to monitor the direct and indirect impacts of the current environment, the broader implications of macroeconomic conditions and supply chain constraints on our business, results of operations and financial condition, particularly in the long term, remain uncertain. 
+
+Key Business Metrics 
+
+We monitor the following key business metrics to help us evaluate our business. 
+
+Subscription ARR 
+
+Subscription ARR is calculated as the annualized value of our active subscriptions as of the measurement date, based on our customers’ total contract value, and assuming any contract that expires during the next 12 months is renewed on existing terms. Subscriptions include offerings for our RSC suite and related data security SaaS solutions, term-based licenses for our RSC-Private suite and related products, prior sales of CDM sold as a subscription term-based license with associated support and related SaaS products, and standalone sales of our SaaS subscription products like Anomaly Detection and Sensitive Data Monitoring. We believe Subscription ARR illustrates our success in acquiring new subscription customers and maintaining and expanding our relationships with existing subscription customers. 
+
+The following table sets forth our Subscription ARR as of the dates presented: 
+
+##TABLE_START January 31, 2026 2025 (in thousands, except percentages) Subscription ARR $ 1,462,092 $ 1,092,584 % growth 34 % 39 % ##TABLE_END
+
+Subscription ARR does not include any maintenance revenue associated with perpetual licenses, which we generally no longer offer. Of the 34% and 39% growth, approximately 1 percentage point and 2 percentage points of growth for the twelve months ended January 31, 2026 and 2025, respectively, were a result of transitioning our existing maintenance customers to our subscription editions. Contributions to growth from these transitions were largely completed in fiscal 2026. 
+
+Cloud Annual Recurring Revenue, or Cloud ARR 
+
+Cloud ARR is calculated as the annualized value of our active cloud-based subscriptions as of the measurement date, based on our customers’ total contract value, and assuming any contract that expires during the next 12 months is renewed on existing terms. Our cloud-based subscriptions include RSC and RSC-Government (excluding RSC-Private). Cloud ARR also includes SaaS subscription products like Anomaly Detection and Sensitive Data Monitoring, which are sold standalone or with prior sales of term-based license offerings of CDM. We believe that Cloud ARR provides important information on new and existing customers purchasing new RSC subscription offerings and existing subscription term-based license customers renewing with RSC subscription offerings. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 65 
+
+##TABLE_END
+
+Table of Contents 
+
+The following table sets forth our Cloud ARR as of the dates presented: 
+
+##TABLE_START January 31, 2026 2025 (in thousands, except percentages) Cloud ARR $ 1,293,300 $ 875,602 
+
+% growth 
+
+48 % 67 % ##TABLE_END
+
+Average Subscription Dollar-Based Net Retention Rate 
+
+Our average subscription dollar-based net retention rate compares our Subscription ARR from the same set of subscription customers across comparable periods. We calculate our average subscription dollar-based net retention rate by first identifying subscription customers (the "Prior Period Subscription Customers") that were subscription customers at the end of a particular quarter (the "Prior Period") and calculate the Subscription ARR from the Prior Period Subscription Customers. We then calculate the Subscription ARR from these Prior Period Subscription Customers at the end of the same quarter of the subsequent year (the "Current Period"). This calculation captures upsells, contraction, and attrition since the Prior Period. We then divide total Current Period Subscription ARR by the total Prior Period Subscription ARR for Prior Period Subscription Customers. Our average subscription dollar-based net retention rate in a particular quarter is obtained by averaging the result from that particular quarter with the corresponding results from each of the prior three quarters. We believe that our average subscription dollar-based net retention rate provides useful information about the evolution of our existing customers as they expand through the increase of data from applications we already secure, new applications for us to secure, additional data security products, and conversion of our recurring revenue related to maintenance contracts into subscription revenue. 
+
+Our historical average subscription dollar-based net retention rate does not include any maintenance revenue associated with perpetual licenses, which we no longer offer. Like Subscription ARR, our historical average subscription dollar-based net retention rate benefits from the transition of our existing maintenance customers to our subscription editions. 
+
+The following table sets forth our average subscription dollar-based net retention rate as of the dates presented: 
+
+##TABLE_START January 31, 2026 2025 Average subscription dollar-based net retention rate over 120 % over 120 % ##TABLE_END
+
+Customers with $100,000 or More in Subscription ARR 
+
+We believe that customers with $100,000 or more in Subscription ARR is a helpful metric in measuring our ability to scale with our customers and the success of our ability to acquire large customers. Additionally, we believe that our ability to increase the number of customers with $100,000 or more in Subscription ARR is a useful indicator of our market penetration and demand for our platform. 
+
+The following table sets forth the number of customers with $100,000 or more in Subscription ARR as of the dates presented: 
+
+##TABLE_START January 31, 2026 2025 Customers with $100,000 or more in Subscription ARR 2,805 2,246 
+
+% growth 
+
+25 % 29 % ##TABLE_END
+
+Non-GAAP Financial Measures 
+
+We believe that non-GAAP financial measures, when taken collectively, may be helpful to investors because they provide consistency and comparability with past financial performance. However, non-GAAP financial measures are presented for supplemental informational purposes only, have limitations as an analytical tool, and should not be considered in isolation or as a substitute for financial information presented in accordance with GAAP. Other companies, including companies in our industry, may calculate similarly titled non-GAAP financial measures differently or may use other measures to evaluate their performance, all of which could reduce the usefulness of our non-GAAP financial measures as tools for comparison. A reconciliation is provided below for each non-GAAP financial measure to the most directly comparable financial measure stated in accordance with GAAP. Investors are encouraged to review the related GAAP financial measures and the reconciliation of these non-GAAP financial measures to their most directly comparable GAAP financial measures, and not to rely on any single financial measure to evaluate our business. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 66 
+
+##TABLE_END
+
+Table of Contents 
+
+Free Cash Flow 
+
+Free cash flow is a non-GAAP financial measure that we calculate as net cash provided by (used in) operating activities less cash used for purchases of property and equipment and capitalized internal-use software. We believe that free cash flow is a helpful indicator of liquidity that provides information to management and investors about the amount of cash generated or used by our operations that, after the investments in property and equipment and capitalized internal-use software, can be used for strategic initiatives, including investing in our business and strengthening our financial position. The limitation of free cash flow is that it does not reflect our future contractual commitments and may fluctuate due to the timing of cash payments received from our customers and payments relative to expenses, including discretionary cash payments of our debt interest expense pursuant to the terms of our Amended Credit Facility, prepayments of other spend, including hosting prepayments, and charitable donations. Additionally, free cash flow is not a substitute for cash provided by (used in) operating activities, and the utility of free cash flow as a measure of our liquidity is further limited as it does not represent the total increase or decrease in our cash balance for a given period. 
+
+Free cash flow was $237.8 million, $21.6 million and $(24.5) million for the fiscal years ended January 31, 2026, 2025 and 2024, respectively. The improvement in free cash flow was primarily due to higher sales, including timing of renewals, improved operating leverage and optimizing our capital structure. This trend when combined with changes in new business growth, may result in free cash flow volatility across periods. 
+
+In the longer term, we view continued Subscription ARR growth, operating leverage, and the mix of annual versus upfront payment terms on our multi-year contracts as primary drivers of free cash flow. See the risk factor titled “We expect fluctuations in our financial results, making it difficult to project future results, and if we fail to meet the expectations of securities analysts or investors with respect to our results of operations, our stock price and the value of your investment could decline” in the section titled “Risk Factors.” 
+
+The following table presents a reconciliation of free cash flow to net cash provided by (used in) operating activities for the periods presented: 
+
+##TABLE_START Year Ended January 31, 2026 2025 2024 (in thousands) 
+
+Net cash provided by (used in) operating activities $ 282,908 $ 48,228 $ (4,518) Less: Purchases of property and equipment (29,631) (16,885) (12,333) Less: Capitalized internal-use software (15,437) (9,714) (7,675) Free cash flow $ 237,840 $ 21,629 $ (24,526) Net cash used in investing activities $ (830,089) $ (383,442) $ (93,623) Net cash provided by financing activities $ 736,501 $ 398,023 $ 95,949 ##TABLE_END
+
+Subscription ARR Contribution Margin 
+
+We define Subscription ARR Contribution Margin as the Subscription ARR Contribution (as defined below) divided by Subscription ARR at the end of the period. We define Subscription ARR Contribution as Subscription ARR at the end of the period less: (i) our non-GAAP subscription cost of revenue and (ii) our non-GAAP operating expenses for the prior 12-month period ending on that date. In fiscal 2023, we began transitioning customers from our legacy CDM capabilities to our subscription-based RSC offerings. As a result of differing revenue recognition treatment between CDM and RSC, including the RCDM-T licenses offered to existing customers, and as qualified customers choose to exercise or forfeit their Subscription Credits, these business transitions cause fluctuations to our total revenue growth and limit the comparability of our revenue with past performance. As a result, we measure the performance of our business on the basis of Subscription ARR. We believe that Subscription ARR Contribution Margin is a helpful indicator of operating leverage during this business transition. One limitation of Subscription ARR Contribution Margin is that the factors that impact Subscription ARR will vary from those that impact subscription revenue and, as such, may not provide an accurate indication of our actual or future GAAP results. Additionally, the historical expenses in this calculation may not accurately reflect the costs associated with future commitments. 
+
+Subscription ARR Contribution Margin was 12%, 2%, and (12)% for the 12 months ended January 31, 2026, 2025 and 2024, respectively. The increase in Subscription ARR Contribution Margin was primarily driven by the strong year-over-year Subscription ARR growth outpacing the year-over-year growth in non-GAAP subscription costs of sales and non-GAAP operating expenses. In addition, for the 12 months ended January 31, 2025, the non-GAAP expenses included the one-time recognition of $22.8 million for employer payroll taxes due to the vesting of certain equity awards in conjunction with the initial public offering. We believe that this increase in Subscription ARR Contribution Margin reflects increased operating leverage in our business. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 67 
+
+##TABLE_END
+
+Table of Contents 
+
+The following table presents the calculation of Subscription ARR Contribution Margin for the periods presented as well as a reconciliation of (i) non-GAAP subscription cost of revenue to subscription cost of revenue and (ii) non-GAAP operating expenses to operating expenses: 
+
+##TABLE_START Twelve Months Ended January 31, 
+
+2026 2025 2024 (in thousands, except percentages) Subscription cost of revenue $ 229,741 $ 215,036 $ 97,927 Stock-based compensation expense (16,374) (49,514) (45) Stock-based compensation included in amortization of capitalized internal-use software (2,156) (273) (153) Amortization of acquired intangibles (7,488) (3,673) (1,676) Non-GAAP subscription cost of revenue $ 203,723 $ 161,576 $ 96,053 Operating expenses $ 1,399,730 $ 1,754,828 $ 789,436 Stock-based compensation expense (310,444) (846,872) (5,652) Non-GAAP operating expenses $ 1,089,286 $ 907,956 $ 783,784 Subscription ARR $ 1,462,092 $ 1,092,584 $ 784,029 Non-GAAP subscription cost of revenue (203,723) (161,576) (96,053) Non-GAAP operating expenses (1,089,286) (907,956) (783,784) Subscription ARR Contribution $ 169,083 $ 23,052 $ (95,808) Subscription ARR Contribution Margin 12 % 2 % (12) % ##TABLE_END
+
+Components of Results of Operations 
+
+Revenue 
+
+We generate revenue primarily from sales of subscriptions and typically invoice our customers at the inception of the contract. 
+
+While we have largely completed both the sales of Rubrik-branded Appliances transitioning from us to our contract manufacturers in fiscal 2025 and the transition for new and existing customers to sales of RSC in fiscal 2026, we expect our subscription revenue to continue to benefit from customers exercising or forfeiting their Subscription Credits (which are customer options that are accounted for as material rights) through fiscal 2027, although we expect the benefits to significantly reduce sequentially. These business transitions cause fluctuations to our total revenue growth and limit the comparability of our revenue with past performance. We primarily measure our business on the basis of Subscription ARR, as we believe it best reflects our actual growth and our growth prospects. 
+
+Certain prior period amounts reported in the consolidated financial statements and notes have been reclassified to conform to the current year presentation. For the years ended January 31, 2026, 2025 and 2024, the Company combined maintenance revenue and other revenue into “Other” on the consolidated statements of operations. The presentation of cost of revenue has been conformed to reflect the changes related to the presentation of revenues. Such reclassifications related to the presentation of revenue and cost of revenue did not impact total revenue, loss from operations or net loss. 
+
+Subscription Revenue 
+
+Our subscription revenue consists of SaaS subscriptions and subscription term-based licenses with related support services. 
+
+SaaS includes SaaS subscription products like Anomaly Detection and Sensitive Data Monitoring sold standalone or with prior sales of term-based license offerings of CDM prior to the launch of the RSC suite as well as sales of RSC. RSC is offered as a fully-hosted subscription or a hybrid cloud subscription. RSC is a fully-hosted subscription in the case of protection of cloud, SaaS, unstructured data, and identity providers. When RSC is securing enterprise applications, it is a hybrid cloud subscription which includes software hosted from the cloud (as a service) and an on-premise license for securing enterprise applications. The hybrid cloud subscription is accounted for as a single performance obligation because the software hosted from the cloud (as a service) and the on-premise software licenses are not separately identifiable and serve together to fulfill our promise to the customer, which is to provide a single, unified data security solution. Our RSC subscription capabilities are primarily sold as editions which bundle multiple products and include the Foundation Edition, Business Edition, and Enterprise Edition. Subscription revenue related to SaaS is recognized ratably over the subscription period. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 68 
+
+##TABLE_END
+
+Table of Contents 
+
+Subscription term-based licenses provide our customer with a right to use the software for a fixed term commencing upon delivery of the license to our customer. Support services are bundled with each subscription term-based license for the term of the subscription. Subscription revenue related to subscription term-based licenses includes upfront revenue recognized at the later of the start date of the subscription term-based license and the date when the subscription term-based license is delivered. The remainder of the revenue is recognized ratably over the subscription period for support services, commencing with the date the service is made available to customers. 
+
+As customers adopted or transitioned to RSC, the ratable portion of our subscription revenue has increased. During the transition, certain customers consumed our platform and products through a mix of RSC and RCDM-T as they completed the migration, which resulted in a recognition of a portion of the associated revenue for these customers upfront. Our subscription revenue will fluctuate when qualified customers choose to exercise or forfeit their customer options that are accounted for as material rights. We have experienced revenue growth benefits from the non-recurring revenue associated with material rights; however, we expect these benefits to decline over the course of fiscal 2027. The combination of both of these factors may continue to limit and cause fluctuations in our subscription revenue growth during fiscal 2027, depending in part on the timing of our existing customers’ transition to RSC and exercises or forfeitures of Subscription Credits (which are customer options that are accounted for as material rights). 
+
+Other Revenue 
+
+Other revenue includes fees earned from sales of professional services, software updates on a when-and-if-available basis, telephone and integrated web-based support, Rubrik-branded Appliance maintenance relating to our perpetual licenses, and Rubrik-branded Appliances. Revenue for Rubrik-branded Appliances is recognized when shipped to the customer. When we sell our software license with our Rubrik-branded Appliances, revenue for both the Rubrik-branded Appliances and software licenses are recognized at the same time. Revenue related to professional services is typically recognized as the services are performed. We expect other revenue to be largely driven by sales of professional services in the future and as a percentage of total revenue to decrease over time. 
+
+Cost of Revenue 
+
+Cost of revenue primarily includes employee compensation and related expenses associated with customer support, certain hosting costs, amortization of capitalized internal-use software, amortization of finite-lived intangible assets and cost of Rubrik-branded Appliances. 
+
+Cost of Subscription Revenue 
+
+Cost of subscription revenue primarily includes employee compensation and related expenses associated with customer support for our subscription offerings, certain hosting costs, amortization of capitalized internal-use software, and amortization of finite-lived intangible assets. We expect our cost of subscription revenue to increase as our subscription revenue increases. 
+
+Cost of Other Revenue 
+
+Cost of other revenue includes the cost of professional services, employee compensation and related expenses associated with customer support from our perpetual licenses, and the cost of Rubrik-branded Appliances. We expect cost of other revenue as a percentage of total cost of revenue to decrease as the transition of sales of Rubrik-branded Appliances from us to our contract manufacturers was largely completed in fiscal 2025. Over the long-term, we expect the cost of other revenue to be largely driven by sales of professional services. 
+
+Gross Profit and Margin 
+
+Gross profit is revenue less cost of revenue. 
+
+Gross margin is gross profit expressed as a percentage of revenue. Our gross margin has been, and will continue to be, affected by a number of factors, including the mix of subscription term-based licenses, SaaS subscriptions, and other products, when qualified customers choose to exercise or forfeit their customer options that are accounted for as material rights, the timing and extent of our investments in our global customer support organization, certain hosting costs, the amortization of capitalized internal-use software, and stock-based compensation expense. Over time, we expect our gross margin to fluctuate due to the factors described above. 
+
+Subscription Gross Margin 
+
+With increased adoption of RSC, we expect SaaS revenue to increase as a percentage of total revenue, which we expect will result in an increase in associated hosting costs. As customers adopt RSC, we expect our subscription gross margin to fluctuate through fiscal 2027. This is due to the revenue being recognized ratably over the subscription term rather than a portion being recognized upfront from subscription term-based licenses and associated increases in hosting costs for our SaaS solutions. We expect our subscription gross margin to fluctuate as customers adopt data security SaaS solutions on the RSC suite. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 69 
+
+##TABLE_END
+
+Table of Contents 
+
+Other Gross Margin 
+
+We expect other gross margin to decrease as a percentage of total revenue, which we expect will result in a decrease in cost of other revenue. We expect sales of Rubrik-branded Appliances to decrease as the transition of sales of Rubrik-branded Appliances from us to our contract manufacturers was largely completed in fiscal 2025. Over the long-term, we expect other gross margin to be largely driven by sales of professional services. 
+
+Operating Expenses 
+
+Our operating expenses consist of research and development, sales and marketing, and general and administrative expenses. Personnel costs are the most significant component of operating expenses. We also incur other non-personnel costs such as colocation and certain hosting costs, office space costs, fees for third-party professional services, and costs associated with software and subscription services. We expect our operating expenses will continue to increase as our business grows. We also expect our operating expenses, exclusive of stock-based compensation, as a percentage of revenue to generally decrease over the long term. 
+
+Research and Development 
+
+Research and development expenses consist primarily of employee compensation and related expenses, net of capitalized amounts, and colocation and certain hosting costs. To capture share in the ever-growing data security market, we expect to continuously innovate our platform and product functionality and will continue to invest in research and development. We expect our research and development expenses will continue to increase as our business grows. We also expect our research and development expenses, exclusive of stock-based compensation, as a percentage of revenue to generally decrease over the long term. 
+
+Sales and Marketing 
+
+Sales and marketing expenses consist primarily of employee compensation and related expenses including sales commissions, marketing programs, and travel-related costs. To capture share in the ever-growing data security market, we expect to continuously expand our sales force, increase our marketing efforts, and expand into new markets. We expect our sales and marketing expenses will continue to increase as our business grows. We also expect our sales and marketing expenses, exclusive of stock-based compensation, as a percentage of revenue to generally decrease over the long term. 
+
+General and Administrative 
+
+General and administrative expenses consist primarily of employee compensation and related expenses for administrative functions, including finance, legal, human resources, information technology, and fees for third-party professional services. We expect our general and administrative expenses will continue to increase as our business grows. We also expect our general and administrative expenses, exclusive of stock-based compensation, as a percentage of revenue to generally decrease over the long term. 
+
+Other Non-Operating Income (Expense) 
+
+Other non-operating income (expense) consists primarily of interest income, interest expense, loss on debt extinguishment, and foreign exchange gains and losses. 
+
+Income Tax Expense 
+
+Income tax expense consists primarily of income taxes in certain foreign jurisdictions in which we conduct business, as well as federal and state income taxes in the United States. We have recorded U.S. federal and state net deferred tax assets for which we provide a full valuation allowance, which includes net operating loss carryforwards and tax credits. We expect to maintain this full valuation allowance for the foreseeable future as it is more likely than not that some or all of those deferred tax assets may not be realized based on our history of losses. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 70 
+
+##TABLE_END
+
+Table of Contents 
+
+Results of Operations 
+
+The following tables summarize our consolidated statements of operations data for the periods presented. The period-to-period comparison of results is not necessarily indicative of results for future periods. 
+
+##TABLE_START Year Ended January 31, 2026 2025 2024 (in thousands) 
+
+Revenue Subscription $ 1,263,927 $ 828,740 $ 537,869 Other 52,264 57,804 90,023 Total revenue 1,316,191 886,544 627,892 Cost of revenue Subscription (1) 
+
+229,741 215,036 97,927 Other (1) 
+
+32,136 50,712 47,035 Total cost of revenue 261,877 265,748 144,962 Gross profit 1,054,314 620,796 482,930 Operating expenses Research and development (1) 
+
+373,682 531,615 206,527 Sales and marketing (1) 
+
+769,019 867,518 482,532 General and administrative (1) 
+
+257,029 355,695 100,377 Total operating expenses 1,399,730 1,754,828 789,436 Loss from operations (345,416) (1,134,032) (306,506) Interest income 52,157 25,353 11,216 Interest expense (17,227) (41,253) (30,295) Loss on debt extinguishment (6,653) — — Other income (expense), net (9,334) 1,480 (1,884) Loss before income taxes (326,473) (1,148,452) (327,469) Income tax expense 22,355 6,368 26,689 Net loss $ (348,828) $ (1,154,820) $ (354,158) Net loss per share, basic and diluted $ (1.78) $ (7.48) $ (5.84) Weighted-average shares used in computing net loss per share, basic and diluted 196,468 154,294 60,628 ##TABLE_END
+
+(1) Includes stock-based compensation expense as follows: 
+
+##TABLE_START Year Ended January 31, 2026 2025 2024 (in thousands) Cost of revenue Subscription $ 16,374 $ 49,514 $ 45 Other 2,556 17,527 18 Research and development 102,730 297,051 3,590 Sales and marketing 115,852 330,443 1,313 General and administrative 91,862 219,378 749 Total stock-based compensation expense $ 329,374 $ 913,913 $ 5,715 ##TABLE_END
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 71 
+
+##TABLE_END
+
+Table of Contents 
+
+The following table sets forth our consolidated statements of operations data expressed as a percentage of revenue for the periods indicated: 
+
+##TABLE_START Year Ended January 31, 2026 2025 2024 Revenue Subscription 96 % 93 % 86 % Other 4 7 14 Total revenue 100 100 100 Cost of revenue Subscription 18 24 16 Other 2 6 7 Total cost of revenue 20 30 23 Gross profit 80 70 77 Operating expenses Research and development 28 60 33 Sales and marketing 58 98 77 General and administrative 20 40 16 Total operating expenses 106 198 126 Loss from operations (26) (128) (49) Interest income 4 3 2 Interest expense (1) (5) (5) Loss on debt extinguishment (1) — — Other income (expense), net (1) — — Loss before income taxes (25) (130) (52) Income tax expense 2 — 4 Net loss (27) % (130) % (56) % ##TABLE_END
+
+Comparison of Fiscal Years Ended January 31, 2026 and 2025 
+
+Revenue 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Revenue Subscription $ 1,263,927 $ 828,740 $ 435,187 53 % Other 52,264 57,804 (5,540) (10) % Total revenue $ 1,316,191 $ 886,544 $ 429,647 48 % ##TABLE_END
+
+Growth in subscription revenue for the fiscal year ended January 31, 2026 was driven by growth in Subscription ARR and some benefits as customers exercised or forfeited their Subscription Credits. For the fiscal year ended January 31, 2026, non-recurring revenue related to material rights associated with Subscription Credits accounted for approximately $70.2 million. We expect our subscription revenue to continue to benefit from customers exercising or forfeiting their Subscription Credits through fiscal 2027, although we expect the benefits to significantly reduce sequentially. 
+
+Our Subscription ARR grew from $1.09 billion as of January 31, 2025 to $1.46 billion as of January 31, 2026, representing a 34% increase. Of the increase in Subscription ARR, approximately 1 percentage point is a result of transitioning our existing maintenance customers to our subscription editions. A further indication of our ability to expand revenue from existing customers is through our average subscription dollar-based net retention rate which was over 120% as of January 31, 2026. We had 2,805 customers with $100,000 or more in Subscription ARR as of January 31, 2026, increasing from 2,246 as of January 31, 2025. 
+
+Other revenue, which consists primarily of sales of perpetual licenses of our legacy CDM product, Rubrik-branded Appliances and professional services, decreased for the fiscal year ended January 31, 2026. Other revenue represented 4% and 7% of total revenue for the fiscal years ended January 31, 2026 and 2025, respectively. The transition of existing maintenance customers adopting RSC subscription offerings was largely completed in fiscal 2026. We expect our other revenue as a percentage of total revenue to continue to decrease. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 72 
+
+##TABLE_END
+
+Table of Contents 
+
+Cost of Revenue 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Cost of revenue Subscription $ 229,741 $ 215,036 $ 14,705 7 % Other 32,136 50,712 (18,576) (37) % Total cost of revenue $ 261,877 $ 265,748 $ (3,871) (1) % ##TABLE_END
+
+Cost of subscription revenue increased for the fiscal year ended January 31, 2026 primarily driven by an increase of $26.9 million in hosting costs due to the launch and adoption of more SaaS products by our customers, an increase of $12.3 million from growth in our customer support organization, an increase of $4.1 million of amortization of capitalized internal-use software and an increase of $3.8 million of amortization of acquired technology, partially offset by $33.1 million decrease in stock-based compensation expense as a result of higher RSU expense in the prior year related to the recognition of cumulative stock-based compensation expense upon our IPO. 
+
+Cost of other revenue decreased for the fiscal year ended January 31, 2026 primarily driven by a $15.0 million decrease in stock-based compensation expense, as a result of higher RSU expense in the prior period related to the recognition of cumulative stock-based compensation expense upon our IPO. The remaining decrease is due to lower costs associated with decreased sales of Rubrik-branded Appliances, as the transition of sales of Rubrik-branded Appliances from us to our contract manufacturers was largely completed in fiscal 2025. 
+
+Gross Profit and Gross Margin 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Gross profit Subscription $ 1,034,186 $ 613,704 $ 420,482 69 % Other 20,128 7,092 13,036 184 % Total gross profit $ 1,054,314 $ 620,796 $ 433,518 70 % ##TABLE_END
+
+##TABLE_START Year Ended January 31, 2026 2025 Gross margin Subscription 82 % 74 % Other 39 % 12 % Total gross margin 80 % 70 % ##TABLE_END
+
+Subscription gross margin increased for the fiscal year ended January 31, 2026 as a result of higher RSU expense in the prior periods related to the recognition of cumulative stock-based compensation expense upon our IPO, partially offset by an increase in hosting costs associated with our development and launch of more SaaS products. 
+
+Other gross margin increased for the fiscal year ended January 31, 2026 as a result of higher RSU expense in the prior periods related to the recognition of cumulative stock-based compensation expense upon our IPO. 
+
+Operating Expenses 
+
+Research and Development 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Research and development $ 373,682 $ 531,615 $ (157,933) (30) % ##TABLE_END
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 73 
+
+##TABLE_END
+
+Table of Contents 
+
+Research and development expenses decreased for the fiscal year ended January 31, 2026 primarily driven by a decrease of $194.3 million in stock-based compensation expense as a result of higher RSU expense in the prior periods related to the recognition of cumulative stock-based compensation expense upon our IPO in April 2024. The decrease was partially offset by an increase of $22.8 million in employee related costs driven by an increase in headcount, an increase of $5.6 million in hosting and software expense and $5.4 million in consulting services expense to support the Company’s growth. 
+
+Sales and Marketing 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Sales and marketing $ 769,019 $ 867,518 $ (98,499) (11) % ##TABLE_END
+
+Sales and marketing expenses decreased for the fiscal year ended January 31, 2026 primarily driven by a decrease of $214.6 million in stock-based compensation expense as a result of higher RSU expense in the prior periods related to the recognition of cumulative stock-based compensation expense upon our IPO in April 2024. The decrease was partially offset by an increase of $60.7 million in marketing expense as a result of advertising costs, marketing events and related costs to promote and expand our market presence, and an increase of $49.1 million in employee related costs driven by an increase in headcount. 
+
+General and Administrative 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) General and administrative $ 257,029 $ 355,695 $ (98,666) (28) % ##TABLE_END
+
+General and administrative expenses decreased for the fiscal year ended January 31, 2026 primarily driven by a decrease of $127.5 million in stock-based compensation expense as a result of higher RSU expense in the prior periods related to the recognition of cumulative stock-based compensation expense upon our IPO in April 2024. The decrease is offset by an increase of $11.8 million in charitable donations, an increase of $8.3 million in consulting services expense, an increase of $3.5 million in hosting and software expense and an increase of $2.7 million in employee related costs driven by an increase in headcount. 
+
+Other Non-Operating Income (Expense) 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Interest income $ 52,157 $ 25,353 $ 26,804 106 % Interest expense (17,227) (41,253) 24,026 (58) % Loss on debt extinguishment (6,653) — (6,653) 100 % Other income (expense), net (9,334) 1,480 (10,814) (731) % ##TABLE_END
+
+Interest income increased for the fiscal year ended January 31, 2026 due to higher cash, cash equivalents, and investment balances. 
+
+Interest expense decreased for the fiscal year ended January 31, 2026 as our Amended Credit Facility was fully repaid in June 2025. 
+
+Loss on debt extinguishment increased for the fiscal year ended January 31, 2026 due to the write-off of unamortized debt discount and issuance costs and prepayment premium paid upon the full repayment of borrowings under our Amended Credit Facility. 
+
+Other income (expense), net includes foreign exchange gains and losses and fluctuations are driven by the strengthening or weakening of the US dollar against foreign currencies on our foreign-denominated intercompany payables. 
+
+Income Tax Expense 
+
+##TABLE_START Year Ended January 31, 2026 2025 $ Change % Change (dollars in thousands) Income tax expense $ 22,355 $ 6,368 $ 15,987 251 % ##TABLE_END
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 74 
+
+##TABLE_END
+
+Table of Contents 
+
+Our income tax expense increased for the fiscal year ended January 31, 2026 due to increased profits in our foreign subsidiaries, mainly due to non-deductible stock-based compensation. 
+
+Our effective tax rate may fluctuate significantly and could be adversely affected to the extent that earnings are lower than anticipated in countries that have lower statutory tax rates and higher than anticipated in countries that have higher statutory tax rates. In addition, tax authorities may challenge our transfer pricing policies, resulting in a higher effective tax rate. 
+
+Liquidity and Capital Resources 
+
+To date, we have financed our operations principally through proceeds received from issuance of equity and debt securities and payments received from customers. In April 2024, we completed our IPO which resulted in proceeds of approximately $710.3 million, net of underwriting discounts and commissions. In May 2024, our underwriters exercised their option to purchase an additional 3,472,252 shares of our Class A common stock at the IPO Price of $32.00 per share. We received net proceeds of approximately $104.9 million, net of underwriters’ discounts and commissions. 
+
+In June 2022, we entered into a $195.0 million credit facility (the "Prior Credit Facility"), consisting of initial term loans in an aggregate principal amount of $175.0 million and delayed draw term loan commitments in an aggregate principal amount of $20.0 million. 
+
+In August 2023, we amended and restated the Prior Credit Facility (the "Amended Credit Facility"), to increase the total borrowing capacity thereunder to $330.0 million, consisting of initial term loans in an aggregate principal amount of approximately $289.5 million and delayed draw term loan commitments in an aggregate principal amount of approximately $40.5 million. 
+
+In June 2025, we repaid the outstanding balance of $327.9 million under the Amended Credit Facility and terminated the Amended Credit Agreement. 
+
+In June 2025, we completed a private offering to qualified institutional buyers of $1.15 billion aggregate principal amount of 0.00% convertible senior notes due 2030 (the “Convertible Notes" or "Notes"). The Convertible Notes are general unsecured obligations of the Company and will mature on June 15, 2030, unless earlier converted, redeemed or repurchased. Net proceeds from the issuance of the Convertible Notes were approximately $1.13 billion. The outstanding principal of the Convertible Notes was $1.15 billion as of January 31, 2026. 
+
+In connection with the Convertible Notes, we entered into privately negotiated capped call transactions with certain affiliates of certain initial purchasers of the Convertible Notes and other financial institutions (the “Capped Calls”) for a cost of $88.6 million. The Capped Calls are expected generally to reduce the potential dilution to our Class A common stock upon any conversion of the Convertible Notes and/or offset any cash payments we are required to make in excess of the principal amount of converted Convertible Notes, as the case may be, with such reduction and/or offset subject to a cap based on the cap price initially equal to $175.10 per share. We used a portion of the net proceeds from the Convertible Notes to pay the $88.6 million cost of the Capped Calls and repay the outstanding balance of $327.9 million under the Amended Credit Facility. We expect to use the remaining net proceeds from the Convertible Notes for general corporate purposes, which may include acquisitions or strategic investments in complementary businesses or technologies, working capital, operating expenses and capital expenditures. 
+
+In July 2025, we acquired all outstanding stock of Predibase, a developer platform. We accounted for this transaction as a business combination. The acquisition date fair value of the purchase consideration was $109.1 million, of which $14.5 million was in cash and the remainder in common stock. The acquisition of Predibase is to help us accelerate our agentic AI adoption from pilot to production at scale. 
+
+Our billings grow with new business growth. The majority of our billings are driven by invoicing our customers for multi-year commitments. However, this may evolve as customers have opted to, and may continue to opt to, pay us on an annual, monthly or consumption basis based on products purchased due to the growth in our SaaS and Cloud product offerings. In addition, our billings are subject to seasonality, with billings in the fourth quarter being substantially higher than in the other three quarters. 
+
+As of January 31, 2026, we had cash, cash equivalents, and short-term investments of $1.68 billion. Our cash equivalents and investments primarily consist of money market funds, certificate of deposit, U.S. treasuries, commercial paper, corporate bonds, and U.S. government agencies securities. We have generated significant operating losses from our operations as reflected in our accumulated deficit of $(3.19) billion as of January 31, 2026. We expect to continue to incur operating losses, and our operating cash flows may fluctuate between positive and negative amounts for the foreseeable future. As a result, we may require additional capital resources to execute strategic initiatives to grow our business. 
+
+We believe that our existing cash, cash equivalents and short-term investments will be sufficient to fund our operating and capital needs for at least the next 12 months. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 75 
+
+##TABLE_END
+
+Table of Contents 
+
+Our longer-term future capital requirements will depend on many factors, including our subscription growth rate, subscription renewal activity, including the timing and the amount of cash received from customers, the expansion of sales and marketing activities, the timing and extent of spending to support development efforts, the introduction of new and enhanced products, and the continuing market adoption of our platform. We believe we will meet longer-term expected future cash requirements and obligations through a combination of cash flows from operating activities, available cash and short-term investment balances, and potential future debt or equity financings. We may in the future enter into arrangements to acquire or invest in complementary businesses, services, and technologies, including intellectual property rights. We continue to assess our capital structure and evaluate the merits of deploying available cash. We may be required to seek additional equity or debt financing. In the event that additional financing is required from outside sources, we may not be able to raise it on terms acceptable to us or at all. If we are unable to raise additional capital when desired, or if we cannot expand our operations or otherwise capitalize on our business opportunities because we lack sufficient capital, our business, financial condition, and operating results would be adversely affected. 
+
+The following table summarizes our cash flows for the periods presented: 
+
+##TABLE_START Year Ended January 31, 2026 2025 2024 (in thousands) 
+
+Net cash provided by (used in) operating activities $ 282,908 $ 48,228 $ (4,518) Net cash used in investing activities $ (830,089) $ (383,442) $ (93,623) Net cash provided by financing activities $ 736,501 $ 398,023 $ 95,949 ##TABLE_END
+
+Operating Activities 
+
+Our largest source of operating cash is payments received from our customers. We typically invoice our customers in advance for multi-year contracts. Therefore, a substantial source of our cash is from such prepayments, which are included on our consolidated balance sheets in deferred revenue. We generally experience seasonality based on when we enter into agreements with our customers. Given the seasonality in our business, the operating cash flow benefit from increased collections from our customers generally occurs in the subsequent quarter after billing. We expect seasonality, timing of billings, billings terms, and collections from our customers to have a material impact on our cash flow from operating activities from period to period. Our primary uses of cash in operating activities are for employee compensation and related expenses, sales commissions, fees for third-party professional services, colocation and hosting costs, marketing programs, and prepayments of other spend, including hosting prepayments. Our cash flow from operating activities may fluctuate due to the timing of cash payments received from our customers and payments relative to expenses. 
+
+For the fiscal year ended January 31, 2026, net cash provided by operating activities of $282.9 million resulted primarily from a net loss of $348.8 million, partially offset by $329.4 million of stock-based compensation, $110.0 million of amortization of deferred commissions, $37.1 million for depreciation and amortization, $6.7 million of loss on debt extinguishment, and $148.2 million of net cash inflow from changes in operating assets and liabilities. The net cash inflow from changes in operating assets and liabilities was primarily the result of a $425.8 million increase in deferred revenue from increased billings and a $63.2 million increase in accrued expenses and other liabilities. The cash inflow was partially offset by a $153.8 million increase in deferred commissions, a $111.7 million increase in prepaid expense and other assets and a $79.8 million increase in accounts receivable. The increase in prepaid expenses and other assets includes $93.2 million prepayment, of which $54.2 million is incremental year over year, for our hosting costs that are related to the launch and adoption of more SaaS products by our customers. 
+
+For the fiscal year ended January 31, 2025, net cash provided by operating activities of $48.2 million resulted primarily from a net loss of $1.15 billion, partially offset by $913.9 million of stock-based compensation, $90.3 million of amortization of deferred commissions, $34.3 million for non-cash interest related to debt, $28.9 million for depreciation and amortization, and $141.7 million of net cash inflow from changes in operating assets and liabilities. The net cash inflow from changes in operating assets and liabilities was primarily the result of a $313.2 million increase in deferred revenue from increased billings and a $45.9 million increase in accrued expenses and other current liabilities. The cash inflow was partially offset by a $128.8 million increase in deferred commissions, a $48.8 million increase in prepaid expense and other assets and a $44.3 million increase in accounts receivable. 
+
+Investing Activities 
+
+For the fiscal year ended January 31, 2026, net cash used in investing activities of $830.1 million resulted from $1.47 billion in purchases of investments, $29.6 million in purchases of property and equipment, $21.3 million paid for acquisitions, and $15.4 million in capitalized internal-use software, offset by $708.2 million in proceeds from maturities of investments. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 76 
+
+##TABLE_END
+
+Table of Contents 
+
+For the fiscal year ended January 31, 2025, net cash used in investing activities of $383.4 million resulted from $797.1 million in purchases of investments, $16.9 million in purchases of property and equipment, and $9.7 million in capitalized internal-use software, offset by $440.3 million in proceeds from maturities and sales of investments. 
+
+Financing Activities 
+
+For the fiscal year ended January 31, 2026, net cash provided by financing activities of $736.5 million resulted primarily from $800.2 million in proceeds from issuance of the Convertible Notes, net of full repayment of our Amended Credit Facility, $29.0 million in proceeds from issuance of common stock under employee stock purchase plan, and $4.1 million from the exercise of stock options, partially offset by $88.6 million paid to purchase Capped Calls and $6.3 million in taxes paid related to the net share settlement of equity awards. 
+
+For the fiscal year ended January 31, 2025, net cash provided by financing activities of $398.0 million resulted primarily from $815.2 million in proceeds from our IPO and underwriters' exercise of over-allotment option, net of underwriting discounts and commissions, $11.1 million in proceeds from issuance of common stock under employee stock purchase plan, and $8.5 million from the exercise of stock options, partially offset by $432.5 million in taxes paid related to the net share settlement of equity awards that vested upon our IPO, and $3.5 million for payment of deferred offering costs. 
+
+Material Cash Requirements 
+
+As of January 31, 2026, our material cash requirements consisted of (i) obligations under operating leases for offices and data centers on an undiscounted basis, of which $14.6 million will be due within 12 months and $26.5 million will be due thereafter, (ii) purchase obligations relating primarily to hosting and software and subscription services, of which $50.6 million will be due within 12 months and $398.2 million will be due thereafter, and (iii) the Convertible Notes. The aggregate principal amount of our $1.15 billion debt obligation under the Convertible Notes as of January 31, 2026 is due in June 2030. 
+
+The contractual commitment amounts above are associated with agreements that are enforceable and legally binding. Obligations under contracts that we can cancel without a significant penalty are not included above. 
+
+Critical Accounting Policies and Estimates 
+
+Our consolidated financial statements and related notes thereto included elsewhere in this Annual Report on Form 10-K are prepared in accordance with GAAP. The preparation of consolidated financial statements requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, and expenses as well as related disclosures. We evaluate our estimates and assumptions on an ongoing basis. Our estimates are based on historical experience and various other assumptions that we believe to be reasonable under the circumstances. Our actual results could differ from these estimates. 
+
+The critical accounting estimates, assumptions, and judgments that we believe to have the most significant impact on our consolidated financial statements are described below. Refer to Note 2, Basis of Presentation and Summary of Significant Accounting Policies of the notes to our consolidated financial statements included elsewhere in this Annual Report on Form 10-K for further information on our other significant accounting policies. 
+
+Revenue Recognition 
+
+We identify performance obligations in a customer contract by assessing whether products and services are capable of being distinct and distinct in the context of the contract. The determination of the performance obligations for RSC when offered as a hybrid cloud subscription requires significant judgment due to the ongoing interaction between the software hosted from the cloud (as a service) and the on-premise software licenses. We have concluded that the software hosted from the cloud (as a service) and software licenses are not distinct from each other in the context of the contract such that revenue from the combined offering should be recognized ratably over the subscription period for which the software hosted from the cloud (as a service) are provided. In reaching this conclusion, we considered the nature of our promise to customers with a hybrid cloud subscription, which is to provide a single, unified data security solution that operates seamlessly across multiple data sources and teams, and to give customers the ability to manage all their data sources consistently and/or in a manner they dictate. We only fulfill this multi-faceted promise by providing access to an integrated solution comprised of both cloud-based and on-premise software. The cloud-based software and on-premise software work together to provide features and functionalities necessary to fulfill that promise, which neither the software hosted from the cloud (as a service) nor the software licenses could provide on their own or together with third-party resources. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 77 
+
+##TABLE_END
+
+Table of Contents 
+
+Our contracts with customers may include customer options that are material rights. The determination of the likelihood of customers exercising their options requires significant judgment. Our management team estimates the likelihood of customers exercising their options by taking into account available information such as the number and timing of options exercised or forfeited, and considers other factors, such as customer churn, that may impact the options that have yet to be exercised or forfeited. Depending on the type of customer option exercised, the amount of consideration allocated to the material rights will be recognized into revenue at a point in time or over time beginning at the date the customer accepts the option. Deferred revenue associated with customer options that are subsequently forfeited will be released into revenue at the time the options are forfeited. 
+
+Recently Issued Accounting Pronouncements 
+
+See Note 2, Basis of Presentation and Summary of Significant Accounting Policies, in the notes to our consolidated financial statements included in Part II, Item 8 of this Annual Report on Form 10-K for a discussion of recent accounting pronouncements. 
+
+##TABLE_START Rubrik, Inc. 
+
+2026 Form 10-K 78 
+
+##TABLE_END
+
+Table of Contents 
+
+
+
+Instruction: 
+According to the given information, 
+1. Briefly describe the company overview and company’s industry, using the structure: "Founded in xxxx, 'company name' is a xxxx that provides .....
+2. Highlight core strengths and competitive advantages key products or services,
+3. Include topics about end market (geography), major customers (blue chip or not), market share for market position section,
+4. Identify current industry trends, opportunities, and challenges that influence the company’s strategy,
+5. Outline recent strategic initiatives such as product launches, acquisitions, or new partnerships, and describe the company's response to market conditions. 
+Less than 300 words.
+
+
+Instruction: Summarize the analysis, less than 130 words.
