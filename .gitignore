@@ -52,3 +52,9 @@ config_api_keys
 ai_in_finance/notebooks/.cache/
 ai_in_finance/notebooks/coding/
 __pycache__/
+
+# Private Depotdaten (News-Speicher, Portfolio- und News-Reports)
+ai_in_finance/news/
+ai_in_finance/reports/portfolio_*/
+ai_in_finance/reports/news_*/
+ai_in_finance/research/
