@@ -1,82 +1,92 @@
 # BLUMBÖRG – Installation und erster Lauf
 
 BLUMBÖRG ist ein System aus Research-Agenten für ein Aktienportfolio, aufgebaut auf FinRobot (AI4Finance Foundation).
-Es liest ein Portfolio als CSV, erstellt zu jedem US-Titel einen Annual Report (10-K bzw. 20-F) und Earnings Reviews
-seit dem letzten Jahresbericht, fasst die News zusammen, bewertet das Depot und schreibt einen Brief mit dem
-Handlungsbedarf. Jede Zahl in den Reports wird automatisch gegen die Quellen geprüft.
-Die App läuft lokal auf dem eigenen Rechner. Nur für akademische Zwecke, keine Anlageberatung.
+Es erstellt zu jedem US-Titel einen Annual Report (10-K bzw. 20-F), verfolgt die Investment-Thesen Quartal für Quartal,
+fasst die News zusammen, bewertet das Depot und schreibt einen Weekly Brief mit dem Handlungsbedarf. Jede Zahl in den
+Reports wird automatisch gegen die Quellen geprüft. Die App läuft lokal auf dem eigenen Rechner; die Oberfläche ist
+Englisch. Nur für akademische Zwecke, keine Anlageberatung.
 
-## Was man braucht
+---
 
-| | Wofür | Kosten |
-|---|---|---|
-| Windows-PC mit **Python 3.11** (64-bit) | Laufzeitumgebung (macOS/Linux: siehe unten) | kostenlos |
-| **OpenRouter-Schlüssel** – [openrouter.ai/keys](https://openrouter.ai/keys) | Sprachmodell der Agenten (Standard: Claude Haiku) | etwa 0,15 USD je Annual Report, 0,03–0,05 USD je Earnings Review; Ausgabelimit für den Schlüssel setzen |
-| **SEC User Agent** – Name und E-Mail, z. B. `Max Mustermann max@uni-mannheim.de` | Pflichtangabe der SEC für Abrufe aus EDGAR | kostenlos, keine Anmeldung |
-| **Finnhub-Schlüssel** – [finnhub.io/register](https://finnhub.io/register) | News, Firmenprofile, Peer-Vorschläge | kostenlos |
+## Schnellstart (Windows, etwa 15 Minuten)
 
-Nicht mehr nötig: sec-api.io und Financial Modeling Prep. Die Abschnitte der 10-K, 10-Q und 20-F liest BLUMBÖRG
-selbst aus den Originaldokumenten bei SEC EDGAR.
+1. **Python 3.11 installieren** – [Windows-Installer 64-bit](https://www.python.org/downloads/release/python-3119/).
+   Beim Installieren **„Add python.exe to PATH“** anhaken. (Nicht 3.12 oder neuer.)
+2. **Code herunterladen** – [ZIP von GitHub](https://github.com/francojrg/FinRobot/archive/refs/heads/master.zip)
+   entpacken, oder mit Git: `git clone https://github.com/francojrg/FinRobot.git`
+3. **`setup.bat`** im Ordner `ai_in_finance` doppelklicken (einmalig, 5–10 Minuten: legt die Python-Umgebung an und
+   installiert die Pakete).
+4. **`Desktop-Verknuepfung erstellen.bat`** doppelklicken (optional) – danach startet BLUMBÖRG über das Logo auf dem
+   Desktop. Sonst **`Start BLUMBÖRG.bat`**. Die App öffnet sich im Browser (http://localhost:8501).
+5. Die App startet beim ersten Mal auf **Settings** mit einem **Setup-Guide**: drei Schlüssel eintragen (siehe unten),
+   jeweils **Save** und **Test**.
+6. **Erster Test mit dem DEMO-Depot:** im Setup-Guide **„Go to Analysis“** → Portfolio **„DEMO · Valley Forge (13F)“**
+   → **Create plan** → **Start analysis**. Der Lauf geht im Hintergrund weiter (etwa 1–1,5 Stunden, rund 1–3 USD – weniger, wenn Reports für die Titel schon im Repository liegen).
 
-## Einrichten (einmalig, etwa 10 Minuten)
+## Die drei Schlüssel
 
-1. **Python 3.11** installieren: [python.org/downloads](https://www.python.org/downloads/release/python-3119/), Windows-Installer
-   64-bit, beim Installieren **„Add python.exe to PATH“** anhaken.
-2. Den Code holen: Repository klonen (`git clone …`) oder auf GitHub als ZIP herunterladen und entpacken.
-3. Im Ordner `ai_in_finance` **`setup.bat`** doppelklicken. Es legt eine Python-Umgebung (`.venv`) an, installiert die
-   Pakete aus `requirements-app.txt` und erzeugt leere Konfigurationsdateien.
-4. **`Start BLUMBÖRG.bat`** doppelklicken. Die App öffnet sich im Browser (http://localhost:8501).
-5. In der App unter **Einstellungen** die drei Schlüssel eintragen und mit „OpenRouter-Schlüssel testen“ prüfen.
-   Die Schlüssel bleiben lokal in `finrobot_autogen/config_api_keys` und `OAI_CONFIG_LIST` (nicht in Git).
+| | Wo | Kosten | Wofür |
+|---|---|---|---|
+| **OpenRouter** (Pflicht) | Konto anlegen, [Guthaben aufladen](https://openrouter.ai/credits), dann [Schlüssel erstellen](https://openrouter.ai/keys) | Prepaid ab 5 USD; etwa 0,10 USD je Annual Report, 2–4 Cent je Quartal | Sprachmodell aller Agenten (Standard: Claude Haiku) |
+| **SEC User Agent** (Pflicht) | kein Konto – einfach Name und E-Mail eintragen, z. B. `Jane Doe jane@uni.edu` ([Regeln der SEC](https://www.sec.gov/os/accessing-edgar-data)) | kostenlos | Abrufe der 10-K, 10-Q und 8-K bei SEC EDGAR |
+| **Finnhub** (empfohlen) | [registrieren](https://finnhub.io/register), Schlüssel steht im [Dashboard](https://finnhub.io/dashboard) | kostenlos | Firmen-News, Peer-Vorschläge |
 
-## Erster Lauf mit dem Musterdepot (etwa 1,5 Stunden, gut 1,50 USD)
+**Tipp:** Auf openrouter.ai beim Schlüssel ein **Ausgabelimit** setzen (z. B. 20 USD). Ist es erreicht, scheitern die
+Agenten mit „Key limit exceeded“ – dann Limit erhöhen und den Lauf neu starten (fertige Schritte bleiben erhalten).
 
-1. **Einrichtung und Automatik → Analyse** öffnen, unter „Vorhandene Datei“ das
-   **Musterdepot Valley Forge, nachgebaut ab 13F-Meldung (Transaktionen)** wählen.
-   Es bildet die Positionen des Fonds Valley Forge Capital seit 2016 aus den öffentlichen 13F-Meldungen nach
-   (selbstfinanziert mit 100.000 Startkapital, 10 aktuelle Titel, darunter ASML und TSMC mit Form 20-F).
-2. **Plan erstellen**: zeigt je Titel, welche Agenten fällig sind, mit Dauer und Kosten.
-3. **Analyse starten**. Der Lauf geht im Hintergrund weiter, auch wenn man die Seite wechselt; mit
-   „Lauf abbrechen“ lässt er sich stoppen (fertige Schritte bleiben erhalten).
-4. Danach: **Überblick**, **Portfolio**, **Firmen** und **News** ansehen (siehe `ANLEITUNG_APP.md`).
+**Ohne Schlüssel:** Yahoo Finance (Kurse, Abschlüsse, Konsens, ETF-Bestände) über die freie Bibliothek `yfinance` –
+inoffiziell und verzögert, bei vielen Abfragen bremst Yahoo gelegentlich; Google News; SEC EDGAR; Deutsche Bundesbank
+(Rendite 5-jähriger Bundesanleihen). sec-api.io und Financial Modeling Prep werden nicht mehr gebraucht.
+
+Alle Schlüssel bleiben lokal in `finrobot_autogen/config_api_keys` und `OAI_CONFIG_LIST` und sind von Git
+ausgeschlossen.
+
+---
 
 ## Eigenes Portfolio
 
-Unter **Analyse → Datei hochladen** eine CSV wählen. Erkannt werden:
+**Setup and automation → Analysis → Upload file**. Erkannt werden:
 
 | Form | Beispiel | Ergebnis |
 |---|---|---|
-| Gewichte | `ticker,weight` → `AAPL,40` (in % oder als Anteil) | Analyse mit fiktivem Depotwert |
 | Stückzahlen | `ticker,shares` → `AAPL,10` | Analyse mit aktuellem Depotwert |
 | Transaktionen | Export von Trade Republic, Scalable Capital, Smartbroker+ oder `date,type,ticker,shares,price,…` | zusätzlich Depotverlauf, Rendite gegen den MSCI ACWI, Beiträge, eigene Entscheidungen |
+| Gewichte | `ticker,weight` → `AAPL,40` | Analyse mit fiktivem Depotwert |
 
-Semikolon oder Komma, deutsche Zahlen (`1.234,5`), Prozentzeichen, deutsche Spaltennamen (Gewicht, Anteil, Stück)
-und ISINs statt Tickern werden erkannt; Aktiensplits rechnet die App heraus. Die Datei bleibt lokal unter
-`portfolios/uploads/` (nicht in Git). Reports, die es für einen Titel schon gibt, werden wiederverwendet – nur
-Fehlendes oder Veraltetes wird neu erstellt. Europäische Titel ohne SEC-Bericht bekommen keine Reports, aber News,
-Portfolio Review und Brief.
+Semikolon oder Komma, deutsche Zahlen, deutsche Spaltennamen und ISINs statt Tickern werden erkannt. Jedes Portfolio
+wird gespeichert; in der **Seitenleiste** wechselt man zwischen den eigenen Portfolios und dem DEMO-Depot, ohne neuen
+Lauf. Unter **Setup and automation → Portfolios** lassen sich Portfolios umbenennen und zusammenfassen (z. B. Trade
+Republic + Scalable). Firmen-Reports gelten für alle Portfolios – es wird nur Fehlendes neu erstellt. Europäische Titel
+ohne SEC-Bericht bekommen News, Portfolio Review und Brief, aber noch keine Reports.
 
-## Tests (ohne Kosten, ohne Sprachmodell)
+## Anpassen ohne Code
 
-| Datei | Prüft |
-|---|---|
-| `Test Upload.bat` | 19 typische CSV-Varianten (Formate, Fehlerfälle) |
-| `Test App.bat` | öffnet jede Seite der App mit allen Musterdateien und meldet Abstürze |
-| `Test SEC-Abschnitte.bat` | Zerlegung echter 10-K und 10-Q aus EDGAR |
-| `Test Vergleich sec-api.bat` | eigene Zerlegung gegen die früheren Abschnitte von sec-api.io |
-| `Test 20-F.bat` | ausländische Emittenten (ASML, TSMC) |
-| `Test Insights.bat` | Insights-Watchlist an echten Seiten |
-
-Die Ergebnisse stehen jeweils auch unter `ai_in_finance/eval/`.
+- **Agents** – je Agent: was er macht, welche Quellen er nutzt, Modell, Prompts, Zusatzanweisungen und Parameter
+  (z. B. Positionslimit des Briefs). Änderungen bleiben lokal, jede Fassung wird gespeichert, „Reset to default“ stellt
+  den Standard wieder her.
+- **Log → Tools** – Wartungs-Skripte per Knopf: Prognosen auswerten, Evaluation, DEMO-Depot neu aus 13F bauen, App-Test.
+- Eine Übersicht aller Ordner und Dateien steht in `PROJEKTKARTE.md`.
 
 ## Häufige Probleme
 
-- **„Python 3.11 wurde nicht gefunden“**: Python 3.11 installieren (nicht 3.12 oder neuer), PATH anhaken, `setup.bat` erneut.
-- **Lauf scheitert sofort**: Schlüssel unter Einstellungen prüfen; ohne OpenRouter-Guthaben laufen keine Agenten.
-- **Ein Ticker hat keine Kurse**: Yahoo-Schreibweise verwenden (z. B. `SAP.DE`, `BRK-B`, `7203.T`); die App warnt beim Planen.
-- **Port 8501 belegt**: altes Fenster der App schließen oder `streamlit run ai_in_finance/app/app.py --server.port 8502`.
+| Problem | Lösung |
+|---|---|
+| „Python 3.11 wurde nicht gefunden“ | Python 3.11 installieren (nicht 3.12+), PATH anhaken, `setup.bat` erneut |
+| Agenten scheitern mit „Key limit exceeded“ / 402 | Guthaben oder Limit des OpenRouter-Schlüssels erhöhen, Lauf neu starten |
+| Im Plan stehen alle Titel unter „Without SEC report“ | SEC User Agent unter Settings eintragen und **Test** drücken |
+| Ein Ticker hat keine Kurse | Yahoo-Schreibweise verwenden (`SAP.DE`, `BRK-B`, `7203.T`); die App warnt beim Planen |
+| Kurse/Kennzahlen fehlen kurzzeitig | Yahoo bremst gelegentlich – einige Minuten warten, Seite neu laden |
+| Port 8501 belegt | altes Fenster der App schließen oder `streamlit run ai_in_finance/app/app.py --server.port 8502` |
+
+## Tests (ohne Kosten, ohne Sprachmodell)
+
+`Test Upload.bat` (CSV-Varianten), `Test App.bat` (jede Seite), `Test SEC-Abschnitte.bat`, `Test Vergleich sec-api.bat`,
+`Test 20-F.bat` (ausländische Emittenten), `Test Insights.bat`. Ergebnisse unter `ai_in_finance/eval/`. Die meisten
+laufen auch in der App unter **Log → Tools**.
 
 ## macOS oder Linux
+
+Nicht getestet, sollte aber funktionieren (aus dem Hauptordner des Repositorys):
 
 ```
 python3.11 -m venv .venv && source .venv/bin/activate
@@ -86,4 +96,3 @@ cp finrobot_autogen/config_api_keys_sample finrobot_autogen/config_api_keys
 echo "[]" > finrobot_autogen/OAI_CONFIG_LIST
 streamlit run ai_in_finance/app/app.py
 ```
-(Aus dem Hauptordner des Repositorys ausführen. Die .bat-Tests entsprechen `python ai_in_finance/scripts/test_*.py`.)

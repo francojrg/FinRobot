@@ -193,7 +193,8 @@ def plan(tickers, today=None, committee_days=30, forecast_days=6, news_days=6, e
         fy = e.get("fyear") or (rep or {}).get("fyear")
         cutoff = (pd.Timestamp(e["tenk_period"]) + pd.Timedelta(days=75)).date().isoformat() if e.get("tenk_period") else None
         rels = [d for d in e.get("releases", []) if cutoff and d > cutoff]
-        new_rels = [d for d in rels if rev is None or rev.get("fyear") != fy or d > (rev.get("date") or "")]
+        # Geschaeftsjahr als Text vergleichen: das Thesen-Protokoll speichert "2025", EDGAR liefert 2025
+        new_rels = [d for d in rels if rev is None or str(rev.get("fyear")) != str(fy) or d > (rev.get("date") or "")]
         if not new_rels and "earnings_review" in force:
             new_rels = rels
         if (rep or new_report) and e.get("tenk_period"):   # Thesis Tracker: jedes Quartal seit dem 10-K einzeln (inkl. Q4)

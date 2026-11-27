@@ -329,6 +329,8 @@ def call_llm(messages, model=None, max_tokens=900):
     url = str(e.get("base_url") or "https://openrouter.ai/api/v1").rstrip("/") + "/chat/completions"
     body = {"model": model or e.get("model"), "messages": messages, "temperature": 0.2, "max_tokens": max_tokens,
             "usage": {"include": True}}
+    if str(body["model"] or "").startswith("google/"):   # Gemini denkt sonst lange und verbraucht max_tokens
+        body["reasoning"] = {"effort": "low"}
     r = requests.post(url, headers={"Authorization": f"Bearer {e['api_key']}", "Content-Type": "application/json",
                                     "X-Title": "Franci's FINRobot"}, json=body, timeout=120)
     if r.status_code != 200:

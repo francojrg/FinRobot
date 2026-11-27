@@ -1,65 +1,61 @@
 # BLUMBÖRG – Kurzanleitung
 
-Research-Agenten für ein Aktienportfolio: Annual Reports (10-K/20-F), Earnings Reviews je Quartal, News, Portfolio
-Review und ein Brief mit dem Handlungsbedarf. Installation: siehe `INSTALLATION.md`. Keine Anlageberatung.
+Research-Agenten für ein Aktienportfolio: Annual Reports (10-K/20-F), Thesis Tracker Quartal für Quartal, Earnings
+Reviews, News, Portfolio Review und ein Weekly Brief mit dem Handlungsbedarf. Installation: siehe `INSTALLATION.md`.
+Die Oberfläche ist Englisch; ein **(i)** neben einer Überschrift erklärt die Funktion beim Überfahren mit der Maus.
+Keine Anlageberatung.
 
 ## Start
-**`Start BLUMBÖRG.bat`** im Ordner `ai_in_finance` doppelklicken. Die App öffnet sich im Browser. Kurse und Termine
-sind live; alle Analysen zeigen den Stand des letzten Laufs.
+**`Start BLUMBÖRG.bat`** (oder die Desktop-Verknüpfung) öffnet die App im Browser. Oben die Index-Leiste (DAX, S&P 500,
+MSCI World, EUR/USD, Gold, Bitcoin, Ether, US- und Bund-Renditen), links das **aktive Portfolio** – dort wechselt man
+zwischen eigenen Portfolios und dem **DEMO-Depot** (Valley Forge, aus 13F-Meldungen nachgebaut). Kurse und Termine sind
+live; alle Analysen zeigen den Stand des letzten Laufs.
 
-## Navigation
+## Seiten
 
-**Heute**
-- **Überblick** – Depotwert mit Tagesänderung, offener Handlungsbedarf, Thesen-Bilanz, nächste Quartalszahlen; darüber
-  Schlagzeile und Kurzfassung des Briefs (als **PDF** oder **mit Faktencheck**). Links der Handlungsbedarf als Kacheln
-  (Status, Gewicht, Auslöser, Thesen-Punkte, Zahl der Meldungen); Klick auf eine Kachel zeigt Begründung, Thesen und Auslöser; **Erledigt / Gesehen / Ausblenden** mit Notiz. Ein Punkt kommt
-  wieder, sobald ein neuer Auslöser dazukommt; die Notizen liest der Brief-Agent beim nächsten Brief mit.
-  Rechts Termine, wichtigste Meldungen und neue Insights.
-- **News** – rechts **Interesting Reads** (Beta: die KI wählt einmal pro Woche oder auf Knopfdruck 5–7 Beiträge,
-  Podcasts und Videos passend zu Interessen, Depot und Watchlist; ein Modellaufruf, etwa 1–3 Cent), **Research der
-  Banken** (neuester Beitrag je Quelle mit Erscheinungsdatum) und **Podcasts und Videos** (neue Folgen deiner Kanäle);
-  unter „Quellen verwalten“ eigene Quellen eintragen. Links Woche im Überblick, Signale und Storylines je Titel
-  (Auffälligkeiten unter jeder Zeile), alle Meldungen mit Quelle und Filter.
+**Today**
+- **Overview** – Depotwert, Action needed (Kacheln mit Erledigt / Gesehen / Ausblenden und Notiz), Thesen-Bilanz,
+  nächste Quartalszahlen, Kalender, wichtigste Meldungen, Weekly Brief als PDF oder mit Faktencheck.
+- **News** – Woche im Überblick, Themen, Signale und Storylines je Titel, alle Meldungen; rechts Interesting Reads
+  (Beta), Bank research und Podcasts/Videos (eigene Quellen unter „Manage sources“).
 
-**Analyse**
-- **Depot** – der tägliche Blick: Depotwert, heute, seit Jahresbeginn, 1 Jahr, Gewinn gesamt; Wertentwicklung (1M bis
-  Max), Positionen als Kacheln und Allokation, Tabelle aller Positionen, **Transaktionen** (alle Buchungen, filterbar; nur
-  mit Transaktionsdatei), **Dividenden** (erwartete Zahlungen der nächsten 12 Monate, Rendite je Titel, Ex-Tage) und die
-  **Watchlist**.
-- **Portfolio-Analyse** – Rendite gegen den MSCI ACWI (zeit- und geldgewichtet, Kalenderjahre), Beiträge je Titel,
-  Struktur, Risiko, Stresstests und Optimierung mit Backtest (Beta), eigene Entscheidungen und Lernkurve,
-  **ETF-Durchschau** (Top-10 und Sektoren der ETFs, Überschneidung mit Einzeltiteln) und der **Portfolio Review** des
-  Agenten als Kurzfassung mit PDF.
-- **Firmen-Research** – Dashboard je Titel: oben die Reports (öffnen sich direkt darunter), dann neueste Zahlen, Thesen,
-  Termine, News und die KPIs je Quartal über alle Earnings Reviews. Reports öffnen sich als **PDF** oder
-  **mit Faktencheck**: grün = Zahl und Zusammenhang in den Quellen gefunden, gelb = Zahl gefunden, aber in anderem
-  Zusammenhang, rot = nicht gefunden; Maus über eine Zahl zeigt Quelle und Textstelle. Unten **„Reports neu
-  erstellen“** und **„Committee starten“** (Beta). Darunter der **KPI-Verlauf** (firmenspezifische Kennzahlen aus allen
-  Earnings Reviews) und vor Quartalszahlen die **Earnings Preview** (Beta): worauf achten, Bull/Base/Bear-Szenario.
-- **Fragen** (Beta) – Fragen an die eigenen Reports, Antworten mit Quellen und Faktencheck.
+**Analysis**
+- **Portfolio** – Depotwert und Wertentwicklung (1M bis Max), Positionen als Treemap und Allokation, Tabelle,
+  Transaktionen, Dividenden, Watchlist.
+- **Portfolio analysis** – Rendite gegen den MSCI ACWI, Beiträge, Struktur, Risiko, Optimierung mit Backtest (Beta),
+  eigene Entscheidungen, Welt-ETF-Vergleich, ETF-Durchschau, Portfolio Review des Agenten.
+- **Company research** – je Firma: Reports (PDF oder mit Faktencheck: grün gefunden, gelb anderer Zusammenhang, rot
+  nicht gefunden), neueste Zahlen, Thesen, KPI-Charts mit YoY/QoQ, **Thesis tracker** (Meilensteine und Status je
+  Quartal), **Reverse DCF** mit Reglern und KI-Basisfall, **Financial quality** (Piotroski, Altman, Beneish),
+  **Peer comparison**, Earnings Preview (Beta). Unten „Rebuild reports“ und das Investment Committee (Beta).
+- **Ask** (Beta) – Fragen an die eigenen Reports, Antworten mit Quellen und Faktencheck.
 
 **System**
-- **Einrichtung und Automatik** – Reiter **Analyse**: Portfolio wählen oder hochladen, Umfang, Plan, Start, Fortschritt
-  und „Lauf abbrechen“. Reiter **Automatik**: tägliche Prüfung zu einer Uhrzeit mit Monatsbudget; führt nur aus, was
-  fällig ist (neue SEC-Einreichungen, News, wöchentlich Prognose, Portfolio Review und Brief).
-- **Protokoll** – Läufe mit Kosten und Fehlern, Evaluation, Stichprobe labeln.
-- **Einstellungen** – Schriftgröße (Klein bis Sehr groß), deine Interessen für die Lese-Auswahl, Schlüssel, Modelle.
+- **Setup and automation** – *Analysis*: Portfolio wählen (gespeichert, Datei oder Upload), Plan mit Dauer und Kosten,
+  Start, Fortschritt. *Portfolios*: umbenennen, entfernen, zusammenfassen. *Automation*: tägliche Prüfung mit
+  Monatsbudget; führt nur aus, was fällig ist.
+- **Agents** – je Agent Zweck, Quellen, Ergebnis, Modell, Prompts, Zusatzanweisungen und Parameter; Versionen und Reset.
+- **Log** – Läufe mit Kosten und Fehlern, Chat-Fragen, Evaluation (Stichprobe labeln), **Tools** (Skripte per Knopf).
+- **Settings** – Setup-Guide mit allen Schlüsseln (Links, Test-Knöpfe), Modelle, Schriftgröße, Interessen.
 
 ## Was wann neu berechnet wird
 | Schritt | neu, wenn … |
 |---|---|
-| Annual Report | ein neuerer 10-K/20-F vorliegt (oder per „Reports neu erstellen“) |
+| Annual Report | ein neuerer 10-K/20-F vorliegt (oder per „Rebuild reports“) |
+| Quarter Records (Thesis Tracker) | für ein Quartal seit dem 10-K noch kein Record existiert |
 | Earnings Review | neue Quartalszahlen seit dem letzten Review |
 | Prognose (Beta) | die letzte älter als 6 Tage ist |
-| Earnings Preview (Beta) | Quartalszahlen in den nächsten 14 Tagen anstehen und es für den Termin noch keine gibt |
-| News | die letzte Zusammenfassung älter als 6 Tage ist oder neue Titel fehlen |
+| Earnings Preview (Beta) | Quartalszahlen in den nächsten 14 Tagen anstehen |
+| News | die letzte Zusammenfassung älter als 6 Tage ist oder Titel fehlen |
 | Portfolio Review, Brief | bei jedem Lauf |
 
-Reports hängen am Ticker, nicht am Portfolio: Wer das Portfolio wechselt, bekommt vorhandene Reports sofort.
+Reports gehören zur Firma, nicht zum Portfolio: Wer das Portfolio wechselt oder Portfolios zusammenfasst, bekommt
+vorhandene Reports sofort; Brief, Review und News-Digest werden je Portfolio gespeichert.
 
 ## Beta-Funktionen
-Stresstests, Optimierung, Investment Committee, Fragen, Prognosen und Earnings Preview sind als **Beta** gekennzeichnet: vereinfachte
-Modelle bzw. Ergebnisse, die noch nicht systematisch ausgewertet sind.
+Optimierung, Investment Committee, Ask, Prognosen, Earnings Preview und Interesting Reads sind als **Beta**
+gekennzeichnet: vereinfachte Modelle bzw. Ergebnisse, die noch nicht systematisch ausgewertet sind.
 
 ## Datenschutz
-Portfolio-Dateien, Uploads, Ergebnisse zum eigenen Depot und Schlüssel bleiben lokal und sind von Git ausgeschlossen.
+Portfolio-Dateien, Uploads, Ergebnisse zum eigenen Depot, eigene Prompt-Änderungen und Schlüssel bleiben lokal und
+sind von Git ausgeschlossen.

@@ -127,6 +127,7 @@ def inspect_portfolio(path):
 def make_plan(tickers, include_committee=False):
     """Faellige Schritte (fragt EDGAR ab) und Schaetzung. Ohne Committee, ausser include_committee."""
     from . import pipeline as pl
+    register_keys()
     steps, states = pl.plan(list(tickers))
     allowed = set(DEFAULT_STEPS) | ({"committee"} if include_committee else set())
     todo = [s for s in steps if s["step"] in allowed]
@@ -357,6 +358,18 @@ def save_ui(**kw):
     json.dump(d, open(UI_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
+def register_keys():
+    """Schluessel aus config_api_keys als Umgebungsvariablen setzen (SEC EDGAR, Finnhub, sec-api), wie es der
+    Hintergrundlauf tut – sonst kennt z. B. die Plan-Vorschau der App den SEC User-Agent nicht."""
+    try:
+        keys = json.load(open(FR / "config_api_keys", encoding="utf-8"))
+    except Exception:
+        return
+    for k, v in keys.items():
+        if isinstance(v, str) and v.strip() and "YOUR" not in v.upper():
+            os.environ[k] = v.strip()
+
+
 def load_settings():
     keys = json.load(open(FR / "config_api_keys", encoding="utf-8")) if (FR / "config_api_keys").exists() else {}
     oai = json.load(open(FR / "OAI_CONFIG_LIST", encoding="utf-8")) if (FR / "OAI_CONFIG_LIST").exists() else []
@@ -382,6 +395,44 @@ def save_settings(openrouter_key=None, models=None, **keys):
         ms = models or [e.get("model") for e in oai] or ["anthropic/claude-haiku-5.5"]
         oai = [{"model": m, "api_key": key, "base_url": "https://openrouter.ai/api/v1"} for m in ms]
         json.dump(oai, open(op, "w", encoding="utf-8"), indent=4)
+
+
+def test_finnhub():
+    """Prueft den Finnhub-Schluessel mit einer Kursabfrage (AAPL). Rueckgabe (ok, Text)."""
+    import requests
+    try:
+        key = json.load(open(FR / "config_api_keys", encoding="utf-8")).get("FINNHUB_API_KEY")
+    except Exception:
+        key = None
+    if not key or "YOUR" in str(key).upper():
+        return False, "no Finnhub key saved"
+    try:
+        r = requests.get("https://finnhub.io/api/v1/quote", params={"symbol": "AAPL", "token": key}, timeout=20)
+        if r.status_code == 200 and r.json().get("c"):
+            return True, "key valid (test quote for AAPL received)"
+        return False, f"Finnhub answered {r.status_code}: {r.text[:120]}"
+    except Exception as e:
+        return False, f"not reachable: {e}"
+
+
+def test_sec():
+    """Prueft den SEC User-Agent mit der Ticker-Liste von SEC EDGAR. Rueckgabe (ok, Text)."""
+    import requests
+    try:
+        ua = json.load(open(FR / "config_api_keys", encoding="utf-8")).get("SEC_USER_AGENT")
+    except Exception:
+        ua = None
+    if not ua or "YOUR" in str(ua).upper():
+        return False, "no SEC user agent saved"
+    if "@" not in ua or len(ua.split()) < 2:
+        return False, "the SEC expects a name and an e-mail address, e.g. 'Jane Doe jane@uni.edu'"
+    try:
+        r = requests.get("https://www.sec.gov/files/company_tickers.json", headers={"User-Agent": ua}, timeout=20)
+        if r.status_code == 200:
+            return True, f"SEC EDGAR reachable ({len(r.json())} companies in the ticker list)"
+        return False, f"SEC answered {r.status_code} – check name and e-mail"
+    except Exception as e:
+        return False, f"not reachable: {e}"
 
 
 def test_openrouter():

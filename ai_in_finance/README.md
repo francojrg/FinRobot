@@ -3,7 +3,7 @@
 Dieser Ordner enthaelt alles, was im Rahmen des Kursprojekts **neu** entstanden ist. Die
 Original-Tutorials von FinRobot liegen unveraendert unter `finrobot_autogen/tutorials_*`.
 
-**Installation und erster Lauf:** `INSTALLATION.md` · **Bedienung der App:** `ANLEITUNG_APP.md`
+**Installation und erster Lauf:** `INSTALLATION.md` · **Bedienung der App:** `ANLEITUNG_APP.md` · **Wo was liegt:** `PROJEKTKARTE.md`
 
 ## Struktur
 

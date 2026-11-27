@@ -47,6 +47,7 @@ def _reload_changed_libs():
 
 
 _reload_changed_libs()
+ab.register_keys()                                   # SEC User-Agent usw. auch fuer Abrufe direkt in der App
 
 _ICON = Path(__file__).parent / "assets" / "blumboerg.png"
 st.set_page_config(page_title="BLUMBÖRG", page_icon=str(_ICON) if _ICON.exists() else "📈", layout="wide", initial_sidebar_state="expanded")
@@ -100,6 +101,13 @@ border-radius:50%;background:rgba(128,128,128,.35);border:2px solid var(--backgr
 .bt-l{color:#b89a5a;letter-spacing:.06em;margin-right:3px}.bt .up{color:#4cc38a}.bt .dn{color:#f07a7a}
 .bt-a{margin-left:auto;color:light-dark(#7d8a9b,#8d877c);font-size:calc(12px*var(--bfs,1))}
 @media (max-width:900px){.bh-l{display:none}.bh-wm{font-size:calc(24px*var(--bfs,1))}}
+.st-key-ag_sel [role="radiogroup"]{gap:6px;display:flex;flex-direction:column;align-items:stretch}
+.st-key-ag_sel [role="radiogroup"] label{border:1px solid rgba(128,128,128,.28);border-radius:10px;padding:10px 12px;margin:0;width:100% !important;max-width:none;box-sizing:border-box}
+.st-key-ag_sel [role="radiogroup"] label:has(input:checked){border-color:#b89a5a;background:rgba(184,154,90,.10)}
+.st-key-ag_sel [role="radiogroup"] label p{font-size:calc(17px*var(--bfs,1)) !important;font-weight:500}
+.ag-info{border:1px solid rgba(128,128,128,.25);border-radius:12px;padding:6px 16px;margin:4px 0 14px}
+.ag-info .r{display:grid;grid-template-columns:130px minmax(0,1fr);gap:14px;padding:9px 0;border-top:1px solid rgba(128,128,128,.18);font-size:calc(16px*var(--bfs,1));line-height:1.5}
+.ag-info .r:first-child{border-top:0}.ag-info .r b{font-weight:600}
 .ii{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;border:1px solid rgba(128,128,128,.45);
 color:rgba(128,128,128,1);font:italic 600 11px/1 Georgia,serif;margin-left:7px;cursor:help;position:relative;vertical-align:2px}
 .ii:hover::after{content:attr(data-tip);position:absolute;left:50%;top:calc(100% + 7px);transform:translateX(-50%);width:max-content;max-width:320px;
@@ -1848,7 +1856,96 @@ def eval_labeling():
 
 
 def page_settings():
-    ui_header("Settings", "Keys and models. Everything stays local on this computer.")
+    s = ab.load_settings()
+    done = [s["openrouter"], s["SEC_USER_AGENT"], s["FINNHUB_API_KEY"]]
+    ui_header("Settings", "Setup guide, keys and display. Everything stays local on this computer – keys are stored in "
+                          "finrobot_autogen/config_api_keys and OAI_CONFIG_LIST and never go to Git.")
+    if not all(done):
+        st.info(f"**Welcome to BLUMBÖRG.** Three keys and you can start – about 5 minutes. {sum(done)} of 3 done.",
+                icon=":material/waving_hand:")
+    ok = lambda b: "<span class='ui-pill ok'>done</span>" if b else "<span class='ui-pill wait'>missing</span>"
+
+    def step(n, title, status, text, links):
+        st.markdown(f"<div class='ui-step'><span class='ui-num'>{n}</span><b>{title}</b> &nbsp;{status}</div>"
+                    f"<div class='small' style='margin:2px 0 8px'>{text}</div>", unsafe_allow_html=True)
+        if links:
+            cs = st.columns(len(links) + 1)
+            for c, (lab, url) in zip(cs, links):
+                c.link_button(lab, url, icon=":material/open_in_new:")
+
+    with st.container(border=True):
+        step(1, "OpenRouter – the language model (required)", ok(s["openrouter"]),
+             "OpenRouter gives one key for many models (default: Claude Haiku). Create an account, add credits (prepaid, "
+             "from $5), then create a key. Set a credit limit on the key – a full first run with the DEMO portfolio costs "
+             "roughly $1–3.", [("Add credits", "https://openrouter.ai/credits"), ("Create key", "https://openrouter.ai/keys")])
+        c1, c2, c3 = st.columns([3, 1, 1])
+        orr = c1.text_input("OpenRouter API key", type="password", placeholder="sk-or-v1-…", label_visibility="collapsed",
+                            key="set_orr")
+        if c2.button("Save", key="set_orr_save", type="primary", disabled=not orr):
+            ab.save_settings(openrouter_key=orr.strip())
+            st.session_state["set_msg"] = ("ok", "OpenRouter key saved.")
+            st.rerun()
+        if c3.button("Test", key="set_orr_test", disabled=not s["openrouter"]):
+            good, msg = ab.test_openrouter()
+            (st.success if good else st.error)(f"OpenRouter: {msg}")
+    with st.container(border=True):
+        step(2, "SEC user agent – no account needed (required)", ok(s["SEC_USER_AGENT"]),
+             "SEC EDGAR is free, but the SEC asks every program to identify itself with a name and an e-mail address. "
+             "Just type yours, e.g. <code>Jane Doe jane@uni.edu</code>. It is only sent to the SEC.",
+             [("SEC fair-access rules", "https://www.sec.gov/os/accessing-edgar-data")])
+        c1, c2, c3 = st.columns([3, 1, 1])
+        ua = c1.text_input("SEC user agent", placeholder="First Last name@example.com", label_visibility="collapsed",
+                           key="set_ua")
+        if c2.button("Save", key="set_ua_save", type="primary", disabled=not ua):
+            ab.save_settings(SEC_USER_AGENT=ua.strip())
+            ab.register_keys()
+            st.session_state["set_msg"] = ("ok", "SEC user agent saved.")
+            st.rerun()
+        if c3.button("Test", key="set_ua_test", disabled=not s["SEC_USER_AGENT"]):
+            good, msg = ab.test_sec()
+            (st.success if good else st.error)(f"SEC: {msg}")
+    with st.container(border=True):
+        step(3, "Finnhub – company news and peers (free)", ok(s["FINNHUB_API_KEY"]),
+             "Register for the free plan; the key is shown on your dashboard right after sign-up.",
+             [("Register", "https://finnhub.io/register"), ("Dashboard (key)", "https://finnhub.io/dashboard")])
+        c1, c2, c3 = st.columns([3, 1, 1])
+        fh = c1.text_input("Finnhub API key", type="password", label_visibility="collapsed", key="set_fh")
+        if c2.button("Save", key="set_fh_save", type="primary", disabled=not fh):
+            ab.save_settings(FINNHUB_API_KEY=fh.strip())
+            ab.register_keys()
+            st.session_state["set_msg"] = ("ok", "Finnhub key saved.")
+            st.rerun()
+        if c3.button("Test", key="set_fh_test", disabled=not s["FINNHUB_API_KEY"]):
+            good, msg = ab.test_finnhub()
+            (st.success if good else st.error)(f"Finnhub: {msg}")
+    if st.session_state.get("set_msg"):
+        kind, msg = st.session_state.pop("set_msg")
+        st.toast(msg)
+    with st.container(border=True):
+        st.markdown("<div class='ui-step'><span class='ui-num'>✓</span><b>No key needed</b></div><div class='small'>"
+                    "<b>Yahoo Finance</b> (prices, financial statements, consensus, ETF holdings) through the open-source "
+                    "<code>yfinance</code> library – free, unofficial, quotes delayed; Yahoo occasionally slows down "
+                    "requests, then simply try again later. <b>Google News</b> (RSS), <b>SEC EDGAR</b> (10-K, 10-Q, 8-K), "
+                    "<b>Deutsche Bundesbank</b> (5-year Bund yield).</div>", unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown("<div class='ui-step'><span class='ui-num'>4</span><b>Try it with the DEMO portfolio</b></div>"
+                    "<div class='small' style='margin:2px 0 8px'>The DEMO portfolio rebuilds Valley Forge Capital's "
+                    "positions since 2016 from its public 13F filings. Under Setup and automation → Analysis choose "
+                    "<b>DEMO · Valley Forge (13F)</b>, click <b>Create plan</b> and <b>Start analysis</b>. The first full "
+                    "run takes about 1–1.5 hours and runs in the background.</div>", unsafe_allow_html=True)
+        if st.button("Go to Analysis", icon=":material/arrow_forward:", disabled=not all(done), key="set_go"):
+            go("run")
+    with st.expander("Advanced: models and optional keys"):
+        with st.form("keys_adv"):
+            models = st.text_input("Models offered in the app (comma-separated OpenRouter model IDs)",
+                                   value=", ".join(s["models"] or ["anthropic/claude-haiku-5.5"]),
+                                   help="e.g. anthropic/claude-haiku-5.5, google/gemini-4-neon – the model list on "
+                                        "openrouter.ai/models shows the IDs.")
+            sa = st.text_input("sec-api.io key (optional, only a fallback for 10-K sections)", type="password")
+            if st.form_submit_button("Save"):
+                ab.save_settings(models=[m.strip() for m in models.split(",") if m.strip()], SEC_API_KEY=sa)
+                st.success("Saved.")
+                st.rerun()
     ui = ab.load_ui()
     with st.container(border=True):
         st.markdown("**Display and interests**")
@@ -1864,27 +1961,6 @@ def page_settings():
             if st.form_submit_button("Save interests"):
                 ab.save_ui(interests=interests.strip())
                 st.success("Saved. The next reading picks will take this into account.")
-    s = ab.load_settings()
-    ok = lambda b: "✅ set" if b else "— missing"
-    st.write(f"OpenRouter: {ok(s['openrouter'])} · SEC User-Agent: {ok(s['SEC_USER_AGENT'])} · Finnhub: "
-             f"{ok(s['FINNHUB_API_KEY'])} · sec-api: {ok(s['SEC_API_KEY'])}")
-    st.caption("Keys are stored only locally in finrobot_autogen/config_api_keys and OAI_CONFIG_LIST. "
-               "Empty fields keep existing values.")
-    with st.form("keys"):
-        orr = st.text_input("OpenRouter API key (required, openrouter.ai)", type="password")
-        models = st.text_input("Models (comma-separated)", value=", ".join(s["models"] or ["anthropic/claude-haiku-5.5"]))
-        ua = st.text_input("SEC user agent: name and e-mail (required for SEC EDGAR, e.g. 'Jane Doe jane@uni.edu')")
-        fh = st.text_input("Finnhub API key (for news, free at finnhub.io)", type="password")
-        sa = st.text_input("sec-api.io key (fallback for 10-K sections, free quota)", type="password")
-        if st.form_submit_button("Save", type="primary"):
-            ab.save_settings(openrouter_key=orr or None, models=[m.strip() for m in models.split(",") if m.strip()],
-                             SEC_USER_AGENT=ua, FINNHUB_API_KEY=fh, SEC_API_KEY=sa)
-            st.success("Saved.")
-            st.rerun()
-    if st.button("Test OpenRouter key"):
-        good, msg = ab.test_openrouter()
-        (st.success if good else st.error)(msg)
-    st.caption("Tip: set a spending limit for the key on openrouter.ai.")
 
 
 def page_agents():
@@ -1893,14 +1969,18 @@ def page_agents():
     ui_header("Agents", "How each agent works: prompts, extra instructions, parameters and model. Changes stay on this "
                         "computer and apply from the next run; every saved version is kept and the defaults in the code "
                         "are never overwritten. The fact check is not part of the prompts and cannot be switched off.")
-    left, right = st.columns([1, 3.3])
+    left, right = st.columns([1.25, 3])
     with left:
         sel = st.radio("Agent", [a["key"] for a in AS.AGENTS], key="ag_sel", label_visibility="collapsed",
                        format_func=lambda k: next(a["name"] for a in AS.AGENTS if a["key"] == k) + ("  ●" if AS.changed(k) else ""))
         st.caption("● = changed by you")
     a = next(x for x in AS.AGENTS if x["key"] == sel)
     with right:
-        st.markdown(f"#### {escape(a['name'])}\n<span class='small'>{escape(a['desc'])}</span>", unsafe_allow_html=True)
+        st.markdown(f"#### {escape(a['name'])}", unsafe_allow_html=True)
+        st.markdown("<div class='ag-info'>" + "".join(
+            f"<div class='r'><b>{lab}</b><span>{escape(a.get(k) or '–')}</span></div>"
+            for lab, k in (("What it does", "what"), ("Sources", "sources"), ("Result", "output"), ("When it runs", "when")))
+            + "</div>", unsafe_allow_html=True)
         if sel != "style":
             models = ab.load_settings()["models"] or ["anthropic/claude-haiku-5.5"]
             cur = AS.model(sel)
@@ -2049,7 +2129,9 @@ PAGE_DEFS = [("home", "Overview", ":material/space_dashboard:", page_home, "Toda
              ("agents", "Agents", ":material/smart_toy:", page_agents, "System"),
              ("log", "Log", ":material/receipt_long:", page_log, "System"),
              ("settings", "Settings", ":material/settings:", page_settings, "System")]
-_default = os.environ.get("BLUMBOERG_TEST_PAGE") or ("home" if ab.latest_brief()[0] else "run")   # Seitentest: scripts/test_app.py
+_default = os.environ.get("BLUMBOERG_TEST_PAGE") or (
+    "settings" if not (ab.load_settings()["openrouter"] and ab.load_settings()["SEC_USER_AGENT"])   # neue Nutzer: Setup-Guide
+    else "home" if ab.latest_brief()[0] else "run")   # Seitentest: scripts/test_app.py
 PAGE_OBJ = {k: st.Page(fn, title=t, icon=ic, url_path=k, default=(k == _default)) for k, t, ic, fn, _ in PAGE_DEFS}
 _sections = {}
 for _k, _t, _ic, _fn, _sec in PAGE_DEFS:
