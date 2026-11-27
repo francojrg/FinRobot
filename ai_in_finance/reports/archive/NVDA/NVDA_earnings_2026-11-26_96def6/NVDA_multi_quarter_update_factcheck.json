@@ -1,0 +1,2908 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 131,
+  "context_match_rate": 0.949,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the growth and margin theses intact. Q1 revenue was $81.6bn, up 85% year over year, and Data Center revenue was...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "85 %",
+        "snippet": "...Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 FY2027 (quarter ended April 2026): revenue was $81.6bn, up 85% year over year and 20% sequentially  . Data...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "85 %",
+        "snippet": "...Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.6%",
+      "value": 25.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...0 downward revisions in the last 30 days  . Reverse DCF growth is 25.6% against the invalidation level of growth above...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "25.6%",
+        "snippet": "- The current enterprise value of $3,539,442.9 million implies revenue growth of 25.6% per year for 10 years (FY2026 revenue $215,938.0 million -> about $2,112,646.3 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...points from the annual report  : Data Center growth under 25%, FY2027 EPS consensus below the $9.05 level from...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "25%",
+        "snippet": "...shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
+      }
+    }
+  ],
+  "total_claims": 138,
+  "matched": 135,
+  "match_rate": 0.978,
+  "by_kind": {
+    "money": {
+      "total": 64,
+      "matched": 63,
+      "context_matched": 63
+    },
+    "pct": {
+      "total": 57,
+      "matched": 55,
+      "context_matched": 51
+    },
+    "plain": {
+      "total": 16,
+      "matched": 16,
+      "context_matched": 16
+    },
+    "multiple": {
+      "total": 1,
+      "matched": 1,
+      "context_matched": 1
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 0,
+    "[2] Forms 10-Q": 59,
+    "[3] Yahoo Finance": 76,
+    "[4] Annual report and thesis log": 0
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...DCF growth is 25.6% against the invalidation level of growth above 30%  , and the current EV is $3.54tn  . Illustrative...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$9.05",
+      "value": 9.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...: Data Center growth under 25%, FY2027 EPS consensus below the $9.05 level from 90 days earlier, gross margin under...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below the $9.05 level from 90 days earlier, gross margin under 70%, or net cash turning negative.",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$24.1bn",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...growth above 85% and gross margin near 75%, while net cash fell to $24.1bn as debt and receivables rose.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "24,106,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 and Q2 FY2027 show revenue growth above 85% and gross margin near 75%, while net cash fell...",
+      "section": "Headline",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "85 %",
+        "snippet": "...Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 and Q2 FY2027 show revenue growth above 85% and gross margin near 75%, while net cash fell to $24.1bn as debt and...",
+      "section": "Headline",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$81.6bn",
+      "value": 81.6,
+      "unit": "billion",
+      "money_mn": 81600.0,
+      "decimals": 1,
+      "context": "...2027 kept the growth and margin theses intact. Q1 revenue was $81.6bn, up 85% year over year, and Data Center revenue...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "81.6 billion",
+        "snippet": "Revenue was $81.6 billion, up 85% from a year ago and up 20% sequentially."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.2bn",
+      "value": 75.2,
+      "unit": "billion",
+      "money_mn": 75200.0,
+      "decimals": 1,
+      "context": "...was $81.6bn, up 85% year over year, and Data Center revenue was $75.2bn, up 92%  . Gross margin was 74.9% in Q1 and...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.2 billion",
+        "snippet": "Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.67",
+      "value": 9.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...signpost in the thesis is already met  . Consensus FY2027 EPS of $9.67 is up 4.0% over 90 days, and FY2028 EPS of...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "9.67",
+        "snippet": "...$423,798.3 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.3%; EPS $9.67 (range $9.39 to $10.52); forward P/E 15.4x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.61",
+      "value": 16.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2027 EPS of $9.67 is up 4.0% over 90 days, and FY2028 EPS of $16.61 is up 27.7%  . The weaker item is the balance...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "16.61",
+        "snippet": "...$726,230.0 million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$68.2bn",
+      "value": 68.2,
+      "unit": "billion",
+      "money_mn": 68200.0,
+      "decimals": 1,
+      "context": "...27.7%  . The weaker item is the balance sheet. Net cash fell from $68.2bn in Q1 to $24.1bn in Q2, total debt rose to...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "68,127",
+        "snippet": "...Change Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.1bn",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...item is the balance sheet. Net cash fell from $68.2bn in Q1 to $24.1bn in Q2, total debt rose to $38.4bn from $11.0bn...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "24,106,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$38.4bn",
+      "value": 38.4,
+      "unit": "billion",
+      "money_mn": 38400.0,
+      "decimals": 1,
+      "context": "...cash fell from $68.2bn in Q1 to $24.1bn in Q2, total debt rose to $38.4bn from $11.0bn at year-end, and Q2 free cash flow...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "38,351.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $62,469.0 million, total debt $38,351.0 million, net cash $24,118.0 million, TTM free cash flow $127,006.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.0bn",
+      "value": 11.0,
+      "unit": "billion",
+      "money_mn": 11000.0,
+      "decimals": 1,
+      "context": "...$68.2bn in Q1 to $24.1bn in Q2, total debt rose to $38.4bn from $11.0bn at year-end, and Q2 free cash flow margin was...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "11,022,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$119bn",
+      "value": 119.0,
+      "unit": "billion",
+      "money_mn": 119000.0,
+      "decimals": 0,
+      "context": "...raise the stakes. Supply and capacity commitments rose from $119bn to $279bn in one quarter  . Sources:   releases...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "119 billion",
+        "snippet": "...and increased warranty costs. We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$279bn",
+      "value": 279.0,
+      "unit": "billion",
+      "money_mn": 279000.0,
+      "decimals": 0,
+      "context": "...the stakes. Supply and capacity commitments rose from $119bn to $279bn in one quarter  . Sources:   releases...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "279 billion",
+        "snippet": "...We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to Condensed Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the growth and margin theses intact. Q1 revenue was $81.6bn, up 85% year over year, and Data Center revenue was...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "85 %",
+        "snippet": "...Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "92%",
+      "value": 92.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 85% year over year, and Data Center revenue was $75.2bn, up 92%  . Gross margin was 74.9% in Q1 and 75.0% in Q2,...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data"
+        ],
+        "hl": "92 %",
+        "snippet": "...2026 Apr 27, 2025 ($ in millions) Revenue by Market Platform (1) Data Center $ 75,246 $ 62,314 $ 39,112 21 % 92 % Hyperscale 37,869 33,814 17,599 12 % 115 % AI Clouds, Industrial, & Enterprise 37,377 28,500 21,513 31 % 74..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74.9%",
+      "value": 74.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and Data Center revenue was $75.2bn, up 92%  . Gross margin was 74.9% in Q1 and 75.0% in Q2, against 60.5% and 72.4% a...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue was $75.2bn, up 92%  . Gross margin was 74.9% in Q1 and 75.0% in Q2, against 60.5% and 72.4% a year earlier,...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.5%",
+      "value": 60.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 92%  . Gross margin was 74.9% in Q1 and 75.0% in Q2, against 60.5% and 72.4% a year earlier, so the 72% signpost in...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "60.5 %",
+        "snippet": "...in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $ 53,536 $ 44,299 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.4%",
+      "value": 72.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Gross margin was 74.9% in Q1 and 75.0% in Q2, against 60.5% and 72.4% a year earlier, so the 72% signpost in the...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "72.4%",
+        "snippet": "- Gross margin: FY2026 71.1%; Q1 FY2027 74.9% (year-ago n/a, n/a); Q2 FY2027 75.0% (year-ago 72.4%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q1 and 75.0% in Q2, against 60.5% and 72.4% a year earlier, so the 72% signpost in the thesis is already met  ....",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "thesi"
+        ],
+        "hl": "72%",
+        "snippet": "...\"Q2 FY2027\": \"intact\"}, \"current_status\": \"intact\"}, {\"thesis\": \"T2: Gross margin recovers above 72% as Blackwell yields mature and the H20 charge does not recur.\", \"signpost\": \"Quarterly gross margin back..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the thesis is already met  . Consensus FY2027 EPS of $9.67 is up 4.0% over 90 days, and FY2028 EPS of $16.61 is up...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "4.0%",
+        "snippet": "...EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.7%",
+      "value": 27.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of $9.67 is up 4.0% over 90 days, and FY2028 EPS of $16.61 is up 27.7%  . The weaker item is the balance sheet. Net...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "27.7%",
+        "snippet": "...EPS consensus next fiscal year: $16.61 today, $15.91 30 days ago, $13.00 90 days ago, change vs 90 days ago +27.7%; analysts raising/cutting in last 30 days: 7/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$38.4bn from $11.0bn at year-end, and Q2 free cash flow margin was 22.2% against 28.8% a year earlier  . Net cash is...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "22.2%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.8%",
+      "value": 28.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$11.0bn at year-end, and Q2 free cash flow margin was 22.2% against 28.8% a year earlier  . Net cash is still positive, so...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cashflow"
+        ],
+        "hl": "28.8%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is already met  . Consensus FY2027 EPS of $9.67 is up 4.0% over 90 days, and FY2028 EPS of $16.61 is up 27.7%  ....",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $279bn in one quarter  . Sources:   releases unavailable,   10-Qs,   Yahoo Finance,   annual report and thesis...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "annual",
+          "report"
+        ],
+        "hl": "10",
+        "snippet": "...statements. We discuss many of these risks, uncertainties and other factors in this Quarterly Report on Form 10-Q and our Annual Report on Form 10-K for the fiscal year ended January 25, 2026 in greater detail under the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$81.6bn",
+      "value": 81.6,
+      "unit": "billion",
+      "money_mn": 81600.0,
+      "decimals": 1,
+      "context": "Q1 FY2027 (quarter ended April 2026): revenue was $81.6bn, up 85% year over year and 20% sequentially  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "81.6 billion",
+        "snippet": "Revenue was $81.6 billion, up 85% from a year ago and up 20% sequentially."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.2bn",
+      "value": 75.2,
+      "unit": "billion",
+      "money_mn": 75200.0,
+      "decimals": 1,
+      "context": "...85% year over year and 20% sequentially  . Data Center revenue was $75.2bn, up 92% year over year, driven by the Blackwell...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.2 billion",
+        "snippet": "Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.6bn",
+      "value": 4.6,
+      "unit": "billion",
+      "money_mn": 4600.0,
+      "decimals": 1,
+      "context": "...the total: no Hopper Data Center shipments went to China, against $4.6bn in the year-ago quarter  . Edge Computing rose...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.6 billion",
+        "snippet": "...customers. No shipments of Data Center Hopper products to China occurred during the quarter, compared with $4.6 billion in the first quarter of fiscal year 2026."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.4bn",
+      "value": 6.4,
+      "unit": "billion",
+      "money_mn": 6400.0,
+      "decimals": 1,
+      "context": "...$4.6bn in the year-ago quarter  . Edge Computing rose 29% to $6.4bn, but consumer PC demand was slower because of...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "6.4 billion",
+        "snippet": "Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago and up 10% sequentially. The increases were driven by robust Blackwell workstation..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5bn",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...was 74.9% against 60.5%, helped by the absence of the prior year's $4.5bn H20 charge and lower inventory provisions  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion cha"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.39",
+      "value": 2.39,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...H20 charge and lower inventory provisions  . GAAP diluted EPS was $2.39 against $0.76  . Yahoo's normalized Q1 EPS of...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2.39",
+        "snippet": "...$ 44,299 $ 21,638 21 % 147 % Net income $ 58,321 $ 42,960 $ 18,775 36 % 211 % Net income per diluted share $ 2.39 $ 1.76 $ 0.76 36 % 214 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.76",
+      "value": 0.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...lower inventory provisions  . GAAP diluted EPS was $2.39 against $0.76  . Yahoo's normalized Q1 EPS of $1.87 is on a...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "0.76",
+        "snippet": "...21 % 147 % Net income $ 58,321 $ 42,960 $ 18,775 36 % 211 % Net income per diluted share $ 2.39 $ 1.76 $ 0.76 36 % 214 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.87",
+      "value": 1.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...diluted EPS was $2.39 against $0.76  . Yahoo's normalized Q1 EPS of $1.87 is on a different basis and is not comparable...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.87",
+        "snippet": "- Quarter ending 2026-04-30: EPS $1.87 vs estimate $1.77 (surprise +5.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.46",
+      "value": 2.46,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...came from scale rather than cost cuts alone  . Q2 diluted EPS was $2.46  . The Q2 Data Center segment table was not in...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.46",
+        "snippet": "- Diluted EPS: FY2026 4.90; Q1 FY2027 2.39 (year-ago n/a, n/a); Q2 FY2027 2.46 (year-ago n/a, n/a); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.1bn",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...rose to 60 from 54 a year earlier and 45 in Q1  . Net cash fell to $24.1bn from $43.4bn a year earlier and $68.2bn in Q1,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "24,106,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.4bn",
+      "value": 43.4,
+      "unit": "billion",
+      "money_mn": 43400.0,
+      "decimals": 1,
+      "context": "...54 a year earlier and 45 in Q1  . Net cash fell to $24.1bn from $43.4bn a year earlier and $68.2bn in Q1, as total debt...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "43,393.0",
+        "snippet": "- Net cash (debt): FY2026 51,516.0; Q1 FY2027 68,224.0 (year-ago n/a, n/a); Q2 FY2027 24,118.0 (year-ago 43,393.0, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$68.2bn",
+      "value": 68.2,
+      "unit": "billion",
+      "money_mn": 68200.0,
+      "decimals": 1,
+      "context": "...in Q1  . Net cash fell to $24.1bn from $43.4bn a year earlier and $68.2bn in Q1, as total debt rose to $38.4bn from...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "68,127",
+        "snippet": "...Change Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$38.4bn",
+      "value": 38.4,
+      "unit": "billion",
+      "money_mn": 38400.0,
+      "decimals": 1,
+      "context": "...$43.4bn a year earlier and $68.2bn in Q1, as total debt rose to $38.4bn from $11.0bn at FY2026 year-end  . The...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "38,351.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $62,469.0 million, total debt $38,351.0 million, net cash $24,118.0 million, TTM free cash flow $127,006.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.0bn",
+      "value": 11.0,
+      "unit": "billion",
+      "money_mn": 11000.0,
+      "decimals": 1,
+      "context": "...year earlier and $68.2bn in Q1, as total debt rose to $38.4bn from $11.0bn at FY2026 year-end  . The      links the timing...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "11,022,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$279bn",
+      "value": 279.0,
+      "unit": "billion",
+      "money_mn": 279000.0,
+      "decimals": 0,
+      "context": "...liquidity deteriorated. Q2 supply and capacity commitments rose to $279bn from $119bn in the prior quarter, and equity...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "279 billion",
+        "snippet": "...We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to Condensed Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$119bn",
+      "value": 119.0,
+      "unit": "billion",
+      "money_mn": 119000.0,
+      "decimals": 0,
+      "context": "...Q2 supply and capacity commitments rose to $279bn from $119bn in the prior quarter, and equity investments...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "119 billion",
+        "snippet": "...and increased warranty costs. We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$99bn",
+      "value": 99.0,
+      "unit": "billion",
+      "money_mn": 99000.0,
+      "decimals": 0,
+      "context": "...from $119bn in the prior quarter, and equity investments reached $99bn with $25bn of further commitments  . Q1 and Q2...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "99 billion",
+        "snippet": "...cultivate our ecosystem, and strengthen our competitive position. These include equity investments of $99 billion and equity investment commitments of $25 billion as of July 26, 2026."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25bn",
+      "value": 25.0,
+      "unit": "billion",
+      "money_mn": 25000.0,
+      "decimals": 0,
+      "context": "...in the prior quarter, and equity investments reached $99bn with $25bn of further commitments  . Q1 and Q2 quarterly...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "25 billion",
+        "snippet": "...competitive position. These include equity investments of $99 billion and equity investment commitments of $25 billion as of July 26, 2026."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 FY2027 (quarter ended April 2026): revenue was $81.6bn, up 85% year over year and 20% sequentially  . Data...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "85 %",
+        "snippet": "...Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ended April 2026): revenue was $81.6bn, up 85% year over year and 20% sequentially  . Data Center revenue was $75.2bn,...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "sequentially"
+        ],
+        "hl": "20%",
+        "snippet": "Revenue was $81.6 billion, up 85% from a year ago and up 20% sequentially."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "92%",
+      "value": 92.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year and 20% sequentially  . Data Center revenue was $75.2bn, up 92% year over year, driven by the Blackwell 300 ramp...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data"
+        ],
+        "hl": "92 %",
+        "snippet": "...2026 Apr 27, 2025 ($ in millions) Revenue by Market Platform (1) Data Center $ 75,246 $ 62,314 $ 39,112 21 % 92 % Hyperscale 37,869 33,814 17,599 12 % 115 % AI Clouds, Industrial, & Enterprise 37,377 28,500 21,513 31 % 74..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Ethernet and NVLink demand  . Hyperscalers stayed at about 50% of Data Center revenue. The China shock showed...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "hyperscaler",
+          "center",
+          "data"
+        ],
+        "hl": "50%",
+        "snippet": "...Ethernet, and NVLink solutions. Hyperscaler revenue increased sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came from a continued diversification of customers,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against $4.6bn in the year-ago quarter  . Edge Computing rose 29% to $6.4bn, but consumer PC demand was slower...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "edge",
+          "computing"
+        ],
+        "hl": "29 %",
+        "snippet": "...% AI Clouds, Industrial, & Enterprise 37,377 28,500 21,513 31 % 74 % Edge Computing 6,369 5,813 4,950 10 % 29 % Total revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74.9%",
+      "value": 74.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...higher memory and system prices, a named cause  . Gross margin was 74.9% against 60.5%, helped by the absence of the...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.5%",
+      "value": 60.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and system prices, a named cause  . Gross margin was 74.9% against 60.5%, helped by the absence of the prior year's...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "60.5 %",
+        "snippet": "...in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $ 53,536 $ 44,299 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "105.9%",
+      "value": 105.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(quarter ended July 2026): the scorecard shows total revenue up 105.9% year over year, the fastest growth in the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "105.9%",
+        "snippet": "- Revenue growth y/y: FY2026 65.5%; Q1 FY2027 n/a (year-ago n/a, n/a); Q2 FY2027 105.9% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...over year, the fastest growth in the period, with gross margin at 75.0% against 72.4% and operating margin at 66.2%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.4%",
+      "value": 72.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fastest growth in the period, with gross margin at 75.0% against 72.4% and operating margin at 66.2% against 60.8%  ....",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "operating",
+          "margin"
+        ],
+        "hl": "72.4%",
+        "snippet": "- Gross margin: FY2026 71.1%; Q1 FY2027 74.9% (year-ago n/a, n/a); Q2 FY2027 75.0% (year-ago 72.4%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66.2%",
+      "value": 66.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...with gross margin at 75.0% against 72.4% and operating margin at 66.2% against 60.8%  . Operating expenses fell to 8.7%...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "66.2%",
+        "snippet": "- Operating margin: FY2026 60.4%; Q1 FY2027 65.6% (year-ago n/a, n/a); Q2 FY2027 66.2% (year-ago 60.8%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.8%",
+      "value": 60.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin at 75.0% against 72.4% and operating margin at 66.2% against 60.8%  . Operating expenses fell to 8.7% of revenue...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "60.8%",
+        "snippet": "- Operating margin: FY2026 60.4%; Q1 FY2027 65.6% (year-ago n/a, n/a); Q2 FY2027 66.2% (year-ago 60.8%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin at 66.2% against 60.8%  . Operating expenses fell to 8.7% of revenue from 11.6%, so the margin gain came...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "revenue"
+        ],
+        "hl": "8.7%",
+        "snippet": "- Opex in % of revenue: FY2026 10.7%; Q1 FY2027 9.3% (year-ago n/a, n/a); Q2 FY2027 8.7% (year-ago 11.6%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.6%",
+      "value": 11.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against 60.8%  . Operating expenses fell to 8.7% of revenue from 11.6%, so the margin gain came from scale rather than...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.6%",
+        "snippet": "- Opex in % of revenue: FY2026 10.7%; Q1 FY2027 9.3% (year-ago n/a, n/a); Q2 FY2027 8.7% (year-ago 11.6%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...available. Several measures weakened. Free cash flow margin fell to 22.2% from 28.8%  . Days sales outstanding rose to 60...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "22.2%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.8%",
+      "value": 28.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Several measures weakened. Free cash flow margin fell to 22.2% from 28.8%  . Days sales outstanding rose to 60 from 54 a...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cashflow"
+        ],
+        "hl": "28.8%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.8%",
+      "value": 0.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...investments and debt is not established. Share count fell 0.8% year over year to 24.15bn  .  Trend across the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "0.7%",
+        "snippet": "...that burn self-funded, current ratio 3.9x, shares outstanding 24,304.0 million, change in share count y/y -0.7%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "300",
+      "value": 300.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue was $75.2bn, up 92% year over year, driven by the Blackwell 300 ramp and InfiniBand, Spectrum-X Ethernet and...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "blackwell",
+          "ramp",
+          "driven"
+        ],
+        "hl": "300",
+        "snippet": "...was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions. Hyperscaler revenue..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "60",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin fell to 22.2% from 28.8%  . Days sales outstanding rose to 60 from 54 a year earlier and 45 in Q1  . Net cash...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "60",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "54",
+      "value": 54.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fell to 22.2% from 28.8%  . Days sales outstanding rose to 60 from 54 a year earlier and 45 in Q1  . Net cash fell to...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "54",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "45",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Days sales outstanding rose to 60 from 54 a year earlier and 45 in Q1  . Net cash fell to $24.1bn from $43.4bn a...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "45",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.2bn",
+      "value": 75.2,
+      "unit": "billion",
+      "money_mn": 75200.0,
+      "decimals": 1,
+      "context": "...well above peers through fiscal 2027. Q1 Data Center revenue was $75.2bn, up 92% year over year  , well above the 50%...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.2 billion",
+        "snippet": "Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5bn",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...was 74.9% in Q1 against 60.5% a year earlier, with the prior-year $4.5bn H20 charge not recurring  . Q2 gross margin was...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion cha"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.67",
+      "value": 9.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...depend on consensus EPS being delivered. FY2027 EPS consensus is $9.67, up 4.0% from $9.30 90 days ago, and FY2028...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "9.67",
+        "snippet": "...$423,798.3 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.3%; EPS $9.67 (range $9.39 to $10.52); forward P/E 15.4x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.30",
+      "value": 9.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS being delivered. FY2027 EPS consensus is $9.67, up 4.0% from $9.30 90 days ago, and FY2028 consensus is $16.61, up...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "9.30",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.61",
+      "value": 16.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is $9.67, up 4.0% from $9.30 90 days ago, and FY2028 consensus is $16.61, up 27.7% from $13.00 over 90 days, with 7...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "16.61",
+        "snippet": "...$726,230.0 million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.00",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$9.30 90 days ago, and FY2028 consensus is $16.61, up 27.7% from $13.00 over 90 days, with 7 upward and 0 downward...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "13",
+        "snippet": "Our two operating segments are “Compute & Networking” and “Graphics.” Refer to Note 13 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.54tn",
+      "value": 3.54,
+      "unit": "trillion",
+      "money_mn": 3540000.0,
+      "decimals": 2,
+      "context": "...the invalidation level of growth above 30%  , and the current EV is $3.54tn  . Illustrative only: at the FY2028 consensus...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3,539,442.9 million",
+        "snippet": "- The current enterprise value of $3,539,442.9 million implies revenue growth of 25.6% per year for 10 years (FY2026 revenue $215,938.0 million -> about..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$149.30",
+      "value": 149.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...only: at the FY2028 consensus EPS, the forward P/E is 9.0x at $149.30  . FY2028 consensus range is wide, from $12.27 to...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "149.30",
+        "snippet": "- Forward multiples use the current share price of $149.30 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.27",
+      "value": 12.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...P/E is 9.0x at $149.30  . FY2028 consensus range is wide, from $12.27 to $18.79  . T4: Free cash flow and net cash can...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.27",
+        "snippet": "...million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.79",
+      "value": 18.79,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...9.0x at $149.30  . FY2028 consensus range is wide, from $12.27 to $18.79  . T4: Free cash flow and net cash can absorb the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "18.79)",
+        "snippet": "...(range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$68.2bn",
+      "value": 68.2,
+      "unit": "billion",
+      "money_mn": 68200.0,
+      "decimals": 1,
+      "context": "...absorb the China and customer shocks without strain. Net cash was $68.2bn in Q1 and $24.1bn in Q2, still positive  . Net...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "68,127",
+        "snippet": "...Change Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.1bn",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...and customer shocks without strain. Net cash was $68.2bn in Q1 and $24.1bn in Q2, still positive  . Net cash fell from...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "24,106,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.4bn",
+      "value": 43.4,
+      "unit": "billion",
+      "money_mn": 43400.0,
+      "decimals": 1,
+      "context": "...in Q1 and $24.1bn in Q2, still positive  . Net cash fell from $43.4bn a year earlier to $24.1bn in Q2, and total debt...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "43,393.0",
+        "snippet": "- Net cash (debt): FY2026 51,516.0; Q1 FY2027 68,224.0 (year-ago n/a, n/a); Q2 FY2027 24,118.0 (year-ago 43,393.0, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.1bn",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...Q2, still positive  . Net cash fell from $43.4bn a year earlier to $24.1bn in Q2, and total debt rose to $38.4bn from...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "24,106,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$38.4bn",
+      "value": 38.4,
+      "unit": "billion",
+      "money_mn": 38400.0,
+      "decimals": 1,
+      "context": "...$43.4bn a year earlier to $24.1bn in Q2, and total debt rose to $38.4bn from $11.0bn at year-end  . Q2 free cash flow...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "38,351.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $62,469.0 million, total debt $38,351.0 million, net cash $24,118.0 million, TTM free cash flow $127,006.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.0bn",
+      "value": 11.0,
+      "unit": "billion",
+      "money_mn": 11000.0,
+      "decimals": 1,
+      "context": "...year earlier to $24.1bn in Q2, and total debt rose to $38.4bn from $11.0bn at year-end  . Q2 free cash flow margin was...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "11,022,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "92%",
+      "value": 92.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...peers through fiscal 2027. Q1 Data Center revenue was $75.2bn, up 92% year over year  , well above the 50% signpost....",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data"
+        ],
+        "hl": "92 %",
+        "snippet": "...2026 Apr 27, 2025 ($ in millions) Revenue by Market Platform (1) Data Center $ 75,246 $ 62,314 $ 39,112 21 % 92 % Hyperscale 37,869 33,814 17,599 12 % 115 % AI Clouds, Industrial, & Enterprise 37,377 28,500 21,513 31 % 74..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Center revenue was $75.2bn, up 92% year over year  , well above the 50% signpost. For Q2, total revenue rose 105.9% year...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "center"
+        ],
+        "hl": "50%",
+        "snippet": "...Ethernet, and NVLink solutions. Hyperscaler revenue increased sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came from a continued diversification of customers,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "105.9%",
+      "value": 105.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...year  , well above the 50% signpost. For Q2, total revenue rose 105.9% year over year  ; the Q2 Data Center segment...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "105.9%",
+        "snippet": "- Revenue growth y/y: FY2026 65.5%; Q1 FY2027 n/a (year-ago n/a, n/a); Q2 FY2027 105.9% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2027 as the signpost requires  . T2: Gross margin recovers above 72% as Blackwell yields mature and the H20 charge...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "72.4%",
+        "snippet": "- Gross margin: FY2026 71.1%; Q1 FY2027 74.9% (year-ago n/a, n/a); Q2 FY2027 75.0% (year-ago 72.4%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74.9%",
+      "value": 74.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...yields mature and the H20 charge does not recur. Gross margin was 74.9% in Q1 against 60.5% a year earlier, with the...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.5%",
+      "value": 60.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the H20 charge does not recur. Gross margin was 74.9% in Q1 against 60.5% a year earlier, with the prior-year $4.5bn H20...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "60.5 %",
+        "snippet": "...in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $ 53,536 $ 44,299 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...prior-year $4.5bn H20 charge not recurring  . Q2 gross margin was 75.0% against 72.4% a year earlier  , so the 72%...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.4%",
+      "value": 72.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...H20 charge not recurring  . Q2 gross margin was 75.0% against 72.4% a year earlier  , so the 72% signpost has been...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "72.4%",
+        "snippet": "- Gross margin: FY2026 71.1%; Q1 FY2027 74.9% (year-ago n/a, n/a); Q2 FY2027 75.0% (year-ago 72.4%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Q2 gross margin was 75.0% against 72.4% a year earlier  , so the 72% signpost has been met in both quarters. Held,...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "72.4%",
+        "snippet": "- Gross margin: FY2026 71.1%; Q1 FY2027 74.9% (year-ago n/a, n/a); Q2 FY2027 75.0% (year-ago 72.4%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on consensus EPS being delivered. FY2027 EPS consensus is $9.67, up 4.0% from $9.30 90 days ago, and FY2028 consensus is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ago",
+          "days"
+        ],
+        "hl": "4.0%",
+        "snippet": "...EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.7%",
+      "value": 27.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 4.0% from $9.30 90 days ago, and FY2028 consensus is $16.61, up 27.7% from $13.00 over 90 days, with 7 upward and 0...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ago",
+          "days"
+        ],
+        "hl": "27.7%",
+        "snippet": "...EPS consensus next fiscal year: $16.61 today, $15.91 30 days ago, $13.00 90 days ago, change vs 90 days ago +27.7%; analysts raising/cutting in last 30 days: 7/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.6%",
+      "value": 25.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...0 downward revisions in the last 30 days  . Reverse DCF growth is 25.6% against the invalidation level of growth above...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "25.6%",
+        "snippet": "- The current enterprise value of $3,539,442.9 million implies revenue growth of 25.6% per year for 10 years (FY2026 revenue $215,938.0 million -> about $2,112,646.3 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...DCF growth is 25.6% against the invalidation level of growth above 30%  , and the current EV is $3.54tn  . Illustrative...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $38.4bn from $11.0bn at year-end  . Q2 free cash flow margin was 22.2% against 28.8%, and days sales outstanding rose...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "22.2%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.8%",
+      "value": 28.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$11.0bn at year-end  . Q2 free cash flow margin was 22.2% against 28.8%, and days sales outstanding rose to 60 from 54...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cashflow"
+        ],
+        "hl": "28.8%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "9.0x",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Illustrative only: at the FY2028 consensus EPS, the forward P/E is 9.0x at $149.30  . FY2028 consensus range is wide,...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "pershare"
+        ],
+        "hl": "9.0",
+        "snippet": "...million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...being delivered. FY2027 EPS consensus is $9.67, up 4.0% from $9.30 90 days ago, and FY2028 consensus is $16.61, up...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ago",
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...days ago, and FY2028 consensus is $16.61, up 27.7% from $13.00 over 90 days, with 7 upward and 0 downward revisions in...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ago",
+          "consensu",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2028 consensus is $16.61, up 27.7% from $13.00 over 90 days, with 7 upward and 0 downward revisions in the last 30...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "7",
+        "snippet": "...30 days ago, $13.00 90 days ago, change vs 90 days ago +27.7%; analysts raising/cutting in last 30 days: 7/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...over 90 days, with 7 upward and 0 downward revisions in the last 30 days  . Reverse DCF growth is 25.6% against the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "60",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin was 22.2% against 28.8%, and days sales outstanding rose to 60 from 54  . The Q1      says no H200 revenue had...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "60",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "54",
+      "value": 54.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was 22.2% against 28.8%, and days sales outstanding rose to 60 from 54  . The Q1      says no H200 revenue had been...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "54",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$119bn",
+      "value": 119.0,
+      "unit": "billion",
+      "money_mn": 119000.0,
+      "decimals": 0,
+      "context": "...exposure rose sharply. Supply and capacity commitments went from $119bn in Q1 to $279bn at July 26, 2026  . In August...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "119 billion",
+        "snippet": "...and increased warranty costs. We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$279bn",
+      "value": 279.0,
+      "unit": "billion",
+      "money_mn": 279000.0,
+      "decimals": 0,
+      "context": "...sharply. Supply and capacity commitments went from $119bn in Q1 to $279bn at July 26, 2026  . In August 2026 NVIDIA...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "279 billion",
+        "snippet": "...We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to Condensed Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$105bn",
+      "value": 105.0,
+      "unit": "billion",
+      "money_mn": 105000.0,
+      "decimals": 0,
+      "context": "...lease obligations for the SB Energy PORTS campus, capped at $105bn, to host compute for OpenAI under 20-year...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "105 billion",
+        "snippet": "...our compute under 20-year leases to OpenAI, subject to limited exceptions, with our obligation capped at $105 billion in the aggregate, subject to certain conditions including SB Energy, the lessor, satisfying applicable..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$36bn",
+      "value": 36.0,
+      "unit": "billion",
+      "money_mn": 36000.0,
+      "decimals": 0,
+      "context": "...20-year leases, with exposure starting in FY2029  . A separate $36bn of AI cloud commitments carries a purchase...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "36 billion",
+        "snippet": "...customers at more advantageous rates. Our commitments, which are typically six years in duration, totaled $36 billion as of July 26, 2026, and decrease as capacity is used by third-party customers or by us for our research and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$423.8bn",
+      "value": 423.8,
+      "unit": "billion",
+      "money_mn": 423800.0,
+      "decimals": 1,
+      "context": "...26 November 2026 after the     , expects FY2027 revenue of $423.8bn (+96%) and EPS of $9.67, and FY2028 EPS of...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "423,798.3 million",
+        "snippet": "- FY2027E: revenue $423,798.3 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.3%; EPS $9.67 (range $9.39 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.67",
+      "value": 9.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the     , expects FY2027 revenue of $423.8bn (+96%) and EPS of $9.67, and FY2028 EPS of $16.61  . Revisions are...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "9.67",
+        "snippet": "...$423,798.3 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.3%; EPS $9.67 (range $9.39 to $10.52); forward P/E 15.4x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.61",
+      "value": 16.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...revenue of $423.8bn (+96%) and EPS of $9.67, and FY2028 EPS of $16.61  . Revisions are upward: FY2027 EPS is up 4.0%...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "16.61",
+        "snippet": "...$726,230.0 million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.27",
+      "value": 12.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...over 90 days and FY2028 EPS up 27.7%  . The FY2028 range is wide, $12.27 to $18.79  . Yahoo also shows a quarter ending...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.27",
+        "snippet": "...million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.79",
+      "value": 18.79,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...days and FY2028 EPS up 27.7%  . The FY2028 range is wide, $12.27 to $18.79  . Yahoo also shows a quarter ending 31 October...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "18.79)",
+        "snippet": "...(range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 9.0x; EV/Sales 4.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.68",
+      "value": 2.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Yahoo also shows a quarter ending 31 October 2026 with EPS of $2.68 against a $2.47 estimate; no release or      for...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.68",
+        "snippet": "- Quarter ending 2026-10-31: EPS $2.68 vs estimate $2.47 (surprise +8.4%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.47",
+      "value": 2.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...shows a quarter ending 31 October 2026 with EPS of $2.68 against a $2.47 estimate; no release or      for that quarter...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.47",
+        "snippet": "- Quarter ending 2026-10-31: EPS $2.68 vs estimate $2.47 (surprise +8.4%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.05",
+      "value": 9.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...: Data Center growth under 25%, FY2027 EPS consensus below the $9.05 level from 90 days earlier, gross margin under...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "96%",
+      "value": 96.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...November 2026 after the     , expects FY2027 revenue of $423.8bn (+96%) and EPS of $9.67, and FY2028 EPS of $16.61  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "96.3%",
+        "snippet": "- FY2027E: revenue $423,798.3 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.3%; EPS $9.67 (range $9.39 to $10.52); forward P/E 15.4x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and FY2028 EPS of $16.61  . Revisions are upward: FY2027 EPS is up 4.0% over 90 days and FY2028 EPS up 27.7%  . The...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "4.0%",
+        "snippet": "...EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.7%",
+      "value": 27.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...are upward: FY2027 EPS is up 4.0% over 90 days and FY2028 EPS up 27.7%  . The FY2028 range is wide, $12.27 to $18.79  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "27.7%",
+        "snippet": "...EPS consensus next fiscal year: $16.61 today, $15.91 30 days ago, $13.00 90 days ago, change vs 90 days ago +27.7%; analysts raising/cutting in last 30 days: 7/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...points from the annual report  : Data Center growth under 25%, FY2027 EPS consensus below the $9.05 level from...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "25%",
+        "snippet": "...shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below the $9.05 level from 90 days earlier, gross margin under 70%, or net cash turning negative.",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS of $16.61  . Revisions are upward: FY2027 EPS is up 4.0% over 90 days and FY2028 EPS up 27.7%  . The FY2028 range...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth under 25%, FY2027 EPS consensus below the $9.05 level from 90 days earlier, gross margin under 70%, or net...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.30 90 days ago, change vs 90 days ago +4.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$81615.0 million",
+      "value": 81615.0,
+      "unit": "million",
+      "money_mn": 81615.0,
+      "decimals": 1,
+      "context": "Revenue: $81615.0 million vs $44062.0 million. Data Center revenue:...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "81,615",
+        "snippet": "...Change Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$44062.0 million",
+      "value": 44062.0,
+      "unit": "million",
+      "money_mn": 44062.0,
+      "decimals": 1,
+      "context": "Revenue: $81615.0 million vs $44062.0 million. Data Center revenue: $75246.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "44,062",
+        "snippet": "...Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75246.0 million",
+      "value": 75246.0,
+      "unit": "million",
+      "money_mn": 75246.0,
+      "decimals": 1,
+      "context": "Revenue: $81615.0 million vs $44062.0 million. Data Center revenue: $75246.0 million vs $39112.0 million. Gross margin: 74.9% vs...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75,246",
+        "snippet": "...Change Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions) Revenue by Market Platform (1) Data Center $ 75,246 $ 62,314 $ 39,112 21 % 92 % Hyperscale 37,869 33,814 17,599 12 % 115 % AI Clouds, Industrial, & Enterprise..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$39112.0 million",
+      "value": 39112.0,
+      "unit": "million",
+      "money_mn": 39112.0,
+      "decimals": 1,
+      "context": "...vs $44062.0 million. Data Center revenue: $75246.0 million vs $39112.0 million. Gross margin: 74.9% vs 60.5%, 75.0% vs 72.4%....",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "39,112",
+        "snippet": "...Jan 25, 2026 Apr 27, 2025 ($ in millions) Revenue by Market Platform (1) Data Center $ 75,246 $ 62,314 $ 39,112 21 % 92 % Hyperscale 37,869 33,814 17,599 12 % 115 % AI Clouds, Industrial, & Enterprise 37,377 28,500 21,513..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$68224.0 million",
+      "value": 68224.0,
+      "unit": "million",
+      "money_mn": 68224.0,
+      "decimals": 1,
+      "context": "...72.4%. Free cash flow margin: 59.5% vs , 22.2% vs 28.8%. Net cash: $68224.0 million vs , $24118.0 million vs $43393.0 million. Days...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "68,127",
+        "snippet": "...Change Apr 26, 2026 Jan 25, 2026 Apr 27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24118.0 million",
+      "value": 24118.0,
+      "unit": "million",
+      "money_mn": 24118.0,
+      "decimals": 1,
+      "context": "...margin: 59.5% vs , 22.2% vs 28.8%. Net cash: $68224.0 million vs , $24118.0 million vs $43393.0 million. Days sales outstanding:...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "24,118.0",
+        "snippet": "- Net cash (debt): FY2026 51,516.0; Q1 FY2027 68,224.0 (year-ago n/a, n/a); Q2 FY2027 24,118.0 (year-ago 43,393.0, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43393.0 million",
+      "value": 43393.0,
+      "unit": "million",
+      "money_mn": 43393.0,
+      "decimals": 1,
+      "context": "...22.2% vs 28.8%. Net cash: $68224.0 million vs , $24118.0 million vs $43393.0 million. Days sales outstanding: 45.0 vs , 60.0 vs 54.0.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "43,393.0",
+        "snippet": "- Net cash (debt): FY2026 51,516.0; Q1 FY2027 68,224.0 (year-ago n/a, n/a); Q2 FY2027 24,118.0 (year-ago 43,393.0, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74.9%",
+      "value": 74.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Center revenue: $75246.0 million vs $39112.0 million. Gross margin: 74.9% vs 60.5%, 75.0% vs 72.4%. Free cash flow margin:...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.5%",
+      "value": 60.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$75246.0 million vs $39112.0 million. Gross margin: 74.9% vs 60.5%, 75.0% vs 72.4%. Free cash flow margin: 59.5% vs...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "60.5 %",
+        "snippet": "...in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $ 53,536 $ 44,299 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$75246.0 million vs $39112.0 million. Gross margin: 74.9% vs 60.5%, 75.0% vs 72.4%. Free cash flow margin: 59.5% vs ,...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "74.9 %",
+        "snippet": "...27, 2025 ($ in millions, except per share data) Revenue $ 81,615 $ 68,127 $ 44,062 20 % 85 % Gross margin 74.9 % 75.0 % 60.5 % (0.1) pts 14.4 pts Operating expenses $ 7,621 $ 6,794 $ 5,030 12 % 52 % Operating income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.4%",
+      "value": 72.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $39112.0 million. Gross margin: 74.9% vs 60.5%, 75.0% vs 72.4%. Free cash flow margin: 59.5% vs , 22.2% vs...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "72.4%",
+        "snippet": "- Gross margin: FY2026 71.1%; Q1 FY2027 74.9% (year-ago n/a, n/a); Q2 FY2027 75.0% (year-ago 72.4%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.5%",
+      "value": 59.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin: 74.9% vs 60.5%, 75.0% vs 72.4%. Free cash flow margin: 59.5% vs , 22.2% vs 28.8%. Net cash: $68224.0 million...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "59.5%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...74.9% vs 60.5%, 75.0% vs 72.4%. Free cash flow margin: 59.5% vs , 22.2% vs 28.8%. Net cash: $68224.0 million vs ,...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "22.2%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.8%",
+      "value": 28.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...60.5%, 75.0% vs 72.4%. Free cash flow margin: 59.5% vs , 22.2% vs 28.8%. Net cash: $68224.0 million vs , $24118.0...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cashflow"
+        ],
+        "hl": "28.8%",
+        "snippet": "- Free cash flow margin: FY2026 44.8%; Q1 FY2027 59.5% (year-ago n/a, n/a); Q2 FY2027 22.2% (year-ago 28.8%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "45.0",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs , $24118.0 million vs $43393.0 million. Days sales outstanding: 45.0 vs , 60.0 vs 54.0.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "45",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "60.0",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $43393.0 million. Days sales outstanding: 45.0 vs , 60.0 vs 54.0.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "60",
+        "snippet": "- Days sales outstanding: FY2026 65; Q1 FY2027 45 (year-ago n/a, n/a); Q2 FY2027 60 (year-ago 54, worse); trend deteriorating"
+      }
+    }
+  ],
+  "build_round": 2,
+  "round1": {
+    "total_claims": 137,
+    "matched": 133,
+    "match_rate": 0.971
+  }
+}

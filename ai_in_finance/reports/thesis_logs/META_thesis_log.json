@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/META_earnings_multi_claude-haiku-5.5\\META_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Ad pricing and impression growth keep revenue growing near 20% into 2027.",
+        "signpost": "Q4 2026 results: ad impressions growth at or above 10% and average price per ad growth at or above 8%. Invalidation: impressions or price growth below 5% for two consecutive quarters.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Free cash flow falls again in 2026 because capex growth outpaces operating cash flow.",
+        "signpost": "FY2026 free cash flow in the early 2027 10-K below the 2025 level of $43.59 billion; invalidated if FY2026 FCF is at or above $43.59 billion or FY2026 capex is below $115 billion.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: At the current price the stock needs growth close to its historical pace; a fade in consensus growth would push returns below the cost of capital.",
+        "signpost": "FY2027 consensus revenue at or above $313 billion (about 22% growth) through Q4 2026 results; invalidated if it falls to the bottom of its range or the implied return on the consensus path exceeds 11.2%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Reality Labs losses stay near $19 billion a year and cap EPS growth until the AI and hardware payoff is visible.",
+        "signpost": "FY2026 10-K reports a Reality Labs operating loss at or below $19.19 billion; invalidated if the loss falls materially below $15 billion or current-year EPS consensus turns positive over 90 days.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4436 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 155,
+  "context_match_rate": 0.799,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a 9% higher price per ad  . Profit growth lagged: net income fell 3% to $60.46 billion after a $15.93 billion tax...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "...Family metrics to vary from period to period, we estimate that such margin generally will be approximately 3% of our worldwide DAP. At our scale, it is very difficult to attribute multiple user accounts within and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion after a $15.93 billion tax charge, and free cash flow fell 16% to $43.59 billion as capex nearly doubled...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16%",
+        "snippet": "...to our tax landscape, we expect our effective tax rate for the full year 2026 to be in the range of 13-16%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.4%",
+      "value": 14.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...over 90 days, and the June and September 2026 quarters missed by 14.4% and 29.3%  . Consensus still expects revenue...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "14.4%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $6.18 vs estimate $7.22 (surprise -14.4%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue, driven by WhatsApp paid messaging and Meta Verified, rose 50% to $2.58 billion  .  The two segments differ...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50%",
+        "snippet": "FoA other revenue in 2025 increased $862 million, or 50%, compared to 2024. The increase was mostly driven by paid messaging from WhatsApp and Meta Verified..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion, although its margin fell to 52% from 54% as costs rose 28% to $96.29 billion, mainly on employee...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "28%",
+        "snippet": "Costs and expenses 96,290 75,246 28% 21,400 19,875 8% 117,690 95,121 24%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and a 9% higher average price per ad  . Other revenue rose 50% to $2.58 billion  . Cost of revenue grew 20% but...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50%",
+        "snippet": "FoA other revenue in 2025 increased $862 million, or 50%, compared to 2024. The increase was mostly driven by paid messaging from WhatsApp and Meta Verified..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up to 82.0% from 81.7%  . R&D was the largest cost increase, rising 31% to $57.37 billion on compensation and AI...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31%",
+        "snippet": "Research and development expenses in 2025 increased $13.50 billion, or 31%, compared to 2024. The increase was mostly due to higher employee compensation and infrastructure costs..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but the operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion after a $15.93 billion One Big...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "...Family metrics to vary from period to period, we estimate that such margin generally will be approximately 3% of our worldwide DAP. At our scale, it is very difficult to attribute multiple user accounts within and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 30%, so net margin dropped to 30% from 38%  . Diluted EPS fell 2% to $23.49, partly offset by a 1.5% lower diluted...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2.5%",
+        "snippet": "...22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by a 1.5% lower diluted share count  . Operating cash flow rose 27% to $115.80 billion, but capital expenditures...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "27%",
+        "snippet": "...In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...principal nearly doubled to $72.22 billion, so free cash flow fell 16% to $43.59 billion  .  The balance sheet grew...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16%",
+        "snippet": "...to our tax landscape, we expect our effective tax rate for the full year 2026 to be in the range of 13-16%."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.98x",
+      "value": 2.98,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...were $81.59 billion, and the current ratio was 2.60x, down from 2.98x  . Off the balance sheet, leases not yet...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2.98 billion",
+        "snippet": "...through 2064. Short-term and long-term future interest payments obligations as of December 31, 2025 were $2.98 billion and $56.74 billion, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...would require operating cash flow to grow far faster than its 27% rise in 2025  . Net cash moved from -$2.31...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "27%",
+        "snippet": "...In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.4%",
+      "value": 14.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...date  . Earnings have also disappointed: EPS missed estimates by 14.4% and 29.3% in the June and September 2026...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "14.4%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $6.18 vs estimate $7.22 (surprise -14.4%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.3%",
+      "value": 29.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Earnings have also disappointed: EPS missed estimates by 14.4% and 29.3% in the June and September 2026 quarters  ....",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "29.3%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.1%",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 22.2% was the highest, ahead of Pinterest at 15.8%, Alphabet at 15.1% and Snap at 10.6%  . Its gross margin of 82.0%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15%",
+        "snippet": "...ARPP in 2025, which represents the sum of quarterly ARPP during such period, was $57.03, an increase of 15% from 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...highest, ahead of Pinterest at 15.8%, Alphabet at 15.1% and Snap at 10.6%  . Its gross margin of 82.0% was the highest,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SNAP Revenue Growth 2025: 10.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...shows what has weakened. Meta's return on invested capital fell to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.8%",
+      "value": 29.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...has weakened. Meta's return on invested capital fell to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta trades at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "ROIC 2024: 29.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.7%",
+      "value": 28.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on invested capital fell to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta trades at 16.25 times EV/EBITDA against...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "GOOGL ROIC 2025: 28.7%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.9",
+      "value": 1.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...platform spending heavily on AI, but its revenue is 1.9 times Meta's  . Snap and Pinterest are ad-funded...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,896",
+        "snippet": "Reality Labs 2,207 2,146 1,896 3 % 13 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Q4 2026 results (early 2027): ad impressions growth at or above 10% and average price per ad growth at or above 8%....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "...on our products. In 2025, the average price per ad increased by 9%, as compared with an increase of 10% in 2024, year-over-year. The increase in average price per ad in 2025 was driven by an increase in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth at or above 10% and average price per ad growth at or above 8%. Impressions or price per ad growth below 5% for...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8%",
+        "snippet": "Costs and expenses 96,290 75,246 28% 21,400 19,875 8% 117,690 95,121 24%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ad growth at or above 8%. Impressions or price per ad growth below 5% for two consecutive quarters, or FY2027...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5%",
+        "snippet": "...our violating accounts estimation. Accordingly, in the fourth quarter of 2025, we estimated that less than 5% of our worldwide DAP consisted solely of violating accounts. We believe the increase compared to our prior..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...re-rates so that the implied return on the consensus path exceeds 11.2%  . Reality Labs losses stay near $19 billion a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 22.9% to 22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.4%",
+      "value": 14.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The June and September 2026 quarters missed EPS estimates by 14.4% and 29.3%  . The FY2026      (early 2027)...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "14.4%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $6.18 vs estimate $7.22 (surprise -14.4%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.3%",
+      "value": 29.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...June and September 2026 quarters missed EPS estimates by 14.4% and 29.3%  . The FY2026      (early 2027) reports a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "29.3%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...nearly doubled to $72.22 billion in 2025, and 2026 guidance is $115–135 billion  . Holding operating cash flow at the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    }
+  ],
+  "total_claims": 194,
+  "matched": 183,
+  "match_rate": 0.943,
+  "by_kind": {
+    "money": {
+      "total": 76,
+      "matched": 73,
+      "context_matched": 73
+    },
+    "pct": {
+      "total": 94,
+      "matched": 86,
+      "context_matched": 61
+    },
+    "plain": {
+      "total": 18,
+      "matched": 18,
+      "context_matched": 16
+    },
+    "multiple": {
+      "total": 6,
+      "matched": 6,
+      "context_matched": 5
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 122,
+    "[2] Yahoo Finance": 17,
+    "[2][3] Liquidity and consensus": 33,
+    "[4] Peer data": 11
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "98%",
+      "value": 98.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$196.18 billion of the $200.97 billion total 2025 revenue, about 98%  . Family daily active people averaged 3.58...",
+      "section": "Business Overview",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operations rose 18% to $102.47 billion, although its margin fell to 52% from 54% as costs rose 28% to $96.29 billion,...",
+      "section": "Business Overview",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$1,559 billion",
+      "value": 1559.0,
+      "unit": "billion",
+      "money_mn": 1559000.0,
+      "decimals": 0,
+      "context": "...dilutes the average price per ad  . With a market capitalisation of $1,559 billion against Alphabet's $3,357.5 billion, Meta is...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$3,357.5 billion",
+      "value": 3357.5,
+      "unit": "billion",
+      "money_mn": 3357500.0,
+      "decimals": 1,
+      "context": ".... With a market capitalisation of $1,559 billion against Alphabet's $3,357.5 billion, Meta is valued at about 46% of Alphabet within...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "46%",
+      "value": 46.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against Alphabet's $3,357.5 billion, Meta is valued at about 46% of Alphabet within this peer set  .  Customers...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 20% to $83.28 billion, but the operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...20% to $83.28 billion, but the operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion after a...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "38%",
+      "value": 38.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the effective tax rate to 30%, so net margin dropped to 30% from 38%  . Diluted EPS fell 2% to $23.49, partly offset...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "....  The balance sheet grew faster than liquidity. Total assets rose 33% to $366.02 billion, total debt rose 71% to...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Total assets rose 33% to $366.02 billion, total debt rose 71% to $83.90 billion, and long-term debt more than...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$300 billion",
+      "value": 300.0,
+      "unit": "billion",
+      "money_mn": 300000.0,
+      "decimals": 0,
+      "context": "...5% for two consecutive quarters, or FY2027 consensus revenue below $300 billion (about 16% growth)  . Free cash flow falls again...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$72.22 billion",
+      "value": 72.22,
+      "unit": "billion",
+      "money_mn": 72220.0,
+      "decimals": 2,
+      "context": ".... Free cash flow should lag growth, because capex nearly doubled to $72.22 billion and 2026 guidance is $115–135 billion  . The...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "72.22 billion",
+        "snippet": "• Capital expenditures, including principal payments on finance leases, were $72.22 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115",
+      "value": 115.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...because capex nearly doubled to $72.22 billion and 2026 guidance is $115–135 billion  . The stock looks fully priced: the...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...while the consensus path returns 9.7%, below WACC  . Reality Labs' $19.19 billion loss is the main earnings drag; we see EPS risk...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Ad pricing and reach should keep driving growth, as 12% more impressions and a 9% higher price per ad...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "12%",
+        "snippet": "• Ad impressions delivered across our Family of Apps increased by 12% year-over-year in 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and reach should keep driving growth, as 12% more impressions and a 9% higher price per ad lifted revenue 22%  . Free...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "9%",
+        "snippet": "...across our Family of Apps in 2025 increased 12% year-over-year, and our average price per ad increased 9% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...as 12% more impressions and a 9% higher price per ad lifted revenue 22%  . Free cash flow should lag growth, because...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 21.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.7%",
+      "value": 17.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The stock looks fully priced: the current enterprise value needs 17.7% revenue growth for a decade, while the consensus...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "value",
+          "enterprise",
+          "revenue"
+        ],
+        "hl": "17.7%",
+        "snippet": "- The current enterprise value of $1,591,418.9 million implies revenue growth of 17.7% per year for 10 years (FY2025 revenue $200,966.0 million -> about $1,028,398.3 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...17.7% revenue growth for a decade, while the consensus path returns 9.7%, below WACC  . Reality Labs' $19.19 billion loss...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.7%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.7% per year (-1.5 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...capex nearly doubled to $72.22 billion and 2026 guidance is $115–135 billion  . The stock looks fully priced: the...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "capital"
+        ],
+        "hl": "135 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$200.97 billion",
+      "value": 200.97,
+      "unit": "billion",
+      "money_mn": 200970.0,
+      "decimals": 2,
+      "context": "Meta's 2025 results show a strong core business. Revenue grew 22% to $200.97 billion on 12% more ad impressions and a 9% higher price...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "200.97 billion",
+        "snippet": "Our financial results and key Family metrics for 2025 are set forth below. Total revenue for 2025 was $200.97 billion, an increase of 22% compared to 2024, due to an increase in advertising revenue. Ad impressions delivered..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.46 billion",
+      "value": 60.46,
+      "unit": "billion",
+      "money_mn": 60460.0,
+      "decimals": 2,
+      "context": "...higher price per ad  . Profit growth lagged: net income fell 3% to $60.46 billion after a $15.93 billion tax charge, and free cash...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60.46 billion",
+        "snippet": "• Net income was $60.46 billion, with diluted earnings per share (EPS) of $23.49 for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.93 billion",
+      "value": 15.93,
+      "unit": "billion",
+      "money_mn": 15930.0,
+      "decimals": 2,
+      "context": ".... Profit growth lagged: net income fell 3% to $60.46 billion after a $15.93 billion tax charge, and free cash flow fell 16% to...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15.93 billion",
+        "snippet": "...provisions are limited by the 15% Corporate Alternative Minimum Tax (CAMT). As a result, we recorded a $15.93 billion charge in the third quarter of 2025, of which $14.03 billion was a valuation allowance against our U.S...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.59 billion",
+      "value": 43.59,
+      "unit": "billion",
+      "money_mn": 43590.0,
+      "decimals": 2,
+      "context": "...after a $15.93 billion tax charge, and free cash flow fell 16% to $43.59 billion as capex nearly doubled  .  Since the     ,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "43,585",
+        "snippet": "Free cash flow $ 43,585 $ 52,103 $ 43,010"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...growth to stay near its historical pace. Main risks are the $19.19 billion Reality Labs loss and $115–135 billion of 2026...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115",
+      "value": 115.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...pace. Main risks are the $19.19 billion Reality Labs loss and $115–135 billion of 2026 capex guidance  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Meta's 2025 results show a strong core business. Revenue grew 22% to $200.97 billion on 12% more ad impressions...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 21.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...show a strong core business. Revenue grew 22% to $200.97 billion on 12% more ad impressions and a 9% higher price per ad...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "12%",
+        "snippet": "• Ad impressions delivered across our Family of Apps increased by 12% year-over-year in 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 22% to $200.97 billion on 12% more ad impressions and a 9% higher price per ad  . Profit growth lagged: net...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "9%",
+        "snippet": "...across our Family of Apps in 2025 increased 12% year-over-year, and our average price per ad increased 9% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a 9% higher price per ad  . Profit growth lagged: net income fell 3% to $60.46 billion after a $15.93 billion tax...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "...Family metrics to vary from period to period, we estimate that such margin generally will be approximately 3% of our worldwide DAP. At our scale, it is very difficult to attribute multiple user accounts within and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion after a $15.93 billion tax charge, and free cash flow fell 16% to $43.59 billion as capex nearly doubled...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16%",
+        "snippet": "...to our tax landscape, we expect our effective tax rate for the full year 2026 to be in the range of 13-16%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against the stock on near-term earnings. FY2026 EPS estimates fell 8.5% over 90 days, and the June and September 2026...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "8.5%",
+        "snippet": "...consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.4%",
+      "value": 14.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...over 90 days, and the June and September 2026 quarters missed by 14.4% and 29.3%  . Consensus still expects revenue...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "14.4%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $6.18 vs estimate $7.22 (surprise -14.4%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.3%",
+      "value": 29.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...days, and the June and September 2026 quarters missed by 14.4% and 29.3%  . Consensus still expects revenue growth of...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "29.3%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.8%",
+      "value": 27.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...by 14.4% and 29.3%  . Consensus still expects revenue growth of 27.8% in FY2026 and 21.9% in FY2027  .  Valuation is...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "27.8%",
+        "snippet": "- FY2026E: revenue $256,909.6 million (range $255,646.0 million to $259,775.5 million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.9%",
+      "value": 21.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus still expects revenue growth of 27.8% in FY2026 and 21.9% in FY2027  .  Valuation is the key question. The...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 21.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.7%",
+      "value": 17.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...FY2027  .  Valuation is the key question. The reverse DCF   implies 17.7% annual revenue growth for ten years to justify...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "17.7%",
+        "snippet": "- The current enterprise value of $1,591,418.9 million implies revenue growth of 17.7% per year for 10 years (FY2025 revenue $200,966.0 million -> about $1,028,398.3 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.9%",
+      "value": 19.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for ten years to justify the current enterprise value, close to the 19.9% three-year historical CAGR but well above the...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "19.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...above the fading consensus path. On that path the implied return is 9.7%, below the 11.2% WACC. The price therefore...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.7%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.7% per year (-1.5 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus path. On that path the implied return is 9.7%, below the 11.2% WACC. The price therefore requires growth to...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 22.9% to 22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...stock on near-term earnings. FY2026 EPS estimates fell 8.5% over 90 days, and the June and September 2026 quarters...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...pace. Main risks are the $19.19 billion Reality Labs loss and $115–135 billion of 2026 capex guidance  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "labs",
+          "reality"
+        ],
+        "hl": "134,902",
+        "snippet": "Total revenue $ 200,966 $ 164,501 $ 134,902 22 % 22 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$196.18 billion",
+      "value": 196.18,
+      "unit": "billion",
+      "money_mn": 196180.0,
+      "decimals": 2,
+      "context": "...Quest headsets and Ray-Ban Meta AI glasses  . Advertising generated $196.18 billion of the $200.97 billion total 2025 revenue, about...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "196,175",
+        "snippet": "Advertising $ 196,175 $ 160,633 $ 131,948 22 % 22 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$200.97 billion",
+      "value": 200.97,
+      "unit": "billion",
+      "money_mn": 200970.0,
+      "decimals": 2,
+      "context": "...Meta AI glasses  . Advertising generated $196.18 billion of the $200.97 billion total 2025 revenue, about 98%  . Family daily...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "200.97 billion",
+        "snippet": "Our financial results and key Family metrics for 2025 are set forth below. Total revenue for 2025 was $200.97 billion, an increase of 22% compared to 2024, due to an increase in advertising revenue. Ad impressions delivered..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.58 billion",
+      "value": 2.58,
+      "unit": "billion",
+      "money_mn": 2580.0,
+      "decimals": 2,
+      "context": "...driven by WhatsApp paid messaging and Meta Verified, rose 50% to $2.58 billion  .  The two segments differ sharply in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,584",
+        "snippet": "Other revenue 2,584 1,722 1,058 50 % 63 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$198.76 billion",
+      "value": 198.76,
+      "unit": "billion",
+      "money_mn": 198760.0,
+      "decimals": 2,
+      "context": "...differ sharply in economics. Family of Apps revenue rose 22% to $198.76 billion, and segment income from operations rose 18% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "198,759",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$102.47 billion",
+      "value": 102.47,
+      "unit": "billion",
+      "money_mn": 102470.0,
+      "decimals": 2,
+      "context": "...to $198.76 billion, and segment income from operations rose 18% to $102.47 billion, although its margin fell to 52% from 54% as...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "102,469",
+        "snippet": "Income (loss) from operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$96.29 billion",
+      "value": 96.29,
+      "unit": "billion",
+      "money_mn": 96290.0,
+      "decimals": 2,
+      "context": "...although its margin fell to 52% from 54% as costs rose 28% to $96.29 billion, mainly on employee compensation,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "96.29 billion",
+        "snippet": "...our total costs and expenses were recognized in FoA and 18% were recognized in RL. Our FoA investments were $96.29 billion in 2025 and include expenses relating to headcount, data centers and technical infrastructure as part of our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.21 billion",
+      "value": 2.21,
+      "unit": "billion",
+      "money_mn": 2210.0,
+      "decimals": 2,
+      "context": "...and legal-related costs  . Reality Labs revenue grew only 3% to $2.21 billion, helped by AI glasses and partly offset by lower...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,207",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...by lower Meta Quest sales, while its operating loss widened 8% to $19.19 billion  . Management expects 2026 Reality Labs losses...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$31.57 billion",
+      "value": 31.57,
+      "unit": "billion",
+      "money_mn": 31570.0,
+      "decimals": 2,
+      "context": "...Display with the Meta Neural Band  . Capital returns totalled $31.57 billion, including $26.26 billion of buybacks, and the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31.57 billion",
+        "snippet": "...expenditures, which includes purchases of property and equipment and principal payments on finance leases; $31.57 billion of capital returns for repurchases of our Class A common stock and payments of dividends and dividend..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.26 billion",
+      "value": 26.26,
+      "unit": "billion",
+      "money_mn": 26260.0,
+      "decimals": 2,
+      "context": "...Neural Band  . Capital returns totalled $31.57 billion, including $26.26 billion of buybacks, and the quarterly dividend rose to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "26.26 billion",
+        "snippet": "• Share repurchases of our Class A common stock were $26.26 billion and total dividend and dividend equivalent payments were $5.32 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.525",
+      "value": 0.525,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 3,
+      "context": "...$26.26 billion of buybacks, and the quarterly dividend rose to $0.525  . At a closing price of $667.01, the market...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.525",
+        "snippet": "Beginning in the first quarter of 2025, we increased our quarterly cash dividends from $0.50 to $0.525 per share of Class A and Class B common stock. Total dividends and dividend equivalents paid were $5.32..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$667.01",
+      "value": 667.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and the quarterly dividend rose to $0.525  . At a closing price of $667.01, the market value is about $1.87 trillion, with...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "667.01",
+        "snippet": "667.01"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.87 trillion",
+      "value": 1.87,
+      "unit": "trillion",
+      "money_mn": 1870000.0,
+      "decimals": 2,
+      "context": "...$0.525  . At a closing price of $667.01, the market value is about $1.87 trillion, with a 52-week range of $477.49 to $793.02  ....",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "1867657.27",
+        "snippet": "1867657.27"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$477.49",
+      "value": 477.49,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the market value is about $1.87 trillion, with a 52-week range of $477.49 to $793.02  . Consensus carries a Buy rating and...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "477.49",
+        "snippet": "477.49 - 793.02"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$793.02",
+      "value": 793.02,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...value is about $1.87 trillion, with a 52-week range of $477.49 to $793.02  . Consensus carries a Buy rating and a mean...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "793.02",
+        "snippet": "477.49 - 793.02"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$842.54",
+      "value": 842.54,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to $793.02  . Consensus carries a Buy rating and a mean target of $842.54, with a range of $650 to $1,050  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "842.54",
+        "snippet": "842.54 (range 650.00 - 1050.00), current consensus as of 2026-11-26, not as of 2026-01-29"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$650",
+      "value": 650.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...carries a Buy rating and a mean target of $842.54, with a range of $650 to $1,050  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "650)",
+        "snippet": "...executive offices are located at 1 Meta Way, Menlo Park, California 94025, and our telephone number is (650) 543-4800."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,050",
+      "value": 1050.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a Buy rating and a mean target of $842.54, with a range of $650 to $1,050  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "1050.00)",
+        "snippet": "842.54 (range 650.00 - 1050.00), current consensus as of 2026-11-26, not as of 2026-01-29"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "98%",
+      "value": 98.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$196.18 billion of the $200.97 billion total 2025 revenue, about 98%  . Family daily active people averaged 3.58...",
+      "section": "Business Overview",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...daily active people averaged 3.58 billion in December 2025, up 7%, and ad impressions rose 12% while the average...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "impression",
+          "average",
+          "december"
+        ],
+        "hl": "7%",
+        "snippet": "• Family daily active people (DAP) was 3.58 billion on average for December 2025, an increase of 7% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...3.58 billion in December 2025, up 7%, and ad impressions rose 12% while the average price per ad rose 9%  . Other...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "12%",
+        "snippet": "• Ad impressions delivered across our Family of Apps increased by 12% year-over-year in 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...7%, and ad impressions rose 12% while the average price per ad rose 9%  . Other revenue, driven by WhatsApp paid...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "9%",
+        "snippet": "...across our Family of Apps in 2025 increased 12% year-over-year, and our average price per ad increased 9% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue, driven by WhatsApp paid messaging and Meta Verified, rose 50% to $2.58 billion  .  The two segments differ...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50%",
+        "snippet": "FoA other revenue in 2025 increased $862 million, or 50%, compared to 2024. The increase was mostly driven by paid messaging from WhatsApp and Meta Verified..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...segments differ sharply in economics. Family of Apps revenue rose 22% to $198.76 billion, and segment income from...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "income",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...22% to $198.76 billion, and segment income from operations rose 18% to $102.47 billion, although its margin fell to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operation",
+          "income"
+        ],
+        "hl": "18%",
+        "snippet": "Income (loss) from operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operations rose 18% to $102.47 billion, although its margin fell to 52% from 54% as costs rose 28% to $96.29 billion,...",
+      "section": "Business Overview",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "54%",
+      "value": 54.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 18% to $102.47 billion, although its margin fell to 52% from 54% as costs rose 28% to $96.29 billion, mainly on...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "SNAP Gross Margin 2023: 54.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion, although its margin fell to 52% from 54% as costs rose 28% to $96.29 billion, mainly on employee...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "28%",
+        "snippet": "Costs and expenses 96,290 75,246 28% 21,400 19,875 8% 117,690 95,121 24%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and legal-related costs  . Reality Labs revenue grew only 3% to $2.21 billion, helped by AI glasses and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "2.5%",
+        "snippet": "...(IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.7% per year (-1.5 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...offset by lower Meta Quest sales, while its operating loss widened 8% to $19.19 billion  . Management expects 2026...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "loss",
+          "operating",
+          "revenue"
+        ],
+        "hl": "8)%",
+        "snippet": "Income (loss) from operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.58",
+      "value": 3.58,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...2025 revenue, about 98%  . Family daily active people averaged 3.58 billion in December 2025, up 7%, and ad...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "active",
+          "daily",
+          "people",
+          "family",
+          "december"
+        ],
+        "hl": "3.58 billion",
+        "snippet": "• Family daily active people (DAP) was 3.58 billion on average for December 2025, an increase of 7% year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,559 billion",
+      "value": 1559.0,
+      "unit": "billion",
+      "money_mn": 1559000.0,
+      "decimals": 0,
+      "context": "...dilutes the average price per ad  . With a market capitalisation of $1,559 billion against Alphabet's $3,357.5 billion, Meta is...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$3,357.5 billion",
+      "value": 3357.5,
+      "unit": "billion",
+      "money_mn": 3357500.0,
+      "decimals": 1,
+      "context": ".... With a market capitalisation of $1,559 billion against Alphabet's $3,357.5 billion, Meta is valued at about 46% of Alphabet within...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...end market is global, but growth varies by geography. Revenue grew 21% in the United States and Canada, 24% in Europe,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "canada",
+          "united",
+          "stat",
+          "revenue"
+        ],
+        "hl": "21%",
+        "snippet": "...primarily in geographies that monetize at lower rates, such as Asia-Pacific. In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by geography. Revenue grew 21% in the United States and Canada, 24% in Europe, 20% in Asia-Pacific and 27% in Rest...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "europe",
+          "united",
+          "canada",
+          "stat",
+          "asia-pacific",
+          "revenue"
+        ],
+        "hl": "24%",
+        "snippet": "...monetize at lower rates, such as Asia-Pacific. In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue grew 21% in the United States and Canada, 24% in Europe, 20% in Asia-Pacific and 27% in Rest of World in 2025...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "europe",
+          "united",
+          "canada",
+          "stat",
+          "asia-pacific"
+        ],
+        "hl": "20%",
+        "snippet": "...rates, such as Asia-Pacific. In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...United States and Canada, 24% in Europe, 20% in Asia-Pacific and 27% in Rest of World in 2025  . Impression growth is...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "rest",
+          "europe",
+          "united",
+          "canada",
+          "world",
+          "stat",
+          "asia-pacific"
+        ],
+        "hl": "27%",
+        "snippet": "...In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46%",
+      "value": 46.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against Alphabet's $3,357.5 billion, Meta is valued at about 46% of Alphabet within this peer set  .  Customers...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "21.0x",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in a limited fashion  . On FY2026 consensus, the shares trade at 21.0x forward earnings and 6.2x forward EV/Sales  .",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "21.0",
+        "snippet": "...million to $259,775.5 million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "6.2x",
+      "value": 6.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...On FY2026 consensus, the shares trade at 21.0x forward earnings and 6.2x forward EV/Sales  .",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "6.2",
+        "snippet": "...million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.58",
+      "value": 3.58,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...model limits targeting  .  Meta's position rests on user reach. Its 3.58 billion average daily active people and its...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "active",
+          "daily",
+          "people",
+          "average"
+        ],
+        "hl": "3.58 billion",
+        "snippet": "• Family daily active people (DAP) was 3.58 billion on average for December 2025, an increase of 7% year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$200.97 billion",
+      "value": 200.97,
+      "unit": "billion",
+      "money_mn": 200970.0,
+      "decimals": 2,
+      "context": "Revenue rose 22% to $200.97 billion in 2025, with advertising at $196.18 billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "200.97 billion",
+        "snippet": "Our financial results and key Family metrics for 2025 are set forth below. Total revenue for 2025 was $200.97 billion, an increase of 22% compared to 2024, due to an increase in advertising revenue. Ad impressions delivered..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$196.18 billion",
+      "value": 196.18,
+      "unit": "billion",
+      "money_mn": 196180.0,
+      "decimals": 2,
+      "context": "Revenue rose 22% to $200.97 billion in 2025, with advertising at $196.18 billion (+22%) on 12% more ad impressions and a 9%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "196,175",
+        "snippet": "Advertising $ 196,175 $ 160,633 $ 131,948 22 % 22 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.58 billion",
+      "value": 2.58,
+      "unit": "billion",
+      "money_mn": 2580.0,
+      "decimals": 2,
+      "context": "...and a 9% higher average price per ad  . Other revenue rose 50% to $2.58 billion  . Cost of revenue grew 20% but stayed at 18% of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,584",
+        "snippet": "Other revenue 2,584 1,722 1,058 50 % 63 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$57.37 billion",
+      "value": 57.37,
+      "unit": "billion",
+      "money_mn": 57370.0,
+      "decimals": 2,
+      "context": "...from 81.7%  . R&D was the largest cost increase, rising 31% to $57.37 billion on compensation and AI infrastructure...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "57,372",
+        "snippet": "Research and development 57,372 43,873 38,483"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$83.28 billion",
+      "value": 83.28,
+      "unit": "billion",
+      "money_mn": 83280.0,
+      "decimals": 2,
+      "context": "...compensation and AI infrastructure  .  Operating income rose 20% to $83.28 billion, but the operating margin slipped to 41% from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "83.28 billion",
+        "snippet": "Income from operations for 2025 was $83.28 billion, an increase of $13.90 billion, or 20%, compared to 2024, driven by an increase in advertising revenue,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.46 billion",
+      "value": 60.46,
+      "unit": "billion",
+      "money_mn": 60460.0,
+      "decimals": 2,
+      "context": "...operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion after a $15.93 billion One Big Beautiful Bill...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60.46 billion",
+        "snippet": "• Net income was $60.46 billion, with diluted earnings per share (EPS) of $23.49 for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.93 billion",
+      "value": 15.93,
+      "unit": "billion",
+      "money_mn": 15930.0,
+      "decimals": 2,
+      "context": "...to 41% from 42%  . Net income fell 3% to $60.46 billion after a $15.93 billion One Big Beautiful Bill Act tax charge lifted the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15.93 billion",
+        "snippet": "...provisions are limited by the 15% Corporate Alternative Minimum Tax (CAMT). As a result, we recorded a $15.93 billion charge in the third quarter of 2025, of which $14.03 billion was a valuation allowance against our U.S...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.49",
+      "value": 23.49,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...so net margin dropped to 30% from 38%  . Diluted EPS fell 2% to $23.49, partly offset by a 1.5% lower diluted share...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23.49",
+        "snippet": "• Net income was $60.46 billion, with diluted earnings per share (EPS) of $23.49 for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115.80 billion",
+      "value": 115.8,
+      "unit": "billion",
+      "money_mn": 115800.0,
+      "decimals": 2,
+      "context": "...a 1.5% lower diluted share count  . Operating cash flow rose 27% to $115.80 billion, but capital expenditures including finance...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115.80 billion",
+        "snippet": "...as of December 31, 2025, an increase of $3.78 billion from December 31, 2024. The increase was due to $115.80 billion of cash generated from operations and $29.91 billion of net proceeds from the issuance of fixed-rate senior..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$72.22 billion",
+      "value": 72.22,
+      "unit": "billion",
+      "money_mn": 72220.0,
+      "decimals": 2,
+      "context": "...expenditures including finance lease principal nearly doubled to $72.22 billion, so free cash flow fell 16% to $43.59 billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "72.22 billion",
+        "snippet": "• Capital expenditures, including principal payments on finance leases, were $72.22 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.59 billion",
+      "value": 43.59,
+      "unit": "billion",
+      "money_mn": 43590.0,
+      "decimals": 2,
+      "context": "...nearly doubled to $72.22 billion, so free cash flow fell 16% to $43.59 billion  .  The balance sheet grew faster than...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "43,585",
+        "snippet": "Free cash flow $ 43,585 $ 52,103 $ 43,010"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$366.02 billion",
+      "value": 366.02,
+      "unit": "billion",
+      "money_mn": 366020.0,
+      "decimals": 2,
+      "context": "...balance sheet grew faster than liquidity. Total assets rose 33% to $366.02 billion, total debt rose 71% to $83.90 billion, and...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Assets 2025-12-31: 366,021,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$83.90 billion",
+      "value": 83.9,
+      "unit": "billion",
+      "money_mn": 83900.0,
+      "decimals": 2,
+      "context": "...Total assets rose 33% to $366.02 billion, total debt rose 71% to $83.90 billion, and long-term debt more than doubled to $58.74...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 83,897,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$58.74 billion",
+      "value": 58.74,
+      "unit": "billion",
+      "money_mn": 58740.0,
+      "decimals": 2,
+      "context": "...rose 71% to $83.90 billion, and long-term debt more than doubled to $58.74 billion  . Cash and securities were $81.59 billion, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "58.74 billion",
+        "snippet": "• Long-term debt was $58.74 billion as of December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$81.59 billion",
+      "value": 81.59,
+      "unit": "billion",
+      "money_mn": 81590.0,
+      "decimals": 2,
+      "context": "...more than doubled to $58.74 billion  . Cash and securities were $81.59 billion, and the current ratio was 2.60x, down from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "81.59 billion",
+        "snippet": "• Cash, cash equivalents, and marketable securities were $81.59 billion as of December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$103.77 billion",
+      "value": 103.77,
+      "unit": "billion",
+      "money_mn": 103770.0,
+      "decimals": 2,
+      "context": "...from 2.98x  . Off the balance sheet, leases not yet commenced total $103.77 billion and contractual commitments total $131.05...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "103.77 billion",
+        "snippet": "...balance sheets, we have leases that have not yet commenced, with total lease obligations of approximately $103.77 billion, mostly for data centers, colocations, and network infrastructure, as of December 31, 2025. These operating..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$131.05 billion",
+      "value": 131.05,
+      "unit": "billion",
+      "money_mn": 131050.00000000001,
+      "decimals": 2,
+      "context": "...commenced total $103.77 billion and contractual commitments total $131.05 billion  . Since the     , the position has tightened:...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "131.05 billion",
+        "snippet": "We also have $131.05 billion of contractual commitments as of December 31, 2025, mostly related to third-party cloud capacity..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$114.84 billion",
+      "value": 114.84,
+      "unit": "billion",
+      "money_mn": 114840.0,
+      "decimals": 2,
+      "context": "...the     , the position has tightened: at           , total debt was $114.84 billion, net cash was -$32.39 billion and trailing free...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$32.39 billion",
+      "value": 32.39,
+      "unit": "billion",
+      "money_mn": 32390.0,
+      "decimals": 2,
+      "context": "...at           , total debt was $114.84 billion, net cash was -$32.39 billion and trailing free cash flow was $28.65 billion...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "32,393.0 million",
+        "snippet": "...(2026-09-30): cash and short-term investments $82,449.0 million, total debt $114,842.0 million, net cash -$32,393.0 million, TTM free cash flow $28,649.0 million, cash runway at that burn self-funded, current ratio 1.9x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.65 billion",
+      "value": 28.65,
+      "unit": "billion",
+      "money_mn": 28650.0,
+      "decimals": 2,
+      "context": "...net cash was -$32.39 billion and trailing free cash flow was $28.65 billion  . Consensus expects FY2026 EPS of $29.01  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "28,649.0 million",
+        "snippet": "...$82,449.0 million, total debt $114,842.0 million, net cash -$32,393.0 million, TTM free cash flow $28,649.0 million, cash runway at that burn self-funded, current ratio 1.9x, shares outstanding 2,556.8 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.01",
+      "value": 29.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...cash flow was $28.65 billion  . Consensus expects FY2026 EPS of $29.01  .",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29",
+        "snippet": "29 Table of Contents"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue rose 22% to $200.97 billion in 2025, with advertising at...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "advertising",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "Advertising revenue in 2025 increased $35.54 billion, or 22%, compared to 2024 due to increases in ad impressions delivered and average price per ad. In 2025, ad..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $200.97 billion in 2025, with advertising at $196.18 billion (+22%) on 12% more ad impressions and a 9% higher...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "advertising"
+        ],
+        "hl": "22%",
+        "snippet": "Advertising revenue in 2025 increased $35.54 billion, or 22%, compared to 2024 due to increases in ad impressions delivered and average price per ad. In 2025, ad..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion in 2025, with advertising at $196.18 billion (+22%) on 12% more ad impressions and a 9% higher average...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "impression"
+        ],
+        "hl": "12%",
+        "snippet": "...in ad impressions delivered and average price per ad. In 2025, ad impressions delivered increased by 12%, as compared with an increase of 11% in 2024, year-over-year. Ad impressions delivered during 2025 grew in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...at $196.18 billion (+22%) on 12% more ad impressions and a 9% higher average price per ad  . Other revenue...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "9%",
+        "snippet": "...across our Family of Apps in 2025 increased 12% year-over-year, and our average price per ad increased 9% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and a 9% higher average price per ad  . Other revenue rose 50% to $2.58 billion  . Cost of revenue grew 20% but...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50%",
+        "snippet": "FoA other revenue in 2025 increased $862 million, or 50%, compared to 2024. The increase was mostly driven by paid messaging from WhatsApp and Meta Verified..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Other revenue rose 50% to $2.58 billion  . Cost of revenue grew 20% but stayed at 18% of revenue, and gross margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cost",
+          "revenue"
+        ],
+        "hl": "20%",
+        "snippet": "...operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 50% to $2.58 billion  . Cost of revenue grew 20% but stayed at 18% of revenue, and gross margin edged up to 82.0%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cost",
+          "revenue"
+        ],
+        "hl": "18%",
+        "snippet": "Income (loss) from operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82.0%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...grew 20% but stayed at 18% of revenue, and gross margin edged up to 82.0% from 81.7%  . R&D was the largest cost increase,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 82.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "81.7%",
+      "value": 81.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...stayed at 18% of revenue, and gross margin edged up to 82.0% from 81.7%  . R&D was the largest cost increase, rising 31%...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 81.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up to 82.0% from 81.7%  . R&D was the largest cost increase, rising 31% to $57.37 billion on compensation and AI...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31%",
+        "snippet": "Research and development expenses in 2025 increased $13.50 billion, or 31%, compared to 2024. The increase was mostly due to higher employee compensation and infrastructure costs..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...on compensation and AI infrastructure  .  Operating income rose 20% to $83.28 billion, but the operating margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "income"
+        ],
+        "hl": "20%",
+        "snippet": "...operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 20% to $83.28 billion, but the operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...20% to $83.28 billion, but the operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion after a...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but the operating margin slipped to 41% from 42%  . Net income fell 3% to $60.46 billion after a $15.93 billion One Big...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "...Family metrics to vary from period to period, we estimate that such margin generally will be approximately 3% of our worldwide DAP. At our scale, it is very difficult to attribute multiple user accounts within and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Big Beautiful Bill Act tax charge lifted the effective tax rate to 30%, so net margin dropped to 30% from 38%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "rate",
+          "effective",
+          "tax"
+        ],
+        "hl": "30%",
+        "snippet": "• Effective tax rate was 30% for the year ended December 31, 2025. This includes the effects of the implementation of the One Big..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...lifted the effective tax rate to 30%, so net margin dropped to 30% from 38%  . Diluted EPS fell 2% to $23.49,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "rate",
+          "effective",
+          "tax"
+        ],
+        "hl": "30%",
+        "snippet": "• Effective tax rate was 30% for the year ended December 31, 2025. This includes the effects of the implementation of the One Big..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38%",
+      "value": 38.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the effective tax rate to 30%, so net margin dropped to 30% from 38%  . Diluted EPS fell 2% to $23.49, partly offset...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 30%, so net margin dropped to 30% from 38%  . Diluted EPS fell 2% to $23.49, partly offset by a 1.5% lower diluted...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2.5%",
+        "snippet": "...22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.5%",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...30% from 38%  . Diluted EPS fell 2% to $23.49, partly offset by a 1.5% lower diluted share count  . Operating cash flow...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "count"
+        ],
+        "hl": "1.4%",
+        "snippet": "...at that burn self-funded, current ratio 1.9x, shares outstanding 2,556.8 million, change in share count y/y +1.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by a 1.5% lower diluted share count  . Operating cash flow rose 27% to $115.80 billion, but capital expenditures...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "27%",
+        "snippet": "...In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...principal nearly doubled to $72.22 billion, so free cash flow fell 16% to $43.59 billion  .  The balance sheet grew...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16%",
+        "snippet": "...to our tax landscape, we expect our effective tax rate for the full year 2026 to be in the range of 13-16%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "....  The balance sheet grew faster than liquidity. Total assets rose 33% to $366.02 billion, total debt rose 71% to...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Total assets rose 33% to $366.02 billion, total debt rose 71% to $83.90 billion, and long-term debt more than...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "2.60x",
+      "value": 2.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Cash and securities were $81.59 billion, and the current ratio was 2.60x, down from 2.98x  . Off the balance sheet,...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio",
+          "cashflow"
+        ],
+        "hl": "2.6",
+        "snippet": "...-$2,305.0 million, free cash flow $46,109.0 million, cash runway at that burn self-funded, current ratio 2.6x, shares outstanding 2,529.6 million, change in share count y/y -0.2%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.98x",
+      "value": 2.98,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...were $81.59 billion, and the current ratio was 2.60x, down from 2.98x  . Off the balance sheet, leases not yet...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2.98 billion",
+        "snippet": "...through 2064. Short-term and long-term future interest payments obligations as of December 31, 2025 were $2.98 billion and $56.74 billion, respectively."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...funding risk is now the largest financial one. Reality Labs lost $19.19 billion in 2025, with similar losses expected in 2026,...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115",
+      "value": 115.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2025, with similar losses expected in 2026, and capex guidance of $115 to $135 billion would require operating cash...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$135 billion",
+      "value": 135.0,
+      "unit": "billion",
+      "money_mn": 135000.0,
+      "decimals": 0,
+      "context": "...with similar losses expected in 2026, and capex guidance of $115 to $135 billion would require operating cash flow to grow far...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$2.31 billion",
+      "value": 2.31,
+      "unit": "billion",
+      "money_mn": 2310.0,
+      "decimals": 2,
+      "context": "...to grow far faster than its 27% rise in 2025  . Net cash moved from -$2.31 billion at fiscal year-end to -$32.39 billion at...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2,305.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $81,592.0 million, total debt $83,897.0 million, net cash -$2,305.0 million, free cash flow $46,109.0 million, cash runway at that burn self-funded, current ratio 2.6x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$32.39 billion",
+      "value": 32.39,
+      "unit": "billion",
+      "money_mn": 32390.0,
+      "decimals": 2,
+      "context": "...in 2025  . Net cash moved from -$2.31 billion at fiscal year-end to -$32.39 billion at           , and shares outstanding rose 1.4%...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "32,393.0 million",
+        "snippet": "...(2026-09-30): cash and short-term investments $82,449.0 million, total debt $114,842.0 million, net cash -$32,393.0 million, TTM free cash flow $28,649.0 million, cash runway at that burn self-funded, current ratio 1.9x, shares..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...would require operating cash flow to grow far faster than its 27% rise in 2025  . Net cash moved from -$2.31...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "27%",
+        "snippet": "...In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.4%",
+      "value": 1.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to -$32.39 billion at           , and shares outstanding rose 1.4% year on year at that date  . Earnings have also...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "outstanding"
+        ],
+        "hl": "1.4%",
+        "snippet": "...at that burn self-funded, current ratio 1.9x, shares outstanding 2,556.8 million, change in share count y/y +1.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.4%",
+      "value": 14.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...date  . Earnings have also disappointed: EPS missed estimates by 14.4% and 29.3% in the June and September 2026...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "14.4%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $6.18 vs estimate $7.22 (surprise -14.4%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.3%",
+      "value": 29.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Earnings have also disappointed: EPS missed estimates by 14.4% and 29.3% in the June and September 2026 quarters  ....",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "29.3%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.30",
+      "value": 8.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Financial quality scores are mixed: the Altman Z-Score is 8.30 and the Beneish M-Score is -3.01, but the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "z-score",
+          "altman"
+        ],
+        "hl": "8.30",
+        "snippet": "- Altman Z-Score: 8.30 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-3.01",
+      "value": 3.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...are mixed: the Altman Z-Score is 8.30 and the Beneish M-Score is -3.01, but the Piotroski F-Score is 5 of 9  .",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "beneish",
+          "m-score"
+        ],
+        "hl": "3.01",
+        "snippet": "- Beneish M-Score: -3.01 (below -1.78: no statistical warning sign)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "5",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...8.30 and the Beneish M-Score is -3.01, but the Piotroski F-Score is 5 of 9  .",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "f-score",
+          "piotroski"
+        ],
+        "hl": "5",
+        "snippet": "- Piotroski F-Score: 5 of 9 available criteria; failed: Return on assets improved, Leverage (long-term debt / assets) lower, Current..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the Beneish M-Score is -3.01, but the Piotroski F-Score is 5 of 9  .",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "f-score",
+          "piotroski"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 5 of 9 available criteria; failed: Return on assets improved, Leverage (long-term debt / assets) lower, Current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.93 billion",
+      "value": 5.93,
+      "unit": "billion",
+      "money_mn": 5930.0,
+      "decimals": 2,
+      "context": "...model, but they are far smaller, with 2025 revenue of $5.93 billion and $4.22 billion respectively  . Reddit and The...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SNAP Revenue 2025: 5931"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.22 billion",
+      "value": 4.22,
+      "unit": "billion",
+      "money_mn": 4220.0,
+      "decimals": 2,
+      "context": "...but they are far smaller, with 2025 revenue of $5.93 billion and $4.22 billion respectively  . Reddit and The Trade Desk were...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PINS Total Revenue 2025-12-31: 4,221,767,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...leads the group on growth and margins. Its 2025 revenue growth of 22.2% was the highest, ahead of Pinterest at 15.8%,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.8%",
+      "value": 15.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2025 revenue growth of 22.2% was the highest, ahead of Pinterest at 15.8%, Alphabet at 15.1% and Snap at 10.6%  . Its...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2023: 15.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.1%",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 22.2% was the highest, ahead of Pinterest at 15.8%, Alphabet at 15.1% and Snap at 10.6%  . Its gross margin of 82.0%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15%",
+        "snippet": "...ARPP in 2025, which represents the sum of quarterly ARPP during such period, was $57.03, an increase of 15% from 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...highest, ahead of Pinterest at 15.8%, Alphabet at 15.1% and Snap at 10.6%  . Its gross margin of 82.0% was the highest,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SNAP Revenue Growth 2025: 10.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82.0%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...15.8%, Alphabet at 15.1% and Snap at 10.6%  . Its gross margin of 82.0% was the highest, against 80.1% for Pinterest and...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 82.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "80.1%",
+      "value": 80.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Snap at 10.6%  . Its gross margin of 82.0% was the highest, against 80.1% for Pinterest and 59.7% for Alphabet, and its...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "PINS Gross Margin 2025: 80.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.7%",
+      "value": 59.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin of 82.0% was the highest, against 80.1% for Pinterest and 59.7% for Alphabet, and its EBITDA margin of 52.6%...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "GOOGL Gross Margin 2025: 59.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52.6%",
+      "value": 52.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for Pinterest and 59.7% for Alphabet, and its EBITDA margin of 52.6% compared with 44.9% for Alphabet  . Its free...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 52.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.9%",
+      "value": 44.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...59.7% for Alphabet, and its EBITDA margin of 52.6% compared with 44.9% for Alphabet  . Its free cash flow conversion of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "GOOGL EBITDA Margin 2025: 44.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...shows what has weakened. Meta's return on invested capital fell to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.8%",
+      "value": 29.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...has weakened. Meta's return on invested capital fell to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta trades at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "ROIC 2024: 29.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.7%",
+      "value": 28.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on invested capital fell to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta trades at 16.25 times EV/EBITDA against...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "GOOGL ROIC 2025: 28.7%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.9",
+      "value": 1.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...platform spending heavily on AI, but its revenue is 1.9 times Meta's  . Snap and Pinterest are ad-funded...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,896",
+        "snippet": "Reality Labs 2,207 2,146 1,896 3 % 13 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.76",
+      "value": 0.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...with 44.9% for Alphabet  . Its free cash flow conversion of 0.76 also beat Alphabet's 0.55  .  The comparison...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "FCF Conversion 2025: 0.76"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.55",
+      "value": 0.55,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Its free cash flow conversion of 0.76 also beat Alphabet's 0.55  .  The comparison also shows what has weakened....",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "GOOGL FCF Conversion 2025: 0.55"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "16.25",
+      "value": 16.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to 22.2% from 29.8%, while Alphabet's was 28.7%  . Meta trades at 16.25 times EV/EBITDA against Alphabet's 21.1 times,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 16.25"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "21.1",
+      "value": 21.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...28.7%  . Meta trades at 16.25 times EV/EBITDA against Alphabet's 21.1 times, so it is the cheaper of the two on this...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "GOOGL EV/EBITDA 2025: 21.1"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "47.81",
+      "value": 47.81,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is not meaningful, and Pinterest's small EBITDA base makes its 47.81 times multiple a weak comparison  . The main...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "PINS EV/EBITDA 2025: 47.81"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$300 billion",
+      "value": 300.0,
+      "unit": "billion",
+      "money_mn": 300000.0,
+      "decimals": 0,
+      "context": "...5% for two consecutive quarters, or FY2027 consensus revenue below $300 billion (about 16% growth)  . Free cash flow falls again...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$72.22 billion",
+      "value": 72.22,
+      "unit": "billion",
+      "money_mn": 72220.0,
+      "decimals": 2,
+      "context": "...flow. Capex including finance lease principal nearly doubled to $72.22 billion in 2025, and 2026 guidance is $115–135 billion...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "72.22 billion",
+        "snippet": "• Capital expenditures, including principal payments on finance leases, were $72.22 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115",
+      "value": 115.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...nearly doubled to $72.22 billion in 2025, and 2026 guidance is $115–135 billion  . Holding operating cash flow at...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9 billion",
+      "value": 9.0,
+      "unit": "billion",
+      "money_mn": 9000.0,
+      "decimals": 0,
+      "context": ".... Holding operating cash flow at the 2025 level leaves about a $9 billion shortfall at the guidance midpoint  . Trailing...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Net Issuance Payments Of Debt 2022-12-31: 9,071,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.65 billion",
+      "value": 28.65,
+      "unit": "billion",
+      "money_mn": 28650.0,
+      "decimals": 2,
+      "context": "...shortfall at the guidance midpoint  . Trailing free cash flow was $28.65 billion at             . FY2026 free cash flow reported...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "28,649.0 million",
+        "snippet": "...$82,449.0 million, total debt $114,842.0 million, net cash -$32,393.0 million, TTM free cash flow $28,649.0 million, cash runway at that burn self-funded, current ratio 1.9x, shares outstanding 2,556.8 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.59 billion",
+      "value": 43.59,
+      "unit": "billion",
+      "money_mn": 43590.0,
+      "decimals": 2,
+      "context": "...flow reported in the early 2027      is below the 2025 level of $43.59 billion  . FY2026 free cash flow at or above $43.59...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "43,585",
+        "snippet": "Free cash flow $ 43,585 $ 52,103 $ 43,010"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.59 billion",
+      "value": 43.59,
+      "unit": "billion",
+      "money_mn": 43590.0,
+      "decimals": 2,
+      "context": "...2025 level of $43.59 billion  . FY2026 free cash flow at or above $43.59 billion, or FY2026 capex below $115 billion  . At the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "43,585",
+        "snippet": "Free cash flow $ 43,585 $ 52,103 $ 43,010"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115 billion",
+      "value": 115.0,
+      "unit": "billion",
+      "money_mn": 115000.0,
+      "decimals": 0,
+      "context": "...free cash flow at or above $43.59 billion, or FY2026 capex below $115 billion  . At the current price, the stock needs growth...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "115 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$313 billion",
+      "value": 313.0,
+      "unit": "billion",
+      "money_mn": 313000.0,
+      "decimals": 0,
+      "context": "...is 6.2x on FY2026E  . FY2027 consensus revenue stays at or above $313 billion (about 22% growth) in the next quarterly...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "313,138.9 million",
+        "snippet": "- FY2027E: revenue $313,138.9 million (range $298,683.0 million to $350,349.9 million, 60 analysts), growth +21.9%; EPS $33.74 (range $28.62 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$299 billion",
+      "value": 299.0,
+      "unit": "billion",
+      "money_mn": 299000.0,
+      "decimals": 0,
+      "context": ".... Consensus FY2027 revenue falls to the bottom of its range (about $299 billion), or the stock re-rates so that the implied...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "298,683.0 million",
+        "snippet": "- FY2027E: revenue $313,138.9 million (range $298,683.0 million to $350,349.9 million, 60 analysts), growth +21.9%; EPS $33.74 (range $28.62 to $40.18); forward P/E 18.1x;..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19 billion",
+      "value": 19.0,
+      "unit": "billion",
+      "money_mn": 19000.0,
+      "decimals": 0,
+      "context": "...the consensus path exceeds 11.2%  . Reality Labs losses stay near $19 billion a year and cap EPS growth until the AI and...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...until the AI and hardware payoff is visible. Reality Labs lost $19.19 billion from operations in 2025, and management expects...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.01",
+      "value": 29.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...be similar  . Current-year EPS consensus fell 8.5% over 90 days to $29.01  . The June and September 2026 quarters missed...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29",
+        "snippet": "29 Table of Contents"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...(early 2027) reports a Reality Labs operating loss at or below $19.19 billion  . The Reality Labs operating loss falls...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19.19 billion",
+        "snippet": "...For example, our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025. If our investments are not..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15 billion",
+      "value": 15.0,
+      "unit": "billion",
+      "money_mn": 15000.0,
+      "decimals": 0,
+      "context": "...billion  . The Reality Labs operating loss falls materially below $15 billion, or current-year EPS consensus turns positive...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15.36 billion",
+        "snippet": "FoA income from operations in 2025 increased $15.36 billion, or 18%, compared to 2024. The increase in FoA income from operations was driven by higher advertising..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Ad pricing and impression growth keep revenue growing near 20% into 2027. 2025 revenue grew 22% on 12% more ad...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "19.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth keep revenue growing near 20% into 2027. 2025 revenue grew 22% on 12% more ad impressions and a 9% higher...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 21.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...keep revenue growing near 20% into 2027. 2025 revenue grew 22% on 12% more ad impressions and a 9% higher average...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "impression"
+        ],
+        "hl": "12%",
+        "snippet": "...in ad impressions delivered and average price per ad. In 2025, ad impressions delivered increased by 12%, as compared with an increase of 11% in 2024, year-over-year. Ad impressions delivered during 2025 grew in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...into 2027. 2025 revenue grew 22% on 12% more ad impressions and a 9% higher average price per ad  . Consensus expects...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "9%",
+        "snippet": "...across our Family of Apps in 2025 increased 12% year-over-year, and our average price per ad increased 9% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.8%",
+      "value": 27.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...average price per ad  . Consensus expects FY2026 revenue growth of 27.8% and FY2027 of 21.9%  . Q4 2026 results (early...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "27.8%",
+        "snippet": "- FY2026E: revenue $256,909.6 million (range $255,646.0 million to $259,775.5 million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.9%",
+      "value": 21.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus expects FY2026 revenue growth of 27.8% and FY2027 of 21.9%  . Q4 2026 results (early 2027): ad impressions...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 21.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Q4 2026 results (early 2027): ad impressions growth at or above 10% and average price per ad growth at or above 8%....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "...on our products. In 2025, the average price per ad increased by 9%, as compared with an increase of 10% in 2024, year-over-year. The increase in average price per ad in 2025 was driven by an increase in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth at or above 10% and average price per ad growth at or above 8%. Impressions or price per ad growth below 5% for...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8%",
+        "snippet": "Costs and expenses 96,290 75,246 28% 21,400 19,875 8% 117,690 95,121 24%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ad growth at or above 8%. Impressions or price per ad growth below 5% for two consecutive quarters, or FY2027...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5%",
+        "snippet": "...our violating accounts estimation. Accordingly, in the fourth quarter of 2025, we estimated that less than 5% of our worldwide DAP consisted solely of violating accounts. We believe the increase compared to our prior..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarters, or FY2027 consensus revenue below $300 billion (about 16% growth)  . Free cash flow falls again in 2026...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2023: 15.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.7%",
+      "value": 17.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...push returns below the cost of capital. The reverse DCF implies 17.7% annual revenue growth for ten years, versus a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "17.7%",
+        "snippet": "- The current enterprise value of $1,591,418.9 million implies revenue growth of 17.7% per year for 10 years (FY2025 revenue $200,966.0 million -> about $1,028,398.3 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.9%",
+      "value": 19.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...DCF implies 17.7% annual revenue growth for ten years, versus a 19.9% three-year historical CAGR  . On the consensus...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "19.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...historical CAGR  . On the consensus path the implied return is 9.7%, below the 11.2% WACC  . Forward P/E is 21.0x...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.7%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.7% per year (-1.5 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...CAGR  . On the consensus path the implied return is 9.7%, below the 11.2% WACC  . Forward P/E is 21.0x and forward...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 22.9% to 22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... FY2027 consensus revenue stays at or above $313 billion (about 22% growth) in the next quarterly consensus updates...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 21.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...re-rates so that the implied return on the consensus path exceeds 11.2%  . Reality Labs losses stay near $19 billion a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 22.9% to 22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026 losses to be similar  . Current-year EPS consensus fell 8.5% over 90 days to $29.01  . The June and September...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "8.5%",
+        "snippet": "...consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.4%",
+      "value": 14.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The June and September 2026 quarters missed EPS estimates by 14.4% and 29.3%  . The FY2026      (early 2027)...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "14.4%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $6.18 vs estimate $7.22 (surprise -14.4%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.3%",
+      "value": 29.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...June and September 2026 quarters missed EPS estimates by 14.4% and 29.3%  . The FY2026      (early 2027) reports a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "29.3%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "21.0x",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the implied return is 9.7%, below the 11.2% WACC  . Forward P/E is 21.0x and forward EV/Sales is 6.2x on FY2026E  ....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "21.0",
+        "snippet": "...million to $259,775.5 million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "6.2x",
+      "value": 6.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the 11.2% WACC  . Forward P/E is 21.0x and forward EV/Sales is 6.2x on FY2026E  . FY2027 consensus revenue stays at...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "6.2",
+        "snippet": "...million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...nearly doubled to $72.22 billion in 2025, and 2026 guidance is $115–135 billion  . Holding operating cash flow at the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...losses to be similar  . Current-year EPS consensus fell 8.5% over 90 days to $29.01  . The June and September 2026...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15 billion, or current-year EPS consensus turns positive over 90 days  .",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$198760.0 million",
+      "value": 198760.0,
+      "unit": "million",
+      "money_mn": 198760.0,
+      "decimals": 1,
+      "context": "Family of Apps: $198760.0 million, prior $162360.0 million; Reality Labs: $2210.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "198,759",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$162360.0 million",
+      "value": 162360.0,
+      "unit": "million",
+      "money_mn": 162360.0,
+      "decimals": 1,
+      "context": "Family of Apps: $198760.0 million, prior $162360.0 million; Reality Labs: $2210.0 million, prior $2150.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "162,355",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2210.0 million",
+      "value": 2210.0,
+      "unit": "million",
+      "money_mn": 2210.0,
+      "decimals": 1,
+      "context": "...of Apps: $198760.0 million, prior $162360.0 million; Reality Labs: $2210.0 million, prior $2150.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,207",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2150.0 million",
+      "value": 2150.0,
+      "unit": "million",
+      "money_mn": 2150.0,
+      "decimals": 1,
+      "context": "...prior $162360.0 million; Reality Labs: $2210.0 million, prior $2150.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,146",
+        "snippet": "Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "GOOGL",
+    "SNAP",
+    "PINS"
+  ],
+  "build_round": 1,
+  "self_correct": true
+}

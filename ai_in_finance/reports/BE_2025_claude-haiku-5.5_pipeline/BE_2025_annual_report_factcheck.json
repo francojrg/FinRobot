@@ -1,0 +1,3853 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 162,
+  "context_match_rate": 0.9,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "123.6%",
+      "value": 123.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...carry into 2026 as Fremont scales to 2 GW; FY2026 consensus implies 123.6% growth, the key test  . Funding, not operations,...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "123.6%",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48.8%",
+      "value": 48.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...debt  . Valuation asks for more than history: the reverse DCF needs 48.8% annual growth for ten years, against 19.1%...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "48.8%",
+        "snippet": "- The current enterprise value of $45,533.1 million implies revenue growth of 48.8% per year for 10 years (FY2025 revenue $2,024.0 million -> about $107,564.0 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.1%",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the reverse DCF needs 48.8% annual growth for ten years, against 19.1% historically  . Gross margin expansion should...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "19.1%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.1%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...history and the steep fade in consensus  . The implied return of 10.6% sits below the 15% WACC used  . Main risks are...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "99.999%",
+      "value": 99.999,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 3,
+      "context": "...of about 99.9% for non-redundant installations and about 99.999% with redundancy  . The systems follow variable...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "99.999%",
+        "snippet": "...non-redundant installations. When redundancy is added, the availability can be improved to achieve close to 99.999% for applications with the highest continuity-of-service requirements."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-14.8%",
+      "value": 14.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 1.0% in 2025, against -88.8% at FCEL, -223.1% at PLUG and -14.8% at ERock  . Revenue of $2,024 million dwarfs the...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Gross Margin 2023: 14.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.3%",
+      "value": 37.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$183 million for ERock and $158 million for FCEL, although Bloom's 37.3% growth trailed FCEL's 41.0% and ERock's 42.5%  ....",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "37.3%",
+        "snippet": "Total revenue increased by $550.1 million, or 37.3%, for the year ended December 31, 2025, compared to the prior year period. This increase was driven by a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.0%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$158 million for FCEL, although Bloom's 37.3% growth trailed FCEL's 41.0% and ERock's 42.5%  . Bloom was the only company...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "41%",
+        "snippet": "...to our 401(k) plan, which triggered an increase in participation in our 401(k) plan from 57% to 64%, (from 41% in 2023, mostly from our hourly employees). In addition to our broad-based equity award programs, we have..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.5%",
+      "value": 42.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...although Bloom's 37.3% growth trailed FCEL's 41.0% and ERock's 42.5%  . Bloom was the only company with positive free...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "EROC Revenue Growth 2025: 42.5%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "11.5",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...two-year history  . GE Vernova was excluded because it is about 11.5 times Bloom's revenue, a size mismatch  .  Bloom...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "PB Ratio 2022: 11.54"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "31.66",
+      "value": 31.66,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in 2025, against 1.76 at FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "PB Ratio 2025: 31.66"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.29",
+      "value": 0.29,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...1.76 at FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC was -0.7% in 2025...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCEL PB Ratio 2024: 0.29"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.70",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC was -0.7% in 2025 after a...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.7 million",
+        "snippet": "...subscription and software-related costs, and (4) travel and entertainment expenses, which increased by $1.7 million, due to higher in-person engagement and event participation."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "123.6%",
+      "value": 123.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million in 2025  ; FY2026 consensus is $4,525.9 million, growth of 123.6%  . Fremont reaches a 2 GW annual run rate by...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "123.6%",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...; the share count rose 22.2% in 2025  . Share count growth below 5% year over year in the FY2026      (early 2027),...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5%",
+        "snippet": "Cost of service revenue decreased by $9.6 million, or 4.5%, for the year ended December 31, 2025, compared to the prior year period. The decrease was primarily driven..."
+      }
+    }
+  ],
+  "total_claims": 180,
+  "matched": 177,
+  "match_rate": 0.983,
+  "by_kind": {
+    "money": {
+      "total": 90,
+      "matched": 89,
+      "context_matched": 89
+    },
+    "pct": {
+      "total": 56,
+      "matched": 55,
+      "context_matched": 44
+    },
+    "plain": {
+      "total": 34,
+      "matched": 33,
+      "context_matched": 29
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 103,
+    "[2] Yahoo Finance": 40,
+    "[2][3] Liquidity and consensus": 26,
+    "[4] Peer data": 8
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the 43% customer is a related party  . Together they make up 68% of revenue. That ties the revenue base to one...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$4.41",
+      "value": 4.41,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...GW annual run rate by end-2026, and FY2026 revenue lands within the $4.41-4.64 billion consensus range  . FY2026 revenue...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "4.64",
+      "value": 4.64,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...run rate by end-2026, and FY2026 revenue lands within the $4.41-4.64 billion consensus range  . FY2026 revenue falls...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$57.2 million",
+      "value": 57.2,
+      "unit": "million",
+      "money_mn": 57.2,
+      "decimals": 1,
+      "context": "...the key test  . Funding, not operations, is the binding constraint: $57.2 million of free cash flow cannot cover $2.99 billion of...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 57,190,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.99 billion",
+      "value": 2.99,
+      "unit": "billion",
+      "money_mn": 2990.0,
+      "decimals": 2,
+      "context": "...binding constraint: $57.2 million of free cash flow cannot cover $2.99 billion of debt  . Valuation asks for more than history:...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 2,991,952,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "123.6%",
+      "value": 123.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...carry into 2026 as Fremont scales to 2 GW; FY2026 consensus implies 123.6% growth, the key test  . Funding, not operations,...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "123.6%",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48.8%",
+      "value": 48.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...debt  . Valuation asks for more than history: the reverse DCF needs 48.8% annual growth for ten years, against 19.1%...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "48.8%",
+        "snippet": "- The current enterprise value of $45,533.1 million implies revenue growth of 48.8% per year for 10 years (FY2025 revenue $2,024.0 million -> about $107,564.0 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.1%",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the reverse DCF needs 48.8% annual growth for ten years, against 19.1% historically  . Gross margin expansion should...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "19.1%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.1%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...expansion should continue as volumes scale: gross margin rose to 29% from 27% despite product-line charges  .",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 29.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...should continue as volumes scale: gross margin rose to 29% from 27% despite product-line charges  .",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 27.5%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue momentum should carry into 2026 as Fremont scales to 2 GW; FY2026 consensus implies 123.6% growth, the...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "fremont"
+        ],
+        "hl": "2021",
+        "snippet": "...89,000 square-foot R&D and manufacturing facility in Fremont, California, which became operational in April 2021. Additionally, in Fremont, California, in June 2022, we opened a new research and technical center and a..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,024.0 million",
+      "value": 2024.0,
+      "unit": "million",
+      "money_mn": 2024.0,
+      "decimals": 1,
+      "context": "Bloom Energy grew revenue 37.3% to $2,024.0 million in 2025, and gross margin rose to 29% from 27%...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2024",
+        "snippet": "...dictate that transmission additions remain limited, and generator interconnection queues at the end of 2024 totaled 2,300 gigawatts, with typical timelines extending multiple years and further delays. Even with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$88.4 million",
+      "value": 88.4,
+      "unit": "million",
+      "money_mn": 88.4,
+      "decimals": 1,
+      "context": "...and gross margin rose to 29% from 27%  . The net loss widened to $88.4 million, or -$0.37 per share, after a $66.2 million...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Net Interest Income 2023-12-31: -88,414,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$0.37",
+      "value": 0.37,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...rose to 29% from 27%  . The net loss widened to $88.4 million, or -$0.37 per share, after a $66.2 million convertible...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2025-12-31: -0 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$66.2 million",
+      "value": 66.2,
+      "unit": "million",
+      "money_mn": 66.2,
+      "decimals": 1,
+      "context": "...The net loss widened to $88.4 million, or -$0.37 per share, after a $66.2 million convertible inducement charge, and operating...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "66.2 million",
+        "snippet": "Debt conversion inducement expense for the year ended December 31, 2025, was $66.2 million, which was recognized as a result of the induced conversion of the Existing Notes in November 2025 (refer to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$113.9 million",
+      "value": 113.9,
+      "unit": "million",
+      "money_mn": 113.9,
+      "decimals": 1,
+      "context": "...convertible inducement charge, and operating cash flow was only $113.9 million  .  Liquidity improved after the $2.5 billion 0%...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "113.9 million",
+        "snippet": "Net cash provided by operating activities for the year ended December 31, 2025, was $113.9 million, representing a $22.0 million increase compared to the prior year period. The year-over-year change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.5 billion",
+      "value": 2.5,
+      "unit": "billion",
+      "money_mn": 2500.0,
+      "decimals": 1,
+      "context": "...cash flow was only $113.9 million  .  Liquidity improved after the $2.5 billion 0% convertible notes, with cash of $2,454.1...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,500.0 million",
+        "snippet": "On November 4, 2025, we issued the 0% Notes in an aggregate principal amount of $2,500.0 million due November 2030, unless earlier repurchased, redeemed or converted, less the initial purchasers’ discount..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,454.1 million",
+      "value": 2454.1,
+      "unit": "million",
+      "money_mn": 2454.1,
+      "decimals": 1,
+      "context": "...improved after the $2.5 billion 0% convertible notes, with cash of $2,454.1 million, but total debt nearly doubled to $2,992.0...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,454.1 million",
+        "snippet": "As of December 31, 2025 and 2024, we had unrestricted cash and cash equivalents of $2,454.1 million and $802.9 million, respectively. Our cash and cash equivalents consist of highly liquid investments with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,992.0 million",
+      "value": 2992.0,
+      "unit": "million",
+      "money_mn": 2992.0,
+      "decimals": 1,
+      "context": "...with cash of $2,454.1 million, but total debt nearly doubled to $2,992.0 million  . Consensus is dated after the     : at about...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 2,991,952,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153",
+      "value": 153.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $2,992.0 million  . Consensus is dated after the     : at about $153 the shares carry an enterprise value of about...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "152.5",
+        "snippet": "Sales and marketing 28,342 11,224 17,118 152.5 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45.5 billion",
+      "value": 45.5,
+      "unit": "billion",
+      "money_mn": 45500.0,
+      "decimals": 1,
+      "context": "...: at about $153 the shares carry an enterprise value of about $45.5 billion, and consensus expects revenue growth of 123.6%...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "45,533.1 million",
+        "snippet": "- The current enterprise value of $45,533.1 million implies revenue growth of 48.8% per year for 10 years (FY2025 revenue $2,024.0 million -> about $107,564.0..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.35",
+      "value": 5.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...expects revenue growth of 123.6% in FY2026 and EPS rising to $5.35 by FY2027  .  The reverse DCF implies 48.8%...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "5.35",
+        "snippet": "...revenue $7,187.1 million (range $5,820.1 million to $8,861.6 million, 27 analysts), growth +58.8%; EPS $5.35 (range $2.96 to $7.49); forward P/E 28.6x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$279.31",
+      "value": 279.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...systems  . Consensus rates the stock Buy with a mean target of $279.31  .",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "279.31",
+        "snippet": "279.31 (range 102.00 - 380.00), current consensus as of 2026-11-26, not as of 2026-02-09"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.3%",
+      "value": 37.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Bloom Energy grew revenue 37.3% to $2,024.0 million in 2025, and gross margin...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "37.3%",
+        "snippet": "Total revenue increased by $550.1 million, or 37.3%, for the year ended December 31, 2025, compared to the prior year period. This increase was driven by a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue 37.3% to $2,024.0 million in 2025, and gross margin rose to 29% from 27%  . The net loss widened to $88.4...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 29.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $2,024.0 million in 2025, and gross margin rose to 29% from 27%  . The net loss widened to $88.4 million, or...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 27.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0%",
+      "value": 0.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...only $113.9 million  .  Liquidity improved after the $2.5 billion 0% convertible notes, with cash of $2,454.1...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "liquidity",
+          "convertible",
+          "cashflow"
+        ],
+        "hl": "0%",
+        "snippet": "We raised cash and supplemented liquidity by issuing the 0% Convertible Senior Notes (the “0% Notes”) in the fourth quarter of fiscal year 2025, the 3.0% Green..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "123.6%",
+      "value": 123.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of about $45.5 billion, and consensus expects revenue growth of 123.6% in FY2026 and EPS rising to $5.35 by FY2027...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "123.6%",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48.8%",
+      "value": 48.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and EPS rising to $5.35 by FY2027  .  The reverse DCF implies 48.8% annual revenue growth for ten years, against a...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "48.8%",
+        "snippet": "- The current enterprise value of $45,533.1 million implies revenue growth of 48.8% per year for 10 years (FY2025 revenue $2,024.0 million -> about $107,564.0 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.1%",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...DCF implies 48.8% annual revenue growth for ten years, against a 19.1% historical three-year CAGR, so the current price...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "19.1%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.1%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...history and the steep fade in consensus  . The implied return of 10.6% sits below the 15% WACC used  . Main risks are...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fade in consensus  . The implied return of 10.6% sits below the 15% WACC used  . Main risks are financing...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "15.0%",
+        "snippet": "...million -> about $107,564.0 million in FY2035), assuming the free cash flow margin moves from 2.8% to 15.0% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.50 x 5.0% equity risk premium) and 2.5%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,531.3 million",
+      "value": 1531.3,
+      "unit": "million",
+      "money_mn": 1531.3,
+      "decimals": 1,
+      "context": "...Product sales drove most of the 2025 growth, rising 41.1% to $1,531.3 million, while installation grew 66.8% to $204.1 million...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,531,281",
+        "snippet": "Product $ 1,531,281 $ 1,085,153 $ 446,128 41.1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$204.1 million",
+      "value": 204.1,
+      "unit": "million",
+      "money_mn": 204.1,
+      "decimals": 1,
+      "context": "...rising 41.1% to $1,531.3 million, while installation grew 66.8% to $204.1 million  . Sales cycles typically run 8 to 12 months,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "204,068",
+        "snippet": "Installation 204,068 122,318 81,750 66.8 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.0 billion",
+      "value": 5.0,
+      "unit": "billion",
+      "money_mn": 5000.0,
+      "decimals": 1,
+      "context": "...and a prospective Brookfield financing framework covers up to $5.0 billion over five years  . Oracle has a partnership for...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.0 billion",
+        "snippet": "...AI infrastructure. As part of this partnership, we established a prospective financing framework of up to $5.0 billion over five years for future Bloom Energy fuel cell projects that meet agreed investment and contractual..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153",
+      "value": 153.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...31, 2025  . At the consensus snapshot, the shares traded near $153 with a Buy rating and a mean target of $279.31  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "152.5",
+        "snippet": "Sales and marketing 28,342 11,224 17,118 152.5 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$279.31",
+      "value": 279.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the shares traded near $153 with a Buy rating and a mean target of $279.31  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "279.31",
+        "snippet": "279.31 (range 102.00 - 380.00), current consensus as of 2026-11-26, not as of 2026-02-09"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "99.9%",
+      "value": 99.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...project scopes, and the company reports fleet availability of about 99.9% for non-redundant installations and about...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "non-redundant",
+          "fleet",
+          "availability",
+          "installation"
+        ],
+        "hl": "99.9%",
+        "snippet": "...Looking at all systems installed after 2020, Bloom’s fuel cells fleet availability has been approximately 99.9% for all non-redundant installations. When redundancy is added, the availability can be improved to achieve..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "99.999%",
+      "value": 99.999,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 3,
+      "context": "...of about 99.9% for non-redundant installations and about 99.999% with redundancy  . The systems follow variable...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "99.999%",
+        "snippet": "...non-redundant installations. When redundancy is added, the availability can be improved to achieve close to 99.999% for applications with the highest continuity-of-service requirements."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.1%",
+      "value": 41.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...electricity. Product sales drove most of the 2025 growth, rising 41.1% to $1,531.3 million, while installation grew...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "product",
+          "revenue"
+        ],
+        "hl": "41.1%",
+        "snippet": "Product revenue increased by $446.1 million, or 41.1%, for the year ended December 31, 2025, compared to the prior year period. The increase was primarily due to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66.8%",
+      "value": 66.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth, rising 41.1% to $1,531.3 million, while installation grew 66.8% to $204.1 million  . Sales cycles typically run...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "installation"
+        ],
+        "hl": "66.8%",
+        "snippet": "Installation revenue increased by $81.8 million, or 66.8%, for the year ended December 31, 2025, compared to the prior year period. The increase was primarily driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...centers, with a warrant for 3,531,073 shares  . The filing cites a 30% Section 48E investment tax credit for fuel cells...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "fuel",
+          "cell",
+          "section"
+        ],
+        "hl": "30%",
+        "snippet": "...federal clean energy tax provisions of the IRA. Under the OBBBA, fuel cell property is now eligible for a 30% ITC under Section 48E without regard to emissions for projects beginning construction after December 31,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...can be installed in weeks or months and deliver power within about 90 days in certain project scopes, and the company...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "days",
+          "within",
+          "power"
+        ],
+        "hl": "90",
+        "snippet": "...land area. In certain project scopes, onsite generation can enable power availability within approximately 90 days, helping customers address schedule constraints associated with traditional utility interconnection or..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "380",
+      "value": 380.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and they produce near-zero smog-forming pollutants  . Bloom holds 380 active U.S. utility patents and 183 pending...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "active"
+        ],
+        "hl": "380",
+        "snippet": "...patent portfolio to protect elements of our proprietary technology. As of December 31, 2025, we had 380 active utility patents and 183 patent applications pending in the U.S., and we had an international patent..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "183",
+      "value": 183.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...pollutants  . Bloom holds 380 active U.S. utility patents and 183 pending applications  .  The company serves...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pending",
+          "patent",
+          "application",
+          "utility"
+        ],
+        "hl": "183",
+        "snippet": "...elements of our proprietary technology. As of December 31, 2025, we had 380 active utility patents and 183 patent applications pending in the U.S., and we had an international patent portfolio comprising 252 active..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1,100",
+      "value": 1100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...commercial and industrial customers, and utilities  . It has about 1,100 installed sites in nine countries. The U.S. is...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "sit",
+          "country"
+        ],
+        "hl": "1,100",
+        "snippet": "...its systems in the United States. Bloom has its Energy Server systems deployed across approximately 1,100 sites in 9 countries, empowering businesses and critical infrastructure worldwide."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "682",
+      "value": 682.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue and installed base, and South Korea is second, with about 682 MW deployed  . Revenue is reported in four...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "deployed"
+        ],
+        "hl": "682",
+        "snippet": "...second-largest market, where we began commercial operations in 2018 and have grown our footprint to nearly 682 MW of deployed systems, supported by distribution partnerships with SK ecoplant Co., Ltd. and SK eternix Co.,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 66.8% to $204.1 million  . Sales cycles typically run 8 to 12 months, and installation takes six to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8",
+        "snippet": "8 Table of Contents"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 66.8% to $204.1 million  . Sales cycles typically run 8 to 12 months, and installation takes six to twelve...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "typically",
+          "revenue"
+        ],
+        "hl": "12",
+        "snippet": "Our sales cycle is typically 8 to 12 months but can vary considerably. To make a sale, we must typically provide a significant level of education..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth. Fremont manufacturing is being expanded from 1 GW to a 2 GW annual run rate, targeted for completion by...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "fremont",
+          "rate"
+        ],
+        "hl": "2",
+        "snippet": "...the process of expanding our annual production capacity run rate at our Fremont facility from 1 gigawatt to 2 gigawatts and expect to complete the expansion by the end of 2026. While our ability to complete the..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "100",
+      "value": 100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...covers up to 1 GW, announced in November 2024 with an initial 100 MW order, and a prospective Brookfield financing...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "initial",
+          "order"
+        ],
+        "hl": "100",
+        "snippet": "...that time, the deal marked the largest-ever commercial procurement of fuel cells, with an initial order of 100 MW and additional expansion phases expected in future years. The partnership enables AEP to swiftly meet its..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3,531,073",
+      "value": 3531073.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...for on-site power at AI data centers, with a warrant for 3,531,073 shares  . The filing cites a 30% Section 48E...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "warrant",
+          "pershare"
+        ],
+        "hl": "3,531,073",
+        "snippet": "...acceptable to us and Oracle, we agreed to issue to Oracle a warrant to purchase up to an aggregate of 3,531,073 shares of our common stock, with an exercise price of $113.28 per share, which was the closing market price..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.0 billion",
+      "value": 5.0,
+      "unit": "billion",
+      "money_mn": 5000.0,
+      "decimals": 1,
+      "context": "...3,531,073 shares, and the Brookfield financing framework of up to $5.0 billion  . Sales cycles of 8 to 12 months mean these...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.0 billion",
+        "snippet": "...AI infrastructure. As part of this partnership, we established a prospective financing framework of up to $5.0 billion over five years for future Bloom Energy fuel cell projects that meet agreed investment and contractual..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.15",
+      "value": 15.15,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...slowly  .  Market sentiment has moved sharply. The 52-week range is $15.15 to $176.49, with a Buy consensus rating, a...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "15.15",
+        "snippet": "15.15 - 176.49"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$176.49",
+      "value": 176.49,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...sentiment has moved sharply. The 52-week range is $15.15 to $176.49, with a Buy consensus rating, a $279.31 mean...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "176.49",
+        "snippet": "15.15 - 176.49"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$279.31",
+      "value": 279.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...52-week range is $15.15 to $176.49, with a Buy consensus rating, a $279.31 mean target and a target range of $102 to $380...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "279.31",
+        "snippet": "279.31 (range 102.00 - 380.00), current consensus as of 2026-11-26, not as of 2026-02-09"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$102",
+      "value": 102.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a Buy consensus rating, a $279.31 mean target and a target range of $102 to $380  . Market capitalization of about $43.5...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "102.00",
+        "snippet": "279.31 (range 102.00 - 380.00), current consensus as of 2026-11-26, not as of 2026-02-09"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$380",
+      "value": 380.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rating, a $279.31 mean target and a target range of $102 to $380  . Market capitalization of about $43.5 billion...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "380",
+        "snippet": "...patent portfolio to protect elements of our proprietary technology. As of December 31, 2025, we had 380 active utility patents and 183 patent applications pending in the U.S., and we had an international patent..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.5 billion",
+      "value": 43.5,
+      "unit": "billion",
+      "money_mn": 43500.0,
+      "decimals": 1,
+      "context": "...a target range of $102 to $380  . Market capitalization of about $43.5 billion   is far above the three peers in our set. Our...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "43454.65",
+        "snippet": "43454.65"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43%",
+      "value": 43.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is high. Three customers or distributors accounted for 43%, 13% and 12% of 2025 revenue, and the 43%...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "accounted"
+        ],
+        "hl": "43%",
+        "snippet": "...three of these customers and distributors, the first of which is related party, accounted for approximately 43%, 13% and 12% of our total revenue. Please see Part II, Item 8, Note 1— Nature of Business, Liquidity and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is high. Three customers or distributors accounted for 43%, 13% and 12% of 2025 revenue, and the 43% customer is...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "accounted"
+        ],
+        "hl": "13%",
+        "snippet": "...of these customers and distributors, the first of which is related party, accounted for approximately 43%, 13% and 12% of our total revenue. Please see Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is high. Three customers or distributors accounted for 43%, 13% and 12% of 2025 revenue, and the 43% customer is a...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "accounted",
+          "revenue"
+        ],
+        "hl": "12%",
+        "snippet": "...customers and distributors, the first of which is related party, accounted for approximately 43%, 13% and 12% of our total revenue. Please see Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43%",
+      "value": 43.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...accounted for 43%, 13% and 12% of 2025 revenue, and the 43% customer is a related party  . Together they...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "accounted",
+          "party",
+          "related"
+        ],
+        "hl": "43%",
+        "snippet": "...three of these customers and distributors, the first of which is related party, accounted for approximately 43%, 13% and 12% of our total revenue. Please see Part II, Item 8, Note 1— Nature of Business, Liquidity and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the 43% customer is a related party  . Together they make up 68% of revenue. That ties the revenue base to one...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "682",
+      "value": 682.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue and installed base, and South Korea is second, with about 682 MW deployed across roughly 1,100 sites in nine...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "deployed"
+        ],
+        "hl": "682",
+        "snippet": "...second-largest market, where we began commercial operations in 2018 and have grown our footprint to nearly 682 MW of deployed systems, supported by distribution partnerships with SK ecoplant Co., Ltd. and SK eternix Co.,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1,100",
+      "value": 1100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...South Korea is second, with about 682 MW deployed across roughly 1,100 sites in nine countries  . Demand is...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "deployed",
+          "sit",
+          "across",
+          "country"
+        ],
+        "hl": "1,100",
+        "snippet": "...its systems in the United States. Bloom has its Energy Server systems deployed across approximately 1,100 sites in 9 countries, empowering businesses and critical infrastructure worldwide."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3,531,073",
+      "value": 3531073.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up to 1 GW, the Oracle on-site power partnership with a warrant for 3,531,073 shares, and the Brookfield financing framework...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "warrant",
+          "pershare"
+        ],
+        "hl": "3,531,073",
+        "snippet": "...acceptable to us and Oracle, we agreed to issue to Oracle a warrant to purchase up to an aggregate of 3,531,073 shares of our common stock, with an exercise price of $113.28 per share, which was the closing market price..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...financing framework of up to $5.0 billion  . Sales cycles of 8 to 12 months mean these agreements convert to...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "8",
+        "snippet": "...related party, accounted for approximately 43%, 13% and 12% of our total revenue. Please see Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of Presentation—Concentration of Risk—Customer Risk in this..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...financing framework of up to $5.0 billion  . Sales cycles of 8 to 12 months mean these agreements convert to revenue...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12",
+        "snippet": "Our sales cycle is typically 8 to 12 months but can vary considerably. To make a sale, we must typically provide a significant level of education..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,024.0 million",
+      "value": 2024.0,
+      "unit": "million",
+      "money_mn": 2024.0,
+      "decimals": 1,
+      "context": "Revenue rose 37.3% to $2,024.0 million in 2025, from $1,474 million in 2024, led by...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2024",
+        "snippet": "...dictate that transmission additions remain limited, and generator interconnection queues at the end of 2024 totaled 2,300 gigawatts, with typical timelines extending multiple years and further delays. Even with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,474 million",
+      "value": 1474.0,
+      "unit": "million",
+      "money_mn": 1474.0,
+      "decimals": 0,
+      "context": "Revenue rose 37.3% to $2,024.0 million in 2025, from $1,474 million in 2024, led by product revenue, which grew...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,473,856",
+        "snippet": "Total revenue $ 2,023,994 $ 1,473,856 $ 550,138 37.3 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,531.3 million",
+      "value": 1531.3,
+      "unit": "million",
+      "money_mn": 1531.3,
+      "decimals": 1,
+      "context": "...$1,474 million in 2024, led by product revenue, which grew 41.1% to $1,531.3 million  . Service grew only 6.9% to $228.3 million, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,531,281",
+        "snippet": "Product $ 1,531,281 $ 1,085,153 $ 446,128 41.1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$228.3 million",
+      "value": 228.3,
+      "unit": "million",
+      "money_mn": 228.3,
+      "decimals": 1,
+      "context": "...which grew 41.1% to $1,531.3 million  . Service grew only 6.9% to $228.3 million, and electricity rose 14.2% to $60.4 million  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "228,295",
+        "snippet": "Service 228,295 213,542 14,753 6.9 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.4 million",
+      "value": 60.4,
+      "unit": "million",
+      "money_mn": 60.4,
+      "decimals": 1,
+      "context": "...grew only 6.9% to $228.3 million, and electricity rose 14.2% to $60.4 million  . Gross margin improved to 29% from 27%, but...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60,350",
+        "snippet": "Electricity 60,350 52,843 7,507 14.2 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.9 million",
+      "value": 21.9,
+      "unit": "million",
+      "money_mn": 21.9,
+      "decimals": 1,
+      "context": "...year over year. Electrolyzer inventory reserves and impairments of $21.9 million, a $12.7 million construction-in-progress...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "21.9 million",
+        "snippet": "...increased demand for our Energy Server systems, (2) inventory reserve and other asset impairments totaling $21.9 million related to our Electrolyzer assets, and (3) impairment charge of $12.7 million related to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.7 million",
+      "value": 12.7,
+      "unit": "million",
+      "money_mn": 12.7,
+      "decimals": 1,
+      "context": "...Electrolyzer inventory reserves and impairments of $21.9 million, a $12.7 million construction-in-progress impairment, and a $15.9...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12.7 million",
+        "snippet": "...asset impairments totaling $21.9 million related to our Electrolyzer assets, and (3) impairment charge of $12.7 million related to construction‑in‑progress associated with manufacturing and infrastructure assets and facilities..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.9 million",
+      "value": 15.9,
+      "unit": "million",
+      "money_mn": 15.9,
+      "decimals": 1,
+      "context": "...million, a $12.7 million construction-in-progress impairment, and a $15.9 million revenue reduction from share-based consideration...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15.9 million",
+        "snippet": "...demand for our products driven by the time to power needs of the growing market, partially offset by $15.9 million related to share-based consideration payable to a key hyperscaler customer."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$204.1 million",
+      "value": 204.1,
+      "unit": "million",
+      "money_mn": 204.1,
+      "decimals": 1,
+      "context": "...all weighed on product margin  . Installation revenue rose 66.8% to $204.1 million, and its gross loss narrowed to $1.9 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "204,068",
+        "snippet": "Installation 204,068 122,318 81,750 66.8 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.9 million",
+      "value": 1.9,
+      "unit": "million",
+      "money_mn": 1.9,
+      "decimals": 1,
+      "context": "...rose 66.8% to $204.1 million, and its gross loss narrowed to $1.9 million  .  Operating income improved to $72.8 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.9 million",
+        "snippet": "...expanded research activities, (3) consulting, advisory, and professional services costs, which increased by $1.9 million, predominantly due to third‑party engineering, certification, and regulatory support for scaling our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$72.8 million",
+      "value": 72.8,
+      "unit": "million",
+      "money_mn": 72.8,
+      "decimals": 1,
+      "context": "...loss narrowed to $1.9 million  .  Operating income improved to $72.8 million from $22.9 million, as gross profit rose $182.8...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Operating Income As Reported 2025-12-31: 72,802,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.9 million",
+      "value": 22.9,
+      "unit": "million",
+      "money_mn": 22.9,
+      "decimals": 1,
+      "context": "...to $1.9 million  .  Operating income improved to $72.8 million from $22.9 million, as gross profit rose $182.8 million while...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22,906",
+        "snippet": "Service 22,906 (1,419) 24,325"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$182.8 million",
+      "value": 182.8,
+      "unit": "million",
+      "money_mn": 182.8,
+      "decimals": 1,
+      "context": "...improved to $72.8 million from $22.9 million, as gross profit rose $182.8 million while operating expenses rose $132.9 million to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "182.8 million",
+        "snippet": "Total gross profit increased by $182.8 million for the year ended December 31, 2025, compared to the prior year period. The increase was predominantly..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$132.9 million",
+      "value": 132.9,
+      "unit": "million",
+      "money_mn": 132.9,
+      "decimals": 1,
+      "context": "...as gross profit rose $182.8 million while operating expenses rose $132.9 million to $514.6 million  . Service gross profit swung...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "132.9 million",
+        "snippet": "Total operating expenses increased by $132.9 million for the year ended December 31, 2025, compared to the prior year period. This increase was primarily..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$514.6 million",
+      "value": 514.6,
+      "unit": "million",
+      "money_mn": 514.6,
+      "decimals": 1,
+      "context": "...rose $182.8 million while operating expenses rose $132.9 million to $514.6 million  . Service gross profit swung to $22.9 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "514,598",
+        "snippet": "Total operating expenses $ 514,598 $ 381,739 $ 132,859 34.8 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.9 million",
+      "value": 22.9,
+      "unit": "million",
+      "money_mn": 22.9,
+      "decimals": 1,
+      "context": "...$132.9 million to $514.6 million  . Service gross profit swung to $22.9 million from a $1.4 million loss, as lower field...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22,906",
+        "snippet": "Service 22,906 (1,419) 24,325"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.4 million",
+      "value": 1.4,
+      "unit": "million",
+      "money_mn": 1.4,
+      "decimals": 1,
+      "context": "...million  . Service gross profit swung to $22.9 million from a $1.4 million loss, as lower field replacement unit deployment...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,419)",
+        "snippet": "Service 22,906 (1,419) 24,325"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.4 million",
+      "value": 29.4,
+      "unit": "million",
+      "money_mn": 29.4,
+      "decimals": 1,
+      "context": "...$1.4 million loss, as lower field replacement unit deployment saved $29.4 million, although repair and overhaul costs rose $11.1...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29.4 million",
+        "snippet": "...driven by: (1) a reduction in the deployment of field replacement units, contributing to cost savings of $29.4 million, (2) lower rework and production costs of $1.2 million, and (3) our cost reduction efforts to manage fleet..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.1 million",
+      "value": 11.1,
+      "unit": "million",
+      "money_mn": 11.1,
+      "decimals": 1,
+      "context": "...saved $29.4 million, although repair and overhaul costs rose $11.1 million as the fleet aged  . Electricity gross profit...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11.1 million",
+        "snippet": "...fleet optimizations. The reduction was partially offset by (i) an increase in repair and overhaul costs of $11.1 million, and (ii) an increase in maintenance material costs of $6.4 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27.9 million",
+      "value": 27.9,
+      "unit": "million",
+      "money_mn": 27.9,
+      "decimals": 1,
+      "context": "...as the fleet aged  . Electricity gross profit nearly doubled to $27.9 million, but that gain comes mainly from a one-time...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "27,932",
+        "snippet": "Electricity 27,932 13,889 14,043"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$157.2 million",
+      "value": 157.2,
+      "unit": "million",
+      "money_mn": 157.2,
+      "decimals": 1,
+      "context": "...as recurring  .  Below operating income, other expense rose to $157.2 million from $49.3 million, including a $66.2 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "157,206)",
+        "snippet": "Total $ (157,206) $ (49,266) $ (107,940)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$49.3 million",
+      "value": 49.3,
+      "unit": "million",
+      "money_mn": 49.3,
+      "decimals": 1,
+      "context": "....  Below operating income, other expense rose to $157.2 million from $49.3 million, including a $66.2 million debt conversion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "49,266)",
+        "snippet": "Total $ (157,206) $ (49,266) $ (107,940)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$66.2 million",
+      "value": 66.2,
+      "unit": "million",
+      "money_mn": 66.2,
+      "decimals": 1,
+      "context": "...expense rose to $157.2 million from $49.3 million, including a $66.2 million debt conversion inducement and a $40.4 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "66.2 million",
+        "snippet": "Debt conversion inducement expense for the year ended December 31, 2025, was $66.2 million, which was recognized as a result of the induced conversion of the Existing Notes in November 2025 (refer to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$40.4 million",
+      "value": 40.4,
+      "unit": "million",
+      "money_mn": 40.4,
+      "decimals": 1,
+      "context": "...million, including a $66.2 million debt conversion inducement and a $40.4 million equity loss from unconsolidated affiliates. The...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "40,421)",
+        "snippet": "(40,421) — (40,421)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$88.4 million",
+      "value": 88.4,
+      "unit": "million",
+      "money_mn": 88.4,
+      "decimals": 1,
+      "context": "...equity loss from unconsolidated affiliates. The net loss widened to $88.4 million from $29.2 million, and diluted EPS was -$0.37...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Net Interest Income 2023-12-31: -88,414,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.2 million",
+      "value": 29.2,
+      "unit": "million",
+      "money_mn": 29.2,
+      "decimals": 1,
+      "context": "...affiliates. The net loss widened to $88.4 million from $29.2 million, and diluted EPS was -$0.37 versus -$0.13 on...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Net Income From Continuing Operation Net Minority Interest 2024-12-31: -29,227,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$0.37",
+      "value": 0.37,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...widened to $88.4 million from $29.2 million, and diluted EPS was -$0.37 versus -$0.13 on 240.4 million average shares  ....",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2025-12-31: -0 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$0.13",
+      "value": 0.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$88.4 million from $29.2 million, and diluted EPS was -$0.37 versus -$0.13 on 240.4 million average shares  . Operating...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2024-12-31: -0 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$113.9 million",
+      "value": 113.9,
+      "unit": "million",
+      "money_mn": 113.9,
+      "decimals": 1,
+      "context": "...-$0.13 on 240.4 million average shares  . Operating cash flow was $113.9 million despite a $217.3 million working-capital...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "113.9 million",
+        "snippet": "Net cash provided by operating activities for the year ended December 31, 2025, was $113.9 million, representing a $22.0 million increase compared to the prior year period. The year-over-year change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$217.3 million",
+      "value": 217.3,
+      "unit": "million",
+      "money_mn": 217.3,
+      "decimals": 1,
+      "context": "...average shares  . Operating cash flow was $113.9 million despite a $217.3 million working-capital outflow, and capex of $56.8...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Change In Working Capital 2025-12-31: -217,285,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$56.8 million",
+      "value": 56.8,
+      "unit": "million",
+      "money_mn": 56.8,
+      "decimals": 1,
+      "context": "...despite a $217.3 million working-capital outflow, and capex of $56.8 million left free cash flow of about $57.2 million,...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Non Current Deferred Liabilities 2025-12-31: 56,768,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$57.2 million",
+      "value": 57.2,
+      "unit": "million",
+      "money_mn": 57.2,
+      "decimals": 1,
+      "context": "...outflow, and capex of $56.8 million left free cash flow of about $57.2 million, against $33.1 million in 2024  . The operating...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 57,190,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$33.1 million",
+      "value": 33.1,
+      "unit": "million",
+      "money_mn": 33.1,
+      "decimals": 1,
+      "context": "...$56.8 million left free cash flow of about $57.2 million, against $33.1 million in 2024  . The operating profit was real, but...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "33,042",
+        "snippet": "General and administrative 59,709 33,042 26,667 80.7 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.27",
+      "value": 3.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...net line. Consensus, dated after the     , expects FY2026 EPS of $3.27  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3.27",
+        "snippet": "...revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.3%",
+      "value": 37.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Revenue rose 37.3% to $2,024.0 million in 2025, from $1,474 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "37.3%",
+        "snippet": "Total revenue increased by $550.1 million, or 37.3%, for the year ended December 31, 2025, compared to the prior year period. This increase was driven by a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.1%",
+      "value": 41.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from $1,474 million in 2024, led by product revenue, which grew 41.1% to $1,531.3 million  . Service grew only 6.9% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "product",
+          "revenue"
+        ],
+        "hl": "41.1%",
+        "snippet": "Product revenue increased by $446.1 million, or 41.1%, for the year ended December 31, 2025, compared to the prior year period. The increase was primarily due to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue, which grew 41.1% to $1,531.3 million  . Service grew only 6.9% to $228.3 million, and electricity rose 14.2% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "service"
+        ],
+        "hl": "6.9%",
+        "snippet": "Service revenue increased by $14.8 million, or 6.9%, for the year ended December 31, 2025, compared to the prior year period. The increase was primarily driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.2%",
+      "value": 14.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Service grew only 6.9% to $228.3 million, and electricity rose 14.2% to $60.4 million  . Gross margin improved to 29%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "electricity"
+        ],
+        "hl": "14.2%",
+        "snippet": "Electricity revenue increased by $7.5 million, or 14.2%, for the year ended December 31, 2025, compared to the prior year period. The increase was predominantly due..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...electricity rose 14.2% to $60.4 million  . Gross margin improved to 29% from 27%, but product gross margin declined year...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 29.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 14.2% to $60.4 million  . Gross margin improved to 29% from 27%, but product gross margin declined year over...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 27.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66.8%",
+      "value": 66.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...customer all weighed on product margin  . Installation revenue rose 66.8% to $204.1 million, and its gross loss narrowed...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "installation",
+          "revenue"
+        ],
+        "hl": "66.8%",
+        "snippet": "Installation revenue increased by $81.8 million, or 66.8%, for the year ended December 31, 2025, compared to the prior year period. The increase was primarily driven..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "240.4",
+      "value": 240.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from $29.2 million, and diluted EPS was -$0.37 versus -$0.13 on 240.4 million average shares  . Operating cash flow...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "average",
+          "pershare"
+        ],
+        "hl": null,
+        "snippet": "Diluted Average Shares 2025-12-31: 240,402,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,613.7 million",
+      "value": 2613.7,
+      "unit": "million",
+      "money_mn": 2613.7,
+      "decimals": 1,
+      "context": ".... The balance sheet amplifies the exposure: long-term debt was $2,613.7 million at year-end  , and at the latest quarter total...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,613.7 million",
+        "snippet": "As of December 31, 2025 and 2024, we had $2,613.7 million and $1,124.7 million of recourse debt, $4.2 million and $4.1 million of non-recourse debt, and $10.0 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,783.4 million",
+      "value": 2783.4,
+      "unit": "million",
+      "money_mn": 2783.4,
+      "decimals": 1,
+      "context": "...million at year-end  , and at the latest quarter total debt of $2,783.4 million and net debt of $296.7 million are dated after...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2,783.4 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $2,486.7 million, total debt $2,783.4 million, net cash -$296.7 million, TTM free cash flow $436.7 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$296.7 million",
+      "value": 296.7,
+      "unit": "million",
+      "money_mn": 296.7,
+      "decimals": 1,
+      "context": "...the latest quarter total debt of $2,783.4 million and net debt of $296.7 million are dated after the       . Dilution adds to the...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "296.7 million",
+        "snippet": "...(2026-09-30): cash and short-term investments $2,486.7 million, total debt $2,783.4 million, net cash -$296.7 million, TTM free cash flow $436.7 million, cash runway at that burn self-funded, current ratio 3.7x, shares..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...property, and that the One Big Beautiful Bill Act restored a 30% credit through 2033 only for projects beginning...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "beginning",
+          "through",
+          "property",
+          "project"
+        ],
+        "hl": "30%",
+        "snippet": "...ITC for applicable fuel cell property for projects beginning construction after December 31, 2025, at a 30% rate through 2033, regardless of the level of emissions from the fuel cell property. Accelerated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the       . Dilution adds to the risk, with the share count up 22.2% in 2025 and 25.0% year over year at the latest...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "latest",
+          "count"
+        ],
+        "hl": "22.2%",
+        "snippet": "...at that burn self-funded, current ratio 6.0x, shares outstanding 280.0 million, change in share count y/y +22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.0%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...adds to the risk, with the share count up 22.2% in 2025 and 25.0% year over year at the latest quarter...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "count"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...be sized  .  Demand timing is the second risk. Sales cycles of 8 to 12 months, and revenue recognized only on...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "8",
+        "snippet": "...related party, accounted for approximately 43%, 13% and 12% of our total revenue. Please see Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of Presentation—Concentration of Risk—Customer Risk in this..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...be sized  .  Demand timing is the second risk. Sales cycles of 8 to 12 months, and revenue recognized only on delivery...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12",
+        "snippet": "Our sales cycle is typically 8 to 12 months but can vary considerably. To make a sale, we must typically provide a significant level of education..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Financial quality scores are mixed: the Piotroski F-score is 4 of 9, the Altman Z-score is 7.54, and the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "f-score"
+        ],
+        "hl": "4",
+        "snippet": "- Piotroski F-Score: 4 of 9 available criteria; failed: Return on assets > 0, Return on assets improved, Leverage (long-term debt /..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Financial quality scores are mixed: the Piotroski F-score is 4 of 9, the Altman Z-score is 7.54, and the Beneish...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "f-score"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 4 of 9 available criteria; failed: Return on assets > 0, Return on assets improved, Leverage (long-term debt /..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.54",
+      "value": 7.54,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...are mixed: the Piotroski F-score is 4 of 9, the Altman Z-score is 7.54, and the Beneish M-score of -2.59 gives no...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "z-score",
+          "altman"
+        ],
+        "hl": "7.54",
+        "snippet": "- Altman Z-Score: 7.54 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2.59",
+      "value": 2.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is 4 of 9, the Altman Z-score is 7.54, and the Beneish M-score of -2.59 gives no manipulation warning  . The three risks...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "beneish",
+          "warning",
+          "m-score"
+        ],
+        "hl": "2.59",
+        "snippet": "- Beneish M-Score: -2.59 (below -1.78: no statistical warning sign)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,024 million",
+      "value": 2024.0,
+      "unit": "million",
+      "money_mn": 2024.0,
+      "decimals": 0,
+      "context": "...-88.8% at FCEL, -223.1% at PLUG and -14.8% at ERock  . Revenue of $2,024 million dwarfs the peers, at $710 million for PLUG, $183...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2024",
+        "snippet": "...dictate that transmission additions remain limited, and generator interconnection queues at the end of 2024 totaled 2,300 gigawatts, with typical timelines extending multiple years and further delays. Even with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$710 million",
+      "value": 710.0,
+      "unit": "million",
+      "money_mn": 710.0,
+      "decimals": 0,
+      "context": "...-14.8% at ERock  . Revenue of $2,024 million dwarfs the peers, at $710 million for PLUG, $183 million for ERock and $158...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PLUG Revenue 2025: 710"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$183 million",
+      "value": 183.0,
+      "unit": "million",
+      "money_mn": 183.0,
+      "decimals": 0,
+      "context": "...of $2,024 million dwarfs the peers, at $710 million for PLUG, $183 million for ERock and $158 million for FCEL, although...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "183",
+        "snippet": "...elements of our proprietary technology. As of December 31, 2025, we had 380 active utility patents and 183 patent applications pending in the U.S., and we had an international patent portfolio comprising 252 active..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$158 million",
+      "value": 158.0,
+      "unit": "million",
+      "money_mn": 158.0,
+      "decimals": 0,
+      "context": "...the peers, at $710 million for PLUG, $183 million for ERock and $158 million for FCEL, although Bloom's 37.3% growth trailed...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCEL Revenue 2025: 158"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$89 million",
+      "value": 89.0,
+      "unit": "million",
+      "money_mn": 89.0,
+      "decimals": 0,
+      "context": "...in 2025 after a single positive year in 2024, and EBITDA fell from $89 million to $20 million in the same year, even as gross...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "89,000",
+        "snippet": "We lease various manufacturing facilities in California and Delaware. We lease an 89,000 square-foot R&D and manufacturing facility in Fremont, California, which became operational in April 2021...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20 million",
+      "value": 20.0,
+      "unit": "million",
+      "money_mn": 20.0,
+      "decimals": 0,
+      "context": "...a single positive year in 2024, and EBITDA fell from $89 million to $20 million in the same year, even as gross profit rose to...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "20",
+        "snippet": "...and installed in the future. The terms of the contracted operations and maintenance services range from 5 to 20 years, subject to termination for convenience on an annual basis. The timing of delivery and installation of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$587 million",
+      "value": 587.0,
+      "unit": "million",
+      "money_mn": 587.0,
+      "decimals": 0,
+      "context": "...to $20 million in the same year, even as gross profit rose to $587 million  . Consensus expects EPS to reach $3.27 in...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "587,400",
+        "snippet": "Total gross profit $ 587,400 $ 404,648 $ 182,752"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.27",
+      "value": 3.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...gross profit rose to $587 million  . Consensus expects EPS to reach $3.27 in FY2026 and $5.35 in FY2027  , so the premium...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3.27",
+        "snippet": "...revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.35",
+      "value": 5.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$587 million  . Consensus expects EPS to reach $3.27 in FY2026 and $5.35 in FY2027  , so the premium depends on that...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "5.35",
+        "snippet": "...revenue $7,187.1 million (range $5,820.1 million to $8,861.6 million, 27 analysts), growth +58.8%; EPS $5.35 (range $2.96 to $7.49); forward P/E 28.6x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.0%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...metric the peers report in margin terms. Its 2025 gross margin of 29.0% compares with 20.7% at ERock and negative gross...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 29.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.7%",
+      "value": 20.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in margin terms. Its 2025 gross margin of 29.0% compares with 20.7% at ERock and negative gross margins at FCEL and...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "EROC Gross Margin 2025: 20.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.0%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margins at FCEL and PLUG in all four years  . Its EBITDA margin was 1.0% in 2025, against -88.8% at FCEL, -223.1% at PLUG...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "1.00%",
+        "snippet": "...which is generally the highest of the prime rate, the federal funds rate plus 0.50%, and Term SOFR plus 1.00%, plus an applicable margin (0.50% to 1.25%), depending on our leverage ratio. The facility matures on..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-88.8%",
+      "value": 88.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in all four years  . Its EBITDA margin was 1.0% in 2025, against -88.8% at FCEL, -223.1% at PLUG and -14.8% at ERock  ....",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "FCEL EBITDA Margin 2025: -88.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-223.1%",
+      "value": 223.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Its EBITDA margin was 1.0% in 2025, against -88.8% at FCEL, -223.1% at PLUG and -14.8% at ERock  . Revenue of $2,024...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "PLUG EBITDA Margin 2025: -223.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-14.8%",
+      "value": 14.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 1.0% in 2025, against -88.8% at FCEL, -223.1% at PLUG and -14.8% at ERock  . Revenue of $2,024 million dwarfs the...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Gross Margin 2023: 14.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.3%",
+      "value": 37.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$183 million for ERock and $158 million for FCEL, although Bloom's 37.3% growth trailed FCEL's 41.0% and ERock's 42.5%  ....",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "37.3%",
+        "snippet": "Total revenue increased by $550.1 million, or 37.3%, for the year ended December 31, 2025, compared to the prior year period. This increase was driven by a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.0%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$158 million for FCEL, although Bloom's 37.3% growth trailed FCEL's 41.0% and ERock's 42.5%  . Bloom was the only company...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "41%",
+        "snippet": "...to our 401(k) plan, which triggered an increase in participation in our 401(k) plan from 57% to 64%, (from 41% in 2023, mostly from our hourly employees). In addition to our broad-based equity award programs, we have..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.5%",
+      "value": 42.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...although Bloom's 37.3% growth trailed FCEL's 41.0% and ERock's 42.5%  . Bloom was the only company with positive free...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "EROC Revenue Growth 2025: 42.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC was -0.7% in 2025 after a single positive year in 2024,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2025: -0.7%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "11.5",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...two-year history  . GE Vernova was excluded because it is about 11.5 times Bloom's revenue, a size mismatch  .  Bloom...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "PB Ratio 2022: 11.54"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "33",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...company with positive free cash flow in two consecutive years, at 33 in 2024 and 57 in 2025, while FCEL and PLUG...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "Free Cash Flow 2024-12-31: 33,146,000 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "57",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...positive free cash flow in two consecutive years, at 33 in 2024 and 57 in 2025, while FCEL and PLUG burned cash in...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 57,190,000 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12.29",
+      "value": 12.29,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...year shown  .  The valuation gap is wide. Bloom's EV/Sales was 12.29 in 2025, against 1.76 at FCEL and 4.75 at PLUG,...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "EV/Sales 2025: 12.29"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.76",
+      "value": 1.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...valuation gap is wide. Bloom's EV/Sales was 12.29 in 2025, against 1.76 at FCEL and 4.75 at PLUG, and its P/B of 31.66...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "FCEL EV/Sales 2025: 1.76"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.75",
+      "value": 4.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...wide. Bloom's EV/Sales was 12.29 in 2025, against 1.76 at FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "PLUG EV/Sales 2025: 4.75"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "31.66",
+      "value": 31.66,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in 2025, against 1.76 at FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "PB Ratio 2025: 31.66"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.29",
+      "value": 0.29,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...1.76 at FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC was -0.7% in 2025...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCEL PB Ratio 2024: 0.29"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.70",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FCEL and 4.75 at PLUG, and its P/B of 31.66 compares with 0.29 to 1.70 at FCEL  . Its ROIC was -0.7% in 2025 after a...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.7 million",
+        "snippet": "...subscription and software-related costs, and (4) travel and entertainment expenses, which increased by $1.7 million, due to higher in-person engagement and event participation."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,024.0 million",
+      "value": 2024.0,
+      "unit": "million",
+      "money_mn": 2024.0,
+      "decimals": 1,
+      "context": "...demand is converting into delivered sites. Revenue rose 37.3% to $2,024.0 million in 2025  ; FY2026 consensus is $4,525.9 million,...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2024",
+        "snippet": "...dictate that transmission additions remain limited, and generator interconnection queues at the end of 2024 totaled 2,300 gigawatts, with typical timelines extending multiple years and further delays. Even with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,525.9 million",
+      "value": 4525.9,
+      "unit": "million",
+      "money_mn": 4525.9,
+      "decimals": 1,
+      "context": "...rose 37.3% to $2,024.0 million in 2025  ; FY2026 consensus is $4,525.9 million, growth of 123.6%  . Fremont reaches a 2 GW...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "4,525.9 million",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.41",
+      "value": 4.41,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...GW annual run rate by end-2026, and FY2026 revenue lands within the $4.41-4.64 billion consensus range  . FY2026 revenue...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$4.41 billion",
+      "value": 4.41,
+      "unit": "billion",
+      "money_mn": 4410.0,
+      "decimals": 2,
+      "context": "...$4.41-4.64 billion consensus range  . FY2026 revenue falls below $4.41 billion, the low end of consensus, or Fremont completion...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "4,412.0 million",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x;..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$57.2 million",
+      "value": 57.2,
+      "unit": "million",
+      "money_mn": 57.2,
+      "decimals": 1,
+      "context": "...until operating cash flow covers its debt. Free cash flow was $57.2 million in 2025   against total debt of $2,992.0 million...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 57,190,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,992.0 million",
+      "value": 2992.0,
+      "unit": "million",
+      "money_mn": 2992.0,
+      "decimals": 1,
+      "context": "...Free cash flow was $57.2 million in 2025   against total debt of $2,992.0 million  ; the share count rose 22.2% in 2025  . Share...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 2,991,952,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.27",
+      "value": 3.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...quarter in 2026, and FY2026 EPS consensus holding at or above $3.27  . FY2026 EPS consensus falls below $2.98, the...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3.27",
+        "snippet": "...revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.98",
+      "value": 2.98,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...holding at or above $3.27  . FY2026 EPS consensus falls below $2.98, the bottom of its range  , or the implied...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2.98",
+        "snippet": "...million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.9 million",
+      "value": 21.9,
+      "unit": "million",
+      "money_mn": 21.9,
+      "decimals": 1,
+      "context": "...margin rose to 29% from 27%  ; product gross margin fell after $21.9 million of Electrolyzer reserves and a $12.7 million...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "21.9 million",
+        "snippet": "...increased demand for our Energy Server systems, (2) inventory reserve and other asset impairments totaling $21.9 million related to our Electrolyzer assets, and (3) impairment charge of $12.7 million related to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.7 million",
+      "value": 12.7,
+      "unit": "million",
+      "money_mn": 12.7,
+      "decimals": 1,
+      "context": "...margin fell after $21.9 million of Electrolyzer reserves and a $12.7 million impairment  . Product gross margin is reported...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12.7 million",
+        "snippet": "...asset impairments totaling $21.9 million related to our Electrolyzer assets, and (3) impairment charge of $12.7 million related to construction‑in‑progress associated with manufacturing and infrastructure assets and facilities..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.3%",
+      "value": 37.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and utility demand is converting into delivered sites. Revenue rose 37.3% to $2,024.0 million in 2025  ; FY2026 consensus...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "37.3%",
+        "snippet": "Total revenue increased by $550.1 million, or 37.3%, for the year ended December 31, 2025, compared to the prior year period. This increase was driven by a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "123.6%",
+      "value": 123.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million in 2025  ; FY2026 consensus is $4,525.9 million, growth of 123.6%  . Fremont reaches a 2 GW annual run rate by...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "123.6%",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against total debt of $2,992.0 million  ; the share count rose 22.2% in 2025  . Share count growth below 5% year over...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "count"
+        ],
+        "hl": "22.2%",
+        "snippet": "...at that burn self-funded, current ratio 6.0x, shares outstanding 280.0 million, change in share count y/y +22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...; the share count rose 22.2% in 2025  . Share count growth below 5% year over year in the FY2026      (early 2027),...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5%",
+        "snippet": "Cost of service revenue decreased by $9.6 million, or 4.5%, for the year ended December 31, 2025, compared to the prior year period. The decrease was primarily driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...with full-year free cash flow positive. Share count grows more than 25% year over year again, or the convertible notes...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "count"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48.8%",
+      "value": 48.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is paying for growth well beyond history. The reverse DCF implies 48.8% annual revenue growth for ten years versus 19.1%...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "48.8%",
+        "snippet": "- The current enterprise value of $45,533.1 million implies revenue growth of 48.8% per year for 10 years (FY2025 revenue $2,024.0 million -> about $107,564.0 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.1%",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...DCF implies 48.8% annual revenue growth for ten years versus 19.1% historically, and a 10.6% implied return against...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "implied",
+          "revenue"
+        ],
+        "hl": "19.1%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.1%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue growth for ten years versus 19.1% historically, and a 10.6% implied return against a 15.0% WACC  . A...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.0%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...versus 19.1% historically, and a 10.6% implied return against a 15.0% WACC  . A positive GAAP net income quarter in...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "15.0%",
+        "snippet": "...million -> about $107,564.0 million in FY2035), assuming the free cash flow margin moves from 2.8% to 15.0% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.50 x 5.0% equity risk premium) and 2.5%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...as volumes scale and one-off charges fade. Gross margin rose to 29% from 27%  ; product gross margin fell after...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 29.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...scale and one-off charges fade. Gross margin rose to 29% from 27%  ; product gross margin fell after $21.9 million...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 27.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Electrolyzer reserves. Consolidated gross margin falls back below 27%, the 2024 level, in any reported quarter.",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 27.5%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is $4,525.9 million, growth of 123.6%  . Fremont reaches a 2 GW annual run rate by end-2026, and FY2026...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,000",
+        "snippet": "Headquartered in Silicon Valley, Bloom Energy employs more than 2,000 people worldwide and manufactures its systems in the United States. Bloom has its Energy Server systems..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.64",
+      "value": 4.64,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...run rate by end-2026, and FY2026 revenue lands within the $4.41-4.64 billion consensus range  . FY2026 revenue falls...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$1531.3 million",
+      "value": 1531.3,
+      "unit": "million",
+      "money_mn": 1531.3,
+      "decimals": 1,
+      "context": "Product: $1531.3 million, prior $1085.2 million; Installation: $204.1...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,531,281",
+        "snippet": "Product $ 1,531,281 $ 1,085,153 $ 446,128 41.1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1085.2 million",
+      "value": 1085.2,
+      "unit": "million",
+      "money_mn": 1085.2,
+      "decimals": 1,
+      "context": "Product: $1531.3 million, prior $1085.2 million; Installation: $204.1 million, prior $122.3...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,085,153",
+        "snippet": "Product $ 1,531,281 $ 1,085,153 $ 446,128 41.1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$204.1 million",
+      "value": 204.1,
+      "unit": "million",
+      "money_mn": 204.1,
+      "decimals": 1,
+      "context": "Product: $1531.3 million, prior $1085.2 million; Installation: $204.1 million, prior $122.3 million; Service: $228.3 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "204,068",
+        "snippet": "Installation 204,068 122,318 81,750 66.8 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$122.3 million",
+      "value": 122.3,
+      "unit": "million",
+      "money_mn": 122.3,
+      "decimals": 1,
+      "context": "...million, prior $1085.2 million; Installation: $204.1 million, prior $122.3 million; Service: $228.3 million, prior $213.5 million;...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "122,318",
+        "snippet": "Installation 204,068 122,318 81,750 66.8 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$228.3 million",
+      "value": 228.3,
+      "unit": "million",
+      "money_mn": 228.3,
+      "decimals": 1,
+      "context": "...Installation: $204.1 million, prior $122.3 million; Service: $228.3 million, prior $213.5 million; Electricity: $60.4...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "228,295",
+        "snippet": "Service 228,295 213,542 14,753 6.9 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$213.5 million",
+      "value": 213.5,
+      "unit": "million",
+      "money_mn": 213.5,
+      "decimals": 1,
+      "context": "...million, prior $122.3 million; Service: $228.3 million, prior $213.5 million; Electricity: $60.4 million, prior $52.8 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "213,542",
+        "snippet": "Service 228,295 213,542 14,753 6.9 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.4 million",
+      "value": 60.4,
+      "unit": "million",
+      "money_mn": 60.4,
+      "decimals": 1,
+      "context": "...Service: $228.3 million, prior $213.5 million; Electricity: $60.4 million, prior $52.8 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60,350",
+        "snippet": "Electricity 60,350 52,843 7,507 14.2 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$52.8 million",
+      "value": 52.8,
+      "unit": "million",
+      "money_mn": 52.8,
+      "decimals": 1,
+      "context": "...million, prior $213.5 million; Electricity: $60.4 million, prior $52.8 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "52,843",
+        "snippet": "Electricity 60,350 52,843 7,507 14.2 %"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "FCEL",
+    "PLUG",
+    "EROC"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 136,
+    "matched": 133,
+    "match_rate": 0.978,
+    "name_issues": 0
+  }
+}

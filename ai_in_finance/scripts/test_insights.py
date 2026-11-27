@@ -10,7 +10,8 @@ AIF = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(AIF))
 TESTS = ["https://www.jpmorgan.com/insights/research", "https://www.goldmansachs.com/insights",
          "https://www.morganstanley.com/ideas", "https://www.blackrock.com/corporate/insights/blackrock-investment-institute",
-         "https://www.youtube.com/@GoldmanSachs", "https://www.federalreserve.gov/feeds/press_all.xml"]
+         "https://www.youtube.com/@GoldmanSachs", "https://www.federalreserve.gov/feeds/press_all.xml",
+         "https://www.rbccm.com/en/insights/", "https://www.citigroup.com/global/insights", "https://www.dbresearch.com/"]
 
 
 class _Tee:

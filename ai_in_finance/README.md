@@ -1,7 +1,9 @@
-# AI in Finance – eigene Agenten auf Basis von FinRobot
+# AI in Finance – BLUMBÖRG (eigene Agenten auf Basis von FinRobot)
 
 Dieser Ordner enthaelt alles, was im Rahmen des Kursprojekts **neu** entstanden ist. Die
 Original-Tutorials von FinRobot liegen unveraendert unter `finrobot_autogen/tutorials_*`.
+
+**Installation und erster Lauf:** `INSTALLATION.md` · **Bedienung der App:** `ANLEITUNG_APP.md`
 
 ## Struktur
 
@@ -9,7 +11,7 @@ Original-Tutorials von FinRobot liegen unveraendert unter `finrobot_autogen/tuto
 |---|---|
 | `notebooks/` | `annual_report_agent.ipynb` (Annual Report), `investment_committee.ipynb` (CIO + 3 Analystengruppen, aus FinRobot `experiments/portfolio_optimization.py`), `fingpt_forecaster.ipynb` (Wochenprognose, aus FinRobot-Tutorial), `earnings_reviewer.ipynb` (Quartals-Update, neuestes Quartal), `earnings_reviewer_multi.ipynb` (alle Quartale seit dem 10-K, Thesen-Protokoll), `portfolio_manager.ipynb` (Portfolio-Analyse, Optimierung, Backtest, echte Performance aus Broker-Exporten), `news_tracker.ipynb` (woechentlicher News-Digest mit Thesenbezug), `pipeline.ipynb` (alle Agenten in einem Ablauf) |
 | `lib/` | Eigene Agenten und Tools (`report_agent.py`, `investment_committee.py`, `forecaster.py`, `peer_tools.py`, `outlook_tools.py`, `tenk_search.py`, `news_tools.py`, `earnings_reviewer.py`, `earnings_reviewer_multi.py`, `quarterly_data.py`, `portfolio_engine.py`, `portfolio_manager.py`, `transactions.py`, `performance.py`, `news_tracker.py`, `pipeline.py`)
-| `portfolios/` | Portfolio-Dateien (CSV: ticker + weight oder shares), z. B. `sample_portfolio.csv`; Transaktions-Exporte (Scalable Capital, Trade Republic, Smartbroker+ oder Vorlage `sample_transactions.csv`) und `isin_map.csv` (ISIN -> Yahoo-Ticker). Alle CSVs sind gitignored und bleiben lokal | |
+| `portfolios/` | Portfolio-Dateien (CSV: ticker + weight oder shares), z. B. `sample_portfolio.csv`; Transaktions-Exporte (Scalable Capital, Trade Republic, Smartbroker+ oder Vorlage `sample_transactions.csv`) und `isin_map.csv` (ISIN -> Yahoo-Ticker). Broker-Exporte, Uploads und `isin_map.csv` sind gitignored und bleiben lokal; nur die Musterdateien `sample_*.csv` liegen im Repository | |
 | `forecasts/` | Protokoll der Forecaster-Vorhersagen und Auswertung (`scripts/score_forecasts.py`) |
 | `reports/` | Erzeugte Reports und Faktencheck-JSONs; `reports/prototypes/` = fruehe Versionen |
 | `notes/` | Belege fuer den Kurs-Report (z. B. Halluzinationen im Original) |

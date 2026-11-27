@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/ABNB_earnings_multi_claude-haiku-5.5\\ABNB_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Operating margin recovers in 2026 as sales and marketing growth falls below revenue growth.",
+        "signpost": "In the 2026 10-Qs, sales and marketing growth is below revenue growth in Q2 and Q3, and the FY2026 10-K shows operating margin at or above 23%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Buybacks keep shrinking the share count, funded from free cash flow.",
+        "signpost": "Quarterly share count falls below 589 million by the Q4 2026 report, and repurchases stay at or below free cash flow in each 2026 quarter.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: The stock needs consensus earnings to keep rising, because the current valuation implies returns close to the cost of capital.",
+        "signpost": "The Q2 2026 EPS beats estimates, and FY2026 consensus EPS rises above $5.58 by the Q3 2026 report.",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: The IRS dispute is resolved without a cash payment above the existing reserve.",
+        "signpost": "A Tax Court ruling or settlement is disclosed in a 2026 10-Q or 10-K, with a payment at or below the existing reserve.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

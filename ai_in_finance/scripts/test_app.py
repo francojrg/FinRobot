@@ -15,7 +15,7 @@ from pathlib import Path
 AIF = Path(__file__).resolve().parents[1]
 APP = AIF / "app" / "app.py"
 sys.path.insert(0, str(AIF))
-PAGES = ["home", "news", "portfolio", "research", "chat", "run", "log", "settings"]
+PAGES = ["home", "news", "portfolio", "analysis", "research", "chat", "run", "log", "settings"]
 
 
 def run_page(page, state=None, actions=None, timeout=180):

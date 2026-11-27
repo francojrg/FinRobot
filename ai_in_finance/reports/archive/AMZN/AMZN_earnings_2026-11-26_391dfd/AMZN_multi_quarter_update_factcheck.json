@@ -1,0 +1,3248 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 148,
+  "context_match_rate": 0.925,
+  "number_only": [
+    {
+      "kind": "plain",
+      "text": "400",
+      "value": 400.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...for most large countries; the company says the shift cost about 400 basis points  . Operating margin reached 13.9%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "400",
+        "snippet": "...launches for Amazon Leo, its low Earth orbit satellite network, bringing the total constellation to nearly 400 satellites in orbit—enough to begin initial satellite internet service this year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 38.7%  . The June quarter, not labelled in the scorecard, had 37% growth and a derived margin of 39.3%  . Every...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37%",
+        "snippet": "AWS net sales increased 37%—its fastest growth in 18 quarters—to a $169 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.8%",
+      "value": 50.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the March quarter   and 53.2% in the September quarter, against 50.8% a year earlier  . The earnings releases and MD&A...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "50.8%",
+        "snippet": "- Gross margin: FY2025 50.3%; Q1 FY2026 51.8% (year-ago n/a, n/a); Q2 FY2026 53.2% (year-ago 50.8%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...implies 18.6% annual revenue growth against 15.7% consensus, and an 8.5% implied return against a 12.4% WACC...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 8.5% per year (-3.9 percentage points vs the WACC)."
+      }
+    }
+  ],
+  "total_claims": 160,
+  "matched": 152,
+  "match_rate": 0.95,
+  "by_kind": {
+    "money": {
+      "total": 103,
+      "matched": 99,
+      "context_matched": 99
+    },
+    "pct": {
+      "total": 48,
+      "matched": 44,
+      "context_matched": 41
+    },
+    "plain": {
+      "total": 6,
+      "matched": 6,
+      "context_matched": 5
+    },
+    "multiple": {
+      "total": 3,
+      "matched": 3,
+      "context_matched": 3
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 82,
+    "[2] Forms 10-Q": 21,
+    "[3] Yahoo Finance": 47,
+    "[4] Annual report and thesis log": 2
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "56%",
+      "value": 56.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS accelerated to 39% growth with operating income up 56%, but free cash flow turned negative and net cash...",
+      "section": "Headline",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$584.0bn",
+      "value": 584.0,
+      "unit": "billion",
+      "money_mn": 584000.0,
+      "decimals": 1,
+      "context": "...(T3) and gross margin (T4) are intact. Nine-month net sales of $584.0bn grew about 16% (derived)  , and gross margin was...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.8%",
+      "value": 37.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...basis (operating income divided by segment sales), AWS margin was 37.8%, 39.3% and 38.7%, above the 36% signpost  .  The...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$584.0bn",
+      "value": 584.0,
+      "unit": "billion",
+      "money_mn": 584000.0,
+      "decimals": 1,
+      "context": "...20% and 12% in the three quarters reported  . Nine-month sales of $584.0bn are up about 16% (derived), so FY2026 consensus...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$245bn",
+      "value": 245.0,
+      "unit": "billion",
+      "money_mn": 245000.0,
+      "decimals": 0,
+      "context": "...16% (derived), so FY2026 consensus revenue of $829.2bn needs about $245bn in the fourth quarter (derived: $829.2bn less...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$584.0bn",
+      "value": 584.0,
+      "unit": "billion",
+      "money_mn": 584000.0,
+      "decimals": 1,
+      "context": "...needs about $245bn in the fourth quarter (derived: $829.2bn less $584.0bn)  . Consensus FY2027 revenue is unchanged at...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.8%",
+      "value": 37.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $37.6bn with operating income of $14.2bn, a derived margin of 37.8%  . September quarter AWS sales rose 39% to...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.8%",
+      "value": 37.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...guidance  .  Eased: AWS margin pressure. Derived AWS margins were 37.8% to 39.3% across the three quarters  . Legal and...",
+      "section": "Risk update",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "-$158bn",
+      "value": 158.0,
+      "unit": "billion",
+      "money_mn": 158000.0,
+      "decimals": 0,
+      "context": "...up 56%, but free cash flow turned negative and net cash reached the -$158bn invalidation level.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS accelerated to 39% growth with operating income up 56%, but free...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "operating"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "56%",
+      "value": 56.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS accelerated to 39% growth with operating income up 56%, but free cash flow turned negative and net cash...",
+      "section": "Headline",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$14.2bn",
+      "value": 14.2,
+      "unit": "billion",
+      "money_mn": 14200.0,
+      "decimals": 1,
+      "context": "...reported since the FY2025     , and AWS operating income reached $14.2bn, $16.6bn and $17.8bn, against $11.5bn, $10.2bn...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "14.2 billion",
+        "snippet": "• AWS segment operating income was $14.2 billion, compared with $11.5 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.6bn",
+      "value": 16.6,
+      "unit": "billion",
+      "money_mn": 16600.0,
+      "decimals": 1,
+      "context": "...since the FY2025     , and AWS operating income reached $14.2bn, $16.6bn and $17.8bn, against $11.5bn, $10.2bn and...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.6 billion",
+        "snippet": "• AWS segment operating income was $16.6 billion, compared with $10.2 billion in second quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.8bn",
+      "value": 17.8,
+      "unit": "billion",
+      "money_mn": 17800.0,
+      "decimals": 1,
+      "context": "...FY2025     , and AWS operating income reached $14.2bn, $16.6bn and $17.8bn, against $11.5bn, $10.2bn and $11.4bn a year...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "17.8 billion",
+        "snippet": "• AWS segment operating income was $17.8 billion, compared with $11.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.5bn",
+      "value": 11.5,
+      "unit": "billion",
+      "money_mn": 11500.0,
+      "decimals": 1,
+      "context": "...AWS operating income reached $14.2bn, $16.6bn and $17.8bn, against $11.5bn, $10.2bn and $11.4bn a year earlier  . On a...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 billion",
+        "snippet": "• AWS segment operating income was $14.2 billion, compared with $11.5 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.2bn",
+      "value": 10.2,
+      "unit": "billion",
+      "money_mn": 10200.0,
+      "decimals": 1,
+      "context": "...income reached $14.2bn, $16.6bn and $17.8bn, against $11.5bn, $10.2bn and $11.4bn a year earlier  . On a derived basis...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10.2 billion",
+        "snippet": "• AWS segment operating income was $16.6 billion, compared with $10.2 billion in second quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.4bn",
+      "value": 11.4,
+      "unit": "billion",
+      "money_mn": 11400.0,
+      "decimals": 1,
+      "context": "...reached $14.2bn, $16.6bn and $17.8bn, against $11.5bn, $10.2bn and $11.4bn a year earlier  . On a derived basis (operating...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.4 billion",
+        "snippet": "• AWS segment operating income was $17.8 billion, compared with $11.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.2bn",
+      "value": 1.2,
+      "unit": "billion",
+      "money_mn": 1200.0,
+      "decimals": 1,
+      "context": "...(T2) is broken. Trailing twelve-month free cash flow fell from +$1.2bn at March 31 to an outflow of $42.4bn at...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.2 billion",
+        "snippet": "• Free cash flow decreased to $1.2 billion for the trailing twelve months, driven primarily by a year-over-year increase of $59.3 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$42.4bn",
+      "value": 42.4,
+      "unit": "billion",
+      "money_mn": 42400.0,
+      "decimals": 1,
+      "context": "...free cash flow fell from +$1.2bn at March 31 to an outflow of $42.4bn at September 30  , while cash capex in the...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "42.4 billion",
+        "snippet": "• Free cash flow decreased to an outflow of $42.4 billion for the trailing twelve months, driven primarily by a year-over-year increase of $94.8 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.9bn",
+      "value": 75.9,
+      "unit": "billion",
+      "money_mn": 75900.0,
+      "decimals": 1,
+      "context": "...at September 30  , while cash capex in the September quarter was $75.9bn against $34.2bn a year earlier  . Yahoo Finance...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.9 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.2bn",
+      "value": 34.2,
+      "unit": "billion",
+      "money_mn": 34200.0,
+      "decimals": 1,
+      "context": "...30  , while cash capex in the September quarter was $75.9bn against $34.2bn a year earlier  . Yahoo Finance shows a trailing...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "34.2 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$37.6bn",
+      "value": 37.6,
+      "unit": "billion",
+      "money_mn": 37600.0,
+      "decimals": 1,
+      "context": "...$34.2bn a year earlier  . Yahoo Finance shows a trailing outflow of $37.6bn  . Net cash was -$157.7bn at           , $0.3bn...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37.6 billion",
+        "snippet": "• AWS segment sales increased 28% year-over-year to $37.6 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$157.7bn",
+      "value": 157.7,
+      "unit": "billion",
+      "money_mn": 157700.0,
+      "decimals": 1,
+      "context": ".... Yahoo Finance shows a trailing outflow of $37.6bn  . Net cash was -$157.7bn at           , $0.3bn short of the -$158bn...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.3bn",
+      "value": 0.3,
+      "unit": "billion",
+      "money_mn": 300.0,
+      "decimals": 1,
+      "context": "...outflow of $37.6bn  . Net cash was -$157.7bn at           , $0.3bn short of the -$158bn invalidation level in the...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "300,000",
+        "snippet": "• Announced plans to hire more than 300,000 seasonal, part-time, and full-time employees across its U.S. operations this holiday season."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$158bn",
+      "value": 158.0,
+      "unit": "billion",
+      "money_mn": 158000.0,
+      "decimals": 0,
+      "context": ".... Net cash was -$157.7bn at           , $0.3bn short of the -$158bn invalidation level in the thesis log  .  Revenue...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$584.0bn",
+      "value": 584.0,
+      "unit": "billion",
+      "money_mn": 584000.0,
+      "decimals": 1,
+      "context": "...(T3) and gross margin (T4) are intact. Nine-month net sales of $584.0bn grew about 16% (derived)  , and gross margin was...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS thesis (T1) is strengthened. AWS sales grew 28%, 37% and 39% year over year in the three...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "revenue"
+        ],
+        "hl": "28%",
+        "snippet": "• AWS segment sales increased 28% year-over-year to $37.6 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS thesis (T1) is strengthened. AWS sales grew 28%, 37% and 39% year over year in the three quarters...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "revenue"
+        ],
+        "hl": "37%",
+        "snippet": "AWS net sales increased 37%—its fastest growth in 18 quarters—to a $169 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS thesis (T1) is strengthened. AWS sales grew 28%, 37% and 39% year over year in the three quarters reported...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "revenue"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.8%",
+      "value": 37.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...basis (operating income divided by segment sales), AWS margin was 37.8%, 39.3% and 38.7%, above the 36% signpost  .  The...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "39.3%",
+      "value": 39.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(operating income divided by segment sales), AWS margin was 37.8%, 39.3% and 38.7%, above the 36% signpost  .  The free...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "aws",
+          "operating",
+          "revenue"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38.7%",
+      "value": 38.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income divided by segment sales), AWS margin was 37.8%, 39.3% and 38.7%, above the 36% signpost  .  The free cash flow...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "38.7%",
+        "snippet": "- Opex in % of revenue: FY2025 39.1%; Q1 FY2026 38.7% (year-ago n/a, n/a); Q2 FY2026 39.3% (year-ago 41.1%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by segment sales), AWS margin was 37.8%, 39.3% and 38.7%, above the 36% signpost  .  The free cash flow thesis (T2) is...",
+      "section": "Summary",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "signpost",
+          "margin",
+          "above"
+        ],
+        "hl": "36%",
+        "snippet": "...will recover above 36% in FY2026 as new infrastructure scales.\", \"signpost\": \"AWS operating margin above 36% in the FY2026 10-K, with AWS sales growth of at least 20%. Interim test: AWS sales growth at least 18% and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin (T4) are intact. Nine-month net sales of $584.0bn grew about 16% (derived)  , and gross margin was 53.2% in the...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "15.7%",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.1x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "53.2%",
+      "value": 53.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...sales of $584.0bn grew about 16% (derived)  , and gross margin was 53.2% in the September quarter against 50.8% a year...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "53.2%",
+        "snippet": "- Gross margin: FY2025 50.3%; Q1 FY2026 51.8% (year-ago n/a, n/a); Q2 FY2026 53.2% (year-ago 50.8%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.8%",
+      "value": 50.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "..., and gross margin was 53.2% in the September quarter against 50.8% a year earlier  . Consensus FY2026 EPS fell 0.2%...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "50.8%",
+        "snippet": "- Gross margin: FY2025 50.3%; Q1 FY2026 51.8% (year-ago n/a, n/a); Q2 FY2026 53.2% (year-ago 50.8%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.2%",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...quarter against 50.8% a year earlier  . Consensus FY2026 EPS fell 0.2% over 90 days, which literally meets the...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "0.2%",
+        "snippet": "...consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against 50.8% a year earlier  . Consensus FY2026 EPS fell 0.2% over 90 days, which literally meets the EPS-revision...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.2bn",
+      "value": 43.2,
+      "unit": "billion",
+      "money_mn": 43200.0,
+      "decimals": 1,
+      "context": "...and capital intensity deteriorated in every quarter. Cash capex was $43.2bn in the March quarter against $24.3bn a year...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "43.2 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $24.3 billion and $43.2 billion during Q1 2025 and Q1 2026, which primarily reflect investments in technology infrastructure (the majority..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.3bn",
+      "value": 24.3,
+      "unit": "billion",
+      "money_mn": 24300.0,
+      "decimals": 1,
+      "context": "...every quarter. Cash capex was $43.2bn in the March quarter against $24.3bn a year earlier, $53.1bn in the June quarter...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "24.3 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $24.3 billion and $43.2 billion during Q1 2025 and Q1 2026, which primarily reflect investments in technology..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$53.1bn",
+      "value": 53.1,
+      "unit": "billion",
+      "money_mn": 53100.0,
+      "decimals": 1,
+      "context": "...was $43.2bn in the March quarter against $24.3bn a year earlier, $53.1bn in the June quarter against $31.4bn, and $75.9bn...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "53.1 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $31.4 billion and $53.1 billion during Q2 2025 and Q2 2026, and $55.6 billion and $96.3 billion for the six months ended June 30, 2025 and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$31.4bn",
+      "value": 31.4,
+      "unit": "billion",
+      "money_mn": 31400.0,
+      "decimals": 1,
+      "context": "...against $24.3bn a year earlier, $53.1bn in the June quarter against $31.4bn, and $75.9bn in the September quarter against...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "31.4 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $31.4 billion and $53.1 billion during Q2 2025 and Q2 2026, and $55.6 billion and $96.3 billion for the six months ended..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.9bn",
+      "value": 75.9,
+      "unit": "billion",
+      "money_mn": 75900.0,
+      "decimals": 1,
+      "context": "...a year earlier, $53.1bn in the June quarter against $31.4bn, and $75.9bn in the September quarter against $34.2bn  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.9 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.2bn",
+      "value": 34.2,
+      "unit": "billion",
+      "money_mn": 34200.0,
+      "decimals": 1,
+      "context": "...against $31.4bn, and $75.9bn in the September quarter against $34.2bn  . Trailing free cash flow moved from +$1.2bn at...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "34.2 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.2bn",
+      "value": 1.2,
+      "unit": "billion",
+      "money_mn": 1200.0,
+      "decimals": 1,
+      "context": "...quarter against $34.2bn  . Trailing free cash flow moved from +$1.2bn at March 31, down from $25.9bn a year earlier,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.2 billion",
+        "snippet": "• Free cash flow decreased to $1.2 billion for the trailing twelve months, driven primarily by a year-over-year increase of $59.3 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.9bn",
+      "value": 25.9,
+      "unit": "billion",
+      "money_mn": 25900.0,
+      "decimals": 1,
+      "context": ".... Trailing free cash flow moved from +$1.2bn at March 31, down from $25.9bn a year earlier, to an outflow of $7.6bn at June...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "25.9 billion",
+        "snippet": "...This increase primarily reflects investments in artificial intelligence. This compares to free cash flow of $25.9 billion for the trailing twelve months ended March 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.6bn",
+      "value": 7.6,
+      "unit": "billion",
+      "money_mn": 7600.0,
+      "decimals": 1,
+      "context": "...at March 31, down from $25.9bn a year earlier, to an outflow of $7.6bn at June 30 and $42.4bn at September 30  . The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "7.6 billion",
+        "snippet": "• Free cash flow decreased to an outflow of $7.6 billion for the trailing twelve months, driven primarily by a year-over-year increase of $66.1 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$42.4bn",
+      "value": 42.4,
+      "unit": "billion",
+      "money_mn": 42400.0,
+      "decimals": 1,
+      "context": "...from $25.9bn a year earlier, to an outflow of $7.6bn at June 30 and $42.4bn at September 30  . The company attributes the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "42.4 billion",
+        "snippet": "• Free cash flow decreased to an outflow of $42.4 billion for the trailing twelve months, driven primarily by a year-over-year increase of $94.8 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$66.8bn",
+      "value": 66.8,
+      "unit": "billion",
+      "money_mn": 66800.0,
+      "decimals": 1,
+      "context": "...capex will \"meaningfully increase in 2027\"  . Net cash moved from -$66.8bn at March 31 to -$157.7bn at September 30 on...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "66,799.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$157.7bn",
+      "value": 157.7,
+      "unit": "billion",
+      "money_mn": 157700.0,
+      "decimals": 1,
+      "context": "...increase in 2027\"  . Net cash moved from -$66.8bn at March 31 to -$157.7bn at September 30 on Yahoo Finance, with total...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$271.9bn",
+      "value": 271.9,
+      "unit": "billion",
+      "money_mn": 271900.0,
+      "decimals": 1,
+      "context": "...to -$157.7bn at September 30 on Yahoo Finance, with total debt of $271.9bn against $153.0bn at FY2025  . Equity investments...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "271,949.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153.0bn",
+      "value": 153.0,
+      "unit": "billion",
+      "money_mn": 153000.0,
+      "decimals": 1,
+      "context": "...September 30 on Yahoo Finance, with total debt of $271.9bn against $153.0bn at FY2025  . Equity investments added to the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "152,987.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $123,029.0 million, total debt $152,987.0 million, net cash -$29,958.0 million, free cash flow $7,695.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$50.0bn",
+      "value": 50.0,
+      "unit": "billion",
+      "money_mn": 50000.0,
+      "decimals": 1,
+      "context": "...$153.0bn at FY2025  . Equity investments added to the cash outflow: $50.0bn in OpenAI preferred stock through September,...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "50.0 billion",
+        "snippet": "...billion in convertible notes from Anthropic. During the nine months ended September 30, 2026, we invested $50.0 billion in OpenAI’s Series C Preferred Stock, including $21.3 billion invested in Q3 2026, and $10.0 billion in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.3bn",
+      "value": 21.3,
+      "unit": "billion",
+      "money_mn": 21300.0,
+      "decimals": 1,
+      "context": "...$50.0bn in OpenAI preferred stock through September, including $21.3bn in the September quarter, and $10.0bn in...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "21.3 billion",
+        "snippet": "the remaining Commitment Amount of $21.3 billion. In Q2 2026, we also invested $10.0 billion in Anthropic nonvoting preferred stock."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.0bn",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 1,
+      "context": "...through September, including $21.3bn in the September quarter, and $10.0bn in Anthropic preferred stock  .  Reported EPS...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "10.0 billion",
+        "snippet": "the remaining Commitment Amount of $21.3 billion. In Q2 2026, we also invested $10.0 billion in Anthropic nonvoting preferred stock."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.8bn",
+      "value": 16.8,
+      "unit": "billion",
+      "money_mn": 16800.0,
+      "decimals": 1,
+      "context": "...by investment gains in the first two quarters. Net income included $16.8bn of pre-tax Anthropic gains in the March quarter...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.8 billion",
+        "snippet": "• First quarter 2026 net income includes pre-tax gains of $16.8 billion included in non-operating income from our investments in Anthropic."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$53.4bn",
+      "value": 53.4,
+      "unit": "billion",
+      "money_mn": 53400.0,
+      "decimals": 1,
+      "context": "...$16.8bn of pre-tax Anthropic gains in the March quarter and $53.4bn of non-operating income, mainly Anthropic, in...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "53.4 billion",
+        "snippet": "• Second quarter 2026 net income includes non-operating pre-tax other income of $53.4 billion, primarily from our investments in Anthropic."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.78",
+      "value": 2.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...income, mainly Anthropic, in the June quarter  . EPS of $2.78 and $5.75 beat consensus of $1.65 and $1.82 by...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.78",
+        "snippet": "• Net income increased to $30.3 billion in the first quarter, or $2.78 per diluted share, compared with $17.1 billion, or $1.59 per diluted share, in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.75",
+      "value": 5.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...income, mainly Anthropic, in the June quarter  . EPS of $2.78 and $5.75 beat consensus of $1.65 and $1.82 by 68% and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5.75",
+        "snippet": "• Net income increased to $62.6 billion in the second quarter, or $5.75 per diluted share, compared with $18.2 billion, or $1.68 per diluted share, in second quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.65",
+      "value": 1.65,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in the June quarter  . EPS of $2.78 and $5.75 beat consensus of $1.65 and $1.82 by 68% and 215%  , but these gains are...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.65",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.78 vs estimate $1.65 (surprise +68.2%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.82",
+      "value": 1.82,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...June quarter  . EPS of $2.78 and $5.75 beat consensus of $1.65 and $1.82 by 68% and 215%  , but these gains are not...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.82",
+        "snippet": "- Quarter ending 2026-06-30: EPS $5.75 vs estimate $1.82 (surprise +215.1%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.89",
+      "value": 1.89,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...gains are not operating earnings. In the September quarter EPS was $1.89 against $1.95 a year earlier and $1.96...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.89",
+        "snippet": "• Net income decreased to $20.7 billion in the third quarter, or $1.89 per diluted share, compared with $21.2 billion, or $1.95 per diluted share, in third quarter 2025. This..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.95",
+      "value": 1.95,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...operating earnings. In the September quarter EPS was $1.89 against $1.95 a year earlier and $1.96 consensus, a 3.5% miss,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.95",
+        "snippet": "...to $20.7 billion in the third quarter, or $1.89 per diluted share, compared with $21.2 billion, or $1.95 per diluted share, in third quarter 2025. This decrease is driven primarily by pre-tax gains of $9.5 billion..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.96",
+      "value": 1.96,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...September quarter EPS was $1.89 against $1.95 a year earlier and $1.96 consensus, a 3.5% miss, because the year-earlier...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.96",
+        "snippet": "- Quarter ending 2026-09-30: EPS $1.89 vs estimate $1.96 (surprise -3.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.5bn",
+      "value": 9.5,
+      "unit": "billion",
+      "money_mn": 9500.0,
+      "decimals": 1,
+      "context": "...consensus, a 3.5% miss, because the year-earlier quarter had a $9.5bn Anthropic gain  . The quarter labels differ...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.5 billion",
+        "snippet": "...or $1.95 per diluted share, in third quarter 2025. This decrease is driven primarily by pre-tax gains of $9.5 billion in third quarter 2025 included in non-operating income (expense) from our investments in Anthropic."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.9bn",
+      "value": 23.9,
+      "unit": "billion",
+      "money_mn": 23900.0,
+      "decimals": 1,
+      "context": "...income rose each quarter  . Consolidated operating income was $23.9bn, $27.5bn and $28.1bn, against $18.4bn, $19.2bn...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "23.9 billion",
+        "snippet": "• Operating income increased to $23.9 billion in the first quarter, compared with $18.4 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27.5bn",
+      "value": 27.5,
+      "unit": "billion",
+      "money_mn": 27500.0,
+      "decimals": 1,
+      "context": "...rose each quarter  . Consolidated operating income was $23.9bn, $27.5bn and $28.1bn, against $18.4bn, $19.2bn and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "27.5 billion",
+        "snippet": "Operating income was $27.5 billion, up 43% year-over-year"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.1bn",
+      "value": 28.1,
+      "unit": "billion",
+      "money_mn": 28100.0,
+      "decimals": 1,
+      "context": "...quarter  . Consolidated operating income was $23.9bn, $27.5bn and $28.1bn, against $18.4bn, $19.2bn and $17.4bn  . Net...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "28.1 billion",
+        "snippet": "Operating income was $28.1 billion and operating margin was 13.9%—Amazon’s highest operating margin ever"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.4bn",
+      "value": 18.4,
+      "unit": "billion",
+      "money_mn": 18400.0,
+      "decimals": 1,
+      "context": "...operating income was $23.9bn, $27.5bn and $28.1bn, against $18.4bn, $19.2bn and $17.4bn  . Net sales growth was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18.4 billion",
+        "snippet": "• Operating income increased to $23.9 billion in the first quarter, compared with $18.4 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.2bn",
+      "value": 19.2,
+      "unit": "billion",
+      "money_mn": 19200.0,
+      "decimals": 1,
+      "context": "...operating income was $23.9bn, $27.5bn and $28.1bn, against $18.4bn, $19.2bn and $17.4bn  . Net sales growth was 17%, 20% and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.2 billion",
+        "snippet": "• Operating income increased to $27.5 billion in the second quarter, compared with $19.2 billion in second quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.4bn",
+      "value": 17.4,
+      "unit": "billion",
+      "money_mn": 17400.0,
+      "decimals": 1,
+      "context": "...was $23.9bn, $27.5bn and $28.1bn, against $18.4bn, $19.2bn and $17.4bn  . Net sales growth was 17%, 20% and 12%. The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "17.4 billion",
+        "snippet": "• Operating income increased to $28.1 billion in the third quarter, compared with $17.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... EPS of $2.78 and $5.75 beat consensus of $1.65 and $1.82 by 68% and 215%  , but these gains are not operating...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "68.2%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.78 vs estimate $1.65 (surprise +68.2%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "215%",
+      "value": 215.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS of $2.78 and $5.75 beat consensus of $1.65 and $1.82 by 68% and 215%  , but these gains are not operating earnings....",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "215.1%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $5.75 vs estimate $1.82 (surprise +215.1%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.5%",
+      "value": 3.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS was $1.89 against $1.95 a year earlier and $1.96 consensus, a 3.5% miss, because the year-earlier quarter had a...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "3.5%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $1.89 vs estimate $1.96 (surprise -3.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...keep the thesis log labels.  Operations improved. AWS sales grew 28% in the March quarter, 37% in the June quarter...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "revenue"
+        ],
+        "hl": "28%",
+        "snippet": "• AWS segment sales increased 28% year-over-year to $37.6 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...improved. AWS sales grew 28% in the March quarter, 37% in the June quarter and 39% in the September...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "revenue"
+        ],
+        "hl": "37%",
+        "snippet": "AWS net sales increased 37%—its fastest growth in 18 quarters—to a $169 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...sales grew 28% in the March quarter, 37% in the June quarter and 39% in the September quarter, and AWS operating...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "operating",
+          "revenue"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against $18.4bn, $19.2bn and $17.4bn  . Net sales growth was 17%, 20% and 12%. The September figure was held down...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "17%",
+        "snippet": "• Net sales increased 17% to $181.5 billion in the first quarter, compared with $155.7 billion in first quarter 2025. Excluding the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against $18.4bn, $19.2bn and $17.4bn  . Net sales growth was 17%, 20% and 12%. The September figure was held down by...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "20%",
+        "snippet": "Net sales increased 20% year-over-year"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$18.4bn, $19.2bn and $17.4bn  . Net sales growth was 17%, 20% and 12%. The September figure was held down by Prime Day...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "12%",
+        "snippet": "• Net sales increased 12% to $201.9 billion in the third quarter, compared with $180.2 billion in third quarter 2025. Excluding the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.9%",
+      "value": 13.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the shift cost about 400 basis points  . Operating margin reached 13.9% in the September quarter, the highest the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "highest",
+          "operating"
+        ],
+        "hl": "13.9%",
+        "snippet": "Operating income was $28.1 billion and operating margin was 13.9%—Amazon’s highest operating margin ever"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.99x",
+      "value": 0.99,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...rose from 31 to 44 year over year, and the current ratio fell to 0.99x from 1.01x  . The sources do not state the cause...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.99",
+        "snippet": "- Current ratio: FY2025 1.05x; Q1 FY2026 1.18x (year-ago n/a, n/a); Q2 FY2026 0.99x (year-ago 1.01x, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.01x",
+      "value": 1.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...31 to 44 year over year, and the current ratio fell to 0.99x from 1.01x  . The sources do not state the cause of the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "1.01",
+        "snippet": "- Current ratio: FY2025 1.05x; Q1 FY2026 1.18x (year-ago n/a, n/a); Q2 FY2026 0.99x (year-ago 1.01x, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "400",
+      "value": 400.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...for most large countries; the company says the shift cost about 400 basis points  . Operating margin reached 13.9%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "400",
+        "snippet": "...launches for Amazon Leo, its low Earth orbit satellite network, bringing the total constellation to nearly 400 satellites in orbit—enough to begin initial satellite internet service this year."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "31",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...working-capital measures weakened. Days sales outstanding rose from 31 to 44 year over year, and the current ratio fell...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "31",
+        "snippet": "- Days sales outstanding: FY2025 34; Q1 FY2026 38 (year-ago n/a, n/a); Q2 FY2026 44 (year-ago 31, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$37.6bn",
+      "value": 37.6,
+      "unit": "billion",
+      "money_mn": 37600.0,
+      "decimals": 1,
+      "context": "...as new infrastructure scales. March quarter AWS sales rose 28% to $37.6bn with operating income of $14.2bn, a derived...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37.6 billion",
+        "snippet": "• AWS segment sales increased 28% year-over-year to $37.6 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.2bn",
+      "value": 14.2,
+      "unit": "billion",
+      "money_mn": 14200.0,
+      "decimals": 1,
+      "context": "...quarter AWS sales rose 28% to $37.6bn with operating income of $14.2bn, a derived margin of 37.8%  . September quarter...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "14.2 billion",
+        "snippet": "• AWS segment operating income was $14.2 billion, compared with $11.5 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$46.0bn",
+      "value": 46.0,
+      "unit": "billion",
+      "money_mn": 46000.0,
+      "decimals": 1,
+      "context": "...derived margin of 37.8%  . September quarter AWS sales rose 39% to $46.0bn with operating income of $17.8bn, a derived...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "46.0 billion",
+        "snippet": "• AWS segment sales increased 39% year-over-year to $46.0 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.8bn",
+      "value": 17.8,
+      "unit": "billion",
+      "money_mn": 17800.0,
+      "decimals": 1,
+      "context": "...quarter AWS sales rose 39% to $46.0bn with operating income of $17.8bn, a derived margin of 38.7%  . The June quarter,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "17.8 billion",
+        "snippet": "• AWS segment operating income was $17.8 billion, compared with $11.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.2bn",
+      "value": 1.2,
+      "unit": "billion",
+      "money_mn": 1200.0,
+      "decimals": 1,
+      "context": "...cash flow catches up with capex. Trailing free cash flow was +$1.2bn at March 31, down from $25.9bn a year earlier  ,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.2 billion",
+        "snippet": "• Free cash flow decreased to $1.2 billion for the trailing twelve months, driven primarily by a year-over-year increase of $59.3 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.9bn",
+      "value": 25.9,
+      "unit": "billion",
+      "money_mn": 25900.0,
+      "decimals": 1,
+      "context": "...capex. Trailing free cash flow was +$1.2bn at March 31, down from $25.9bn a year earlier  , and an outflow of $42.4bn at...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "25.9 billion",
+        "snippet": "...This increase primarily reflects investments in artificial intelligence. This compares to free cash flow of $25.9 billion for the trailing twelve months ended March 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$42.4bn",
+      "value": 42.4,
+      "unit": "billion",
+      "money_mn": 42400.0,
+      "decimals": 1,
+      "context": "...at March 31, down from $25.9bn a year earlier  , and an outflow of $42.4bn at September 30   (Yahoo Finance: -$37.6bn  )....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "42.4 billion",
+        "snippet": "• Free cash flow decreased to an outflow of $42.4 billion for the trailing twelve months, driven primarily by a year-over-year increase of $94.8 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$37.6bn",
+      "value": 37.6,
+      "unit": "billion",
+      "money_mn": 37600.0,
+      "decimals": 1,
+      "context": "..., and an outflow of $42.4bn at September 30   (Yahoo Finance: -$37.6bn  ). Cash capex was $75.9bn in the September...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37.6 billion",
+        "snippet": "• AWS segment sales increased 28% year-over-year to $37.6 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.9bn",
+      "value": 75.9,
+      "unit": "billion",
+      "money_mn": 75900.0,
+      "decimals": 1,
+      "context": "...at September 30   (Yahoo Finance: -$37.6bn  ). Cash capex was $75.9bn in the September quarter against $34.2bn  . Net...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.9 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.2bn",
+      "value": 34.2,
+      "unit": "billion",
+      "money_mn": 34200.0,
+      "decimals": 1,
+      "context": "...). Cash capex was $75.9bn in the September quarter against $34.2bn  . Net cash was -$157.7bn  , $0.3bn short of the...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "34.2 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$157.7bn",
+      "value": 157.7,
+      "unit": "billion",
+      "money_mn": 157700.0,
+      "decimals": 1,
+      "context": "...$75.9bn in the September quarter against $34.2bn  . Net cash was -$157.7bn  , $0.3bn short of the -$158bn invalidation...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.3bn",
+      "value": 0.3,
+      "unit": "billion",
+      "money_mn": 300.0,
+      "decimals": 1,
+      "context": "...the September quarter against $34.2bn  . Net cash was -$157.7bn  , $0.3bn short of the -$158bn invalidation level  . T3:...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "300,000",
+        "snippet": "• Announced plans to hire more than 300,000 seasonal, part-time, and full-time employees across its U.S. operations this holiday season."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$158bn",
+      "value": 158.0,
+      "unit": "billion",
+      "money_mn": 158000.0,
+      "decimals": 0,
+      "context": "...against $34.2bn  . Net cash was -$157.7bn  , $0.3bn short of the -$158bn invalidation level  . T3: The stock earns its...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$584.0bn",
+      "value": 584.0,
+      "unit": "billion",
+      "money_mn": 584000.0,
+      "decimals": 1,
+      "context": "...20% and 12% in the three quarters reported  . Nine-month sales of $584.0bn are up about 16% (derived), so FY2026 consensus...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$829.2bn",
+      "value": 829.2,
+      "unit": "billion",
+      "money_mn": 829200.0,
+      "decimals": 1,
+      "context": "...$584.0bn are up about 16% (derived), so FY2026 consensus revenue of $829.2bn needs about $245bn in the fourth quarter...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "829,232.6 million",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$245bn",
+      "value": 245.0,
+      "unit": "billion",
+      "money_mn": 245000.0,
+      "decimals": 0,
+      "context": "...16% (derived), so FY2026 consensus revenue of $829.2bn needs about $245bn in the fourth quarter (derived: $829.2bn less...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$829.2bn",
+      "value": 829.2,
+      "unit": "billion",
+      "money_mn": 829200.0,
+      "decimals": 1,
+      "context": "...of $829.2bn needs about $245bn in the fourth quarter (derived: $829.2bn less $584.0bn)  . Consensus FY2027 revenue is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "829,232.6 million",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$584.0bn",
+      "value": 584.0,
+      "unit": "billion",
+      "money_mn": 584000.0,
+      "decimals": 1,
+      "context": "...needs about $245bn in the fourth quarter (derived: $829.2bn less $584.0bn)  . Consensus FY2027 revenue is unchanged at...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$960.5bn",
+      "value": 960.5,
+      "unit": "billion",
+      "money_mn": 960500.0,
+      "decimals": 1,
+      "context": "...$829.2bn less $584.0bn)  . Consensus FY2027 revenue is unchanged at $960.5bn  . Consensus FY2026 EPS fell 0.2% over 90 days,...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "960,547.9 million",
+        "snippet": "- FY2027E: revenue $960,547.9 million (range $902,078.0 million to $984,051.0 million, 61 analysts), growth +15.8%; EPS $10.67 (range $9.03 to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "T1: AWS operating margin will recover above 36% in FY2026 as new infrastructure scales. March...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "infrastructure",
+          "scal",
+          "aws",
+          "operating",
+          "new",
+          "margin",
+          "above"
+        ],
+        "hl": "36%",
+        "snippet": "...will recover above 36% in FY2026 as new infrastructure scales.\", \"signpost\": \"AWS operating margin above 36% in the FY2026 10-K, with AWS sales growth of at least 20%. Interim test: AWS sales growth at least 18% and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026 as new infrastructure scales. March quarter AWS sales rose 28% to $37.6bn with operating income of $14.2bn, a...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "operating",
+          "revenue"
+        ],
+        "hl": "28%",
+        "snippet": "• AWS segment sales increased 28% year-over-year to $37.6 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.8%",
+      "value": 37.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $37.6bn with operating income of $14.2bn, a derived margin of 37.8%  . September quarter AWS sales rose 39% to...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a derived margin of 37.8%  . September quarter AWS sales rose 39% to $46.0bn with operating income of $17.8bn, a...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "aws",
+          "operating",
+          "revenue"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38.7%",
+      "value": 38.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $46.0bn with operating income of $17.8bn, a derived margin of 38.7%  . The June quarter, not labelled in the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "38.7%",
+        "snippet": "- Opex in % of revenue: FY2025 39.1%; Q1 FY2026 38.7% (year-ago n/a, n/a); Q2 FY2026 39.3% (year-ago 41.1%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 38.7%  . The June quarter, not labelled in the scorecard, had 37% growth and a derived margin of 39.3%  . Every...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37%",
+        "snippet": "AWS net sales increased 37%—its fastest growth in 18 quarters—to a $169 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39.3%",
+      "value": 39.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...labelled in the scorecard, had 37% growth and a derived margin of 39.3%  . Every quarter passed the interim test  . T2:...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...only if revenue growth beats consensus for a decade. Net sales grew 17%, 20% and 12% in the three quarters reported  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "17%",
+        "snippet": "• Net sales increased 17% to $181.5 billion in the first quarter, compared with $155.7 billion in first quarter 2025. Excluding the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...if revenue growth beats consensus for a decade. Net sales grew 17%, 20% and 12% in the three quarters reported  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "20%",
+        "snippet": "Net sales increased 20% year-over-year"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth beats consensus for a decade. Net sales grew 17%, 20% and 12% in the three quarters reported  . Nine-month...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "12%",
+        "snippet": "• Net sales increased 12% to $201.9 billion in the third quarter, compared with $180.2 billion in third quarter 2025. Excluding the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarters reported  . Nine-month sales of $584.0bn are up about 16% (derived), so FY2026 consensus revenue of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "15.7%",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.1x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.2%",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue is unchanged at $960.5bn  . Consensus FY2026 EPS fell 0.2% over 90 days, which literally meets the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "0.2%",
+        "snippet": "...consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "51.8%",
+      "value": 51.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...competitive pressure, supporting profit growth. Gross margin was 51.8% in the March quarter   and 53.2% in the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "51.8%",
+        "snippet": "- Gross margin: FY2025 50.3%; Q1 FY2026 51.8% (year-ago n/a, n/a); Q2 FY2026 53.2% (year-ago 50.8%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "53.2%",
+      "value": 53.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...profit growth. Gross margin was 51.8% in the March quarter   and 53.2% in the September quarter, against 50.8% a year...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "53.2%",
+        "snippet": "- Gross margin: FY2025 50.3%; Q1 FY2026 51.8% (year-ago n/a, n/a); Q2 FY2026 53.2% (year-ago 50.8%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.8%",
+      "value": 50.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the March quarter   and 53.2% in the September quarter, against 50.8% a year earlier  . The earnings releases and MD&A...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "50.8%",
+        "snippet": "- Gross margin: FY2025 50.3%; Q1 FY2026 51.8% (year-ago n/a, n/a); Q2 FY2026 53.2% (year-ago 50.8%, better); trend improving"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is unchanged at $960.5bn  . Consensus FY2026 EPS fell 0.2% over 90 days, which literally meets the invalidation...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$271.9bn",
+      "value": 271.9,
+      "unit": "billion",
+      "money_mn": 271900.0,
+      "decimals": 1,
+      "context": "...quarter  , trailing free cash flow is negative  , and debt rose to $271.9bn from $153.0bn on Yahoo's definition  . Net cash...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "271,949.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153.0bn",
+      "value": 153.0,
+      "unit": "billion",
+      "money_mn": 153000.0,
+      "decimals": 1,
+      "context": "...free cash flow is negative  , and debt rose to $271.9bn from $153.0bn on Yahoo's definition  . Net cash of -$157.7bn...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "152,987.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $123,029.0 million, total debt $152,987.0 million, net cash -$29,958.0 million, free cash flow $7,695.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$157.7bn",
+      "value": 157.7,
+      "unit": "billion",
+      "money_mn": 157700.0,
+      "decimals": 1,
+      "context": "...rose to $271.9bn from $153.0bn on Yahoo's definition  . Net cash of -$157.7bn is now at the thesis invalidation level  . Debt...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59.5bn",
+      "value": 59.5,
+      "unit": "billion",
+      "money_mn": 59500.0,
+      "decimals": 1,
+      "context": "...thesis invalidation level  . Debt was raised in the March quarter ($59.5bn of long-term debt proceeds) and the company says...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "59.5 billion",
+        "snippet": "...activities resulted from proceeds from short-term debt, and other and long-term debt of $2.6 billion and $59.5 billion for Q1 2025 and Q1 2026. We expect to undertake additional financing activities in 2026. Cash outflows from..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$50.0bn",
+      "value": 50.0,
+      "unit": "billion",
+      "money_mn": 50000.0,
+      "decimals": 1,
+      "context": "....  New: concentration in AI counterparties. Investments in OpenAI ($50.0bn through September, plus a $35bn commitment) and...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "50.0 billion",
+        "snippet": "...billion in convertible notes from Anthropic. During the nine months ended September 30, 2026, we invested $50.0 billion in OpenAI’s Series C Preferred Stock, including $21.3 billion invested in Q3 2026, and $10.0 billion in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$35bn",
+      "value": 35.0,
+      "unit": "billion",
+      "money_mn": 35000.0,
+      "decimals": 0,
+      "context": "...Investments in OpenAI ($50.0bn through September, plus a $35bn commitment) and Anthropic ($10.0bn)   now drive...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "35.0 billion",
+        "snippet": "...Series C Preferred Stock and entered into an equity commitment letter agreement to purchase an additional $35.0 billion of OpenAI’s Series C Preferred Stock, subject to certain conditions. We expect to fund this investment with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.0bn",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 1,
+      "context": "...($50.0bn through September, plus a $35bn commitment) and Anthropic ($10.0bn)   now drive reported EPS through mark-to-market...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "10.0 billion",
+        "snippet": "the remaining Commitment Amount of $21.3 billion. In Q2 2026, we also invested $10.0 billion in Anthropic nonvoting preferred stock."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.8bn",
+      "value": 16.8,
+      "unit": "billion",
+      "money_mn": 16800.0,
+      "decimals": 1,
+      "context": "...($10.0bn)   now drive reported EPS through mark-to-market gains of $16.8bn and $53.4bn in the first two quarters  ....",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.8 billion",
+        "snippet": "• First quarter 2026 net income includes pre-tax gains of $16.8 billion included in non-operating income from our investments in Anthropic."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$53.4bn",
+      "value": 53.4,
+      "unit": "billion",
+      "money_mn": 53400.0,
+      "decimals": 1,
+      "context": "...now drive reported EPS through mark-to-market gains of $16.8bn and $53.4bn in the first two quarters  . Multi-gigawatt...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "53.4 billion",
+        "snippet": "• Second quarter 2026 net income includes non-operating pre-tax other income of $53.4 billion, primarily from our investments in Anthropic."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.8%",
+      "value": 37.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...guidance  .  Eased: AWS margin pressure. Derived AWS margins were 37.8% to 39.3% across the three quarters  . Legal and...",
+      "section": "Risk update",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "39.3%",
+      "value": 39.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  Eased: AWS margin pressure. Derived AWS margins were 37.8% to 39.3% across the three quarters  . Legal and tax...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "aws"
+        ],
+        "hl": "39.3%",
+        "snippet": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$829.2bn",
+      "value": 829.2,
+      "unit": "billion",
+      "money_mn": 829200.0,
+      "decimals": 1,
+      "context": "...\"over 40%\" in both 2027 and 2028  . Consensus FY2026 revenue is $829.2bn (+15.7%) and EPS $12.80; FY2027 revenue is...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "829,232.6 million",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and 2028  . Consensus FY2026 revenue is $829.2bn (+15.7%) and EPS $12.80; FY2027 revenue is $960.5bn and EPS $10.67, up...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...$829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.1x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$960.5bn",
+      "value": 960.5,
+      "unit": "billion",
+      "money_mn": 960500.0,
+      "decimals": 1,
+      "context": "...revenue is $829.2bn (+15.7%) and EPS $12.80; FY2027 revenue is $960.5bn and EPS $10.67, up 1.5% over 90 days while...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "960,547.9 million",
+        "snippet": "- FY2027E: revenue $960,547.9 million (range $902,078.0 million to $984,051.0 million, 61 analysts), growth +15.8%; EPS $10.67 (range $9.03 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.67",
+      "value": 10.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...(+15.7%) and EPS $12.80; FY2027 revenue is $960.5bn and EPS $10.67, up 1.5% over 90 days while FY2026 EPS fell 0.2%...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.67",
+        "snippet": "...$960,547.9 million (range $902,078.0 million to $984,051.0 million, 61 analysts), growth +15.8%; EPS $10.67 (range $9.03 to $12.95); forward P/E 22.9x; EV/Sales 3.0x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$244.43",
+      "value": 244.43,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...days while FY2026 EPS fell 0.2%  . Forward P/E is 19.1x FY2026 at $244.43  . The reverse DCF implies 18.6% annual revenue...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "244.43",
+        "snippet": "- Forward multiples use the current share price of $244.43 and the current enterprise value. EPS methodology: gaap."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$829bn",
+      "value": 829.0,
+      "unit": "billion",
+      "money_mn": 829000.0,
+      "decimals": 0,
+      "context": "...(illustrative)  . Watch: the fourth-quarter revenue needed to reach $829bn; whether trailing free cash flow turns positive...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "829,232.6 million",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$158bn",
+      "value": 158.0,
+      "unit": "billion",
+      "money_mn": 158000.0,
+      "decimals": 0,
+      "context": "...cash flow turns positive before the FY2026     ; net cash against -$158bn; and capex guidance for 2027  .",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "157,723.0)",
+        "snippet": "- Net cash (debt): FY2025 (29,958.0); Q1 FY2026 (66,799.0) (year-ago n/a, n/a); Q2 FY2026 (157,723.0) (year-ago (41,222.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or EPS guidance. Management projected AWS revenue growth \"over 40%\" in both 2027 and 2028  . Consensus FY2026...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "projected",
+          "revenue"
+        ],
+        "hl": "40%",
+        "snippet": "...revenue growth in Q3 ($184 billion revenue run rate) and projected revenue growth rates of over 40% both in 2027 and in 2028,” said Andy Jassy, President and CEO, Amazon. “Our broader selection and speedier..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in both 2027 and 2028  . Consensus FY2026 revenue is $829.2bn (+15.7%) and EPS $12.80; FY2027 revenue is $960.5bn and...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "15.7%",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.1x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.5%",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and EPS $12.80; FY2027 revenue is $960.5bn and EPS $10.67, up 1.5% over 90 days while FY2026 EPS fell 0.2%  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "1.5%",
+        "snippet": "...EPS consensus next fiscal year: $10.67 today, $10.58 30 days ago, $10.51 90 days ago, change vs 90 days ago +1.5%; analysts raising/cutting in last 30 days: 28/16"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.2%",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$960.5bn and EPS $10.67, up 1.5% over 90 days while FY2026 EPS fell 0.2%  . Forward P/E is 19.1x FY2026 at $244.43  . The...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "0.2%",
+        "snippet": "...consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.6%",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Forward P/E is 19.1x FY2026 at $244.43  . The reverse DCF implies 18.6% annual revenue growth against 15.7% consensus,...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "18.6%",
+        "snippet": "- The current enterprise value of $2,833,670.5 million implies revenue growth of 18.6% per year for 10 years (FY2025 revenue $716,924.0 million -> about $3,950,966.3 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The reverse DCF implies 18.6% annual revenue growth against 15.7% consensus, and an 8.5% implied return against a...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "15.7%",
+        "snippet": "- FY2026E: revenue $829,232.6 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.1x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...implies 18.6% annual revenue growth against 15.7% consensus, and an 8.5% implied return against a 12.4% WACC...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 8.5% per year (-3.9 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against 15.7% consensus, and an 8.5% implied return against a 12.4% WACC (illustrative)  . Watch: the fourth-quarter...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "12.4%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 1.1% to 15.0% by year 10, a WACC of 12.4% (10y US Treasury (^TNX) 4.8% + beta 1.50 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "19.1x",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 1.5% over 90 days while FY2026 EPS fell 0.2%  . Forward P/E is 19.1x FY2026 at $244.43  . The reverse DCF implies...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "19.1",
+        "snippet": "...million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.1x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS $12.80; FY2027 revenue is $960.5bn and EPS $10.67, up 1.5% over 90 days while FY2026 EPS fell 0.2%  . Forward P/E...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.2 billion",
+      "value": 14.2,
+      "unit": "billion",
+      "money_mn": 14200.0,
+      "decimals": 1,
+      "context": "AWS operating income: $14.2 billion vs $11.5 billion, $17.8 billion vs $11.4...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "14.2 billion",
+        "snippet": "• AWS segment operating income was $14.2 billion, compared with $11.5 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.5 billion",
+      "value": 11.5,
+      "unit": "billion",
+      "money_mn": 11500.0,
+      "decimals": 1,
+      "context": "AWS operating income: $14.2 billion vs $11.5 billion, $17.8 billion vs $11.4 billion. Consolidated...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 billion",
+        "snippet": "• AWS segment operating income was $14.2 billion, compared with $11.5 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.8 billion",
+      "value": 17.8,
+      "unit": "billion",
+      "money_mn": 17800.0,
+      "decimals": 1,
+      "context": "AWS operating income: $14.2 billion vs $11.5 billion, $17.8 billion vs $11.4 billion. Consolidated operating income:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "17.8 billion",
+        "snippet": "• AWS segment operating income was $17.8 billion, compared with $11.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.4 billion",
+      "value": 11.4,
+      "unit": "billion",
+      "money_mn": 11400.0,
+      "decimals": 1,
+      "context": "...operating income: $14.2 billion vs $11.5 billion, $17.8 billion vs $11.4 billion. Consolidated operating income: $23.9 billion vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.4 billion",
+        "snippet": "• AWS segment operating income was $17.8 billion, compared with $11.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.9 billion",
+      "value": 23.9,
+      "unit": "billion",
+      "money_mn": 23900.0,
+      "decimals": 1,
+      "context": "...$17.8 billion vs $11.4 billion. Consolidated operating income: $23.9 billion vs $18.4 billion, $28.1 billion vs $17.4...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "23.9 billion",
+        "snippet": "• Operating income increased to $23.9 billion in the first quarter, compared with $18.4 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.4 billion",
+      "value": 18.4,
+      "unit": "billion",
+      "money_mn": 18400.0,
+      "decimals": 1,
+      "context": "...vs $11.4 billion. Consolidated operating income: $23.9 billion vs $18.4 billion, $28.1 billion vs $17.4 billion. Trailing...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18.4 billion",
+        "snippet": "• Operating income increased to $23.9 billion in the first quarter, compared with $18.4 billion in first quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.1 billion",
+      "value": 28.1,
+      "unit": "billion",
+      "money_mn": 28100.0,
+      "decimals": 1,
+      "context": "...Consolidated operating income: $23.9 billion vs $18.4 billion, $28.1 billion vs $17.4 billion. Trailing twelve-month...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "28.1 billion",
+        "snippet": "Operating income was $28.1 billion and operating margin was 13.9%—Amazon’s highest operating margin ever"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.4 billion",
+      "value": 17.4,
+      "unit": "billion",
+      "money_mn": 17400.0,
+      "decimals": 1,
+      "context": "...operating income: $23.9 billion vs $18.4 billion, $28.1 billion vs $17.4 billion. Trailing twelve-month operating cash flow:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "17.4 billion",
+        "snippet": "• Operating income increased to $28.1 billion in the third quarter, compared with $17.4 billion in third quarter 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$148.5 billion",
+      "value": 148.5,
+      "unit": "billion",
+      "money_mn": 148500.0,
+      "decimals": 1,
+      "context": "...vs $17.4 billion. Trailing twelve-month operating cash flow: $148.5 billion vs $113.9 billion, $168.3 billion vs $130.7...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "148.5 billion",
+        "snippet": "• Operating cash flow increased 30% to $148.5 billion for the trailing twelve months, compared with $113.9 billion for the trailing twelve months ended March 31,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$113.9 billion",
+      "value": 113.9,
+      "unit": "billion",
+      "money_mn": 113900.0,
+      "decimals": 1,
+      "context": "...Trailing twelve-month operating cash flow: $148.5 billion vs $113.9 billion, $168.3 billion vs $130.7 billion. Trailing...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "113.9 billion",
+        "snippet": "• Operating cash flow increased 30% to $148.5 billion for the trailing twelve months, compared with $113.9 billion for the trailing twelve months ended March 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$168.3 billion",
+      "value": 168.3,
+      "unit": "billion",
+      "money_mn": 168300.0,
+      "decimals": 1,
+      "context": "...twelve-month operating cash flow: $148.5 billion vs $113.9 billion, $168.3 billion vs $130.7 billion. Trailing twelve-month free...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "168.3 billion",
+        "snippet": "• Operating cash flow increased 29% to $168.3 billion for the trailing twelve months, compared with $130.7 billion for the trailing twelve months ended September..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$130.7 billion",
+      "value": 130.7,
+      "unit": "billion",
+      "money_mn": 130699.99999999999,
+      "decimals": 1,
+      "context": "...cash flow: $148.5 billion vs $113.9 billion, $168.3 billion vs $130.7 billion. Trailing twelve-month free cash flow: $1.2...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.7 billion",
+        "snippet": "• Operating cash flow increased 29% to $168.3 billion for the trailing twelve months, compared with $130.7 billion for the trailing twelve months ended September 30, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.2 billion",
+      "value": 1.2,
+      "unit": "billion",
+      "money_mn": 1200.0,
+      "decimals": 1,
+      "context": "...billion vs $130.7 billion. Trailing twelve-month free cash flow: $1.2 billion vs $25.9 billion, $-42.4 billion vs $14.8...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.2 billion",
+        "snippet": "• Free cash flow decreased to $1.2 billion for the trailing twelve months, driven primarily by a year-over-year increase of $59.3 billion in purchases..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.9 billion",
+      "value": 25.9,
+      "unit": "billion",
+      "money_mn": 25900.0,
+      "decimals": 1,
+      "context": "...billion. Trailing twelve-month free cash flow: $1.2 billion vs $25.9 billion, $-42.4 billion vs $14.8 billion. Cash capital...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "25.9 billion",
+        "snippet": "...This increase primarily reflects investments in artificial intelligence. This compares to free cash flow of $25.9 billion for the trailing twelve months ended March 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.8 billion",
+      "value": 14.8,
+      "unit": "billion",
+      "money_mn": 14800.0,
+      "decimals": 1,
+      "context": "...free cash flow: $1.2 billion vs $25.9 billion, $-42.4 billion vs $14.8 billion. Cash capital expenditures (quarter): $43.2...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "14.8 billion",
+        "snippet": "...primarily reflects investments in artificial intelligence. This compares to free cash flow inflow of $14.8 billion for the trailing twelve months ended September 30, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.2 billion",
+      "value": 43.2,
+      "unit": "billion",
+      "money_mn": 43200.0,
+      "decimals": 1,
+      "context": "...billion vs $14.8 billion. Cash capital expenditures (quarter): $43.2 billion vs $24.3 billion, $75.9 billion vs $34.2 billion.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "43.2 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $24.3 billion and $43.2 billion during Q1 2025 and Q1 2026, which primarily reflect investments in technology infrastructure (the majority..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.3 billion",
+      "value": 24.3,
+      "unit": "billion",
+      "money_mn": 24300.0,
+      "decimals": 1,
+      "context": "...billion. Cash capital expenditures (quarter): $43.2 billion vs $24.3 billion, $75.9 billion vs $34.2 billion.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "24.3 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $24.3 billion and $43.2 billion during Q1 2025 and Q1 2026, which primarily reflect investments in technology..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75.9 billion",
+      "value": 75.9,
+      "unit": "billion",
+      "money_mn": 75900.0,
+      "decimals": 1,
+      "context": "...capital expenditures (quarter): $43.2 billion vs $24.3 billion, $75.9 billion vs $34.2 billion.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "75.9 billion",
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.2 billion",
+      "value": 34.2,
+      "unit": "billion",
+      "money_mn": 34200.0,
+      "decimals": 1,
+      "context": "...(quarter): $43.2 billion vs $24.3 billion, $75.9 billion vs $34.2 billion.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "34.2 billion",
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-42.4",
+      "value": 42.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...twelve-month free cash flow: $1.2 billion vs $25.9 billion, $-42.4 billion vs $14.8 billion. Cash capital...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow"
+        ],
+        "hl": "42.4 billion",
+        "snippet": "• Free cash flow decreased to an outflow of $42.4 billion for the trailing twelve months, driven primarily by a year-over-year increase of $94.8 billion in purchases..."
+      }
+    }
+  ],
+  "build_round": 2,
+  "round1": {
+    "total_claims": 159,
+    "matched": 154,
+    "match_rate": 0.969
+  }
+}

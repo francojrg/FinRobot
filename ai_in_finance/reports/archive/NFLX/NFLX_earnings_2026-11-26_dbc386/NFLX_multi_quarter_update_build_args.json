@@ -1,0 +1,138 @@
+{
+  "ticker_symbol": "NFLX",
+  "fyear": "2025",
+  "save_dir": "../reports/NFLX_earnings_multi_claude-haiku-5.5",
+  "headline": "Q1-Q3 FY2026: operating margin rose to 34.6% and the WBD deal ended, but revenue growth slowed to 11.8% and the 2026 ad forecast was cut.",
+  "summary": "Through Q3 FY2026, Netflix reported revenue of $12.87 billion, up 12% year over year, and an operating margin of 34.6% against 28.2% a year earlier [1]. Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is guided to 11.5% [1]. Full-year 2026 revenue is now guided at $51.1 billion and operating margin at 31.5% [1]. The 2026 advertising forecast was cut to about $2.7 billion from about $3 billion [1]. The Warner Bros. Discovery agreement was terminated in Q1 and Netflix recorded a $2.8 billion termination fee [2], which removes the financing overhang from the annual report. Trailing free cash flow was $11.38 billion at 30 September 2026 [2][3], and that total includes Q1, which carries the fee. Consensus FY2026 EPS is $3.57 and FY2027 EPS is $3.76, down 1.3% over 90 days [3]. Margin and cash flow theses are intact. The growth thesis is weakened, and the financing thesis is broken because its deal no longer exists. Consensus and balance-sheet figures are dated after the 10-K.",
+  "results_commentary": "Q1 FY2026 was the strongest quarter on reported numbers, and the least clean. Revenue was $12.25 billion, up 16% (14% FX-neutral), driven by membership growth, price and ad revenue [1][2]. Operating margin was 32.3% against 31.7% a year earlier [1]. Diluted EPS of $1.23 compared with $0.66, but it includes the $2.8 billion Warner Bros. Discovery termination fee recorded in interest and other income [1][2]. Underlying EPS was therefore well below the reported $1.23. Reported EPS was $1.23 against a $1.25 consensus [3]. Free cash flow was $5.09 billion against $2.66 billion, but the release does not split out the fee's cash effect [1].\n\nQ2 FY2026 was the first quarter where margin fell year over year. Revenue was $12.56 billion, up 13% (12% FX-neutral), in line with guidance [1]. UCAN grew 10%, which the company ties to only a partial quarter of the recent price change [1][2]. Operating margin fell to 33.4% from 34.1%, because technology and development and sales and marketing grew faster than revenue [2]. The company had flagged that content amortization growth was front-loaded into the first half [1]. EPS was $0.80 against $0.72 a year earlier and a $0.79 consensus [1][3]. Free cash flow fell to $1.53 billion from $2.27 billion; the release does not attribute the decline. Shares fell to 4,261 million fully diluted from 4,349 million [1]. View hours grew 2% in H1 2026 against 1.5% in 2025 [1].\n\nQ3 FY2026 showed the slowest growth and the best margin of the three quarters. Revenue was $12.87 billion, up 12% (11% FX-neutral), in line with guidance [1]. Subscription revenue rose $1,057 million and advertising revenue $256 million year over year [2]. Operating margin rose to 34.6% from 28.2%, helped by lower cost of revenues (down $85 million) and the timing of expenses [1][2]. EPS was $0.87 against $0.59 and a $0.82 consensus [1][3]. Free cash flow was $2.88 billion against $2.66 billion [1]. Churn improved year over year globally and in the US [1]. The advertising target was cut to about $2.7 billion because some ad product capabilities rolled out more slowly than planned [1]. Q4 is guided to $13.4 billion of revenue (+12%) and a 26.0% margin, which includes about 120 basis points from headcount reductions [1].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Operating margin stays above 29% in 2026 as content amortization grows slower than revenue.",
+      "signpost": "Q4 2026 results (January 2027): full-year 2026 operating margin at or above 29%.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Operating margin was 32.3% in Q1, 33.4% in Q2 and 34.6% in Q3 [1]. The unchanged 31.5% full-year guidance, with Q4 guided at 26.0%, implies a full-year margin well above 29% [1]. Q2 margin fell year over year, so the status is intact rather than strengthened until Q3."
+    },
+    {
+      "thesis": "T2: The WBD financing will absorb cash that would otherwise fund buybacks, so the 2027 repurchase pace falls below 2025's $9.1 billion.",
+      "signpost": "Q1 2027 results (April 2027) and the WBD closing update: repurchases below $9.1 billion annualized and debt drawn under the bridge.",
+      "statuses": {
+        "Q1 FY2026": "broken",
+        "Q2 FY2026": "broken",
+        "Q3 FY2026": "broken"
+      },
+      "current_status": "broken",
+      "evidence": "The WBD agreement was terminated in Q1 and Netflix recorded a $2.8 billion termination fee [2], so no acquisition financing remains to absorb buybacks. Total debt rose to $15.13 billion and net cash was -$6.91 billion at 30 September 2026 [2][3], but the provided filings do not give the reason. The 2027 buyback question is open and cannot be tested against the bridge signpost."
+    },
+    {
+      "thesis": "T3: The current price needs growth above consensus for a decade, so returns are below the cost of capital unless growth beats expectations.",
+      "signpost": "Q4 2026 results (January 2027): FY2026 revenue at or above $51.1 billion, and FY2027 EPS consensus of $3.76 held or raised.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4 guided to 11.5%, which runs against the 17.2% growth the reverse DCF requires [1][3]. FY2027 EPS consensus is $3.76, down from $3.82 90 days ago, with 25 analysts cutting and 11 raising in the last 30 days [3]. FY2026 revenue guidance of $51.1 billion meets the signpost threshold [1]."
+    },
+    {
+      "thesis": "T4: Free cash flow will keep covering buybacks, but only if operating cash flow grows faster than content spending.",
+      "signpost": "Trailing twelve-month free cash flow above $11 billion at each quarter-end through Q4 2026.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Quarterly free cash flow in the releases was $5.09 billion in Q1, $1.53 billion in Q2 and $2.88 billion in Q3 [1]. Trailing free cash flow at 30 September 2026 was $11.38 billion [2][3], just above the $11 billion signpost. Q1 carries the fee, so the Q2 and Q3 trailing figures are the cleaner test, and headroom is thin."
+    }
+  ],
+  "risk_update": "The WBD risk has eased materially. The agreement was terminated in Q1 FY2026 and Netflix recorded a $2.8 billion termination fee, so the $42.2 billion bridge, the $5.8 billion fee exposure and the post-closing regulatory conditions in the annual report no longer apply [2]. Net cash moved to -$6.91 billion at Q3, and total debt rose to $15.13 billion, which keeps balance-sheet flexibility a monitored item [2][3]. Competition risk eased on churn: the company said churn improved year over year globally and in the US in Q3 [1]. Growth risk has materialised: revenue growth slowed each quarter, from 16.2% to 11.8%, and the advertising target was cut by about $0.3 billion because of slower product rollout [1]. The Q3 10-Q states no material change to risk factors [2]. Labour risk remains open: the WGA, SAG-AFTRA and DGA agreements had scheduled expiry dates of May 1 and June 30, 2026 [4]; the filings provided do not confirm renewal or stoppage. A new execution risk is the Q4 headcount reduction, which the company says costs about 120 basis points of Q4 margin [1].",
+  "outlook": "FY2026 guidance is revenue of $51.1 billion (+13%) and an operating margin of 31.5%, with operating income growth of 20% or more [1]. Q4 is guided to $13.4 billion of revenue and a 26.0% margin [1]. Consensus FY2026 revenue is $51.13 billion and EPS is $3.57, down slightly from $3.58 90 days ago [3]. FY2027 consensus is $3.76 EPS and $56.58 billion revenue, up 10.7%, and EPS was cut from $3.82 over 90 days, with 25 of 36 analysts lowering estimates in the last 30 days [3]. Watch for: the Q4 margin against 26.0%, FY2027 EPS held at $3.76 or higher, quarterly revenue growth against the 11.5% Q4 guide, the advertising rollout in new markets from March 2027, and the Q1 FY2027 buyback pace and debt position [1][3].",
+  "company_kpis": [
+    {
+      "name": "Revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 12250,
+        "Q2 FY2026": 12560,
+        "Q3 FY2026": 12874
+      },
+      "prior_values": {
+        "Q1 FY2026": 10543,
+        "Q2 FY2026": 11079,
+        "Q3 FY2026": 11510
+      },
+      "source": "Earnings releases [1]"
+    },
+    {
+      "name": "Operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 32.3,
+        "Q2 FY2026": 33.4,
+        "Q3 FY2026": 34.6
+      },
+      "prior_values": {
+        "Q1 FY2026": 31.7,
+        "Q2 FY2026": 34.1,
+        "Q3 FY2026": 28.2
+      },
+      "source": "Earnings releases [1]"
+    },
+    {
+      "name": "Free cash flow",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 5094,
+        "Q2 FY2026": 1525,
+        "Q3 FY2026": 2884
+      },
+      "prior_values": {
+        "Q1 FY2026": 2661,
+        "Q2 FY2026": 2267,
+        "Q3 FY2026": 2660
+      },
+      "source": "Earnings releases [1]; Q1 period includes the $2.8bn WBD fee"
+    },
+    {
+      "name": "Diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1.23,
+        "Q2 FY2026": 0.8,
+        "Q3 FY2026": 0.87
+      },
+      "prior_values": {
+        "Q1 FY2026": 0.66,
+        "Q2 FY2026": 0.72,
+        "Q3 FY2026": 0.59
+      },
+      "source": "Earnings releases [1]; Q1 includes the $2.8bn termination fee"
+    },
+    {
+      "name": "Fully diluted shares",
+      "unit": "mn shares",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 4298,
+        "Q2 FY2026": 4261,
+        "Q3 FY2026": 4195
+      },
+      "prior_values": {
+        "Q1 FY2026": 4370,
+        "Q2 FY2026": 4349,
+        "Q3 FY2026": 4340
+      },
+      "source": "Earnings releases [1]"
+    }
+  ]
+}

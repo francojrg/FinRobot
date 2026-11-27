@@ -23,5 +23,5 @@ python -c "import site,os;p=[s for s in site.getsitepackages() if s.lower().ends
 if not exist finrobot_autogen\config_api_keys copy finrobot_autogen\config_api_keys_sample finrobot_autogen\config_api_keys >nul
 if not exist finrobot_autogen\OAI_CONFIG_LIST echo [] > finrobot_autogen\OAI_CONFIG_LIST
 echo.
-echo Fertig. Jetzt "Start FINRobot.bat" doppelklicken und unter Einstellungen die Schluessel eintragen.
+echo Fertig. Jetzt die Start-Datei von BLUMBOERG doppelklicken und unter Einstellungen die Schluessel eintragen.
 pause

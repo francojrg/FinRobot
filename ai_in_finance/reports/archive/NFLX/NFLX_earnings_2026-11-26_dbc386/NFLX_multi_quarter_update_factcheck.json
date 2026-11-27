@@ -1,0 +1,3443 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 128,
+  "context_match_rate": 0.837,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "16.2%",
+      "value": 16.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 34.6% against 28.2% a year earlier  . Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.2 %",
+        "snippet": "Y/Y % Growth 12.5 % 15.9 % 17.2 % 17.6 % 16.2 % 13.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...28.2% a year earlier  . Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is guided to 11.5%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.4 %",
+        "snippet": "Y/Y % Growth 15.9 % 17.2 % 17.6 % 16.2 % 13.4 % 11.7 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is guided to 11.5%  . Full-year 2026 revenue is now guided at $51.1...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 %",
+        "snippet": "Y/Y % Growth 17.2 % 17.6 % 16.2 % 13.4 % 11.8 % 11.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.5%",
+      "value": 31.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026 revenue is now guided at $51.1 billion and operating margin at 31.5%  . The 2026 advertising forecast was cut to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.5%",
+        "snippet": "...subscription revenue. We continue to project 2026 revenue of $50.7-$51.7B and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.7%",
+      "value": 31.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth, price and ad revenue  . Operating margin was 32.3% against 31.7% a year earlier  . Diluted EPS of $1.23 compared...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.7 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.1%",
+      "value": 34.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of the recent price change  . Operating margin fell to 33.4% from 34.1%, because technology and development and sales...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.1 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4,261",
+      "value": 4261.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion; the release does not attribute the decline. Shares fell to 4,261 million fully diluted from 4,349 million  . View...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,261",
+        "snippet": "Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4,349",
+      "value": 4349.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the decline. Shares fell to 4,261 million fully diluted from 4,349 million  . View hours grew 2% in H1 2026 against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,349",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "120",
+      "value": 120.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion of revenue (+12%) and a 26.0% margin, which includes about 120 basis points from headcount reductions  .",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "120",
+        "snippet": "...by growth in memberships, pricing, and ad revenue. We project a Q4 operating margin of 26.0% which includes ~120 basis points negative impact associated with our recently announced headcount reductions, and compares with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.5%",
+      "value": 31.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 32.3% in Q1, 33.4% in Q2 and 34.6% in Q3  . The unchanged 31.5% full-year guidance, with Q4 guided at 26.0%,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.5%",
+        "snippet": "...subscription revenue. We continue to project 2026 revenue of $50.7-$51.7B and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.2%",
+      "value": 16.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...unless growth beats expectations. Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.2 %",
+        "snippet": "Y/Y % Growth 12.5 % 15.9 % 17.2 % 17.6 % 16.2 % 13.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beats expectations. Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4 guided to 11.5%,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.4 %",
+        "snippet": "Y/Y % Growth 15.9 % 17.2 % 17.6 % 16.2 % 13.4 % 11.7 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4 guided to 11.5%, which runs against the 17.2% growth the reverse...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 %",
+        "snippet": "Y/Y % Growth 17.2 % 17.6 % 16.2 % 13.4 % 11.8 % 11.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.2%",
+      "value": 16.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...risk has materialised: revenue growth slowed each quarter, from 16.2% to 11.8%, and the advertising target was cut by...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.2 %",
+        "snippet": "Y/Y % Growth 12.5 % 15.9 % 17.2 % 17.6 % 16.2 % 13.5 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "120",
+      "value": 120.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is the Q4 headcount reduction, which the company says costs about 120 basis points of Q4 margin  .",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "120",
+        "snippet": "...by growth in memberships, pricing, and ad revenue. We project a Q4 operating margin of 26.0% which includes ~120 basis points negative impact associated with our recently announced headcount reductions, and compares with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.5%",
+      "value": 31.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is revenue of $51.1 billion (+13%) and an operating margin of 31.5%, with operating income growth of 20% or more  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.5%",
+        "snippet": "...subscription revenue. We continue to project 2026 revenue of $50.7-$51.7B and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS held at $3.76 or higher, quarterly revenue growth against the 11.5% Q4 guide, the advertising rollout in new markets...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 %",
+        "snippet": "Y/Y % Growth 17.2 % 17.6 % 16.2 % 13.4 % 11.8 % 11.5 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "36",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 10.7%, and EPS was cut from $3.82 over 90 days, with 25 of 36 analysts lowering estimates in the last 30 days...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "36M",
+        "snippet": "...Boys S3* (29M), Little House on the Prairie (29M), The Last House* (91M) and Why Did I Get Married Again* (36M)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.7%",
+      "value": 31.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$12874.0 million vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.7 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.1%",
+      "value": 34.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow: $5094.0 million...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.1 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4298.0",
+      "value": 4298.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,298",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4370.0",
+      "value": 4370.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,370",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4261.0",
+      "value": 4261.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,261",
+        "snippet": "Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4349.0",
+      "value": 4349.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,349",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4195.0",
+      "value": 4195.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,195",
+        "snippet": "Shares (FD) 4,340 4,317 4,298 4,261 4,195"
+      }
+    }
+  ],
+  "total_claims": 153,
+  "matched": 153,
+  "match_rate": 1.0,
+  "by_kind": {
+    "pct": {
+      "total": 55,
+      "matched": 55,
+      "context_matched": 40
+    },
+    "money": {
+      "total": 79,
+      "matched": 79,
+      "context_matched": 79
+    },
+    "plain": {
+      "total": 19,
+      "matched": 19,
+      "context_matched": 9
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 123,
+    "[2] Forms 10-Q": 7,
+    "[3] Yahoo Finance": 22,
+    "[4] Annual report and thesis log": 1
+  },
+  "unmatched": [],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "pct",
+      "text": "34.6%",
+      "value": 34.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Q1-Q3 FY2026: operating margin rose to 34.6% and the WBD deal ended, but revenue growth...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "34.6%",
+        "snippet": "...margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.8%",
+      "value": 11.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose to 34.6% and the WBD deal ended, but revenue growth slowed to 11.8% and the 2026 ad forecast was cut.",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.8%",
+        "snippet": "...growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.87 billion",
+      "value": 12.87,
+      "unit": "billion",
+      "money_mn": 12870.0,
+      "decimals": 2,
+      "context": "Through Q3 FY2026, Netflix reported revenue of $12.87 billion, up 12% year over year, and an operating margin...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,874",
+        "snippet": "Revenue $ 11,510 $ 12,051 $ 12,250 $ 12,560 $ 12,874 $ 13,442"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51.1 billion",
+      "value": 51.1,
+      "unit": "billion",
+      "money_mn": 51100.0,
+      "decimals": 1,
+      "context": "...Q4 is guided to 11.5%  . Full-year 2026 revenue is now guided at $51.1 billion and operating margin at 31.5%  . The 2026...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "51.1B",
+        "snippet": "◦ For 2026, we expect revenue of $51.1B (+13% year over year) and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.7 billion",
+      "value": 2.7,
+      "unit": "billion",
+      "money_mn": 2700.0,
+      "decimals": 1,
+      "context": "...margin at 31.5%  . The 2026 advertising forecast was cut to about $2.7 billion from about $3 billion  . The Warner Bros....",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.7B",
+        "snippet": "...subscription revenue growth has outperformed our expectations, we currently expect 2026 ad revenue of ~$2.7B vs. approximately $3B previously (due to slightly slower than expected rollout of some ad product..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3 billion",
+      "value": 3.0,
+      "unit": "billion",
+      "money_mn": 3000.0,
+      "decimals": 0,
+      "context": "...2026 advertising forecast was cut to about $2.7 billion from about $3 billion  . The Warner Bros. Discovery agreement was...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3B",
+        "snippet": "...well, reflecting the strong value we provide members and our advertising revenue remains on track to reach $3B in 2026, up 2x year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.8 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 1,
+      "context": "...Discovery agreement was terminated in Q1 and Netflix recorded a $2.8 billion termination fee  , which removes the financing...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.8B",
+        "snippet": "...year over year), above our forecast of $0.76, driven by higher-than-projected operating income and the $2.8B termination fee related to the Warner Bros. transaction, which was recognized in “interest and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.38 billion",
+      "value": 11.38,
+      "unit": "billion",
+      "money_mn": 11380.0,
+      "decimals": 2,
+      "context": "...overhang from the annual report. Trailing free cash flow was $11.38 billion at 30 September 2026  , and that total includes...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "11,375.1 million",
+        "snippet": "...investments $8,223.0 million, total debt $15,132.4 million, net cash -$6,909.4 million, TTM free cash flow $11,375.1 million, cash runway at that burn self-funded, current ratio 1.1x, shares outstanding 4,106.3 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.57",
+      "value": 3.57,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...total includes Q1, which carries the fee. Consensus FY2026 EPS is $3.57 and FY2027 EPS is $3.76, down 1.3% over 90 days...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.57",
+        "snippet": "...revenue $51,125.8 million (range $51,026.0 million to $51,192.0 million, 42 analysts), growth +13.1%; EPS $3.57 (range $3.13 to $3.64); forward P/E 16.6x; EV/Sales 5.0x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.76",
+      "value": 3.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...carries the fee. Consensus FY2026 EPS is $3.57 and FY2027 EPS is $3.76, down 1.3% over 90 days  . Margin and cash flow...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.76",
+        "snippet": "...revenue $56,584.0 million (range $55,546.8 million to $57,499.4 million, 45 analysts), growth +10.7%; EPS $3.76 (range $3.56 to $4.00); forward P/E 15.8x; EV/Sales 4.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Through Q3 FY2026, Netflix reported revenue of $12.87 billion, up 12% year over year, and an operating margin of 34.6%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "11.8%",
+        "snippet": "...growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.6%",
+      "value": 34.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$12.87 billion, up 12% year over year, and an operating margin of 34.6% against 28.2% a year earlier  . Revenue growth...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "34.6%",
+        "snippet": "...margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.2%",
+      "value": 28.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 12% year over year, and an operating margin of 34.6% against 28.2% a year earlier  . Revenue growth slowed from...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "28.2%",
+        "snippet": "...29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.2%",
+      "value": 16.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 34.6% against 28.2% a year earlier  . Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.2 %",
+        "snippet": "Y/Y % Growth 12.5 % 15.9 % 17.2 % 17.6 % 16.2 % 13.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...28.2% a year earlier  . Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is guided to 11.5%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.4 %",
+        "snippet": "Y/Y % Growth 15.9 % 17.2 % 17.6 % 16.2 % 13.4 % 11.7 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.8%",
+      "value": 11.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is guided to 11.5%  . Full-year...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.8%",
+        "snippet": "...growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, and Q4 is guided to 11.5%  . Full-year 2026 revenue is now guided at $51.1...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 %",
+        "snippet": "Y/Y % Growth 17.2 % 17.6 % 16.2 % 13.4 % 11.8 % 11.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.5%",
+      "value": 31.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026 revenue is now guided at $51.1 billion and operating margin at 31.5%  . The 2026 advertising forecast was cut to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.5%",
+        "snippet": "...subscription revenue. We continue to project 2026 revenue of $50.7-$51.7B and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fee. Consensus FY2026 EPS is $3.57 and FY2027 EPS is $3.76, down 1.3% over 90 days  . Margin and cash flow theses are...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "1.3%",
+        "snippet": "- EPS consensus next fiscal year: $3.76 today, $3.78 30 days ago, $3.82 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 11/25"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026 EPS is $3.57 and FY2027 EPS is $3.76, down 1.3% over 90 days  . Margin and cash flow theses are intact....",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $3.57 today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.25 billion",
+      "value": 12.25,
+      "unit": "billion",
+      "money_mn": 12250.0,
+      "decimals": 2,
+      "context": "...quarter on reported numbers, and the least clean. Revenue was $12.25 billion, up 16% (14% FX-neutral), driven by membership...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,250",
+        "snippet": "Revenue $ 10,543 $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,574"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23",
+      "value": 1.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...margin was 32.3% against 31.7% a year earlier  . Diluted EPS of $1.23 compared with $0.66, but it includes the $2.8...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.23",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.66",
+      "value": 0.66,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...against 31.7% a year earlier  . Diluted EPS of $1.23 compared with $0.66, but it includes the $2.8 billion Warner Bros....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.66",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.8 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 1,
+      "context": ".... Diluted EPS of $1.23 compared with $0.66, but it includes the $2.8 billion Warner Bros. Discovery termination fee recorded...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.8B",
+        "snippet": "...year over year), above our forecast of $0.76, driven by higher-than-projected operating income and the $2.8B termination fee related to the Warner Bros. transaction, which was recognized in “interest and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23",
+      "value": 1.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...income  . Underlying EPS was therefore well below the reported $1.23. Reported EPS was $1.23 against a $1.25...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.23",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23",
+      "value": 1.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS was therefore well below the reported $1.23. Reported EPS was $1.23 against a $1.25 consensus  . Free cash flow was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.23",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.25",
+      "value": 1.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...well below the reported $1.23. Reported EPS was $1.23 against a $1.25 consensus  . Free cash flow was $5.09 billion...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.25",
+        "snippet": "- Quarter ending 2026-03-31: EPS $1.23 vs estimate $1.25 (surprise -1.4%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.09 billion",
+      "value": 5.09,
+      "unit": "billion",
+      "money_mn": 5090.0,
+      "decimals": 2,
+      "context": "...EPS was $1.23 against a $1.25 consensus  . Free cash flow was $5.09 billion against $2.66 billion, but the release does not...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,094",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094 Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.66 billion",
+      "value": 2.66,
+      "unit": "billion",
+      "money_mn": 2660.0,
+      "decimals": 2,
+      "context": "...a $1.25 consensus  . Free cash flow was $5.09 billion against $2.66 billion, but the release does not split out the fee's...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,660",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.56 billion",
+      "value": 12.56,
+      "unit": "billion",
+      "money_mn": 12560.0,
+      "decimals": 2,
+      "context": "...was the first quarter where margin fell year over year. Revenue was $12.56 billion, up 13% (12% FX-neutral), in line with guidance...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,560",
+        "snippet": "Revenue $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,560 $ 12,860"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.80",
+      "value": 0.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...amortization growth was front-loaded into the first half  . EPS was $0.80 against $0.72 a year earlier and a $0.79...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.80",
+        "snippet": "Diluted EPS $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.80 $ 0.82"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.72",
+      "value": 0.72,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was front-loaded into the first half  . EPS was $0.80 against $0.72 a year earlier and a $0.79 consensus  . Free...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.72",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.79",
+      "value": 0.79,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the first half  . EPS was $0.80 against $0.72 a year earlier and a $0.79 consensus  . Free cash flow fell to $1.53...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "0.79",
+        "snippet": "- Quarter ending 2026-06-30: EPS $0.80 vs estimate $0.79 (surprise +1.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.53 billion",
+      "value": 1.53,
+      "unit": "billion",
+      "money_mn": 1530.0,
+      "decimals": 2,
+      "context": "...a year earlier and a $0.79 consensus  . Free cash flow fell to $1.53 billion from $2.27 billion; the release does not...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,525",
+        "snippet": "Free Cash Flow $ 2,267 $ 2,660 $ 1,872 $ 5,094 $ 1,525 Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.27 billion",
+      "value": 2.27,
+      "unit": "billion",
+      "money_mn": 2270.0,
+      "decimals": 2,
+      "context": "...and a $0.79 consensus  . Free cash flow fell to $1.53 billion from $2.27 billion; the release does not attribute the decline....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,267",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.87 billion",
+      "value": 12.87,
+      "unit": "billion",
+      "money_mn": 12870.0,
+      "decimals": 2,
+      "context": "...growth and the best margin of the three quarters. Revenue was $12.87 billion, up 12% (11% FX-neutral), in line with guidance...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,874",
+        "snippet": "Revenue $ 11,510 $ 12,051 $ 12,250 $ 12,560 $ 12,874 $ 13,442"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,057 million",
+      "value": 1057.0,
+      "unit": "million",
+      "money_mn": 1057.0,
+      "decimals": 0,
+      "context": "...FX-neutral), in line with guidance  . Subscription revenue rose $1,057 million and advertising revenue $256 million year over...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,057 million",
+        "snippet": "...to the three months ended September 30, 2025, primarily due to the growth in subscription revenue of $1,057 million, which reflects increases in memberships and pricing, and an increase of $256 million in advertising..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$256 million",
+      "value": 256.0,
+      "unit": "million",
+      "money_mn": 256.0,
+      "decimals": 0,
+      "context": ".... Subscription revenue rose $1,057 million and advertising revenue $256 million year over year  . Operating margin rose to 34.6%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "256 million",
+        "snippet": "...revenue of $1,057 million, which reflects increases in memberships and pricing, and an increase of $256 million in advertising revenue. The $1,364 million increase in revenues includes a favorable impact of $101 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$85 million",
+      "value": 85.0,
+      "unit": "million",
+      "money_mn": 85.0,
+      "decimals": 0,
+      "context": "...rose to 34.6% from 28.2%, helped by lower cost of revenues (down $85 million) and the timing of expenses  . EPS was $0.87...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "85 million",
+        "snippet": "...to a $1,210 million increase in operating income, driven by a $1,364 million increase in revenues and an $85 million decrease in cost of revenues. The impact of higher operating income was partially offset by a $90 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.87",
+      "value": 0.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...revenues (down $85 million) and the timing of expenses  . EPS was $0.87 against $0.59 and a $0.82 consensus  . Free cash...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.87",
+        "snippet": "Diluted EPS $ 0.59 $ 0.56 $ 1.23 $ 0.80 $ 0.87 $ 0.67"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.59",
+      "value": 0.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$85 million) and the timing of expenses  . EPS was $0.87 against $0.59 and a $0.82 consensus  . Free cash flow was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.59",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.82",
+      "value": 0.82,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and the timing of expenses  . EPS was $0.87 against $0.59 and a $0.82 consensus  . Free cash flow was $2.88 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.82",
+        "snippet": "Diluted EPS $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.80 $ 0.82"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.88 billion",
+      "value": 2.88,
+      "unit": "billion",
+      "money_mn": 2880.0,
+      "decimals": 2,
+      "context": "...was $0.87 against $0.59 and a $0.82 consensus  . Free cash flow was $2.88 billion against $2.66 billion  . Churn improved year...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,884",
+        "snippet": "Free Cash Flow $ 2,660 $ 1,872 $ 5,094 $ 1,525 $ 2,884 Shares (FD) 4,340 4,317 4,298 4,261 4,195"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.66 billion",
+      "value": 2.66,
+      "unit": "billion",
+      "money_mn": 2660.0,
+      "decimals": 2,
+      "context": "...and a $0.82 consensus  . Free cash flow was $2.88 billion against $2.66 billion  . Churn improved year over year globally and in...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,660",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.7 billion",
+      "value": 2.7,
+      "unit": "billion",
+      "money_mn": 2700.0,
+      "decimals": 1,
+      "context": "...globally and in the US  . The advertising target was cut to about $2.7 billion because some ad product capabilities rolled out...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.7B",
+        "snippet": "...subscription revenue growth has outperformed our expectations, we currently expect 2026 ad revenue of ~$2.7B vs. approximately $3B previously (due to slightly slower than expected rollout of some ad product..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.4 billion",
+      "value": 13.4,
+      "unit": "billion",
+      "money_mn": 13400.0,
+      "decimals": 1,
+      "context": "...capabilities rolled out more slowly than planned  . Q4 is guided to $13.4 billion of revenue (+12%) and a 26.0% margin, which...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.4 billion",
+        "snippet": "In Q4, we expect revenue of $13.4 billion, which represents year over year growth of 12% (or 11% F/X neutral) driven by growth in memberships,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...numbers, and the least clean. Revenue was $12.25 billion, up 16% (14% FX-neutral), driven by membership growth,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "15.9%",
+        "snippet": "- Revenue growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...numbers, and the least clean. Revenue was $12.25 billion, up 16% (14% FX-neutral), driven by membership growth, price...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "fx-neutral"
+        ],
+        "hl": "14%",
+        "snippet": "• Q1 revenue grew 16% year over year (+14% on a FX-neutral basis 1 ) and operating income grew 18%. Both were ahead of our guidance due to slightly..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.3%",
+      "value": 32.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...by membership growth, price and ad revenue  . Operating margin was 32.3% against 31.7% a year earlier  . Diluted EPS of...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "32.3%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.7%",
+      "value": 31.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth, price and ad revenue  . Operating margin was 32.3% against 31.7% a year earlier  . Diluted EPS of $1.23 compared...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.7 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...where margin fell year over year. Revenue was $12.56 billion, up 13% (12% FX-neutral), in line with guidance  . UCAN...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "13.1%",
+        "snippet": "- FY2026E: revenue $51,125.8 million (range $51,026.0 million to $51,192.0 million, 42 analysts), growth +13.1%; EPS $3.57 (range $3.13 to $3.64); forward P/E 16.6x; EV/Sales 5.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin fell year over year. Revenue was $12.56 billion, up 13% (12% FX-neutral), in line with guidance  . UCAN grew...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "fx-neutral"
+        ],
+        "hl": "12%",
+        "snippet": "◦ Q2 revenue grew 13% year over year (+12% on a FX-neutral basis 1 ) to $12.6B, and operating margin was 33%. Both were in-line with our guidance."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 13% (12% FX-neutral), in line with guidance  . UCAN grew 10%, which the company ties to only a partial...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "partial",
+          "ucan"
+        ],
+        "hl": "10%",
+        "snippet": "...the quarterly revenue mark of $4.0B in EMEA and $1.5B in both LATAM and APAC. In UCAN, Q2 revenue growth of 10% reflects only a partial quarter impact from our recent price change, which has gone well and as expected."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...quarter of the recent price change  . Operating margin fell to 33.4% from 34.1%, because technology and development...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.1%",
+      "value": 34.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of the recent price change  . Operating margin fell to 33.4% from 34.1%, because technology and development and sales...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.1 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...4,261 million fully diluted from 4,349 million  . View hours grew 2% in H1 2026 against 1.5% in 2025  .  Q3 FY2026...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "hour",
+          "view"
+        ],
+        "hl": "2%",
+        "snippet": "◦ View hours grew +2% in H1’26 vs. +1.5% growth in 2025, despite the competitive impact of the Winter Olympics and the World Cup..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.5%",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...diluted from 4,349 million  . View hours grew 2% in H1 2026 against 1.5% in 2025  .  Q3 FY2026 showed the slowest growth...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "hour",
+          "view"
+        ],
+        "hl": "1.5%",
+        "snippet": "◦ View hours grew +2% in H1’26 vs. +1.5% growth in 2025, despite the competitive impact of the Winter Olympics and the World Cup this year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...best margin of the three quarters. Revenue was $12.87 billion, up 12% (11% FX-neutral), in line with guidance  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "fx-neutral"
+        ],
+        "hl": "12%",
+        "snippet": "◦ Q2 revenue grew 13% year over year (+12% on a FX-neutral basis 1 ) to $12.6B, and operating margin was 33%. Both were in-line with our guidance."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin of the three quarters. Revenue was $12.87 billion, up 12% (11% FX-neutral), in line with guidance  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance"
+        ],
+        "hl": "11%",
+        "snippet": "◦ Q3 revenue grew 12% year over year (11% on a F/X neutral basis 1 ) to $12.9B, consistent with our forecast. Operating margin was 34.6%, up from..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.6%",
+      "value": 34.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue $256 million year over year  . Operating margin rose to 34.6% from 28.2%, helped by lower cost of revenues...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "34.6%",
+        "snippet": "...margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.2%",
+      "value": 28.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$256 million year over year  . Operating margin rose to 34.6% from 28.2%, helped by lower cost of revenues (down $85...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "28.2%",
+        "snippet": "...29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...slowly than planned  . Q4 is guided to $13.4 billion of revenue (+12%) and a 26.0% margin, which includes about 120...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "11.8%",
+        "snippet": "...growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.0%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...planned  . Q4 is guided to $13.4 billion of revenue (+12%) and a 26.0% margin, which includes about 120 basis points...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "26%",
+        "snippet": "...grew 2025 revenue 16% to $45.18 billion and lifted operating margin to 29.5% from 26.7% [1]. Net income rose 26% to $10.98 billion, and free cash flow reached $9.46 billion [1]. Momentum is broad: APAC grew 21% and EMEA..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4,261",
+      "value": 4261.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion; the release does not attribute the decline. Shares fell to 4,261 million fully diluted from 4,349 million  . View...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,261",
+        "snippet": "Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4,349",
+      "value": 4349.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the decline. Shares fell to 4,261 million fully diluted from 4,349 million  . View hours grew 2% in H1 2026 against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,349",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "120",
+      "value": 120.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion of revenue (+12%) and a 26.0% margin, which includes about 120 basis points from headcount reductions  .",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "120",
+        "snippet": "...by growth in memberships, pricing, and ad revenue. We project a Q4 operating margin of 26.0% which includes ~120 basis points negative impact associated with our recently announced headcount reductions, and compares with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.1 billion",
+      "value": 9.1,
+      "unit": "billion",
+      "money_mn": 9100.0,
+      "decimals": 1,
+      "context": "...fund buybacks, so the 2027 repurchase pace falls below 2025's $9.1 billion. The WBD agreement was terminated in Q1 and...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "9,099,232,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.8 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 1,
+      "context": "...The WBD agreement was terminated in Q1 and Netflix recorded a $2.8 billion termination fee  , so no acquisition financing...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.8B",
+        "snippet": "...year over year), above our forecast of $0.76, driven by higher-than-projected operating income and the $2.8B termination fee related to the Warner Bros. transaction, which was recognized in “interest and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.13 billion",
+      "value": 15.13,
+      "unit": "billion",
+      "money_mn": 15130.0,
+      "decimals": 2,
+      "context": "...financing remains to absorb buybacks. Total debt rose to $15.13 billion and net cash was -$6.91 billion at 30 September...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "15,132,394,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$6.91 billion",
+      "value": 6.91,
+      "unit": "billion",
+      "money_mn": 6910.0,
+      "decimals": 2,
+      "context": "...absorb buybacks. Total debt rose to $15.13 billion and net cash was -$6.91 billion at 30 September 2026  , but the provided filings...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "6,909.4)",
+        "snippet": "...(5,400.5); Q1 FY2026 (2,072.1) (year-ago n/a, n/a); Q2 FY2026 (5,181.4) (year-ago n/a, n/a); Q3 FY2026 (6,909.4) (year-ago (5,138.6), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.76",
+      "value": 3.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...17.2% growth the reverse DCF requires  . FY2027 EPS consensus is $3.76, down from $3.82 90 days ago, with 25 analysts...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.76",
+        "snippet": "...revenue $56,584.0 million (range $55,546.8 million to $57,499.4 million, 45 analysts), growth +10.7%; EPS $3.76 (range $3.56 to $4.00); forward P/E 15.8x; EV/Sales 4.5x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.82",
+      "value": 3.82,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...reverse DCF requires  . FY2027 EPS consensus is $3.76, down from $3.82 90 days ago, with 25 analysts cutting and 11...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.82",
+        "snippet": "- EPS consensus next fiscal year: $3.76 today, $3.78 30 days ago, $3.82 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 11/25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51.1 billion",
+      "value": 51.1,
+      "unit": "billion",
+      "money_mn": 51100.0,
+      "decimals": 1,
+      "context": "...and 11 raising in the last 30 days  . FY2026 revenue guidance of $51.1 billion meets the signpost threshold  . T4: Free cash...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "51.1B",
+        "snippet": "◦ For 2026, we expect revenue of $51.1B (+13% year over year) and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.09 billion",
+      "value": 5.09,
+      "unit": "billion",
+      "money_mn": 5090.0,
+      "decimals": 2,
+      "context": "...than content spending. Quarterly free cash flow in the releases was $5.09 billion in Q1, $1.53 billion in Q2 and $2.88 billion in...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,094",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094 Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.53 billion",
+      "value": 1.53,
+      "unit": "billion",
+      "money_mn": 1530.0,
+      "decimals": 2,
+      "context": "...Quarterly free cash flow in the releases was $5.09 billion in Q1, $1.53 billion in Q2 and $2.88 billion in Q3  . Trailing free...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,525",
+        "snippet": "Free Cash Flow $ 2,267 $ 2,660 $ 1,872 $ 5,094 $ 1,525 Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.88 billion",
+      "value": 2.88,
+      "unit": "billion",
+      "money_mn": 2880.0,
+      "decimals": 2,
+      "context": "...in the releases was $5.09 billion in Q1, $1.53 billion in Q2 and $2.88 billion in Q3  . Trailing free cash flow at 30 September...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,884",
+        "snippet": "Free Cash Flow $ 2,660 $ 1,872 $ 5,094 $ 1,525 $ 2,884 Shares (FD) 4,340 4,317 4,298 4,261 4,195"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.38 billion",
+      "value": 11.38,
+      "unit": "billion",
+      "money_mn": 11380.0,
+      "decimals": 2,
+      "context": "...billion in Q3  . Trailing free cash flow at 30 September 2026 was $11.38 billion  , just above the $11 billion signpost. Q1...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "11,375.1 million",
+        "snippet": "...investments $8,223.0 million, total debt $15,132.4 million, net cash -$6,909.4 million, TTM free cash flow $11,375.1 million, cash runway at that burn self-funded, current ratio 1.1x, shares outstanding 4,106.3 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11 billion",
+      "value": 11.0,
+      "unit": "billion",
+      "money_mn": 11000.0,
+      "decimals": 0,
+      "context": "...cash flow at 30 September 2026 was $11.38 billion  , just above the $11 billion signpost. Q1 carries the fee, so the Q2 and Q3...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11,079",
+        "snippet": "Revenue $ 10,543 $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,574"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "T1: Operating margin stays above 29% in 2026 as content amortization grows slower...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "29.5%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.3%",
+      "value": 32.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...amortization grows slower than revenue. Operating margin was 32.3% in Q1, 33.4% in Q2 and 34.6% in Q3  . The...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "32.3%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...grows slower than revenue. Operating margin was 32.3% in Q1, 33.4% in Q2 and 34.6% in Q3  . The unchanged 31.5%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.6%",
+      "value": 34.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...than revenue. Operating margin was 32.3% in Q1, 33.4% in Q2 and 34.6% in Q3  . The unchanged 31.5% full-year guidance,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "34.6%",
+        "snippet": "...margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.5%",
+      "value": 31.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 32.3% in Q1, 33.4% in Q2 and 34.6% in Q3  . The unchanged 31.5% full-year guidance, with Q4 guided at 26.0%,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.5%",
+        "snippet": "...subscription revenue. We continue to project 2026 revenue of $50.7-$51.7B and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.0%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q3  . The unchanged 31.5% full-year guidance, with Q4 guided at 26.0%, implies a full-year margin well above 29%  . Q2...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "26%",
+        "snippet": "...grew 2025 revenue 16% to $45.18 billion and lifted operating margin to 29.5% from 26.7% [1]. Net income rose 26% to $10.98 billion, and free cash flow reached $9.46 billion [1]. Momentum is broad: APAC grew 21% and EMEA..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...with Q4 guided at 26.0%, implies a full-year margin well above 29%  . Q2 margin fell year over year, so the status...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "imply"
+        ],
+        "hl": "29.5%",
+        "snippet": "...operating margin of 31.5% for 2026 both on a reported basis and based on F/X rates as of January 1, 2026 vs. 29.5% in 2025. Our forecast implies annual operating income growth of 20%+ for 2026."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.2%",
+      "value": 16.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...unless growth beats expectations. Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.2 %",
+        "snippet": "Y/Y % Growth 12.5 % 15.9 % 17.2 % 17.6 % 16.2 % 13.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beats expectations. Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4 guided to 11.5%,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.4 %",
+        "snippet": "Y/Y % Growth 15.9 % 17.2 % 17.6 % 16.2 % 13.4 % 11.7 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.8%",
+      "value": 11.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Revenue growth slowed from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4 guided to 11.5%, which runs...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.8%",
+        "snippet": "...growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 16.2% in Q1 to 13.4% in Q2 and 11.8% in Q3, with Q4 guided to 11.5%, which runs against the 17.2% growth the reverse...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 %",
+        "snippet": "Y/Y % Growth 17.2 % 17.6 % 16.2 % 13.4 % 11.8 % 11.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.2%",
+      "value": 17.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q2 and 11.8% in Q3, with Q4 guided to 11.5%, which runs against the 17.2% growth the reverse DCF requires  . FY2027 EPS...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "dcf",
+          "reverse"
+        ],
+        "hl": "17.2%",
+        "snippet": "Valuation is the constraint. The reverse DCF implies 17.2% annual revenue growth for ten years, above 13.1% FY2026 consensus and a 12.6% three-year historical CAGR..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...DCF requires  . FY2027 EPS consensus is $3.76, down from $3.82 90 days ago, with 25 analysts cutting and 11...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ago",
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $3.57 today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "25",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... FY2027 EPS consensus is $3.76, down from $3.82 90 days ago, with 25 analysts cutting and 11 raising in the last 30...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "raising",
+          "ago",
+          "analyst",
+          "days",
+          "pershare"
+        ],
+        "hl": "25",
+        "snippet": "...30 days ago, $3.82 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 11/25 - Quarter ending 2026-09-30: EPS $0.87 vs estimate $0.82 (surprise +5.8%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "11",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is $3.76, down from $3.82 90 days ago, with 25 analysts cutting and 11 raising in the last 30 days  . FY2026 revenue...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "raising",
+          "ago",
+          "analyst",
+          "days"
+        ],
+        "hl": "11",
+        "snippet": "...$3.78 30 days ago, $3.82 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 11/25"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...90 days ago, with 25 analysts cutting and 11 raising in the last 30 days  . FY2026 revenue guidance of $51.1 billion...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "raising",
+          "ago",
+          "analyst",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "...today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.8 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 1,
+      "context": "...The agreement was terminated in Q1 FY2026 and Netflix recorded a $2.8 billion termination fee, so the $42.2 billion bridge,...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.8B",
+        "snippet": "...year over year), above our forecast of $0.76, driven by higher-than-projected operating income and the $2.8B termination fee related to the Warner Bros. transaction, which was recognized in “interest and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$42.2 billion",
+      "value": 42.2,
+      "unit": "billion",
+      "money_mn": 42200.0,
+      "decimals": 1,
+      "context": "...FY2026 and Netflix recorded a $2.8 billion termination fee, so the $42.2 billion bridge, the $5.8 billion fee exposure and the...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "42,282,118,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.8 billion",
+      "value": 5.8,
+      "unit": "billion",
+      "money_mn": 5800.0,
+      "decimals": 1,
+      "context": "...a $2.8 billion termination fee, so the $42.2 billion bridge, the $5.8 billion fee exposure and the post-closing regulatory...",
+      "section": "Risk update",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "5.8 billion",
+        "snippet": "...refinancing could come at higher rates with more onerous covenants [1]. If the deal does not complete, a $5.8 billion termination fee could be payable, equal to about 40% of existing notes [1]. Post-closing regulatory..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$6.91 billion",
+      "value": 6.91,
+      "unit": "billion",
+      "money_mn": 6910.0,
+      "decimals": 2,
+      "context": "...in the annual report no longer apply  . Net cash moved to -$6.91 billion at Q3, and total debt rose to $15.13 billion,...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "6,909.4)",
+        "snippet": "...(5,400.5); Q1 FY2026 (2,072.1) (year-ago n/a, n/a); Q2 FY2026 (5,181.4) (year-ago n/a, n/a); Q3 FY2026 (6,909.4) (year-ago (5,138.6), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.13 billion",
+      "value": 15.13,
+      "unit": "billion",
+      "money_mn": 15130.0,
+      "decimals": 2,
+      "context": ".... Net cash moved to -$6.91 billion at Q3, and total debt rose to $15.13 billion, which keeps balance-sheet flexibility a...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "15,132,394,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.3 billion",
+      "value": 0.3,
+      "unit": "billion",
+      "money_mn": 300.0,
+      "decimals": 1,
+      "context": "...from 16.2% to 11.8%, and the advertising target was cut by about $0.3 billion because of slower product rollout  . The Q3...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "300",
+        "snippet": "...utilization by our creative partners is scaling quickly. In 2026, GenAI workflows have been used in roughly 300 of our titles, with the largest concentration of work in post-production. We are increasingly leveraging..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.2%",
+      "value": 16.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...risk has materialised: revenue growth slowed each quarter, from 16.2% to 11.8%, and the advertising target was cut by...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.2 %",
+        "snippet": "Y/Y % Growth 12.5 % 15.9 % 17.2 % 17.6 % 16.2 % 13.5 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.8%",
+      "value": 11.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...has materialised: revenue growth slowed each quarter, from 16.2% to 11.8%, and the advertising target was cut by about...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.8%",
+        "snippet": "...growth y/y: FY2025 15.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 11.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "120",
+      "value": 120.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is the Q4 headcount reduction, which the company says costs about 120 basis points of Q4 margin  .",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "120",
+        "snippet": "...by growth in memberships, pricing, and ad revenue. We project a Q4 operating margin of 26.0% which includes ~120 basis points negative impact associated with our recently announced headcount reductions, and compares with..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51.1 billion",
+      "value": 51.1,
+      "unit": "billion",
+      "money_mn": 51100.0,
+      "decimals": 1,
+      "context": "FY2026 guidance is revenue of $51.1 billion (+13%) and an operating margin of 31.5%, with...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "51.1B",
+        "snippet": "◦ For 2026, we expect revenue of $51.1B (+13% year over year) and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.4 billion",
+      "value": 13.4,
+      "unit": "billion",
+      "money_mn": 13400.0,
+      "decimals": 1,
+      "context": "...with operating income growth of 20% or more  . Q4 is guided to $13.4 billion of revenue and a 26.0% margin  . Consensus...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.4 billion",
+        "snippet": "In Q4, we expect revenue of $13.4 billion, which represents year over year growth of 12% (or 11% F/X neutral) driven by growth in memberships,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51.13 billion",
+      "value": 51.13,
+      "unit": "billion",
+      "money_mn": 51130.0,
+      "decimals": 2,
+      "context": "...of revenue and a 26.0% margin  . Consensus FY2026 revenue is $51.13 billion and EPS is $3.57, down slightly from $3.58 90...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "51.1B",
+        "snippet": "◦ For 2026, we expect revenue of $51.1B (+13% year over year) and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.57",
+      "value": 3.57,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...margin  . Consensus FY2026 revenue is $51.13 billion and EPS is $3.57, down slightly from $3.58 90 days ago  . FY2027...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.57",
+        "snippet": "...revenue $51,125.8 million (range $51,026.0 million to $51,192.0 million, 42 analysts), growth +13.1%; EPS $3.57 (range $3.13 to $3.64); forward P/E 16.6x; EV/Sales 5.0x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.58",
+      "value": 3.58,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...revenue is $51.13 billion and EPS is $3.57, down slightly from $3.58 90 days ago  . FY2027 consensus is $3.76 EPS and...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.58",
+        "snippet": "- EPS consensus current fiscal year: $3.57 today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.76",
+      "value": 3.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$3.57, down slightly from $3.58 90 days ago  . FY2027 consensus is $3.76 EPS and $56.58 billion revenue, up 10.7%, and...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.76",
+        "snippet": "...revenue $56,584.0 million (range $55,546.8 million to $57,499.4 million, 45 analysts), growth +10.7%; EPS $3.76 (range $3.56 to $4.00); forward P/E 15.8x; EV/Sales 4.5x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$56.58 billion",
+      "value": 56.58,
+      "unit": "billion",
+      "money_mn": 56580.0,
+      "decimals": 2,
+      "context": "...from $3.58 90 days ago  . FY2027 consensus is $3.76 EPS and $56.58 billion revenue, up 10.7%, and EPS was cut from $3.82...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "56,584.0 million",
+        "snippet": "- FY2027E: revenue $56,584.0 million (range $55,546.8 million to $57,499.4 million, 45 analysts), growth +10.7%; EPS $3.76 (range $3.56 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.82",
+      "value": 3.82,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS and $56.58 billion revenue, up 10.7%, and EPS was cut from $3.82 over 90 days, with 25 of 36 analysts lowering...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.82",
+        "snippet": "- EPS consensus next fiscal year: $3.76 today, $3.78 30 days ago, $3.82 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 11/25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.76",
+      "value": 3.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...days  . Watch for: the Q4 margin against 26.0%, FY2027 EPS held at $3.76 or higher, quarterly revenue growth against the...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.76",
+        "snippet": "...revenue $56,584.0 million (range $55,546.8 million to $57,499.4 million, 45 analysts), growth +10.7%; EPS $3.76 (range $3.56 to $4.00); forward P/E 15.8x; EV/Sales 4.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "FY2026 guidance is revenue of $51.1 billion (+13%) and an operating margin of 31.5%, with...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "12.9%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 20.9% to 20.9% by year 10, a WACC of 12.9% (10y US Treasury (^TNX) 4.8% + beta 1.61 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.5%",
+      "value": 31.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is revenue of $51.1 billion (+13%) and an operating margin of 31.5%, with operating income growth of 20% or more  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.5%",
+        "snippet": "...subscription revenue. We continue to project 2026 revenue of $50.7-$51.7B and an operating margin of 31.5%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and an operating margin of 31.5%, with operating income growth of 20% or more  . Q4 is guided to $13.4 billion of...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "19.6%",
+        "snippet": "- Opex in % of revenue: FY2025 19.0%; Q1 FY2026 19.6% (year-ago n/a, n/a); Q2 FY2026 18.6% (year-ago n/a, n/a); Q3 FY2026 18.1% (year-ago 18.2%, stable); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.0%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 20% or more  . Q4 is guided to $13.4 billion of revenue and a 26.0% margin  . Consensus FY2026 revenue is $51.13...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "26%",
+        "snippet": "...grew 2025 revenue 16% to $45.18 billion and lifted operating margin to 29.5% from 26.7% [1]. Net income rose 26% to $10.98 billion, and free cash flow reached $9.46 billion [1]. Momentum is broad: APAC grew 21% and EMEA..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.7%",
+      "value": 10.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ago  . FY2027 consensus is $3.76 EPS and $56.58 billion revenue, up 10.7%, and EPS was cut from $3.82 over 90 days, with...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "10.7%",
+        "snippet": "- FY2027E: revenue $56,584.0 million (range $55,546.8 million to $57,499.4 million, 45 analysts), growth +10.7%; EPS $3.76 (range $3.56 to $4.00); forward P/E 15.8x; EV/Sales 4.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.0%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...estimates in the last 30 days  . Watch for: the Q4 margin against 26.0%, FY2027 EPS held at $3.76 or higher, quarterly...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "26%",
+        "snippet": "...grew 2025 revenue 16% to $45.18 billion and lifted operating margin to 29.5% from 26.7% [1]. Net income rose 26% to $10.98 billion, and free cash flow reached $9.46 billion [1]. Momentum is broad: APAC grew 21% and EMEA..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS held at $3.76 or higher, quarterly revenue growth against the 11.5% Q4 guide, the advertising rollout in new markets...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11.5 %",
+        "snippet": "Y/Y % Growth 17.2 % 17.6 % 16.2 % 13.4 % 11.8 % 11.5 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is $51.13 billion and EPS is $3.57, down slightly from $3.58 90 days ago  . FY2027 consensus is $3.76 EPS and...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ago",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $3.57 today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$56.58 billion revenue, up 10.7%, and EPS was cut from $3.82 over 90 days, with 25 of 36 analysts lowering estimates...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $3.57 today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "25",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue, up 10.7%, and EPS was cut from $3.82 over 90 days, with 25 of 36 analysts lowering estimates in the last 30...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "days",
+          "pershare"
+        ],
+        "hl": "25",
+        "snippet": "...30 days ago, $3.82 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 11/25 - Quarter ending 2026-09-30: EPS $0.87 vs estimate $0.82 (surprise +5.8%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "36",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 10.7%, and EPS was cut from $3.82 over 90 days, with 25 of 36 analysts lowering estimates in the last 30 days...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "36M",
+        "snippet": "...Boys S3* (29M), Little House on the Prairie (29M), The Last House* (91M) and Why Did I Get Married Again* (36M)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...over 90 days, with 25 of 36 analysts lowering estimates in the last 30 days  . Watch for: the Q4 margin against 26.0%,...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "...today, $3.58 30 days ago, $3.58 90 days ago, change vs 90 days ago -0.3%; analysts raising/cutting in last 30 days: 18/12"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12250.0 million",
+      "value": 12250.0,
+      "unit": "million",
+      "money_mn": 12250.0,
+      "decimals": 1,
+      "context": "Revenue: $12250.0 million vs $10543.0 million, $12560.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,250",
+        "snippet": "Revenue $ 10,543 $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,574"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10543.0 million",
+      "value": 10543.0,
+      "unit": "million",
+      "money_mn": 10543.0,
+      "decimals": 1,
+      "context": "Revenue: $12250.0 million vs $10543.0 million, $12560.0 million vs $11079.0 million, $12874.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10,543",
+        "snippet": "Revenue $ 10,543 $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,574"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12560.0 million",
+      "value": 12560.0,
+      "unit": "million",
+      "money_mn": 12560.0,
+      "decimals": 1,
+      "context": "Revenue: $12250.0 million vs $10543.0 million, $12560.0 million vs $11079.0 million, $12874.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,560",
+        "snippet": "Revenue $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,560 $ 12,860"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11079.0 million",
+      "value": 11079.0,
+      "unit": "million",
+      "money_mn": 11079.0,
+      "decimals": 1,
+      "context": "Revenue: $12250.0 million vs $10543.0 million, $12560.0 million vs $11079.0 million, $12874.0 million vs $11510.0 million. Operating...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11,079",
+        "snippet": "Revenue $ 10,543 $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,574"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12874.0 million",
+      "value": 12874.0,
+      "unit": "million",
+      "money_mn": 12874.0,
+      "decimals": 1,
+      "context": "...million vs $10543.0 million, $12560.0 million vs $11079.0 million, $12874.0 million vs $11510.0 million. Operating margin: 32.3% vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,874",
+        "snippet": "Revenue $ 11,510 $ 12,051 $ 12,250 $ 12,560 $ 12,874 $ 13,442"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11510.0 million",
+      "value": 11510.0,
+      "unit": "million",
+      "money_mn": 11510.0,
+      "decimals": 1,
+      "context": "...million, $12560.0 million vs $11079.0 million, $12874.0 million vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11,510",
+        "snippet": "Revenue $ 10,543 $ 11,079 $ 11,510 $ 12,051 $ 12,250 $ 12,574"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5094.0 million",
+      "value": 5094.0,
+      "unit": "million",
+      "money_mn": 5094.0,
+      "decimals": 1,
+      "context": "...32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow: $5094.0 million vs $2661.0 million, $1525.0 million vs $2267.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,094",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094 Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2661.0 million",
+      "value": 2661.0,
+      "unit": "million",
+      "money_mn": 2661.0,
+      "decimals": 1,
+      "context": "...33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow: $5094.0 million vs $2661.0 million, $1525.0 million vs $2267.0 million, $2884.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,661",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1525.0 million",
+      "value": 1525.0,
+      "unit": "million",
+      "money_mn": 1525.0,
+      "decimals": 1,
+      "context": "...34.6% vs 28.2%. Free cash flow: $5094.0 million vs $2661.0 million, $1525.0 million vs $2267.0 million, $2884.0 million vs $2660.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,525",
+        "snippet": "Free Cash Flow $ 2,267 $ 2,660 $ 1,872 $ 5,094 $ 1,525 Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2267.0 million",
+      "value": 2267.0,
+      "unit": "million",
+      "money_mn": 2267.0,
+      "decimals": 1,
+      "context": "...cash flow: $5094.0 million vs $2661.0 million, $1525.0 million vs $2267.0 million, $2884.0 million vs $2660.0 million. Diluted...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,267",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2884.0 million",
+      "value": 2884.0,
+      "unit": "million",
+      "money_mn": 2884.0,
+      "decimals": 1,
+      "context": "...million vs $2661.0 million, $1525.0 million vs $2267.0 million, $2884.0 million vs $2660.0 million. Diluted EPS: $1.23 vs $0.66,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,884",
+        "snippet": "Free Cash Flow $ 2,660 $ 1,872 $ 5,094 $ 1,525 $ 2,884 Shares (FD) 4,340 4,317 4,298 4,261 4,195"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2660.0 million",
+      "value": 2660.0,
+      "unit": "million",
+      "money_mn": 2660.0,
+      "decimals": 1,
+      "context": "...million, $1525.0 million vs $2267.0 million, $2884.0 million vs $2660.0 million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,660",
+        "snippet": "Free Cash Flow $ 2,661 $ 2,267 $ 2,660 $ 1,872 $ 5,094"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23",
+      "value": 1.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$2267.0 million, $2884.0 million vs $2660.0 million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.23",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.66",
+      "value": 0.66,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million, $2884.0 million vs $2660.0 million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.66",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.8",
+      "value": 0.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$2884.0 million vs $2660.0 million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.80",
+        "snippet": "Diluted EPS $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.80 $ 0.82"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.72",
+      "value": 0.72,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million vs $2660.0 million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.72",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.87",
+      "value": 0.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $2660.0 million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.87",
+        "snippet": "Diluted EPS $ 0.59 $ 0.56 $ 1.23 $ 0.80 $ 0.87 $ 0.67"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.59",
+      "value": 0.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million. Diluted EPS: $1.23 vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.59",
+        "snippet": "Diluted EPS $ 0.66 $ 0.72 $ 0.59 $ 0.56 $ 1.23 $ 0.78"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.3%",
+      "value": 32.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, $12874.0 million vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "32.3%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.7%",
+      "value": 31.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$12874.0 million vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.7 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "- Operating margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.1%",
+      "value": 34.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow: $5094.0 million...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.1 %",
+        "snippet": "Operating Margin 31.7 % 34.1 % 28.2 % 24.5 % 32.3 % 32.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.6%",
+      "value": 34.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$11510.0 million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow: $5094.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "34.6%",
+        "snippet": "...margin: FY2025 29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.2%",
+      "value": 28.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million. Operating margin: 32.3% vs 31.7%, 33.4% vs 34.1%, 34.6% vs 28.2%. Free cash flow: $5094.0 million vs $2661.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "28.2%",
+        "snippet": "...29.5%; Q1 FY2026 32.3% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 34.6% (year-ago 28.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4298.0",
+      "value": 4298.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $0.66, $0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,298",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4370.0",
+      "value": 4370.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$0.8 vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,370",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4261.0",
+      "value": 4261.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $0.72, $0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,261",
+        "snippet": "Shares (FD) 4,349 4,340 4,317 4,298 4,261"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4349.0",
+      "value": 4349.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$0.87 vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,349",
+        "snippet": "Shares (FD) 4,370 4,349 4,340 4,317 4,298"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4195.0",
+      "value": 4195.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $0.59. Fully diluted shares: 4298.0 vs 4370.0, 4261.0 vs 4349.0, 4195.0 vs 4340.0.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,195",
+        "snippet": "Shares (FD) 4,340 4,317 4,298 4,261 4,195"
+      }
+    }
+  ],
+  "build_round": 3,
+  "round1": {
+    "total_claims": 157,
+    "matched": 152,
+    "match_rate": 0.968
+  }
+}

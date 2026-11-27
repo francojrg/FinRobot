@@ -1,0 +1,142 @@
+{
+  "ticker_symbol": "META",
+  "fyear": "2025",
+  "save_dir": "../reports/META_earnings_multi_claude-haiku-5.5",
+  "headline": "Revenue grew 26-33% in each quarter since the 10-K, but Q3 operating margin fell to 20% on a $9.89 billion legal charge and rising AI and infrastructure costs.",
+  "summary": "Meta's three quarters since the FY2025 10-K show revenue growth that stayed above 20% while profit fell. Revenue rose 33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to $60.80 billion and 26% in Q3 to $64.60 billion [1]. Ad impressions growth slowed from 19% to 14% to 10%, while average price per ad rose 12%, 12% and 14% [1]. Operating income fell 37% in Q3 to $12.99 billion after a $9.89 billion charge for the August 2026 multistate attorneys general agreement; excluding it, operating income would have risen 11% to $22.88 billion [1]. Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion in the three quarters [1][2]. Capex guidance for 2026 was raised to $135-145 billion [1]. Consensus FY2026 EPS of $29.01 fell 8.5% over 90 days [3]. Net cash moved from -$2.31 billion at year-end 2025 to -$32.39 billion at September 30, 2026 [2][3]. The revenue thesis holds, the free cash flow thesis is strengthened, and the Reality Labs thesis holds on guidance [4].",
+  "results_commentary": "Q3 FY2026 was the weakest quarter. Revenue rose 26% to $64.60 billion [1], but operating income fell 37% to $12.99 billion and operating margin dropped to 20% from 40% a year earlier [1]. The main cause was a $9.89 billion charge for the August 2026 multistate attorneys general agreement, which the company recorded in costs [1][2]. Excluding that charge, operating income would have been $22.88 billion, up 11% year on year, and diluted EPS would have been $7.40 instead of $3.83 [1]. Costs were also pushed up by data center, cloud and third-party AI token spending [2]. Consensus EPS of $5.42 was missed by 29.3% [3]. The reported miss includes the charge, so it overstates the underlying operating shortfall.\n\nQ2 FY2026 showed the cost pattern before the charge. Revenue rose 28% to $60.80 billion, but total costs rose 55% to $42.03 billion [1]. That included $2.40 billion of legal charges and $1.18 billion of severance from the May 2026 headcount reduction [1]. Excluding those two items, costs grew about 42% (illustrative), faster than revenue [1]. Research and development rose 67% to $21.66 billion, driven by employee compensation and infrastructure costs [1][2]. Operating income fell 8% to $18.78 billion and EPS fell 13% to $6.18 [1]. Ad impressions growth slowed to 14% from 19% in Q1, while price per ad held at 12% [1]. Family daily active people grew 3%, down from 4% [1]. Free cash flow was $0.78 billion, as capex including finance leases reached $31.08 billion [1].\n\nQ1 FY2026 was the strongest quarter. Revenue rose 33% to $56.31 billion, or 29% at constant currency, and impressions grew 19% with price per ad up 12% [1]. Operating income rose 30% to $22.87 billion [1]. Diluted EPS of $10.44 included an $8.03 billion tax benefit, which the company says lowered EPS by $3.13 per share [1]. Revenue growth slowed in each later quarter (33%, 28%, 26%) as impressions growth fell faster than price rose. Free cash flow was $12.39 billion in Q1 and negative $2.12 billion in Q3, as capex including finance leases reached $19.84 billion in Q1 and $34.91 billion in Q3 [1]. Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025 revenue of about $59.9 billion (illustrative, derived from the FY2025 total less the 2025 quarters in the releases) [1][4].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Ad pricing and impression growth keep revenue growing near 20% into 2027.",
+      "signpost": "Q4 2026 results: ad impressions growth at or above 10% and average price per ad growth at or above 8%. Invalidation: impressions or price growth below 5% for two consecutive quarters.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q1 impressions grew 19% and price per ad 12%, against a 10%/8% signpost [1]. Impressions growth slowed to 14% in Q2 and 10% in Q3, while price rose 12% and 14% [1]. Q3 impressions growth is exactly at the 10% signpost floor, so the margin of safety is gone even though the invalidation level of 5% is far away [1][2]."
+    },
+    {
+      "thesis": "T2: Free cash flow falls again in 2026 because capex growth outpaces operating cash flow.",
+      "signpost": "FY2026 free cash flow in the early 2027 10-K below the 2025 level of $43.59 billion; invalidated if FY2026 FCF is at or above $43.59 billion or FY2026 capex is below $115 billion.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "2026 capex guidance was raised from $115-135 billion to $125-145 billion in Q1, then to $130-145 billion in Q2 and $135-145 billion in Q3 [1]. Free cash flow was $12.39 billion in Q1, $0.78 billion in Q2 and negative $2.12 billion in Q3 [1]. Operating cash flow was $32.23 billion, $31.86 billion and $32.79 billion in the three quarters [1]. Capex has been above operating cash flow in Q2 and Q3, which is the pattern the thesis describes [1][2]."
+    },
+    {
+      "thesis": "T3: At the current price the stock needs growth close to its historical pace; a fade in consensus growth would push returns below the cost of capital.",
+      "signpost": "FY2027 consensus revenue at or above $313 billion (about 22% growth) through Q4 2026 results; invalidated if it falls to the bottom of its range or the implied return on the consensus path exceeds 11.2%.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Current FY2027 revenue consensus is $313.1 billion, growth of 21.9%, with a range of $298,683.0 million to $350,349.9 million; it sits at the signpost floor [3]. Only one consensus snapshot is in the data, so the quarter-by-quarter statuses rest on reported growth, which stayed at 26-33% [1][3]. The implied return on the consensus path is 9.7%, below the 11.2% WACC, and the reverse DCF needs 17.7% revenue growth for ten years versus a 19.9% three-year CAGR [2][3][4]."
+    },
+    {
+      "thesis": "T4: Reality Labs losses stay near $19 billion a year and cap EPS growth until the AI and hardware payoff is visible.",
+      "signpost": "FY2026 10-K reports a Reality Labs operating loss at or below $19.19 billion; invalidated if the loss falls materially below $15 billion or current-year EPS consensus turns positive over 90 days.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Reality Labs operating losses were $4.03 billion, $4.62 billion and $4.13 billion in the three quarters [2], and 2026 guidance was narrowed to $18-19 billion [1]. EPS consensus for the current year fell 8.5% over 90 days, so the EPS invalidation is not triggered [3]. The Q2 and Q3 EPS misses were driven by legal and severance charges in company-reported figures, not by Reality Labs [1][3]."
+    }
+  ],
+  "risk_update": "Risks that materialised: legal costs are now large and recurring in the P&L. Charges were $2.40 billion in Q2 and $9.89 billion in Q3 for the multistate attorneys general agreement, which provides for payments of up to about $18.59 billion [1]. Management says youth-related trials are scheduled in the coming months in the U.S. and may result in a material loss [1]. Ad impression growth slowed from 19% to 10% over three quarters, and reduced ad targeting and measurement from regulation and mobile operating systems continues to weigh on marketer budgets [2]. Family daily active people grew 3% in Q2 and Q3, down from 4% in Q1 [1]. Risks that are new: the 2026 capex range has risen to $135-145 billion, and the company will create a non-voting Class C stock effective January 2027 that the board says will support capital raising, acquisitions and employee pay; it will be paid as a one-time stock dividend and is expected to be followed by a two-for-one split in the share price [1]. Net cash fell to -$32.39 billion and shares outstanding rose 1.4% year on year [2][3]. Risks that eased: the Reality Labs loss narrowed slightly year on year in Q1 and Q3, and the 2026 guidance for it is now $18-19 billion [1].",
+  "outlook": "Management guides Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179 billion including the $9.9 billion Q3 charge, 2026 capex to $135-145 billion and Reality Labs losses to $18-19 billion, and says it expects 2027 Reality Labs losses of about $15 billion [1]. It gives no full-year 2027 revenue outlook [1]. Consensus FY2026 EPS of $29.01 is down 8.5% over 90 days, while FY2027 EPS of $33.74 is down only 0.4% [3]. What to watch: Q4 impressions growth at or above 10% and price growth at or above 8% (T1); FY2026 free cash flow against $43.59 billion (T2); the FY2026 Reality Labs loss against $19.19 billion (T4); FY2027 consensus revenue against $313 billion (T3); and the size of further legal charges and the outcome of youth-related trials [1][2][3][4].",
+  "company_kpis": [
+    {
+      "name": "Ad impressions growth y/y",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 19,
+        "Q2 FY2026": 14,
+        "Q3 FY2026": 10
+      },
+      "prior_values": {},
+      "source": "[1] earnings releases; year-ago growth rates not reported in the releases provided"
+    },
+    {
+      "name": "Average price per ad growth y/y",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 12,
+        "Q2 FY2026": 12,
+        "Q3 FY2026": 14
+      },
+      "prior_values": {},
+      "source": "[1] earnings releases; year-ago growth rates not reported in the releases provided"
+    },
+    {
+      "name": "Revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 56311,
+        "Q2 FY2026": 60801,
+        "Q3 FY2026": 64601
+      },
+      "prior_values": {
+        "Q1 FY2026": 42314,
+        "Q2 FY2026": 47516,
+        "Q3 FY2026": 51242
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Income from operations",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 22872,
+        "Q2 FY2026": 18775,
+        "Q3 FY2026": 12988
+      },
+      "prior_values": {
+        "Q1 FY2026": 17555,
+        "Q2 FY2026": 20441,
+        "Q3 FY2026": 20535
+      },
+      "source": "[1] earnings releases; Q2 includes $2.40bn legal and $1.18bn severance; Q3 includes $9.89bn legal charge"
+    },
+    {
+      "name": "Reality Labs operating loss",
+      "unit": "USD mn",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 4028,
+        "Q2 FY2026": 4619,
+        "Q3 FY2026": 4129
+      },
+      "prior_values": {
+        "Q1 FY2026": 4210,
+        "Q2 FY2026": 4530,
+        "Q3 FY2026": 4432
+      },
+      "source": "[2] 10-Q segment results (loss shown as positive number)"
+    },
+    {
+      "name": "Free cash flow",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 12390,
+        "Q2 FY2026": 784,
+        "Q3 FY2026": -2120
+      },
+      "prior_values": {},
+      "source": "[1] earnings releases; year-ago quarterly free cash flow not stated in the releases provided"
+    }
+  ]
+}

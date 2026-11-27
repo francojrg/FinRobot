@@ -1,39 +1,99 @@
 {
-  "total_claims": 128,
-  "matched": 126,
-  "match_rate": 0.984,
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 120,
+  "context_match_rate": 0.968,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the Azure metric, so the 48% is not a clean comparison with the 41% FY2026 figure  .  GAAP EPS of $4.92 grew 32%,...",
+      "section": "Results and drivers",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "41%",
+        "snippet": "Azure momentum should keep revenue compounding, because Azure grew 41% and the $678 billion backlog gives visibility [1]. Free cash flow should only recover once capex growth..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion loss a year earlier  . Excluding OpenAI, EPS was $4.89, up 18% from $4.13  . The quarter beat the $4.72...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18%",
+        "snippet": "• Net income was $36.6 billion and increased 32% on a GAAP basis, and was $36.4 billion and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.2%",
+      "value": 20.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$60.0 billion against $67.0 billion for FY2026  . Illustratively, 20.2% of $92.3 billion is about $18.6 billion, against...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20.2%",
+        "snippet": "- Opex in % of revenue: FY2026 21.2%; Q1 FY2027 18.0% (year-ago 20.2%, better); trend n/a"
+      }
+    }
+  ],
+  "total_claims": 124,
+  "matched": 123,
+  "match_rate": 0.992,
   "by_kind": {
     "pct": {
-      "total": 61,
-      "matched": 61
+      "total": 62,
+      "matched": 62,
+      "context_matched": 59
     },
     "money": {
-      "total": 52,
-      "matched": 50
+      "total": 54,
+      "matched": 53,
+      "context_matched": 53
     },
     "plain": {
-      "total": 15,
-      "matched": 15
+      "total": 7,
+      "matched": 7,
+      "context_matched": 7
+    },
+    "multiple": {
+      "total": 1,
+      "matched": 1,
+      "context_matched": 1
     }
   },
   "by_source": {
-    "[1] Earnings releases": 68,
+    "[1] Earnings releases": 65,
     "[2] Forms 10-Q": 0,
-    "[3] Yahoo Finance": 58,
-    "[4] Annual report and thesis log": 0
+    "[3] Yahoo Finance": 55,
+    "[4] Annual report and thesis log": 3
   },
   "unmatched": [
-    {
-      "kind": "money",
-      "text": "$18.7 billion",
-      "value": 18.7,
-      "unit": "billion",
-      "money_mn": 18700.0,
-      "decimals": 1,
-      "context": ".... Applied to revenue of $92.3 billion, that margin implies about $18.7 billion of free cash flow against about $25.6 billion a...",
-      "section": "Results and drivers",
-      "source": null
-    },
     {
       "kind": "money",
       "text": "$25.6 billion",
@@ -41,45 +101,103 @@
       "unit": "billion",
       "money_mn": 25600.0,
       "decimals": 1,
-      "context": "...margin implies about $18.7 billion of free cash flow against about $25.6 billion a year earlier (illustrative, margin times...",
-      "section": "Results and drivers",
-      "source": null
+      "context": "...20.2% of $92.3 billion is about $18.6 billion, against about $25.6 billion from 33.0% of $77.7 billion, so quarterly free...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
     }
   ],
   "name_issues": [],
   "claims": [
     {
       "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 FY2027: revenue rose 19% and Azure 48%, but the free cash flow margin...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "18.8%",
+        "snippet": "- Revenue growth y/y: FY2026 17.8%; Q1 FY2027 18.8% (year-ago n/a, n/a); YTD 18.8%; trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
       "text": "48%",
       "value": 48.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "Q1 FY2027 beat on revenue, EPS and Azure growth (48%), but free cash flow margin fell to 20.2% from...",
+      "context": "Q1 FY2027: revenue rose 19% and Azure 48%, but the free cash flow margin fell to 20% from...",
       "section": "Headline",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "azure",
+          "revenue"
+        ],
+        "hl": "48%",
+        "snippet": "• Azure revenue increased 48%"
+      }
     },
     {
       "kind": "pct",
-      "text": "20.2%",
-      "value": 20.2,
+      "text": "20%",
+      "value": 20.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 1,
-      "context": "...EPS and Azure growth (48%), but free cash flow margin fell to 20.2% from 33.0%.",
+      "decimals": 0,
+      "context": "...rose 19% and Azure 48%, but the free cash flow margin fell to 20% from 33% as AI spending weighed on cash.",
       "section": "Headline",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
     },
     {
       "kind": "pct",
-      "text": "33.0%",
+      "text": "33%",
       "value": 33.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 1,
-      "context": "...Azure growth (48%), but free cash flow margin fell to 20.2% from 33.0%.",
+      "decimals": 0,
+      "context": "...19% and Azure 48%, but the free cash flow margin fell to 20% from 33% as AI spending weighed on cash.",
       "section": "Headline",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
     },
     {
       "kind": "money",
@@ -88,9 +206,16 @@
       "unit": "billion",
       "money_mn": 92300.0,
       "decimals": 1,
-      "context": "...November 2026 update and keeps its statuses  . Revenue rose 19% to $92.3 billion and non-GAAP diluted EPS rose 18% to $4.89,...",
+      "context": "...FY2026      (quarter ended 30 September 2026) brought revenue of $92.3 billion, up 19%, and non-GAAP EPS of $4.89, up 18% and...",
       "section": "Summary",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "92.3 billion",
+        "snippet": "• Revenue was $92.3 billion and increased 19%"
+      }
     },
     {
       "kind": "money",
@@ -99,9 +224,16 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...rose 19% to $92.3 billion and non-GAAP diluted EPS rose 18% to $4.89, above the $4.72 consensus estimate  . Azure...",
+      "context": "...2026) brought revenue of $92.3 billion, up 19%, and non-GAAP EPS of $4.89, up 18% and 3.6% above the $4.72 estimate  ....",
       "section": "Summary",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.89",
+        "snippet": "• Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
     },
     {
       "kind": "money",
@@ -110,9 +242,16 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...$92.3 billion and non-GAAP diluted EPS rose 18% to $4.89, above the $4.72 consensus estimate  . Azure revenue grew 48% and...",
+      "context": "...up 19%, and non-GAAP EPS of $4.89, up 18% and 3.6% above the $4.72 estimate  . Azure revenue grew 48% and...",
       "section": "Summary",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4.72",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.89 vs estimate $4.72 (surprise +3.6%)"
+      }
     },
     {
       "kind": "money",
@@ -121,9 +260,16 @@
       "unit": "billion",
       "money_mn": 677000.0,
       "decimals": 0,
-      "context": "...48% and commercial remaining performance obligation rose 73% to $677 billion  . Free cash flow is the weak point. Trailing...",
+      "context": "...48% and commercial remaining performance obligation rose 73% to $677 billion  . Free cash flow was the weak point: the...",
       "section": "Summary",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "677 billion",
+        "snippet": "• Commercial remaining performance obligation increased 73% to $677 billion"
+      }
     },
     {
       "kind": "money",
@@ -132,9 +278,16 @@
       "unit": "billion",
       "money_mn": 60000.0,
       "decimals": 1,
-      "context": "...flow is the weak point. Trailing twelve-month free cash flow was $60.0 billion at 30 September 2026, against $67.0 billion for...",
+      "context": "...20.2% against 33.0% a year earlier, and trailing free cash flow was $60.0 billion against $67.0 billion for FY2026  . Net cash...",
       "section": "Summary",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "60,041,000,000 USD"
+      }
     },
     {
       "kind": "money",
@@ -143,9 +296,16 @@
       "unit": "billion",
       "money_mn": 67000.0,
       "decimals": 1,
-      "context": "...free cash flow was $60.0 billion at 30 September 2026, against $67.0 billion for FY2026, and the Q1 free cash flow margin was...",
+      "context": "...year earlier, and trailing free cash flow was $60.0 billion against $67.0 billion for FY2026  . Net cash fell to $7.1 billion from...",
       "section": "Summary",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "66,987.0 million",
+        "snippet": "...investments $76,651.0 million, total debt $56,826.0 million, net cash $19,825.0 million, free cash flow $66,987.0 million, cash runway at that burn self-funded, current ratio 1.2x, shares outstanding 7,428.4 million, change in..."
+      }
     },
     {
       "kind": "money",
@@ -154,9 +314,16 @@
       "unit": "billion",
       "money_mn": 7100.0,
       "decimals": 1,
-      "context": "...margin was 20.2% against 33.0% a year earlier  . Net cash fell to $7.1 billion from $41.4 billion  . Statuses: T1 and T4...",
+      "context": "...$60.0 billion against $67.0 billion for FY2026  . Net cash fell to $7.1 billion from $41.4 billion a year earlier  . Consensus...",
       "section": "Summary",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,094.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
     },
     {
       "kind": "money",
@@ -165,20 +332,16 @@
       "unit": "billion",
       "money_mn": 41400.0,
       "decimals": 1,
-      "context": "...against 33.0% a year earlier  . Net cash fell to $7.1 billion from $41.4 billion  . Statuses: T1 and T4 strengthened, T3 intact,...",
+      "context": "...$67.0 billion for FY2026  . Net cash fell to $7.1 billion from $41.4 billion a year earlier  . Consensus FY2027 EPS rose 1.4%...",
       "section": "Summary",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$494.28",
-      "value": 494.28,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...weakened. Consensus and price data are dated after the 10-K  . At $494.28 the reverse DCF implies 22.0% annual revenue...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "41,449.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
     },
     {
       "kind": "pct",
@@ -187,9 +350,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...the 24 November 2026 update and keeps its statuses  . Revenue rose 19% to $92.3 billion and non-GAAP diluted EPS rose...",
+      "context": "...ended 30 September 2026) brought revenue of $92.3 billion, up 19%, and non-GAAP EPS of $4.89, up 18% and 3.6%...",
       "section": "Summary",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "19.3%",
+        "snippet": "- FY2027E: revenue $395,964.3 million (range $385,062.0 million to $403,797.0 million, 48 analysts), growth +19.3%; EPS $20.03 (range $19.55 to $20.63); forward P/E 24.5x; EV/Sales 9.4x"
+      }
     },
     {
       "kind": "pct",
@@ -198,504 +372,19 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": ".... Revenue rose 19% to $92.3 billion and non-GAAP diluted EPS rose 18% to $4.89, above the $4.72 consensus estimate  ....",
+      "context": "...revenue of $92.3 billion, up 19%, and non-GAAP EPS of $4.89, up 18% and 3.6% above the $4.72 estimate  . Azure...",
       "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "48%",
-      "value": 48.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...to $4.89, above the $4.72 consensus estimate  . Azure revenue grew 48% and commercial remaining performance obligation...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "73%",
-      "value": 73.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...grew 48% and commercial remaining performance obligation rose 73% to $677 billion  . Free cash flow is the weak...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "20.2%",
-      "value": 20.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...$67.0 billion for FY2026, and the Q1 free cash flow margin was 20.2% against 33.0% a year earlier  . Net cash fell to...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "33.0%",
-      "value": 33.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...for FY2026, and the Q1 free cash flow margin was 20.2% against 33.0% a year earlier  . Net cash fell to $7.1 billion...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "22.0%",
-      "value": 22.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...data are dated after the 10-K  . At $494.28 the reverse DCF implies 22.0% annual revenue growth for ten years and a 6.7%...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "6.7%",
-      "value": 6.7,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...reverse DCF implies 22.0% annual revenue growth for ten years and a 6.7% return against a 10.1% WACC  . The next test is...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "10.1%",
-      "value": 10.1,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...annual revenue growth for ten years and a 6.7% return against a 10.1% WACC  . The next test is Q2 FY2027 results in...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...(ended 30 September 2026) is the only quarter since the FY2026 10-K, so this update re-tests Q1 against the 24...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...intact, T2 weakened. Consensus and price data are dated after the 10-K  . At $494.28 the reverse DCF implies 22.0%...",
-      "section": "Summary",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$92.3 billion",
-      "value": 92.3,
-      "unit": "billion",
-      "money_mn": 92300.0,
-      "decimals": 1,
-      "context": "...in Q1 FY2027 against 33.0% a year earlier  . Applied to revenue of $92.3 billion, that margin implies about $18.7 billion of free...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$18.7 billion",
-      "value": 18.7,
-      "unit": "billion",
-      "money_mn": 18700.0,
-      "decimals": 1,
-      "context": ".... Applied to revenue of $92.3 billion, that margin implies about $18.7 billion of free cash flow against about $25.6 billion a...",
-      "section": "Results and drivers",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$25.6 billion",
-      "value": 25.6,
-      "unit": "billion",
-      "money_mn": 25600.0,
-      "decimals": 1,
-      "context": "...margin implies about $18.7 billion of free cash flow against about $25.6 billion a year earlier (illustrative, margin times...",
-      "section": "Results and drivers",
-      "source": null
-    },
-    {
-      "kind": "money",
-      "text": "$60.0 billion",
-      "value": 60.0,
-      "unit": "billion",
-      "money_mn": 60000.0,
-      "decimals": 1,
-      "context": "...times revenue)  . Trailing twelve-month free cash flow reached $60.0 billion at 30 September 2026, down from $67.0 billion in...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$67.0 billion",
-      "value": 67.0,
-      "unit": "billion",
-      "money_mn": 67000.0,
-      "decimals": 1,
-      "context": "...cash flow reached $60.0 billion at 30 September 2026, down from $67.0 billion in FY2026  . The 10-Q gives no Q1 capex figure...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$64.3 billion",
-      "value": 64.3,
-      "unit": "billion",
-      "money_mn": 64300.0,
-      "decimals": 1,
-      "context": "...reduce operating margins  . Cash and short-term investments were $64.3 billion against $102.0 billion a year earlier, and net...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$102.0 billion",
-      "value": 102.0,
-      "unit": "billion",
-      "money_mn": 102000.0,
-      "decimals": 1,
-      "context": ".... Cash and short-term investments were $64.3 billion against $102.0 billion a year earlier, and net cash fell to $7.1...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$7.1 billion",
-      "value": 7.1,
-      "unit": "billion",
-      "money_mn": 7100.0,
-      "decimals": 1,
-      "context": "...billion against $102.0 billion a year earlier, and net cash fell to $7.1 billion from $41.4 billion  . Shareholder returns of...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$41.4 billion",
-      "value": 41.4,
-      "unit": "billion",
-      "money_mn": 41400.0,
-      "decimals": 1,
-      "context": "...billion a year earlier, and net cash fell to $7.1 billion from $41.4 billion  . Shareholder returns of $10.2 billion in the...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$10.2 billion",
-      "value": 10.2,
-      "unit": "billion",
-      "money_mn": 10200.0,
-      "decimals": 1,
-      "context": "...fell to $7.1 billion from $41.4 billion  . Shareholder returns of $10.2 billion in the quarter   add to the drawdown.  Gross...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$45.9 billion",
-      "value": 45.9,
-      "unit": "billion",
-      "money_mn": 45900.0,
-      "decimals": 1,
-      "context": "...fell to 18.0% of revenue from 20.2%  . Operating income rose 21% to $45.9 billion, or 22% in constant currency  . GAAP EPS growth...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$207 million",
-      "value": 207.0,
-      "unit": "million",
-      "money_mn": 207.0,
-      "decimals": 0,
-      "context": "...GAAP EPS growth of 32% is inflated by OpenAI: the quarter carried a $207 million net gain against a $3.1 billion net loss a year...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$3.1 billion",
-      "value": 3.1,
-      "unit": "billion",
-      "money_mn": 3100.0,
-      "decimals": 1,
-      "context": "...by OpenAI: the quarter carried a $207 million net gain against a $3.1 billion net loss a year earlier. Non-GAAP EPS growth of...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$92.3 billion",
-      "value": 92.3,
-      "unit": "billion",
-      "money_mn": 92300.0,
-      "decimals": 1,
-      "context": "...the operating trend  .  Demand is the strength. Revenue grew 19% to $92.3 billion from $77.7 billion  . Azure grew 48%, and...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$77.7 billion",
-      "value": 77.7,
-      "unit": "billion",
-      "money_mn": 77700.0,
-      "decimals": 1,
-      "context": "....  Demand is the strength. Revenue grew 19% to $92.3 billion from $77.7 billion  . Azure grew 48%, and Microsoft Cloud revenue...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$63.9 billion",
-      "value": 63.9,
-      "unit": "billion",
-      "money_mn": 63900.0,
-      "decimals": 1,
-      "context": "...billion  . Azure grew 48%, and Microsoft Cloud revenue grew 30% to $63.9 billion  . Commercial remaining performance obligation...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$677 billion",
-      "value": 677.0,
-      "unit": "billion",
-      "money_mn": 677000.0,
-      "decimals": 0,
-      "context": "...billion  . Commercial remaining performance obligation grew 73% to $677 billion, far faster than revenue  . Non-GAAP EPS of...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$4.89",
-      "value": 4.89,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...73% to $677 billion, far faster than revenue  . Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%, the fourth...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$4.72",
-      "value": 4.72,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...billion, far faster than revenue  . Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%, the fourth straight beat  ....",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$15.5 billion",
-      "value": 15.5,
-      "unit": "billion",
-      "money_mn": 15500.0,
-      "decimals": 1,
-      "context": "...with earlier disclosures  . Devices and Consumer revenue fell 3% to $15.5 billion, and Windows OEM and devices fell 22%  ....",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "20.2%",
-      "value": 20.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...flow is the problem this quarter. The free cash flow margin was 20.2% in Q1 FY2027 against 33.0% a year earlier  ....",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "33.0%",
-      "value": 33.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...quarter. The free cash flow margin was 20.2% in Q1 FY2027 against 33.0% a year earlier  . Applied to revenue of $92.3...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "67.8%",
-      "value": 67.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...the quarter   add to the drawdown.  Gross margin also weakened, to 67.8% from 69.0%, a fall of 1.2 points  . Operating...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "69.0%",
-      "value": 69.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...add to the drawdown.  Gross margin also weakened, to 67.8% from 69.0%, a fall of 1.2 points  . Operating margin still...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "49.8%",
-      "value": 49.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...69.0%, a fall of 1.2 points  . Operating margin still improved to 49.8% from 48.9%, because operating expenses fell to...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "48.9%",
-      "value": 48.9,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...fall of 1.2 points  . Operating margin still improved to 49.8% from 48.9%, because operating expenses fell to 18.0% of...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "18.0%",
-      "value": 18.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...improved to 49.8% from 48.9%, because operating expenses fell to 18.0% of revenue from 20.2%  . Operating income rose...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "20.2%",
-      "value": 20.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...48.9%, because operating expenses fell to 18.0% of revenue from 20.2%  . Operating income rose 21% to $45.9 billion,...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "21%",
-      "value": 21.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...fell to 18.0% of revenue from 20.2%  . Operating income rose 21% to $45.9 billion, or 22% in constant currency  ....",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "22%",
-      "value": 22.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...from 20.2%  . Operating income rose 21% to $45.9 billion, or 22% in constant currency  . GAAP EPS growth of 32%...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "32%",
-      "value": 32.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...to $45.9 billion, or 22% in constant currency  . GAAP EPS growth of 32% is inflated by OpenAI: the quarter carried a...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "18%",
-      "value": 18.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...a $3.1 billion net loss a year earlier. Non-GAAP EPS growth of 18% is the better measure of the operating trend...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "19%",
-      "value": 19.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...of the operating trend  .  Demand is the strength. Revenue grew 19% to $92.3 billion from $77.7 billion  . Azure...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "48%",
-      "value": 48.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...Revenue grew 19% to $92.3 billion from $77.7 billion  . Azure grew 48%, and Microsoft Cloud revenue grew 30% to $63.9...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "30%",
-      "value": 30.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...$77.7 billion  . Azure grew 48%, and Microsoft Cloud revenue grew 30% to $63.9 billion  . Commercial remaining...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "73%",
-      "value": 73.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...$63.9 billion  . Commercial remaining performance obligation grew 73% to $677 billion, far faster than revenue  ....",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "17.8%",
+        "snippet": "- Revenue growth y/y: FY2026 17.8%; Q1 FY2027 18.8% (year-ago n/a, n/a); YTD 18.8%; trend n/a"
+      }
     },
     {
       "kind": "pct",
@@ -704,64 +393,205 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...than revenue  . Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%, the fourth straight beat  . Two metrics were...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
+      "context": "...of $92.3 billion, up 19%, and non-GAAP EPS of $4.89, up 18% and 3.6% above the $4.72 estimate  . Azure revenue grew...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate",
+          "pershare"
+        ],
+        "hl": "3.6%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.89 vs estimate $4.72 (surprise +3.6%)"
+      }
     },
     {
       "kind": "pct",
-      "text": "3%",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 18% and 3.6% above the $4.72 estimate  . Azure revenue grew 48% and commercial remaining performance obligation...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "azure",
+          "revenue"
+        ],
+        "hl": "48%",
+        "snippet": "• Azure revenue increased 48%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "73%",
+      "value": 73.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 48% and commercial remaining performance obligation rose 73% to $677 billion  . Free cash flow was the weak...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "remaining",
+          "obligation",
+          "performance",
+          "commercial"
+        ],
+        "hl": "73%",
+        "snippet": "• Commercial remaining performance obligation increased 73% to $677 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.2%",
+      "value": 20.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...flow was the weak point: the quarterly free cash flow margin was 20.2% against 33.0% a year earlier, and trailing free...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.0%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...weak point: the quarterly free cash flow margin was 20.2% against 33.0% a year earlier, and trailing free cash flow was...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.4%",
+      "value": 1.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from $41.4 billion a year earlier  . Consensus FY2027 EPS rose 1.4% over 90 days, with 25 analysts raising and 3...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "raising",
+          "analyst",
+          "days"
+        ],
+        "hl": "1.4%",
+        "snippet": "...consensus current fiscal year: $20.03 today, $19.76 30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$41.4 billion a year earlier  . Consensus FY2027 EPS rose 1.4% over 90 days, with 25 analysts raising and 3 cutting  ....",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "raising",
+          "analyst",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $20.03 today, $19.76 30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "25",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a year earlier  . Consensus FY2027 EPS rose 1.4% over 90 days, with 25 analysts raising and 3 cutting  . Thesis T1...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "raising",
+          "consensu",
+          "analyst",
+          "days",
+          "pershare"
+        ],
+        "hl": "25",
+        "snippet": "...30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
       "value": 3.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...with earlier disclosures  . Devices and Consumer revenue fell 3% to $15.5 billion, and Windows OEM and devices...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "22%",
-      "value": 22.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...revenue fell 3% to $15.5 billion, and Windows OEM and devices fell 22%  . Quarter-by-quarter, the data cover only Q1...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...at 30 September 2026, down from $67.0 billion in FY2026  . The 10-Q gives no Q1 capex figure in the data provided,...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "1.2",
-      "value": 1.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...margin also weakened, to 67.8% from 69.0%, a fall of 1.2 points  . Operating margin still improved to...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$677 billion",
-      "value": 677.0,
-      "unit": "billion",
-      "money_mn": 677000.0,
-      "decimals": 0,
-      "context": "...line. Commercial remaining performance obligation rose 73% to $677 billion against revenue growth of 19%  . The Azure...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "context": "...FY2027 EPS rose 1.4% over 90 days, with 25 analysts raising and 3 cutting  . Thesis T1 (Azure) and T4 (estimates)...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "3.1 billion",
+        "snippet": "...from investments in OpenAI, which resulted in a decrease in net income and diluted earnings per share of $3.1 billion and $0.41, respectively."
+      }
     },
     {
       "kind": "money",
@@ -770,9 +600,16 @@
       "unit": "billion",
       "money_mn": 60000.0,
       "decimals": 1,
-      "context": "...margin fell to 20.2% from 33.0%  , and trailing free cash flow of $60.0 billion at 30 September 2026 is below the $67.0 billion...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "context": "...same as the FY2026 full-year margin  . Trailing free cash flow was $60.0 billion at quarter end, against $67.0 billion for FY2026...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "60,041,000,000 USD"
+      }
     },
     {
       "kind": "money",
@@ -781,9 +618,124 @@
       "unit": "billion",
       "money_mn": 67000.0,
       "decimals": 1,
-      "context": "...free cash flow of $60.0 billion at 30 September 2026 is below the $67.0 billion of FY2026  . That is the pattern the...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "context": ".... Trailing free cash flow was $60.0 billion at quarter end, against $67.0 billion for FY2026  . The sources we received do not...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "66,987.0 million",
+        "snippet": "...investments $76,651.0 million, total debt $56,826.0 million, net cash $19,825.0 million, free cash flow $66,987.0 million, cash runway at that burn self-funded, current ratio 1.2x, shares outstanding 7,428.4 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$64.6 billion",
+      "value": 64.6,
+      "unit": "billion",
+      "money_mn": 64599.99999999999,
+      "decimals": 1,
+      "context": "...drop to capex with a figure; the baseline records capex rising from $64.6 billion to $115.9 billion in FY2026  . Gross margin fell...",
+      "section": "Results and drivers",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "64.6 billion",
+        "snippet": "...gives visibility [1]. Free cash flow should only recover once capex growth slows, since capex climbed from $64.6 billion to $115.9 billion while free cash flow fell 6% [1][2]. The valuation looks demanding: the price implies 22%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115.9 billion",
+      "value": 115.9,
+      "unit": "billion",
+      "money_mn": 115900.0,
+      "decimals": 1,
+      "context": "...a figure; the baseline records capex rising from $64.6 billion to $115.9 billion in FY2026  . Gross margin fell to 67.8% from...",
+      "section": "Results and drivers",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "115.9 billion",
+        "snippet": "...[1]. Free cash flow should only recover once capex growth slows, since capex climbed from $64.6 billion to $115.9 billion while free cash flow fell 6% [1][2]. The valuation looks demanding: the price implies 22% annual growth for..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.1 billion",
+      "value": 7.1,
+      "unit": "billion",
+      "money_mn": 7100.0,
+      "decimals": 1,
+      "context": "...FY2026  . Gross margin fell to 67.8% from 69.0%  . Net cash fell to $7.1 billion from $41.4 billion a year earlier, and total...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,094.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$41.4 billion",
+      "value": 41.4,
+      "unit": "billion",
+      "money_mn": 41400.0,
+      "decimals": 1,
+      "context": "...fell to 67.8% from 69.0%  . Net cash fell to $7.1 billion from $41.4 billion a year earlier, and total debt is $57.2 billion...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "41,449.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$57.2 billion",
+      "value": 57.2,
+      "unit": "billion",
+      "money_mn": 57200.0,
+      "decimals": 1,
+      "context": "...$7.1 billion from $41.4 billion a year earlier, and total debt is $57.2 billion  . Devices and Consumer revenue fell 3% to $15.5...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "57,200.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $64,294.0 million, total debt $57,200.0 million, net cash $7,094.0 million, TTM free cash flow $59,957.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.5 billion",
+      "value": 15.5,
+      "unit": "billion",
+      "money_mn": 15500.0,
+      "decimals": 1,
+      "context": "...debt is $57.2 billion  . Devices and Consumer revenue fell 3% to $15.5 billion, with Windows OEM and devices down 22%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "15.5 billion",
+        "snippet": "Revenue in Devices and Consumer was $15.5 billion and decreased 3%, with the following business highlights:"
+      }
     },
     {
       "kind": "money",
@@ -792,31 +744,142 @@
       "unit": "billion",
       "money_mn": 92300.0,
       "decimals": 1,
-      "context": "...will lag unless growth beats expectations. Q1 revenue grew 19% to $92.3 billion  . Consensus FY2027 revenue of $396.0 billion...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "context": "...growth held and operating leverage improved. Revenue rose 19% to $92.3 billion, against 17.8% for FY2026  . Operating income...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "92.3 billion",
+        "snippet": "• Revenue was $92.3 billion and increased 19%"
+      }
     },
     {
       "kind": "money",
-      "text": "$396.0 billion",
-      "value": 396.0,
+      "text": "$45.9 billion",
+      "value": 45.9,
       "unit": "billion",
-      "money_mn": 396000.0,
+      "money_mn": 45900.0,
       "decimals": 1,
-      "context": "...Q1 revenue grew 19% to $92.3 billion  . Consensus FY2027 revenue of $396.0 billion implies 19.3% growth  . At $494.28 the reverse...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "context": "...billion, against 17.8% for FY2026  . Operating income rose 21% to $45.9 billion, and operating margin was 49.8% against 48.9%  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "45.9 billion",
+        "snippet": "• Operating income was $45.9 billion and increased 21% (up 22% in constant currency)"
+      }
     },
     {
       "kind": "money",
-      "text": "$494.28",
-      "value": 494.28,
+      "text": "$76.8 billion",
+      "value": 76.8,
+      "unit": "billion",
+      "money_mn": 76800.0,
+      "decimals": 1,
+      "context": "...the lower gross margin  . Agents and Infra revenue rose 25% to $76.8 billion. Azure revenue grew 48%, Microsoft Cloud grew...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "76.8 billion",
+        "snippet": "Revenue in Agents and Infra was $76.8 billion and increased 25%, with the following business highlights:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$63.9 billion",
+      "value": 63.9,
+      "unit": "billion",
+      "money_mn": 63900.0,
+      "decimals": 1,
+      "context": "...$76.8 billion. Azure revenue grew 48%, Microsoft Cloud grew 30% to $63.9 billion, and commercial remaining performance obligation...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "63.9 billion",
+        "snippet": "“We delivered a strong start to the fiscal year with Microsoft Cloud revenue of $63.9 billion, with growth accelerating to 30% (up 31% in constant currency) year-over-year,” said Amy Hood, executive..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$677 billion",
+      "value": 677.0,
+      "unit": "billion",
+      "money_mn": 677000.0,
+      "decimals": 0,
+      "context": "...and commercial remaining performance obligation rose 73% to $677 billion  . Backlog growing far faster than revenue is...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "677 billion",
+        "snippet": "• Commercial remaining performance obligation increased 73% to $677 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.92",
+      "value": 4.92,
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...FY2027 revenue of $396.0 billion implies 19.3% growth  . At $494.28 the reverse DCF still implies 22.0% annual...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "context": "...not a clean comparison with the 41% FY2026 figure  .  GAAP EPS of $4.92 grew 32%, but that overstates the operating...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.92",
+        "snippet": "• Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$207 million",
+      "value": 207.0,
+      "unit": "million",
+      "money_mn": 207.0,
+      "decimals": 0,
+      "context": "...32%, but that overstates the operating gain. Net income includes a $207 million gain on OpenAI investments this quarter, against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "207)",
+        "snippet": "$(207)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.1 billion",
+      "value": 3.1,
+      "unit": "billion",
+      "money_mn": 3100.0,
+      "decimals": 1,
+      "context": "...a $207 million gain on OpenAI investments this quarter, against a $3.1 billion loss a year earlier  . Excluding OpenAI, EPS was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.1 billion",
+        "snippet": "...from investments in OpenAI, which resulted in a decrease in net income and diluted earnings per share of $3.1 billion and $0.41, respectively."
+      }
     },
     {
       "kind": "money",
@@ -825,9 +888,34 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...supports the earnings base behind the valuation. Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "context": "...a $3.1 billion loss a year earlier  . Excluding OpenAI, EPS was $4.89, up 18% from $4.13  . The quarter beat the $4.72...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.89",
+        "snippet": "• Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.13",
+      "value": 4.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...loss a year earlier  . Excluding OpenAI, EPS was $4.89, up 18% from $4.13  . The quarter beat the $4.72 consensus estimate...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.13",
+        "snippet": "$4.13"
+      }
     },
     {
       "kind": "money",
@@ -836,9 +924,715 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...earnings base behind the valuation. Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS consensus is...",
+      "context": "...OpenAI, EPS was $4.89, up 18% from $4.13  . The quarter beat the $4.72 consensus estimate by 3.6%, after beats of 5.7%,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4.72",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.89 vs estimate $4.72 (surprise +3.6%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.2%",
+      "value": 20.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Free cash flow weakened most. The Q1 free cash flow margin was 20.2% against 33.0% a year earlier, the same as the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.0%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...flow weakened most. The Q1 free cash flow margin was 20.2% against 33.0% a year earlier, the same as the FY2026 full-year...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67.8%",
+      "value": 67.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$64.6 billion to $115.9 billion in FY2026  . Gross margin fell to 67.8% from 69.0%  . Net cash fell to $7.1 billion from...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "67.9%",
+        "snippet": "- Gross margin: FY2026 67.9%; Q1 FY2027 67.8% (year-ago 69.0%, worse); YTD 67.8% vs 69.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69.0%",
+      "value": 69.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $115.9 billion in FY2026  . Gross margin fell to 67.8% from 69.0%  . Net cash fell to $7.1 billion from $41.4...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.0%",
+        "snippet": "- Gross margin: FY2026 67.9%; Q1 FY2027 67.8% (year-ago 69.0%, worse); YTD 67.8% vs 69.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...total debt is $57.2 billion  . Devices and Consumer revenue fell 3% to $15.5 billion, with Windows OEM and devices...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "devic",
+          "consumer"
+        ],
+        "hl": "3%",
+        "snippet": "Revenue in Devices and Consumer was $15.5 billion and decreased 3%, with the following business highlights:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue fell 3% to $15.5 billion, with Windows OEM and devices down 22%  .  Revenue growth held and operating leverage...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "window",
+          "oem",
+          "devic",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "• Windows OEM and Devices revenue decreased 22%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "....  Revenue growth held and operating leverage improved. Revenue rose 19% to $92.3 billion, against 17.8% for FY2026  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "18.8%",
+        "snippet": "- Revenue growth y/y: FY2026 17.8%; Q1 FY2027 18.8% (year-ago n/a, n/a); YTD 18.8%; trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...leverage improved. Revenue rose 19% to $92.3 billion, against 17.8% for FY2026  . Operating income rose 21% to $45.9...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "17.8%",
+        "snippet": "- Revenue growth y/y: FY2026 17.8%; Q1 FY2027 18.8% (year-ago n/a, n/a); YTD 18.8%; trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $92.3 billion, against 17.8% for FY2026  . Operating income rose 21% to $45.9 billion, and operating margin was 49.8%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "income"
+        ],
+        "hl": "21%",
+        "snippet": "• Operating income was $45.9 billion and increased 21% (up 22% in constant currency)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "49.8%",
+      "value": 49.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 21% to $45.9 billion, and operating margin was 49.8% against 48.9%  . Operating expenses fell to...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "49.8%",
+        "snippet": "- Operating margin: FY2026 46.8%; Q1 FY2027 49.8% (year-ago 48.9%, stable); YTD 49.8% vs 48.9% (stable); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48.9%",
+      "value": 48.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 21% to $45.9 billion, and operating margin was 49.8% against 48.9%  . Operating expenses fell to 18.0% of revenue...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "48.9%",
+        "snippet": "- Operating margin: FY2026 46.8%; Q1 FY2027 49.8% (year-ago 48.9%, stable); YTD 49.8% vs 48.9% (stable); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.0%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 49.8% against 48.9%  . Operating expenses fell to 18.0% of revenue from 20.2%, which offset the lower...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "revenue"
+        ],
+        "hl": "18.0%",
+        "snippet": "- Opex in % of revenue: FY2026 21.2%; Q1 FY2027 18.0% (year-ago 20.2%, better); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.2%",
+      "value": 20.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against 48.9%  . Operating expenses fell to 18.0% of revenue from 20.2%, which offset the lower gross margin  . Agents...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin",
+          "revenue"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Opex in % of revenue: FY2026 21.2%; Q1 FY2027 18.0% (year-ago 20.2%, better); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...offset the lower gross margin  . Agents and Infra revenue rose 25% to $76.8 billion. Azure revenue grew 48%,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "infra",
+          "agent"
+        ],
+        "hl": "25%",
+        "snippet": "Revenue in Agents and Infra was $76.8 billion and increased 25%, with the following business highlights:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and Infra revenue rose 25% to $76.8 billion. Azure revenue grew 48%, Microsoft Cloud grew 30% to $63.9 billion, and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "azure",
+          "revenue"
+        ],
+        "hl": "48%",
+        "snippet": "• Azure revenue increased 48%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...25% to $76.8 billion. Azure revenue grew 48%, Microsoft Cloud grew 30% to $63.9 billion, and commercial remaining...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cloud",
+          "microsoft",
+          "revenue"
+        ],
+        "hl": "30%",
+        "snippet": "• Microsoft Cloud revenue was $63.9 billion and increased 30% (up 31% in constant currency)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "73%",
+      "value": 73.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$63.9 billion, and commercial remaining performance obligation rose 73% to $677 billion  . Backlog growing far faster...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "remaining",
+          "obligation",
+          "performance",
+          "commercial"
+        ],
+        "hl": "73%",
+        "snippet": "• Commercial remaining performance obligation increased 73% to $677 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...September 2026 segment change also updated the Azure metric, so the 48% is not a clean comparison with the 41% FY2026...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "azure"
+        ],
+        "hl": "48%",
+        "snippet": "• Azure revenue increased 48%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the Azure metric, so the 48% is not a clean comparison with the 41% FY2026 figure  .  GAAP EPS of $4.92 grew 32%,...",
+      "section": "Results and drivers",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "41%",
+        "snippet": "Azure momentum should keep revenue compounding, because Azure grew 41% and the $678 billion backlog gives visibility [1]. Free cash flow should only recover once capex growth..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...comparison with the 41% FY2026 figure  .  GAAP EPS of $4.92 grew 32%, but that overstates the operating gain. Net...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "gaap"
+        ],
+        "hl": "32%",
+        "snippet": "• Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion loss a year earlier  . Excluding OpenAI, EPS was $4.89, up 18% from $4.13  . The quarter beat the $4.72...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18%",
+        "snippet": "• Net income was $36.6 billion and increased 32% on a GAAP basis, and was $36.4 billion and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.6%",
+      "value": 3.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...18% from $4.13  . The quarter beat the $4.72 consensus estimate by 3.6%, after beats of 5.7%, 4.8% and 11.8% in the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "3.6%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.89 vs estimate $4.72 (surprise +3.6%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.7%",
+      "value": 5.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...quarter beat the $4.72 consensus estimate by 3.6%, after beats of 5.7%, 4.8% and 11.8% in the three preceding quarters...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "5.7%",
+        "snippet": "- Quarter ending 2025-12-31: EPS $4.14 vs estimate $3.92 (surprise +5.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.8%",
+      "value": 4.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beat the $4.72 consensus estimate by 3.6%, after beats of 5.7%, 4.8% and 11.8% in the three preceding quarters  .",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "4.8%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $4.27 vs estimate $4.07 (surprise +4.8%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.8%",
+      "value": 11.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the $4.72 consensus estimate by 3.6%, after beats of 5.7%, 4.8% and 11.8% in the three preceding quarters  .",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "11.8%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $4.74 vs estimate $4.24 (surprise +11.8%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$677 billion",
+      "value": 677.0,
+      "unit": "billion",
+      "money_mn": 677000.0,
+      "decimals": 0,
+      "context": "...FY2027 and commercial remaining performance obligation rose 73% to $677 billion, against revenue growth of 19%  . The Azure...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "677 billion",
+        "snippet": "• Commercial remaining performance obligation increased 73% to $677 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.0 billion",
+      "value": 60.0,
+      "unit": "billion",
+      "money_mn": 60000.0,
+      "decimals": 1,
+      "context": "...20.2% against 33.0% a year earlier, and trailing free cash flow was $60.0 billion against $67.0 billion for FY2026  ....",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "60,041,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$67.0 billion",
+      "value": 67.0,
+      "unit": "billion",
+      "money_mn": 67000.0,
+      "decimals": 1,
+      "context": "...year earlier, and trailing free cash flow was $60.0 billion against $67.0 billion for FY2026  . Illustratively, 20.2% of $92.3...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "66,987.0 million",
+        "snippet": "...investments $76,651.0 million, total debt $56,826.0 million, net cash $19,825.0 million, free cash flow $66,987.0 million, cash runway at that burn self-funded, current ratio 1.2x, shares outstanding 7,428.4 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$92.3 billion",
+      "value": 92.3,
+      "unit": "billion",
+      "money_mn": 92300.0,
+      "decimals": 1,
+      "context": "...against $67.0 billion for FY2026  . Illustratively, 20.2% of $92.3 billion is about $18.6 billion, against about $25.6...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "92.3 billion",
+        "snippet": "• Revenue was $92.3 billion and increased 19%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.6 billion",
+      "value": 18.6,
+      "unit": "billion",
+      "money_mn": 18600.0,
+      "decimals": 1,
+      "context": "...for FY2026  . Illustratively, 20.2% of $92.3 billion is about $18.6 billion, against about $25.6 billion from 33.0% of $77.7...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "18,609,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.6 billion",
+      "value": 25.6,
+      "unit": "billion",
+      "money_mn": 25600.0,
+      "decimals": 1,
+      "context": "...20.2% of $92.3 billion is about $18.6 billion, against about $25.6 billion from 33.0% of $77.7 billion, so quarterly free...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$77.7 billion",
+      "value": 77.7,
+      "unit": "billion",
+      "money_mn": 77700.0,
+      "decimals": 1,
+      "context": "...is about $18.6 billion, against about $25.6 billion from 33.0% of $77.7 billion, so quarterly free cash flow fell year on year....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "77,673",
+        "snippet": "$77,673"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.89",
+      "value": 4.89,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...supports the earnings base behind the valuation. Q1 non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.89",
+        "snippet": "• Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.72",
+      "value": 4.72,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...base behind the valuation. Q1 non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS consensus is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4.72",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.89 vs estimate $4.72 (surprise +3.6%)"
+      }
     },
     {
       "kind": "money",
@@ -847,20 +1641,16 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up...",
+      "context": "...of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and 25 analysts raised...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$24.23",
-      "value": 24.23,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; 25 analysts raised and 3 cut in the...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20.03",
+        "snippet": "...$395,964.3 million (range $385,062.0 million to $403,797.0 million, 48 analysts), growth +19.3%; EPS $20.03 (range $19.55 to $20.63); forward P/E 24.5x; EV/Sales 9.4x"
+      }
     },
     {
       "kind": "pct",
@@ -871,7 +1661,17 @@
       "decimals": 0,
       "context": "T1: Azure growth stays above 30% as the commercial backlog converts into revenue....",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "30%",
+        "snippet": "• Microsoft Cloud revenue increased 30% to $63.9 billion."
+      }
     },
     {
       "kind": "pct",
@@ -880,31 +1680,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...as the commercial backlog converts into revenue. Azure revenue grew 48% in Q1 FY2027  , well above the 30% signpost and...",
+      "context": "...as the commercial backlog converts into revenue. Azure revenue grew 48% in Q1 FY2027 and commercial remaining...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "30%",
-      "value": 30.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...into revenue. Azure revenue grew 48% in Q1 FY2027  , well above the 30% signpost and the 25% invalidation line....",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "25%",
-      "value": 25.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...grew 48% in Q1 FY2027  , well above the 30% signpost and the 25% invalidation line. Commercial remaining...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "azure",
+          "revenue"
+        ],
+        "hl": "48%",
+        "snippet": "• Azure revenue increased 48%"
+      }
     },
     {
       "kind": "pct",
@@ -913,9 +1702,22 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...invalidation line. Commercial remaining performance obligation rose 73% to $677 billion against revenue growth of 19%  ....",
+      "context": "...in Q1 FY2027 and commercial remaining performance obligation rose 73% to $677 billion, against revenue growth of 19%...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "remaining",
+          "obligation",
+          "performance",
+          "commercial"
+        ],
+        "hl": "73%",
+        "snippet": "• Commercial remaining performance obligation increased 73% to $677 billion"
+      }
     },
     {
       "kind": "pct",
@@ -924,9 +1726,19 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...obligation rose 73% to $677 billion against revenue growth of 19%  . The Azure metric was redefined this quarter...",
+      "context": "...obligation rose 73% to $677 billion, against revenue growth of 19%  . The Azure metric was redefined with the...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "18.8%",
+        "snippet": "- Revenue growth y/y: FY2026 17.8%; Q1 FY2027 18.8% (year-ago n/a, n/a); YTD 18.8%; trend n/a"
+      }
     },
     {
       "kind": "pct",
@@ -935,9 +1747,21 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...as capex growth moderates. The Q1 free cash flow margin fell to 20.2% from 33.0%  , and trailing free cash flow of...",
+      "context": "...rebuilds as capex growth moderates. Q1 free cash flow margin was 20.2% against 33.0% a year earlier, and trailing free...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
     },
     {
       "kind": "pct",
@@ -946,20 +1770,108 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...growth moderates. The Q1 free cash flow margin fell to 20.2% from 33.0%  , and trailing free cash flow of $60.0 billion...",
+      "context": "...capex growth moderates. Q1 free cash flow margin was 20.2% against 33.0% a year earlier, and trailing free cash flow was...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
     },
     {
       "kind": "pct",
-      "text": "19%",
-      "value": 19.0,
+      "text": "20.2%",
+      "value": 20.2,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...returns will lag unless growth beats expectations. Q1 revenue grew 19% to $92.3 billion  . Consensus FY2027 revenue of...",
+      "decimals": 1,
+      "context": "...$60.0 billion against $67.0 billion for FY2026  . Illustratively, 20.2% of $92.3 billion is about $18.6 billion, against...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20.2%",
+        "snippet": "- Opex in % of revenue: FY2026 21.2%; Q1 FY2027 18.0% (year-ago 20.2%, better); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.0%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion is about $18.6 billion, against about $25.6 billion from 33.0% of $77.7 billion, so quarterly free cash flow...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.8%",
+      "value": 21.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...The reverse DCF on the post-     enterprise value still implies 21.8% annual revenue growth for ten years, against a...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "value",
+          "enterprise",
+          "revenue"
+        ],
+        "hl": "21.8%",
+        "snippet": "- The current enterprise value of $3,707,737.5 million implies revenue growth of 21.8% per year for 10 years (FY2026 revenue $331,839.0 million -> about $2,379,758.7 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...still implies 21.8% annual revenue growth for ten years, against a 16.1% three-year historical CAGR and 19.3% FY2027...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 16.1%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
     },
     {
       "kind": "pct",
@@ -968,20 +1880,22 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...$92.3 billion  . Consensus FY2027 revenue of $396.0 billion implies 19.3% growth  . At $494.28 the reverse DCF still...",
+      "context": "...for ten years, against a 16.1% three-year historical CAGR and 19.3% FY2027 consensus growth, with an implied return...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "22.0%",
-      "value": 22.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...implies 19.3% growth  . At $494.28 the reverse DCF still implies 22.0% annual growth for ten years and a 6.7% return...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "three-year",
+          "historical",
+          "consensu"
+        ],
+        "hl": "19.3%",
+        "snippet": "...22.0% annual revenue growth for ten years [3]. That is above the 16.1% historical three-year CAGR and the 19.3% consensus for FY2027 [3]. At that pace the implied return is 6.7% against a 10.1% WACC [3]. Consensus data..."
+      }
     },
     {
       "kind": "pct",
@@ -990,9 +1904,23 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...reverse DCF still implies 22.0% annual growth for ten years and a 6.7% return against a 10.1% WACC  . Price and...",
+      "context": "...CAGR and 19.3% FY2027 consensus growth, with an implied return of 6.7% against a 10.1% WACC  . Q1 revenue growth of 19%...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "against",
+          "implied",
+          "return",
+          "wacc",
+          "consensu"
+        ],
+        "hl": "6.7%",
+        "snippet": "...16.1% historical three-year CAGR and the 19.3% consensus for FY2027 [3]. At that pace the implied return is 6.7% against a 10.1% WACC [3]. Consensus data is dated after the 10-K. The price therefore requires growth above..."
+      }
     },
     {
       "kind": "pct",
@@ -1001,9 +1929,61 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...22.0% annual growth for ten years and a 6.7% return against a 10.1% WACC  . Price and consensus are dated after the...",
+      "context": "...FY2027 consensus growth, with an implied return of 6.7% against a 10.1% WACC  . Q1 revenue growth of 19% is in line with...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "10.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 20.2% to 20.2% by year 10, a WACC of 10.1% (10y US Treasury (^TNX) 4.8% + beta 1.04 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...implied return of 6.7% against a 10.1% WACC  . Q1 revenue growth of 19% is in line with consensus, not with the 22% that...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "18.8%",
+        "snippet": "- Revenue growth y/y: FY2026 17.8%; Q1 FY2027 18.8% (year-ago n/a, n/a); YTD 18.8%; trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Q1 revenue growth of 19% is in line with consensus, not with the 22% that would validate the price  . T4: EPS...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "• Windows OEM and devices revenue decreased 22%."
+      }
     },
     {
       "kind": "pct",
@@ -1012,9 +1992,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...the valuation. Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over...",
+      "context": "...the valuation. Q1 non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate",
+          "pershare"
+        ],
+        "hl": "3.6%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.89 vs estimate $4.72 (surprise +3.6%)"
+      }
     },
     {
       "kind": "pct",
@@ -1023,53 +2014,20 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...the $4.72 estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; 25...",
+      "context": "...the $4.72 estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and 25 analysts raised estimates...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "2.8%",
-      "value": 2.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; 25 analysts raised and 3 cut in the last 30...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "11.8%",
-      "value": 11.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...and 3 cut in the last 30 days  . The Q1 beat was smaller than the 11.8% beat in the quarter ended 30 June 2026  .",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...invalidation test names, though the full-year test is the FY2027 10-K. Q1 capex is not in the data provided, so the...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...against a 10.1% WACC  . Price and consensus are dated after the 10-K, as of 24 November 2026  . T4: EPS estimates...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "days"
+        ],
+        "hl": "1.4%",
+        "snippet": "...consensus current fiscal year: $20.03 today, $19.76 30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
     },
     {
       "kind": "plain",
@@ -1078,9 +2036,21 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; 25 analysts...",
+      "context": "...estimate by 3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and 25 analysts raised estimates against 3...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $20.03 today, $19.76 30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
     },
     {
       "kind": "plain",
@@ -1089,9 +2059,23 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; 25 analysts raised and 3 cut in the last 30 days  ....",
+      "context": "...3.6%  . FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and 25 analysts raised estimates against 3 cutting in...",
       "section": "Thesis check",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "consensu",
+          "analyst",
+          "days",
+          "pershare"
+        ],
+        "hl": "25",
+        "snippet": "...30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
     },
     {
       "kind": "plain",
@@ -1100,9 +2084,21 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...over 90 days, and FY2028 is $24.23, up 2.8%; 25 analysts raised and 3 cut in the last 30 days  . The Q1 beat was...",
+      "context": "...up 1.4% over 90 days, and 25 analysts raised estimates against 3 cutting in the last 30 days  . The Q2 FY2027...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "analyst",
+          "days"
+        ],
+        "hl": "3",
+        "snippet": "...30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3 - EPS consensus next fiscal year: $24.23 today, $23.70 30 days ago, $23.57 90 days ago, change vs 90 days ago..."
+      }
     },
     {
       "kind": "plain",
@@ -1111,9 +2107,21 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...FY2028 is $24.23, up 2.8%; 25 analysts raised and 3 cut in the last 30 days  . The Q1 beat was smaller than the 11.8%...",
+      "context": "...and 25 analysts raised estimates against 3 cutting in the last 30 days  . The Q2 FY2027 test is still ahead.",
       "section": "Thesis check",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "analyst",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "...today, $19.76 30 days ago, $19.75 90 days ago, change vs 90 days ago +1.4%; analysts raising/cutting in last 30 days: 25/3"
+      }
     },
     {
       "kind": "money",
@@ -1122,20 +2130,70 @@
       "unit": "billion",
       "money_mn": 7100.0,
       "decimals": 1,
-      "context": "...that materialised: capital intensity and funding. Net cash fell to $7.1 billion and the free cash flow margin fell to 20.2%  ....",
+      "context": "...cash flow margin fell to 20.2% from 33.0%, and net cash fell to $7.1 billion from $41.4 billion  . Demand risk in Windows is...",
       "section": "Risk update",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,094.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
     },
     {
       "kind": "money",
-      "text": "$28.9 billion",
-      "value": 28.9,
+      "text": "$41.4 billion",
+      "value": 41.4,
       "unit": "billion",
-      "money_mn": 28900.0,
+      "money_mn": 41400.0,
       "decimals": 1,
-      "context": "...growth of 73%  . Unchanged: the cybersecurity incident and the $28.9 billion IRS claim described in the FY2026 10-K  ; the Q1...",
+      "context": "...fell to 20.2% from 33.0%, and net cash fell to $7.1 billion from $41.4 billion  . Demand risk in Windows is visible: Windows...",
       "section": "Risk update",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "41,449.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$207 million",
+      "value": 207.0,
+      "unit": "million",
+      "money_mn": 207.0,
+      "decimals": 0,
+      "context": ".... GAAP earnings also carry OpenAI investment swings, with a $207 million gain this quarter against a $3.1 billion loss a...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "207)",
+        "snippet": "$(207)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.1 billion",
+      "value": 3.1,
+      "unit": "billion",
+      "money_mn": 3100.0,
+      "decimals": 1,
+      "context": "...investment swings, with a $207 million gain this quarter against a $3.1 billion loss a year earlier  . The risk factor excerpt...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.1 billion",
+        "snippet": "...from investments in OpenAI, which resulted in a decrease in net income and diluted earnings per share of $3.1 billion and $0.41, respectively."
+      }
     },
     {
       "kind": "pct",
@@ -1144,306 +2202,21 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...Net cash fell to $7.1 billion and the free cash flow margin fell to 20.2%  . The 10-Q says the AI investments are made in...",
+      "context": "...AI infrastructure now shows in cash. Free cash flow margin fell to 20.2% from 33.0%, and net cash fell to $7.1 billion...",
       "section": "Risk update",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "48%",
-      "value": 48.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...so far: demand signals in Q1 were strong, with Azure growth of 48% and backlog growth of 73%  . Unchanged: the...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "73%",
-      "value": 73.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...in Q1 were strong, with Azure growth of 48% and backlog growth of 73%  . Unchanged: the cybersecurity incident and the...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "67.8%",
-      "value": 67.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...reduce comparability with earlier periods  . Gross margin fell to 67.8% from 69.0%, and the filing ties infrastructure...",
-      "section": "Risk update",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "69.0%",
-      "value": 69.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...with earlier periods  . Gross margin fell to 67.8% from 69.0%, and the filing ties infrastructure spending to...",
-      "section": "Risk update",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...to $7.1 billion and the free cash flow margin fell to 20.2%  . The 10-Q says the AI investments are made in advance of...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...incident and the $28.9 billion IRS claim described in the FY2026 10-K  ; the Q1 10-Q data provided do not update...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...the $28.9 billion IRS claim described in the FY2026 10-K  ; the Q1 10-Q data provided do not update these. New...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$396.0 billion",
-      "value": 396.0,
-      "unit": "billion",
-      "money_mn": 396000.0,
-      "decimals": 1,
-      "context": "...cited here. Consensus, dated 24 November 2026, is FY2027 revenue of $396.0 billion (+19.3%) and EPS of $20.03, and FY2028 revenue...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$20.03",
-      "value": 20.03,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...2026, is FY2027 revenue of $396.0 billion (+19.3%) and EPS of $20.03, and FY2028 revenue of $478.0 billion and EPS of...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$478.0 billion",
-      "value": 478.0,
-      "unit": "billion",
-      "money_mn": 478000.0,
-      "decimals": 1,
-      "context": "...of $396.0 billion (+19.3%) and EPS of $20.03, and FY2028 revenue of $478.0 billion and EPS of $24.23  . FY2027 EPS has risen 1.4%...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$24.23",
-      "value": 24.23,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...and EPS of $20.03, and FY2028 revenue of $478.0 billion and EPS of $24.23  . FY2027 EPS has risen 1.4% over 90 days  ....",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$396.0 billion",
-      "value": 396.0,
-      "unit": "billion",
-      "money_mn": 396000.0,
-      "decimals": 1,
-      "context": "...next 10-Q (T2). The FY2027 10-K in July 2027 tests revenue against $396.0 billion (T3). A trailing free cash flow decline that...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "19.3%",
-      "value": 19.3,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...dated 24 November 2026, is FY2027 revenue of $396.0 billion (+19.3%) and EPS of $20.03, and FY2028 revenue of $478.0...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "1.4%",
-      "value": 1.4,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...revenue of $478.0 billion and EPS of $24.23  . FY2027 EPS has risen 1.4% over 90 days  . Watch the Q2 FY2027 report in...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "30%",
-      "value": 30.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...the Q2 FY2027 report in January 2027: Azure growth at or above 30% (T1), and an EPS beat with further raises (T4)...",
-      "section": "Outlook",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "pct",
-      "text": "25%",
-      "value": 25.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...free cash flow decline that continues, or a Q2 Azure rate below 25%, would weaken the case.",
-      "section": "Outlook",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "plain",
-      "text": "90",
-      "value": 90.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...$478.0 billion and EPS of $24.23  . FY2027 EPS has risen 1.4% over 90 days  . Watch the Q2 FY2027 report in January...",
-      "section": "Outlook",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "plain",
-      "text": "10",
-      "value": 10.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...(T4)  . Watch the free cash flow margin and capex in the next 10-Q (T2). The FY2027 10-K in July 2027 tests...",
-      "section": "Outlook",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$92279.0 million",
-      "value": 92279.0,
-      "unit": "million",
-      "money_mn": 92279.0,
-      "decimals": 1,
-      "context": "Revenue: $92279.0 million vs $77673.0 million. Non-GAAP diluted EPS: $4.89...",
-      "section": "Company KPIs",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$77673.0 million",
-      "value": 77673.0,
-      "unit": "million",
-      "money_mn": 77673.0,
-      "decimals": 1,
-      "context": "Revenue: $92279.0 million vs $77673.0 million. Non-GAAP diluted EPS: $4.89 vs $4.13. Gross...",
-      "section": "Company KPIs",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$4.89",
-      "value": 4.89,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "Revenue: $92279.0 million vs $77673.0 million. Non-GAAP diluted EPS: $4.89 vs $4.13. Gross margin: 67.8% vs 69.0%. Free...",
-      "section": "Company KPIs",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$4.13",
-      "value": 4.13,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...million vs $77673.0 million. Non-GAAP diluted EPS: $4.89 vs $4.13. Gross margin: 67.8% vs 69.0%. Free cash flow...",
-      "section": "Company KPIs",
-      "source": "[1] Earnings releases"
-    },
-    {
-      "kind": "money",
-      "text": "$7094.0 million",
-      "value": 7094.0,
-      "unit": "million",
-      "money_mn": 7094.0,
-      "decimals": 1,
-      "context": "...67.8% vs 69.0%. Free cash flow margin: 20.2% vs 33.0%. Net cash: $7094.0 million vs $41449.0 million.",
-      "section": "Company KPIs",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "money",
-      "text": "$41449.0 million",
-      "value": 41449.0,
-      "unit": "million",
-      "money_mn": 41449.0,
-      "decimals": 1,
-      "context": "...Free cash flow margin: 20.2% vs 33.0%. Net cash: $7094.0 million vs $41449.0 million.",
-      "section": "Company KPIs",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "67.8%",
-      "value": 67.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...million. Non-GAAP diluted EPS: $4.89 vs $4.13. Gross margin: 67.8% vs 69.0%. Free cash flow margin: 20.2% vs 33.0%....",
-      "section": "Company KPIs",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "69.0%",
-      "value": 69.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...Non-GAAP diluted EPS: $4.89 vs $4.13. Gross margin: 67.8% vs 69.0%. Free cash flow margin: 20.2% vs 33.0%. Net...",
-      "section": "Company KPIs",
-      "source": "[3] Yahoo Finance"
-    },
-    {
-      "kind": "pct",
-      "text": "20.2%",
-      "value": 20.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...vs $4.13. Gross margin: 67.8% vs 69.0%. Free cash flow margin: 20.2% vs 33.0%. Net cash: $7094.0 million vs $41449.0...",
-      "section": "Company KPIs",
-      "source": "[3] Yahoo Finance"
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
     },
     {
       "kind": "pct",
@@ -1452,9 +2225,412 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...Gross margin: 67.8% vs 69.0%. Free cash flow margin: 20.2% vs 33.0%. Net cash: $7094.0 million vs $41449.0 million.",
+      "context": "...now shows in cash. Free cash flow margin fell to 20.2% from 33.0%, and net cash fell to $7.1 billion from $41.4...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk in Windows is visible: Windows OEM and devices revenue fell 22%  . The      adds a risk factor on strategic...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "window",
+          "oem",
+          "devic",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "• Windows OEM and Devices revenue decreased 22%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$396.0 billion",
+      "value": 396.0,
+      "unit": "billion",
+      "money_mn": 396000.0,
+      "decimals": 1,
+      "context": "...retrieved 26 November 2026 after the     , has FY2027 revenue at $396.0 billion (+19.3%) and EPS at $20.03, and FY2028 at $478.0...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "395,964.3 million",
+        "snippet": "- FY2027E: revenue $395,964.3 million (range $385,062.0 million to $403,797.0 million, 48 analysts), growth +19.3%; EPS $20.03 (range $19.55 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.03",
+      "value": 20.03,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the     , has FY2027 revenue at $396.0 billion (+19.3%) and EPS at $20.03, and FY2028 at $478.0 billion and $24.23  . At...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20.03",
+        "snippet": "...$395,964.3 million (range $385,062.0 million to $403,797.0 million, 48 analysts), growth +19.3%; EPS $20.03 (range $19.55 to $20.63); forward P/E 24.5x; EV/Sales 9.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$478.0 billion",
+      "value": 478.0,
+      "unit": "billion",
+      "money_mn": 478000.0,
+      "decimals": 1,
+      "context": "...revenue at $396.0 billion (+19.3%) and EPS at $20.03, and FY2028 at $478.0 billion and $24.23  . At $489.93 the forward P/E is...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "477,996.5 million",
+        "snippet": "- FY2028E: revenue $477,996.5 million (range $437,636.0 million to $504,609.0 million, 54 analysts), growth +20.7%; EPS $24.23 (range $22.90 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.23",
+      "value": 24.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...(+19.3%) and EPS at $20.03, and FY2028 at $478.0 billion and $24.23  . At $489.93 the forward P/E is 24.5x for FY2027...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "24.23",
+        "snippet": "...$477,996.5 million (range $437,636.0 million to $504,609.0 million, 54 analysts), growth +20.7%; EPS $24.23 (range $22.90 to $25.85); forward P/E 20.2x; EV/Sales 7.8x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$489.93",
+      "value": 489.93,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and EPS at $20.03, and FY2028 at $478.0 billion and $24.23  . At $489.93 the forward P/E is 24.5x for FY2027  . What to...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "489.93",
+        "snippet": "- Forward multiples use the current share price of $489.93 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.3%",
+      "value": 19.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026 after the     , has FY2027 revenue at $396.0 billion (+19.3%) and EPS at $20.03, and FY2028 at $478.0 billion...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "19.3%",
+        "snippet": "- FY2027E: revenue $395,964.3 million (range $385,062.0 million to $403,797.0 million, 48 analysts), growth +19.3%; EPS $20.03 (range $19.55 to $20.63); forward P/E 24.5x; EV/Sales 9.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q2 FY2027 results in January 2027, where Azure growth at or above 30% and another EPS beat would test T1 and T4. Free...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "result",
+          "azure",
+          "above"
+        ],
+        "hl": "30%",
+        "snippet": "...stays above 30% as the commercial backlog converts into revenue.\", \"signpost\": \"Azure growth at or above 30% in the Q2 FY2027 results (January 2027). Invalidation: Azure growth below 25% in any FY2027 quarter, or..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(July 2027) decide T2. A full-year FY2027 revenue growth of 22% or more would challenge T3.",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "• Windows OEM and devices revenue decreased 22%."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "24.5x",
+      "value": 24.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at $478.0 billion and $24.23  . At $489.93 the forward P/E is 24.5x for FY2027  . What to watch: Q2 FY2027 results...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "24.5",
+        "snippet": "...million to $403,797.0 million, 48 analysts), growth +19.3%; EPS $20.03 (range $19.55 to $20.63); forward P/E 24.5x; EV/Sales 9.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$92279.0 million",
+      "value": 92279.0,
+      "unit": "million",
+      "money_mn": 92279.0,
+      "decimals": 1,
+      "context": "Revenue: $92279.0 million vs $77673.0 million. Operating income: $45915.0...",
       "section": "Company KPIs",
-      "source": "[1] Earnings releases"
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "92,279",
+        "snippet": "$92,279"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$77673.0 million",
+      "value": 77673.0,
+      "unit": "million",
+      "money_mn": 77673.0,
+      "decimals": 1,
+      "context": "Revenue: $92279.0 million vs $77673.0 million. Operating income: $45915.0 million vs $37961.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "77,673",
+        "snippet": "$77,673"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45915.0 million",
+      "value": 45915.0,
+      "unit": "million",
+      "money_mn": 45915.0,
+      "decimals": 1,
+      "context": "Revenue: $92279.0 million vs $77673.0 million. Operating income: $45915.0 million vs $37961.0 million. Diluted EPS, non-GAAP...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "45,915",
+        "snippet": "$45,915"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$37961.0 million",
+      "value": 37961.0,
+      "unit": "million",
+      "money_mn": 37961.0,
+      "decimals": 1,
+      "context": "...million vs $77673.0 million. Operating income: $45915.0 million vs $37961.0 million. Diluted EPS, non-GAAP (excl. OpenAI impact):...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37,961",
+        "snippet": "$37,961"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.89",
+      "value": 4.89,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $37961.0 million. Diluted EPS, non-GAAP (excl. OpenAI impact): $4.89 vs $4.13. Free cash flow margin: 20.2% vs 33.0%....",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.89",
+        "snippet": "• Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.13",
+      "value": 4.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million. Diluted EPS, non-GAAP (excl. OpenAI impact): $4.89 vs $4.13. Free cash flow margin: 20.2% vs 33.0%. Net cash...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.13",
+        "snippet": "$4.13"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7094.0 million",
+      "value": 7094.0,
+      "unit": "million",
+      "money_mn": 7094.0,
+      "decimals": 1,
+      "context": "...vs $4.13. Free cash flow margin: 20.2% vs 33.0%. Net cash (debt): $7094.0 million vs $41449.0 million.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,094.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$41449.0 million",
+      "value": 41449.0,
+      "unit": "million",
+      "money_mn": 41449.0,
+      "decimals": 1,
+      "context": "...flow margin: 20.2% vs 33.0%. Net cash (debt): $7094.0 million vs $41449.0 million.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "41,449.0",
+        "snippet": "- Net cash (debt): FY2026 19,825.0; Q1 FY2027 7,094.0 (year-ago 41,449.0, worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.2%",
+      "value": 20.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(excl. OpenAI impact): $4.89 vs $4.13. Free cash flow margin: 20.2% vs 33.0%. Net cash (debt): $7094.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "20.2%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.0%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...OpenAI impact): $4.89 vs $4.13. Free cash flow margin: 20.2% vs 33.0%. Net cash (debt): $7094.0 million vs $41449.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "33.0%",
+        "snippet": "- Free cash flow margin: FY2026 20.2%; Q1 FY2027 20.2% (year-ago 33.0%, worse); YTD 20.2% vs 33.0% (worse); trend n/a"
+      }
     }
   ],
   "build_round": 1

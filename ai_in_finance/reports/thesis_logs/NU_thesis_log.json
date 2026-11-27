@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/NU_earnings_multi_claude-haiku-5.5\\NU_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Operating leverage keeps EPS compounding even as gross margin compresses.",
+        "signpost": "Operating expenses stay below 20% of revenue in each 2026 quarterly report, and FY2026 diluted EPS lands near the US$0.85 consensus [3]. Nu reports an efficiency ratio rather than opex-to-revenue; this update uses it as the proxy.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Credit losses stay contained at about 15% of receivables, so gross margin stabilises.",
+        "signpost": "The expected credit loss ratio on cards and loans stays at or below 15.4% in each 2026 quarterly report.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T3: The current valuation prices in a sharp growth slowdown, so the stock can re-rate if revenue keeps growing.",
+        "signpost": "FY2026 revenue reported in the 2026 20-F (early 2027) at or above the US$22.3 billion low end of consensus [3].",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Deposit funding keeps the balance sheet self-sustaining without new equity.",
+        "signpost": "Deposit growth stays above 25% on an FX-neutral basis, and TTM free cash flow turns positive in the FY2026 20-F (early 2027).",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "broken",
+          "Q3 FY2026": "broken"
+        },
+        "current_status": "broken"
+      }
+    ]
+  }
+]

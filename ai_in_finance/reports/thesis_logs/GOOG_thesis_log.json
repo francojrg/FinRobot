@@ -310,5 +310,57 @@
         "current_status": "weakened"
       }
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/GOOG_earnings_multi_claude-haiku-5.5\\GOOG_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Google Cloud margin expansion persists as revenue scales, making Cloud the main profit driver.",
+        "signpost": "Google Cloud operating margin above 20% in the Q4 2026 results (early 2027); invalidation if margin falls below 15% in any 2026 quarter or Cloud growth slows below 20%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Free cash flow stays under pressure through 2026 as capex rises, so funding rather than earnings limits the stock.",
+        "signpost": "Trailing twelve-month free cash flow in the FY2026 10-K remains below $50 billion; FY2026 free cash flow at or above $73.3 billion per the earlier log (broken); invalidation if trailing FCF exceeds $60 billion with capex growth slowing.",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "broken"
+        },
+        "current_status": "broken"
+      },
+      {
+        "thesis": "T3: The current valuation requires growth above Alphabet's own history for a decade.",
+        "signpost": "FY2026 revenue growth of at least 24%, in line with consensus, in the FY2026 10-K (early 2027); invalidation if FY2026 growth is below 18% or FY2027 consensus revenue is cut by more than 5% during 2026.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Near-term estimates hold up, but the Q3 2026 miss shows that delivery risk is real.",
+        "signpost": "Quarterly EPS at or above consensus in the Q4 2026 report (early 2027); invalidation if another 2026 quarter misses by more than 5% or FY2026 EPS consensus falls below $12.00.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      }
+    ]
   }
 ]

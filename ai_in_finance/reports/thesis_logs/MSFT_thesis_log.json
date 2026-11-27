@@ -82,5 +82,47 @@
         "current_status": "strengthened"
       }
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "fyear": "2026",
+    "quarters": [
+      "Q1 FY2027"
+    ],
+    "report": "../reports/MSFT_earnings_multi_claude-haiku-5.5\\MSFT_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Azure growth stays above 30% as the commercial backlog converts into revenue.",
+        "signpost": "Azure growth at or above 30% in the Q2 FY2027 results (January 2027); invalidation: Azure growth below 25% in any FY2027 quarter, or backlog growth falling well below revenue growth.",
+        "statuses": {
+          "Q1 FY2027": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Free cash flow rebuilds as capex growth moderates.",
+        "signpost": "FY2027 capex growth below 30% and positive free cash flow growth in the FY2027 10-K (July 2027); invalidation: free cash flow falls again in FY2027, or capex growth stays above 50%.",
+        "statuses": {
+          "Q1 FY2027": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T3: The current price needs more growth than history or consensus supports, so returns will lag unless growth beats expectations.",
+        "signpost": "FY2027 revenue of at least $396.0 billion, the consensus figure, in the FY2027 10-K (July 2027); invalidation: FY2027 revenue growth of 22% or more, or a share price fall that lifts the implied return above the WACC.",
+        "statuses": {
+          "Q1 FY2027": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: EPS estimates keep rising, which supports the earnings base behind the valuation.",
+        "signpost": "EPS beat and further upward revisions at the Q2 FY2027 results (January 2027); invalidation: a quarterly EPS miss, or cuts outnumbering raises in the 30-day revision count.",
+        "statuses": {
+          "Q1 FY2027": "strengthened"
+        },
+        "current_status": "strengthened"
+      }
+    ]
   }
 ]

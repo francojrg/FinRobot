@@ -1,0 +1,3266 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 151,
+  "context_match_rate": 0.956,
+  "number_only": [
+    {
+      "kind": "plain",
+      "text": "0.5",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and three EPS guidance raises, but core revenue growth stayed at 0.5-3.0% and net debt rose to $20.8B.",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.5 billion",
+        "snippet": "...principles (GAAP) because (except for estimated amortization of acquisition-related intangible assets of $0.5 billion for the third quarter and $1.9 billion for the year ending December 31, 2026 and the estimated impact of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.9%",
+      "value": 5.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to 3-4% from 3-6%  . Nine-month reported sales were $18.8B, up 5.9% on the prior-year period  . Net debt rose from...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58.2%",
+      "value": 58.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q1 to 57.6% in Q2 and recovered to 58.5% in Q3, compared with 58.2% a year earlier  . The releases do not explain...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "58.2%",
+        "snippet": "...59.1%; Q1 FY2026 60.3% (year-ago n/a, n/a); Q2 FY2026 57.6% (year-ago n/a, n/a); Q3 FY2026 58.5% (year-ago 58.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$6,053M, up 8.3% on the statement figures (the release states 8.5%)  . Core growth was 3.0%, so the gap to reported...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.5%",
+        "snippet": "• Revenues increased 8.5% year-over-year to $6.6 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.9%",
+      "value": 5.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the top of the range  . Nine-month reported sales were $18,770M, up 5.9%  . Q4 core growth is guided to about 3%  , so...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to earn their cost of capital. Q1 kept full-year core growth at 3-6%  . Q2 narrowed it to 3-4%, lowering the top...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...capital. Q1 kept full-year core growth at 3-6%  . Q2 narrowed it to 3-4%, lowering the top of the range  . Nine-month...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    }
+  ],
+  "total_claims": 158,
+  "matched": 158,
+  "match_rate": 1.0,
+  "by_kind": {
+    "money": {
+      "total": 83,
+      "matched": 83,
+      "context_matched": 83
+    },
+    "pct": {
+      "total": 51,
+      "matched": 51,
+      "context_matched": 47
+    },
+    "plain": {
+      "total": 24,
+      "matched": 24,
+      "context_matched": 21
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 116,
+    "[2] Forms 10-Q": 2,
+    "[3] Yahoo Finance": 40,
+    "[4] Annual report and thesis log": 0
+  },
+  "unmatched": [],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$20.8B",
+      "value": 20.8,
+      "unit": "billion",
+      "money_mn": 20800.0,
+      "decimals": 1,
+      "context": "...but core revenue growth stayed at 0.5-3.0% and net debt rose to $20.8B.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20,800.0)",
+        "snippet": "...(15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and three EPS guidance raises, but core revenue growth stayed at 0.5-3.0% and net debt rose to $20.8B.",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.5",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and three EPS guidance raises, but core revenue growth stayed at 0.5-3.0% and net debt rose to $20.8B.",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.5 billion",
+        "snippet": "...principles (GAAP) because (except for estimated amortization of acquisition-related intangible assets of $0.5 billion for the third quarter and $1.9 billion for the year ending December 31, 2026 and the estimated impact of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.06",
+      "value": 2.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...consensus in each of the three quarters since the annual report: $2.06 in Q1 FY2026 (6.5% above estimate), $1.94 in Q2...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.06",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 9.5% to $2.06."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.94",
+      "value": 1.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...since the annual report: $2.06 in Q1 FY2026 (6.5% above estimate), $1.94 in Q2 (5.3% above) and $2.11 in Q3 (10.0% above)...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.94",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 8.0% to $1.94."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.11",
+      "value": 2.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q1 FY2026 (6.5% above estimate), $1.94 in Q2 (5.3% above) and $2.11 in Q3 (10.0% above)  . Full-year adjusted EPS...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.11",
+        "snippet": "$ 2.11 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.57",
+      "value": 8.57,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Full-year adjusted EPS guidance was raised three times, to $8.57-8.62 from $8.35-8.50  . Core revenue growth was...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.57",
+        "snippet": "...Company is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.35",
+      "value": 8.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...adjusted EPS guidance was raised three times, to $8.57-8.62 from $8.35-8.50  . Core revenue growth was weak: 0.5% in...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.35",
+        "snippet": "...is also increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.35 to $8.55 versus previous guidance of $8.35 to $8.50."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.8B",
+      "value": 18.8,
+      "unit": "billion",
+      "money_mn": 18800.0,
+      "decimals": 1,
+      "context": "...was narrowed to 3-4% from 3-6%  . Nine-month reported sales were $18.8B, up 5.9% on the prior-year period  . Net debt...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18,770",
+        "snippet": "Sales $ 6,554 $ 6,053 $ 18,770 $ 17,730"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.1B",
+      "value": 15.1,
+      "unit": "billion",
+      "money_mn": 15100.0,
+      "decimals": 1,
+      "context": "...were $18.8B, up 5.9% on the prior-year period  . Net debt rose from $15.1B at year-end 2025 to $20.8B at Q3 FY2026, as...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "15,081.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.8B",
+      "value": 20.8,
+      "unit": "billion",
+      "money_mn": 20800.0,
+      "decimals": 1,
+      "context": "...prior-year period  . Net debt rose from $15.1B at year-end 2025 to $20.8B at Q3 FY2026, as total debt reached $26.5B; the...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20,800.0)",
+        "snippet": "...(15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.5B",
+      "value": 26.5,
+      "unit": "billion",
+      "money_mn": 26500.0,
+      "decimals": 1,
+      "context": "...at year-end 2025 to $20.8B at Q3 FY2026, as total debt reached $26.5B; the debt financed the Masimo acquisition  . The...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "26,482.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $5,682.0 million, total debt $26,482.0 million, net cash -$20,800.0 million, TTM free cash flow $5,727.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of the three quarters since the annual report: $2.06 in Q1 FY2026 (6.5% above estimate), $1.94 in Q2 (5.3% above) and...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "6.5%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.06 vs estimate $1.94 (surprise +6.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.3%",
+      "value": 5.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...report: $2.06 in Q1 FY2026 (6.5% above estimate), $1.94 in Q2 (5.3% above) and $2.11 in Q3 (10.0% above)  ....",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "5.3%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $1.94 vs estimate $1.84 (surprise +5.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.0%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(6.5% above estimate), $1.94 in Q2 (5.3% above) and $2.11 in Q3 (10.0% above)  . Full-year adjusted EPS guidance was...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "10.0%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.11 vs estimate $1.92 (surprise +10.0%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.5%",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $8.57-8.62 from $8.35-8.50  . Core revenue growth was weak: 0.5% in Q1, 3.0% in Q2 and 3.0% in Q3  . In Q2 the...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "revenue"
+        ],
+        "hl": "0.5%",
+        "snippet": "• Revenues increased 3.5% year-over-year to $6.0 billion and non-GAAP core revenue increased 0.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from $8.35-8.50  . Core revenue growth was weak: 0.5% in Q1, 3.0% in Q2 and 3.0% in Q3  . In Q2 the full-year core...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Core revenue growth was weak: 0.5% in Q1, 3.0% in Q2 and 3.0% in Q3  . In Q2 the full-year core revenue range...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q3  . In Q2 the full-year core revenue range was narrowed to 3-4% from 3-6%  . Nine-month reported sales were...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "range",
+          "revenue"
+        ],
+        "hl": "4.0%",
+        "snippet": "For full year 2026, the Company expects non-GAAP core revenue will increase in the 3.0% to 4.0% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... In Q2 the full-year core revenue range was narrowed to 3-4% from 3-6%  . Nine-month reported sales were $18.8B, up...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "range",
+          "revenue"
+        ],
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.9%",
+      "value": 5.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to 3-4% from 3-6%  . Nine-month reported sales were $18.8B, up 5.9% on the prior-year period  . Net debt rose from...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.62",
+      "value": 8.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Full-year adjusted EPS guidance was raised three times, to $8.57-8.62 from $8.35-8.50  . Core revenue growth was weak:...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "pershare"
+        ],
+        "hl": "8.62",
+        "snippet": "...is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.50",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS guidance was raised three times, to $8.57-8.62 from $8.35-8.50  . Core revenue growth was weak: 0.5% in Q1,...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance"
+        ],
+        "hl": "8.50",
+        "snippet": "...net earnings per common share guidance to a range of $8.35 to $8.55 versus previous guidance of $8.35 to $8.50."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q3  . In Q2 the full-year core revenue range was narrowed to 3-4% from 3-6%  . Nine-month reported sales were...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... In Q2 the full-year core revenue range was narrowed to 3-4% from 3-6%  . Nine-month reported sales were $18.8B, up...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "range",
+          "revenue"
+        ],
+        "hl": "3",
+        "snippet": "CONSENSUS ESTIMATES (Yahoo Finance, retrieved 2026-11-26, i.e. after the 10-K filing; cite as [3]):"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$107M",
+      "value": 107.0,
+      "unit": "million",
+      "money_mn": 107.0,
+      "decimals": 0,
+      "context": "...releases do not explain the Q2 decline. Interest expense rose to $107M in Q2 from $71M a year earlier, and to $305M for...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "107)",
+        "snippet": "Interest expense (107) (71) (170) (143)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$71M",
+      "value": 71.0,
+      "unit": "million",
+      "money_mn": 71.0,
+      "decimals": 0,
+      "context": "...explain the Q2 decline. Interest expense rose to $107M in Q2 from $71M a year earlier, and to $305M for nine months...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "71)",
+        "snippet": "Interest expense (107) (71) (170) (143)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$305M",
+      "value": 305.0,
+      "unit": "million",
+      "money_mn": 305.0,
+      "decimals": 0,
+      "context": "...expense rose to $107M in Q2 from $71M a year earlier, and to $305M for nine months from $210M  .  Profit grew...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "305)",
+        "snippet": "Interest expense (135) (67) (305) (210)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$210M",
+      "value": 210.0,
+      "unit": "million",
+      "money_mn": 210.0,
+      "decimals": 0,
+      "context": "...in Q2 from $71M a year earlier, and to $305M for nine months from $210M  .  Profit grew faster than sales. Operating...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "210)",
+        "snippet": "Interest expense (135) (67) (305) (210)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,344M",
+      "value": 1344.0,
+      "unit": "million",
+      "money_mn": 1344.0,
+      "decimals": 0,
+      "context": "...from $210M  .  Profit grew faster than sales. Operating profit was $1,344M in Q1 (Q1 FY2025: $1,274M), $1,127M in Q2...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,344",
+        "snippet": "Operating profit 1,344 1,274"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,274M",
+      "value": 1274.0,
+      "unit": "million",
+      "money_mn": 1274.0,
+      "decimals": 0,
+      "context": "...faster than sales. Operating profit was $1,344M in Q1 (Q1 FY2025: $1,274M), $1,127M in Q2 ($760M) and $1,245M in Q3...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,274",
+        "snippet": "Operating profit 1,344 1,274 Nonoperating income (expense):"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,127M",
+      "value": 1127.0,
+      "unit": "million",
+      "money_mn": 1127.0,
+      "decimals": 0,
+      "context": "...sales. Operating profit was $1,344M in Q1 (Q1 FY2025: $1,274M), $1,127M in Q2 ($760M) and $1,245M in Q3 ($1,154M)  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,127",
+        "snippet": "Operating profit 1,127 760 2,471 2,034"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$760M",
+      "value": 760.0,
+      "unit": "million",
+      "money_mn": 760.0,
+      "decimals": 0,
+      "context": "...profit was $1,344M in Q1 (Q1 FY2025: $1,274M), $1,127M in Q2 ($760M) and $1,245M in Q3 ($1,154M)  . Diluted EPS from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "760",
+        "snippet": "Operating profit 1,127 760 2,471 2,034"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,245M",
+      "value": 1245.0,
+      "unit": "million",
+      "money_mn": 1245.0,
+      "decimals": 0,
+      "context": "...was $1,344M in Q1 (Q1 FY2025: $1,274M), $1,127M in Q2 ($760M) and $1,245M in Q3 ($1,154M)  . Diluted EPS from continuing...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,245",
+        "snippet": "Operating profit 1,245 1,154 3,716 3,188"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,154M",
+      "value": 1154.0,
+      "unit": "million",
+      "money_mn": 1154.0,
+      "decimals": 0,
+      "context": "...Q1 (Q1 FY2025: $1,274M), $1,127M in Q2 ($760M) and $1,245M in Q3 ($1,154M)  . Diluted EPS from continuing operations was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,154",
+        "snippet": "Operating profit 1,245 1,154 3,716 3,188"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.45",
+      "value": 1.45,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q3 ($1,154M)  . Diluted EPS from continuing operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.45",
+        "snippet": "• Net earnings were $1.0 billion, or $1.45 per diluted common share."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23",
+      "value": 1.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Q3 ($1,154M)  . Diluted EPS from continuing operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27 a year...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.23",
+        "snippet": "• Net earnings were $870 million, or $1.23 per diluted common share, up 60% year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.71",
+      "value": 1.71,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Diluted EPS from continuing operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27 a year earlier...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.71",
+        "snippet": "• Net earnings were $1.2 billion, or $1.71 per diluted common share, up 34.5% year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.32",
+      "value": 1.32,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS from continuing operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27 a year earlier  . Q3 total...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.32",
+        "snippet": "Diluted $ 1.45 $ 1.32 Average common stock and common equivalent shares outstanding:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.77",
+      "value": 0.77,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...continuing operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27 a year earlier  . Q3 total diluted EPS...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.77",
+        "snippet": "Basic $ 1.23 $ 0.77 $ 2.69 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.27",
+      "value": 1.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27 a year earlier  . Q3 total diluted EPS of $1.75...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.27",
+        "snippet": "Diluted $ 1.71 $ 1.27 $ 4.38 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.75",
+      "value": 1.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$1.32, $0.77 and $1.27 a year earlier  . Q3 total diluted EPS of $1.75 includes $0.04 from discontinued operations  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.75",
+        "snippet": "Basic $ 1.75 $ 1.28 $ 4.44 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.04",
+      "value": 0.04,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and $1.27 a year earlier  . Q3 total diluted EPS of $1.75 includes $0.04 from discontinued operations  . Adjusted EPS...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.04",
+        "snippet": "Basic $ 0.04 $ — $ 0.04 $ —"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.06",
+      "value": 2.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...operations  . Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and each beat consensus  . The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.06",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 9.5% to $2.06."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.94",
+      "value": 1.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...operations  . Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and each beat consensus  . The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.94",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 8.0% to $1.94."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.11",
+      "value": 2.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and each beat consensus  . The releases...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.11",
+        "snippet": "$ 2.11 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,554M",
+      "value": 6554.0,
+      "unit": "million",
+      "money_mn": 6554.0,
+      "decimals": 0,
+      "context": "...or less in each quarter.  Q3 was the strongest quarter. Sales were $6,554M against $6,053M, up 8.3% on the statement...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,554",
+        "snippet": "Sales $ 6,554 $ 6,053 $ 18,770 $ 17,730"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,053M",
+      "value": 6053.0,
+      "unit": "million",
+      "money_mn": 6053.0,
+      "decimals": 0,
+      "context": "...quarter.  Q3 was the strongest quarter. Sales were $6,554M against $6,053M, up 8.3% on the statement figures (the release...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,053",
+        "snippet": "Sales $ 6,554 $ 6,053 $ 18,770 $ 17,730"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.1B",
+      "value": 1.1,
+      "unit": "billion",
+      "money_mn": 1100.0,
+      "decimals": 1,
+      "context": "...do not quantify its contribution. Non-GAAP free cash flow was $1.1B, $1.3B and $1.6B in the three quarters  . Net...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.1 billion",
+        "snippet": "• Operating cash flow was $1.3 billion and non-GAAP free cash flow was $1.1 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.3B",
+      "value": 1.3,
+      "unit": "billion",
+      "money_mn": 1300.0,
+      "decimals": 1,
+      "context": "...not quantify its contribution. Non-GAAP free cash flow was $1.1B, $1.3B and $1.6B in the three quarters  . Net debt went...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.3 billion",
+        "snippet": "• Operating cash flow was $1.3 billion and non-GAAP free cash flow was $1.1 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.6B",
+      "value": 1.6,
+      "unit": "billion",
+      "money_mn": 1600.0,
+      "decimals": 1,
+      "context": "...its contribution. Non-GAAP free cash flow was $1.1B, $1.3B and $1.6B in the three quarters  . Net debt went from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.6 billion",
+        "snippet": "• Operating cash flow was $1.9 billion and non-GAAP free cash flow was $1.6 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.1B",
+      "value": 15.1,
+      "unit": "billion",
+      "money_mn": 15100.0,
+      "decimals": 1,
+      "context": "...$1.1B, $1.3B and $1.6B in the three quarters  . Net debt went from $15.1B at year-end to $12.8B in Q1, then widened to...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "15,081.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.8B",
+      "value": 12.8,
+      "unit": "billion",
+      "money_mn": 12800.0,
+      "decimals": 1,
+      "context": "...in the three quarters  . Net debt went from $15.1B at year-end to $12.8B in Q1, then widened to $22.2B in Q2 and $20.8B...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12,783.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0),..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.2B",
+      "value": 22.2,
+      "unit": "billion",
+      "money_mn": 22200.0,
+      "decimals": 1,
+      "context": "...debt went from $15.1B at year-end to $12.8B in Q1, then widened to $22.2B in Q2 and $20.8B in Q3  . The Q3 release quotes...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "22,210.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.8B",
+      "value": 20.8,
+      "unit": "billion",
+      "money_mn": 20800.0,
+      "decimals": 1,
+      "context": "...at year-end to $12.8B in Q1, then widened to $22.2B in Q2 and $20.8B in Q3  . The Q3 release quotes Julie Sawyer...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20,800.0)",
+        "snippet": "...(15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.5%",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...guides to, was the weak point. Non-GAAP core revenue grew 0.5% in Q1 FY2026, 3.0% in Q2 and 3.0% in Q3  . In Q1...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "0.5%",
+        "snippet": "• Revenues increased 3.5% year-over-year to $6.0 billion and non-GAAP core revenue increased 0.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was the weak point. Non-GAAP core revenue grew 0.5% in Q1 FY2026, 3.0% in Q2 and 3.0% in Q3  . In Q1 the respiratory...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...point. Non-GAAP core revenue grew 0.5% in Q1 FY2026, 3.0% in Q2 and 3.0% in Q3  . In Q1 the respiratory season at Cepheid...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.5%",
+      "value": 4.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the mid-teens  . Excluding respiratory revenue, core growth was 4.5% in Q2 and 5.5% in Q3  . The Q2 release narrowed...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "core",
+          "revenue"
+        ],
+        "hl": "4.5%",
+        "snippet": "...increased 3.0% year-over-year and non-GAAP core revenue excluding respiratory testing revenue increased 4.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.5%",
+      "value": 5.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Excluding respiratory revenue, core growth was 4.5% in Q2 and 5.5% in Q3  . The Q2 release narrowed full-year core...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "core",
+          "revenue"
+        ],
+        "hl": "5.5%",
+        "snippet": "• Non-GAAP core revenue excluding respiratory revenue increased 5.5% year-over-year and non-GAAP core revenue increased 3.0% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and 5.5% in Q3  . The Q2 release narrowed full-year core growth to 3-4% from 3-6%, the one clear downward revision in...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "4.5%",
+        "snippet": "...increased 3.0% year-over-year and non-GAAP core revenue excluding respiratory testing revenue increased 4.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q3  . The Q2 release narrowed full-year core growth to 3-4% from 3-6%, the one clear downward revision in the period...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.3%",
+      "value": 60.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...one clear downward revision in the period  . Gross margin fell from 60.3% in Q1 to 57.6% in Q2 and recovered to 58.5% in...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "60.3%",
+        "snippet": "- Gross margin: FY2025 59.1%; Q1 FY2026 60.3% (year-ago n/a, n/a); Q2 FY2026 57.6% (year-ago n/a, n/a); Q3 FY2026 58.5% (year-ago 58.2%, stable); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57.6%",
+      "value": 57.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revision in the period  . Gross margin fell from 60.3% in Q1 to 57.6% in Q2 and recovered to 58.5% in Q3, compared...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "57.6%",
+        "snippet": "- Gross margin: FY2025 59.1%; Q1 FY2026 60.3% (year-ago n/a, n/a); Q2 FY2026 57.6% (year-ago n/a, n/a); Q3 FY2026 58.5% (year-ago 58.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58.5%",
+      "value": 58.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Gross margin fell from 60.3% in Q1 to 57.6% in Q2 and recovered to 58.5% in Q3, compared with 58.2% a year earlier  . The...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "58.5%",
+        "snippet": "...margin: FY2025 59.1%; Q1 FY2026 60.3% (year-ago n/a, n/a); Q2 FY2026 57.6% (year-ago n/a, n/a); Q3 FY2026 58.5% (year-ago 58.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58.2%",
+      "value": 58.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q1 to 57.6% in Q2 and recovered to 58.5% in Q3, compared with 58.2% a year earlier  . The releases do not explain...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "58.2%",
+        "snippet": "...59.1%; Q1 FY2026 60.3% (year-ago n/a, n/a); Q2 FY2026 57.6% (year-ago n/a, n/a); Q3 FY2026 58.5% (year-ago 58.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...includes $0.04 from discontinued operations  . Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "adjusted",
+          "pershare"
+        ],
+        "hl": "9.5%",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 9.5% to $2.06."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.0%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$0.04 from discontinued operations  . Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and each...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "adjusted",
+          "pershare"
+        ],
+        "hl": "8.0%",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 8.0% to $1.94."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from discontinued operations  . Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and each beat...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "adjusted",
+          "pershare"
+        ],
+        "hl": "11.5%",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 11.5% to $2.11."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...execution and productivity, not to core revenue, which grew 3.0% or less in each quarter.  Q3 was the strongest...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.3%",
+      "value": 8.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was the strongest quarter. Sales were $6,554M against $6,053M, up 8.3% on the statement figures (the release states...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "8.3%",
+        "snippet": "...growth y/y: FY2025 2.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 8.3% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$6,053M, up 8.3% on the statement figures (the release states 8.5%)  . Core growth was 3.0%, so the gap to reported...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.5%",
+        "snippet": "• Revenues increased 8.5% year-over-year to $6.6 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the statement figures (the release states 8.5%)  . Core growth was 3.0%, so the gap to reported growth is non-core. The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and 5.5% in Q3  . The Q2 release narrowed full-year core growth to 3-4% from 3-6%, the one clear downward revision in...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q3  . The Q2 release narrowed full-year core growth to 3-4% from 3-6%, the one clear downward revision in the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18,770M",
+      "value": 18770.0,
+      "unit": "million",
+      "money_mn": 18770.0,
+      "decimals": 0,
+      "context": "...lowering the top of the range  . Nine-month reported sales were $18,770M, up 5.9%  . Q4 core growth is guided to about 3%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18,770",
+        "snippet": "Sales $ 6,554 $ 6,053 $ 18,770 $ 17,730"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.26B",
+      "value": 26.26,
+      "unit": "billion",
+      "money_mn": 26260.0,
+      "decimals": 2,
+      "context": "..., so the year-to-date run rate points to full-year revenue below the $26.26B consensus  . T3: Earnings momentum will continue...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "26,262.6 million",
+        "snippet": "- FY2026E: revenue $26,262.6 million (range $26,190.0 million to $26,308.0 million, 22 analysts), growth +6.9%; EPS $8.59 (range $8.58 to $8.62);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.06",
+      "value": 2.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...estimates keep rising. Adjusted EPS beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.06",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 9.5% to $2.06."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.94)",
+      "value": 1.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...keep rising. Adjusted EPS beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.94",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 8.0% to $1.94."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.94",
+      "value": 1.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs $1.92)  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.94",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 8.0% to $1.94."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.84)",
+      "value": 1.84,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs $1.92)  . Full-year...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.84",
+        "snippet": "- Quarter ending 2026-06-30: EPS $1.94 vs estimate $1.84 (surprise +5.3%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.11",
+      "value": 2.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs $1.92)  . Full-year adjusted EPS guidance...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.11",
+        "snippet": "$ 2.11 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.92)",
+      "value": 1.92,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs $1.92)  . Full-year adjusted EPS guidance rose from...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.92",
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.11 vs estimate $1.92 (surprise +10.0%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.35",
+      "value": 8.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q3 ($2.11 vs $1.92)  . Full-year adjusted EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.35",
+        "snippet": "...is also increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.35 to $8.55 versus previous guidance of $8.35 to $8.50."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.35",
+      "value": 8.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$1.92)  . Full-year adjusted EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62  . The...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.35",
+        "snippet": "...is also increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.35 to $8.55 versus previous guidance of $8.35 to $8.50."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.45",
+      "value": 8.45,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...adjusted EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62  . The guidance midpoint...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.45",
+        "snippet": "...is also increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.45 to $8.60 versus previous guidance of $8.35 to $8.55."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.57",
+      "value": 8.57,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62  . The guidance midpoint of $8.595 clears...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.57",
+        "snippet": "...Company is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.595",
+      "value": 8.595,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 3,
+      "context": "...then $8.45-8.60, then $8.57-8.62  . The guidance midpoint of $8.595 clears the $8.59 signpost, but the low end of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.60",
+        "snippet": "...increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.45 to $8.60 versus previous guidance of $8.35 to $8.55."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.59",
+      "value": 8.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...then $8.57-8.62  . The guidance midpoint of $8.595 clears the $8.59 signpost, but the low end of $8.57 does not; 23...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.60",
+        "snippet": "...increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.45 to $8.60 versus previous guidance of $8.35 to $8.55."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.57",
+      "value": 8.57,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...midpoint of $8.595 clears the $8.59 signpost, but the low end of $8.57 does not; 23 analysts raised current-year...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.57",
+        "snippet": "...Company is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.8B",
+      "value": 12.8,
+      "unit": "billion",
+      "money_mn": 12800.0,
+      "decimals": 1,
+      "context": "...cash flow, so balance-sheet capacity narrows. Net debt narrowed to $12.8B in Q1 from $15.1B at year-end, with non-GAAP...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12,783.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0),..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.1B",
+      "value": 15.1,
+      "unit": "billion",
+      "money_mn": 15100.0,
+      "decimals": 1,
+      "context": "...capacity narrows. Net debt narrowed to $12.8B in Q1 from $15.1B at year-end, with non-GAAP free cash flow of...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "15,081.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.1B",
+      "value": 1.1,
+      "unit": "billion",
+      "money_mn": 1100.0,
+      "decimals": 1,
+      "context": "...in Q1 from $15.1B at year-end, with non-GAAP free cash flow of $1.1B  . By Q2 net debt was $22.2B and by Q3 it was...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.1 billion",
+        "snippet": "• Operating cash flow was $1.3 billion and non-GAAP free cash flow was $1.1 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.2B",
+      "value": 22.2,
+      "unit": "billion",
+      "money_mn": 22200.0,
+      "decimals": 1,
+      "context": "...with non-GAAP free cash flow of $1.1B  . By Q2 net debt was $22.2B and by Q3 it was $20.8B, with total debt at...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "22,210.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.8B",
+      "value": 20.8,
+      "unit": "billion",
+      "money_mn": 20800.0,
+      "decimals": 1,
+      "context": "...cash flow of $1.1B  . By Q2 net debt was $22.2B and by Q3 it was $20.8B, with total debt at $26.5B against $19.7B at...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20,800.0)",
+        "snippet": "...(15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.5B",
+      "value": 26.5,
+      "unit": "billion",
+      "money_mn": 26500.0,
+      "decimals": 1,
+      "context": "...Q2 net debt was $22.2B and by Q3 it was $20.8B, with total debt at $26.5B against $19.7B at year-end  . Trailing free cash...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "26,482.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $5,682.0 million, total debt $26,482.0 million, net cash -$20,800.0 million, TTM free cash flow $5,727.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.7B",
+      "value": 19.7,
+      "unit": "billion",
+      "money_mn": 19700.0,
+      "decimals": 1,
+      "context": "...$22.2B and by Q3 it was $20.8B, with total debt at $26.5B against $19.7B at year-end  . Trailing free cash flow was...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "19,696.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $4,615.0 million, total debt $19,696.0 million, net cash -$15,081.0 million, free cash flow $5,260.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.7B",
+      "value": 5.7,
+      "unit": "billion",
+      "money_mn": 5700.0,
+      "decimals": 1,
+      "context": "...at $26.5B against $19.7B at year-end  . Trailing free cash flow was $5.7B, but net debt rose, so the invalidation...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,741",
+        "snippet": "Sales $ 5,951 $ 5,741 Cost of sales (2,360) (2,230)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.5%",
+      "value": 5.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...by project timing  . Q3 core growth excluding respiratory rose to 5.5%  . The releases and      MD&A excerpts provided...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "core"
+        ],
+        "hl": "5.5%",
+        "snippet": "• Non-GAAP core revenue excluding respiratory revenue increased 5.5% year-over-year and non-GAAP core revenue increased 3.0% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...give Biotechnology or Life Sciences core growth or margins, so the 5% and positive-core tests cannot be checked; the...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "4.5%",
+        "snippet": "...increased 3.0% year-over-year and non-GAAP core revenue excluding respiratory testing revenue increased 4.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to earn their cost of capital. Q1 kept full-year core growth at 3-6%  . Q2 narrowed it to 3-4%, lowering the top of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q1 kept full-year core growth at 3-6%  . Q2 narrowed it to 3-4%, lowering the top of the range  . Nine-month...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "range"
+        ],
+        "hl": "4.0%",
+        "snippet": "For full year 2026, the Company expects non-GAAP core revenue will increase in the 3.0% to 4.0% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.9%",
+      "value": 5.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the top of the range  . Nine-month reported sales were $18,770M, up 5.9%  . Q4 core growth is guided to about 3%  , so...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...sales were $18,770M, up 5.9%  . Q4 core growth is guided to about 3%  , so the year-to-date run rate points to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...continue as estimates keep rising. Adjusted EPS beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "6.5%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.06 vs estimate $1.94 (surprise +6.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.3%",
+      "value": 5.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rising. Adjusted EPS beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "5.3%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $1.94 vs estimate $1.84 (surprise +5.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.0%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs $1.92)  . Full-year adjusted EPS...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "...the first quarter, which enabled us to accelerate innovation, drive productivity gains, and deliver nearly 10% adjusted EPS growth. On the top line, we continued on a steady recovery path with strength in Bioprocessing..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to earn their cost of capital. Q1 kept full-year core growth at 3-6%  . Q2 narrowed it to 3-4%, lowering the top...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...capital. Q1 kept full-year core growth at 3-6%  . Q2 narrowed it to 3-4%, lowering the top of the range  . Nine-month...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3",
+        "snippet": "3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.50",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...($2.11 vs $1.92)  . Full-year adjusted EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance"
+        ],
+        "hl": "8.50",
+        "snippet": "...net earnings per common share guidance to a range of $8.35 to $8.55 versus previous guidance of $8.35 to $8.50."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.55",
+      "value": 8.55,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Full-year adjusted EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62  . The...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "pershare"
+        ],
+        "hl": "8.55",
+        "snippet": "...increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.35 to $8.55 versus previous guidance of $8.35 to $8.50."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.60",
+      "value": 8.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62  . The guidance midpoint of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "pershare"
+        ],
+        "hl": "8.60",
+        "snippet": "...increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.45 to $8.60 versus previous guidance of $8.35 to $8.55."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.62",
+      "value": 8.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62  . The guidance midpoint of $8.595 clears the...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.62",
+        "snippet": "...is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "23",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...clears the $8.59 signpost, but the low end of $8.57 does not; 23 analysts raised current-year estimates and none...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst"
+        ],
+        "hl": "23",
+        "snippet": "...$8.58 30 days ago, $8.51 90 days ago, change vs 90 days ago +1.0%; analysts raising/cutting in last 30 days: 23/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...23 analysts raised current-year estimates and none cut them in the 30 days before retrieval  . T4: Shareholder returns...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "...today, $8.58 30 days ago, $8.51 90 days ago, change vs 90 days ago +1.0%; analysts raising/cutting in last 30 days: 23/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$305M",
+      "value": 305.0,
+      "unit": "million",
+      "money_mn": 305.0,
+      "decimals": 0,
+      "context": "...was financed partly with debt; nine-month interest expense was $305M against $210M a year earlier  . Eased: none of...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "305)",
+        "snippet": "Interest expense (135) (67) (305) (210)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$210M",
+      "value": 210.0,
+      "unit": "million",
+      "money_mn": 210.0,
+      "decimals": 0,
+      "context": "...partly with debt; nine-month interest expense was $305M against $210M a year earlier  . Eased: none of the risks from...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "210)",
+        "snippet": "Interest expense (135) (67) (305) (210)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "150",
+      "value": 150.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q1, and Q4 guidance includes a respiratory headwind of about 150 basis points  . Leverage rose as the Masimo...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "headwind",
+          "respiratory"
+        ],
+        "hl": "150",
+        "snippet": "...will increase in the 4.0% to 5.0% range year-over-year. We expect respiratory revenue to be an approximately 150 basis point headwind, resulting in core revenue growth of approximately 3.0%."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.57",
+      "value": 8.57,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...core growth guidance is 3.0% to 4.0% and adjusted EPS guidance is $8.57 to $8.62  . Consensus FY2026 EPS is $8.59 and...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.57",
+        "snippet": "...Company is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.62",
+      "value": 8.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...guidance is 3.0% to 4.0% and adjusted EPS guidance is $8.57 to $8.62  . Consensus FY2026 EPS is $8.59 and FY2026...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.62",
+        "snippet": "...is increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.57 to $8.62 versus previous guidance of $8.45 to $8.60."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.59",
+      "value": 8.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...adjusted EPS guidance is $8.57 to $8.62  . Consensus FY2026 EPS is $8.59 and FY2026 revenue is $26.26B, 6.9% growth  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.60",
+        "snippet": "...increasing its full year adjusted diluted net earnings per common share guidance to a range of $8.45 to $8.60 versus previous guidance of $8.35 to $8.55."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.26B",
+      "value": 26.26,
+      "unit": "billion",
+      "money_mn": 26260.0,
+      "decimals": 2,
+      "context": "...to $8.62  . Consensus FY2026 EPS is $8.59 and FY2026 revenue is $26.26B, 6.9% growth  . Consensus FY2027 EPS is $9.32...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "26,262.6 million",
+        "snippet": "- FY2026E: revenue $26,262.6 million (range $26,190.0 million to $26,308.0 million, 22 analysts), growth +6.9%; EPS $8.59 (range $8.58 to $8.62);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.32",
+      "value": 9.32,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2026 revenue is $26.26B, 6.9% growth  . Consensus FY2027 EPS is $9.32 and revenue $28.27B, up 7.6%  . Current-year EPS...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "9.32",
+        "snippet": "...revenue $28,272.9 million (range $27,650.1 million to $28,885.0 million, 22 analysts), growth +7.6%; EPS $9.32 (range $9.17 to $9.49); forward P/E 24.4x; EV/Sales 6.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.27B",
+      "value": 28.27,
+      "unit": "billion",
+      "money_mn": 28270.0,
+      "decimals": 2,
+      "context": "...$26.26B, 6.9% growth  . Consensus FY2027 EPS is $9.32 and revenue $28.27B, up 7.6%  . Current-year EPS estimates rose 1.0%...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "28,272.9 million",
+        "snippet": "- FY2027E: revenue $28,272.9 million (range $27,650.1 million to $28,885.0 million, 22 analysts), growth +7.6%; EPS $9.32 (range $9.17 to $9.49);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.26B",
+      "value": 26.26,
+      "unit": "billion",
+      "money_mn": 26260.0,
+      "decimals": 2,
+      "context": "...February 2027 annual filing for FY2026 reported revenue against the $26.26B signpost, the buyback total against the $3.0B...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "26,262.6 million",
+        "snippet": "- FY2026E: revenue $26,262.6 million (range $26,190.0 million to $26,308.0 million, 22 analysts), growth +6.9%; EPS $8.59 (range $8.58 to $8.62);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.0B",
+      "value": 3.0,
+      "unit": "billion",
+      "money_mn": 3000.0,
+      "decimals": 1,
+      "context": "...revenue against the $26.26B signpost, the buyback total against the $3.0B threshold, and whether Biotechnology and Life...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "2,957,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.8B",
+      "value": 18.8,
+      "unit": "billion",
+      "money_mn": 18800.0,
+      "decimals": 1,
+      "context": "...core growth meet the T1 tests. Nine-month reported sales are $18.8B, so reaching consensus needs a sharp Q4  . A Q4...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18,770",
+        "snippet": "Sales $ 6,554 $ 6,053 $ 18,770 $ 17,730"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q4 FY2026 non-GAAP core revenue excluding respiratory revenue up 4.0% to 5.0%, with respiratory a headwind of about...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "revenue"
+        ],
+        "hl": "4.0%",
+        "snippet": "...2026, the Company anticipates that non-GAAP core revenue excluding respiratory revenue will increase in the 4.0% to 5.0% range year-over-year. We expect respiratory revenue to be an approximately 150 basis point headwind,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.0%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...non-GAAP core revenue excluding respiratory revenue up 4.0% to 5.0%, with respiratory a headwind of about 150 basis...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "revenue"
+        ],
+        "hl": "5.0%",
+        "snippet": "...Company anticipates that non-GAAP core revenue excluding respiratory revenue will increase in the 4.0% to 5.0% range year-over-year. We expect respiratory revenue to be an approximately 150 basis point headwind,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a headwind of about 150 basis points, for core growth of about 3.0%  . Full-year FY2026 core growth guidance is 3.0%...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "headwind",
+          "core"
+        ],
+        "hl": "3.0%",
+        "snippet": "...revenue to be an approximately 150 basis point headwind, resulting in core revenue growth of approximately 3.0%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of about 3.0%  . Full-year FY2026 core growth guidance is 3.0% to 4.0% and adjusted EPS guidance is $8.57 to...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of about 3.0%  . Full-year FY2026 core growth guidance is 3.0% to 4.0% and adjusted EPS guidance is $8.57 to $8.62  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "4.0%",
+        "snippet": "For full year 2026, the Company expects non-GAAP core revenue will increase in the 3.0% to 4.0% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per common..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus FY2026 EPS is $8.59 and FY2026 revenue is $26.26B, 6.9% growth  . Consensus FY2027 EPS is $9.32 and...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "6.9%",
+        "snippet": "- FY2026E: revenue $26,262.6 million (range $26,190.0 million to $26,308.0 million, 22 analysts), growth +6.9%; EPS $8.59 (range $8.58 to $8.62); forward P/E 26.5x; EV/Sales 6.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.6%",
+      "value": 7.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth  . Consensus FY2027 EPS is $9.32 and revenue $28.27B, up 7.6%  . Current-year EPS estimates rose 1.0% over 90...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "7.6%",
+        "snippet": "- FY2027E: revenue $28,272.9 million (range $27,650.1 million to $28,885.0 million, 22 analysts), growth +7.6%; EPS $9.32 (range $9.17 to $9.49); forward P/E 24.4x; EV/Sales 6.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.0%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and revenue $28.27B, up 7.6%  . Current-year EPS estimates rose 1.0% over 90 days, with 23 raises and no cuts in 30...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "1.0%",
+        "snippet": "...EPS consensus current fiscal year: $8.59 today, $8.58 30 days ago, $8.51 90 days ago, change vs 90 days ago +1.0%; analysts raising/cutting in last 30 days: 23/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...needs a sharp Q4  . A Q4 core growth shortfall below the guided 3% would put the T2 and T3 signposts at risk.",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "150",
+      "value": 150.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue up 4.0% to 5.0%, with respiratory a headwind of about 150 basis points, for core growth of about 3.0%  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "headwind",
+          "respiratory",
+          "revenue"
+        ],
+        "hl": "150",
+        "snippet": "...will increase in the 4.0% to 5.0% range year-over-year. We expect respiratory revenue to be an approximately 150 basis point headwind, resulting in core revenue growth of approximately 3.0%."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$28.27B, up 7.6%  . Current-year EPS estimates rose 1.0% over 90 days, with 23 raises and no cuts in 30 days  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $8.59 today, $8.58 30 days ago, $8.51 90 days ago, change vs 90 days ago +1.0%; analysts raising/cutting in last 30 days: 23/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "23",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 7.6%  . Current-year EPS estimates rose 1.0% over 90 days, with 23 raises and no cuts in 30 days  . Watch: the...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "23",
+        "snippet": "...$8.58 30 days ago, $8.51 90 days ago, change vs 90 days ago +1.0%; analysts raising/cutting in last 30 days: 23/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS estimates rose 1.0% over 90 days, with 23 raises and no cuts in 30 days  . Watch: the February 2027 annual filing...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "30",
+        "snippet": "- EPS consensus current fiscal year: $8.59 today, $8.58 30 days ago, $8.51 90 days ago, change vs 90 days ago +1.0%; analysts raising/cutting in last 30 days: 23/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.06",
+      "value": 2.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...revenue growth y/y: 4.5% vs , 5.5% vs . Adjusted diluted EPS: $2.06 vs , $1.94 vs , $2.11 vs . Operating profit...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.06",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 9.5% to $2.06."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.94",
+      "value": 1.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...growth y/y: 4.5% vs , 5.5% vs . Adjusted diluted EPS: $2.06 vs , $1.94 vs , $2.11 vs . Operating profit (GAAP): $1344.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.94",
+        "snippet": "• Non-GAAP adjusted diluted net earnings per common share grew 8.0% to $1.94."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.11",
+      "value": 2.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...4.5% vs , 5.5% vs . Adjusted diluted EPS: $2.06 vs , $1.94 vs , $2.11 vs . Operating profit (GAAP): $1344.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.11",
+        "snippet": "$ 2.11 (a)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1344.0 million",
+      "value": 1344.0,
+      "unit": "million",
+      "money_mn": 1344.0,
+      "decimals": 1,
+      "context": "...EPS: $2.06 vs , $1.94 vs , $2.11 vs . Operating profit (GAAP): $1344.0 million vs $1274.0 million, $1127.0 million vs $760.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,344",
+        "snippet": "Operating profit 1,344 1,274"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1274.0 million",
+      "value": 1274.0,
+      "unit": "million",
+      "money_mn": 1274.0,
+      "decimals": 1,
+      "context": "..., $1.94 vs , $2.11 vs . Operating profit (GAAP): $1344.0 million vs $1274.0 million, $1127.0 million vs $760.0 million, $1245.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,274",
+        "snippet": "Operating profit 1,344 1,274 Nonoperating income (expense):"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1127.0 million",
+      "value": 1127.0,
+      "unit": "million",
+      "money_mn": 1127.0,
+      "decimals": 1,
+      "context": "...vs . Operating profit (GAAP): $1344.0 million vs $1274.0 million, $1127.0 million vs $760.0 million, $1245.0 million vs $1154.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,127",
+        "snippet": "Operating profit 1,127 760 2,471 2,034"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$760.0 million",
+      "value": 760.0,
+      "unit": "million",
+      "money_mn": 760.0,
+      "decimals": 1,
+      "context": "...(GAAP): $1344.0 million vs $1274.0 million, $1127.0 million vs $760.0 million, $1245.0 million vs $1154.0 million. Net cash...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "760",
+        "snippet": "Operating profit 1,127 760 2,471 2,034"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1245.0 million",
+      "value": 1245.0,
+      "unit": "million",
+      "money_mn": 1245.0,
+      "decimals": 1,
+      "context": "...million vs $1274.0 million, $1127.0 million vs $760.0 million, $1245.0 million vs $1154.0 million. Net cash (debt): $-12783.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,245",
+        "snippet": "Operating profit 1,245 1,154 3,716 3,188"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1154.0 million",
+      "value": 1154.0,
+      "unit": "million",
+      "money_mn": 1154.0,
+      "decimals": 1,
+      "context": "...million, $1127.0 million vs $760.0 million, $1245.0 million vs $1154.0 million. Net cash (debt): $-12783.0 million vs ,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,154",
+        "snippet": "Operating profit 1,245 1,154 3,716 3,188"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.5%",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Non-GAAP core revenue growth y/y: 0.5% vs , 3.0% vs , 3.0% vs . Non-GAAP core revenue...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "0.5%",
+        "snippet": "• Revenues increased 3.5% year-over-year to $6.0 billion and non-GAAP core revenue increased 0.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Non-GAAP core revenue growth y/y: 0.5% vs , 3.0% vs , 3.0% vs . Non-GAAP core revenue excluding...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.0%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Non-GAAP core revenue growth y/y: 0.5% vs , 3.0% vs , 3.0% vs . Non-GAAP core revenue excluding respiratory...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "For full year 2026, the Company continues to expect that non-GAAP core revenue will increase in the 3% to 6% range year-over-year. The Company is also increasing its full year adjusted diluted net earnings per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.5%",
+      "value": 4.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Non-GAAP core revenue excluding respiratory revenue growth y/y: 4.5% vs , 5.5% vs . Adjusted diluted EPS: $2.06 vs ,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "core",
+          "non-gaap",
+          "revenue"
+        ],
+        "hl": "4.5%",
+        "snippet": "...increased 3.0% year-over-year and non-GAAP core revenue excluding respiratory testing revenue increased 4.5% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.5%",
+      "value": 5.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...core revenue excluding respiratory revenue growth y/y: 4.5% vs , 5.5% vs . Adjusted diluted EPS: $2.06 vs , $1.94 vs ,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "excluding",
+          "respiratory",
+          "core",
+          "revenue"
+        ],
+        "hl": "5.5%",
+        "snippet": "• Non-GAAP core revenue excluding respiratory revenue increased 5.5% year-over-year and non-GAAP core revenue increased 3.0% year-over-year."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-12783.0",
+      "value": 12783.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, $1245.0 million vs $1154.0 million. Net cash (debt): $-12783.0 million vs , $-22210.0 million vs , $-20800.0...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "debt",
+          "net",
+          "cashflow"
+        ],
+        "hl": "12,783.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0),..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-22210.0",
+      "value": 22210.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $1154.0 million. Net cash (debt): $-12783.0 million vs , $-22210.0 million vs , $-20800.0 million vs $-15328.0...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "debt",
+          "net",
+          "cashflow"
+        ],
+        "hl": "22,210.0)",
+        "snippet": "- Net cash (debt): FY2025 (15,081.0); Q1 FY2026 (12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-20800.0",
+      "value": 20800.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Net cash (debt): $-12783.0 million vs , $-22210.0 million vs , $-20800.0 million vs $-15328.0 million.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "debt",
+          "net",
+          "cashflow"
+        ],
+        "hl": "20,800.0 million",
+        "snippet": "...(2026-09-30): cash and short-term investments $5,682.0 million, total debt $26,482.0 million, net cash -$20,800.0 million, TTM free cash flow $5,727.0 million, cash runway at that burn self-funded, current ratio 1.6x, shares..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-15328.0",
+      "value": 15328.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$-12783.0 million vs , $-22210.0 million vs , $-20800.0 million vs $-15328.0 million.",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "15,328.0)",
+        "snippet": "...(12,783.0) (year-ago n/a, n/a); Q2 FY2026 (22,210.0) (year-ago n/a, n/a); Q3 FY2026 (20,800.0) (year-ago (15,328.0), worse); trend deteriorating"
+      }
+    }
+  ],
+  "build_round": 3,
+  "round1": {
+    "total_claims": 142,
+    "matched": 141,
+    "match_rate": 0.993
+  }
+}

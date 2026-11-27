@@ -1,0 +1,318 @@
+Company names (use exactly these names): ABNB = Airbnb, Inc.; BKNG = Booking Holdings Inc.; EXPE = Expedia Group, Inc.; MAR = Marriott International, Inc.
+
+
+Revenue:
+ABNB: 2022     8399
+2023     9917
+2024    11102
+2025    12241
+Name: Revenue, dtype: object
+BKNG: 2022    17090
+2023    21365
+2024    23739
+2025    26917
+Name: Revenue, dtype: object
+EXPE: 2022    11667
+2023    12839
+2024    13691
+2025    14733
+Name: Revenue, dtype: object
+MAR: 2022    20773
+2023    23713
+2024    25100
+2025    26186
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+ABNB: 2022      n/a
+2023    18.1%
+2024    11.9%
+2025    10.3%
+Name: Revenue Growth, dtype: object
+BKNG: 2022      n/a
+2023    25.0%
+2024    11.1%
+2025    13.4%
+Name: Revenue Growth, dtype: object
+EXPE: 2022      n/a
+2023    10.0%
+2024     6.6%
+2025     7.6%
+Name: Revenue Growth, dtype: object
+MAR: 2022      n/a
+2023    14.2%
+2024     5.8%
+2025     4.3%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+ABNB: 2022     6900
+2023     8214
+2024     9224
+2025    10155
+Name: Gross Profit, dtype: object
+BKNG: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Profit, dtype: object
+EXPE: 2022    10010
+2023    11266
+2024    12248
+2025    13277
+Name: Gross Profit, dtype: object
+MAR: 2022    4558
+2023    4980
+2024    4972
+2025    5222
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+ABNB: 2022    82.2%
+2023    82.8%
+2024    83.1%
+2025    83.0%
+Name: Gross Margin, dtype: object
+BKNG: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Margin, dtype: object
+EXPE: 2022    85.8%
+2023    87.7%
+2024    89.5%
+2025    90.1%
+Name: Gross Margin, dtype: object
+MAR: 2022    21.9%
+2023    21.0%
+2024    19.8%
+2025    19.9%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+ABNB: 2022    1972
+2023    1518
+2024    2553
+2025    2544
+Name: EBITDA, dtype: object
+BKNG: 2022     4921
+2023     7043
+2024     9338
+2025    10956
+Name: EBITDA, dtype: object
+EXPE: 2022    1607
+2023    2070
+2024    2626
+2025    2777
+Name: EBITDA, dtype: object
+MAR: 2022    3917
+2023    4379
+2024    4338
+2025    4802
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+ABNB: 2022    23.5%
+2023    15.3%
+2024    23.0%
+2025    20.8%
+Name: EBITDA Margin, dtype: object
+BKNG: 2022    28.8%
+2023    33.0%
+2024    39.3%
+2025    40.7%
+Name: EBITDA Margin, dtype: object
+EXPE: 2022    13.8%
+2023    16.1%
+2024    19.2%
+2025    18.8%
+Name: EBITDA Margin, dtype: object
+MAR: 2022    18.9%
+2023    18.5%
+2024    17.3%
+2025    18.3%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+ABNB: 2022    3430
+2023    3884
+2024    4518
+2025    4646
+Name: FCF, dtype: object
+BKNG: 2022    6186
+2023    6999
+2024    7894
+2025    9087
+Name: FCF, dtype: object
+EXPE: 2022    2778
+2023    1844
+2024    2329
+2025    3110
+Name: FCF, dtype: object
+MAR: 2022    2031
+2023    2718
+2024    1999
+2025    2608
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+ABNB: 2022    1.81
+2023    0.81
+2024    1.71
+2025    1.85
+Name: FCF Conversion, dtype: object
+BKNG: 2022    2.02
+2023    1.63
+2024    1.34
+2025    1.68
+Name: FCF Conversion, dtype: object
+EXPE: 2022    7.89
+2023    2.31
+2024    1.89
+2025     2.4
+Name: FCF Conversion, dtype: object
+MAR: 2022    0.86
+2023    0.88
+2024    0.84
+2025     1.0
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+ABNB: 2022    23.9%
+2023    11.1%
+2024    19.5%
+2025    20.0%
+Name: ROIC, dtype: object
+BKNG: 2022    22.0%
+2023    43.6%
+2024    55.1%
+2025    50.8%
+Name: ROIC, dtype: object
+EXPE: 2022     6.1%
+2023    11.0%
+2024    18.1%
+2025    20.8%
+Name: ROIC, dtype: object
+MAR: 2022    25.0%
+2023    32.2%
+2024    25.3%
+2025    25.9%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+ABNB: 2022     24.8
+2023    54.21
+2024    30.19
+2025    30.35
+Name: EV/EBITDA, dtype: object
+BKNG: 2022    15.67
+2023     17.7
+2024    17.63
+2025    15.78
+Name: EV/EBITDA, dtype: object
+EXPE: 2022     9.88
+2023    11.18
+2024    10.03
+2025    12.86
+Name: EV/EBITDA, dtype: object
+MAR: 2022    14.51
+2023     17.8
+2024    21.21
+2025    20.66
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+ABNB: 2022    5.82
+2023     8.3
+2024    6.94
+2025    6.31
+Name: EV/Sales, dtype: object
+BKNG: 2022    4.51
+2023    5.84
+2024    6.93
+2025    6.42
+Name: EV/Sales, dtype: object
+EXPE: 2022    1.36
+2023     1.8
+2024    1.92
+2025    2.42
+Name: EV/Sales, dtype: object
+MAR: 2022    2.74
+2023    3.29
+2024    3.67
+2025    3.79
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+ABNB: 2022     30.65
+2023      18.8
+2024     31.97
+2025    131.77
+Name: PE Ratio, dtype: object
+BKNG: 2022     26.4
+2023    30.21
+2024    28.77
+2025    32.34
+Name: PE Ratio, dtype: object
+EXPE: 2022    40.37
+2023    28.59
+2024    20.82
+2025    28.88
+Name: PE Ratio, dtype: object
+MAR: 2022    20.56
+2023    22.15
+2024    33.49
+2025    32.62
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+ABNB: 2022      9.7
+2023    10.64
+2024     9.73
+2025     9.97
+Name: PB Ratio, dtype: object
+BKNG: 2022    27.43
+2023      n/m
+2024      n/m
+2025      n/m
+Name: PB Ratio, dtype: object
+EXPE: 2022     5.88
+2023    13.56
+2024    15.41
+2025    27.03
+Name: PB Ratio, dtype: object
+MAR: 2022    81.42
+2023      n/m
+2024      n/m
+2025      n/m
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for ABNB and ['BKNG', 'EXPE', 'MAR'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

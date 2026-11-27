@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/BE_earnings_multi_claude-haiku-5.5\\BE_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Revenue keeps compounding as AI and utility demand converts into delivered sites.",
+        "signpost": "Fremont reaches a 2 GW annual run rate by end-2026, and FY2026 revenue lands within the $4,412.0-4,637.0 million consensus range [3]. The releases and 10-Qs provided do not report Fremont capacity, so this part cannot be checked.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Bloom relies on refinancing and equity until operating cash flow covers its debt.",
+        "signpost": "Share count growth below 5% y/y in the FY2026 10-K, with full-year free cash flow positive. The invalidation is share count growth above 25% y/y.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T3: The valuation needs earnings to convert within two years; the market is paying for growth beyond history.",
+        "signpost": "A positive GAAP net income quarter in 2026, and FY2026 EPS consensus holding at or above $3.27 [3]. Invalidation: FY2026 EPS consensus below $2.98, or the implied return under WACC after the next two reported quarters.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Gross margin expansion continues as volumes scale and one-off charges fade.",
+        "signpost": "Product gross margin above its 2025 level in Q1 2026 results, with no new Electrolyzer reserves. Invalidation: consolidated gross margin below 27% in any reported quarter.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      }
+    ]
+  }
+]

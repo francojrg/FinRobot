@@ -1,0 +1,318 @@
+Company names (use exactly these names): NU = Nu Holdings Ltd.; INTR = Inter & Co, Inc.; SOFI = SoFi Technologies, Inc.; PAGS = PagSeguro Digital Ltd.
+
+
+Revenue:
+NU: 2022     2971
+2023     5632
+2024     8270
+2025    10627
+Name: Revenue, dtype: object
+INTR: 2022    3563
+2023    4753
+2024    6400
+2025    8401
+Name: Revenue, dtype: object
+SOFI: 2022    1574
+2023    2108
+2024    2612
+2025    3613
+Name: Revenue, dtype: object
+PAGS: 2022    15335
+2023    15948
+2024    18810
+2025    20411
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+NU: 2022      n/a
+2023    89.6%
+2024    46.8%
+2025    28.5%
+Name: Revenue Growth, dtype: object
+INTR: 2022      n/a
+2023    33.4%
+2024    34.7%
+2025    31.3%
+Name: Revenue Growth, dtype: object
+SOFI: 2022      n/a
+2023    34.0%
+2024    23.9%
+2025    38.3%
+Name: Revenue Growth, dtype: object
+PAGS: 2022      n/a
+2023     4.0%
+2024    17.9%
+2025     8.5%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+NU: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Profit, dtype: object
+INTR: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Profit, dtype: object
+SOFI: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Profit, dtype: object
+PAGS: 2022     7864
+2023     7816
+2024     9266
+2025    10714
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+NU: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Margin, dtype: object
+INTR: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Margin, dtype: object
+SOFI: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: Gross Margin, dtype: object
+PAGS: 2022    51.3%
+2023    49.0%
+2024    49.3%
+2025    52.5%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+NU: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EBITDA, dtype: object
+INTR: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EBITDA, dtype: object
+SOFI: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EBITDA, dtype: object
+PAGS: 2022    6042
+2023    6642
+2024    7728
+2025    8743
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+NU: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EBITDA Margin, dtype: object
+INTR: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EBITDA Margin, dtype: object
+SOFI: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EBITDA Margin, dtype: object
+PAGS: 2022    39.4%
+2023    41.6%
+2024    41.1%
+2025    42.8%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+NU: 2022     641
+2023    1089
+2024    2224
+2025    3160
+Name: FCF, dtype: object
+INTR: 2022    1824
+2023    7270
+2024    3249
+2025    7160
+Name: FCF, dtype: object
+SOFI: 2022    -7360
+2023    -7348
+2024    -1283
+2025    -3994
+Name: FCF, dtype: object
+PAGS: 2022     1413
+2023     2011
+2024    -5737
+2025     5286
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+NU: 2022     n/m
+2023    1.06
+2024    1.13
+2025     1.1
+Name: FCF Conversion, dtype: object
+INTR: 2022      n/m
+2023    24.05
+2024     3.58
+2025     5.46
+Name: FCF Conversion, dtype: object
+SOFI: 2022     n/m
+2023     n/m
+2024   -2.57
+2025    -8.3
+Name: FCF Conversion, dtype: object
+PAGS: 2022    0.94
+2023    1.22
+2024   -2.71
+2025     2.5
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+NU: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: ROIC, dtype: object
+INTR: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: ROIC, dtype: object
+SOFI: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: ROIC, dtype: object
+PAGS: 2022    17.6%
+2023    10.6%
+2024     9.9%
+2025    10.0%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+NU: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+INTR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+SOFI: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+PAGS: 2022    4.12
+2023    6.57
+2024    6.63
+2025    6.38
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+NU: 2022    4.32
+2023    4.84
+2024    4.46
+2025    5.86
+Name: EV/Sales, dtype: object
+INTR: 2022    1.56
+2023    2.71
+2024    2.31
+2025    2.89
+Name: EV/Sales, dtype: object
+SOFI: 2022    5.41
+2023    5.69
+2024    6.71
+2025    8.38
+Name: EV/Sales, dtype: object
+PAGS: 2022    1.62
+2023    2.74
+2024    2.72
+2025    2.73
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+NU: 2022      n/m
+2023    39.27
+2024    25.68
+2025    28.63
+Name: PE Ratio, dtype: object
+INTR: 2022      n/m
+2023    35.89
+2024    12.64
+2025    15.62
+Name: PE Ratio, dtype: object
+SOFI: 2022      n/m
+2023      n/m
+2024    39.49
+2025    67.13
+Name: PE Ratio, dtype: object
+PAGS: 2022     9.78
+2023    11.35
+2024     5.45
+2025     6.85
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+NU: 2022    3.91
+2023     6.2
+2024    6.53
+2025     7.2
+Name: PB Ratio, dtype: object
+INTR: 2022    0.72
+2023    1.45
+2024    1.29
+2025    2.02
+Name: PB Ratio, dtype: object
+SOFI: 2022    0.78
+2023    1.75
+2024    2.59
+2025    3.17
+Name: PB Ratio, dtype: object
+PAGS: 2022    1.24
+2023    1.42
+2024    0.79
+2025    0.99
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for NU and ['INTR', 'SOFI', 'PAGS'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

@@ -1,0 +1,102 @@
+{
+  "ticker_symbol": "ABNB",
+  "fyear": "2025",
+  "save_dir": "../reports/ABNB_earnings_multi_claude-haiku-5.5",
+  "headline": "Airbnb beat and raised in Q2 and Q3 FY2026 with revenue up 17-19% y/y, but a Q1 EPS miss and tax items cloud profit quality.",
+  "summary": "Airbnb has raised its 2026 outlook since the annual report. Revenue grew 18%, 17% and 19% y/y in Q1, Q2 and Q3 FY2026, to $2.7bn, $3.6bn and $4.9bn [1][2]. Nights and Seats Booked growth moved from 9% to 10% and then 16%, and GBV grew 19%, 16% and 21% [2]. Full-year revenue growth guidance moved to high teens, and the adjusted EBITDA margin guidance to about 36% [1].\n\nProfit quality is mixed. Q1 EPS of $0.26 missed the $0.30 estimate by 14.1%, and a $69 million one-time CAMT deferred-tax charge weighed on net income [2][3]. Q2 EPS of $1.37 beat by 9.5%, helped by a $77 million prior-year tax benefit [2][3]. Q3 EPS of $3.16 beat by 11.0%, and the y/y tax provision fell $135 million [2][3]. Free cash flow was $1.7bn, $1.3bn and $1.4bn, and buybacks were $1.1bn, $1.1bn and $0.7bn, so repurchases stayed within free cash flow in each quarter [2]. Consensus FY2026 EPS rose to $5.58 from $5.29 90 days earlier, and the stock closed at $172.15, 30.8x forward EPS [3]. The 10-Q MD&A extracts reviewed do not discuss the IRS Tax Court case, so its status is unverified [2][4].",
+  "results_commentary": "Q1 FY2026 (ended 31 March) was the weak quarter on profit. Diluted EPS was $0.26 against a $0.30 consensus, a 14.1% miss [3]. Net income of $160 million was up only $6 million y/y because a $70 million gain on a privately held equity stake was offset by a $69 million one-time deferred-tax adjustment from the U.S. Corporate Alternative Minimum Tax (CAMT) [2]. Operating expenses rose 16% against revenue growth of 18% [2]. Demand was the strong part: revenue was $2.7 billion, up 18% (15% ex-FX) [1]. Nights and Seats Booked (NSB) rose 9% to 156 million, and management estimated about 10% growth without the Middle East cancellations in EMEA and Asia Pacific [1][2]. GBV rose 19% to $29.2 billion [2]. Free cash flow was $1.7 billion, against $1.8 billion a year earlier [2].\n\nQ2 FY2026 (ended 30 June) showed acceleration on the demand side. Revenue grew 17% to $3.6 billion (13% ex-FX), and NSB grew 10% to 148 million, up from 9% in Q1 [1][2]. GBV rose 16% to $27.2 billion, with a moderate ADR increase [2]. Operating expenses rose 15%, slower than revenue, and adjusted EBITDA margin reached 35% [1][2]. Net income of $816 million was $174 million higher y/y, but the reported profit includes a $77 million benefit for prior-year taxes, so the EPS beat of $1.37 against $1.25 (+9.5%) is partly a tax effect (illustrative: about $0.13 per share on roughly 590 million shares) [2][3]. Free cash flow rose to $1.3 billion from $1.0 billion [2].\n\nQ3 FY2026 (ended 30 September) was the strongest quarter. Revenue was $4.9 billion, up 19%, above the $4.69-4.77 billion range management guided to [1][2]. NSB rose 16% to 155 million and GBV rose 21% to $27.7 billion [2]. Net income was $1.9 billion, up $516 million, and the prior year included a $213 million CAMT valuation allowance that is absent now [2]. EPS of $3.16 beat $2.85 by 11.0% [3]. Free cash flow grew to $1.4 billion from $1.3 billion, but the FCF margin fell to 31.0% from 33.1% because revenue grew faster than cash flow [3]. Management flagged tougher comparisons in the second half against the 2025 launch of Reserve Now, Pay Later (RNPL) [1]. Across the three quarters the demand trend improved, while earnings quality depended on tax items in two of three quarters.",
+  "thesis_check": [
+    {
+      "thesis": "T1: Operating margin recovers in 2026 as sales and marketing growth falls below revenue growth.",
+      "signpost": "In the 2026 10-Qs, sales and marketing growth is below revenue growth in Q2 and Q3, and the FY2026 10-K shows operating margin at or above 23%.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Q1 operating margin was 3.2% and is not a test of the 2026 signpost, which is set on the June and September quarters [3]. In Q2, total operating expenses grew 15% against revenue growth of 17%, and Yahoo operating margin was 21.0% [2][3]. In Q3, total costs grew 15% against revenue growth of 19%, and Yahoo operating margin rose to 41.5% from 39.7% [2][3]. Sales and marketing growth is not disclosed in the MD&A extracts reviewed, so the test uses total costs as a proxy."
+    },
+    {
+      "thesis": "T2: Buybacks keep shrinking the share count, funded from free cash flow.",
+      "signpost": "Quarterly share count falls below 589 million by the Q4 2026 report, and repurchases stay at or below free cash flow in each 2026 quarter.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Repurchases were $1.1 billion against $1.7 billion FCF in Q1, $1.1 billion against $1.3 billion in Q2, and $712 million against $1.4 billion in Q3 [2]. Share count fell to 594.9 million, 590.0 million and 589.0 million, against 608 million a year earlier in Q3 [3]. The 589 million threshold is reached but not yet passed, so the Q4 2026 report is the test [3]."
+    },
+    {
+      "thesis": "T3: The stock needs consensus earnings to keep rising, because the current valuation implies returns close to the cost of capital.",
+      "signpost": "The Q2 2026 EPS beats estimates, and FY2026 consensus EPS rises above $5.58 by the Q3 2026 report.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q1 EPS of $0.26 missed the $0.30 estimate by 14.1%, which is a new quarterly miss and matches the invalidation test, so Q1 is marked weakened rather than broken because the Q2 and Q3 beats followed [3]. Q2 EPS of $1.37 beat by 9.5%, meeting the Q2 signpost, though a $77 million tax benefit contributed [2][3]. FY2026 consensus EPS is $5.58, up from $5.29 90 days earlier, and 22 analysts raised and 2 cut in the last 30 days, but $5.58 equals rather than exceeds the signpost level [3]."
+    },
+    {
+      "thesis": "T4: The IRS dispute is resolved without a cash payment above the existing reserve.",
+      "signpost": "A Tax Court ruling or settlement is disclosed in a 2026 10-Q or 10-K, with a payment at or below the existing reserve.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The MD&A extracts and the Q3 risk factor update reviewed do not disclose a Tax Court ruling or settlement, so the signpost is not met and the matter is unverified [2]. Cash and short-term investments were $12.59 billion against total debt of $2.41 billion at 30 September, above the invalidation threshold of cash covering debt [3]. The $2.0 billion 0% notes due 2026 were repaid in March 2026 with proceeds from $2.5 billion of new senior notes [2]."
+    }
+  ],
+  "risk_update": "Materialised: the Middle East conflict increased cancellations in EMEA and Asia Pacific in Q1, and management assumed about a 100 bp headwind to Q2 NSB growth [1][2]. The 10-Q MD&A states the conflict has not had a material impact to date [2]. Tax items distorted GAAP EPS in each quarter, with CAMT charges and benefits of $69 million, $77 million and $213 million in the prior year [2]. New: RNPL bookings have higher cancellation rates than historic bookings, and the timing of GBV, revenue and cash is becoming less correlated [2]. Eased: the March 2026 refinancing removed the $2.0 billion 0% notes due in 2026 from the maturity wall, and total debt rose to $2.41 billion [2][3]. Unchanged and unverified: the IRS dispute, which the MD&A extracts do not cover, and EU short-term rental rules, which the 2026 filings reviewed do not mention [2][4].",
+  "outlook": "Full-year 2026 guidance was raised twice: revenue growth to low-to-mid teens at Q1, to at least mid teens at Q2, and to high teens at Q3 [1]. Adjusted EBITDA margin guidance moved from at least 35% to at least 35.5% and then to about 36% [1]. Q4 2026 guidance is revenue of $3.22-3.28 billion (16-18% growth), NSB growth of at least low double digits, and an adjusted EBITDA margin slightly below Q4 2025 because of marketing timing [1]. Consensus FY2026 EPS is $5.58 and FY2027 is $6.39, with 22 of 24 FY2026 estimate changes in the last 30 days upward [3]. Watch: whether Q4 NSB growth holds at low double digits, the Q4 share count below 589 million, the FY2026 operating margin against the 23% signpost, and any Tax Court ruling. A Q4 NSB growth rate below 10% would weaken the demand case.",
+  "company_kpis": [
+    {
+      "name": "Nights and Seats Booked",
+      "unit": "million",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 156,
+        "Q2 FY2026": 148,
+        "Q3 FY2026": 155
+      },
+      "prior_values": {
+        "Q1 FY2026": 143,
+        "Q2 FY2026": 134,
+        "Q3 FY2026": 134
+      },
+      "source": "10-Q MD&A key business metrics [2]"
+    },
+    {
+      "name": "Gross Booking Value",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 29187,
+        "Q2 FY2026": 27247,
+        "Q3 FY2026": 27715
+      },
+      "prior_values": {
+        "Q1 FY2026": 24515,
+        "Q2 FY2026": 23447,
+        "Q3 FY2026": 22892
+      },
+      "source": "10-Q MD&A key business metrics [2]"
+    },
+    {
+      "name": "Revenue growth y/y",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 18,
+        "Q2 FY2026": 17,
+        "Q3 FY2026": 19
+      },
+      "prior_values": {},
+      "source": "Earnings releases and 10-Q MD&A [1][2]; year-ago growth rates not applicable"
+    }
+  ]
+}

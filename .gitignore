@@ -70,3 +70,5 @@ ai_in_finance/eval/manual_review_sample.csv
 .claude/
 .agents/
 ai_in_finance/notebooks/_backup_*/
+# Musterdateien gehoeren ins Repository (Demo, Betreuer)
+!ai_in_finance/portfolios/sample_*.csv

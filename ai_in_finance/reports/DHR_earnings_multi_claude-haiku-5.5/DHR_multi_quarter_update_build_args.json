@@ -1,0 +1,123 @@
+{
+  "ticker_symbol": "DHR",
+  "fyear": "2025",
+  "save_dir": "../reports/DHR_earnings_multi_claude-haiku-5.5",
+  "headline": "Three quarters of 2026 brought EPS beats and three EPS guidance raises, but core revenue growth stayed at 0.5-3.0% and net debt rose to $20.8B.",
+  "summary": "Danaher beat adjusted EPS consensus in each of the three quarters since the annual report: $2.06 in Q1 FY2026 (6.5% above estimate), $1.94 in Q2 (5.3% above) and $2.11 in Q3 (10.0% above) [1][3]. Full-year adjusted EPS guidance was raised three times, to $8.57-8.62 from $8.35-8.50 [1]. Core revenue growth was weak: 0.5% in Q1, 3.0% in Q2 and 3.0% in Q3 [1]. In Q2 the full-year core revenue range was narrowed to 3-4% from 3-6% [1]. Nine-month reported sales were $18.8B, up 5.9% on the prior-year period [2][3]. Net debt rose from $15.1B at year-end 2025 to $20.8B at Q3 FY2026, as total debt reached $26.5B; the debt financed the Masimo acquisition [2][3]. The earnings-momentum thesis (T3) is strengthened. The Biotechnology thesis (T1) is intact but cannot be fully tested from the filings. The valuation thesis (T2) is strengthened by the core guidance cut, and the balance-sheet thesis (T4) is strengthened by the rise in net debt, although that debt funded an acquisition rather than buybacks [2][4].",
+  "results_commentary": "Core revenue, the measure management guides to, was the weak point. Non-GAAP core revenue grew 0.5% in Q1 FY2026, 3.0% in Q2 and 3.0% in Q3 [1]. In Q1 the respiratory season at Cepheid was lighter than usual, and management said this offset strength in Bioprocessing and better Life Sciences results [1]. In Q2, bioprocessing revenue was held back by customer project timing, although bioprocessing orders grew in the mid-teens [1]. Excluding respiratory revenue, core growth was 4.5% in Q2 and 5.5% in Q3 [1]. The Q2 release narrowed full-year core growth to 3-4% from 3-6%, the one clear downward revision in the period [1]. Gross margin fell from 60.3% in Q1 to 57.6% in Q2 and recovered to 58.5% in Q3, compared with 58.2% a year earlier [2][3]. The releases do not explain the Q2 decline. Interest expense rose to $107M in Q2 from $71M a year earlier, and to $305M for nine months from $210M [1].\n\nProfit grew faster than sales. Operating profit was $1,344M in Q1 (Q1 FY2025: $1,274M), $1,127M in Q2 ($760M) and $1,245M in Q3 ($1,154M) [1]. Diluted EPS from continuing operations was $1.45, $1.23 and $1.71, against $1.32, $0.77 and $1.27 a year earlier [1]. Q3 total diluted EPS of $1.75 includes $0.04 from discontinued operations [1]. Adjusted EPS grew 9.5%, 8.0% and 11.5% to $2.06, $1.94 and $2.11, and each beat consensus [1][3]. The releases attribute the adjusted EPS gains to DBS-driven execution and productivity, not to core revenue, which grew 3.0% or less in each quarter.\n\nQ3 was the strongest quarter. Sales were $6,554M against $6,053M, up 8.3% on the statement figures (the release states 8.5%) [1][3]. Core growth was 3.0%, so the gap to reported growth is non-core. The Masimo acquisition completed in Q2, earlier than anticipated [1], which is the likely source, but the releases do not quantify its contribution. Non-GAAP free cash flow was $1.1B, $1.3B and $1.6B in the three quarters [1]. Net debt went from $15.1B at year-end to $12.8B in Q1, then widened to $22.2B in Q2 and $20.8B in Q3 [2][3]. The Q3 release quotes Julie Sawyer Montgomery as President and CEO, while the Q1 and Q2 releases quote Rainer Blair in that role [1].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Biotechnology consumables growth will keep offsetting Life Sciences weakness through 2026.",
+      "signpost": "Biotechnology core sales growth at or above 5% and Life Sciences core sales turning positive in each 2026 quarterly report; first full read at Q4 2026 report in February 2027 [4].",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q1 release cites strength in Bioprocessing and better-than-expected Life Sciences [1]. Q2 release calls Life Sciences its strongest quarter in several years and reports bioprocessing orders up mid-teens, with revenue held back by project timing [1]. Q3 core growth excluding respiratory rose to 5.5% [1]. The releases and 10-Q MD&A excerpts provided do not give Biotechnology or Life Sciences core growth or margins, so the 5% and positive-core tests cannot be checked; the status rests on qualitative commentary only."
+    },
+    {
+      "thesis": "T2: The current valuation requires growth well above history, so at consensus growth the shares are unlikely to earn their cost of capital.",
+      "signpost": "FY2026 reported revenue of at least $26.26B (about 6.9% growth), per the February 2027 annual filing [3]; invalidation if FY2026 growth is below 3% or guidance is cut [4].",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Q1 kept full-year core growth at 3-6% [1]. Q2 narrowed it to 3-4%, lowering the top of the range [1]. Nine-month reported sales were $18,770M, up 5.9% [1][3]. Q4 core growth is guided to about 3% [1], so the year-to-date run rate points to full-year revenue below the $26.26B consensus [3]."
+    },
+    {
+      "thesis": "T3: Earnings momentum will continue as estimates keep rising.",
+      "signpost": "Q4 2026 EPS at or above consensus and FY2026 EPS of at least $8.59, reported in February 2027 [3]; invalidation if Q4 misses or FY2026 guidance falls below $8.50 [4].",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Adjusted EPS beat consensus by 6.5% in Q1 ($2.06 vs $1.94), 5.3% in Q2 ($1.94 vs $1.84) and 10.0% in Q3 ($2.11 vs $1.92) [1][3]. Full-year adjusted EPS guidance rose from $8.35-8.50 to $8.35-8.55, then $8.45-8.60, then $8.57-8.62 [1]. The guidance midpoint of $8.595 clears the $8.59 signpost, but the low end of $8.57 does not; 23 analysts raised current-year estimates and none cut them in the 30 days before retrieval [3]."
+    },
+    {
+      "thesis": "T4: Shareholder returns will outrun free cash flow, so balance-sheet capacity narrows.",
+      "signpost": "FY2026 buybacks below $3.0B in the February 2027 annual filing, or net debt rising again in that filing [2]; invalidation if free cash flow stays at or above $5.3B while net debt falls [4].",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Net debt narrowed to $12.8B in Q1 from $15.1B at year-end, with non-GAAP free cash flow of $1.1B [1][2][3]. By Q2 net debt was $22.2B and by Q3 it was $20.8B, with total debt at $26.5B against $19.7B at year-end [2][3]. Trailing free cash flow was $5.7B, but net debt rose, so the invalidation condition (net debt falling) was not met. The 10-Q attributes the new debt to the Masimo purchase, not to buybacks; the 2026 buyback total is not in the materials [2]."
+    }
+  ],
+  "risk_update": "Materialised: The respiratory season at Cepheid was lighter than usual in Q1, and Q4 guidance includes a respiratory headwind of about 150 basis points [1]. Leverage rose as the Masimo purchase was financed partly with debt; nine-month interest expense was $305M against $210M a year earlier [1][2][3]. Eased: none of the risks from the annual report was clearly reduced in the period. New: the Q3 10-Q added a risk factor on Middle East military conflict, citing disrupted energy supplies, supply chains and cost increases, and calls the full impact \"highly uncertain\" [2]. Masimo integration is now a named acquisition risk [2]. A CEO change is reflected in the Q3 release [1]. Tariff and healthcare-pricing risks remain in the filings without new quantified effects [2]. Goodwill impairment exposure is higher after the acquisition, but no impairment was reported in the period [2].",
+  "outlook": "Management guides Q4 FY2026 non-GAAP core revenue excluding respiratory revenue up 4.0% to 5.0%, with respiratory a headwind of about 150 basis points, for core growth of about 3.0% [1]. Full-year FY2026 core growth guidance is 3.0% to 4.0% and adjusted EPS guidance is $8.57 to $8.62 [1]. Consensus FY2026 EPS is $8.59 and FY2026 revenue is $26.26B, 6.9% growth [3]. Consensus FY2027 EPS is $9.32 and revenue $28.27B, up 7.6% [3]. Current-year EPS estimates rose 1.0% over 90 days, with 23 raises and no cuts in 30 days [3]. Watch: the February 2027 annual filing for FY2026 reported revenue against the $26.26B signpost, the buyback total against the $3.0B threshold, and whether Biotechnology and Life Sciences core growth meet the T1 tests. Nine-month reported sales are $18.8B, so reaching consensus needs a sharp Q4 [2][3]. A Q4 core growth shortfall below the guided 3% would put the T2 and T3 signposts at risk.",
+  "company_kpis": [
+    {
+      "name": "Non-GAAP core revenue growth y/y",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 0.5,
+        "Q2 FY2026": 3,
+        "Q3 FY2026": 3
+      },
+      "prior_values": {},
+      "source": "Earnings releases [1]; prior-year core growth base not stated in the releases provided"
+    },
+    {
+      "name": "Non-GAAP core revenue excluding respiratory revenue growth y/y",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q2 FY2026": 4.5,
+        "Q3 FY2026": 5.5
+      },
+      "prior_values": {},
+      "source": "Earnings releases [1]; Q1 not disclosed in the releases provided"
+    },
+    {
+      "name": "Adjusted diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2.06,
+        "Q2 FY2026": 1.94,
+        "Q3 FY2026": 2.11
+      },
+      "prior_values": {},
+      "source": "Earnings releases [1]; releases state y/y growth of 9.5%, 8.0% and 11.5%, prior-year values not stated"
+    },
+    {
+      "name": "Operating profit (GAAP)",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1344,
+        "Q2 FY2026": 1127,
+        "Q3 FY2026": 1245
+      },
+      "prior_values": {
+        "Q1 FY2026": 1274,
+        "Q2 FY2026": 760,
+        "Q3 FY2026": 1154
+      },
+      "source": "Earnings releases [1]"
+    },
+    {
+      "name": "Net cash (debt)",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": -12783,
+        "Q2 FY2026": -22210,
+        "Q3 FY2026": -20800
+      },
+      "prior_values": {
+        "Q3 FY2026": -15328
+      },
+      "source": "Yahoo Finance scorecard [3]; negative values are net debt, as stated in the scorecard"
+    }
+  ]
+}

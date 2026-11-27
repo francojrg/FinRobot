@@ -1,0 +1,292 @@
+Company names (use exactly these names): BE = Bloom Energy Corporation; FCEL = FuelCell Energy, Inc.; PLUG = Plug Power Inc.; EROC = ERock, Inc.
+
+
+Revenue:
+BE: 2022    1199
+2023    1333
+2024    1474
+2025    2024
+Name: Revenue, dtype: object
+FCEL: 2022    130
+2023    123
+2024    112
+2025    158
+Name: Revenue, dtype: object
+PLUG: 2022    701
+2023    891
+2024    629
+2025    710
+Name: Revenue, dtype: object
+EROC: 2024    128
+2025    183
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+BE: 2022      n/a
+2023    11.2%
+2024    10.5%
+2025    37.3%
+Name: Revenue Growth, dtype: object
+FCEL: 2022      n/a
+2023    -5.4%
+2024    -9.1%
+2025    41.0%
+Name: Revenue Growth, dtype: object
+PLUG: 2022       n/a
+2023     27.1%
+2024    -29.5%
+2025     12.9%
+Name: Revenue Growth, dtype: object
+EROC: 2024      n/a
+2025    42.5%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+BE: 2022    148
+2023    198
+2024    405
+2025    587
+Name: Gross Profit, dtype: object
+FCEL: 2022    -30
+2023    -11
+2024    -36
+2025    -26
+Name: Gross Profit, dtype: object
+PLUG: 2022    -194
+2023    -508
+2024    -625
+2025    -242
+Name: Gross Profit, dtype: object
+EROC: 2024    17
+2025    38
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+BE: 2022    12.4%
+2023    14.8%
+2024    27.5%
+2025    29.0%
+Name: Gross Margin, dtype: object
+FCEL: 2022    -22.7%
+2023     -8.5%
+2024    -32.0%
+2025    -16.7%
+Name: Gross Margin, dtype: object
+PLUG: 2022    -27.7%
+2023    -57.0%
+2024    -99.4%
+2025    -34.1%
+Name: Gross Margin, dtype: object
+EROC: 2024    13.4%
+2025    20.7%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+BE: 2022    -199
+2023    -135
+2024      89
+2025      20
+Name: EBITDA, dtype: object
+FCEL: 2022    -119
+2023     -75
+2024    -111
+2025    -140
+Name: EBITDA, dtype: object
+PLUG: 2022     -633
+2023    -1260
+2024    -1976
+2025    -1584
+Name: EBITDA, dtype: object
+EROC: 2024    -37
+2025    -27
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+BE: 2022    -16.6%
+2023    -10.1%
+2024      6.1%
+2025      1.0%
+Name: EBITDA Margin, dtype: object
+FCEL: 2022    -91.0%
+2023    -60.7%
+2024    -98.9%
+2025    -88.8%
+Name: EBITDA Margin, dtype: object
+PLUG: 2022     -90.2%
+2023    -141.4%
+2024    -314.3%
+2025    -223.1%
+Name: EBITDA Margin, dtype: object
+EROC: 2024    -28.9%
+2025    -14.8%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+BE: 2022    -309
+2023    -456
+2024      33
+2025      57
+Name: FCF, dtype: object
+FCEL: 2022    -159
+2023    -233
+2024    -212
+2025    -148
+Name: FCF, dtype: object
+PLUG: 2022    -1292
+2023    -1803
+2024    -1063
+2025     -661
+Name: FCF, dtype: object
+EROC: 2024    -33
+2025    112
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+BE: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+FCEL: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+PLUG: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+EROC: 2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+BE: 2022    -25.7%
+2023    -10.9%
+2024      1.6%
+2025     -0.7%
+Name: ROIC, dtype: object
+FCEL: 2022    -13.3%
+2023    -12.3%
+2024    -18.3%
+2025    -22.8%
+Name: ROIC, dtype: object
+PLUG: 2022    -11.1%
+2023    -38.2%
+2024    -83.5%
+2025    -96.8%
+Name: ROIC, dtype: object
+EROC: 2024    -191.7%
+2025      50.9%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+BE: 2022        n/m
+2023        n/m
+2024      65.11
+2025    1240.45
+Name: EV/EBITDA, dtype: object
+FCEL: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+PLUG: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+EROC: 2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+BE: 2022     3.84
+2023     3.09
+2024     3.95
+2025    12.29
+Name: EV/Sales, dtype: object
+FCEL: 2022    6.99
+2023    3.08
+2024    1.93
+2025    1.76
+Name: EV/Sales, dtype: object
+PLUG: 2022    10.71
+2023      4.0
+2024     4.48
+2025     4.75
+Name: EV/Sales, dtype: object
+EROC: 2024    n/a
+2025    n/a
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+BE: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+FCEL: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+PLUG: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+EROC: 2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+BE: 2022    11.54
+2023     6.62
+2024     9.05
+2025    31.66
+Name: PB Ratio, dtype: object
+FCEL: 2022     1.7
+2023    0.66
+2024    0.29
+2025    0.57
+Name: PB Ratio, dtype: object
+PLUG: 2022     1.8
+2023    0.94
+2024    1.12
+2025    2.81
+Name: PB Ratio, dtype: object
+EROC: 2024    n/m
+2025    n/m
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for BE and ['FCEL', 'PLUG', 'EROC'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

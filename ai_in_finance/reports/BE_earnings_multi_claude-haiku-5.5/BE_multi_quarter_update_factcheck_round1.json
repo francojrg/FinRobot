@@ -1,0 +1,3363 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 141,
+  "context_match_rate": 0.898,
+  "number_only": [
+    {
+      "kind": "plain",
+      "text": "130",
+      "value": 130.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 130-166% y/y in each quarter and FY2026 guidance was...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "129,710",
+        "snippet": "129,710"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "130.4%",
+      "value": 130.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the FY2025      show the revenue thesis strengthening. Revenue rose 130.4% y/y to $751.1 million in Q1 FY2026, 165.5% to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.4%",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "130.4%",
+      "value": 130.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the first quarter after the     . Revenue was $751.1 million, up 130.4% from $326.0 million, and product revenue rose...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.4%",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "208.4%",
+      "value": 208.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, up 130.4% from $326.0 million, and product revenue rose 208.4% to $653.3 million  . Gross margin was 30.0%,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "208.4%",
+        "snippet": "...in the first quarter of 2025. Product revenue of $653.3 million in the first quarter of 2026, an increase of 208.4% compared to $211.9 million in the first quarter of 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "130.4%",
+      "value": 130.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...AI and utility demand converts into delivered sites. Revenue grew 130.4% in Q1, 165.5% in Q2 and 138.1% in Q3  . FY2026...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.4%",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year earlier  . Product gross margin is not...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "29.2%",
+        "snippet": "...29.0%; Q1 FY2026 30.0% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 33.8% (year-ago 29.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Court ruled IEEPA tariffs unlawful in February 2026. A temporary 10% tariff followed, and the      for Q3 describes a...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.6%",
+        "snippet": "9.6%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.8",
+      "value": 3.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at each of the three reports. FY2026 revenue was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.8B",
+        "snippet": "$3.4B - $3.8B"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.2",
+      "value": 4.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reports. FY2026 revenue was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.2 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $3.9 billion – 4.2 billion, representing 100% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3. Non-GAAP EPS guidance moved to...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.6 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    }
+  ],
+  "total_claims": 157,
+  "matched": 151,
+  "match_rate": 0.962,
+  "by_kind": {
+    "pct": {
+      "total": 67,
+      "matched": 63,
+      "context_matched": 57
+    },
+    "plain": {
+      "total": 19,
+      "matched": 18,
+      "context_matched": 14
+    },
+    "money": {
+      "total": 69,
+      "matched": 68,
+      "context_matched": 68
+    },
+    "multiple": {
+      "total": 2,
+      "matched": 2,
+      "context_matched": 2
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 112,
+    "[2] Forms 10-Q": 0,
+    "[3] Yahoo Finance": 39,
+    "[4] Annual report and thesis log": 0
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and 138.1% to $1,235.8 million in Q3  . Gross margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 208.4% to $653.3 million  . Gross margin was 30.0%, against 27.2% a year earlier, and GAAP operating income was...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$4.41",
+      "value": 4.41,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q3, and the consensus of $4,525.9 million sits inside the $4.41-4.64 billion range  . Q3 growth in percentage...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...gross margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year earlier  . Product gross...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "4.64",
+      "value": 4.64,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q3, and the consensus of $4,525.9 million sits inside the $4.41-4.64 billion range  . Q3 growth in percentage terms...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$1235.8 million vs $519.0 million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP...",
+      "section": "Company KPIs",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "pct",
+      "text": "-166%",
+      "value": 166.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 130-166% y/y in each quarter and FY2026 guidance was...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "166%",
+        "snippet": "• Delivered 166% year-over-year revenue growth, driven by 215% product revenue growth"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but Q3 free cash flow turned negative and the share count rose 25% y/y.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "130",
+      "value": 130.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 130-166% y/y in each quarter and FY2026 guidance was...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "129,710",
+        "snippet": "129,710"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$751.1 million",
+      "value": 751.1,
+      "unit": "million",
+      "money_mn": 751.1,
+      "decimals": 1,
+      "context": "...show the revenue thesis strengthening. Revenue rose 130.4% y/y to $751.1 million in Q1 FY2026, 165.5% to $1,065.4 million in Q2...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "751.1 million",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,065.4 million",
+      "value": 1065.4,
+      "unit": "million",
+      "money_mn": 1065.4,
+      "decimals": 1,
+      "context": "...Revenue rose 130.4% y/y to $751.1 million in Q1 FY2026, 165.5% to $1,065.4 million in Q2 and 138.1% to $1,235.8 million in Q3  ....",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,065.4 million",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,235.8 million",
+      "value": 1235.8,
+      "unit": "million",
+      "money_mn": 1235.8,
+      "decimals": 1,
+      "context": "...in Q1 FY2026, 165.5% to $1,065.4 million in Q2 and 138.1% to $1,235.8 million in Q3  . Gross margin widened from 27.2% to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,235.8 million",
+        "snippet": "• Achieved record quarterly revenue of $1,235.8 million, delivering 138.1% year-over-year growth"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "130.4%",
+      "value": 130.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the FY2025      show the revenue thesis strengthening. Revenue rose 130.4% y/y to $751.1 million in Q1 FY2026, 165.5% to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.4%",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "165.5%",
+      "value": 165.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Revenue rose 130.4% y/y to $751.1 million in Q1 FY2026, 165.5% to $1,065.4 million in Q2 and 138.1% to $1,235.8...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "165.5%",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "138.1%",
+      "value": 138.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$751.1 million in Q1 FY2026, 165.5% to $1,065.4 million in Q2 and 138.1% to $1,235.8 million in Q3  . Gross margin...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "138.1%",
+        "snippet": "• Achieved record quarterly revenue of $1,235.8 million, delivering 138.1% year-over-year growth"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and 138.1% to $1,235.8 million in Q3  . Gross margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "30.0%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $1,235.8 million in Q3  . Gross margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over the same...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "30.0%",
+        "snippet": "• Gross margin of 30.0% in the first quarter of 2026, an increase of 2.8 percentage points year-over-year. Non-GAAP gross margin of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.7%",
+      "value": 26.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$1,235.8 million in Q3  . Gross margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over the same...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million in Q3  . Gross margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over the same comparisons  ....",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q3  . Gross margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over the same comparisons  . GAAP...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "29.2%",
+        "snippet": "...29.0%; Q1 FY2026 30.0% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 33.8% (year-ago 29.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.8%",
+      "value": 33.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin widened from 27.2% to 30.0%, 26.7% to 33.4% and 29.2% to 33.8% over the same comparisons  . GAAP diluted EPS...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "33.8%",
+        "snippet": "• Gross margin of 33.8% increased 453 basis points. Non-GAAP gross margin of 34.5% increased 412 basis points."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60%",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in each quarter, and the FY2026 revenue guide was raised from about 60% growth to 122% at the midpoint  . Three issues...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "midpoint"
+        ],
+        "hl": "60%",
+        "snippet": "• Raised full year 2026 revenue growth guidance midpoint to ~80% year-over-year, up from prior guidance of ~60%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "122%",
+      "value": 122.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the FY2026 revenue guide was raised from about 60% growth to 122% at the midpoint  . Three issues weigh against...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "122%",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-14.6%",
+      "value": 14.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Three issues weigh against the thesis. Q3 free cash flow margin was -14.6% after +16.4% in Q2  . The share count was 295.5...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cashflow",
+          "margin"
+        ],
+        "hl": "14.6%",
+        "snippet": "...margin: FY2025 2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.4%",
+      "value": 16.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against the thesis. Q3 free cash flow margin was -14.6% after +16.4% in Q2  . The share count was 295.5 million, up...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow",
+          "margin"
+        ],
+        "hl": "16.4%",
+        "snippet": "- Free cash flow margin: FY2025 2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.0%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...-14.6% after +16.4% in Q2  . The share count was 295.5 million, up 25.0% y/y, which reaches the invalidation level for...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...level for the funding thesis  . The reverse DCF still implies a 10.6% return against a 15.0% WACC, and that figure is...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "wacc",
+          "return"
+        ],
+        "hl": "10.6%",
+        "snippet": "...price requires growth well above both history and the steep fade in consensus [2][3]. The implied return of 10.6% sits below the 15% WACC used [3]. Main risks are financing dependence, tax-credit policy and permitting for..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.0%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...thesis  . The reverse DCF still implies a 10.6% return against a 15.0% WACC, and that figure is a single snapshot taken...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "15.0%",
+        "snippet": "...million -> about $107,564.0 million in FY2035), assuming the free cash flow margin moves from 2.8% to 15.0% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.50 x 5.0% equity risk premium) and 2.5%..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "295.5",
+      "value": 295.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...flow margin was -14.6% after +16.4% in Q2  . The share count was 295.5 million, up 25.0% y/y, which reaches the...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "295.5",
+        "snippet": "...count: FY2025 280.0; Q1 FY2026 284.2 (year-ago n/a, n/a); Q2 FY2026 293.4 (year-ago n/a, n/a); Q3 FY2026 295.5 (year-ago 236.4, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$751.1 million",
+      "value": 751.1,
+      "unit": "million",
+      "money_mn": 751.1,
+      "decimals": 1,
+      "context": "Q1 FY2026 was the first quarter after the     . Revenue was $751.1 million, up 130.4% from $326.0 million, and product...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "751.1 million",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$326.0 million",
+      "value": 326.0,
+      "unit": "million",
+      "money_mn": 326.0,
+      "decimals": 1,
+      "context": "...quarter after the     . Revenue was $751.1 million, up 130.4% from $326.0 million, and product revenue rose 208.4% to $653.3...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "326.0 million",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first quarter of 2026, an increase of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$653.3 million",
+      "value": 653.3,
+      "unit": "million",
+      "money_mn": 653.3,
+      "decimals": 1,
+      "context": "...up 130.4% from $326.0 million, and product revenue rose 208.4% to $653.3 million  . Gross margin was 30.0%, against 27.2% a year...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "653.3 million",
+        "snippet": "...of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first quarter of 2026, an increase of 208.4% compared to $211.9 million in the first quarter of 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$72.2 million",
+      "value": 72.2,
+      "unit": "million",
+      "money_mn": 72.2,
+      "decimals": 1,
+      "context": "...30.0%, against 27.2% a year earlier, and GAAP operating income was $72.2 million against a $19.1 million loss  . Operating cash...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "72.2 million",
+        "snippet": "• Operating income of $72.2 million in the first quarter of 2026, an increase of $91.3 million year-over-year. Non-GAAP operating income of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.1 million",
+      "value": 19.1,
+      "unit": "million",
+      "money_mn": 19.1,
+      "decimals": 1,
+      "context": "...year earlier, and GAAP operating income was $72.2 million against a $19.1 million loss  . Operating cash flow was $73.6 million,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19,070)",
+        "snippet": "(19,070)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73.6 million",
+      "value": 73.6,
+      "unit": "million",
+      "money_mn": 73.6,
+      "decimals": 1,
+      "context": "...million against a $19.1 million loss  . Operating cash flow was $73.6 million, $184.3 million better than a year earlier  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "73.6 million",
+        "snippet": "• Generated $73.6 million cash flow from operating activities in the first quarter of 2026, an increase of $184.3 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$184.3 million",
+      "value": 184.3,
+      "unit": "million",
+      "money_mn": 184.3,
+      "decimals": 1,
+      "context": "...a $19.1 million loss  . Operating cash flow was $73.6 million, $184.3 million better than a year earlier  . Service gross...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "184.3 million",
+        "snippet": "• Generated $73.6 million cash flow from operating activities in the first quarter of 2026, an increase of $184.3 million year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,065.4 million",
+      "value": 1065.4,
+      "unit": "million",
+      "money_mn": 1065.4,
+      "decimals": 1,
+      "context": "...work  .  Q2 FY2026 was the strongest quarter. Revenue was $1,065.4 million, up 165.5% from $401.2 million, and the first...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,065.4 million",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$401.2 million",
+      "value": 401.2,
+      "unit": "million",
+      "money_mn": 401.2,
+      "decimals": 1,
+      "context": "...the strongest quarter. Revenue was $1,065.4 million, up 165.5% from $401.2 million, and the first quarter above $1 billion  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "401.2 million",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1 billion",
+      "value": 1.0,
+      "unit": "billion",
+      "money_mn": 1000.0,
+      "decimals": 0,
+      "context": "...million, up 165.5% from $401.2 million, and the first quarter above $1 billion  . Product revenue rose 215.4% to $935.4 million...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1 billion",
+        "snippet": "• Achieved record quarterly revenue of $1.065 billion, surpassing $1 billion for the first time"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$935.4 million",
+      "value": 935.4,
+      "unit": "million",
+      "money_mn": 935.4,
+      "decimals": 1,
+      "context": "...first quarter above $1 billion  . Product revenue rose 215.4% to $935.4 million  . Gross margin reached 33.4% against 26.7%, and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "935.4 million",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$226.4 million",
+      "value": 226.4,
+      "unit": "million",
+      "money_mn": 226.4,
+      "decimals": 1,
+      "context": "...operating margin was 17.1% against -0.9%  . Operating cash flow was $226.4 million, against an outflow of $213.1 million a year...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "226.4 million",
+        "snippet": "• Cash flow from operating activities of $226.4 million increased $439.5 million from a net cash used in operating activities of $213.1 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$213.1 million",
+      "value": 213.1,
+      "unit": "million",
+      "money_mn": 213.1,
+      "decimals": 1,
+      "context": ".... Operating cash flow was $226.4 million, against an outflow of $213.1 million a year earlier  . The      says the company...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "213.1 million",
+        "snippet": "...activities of $226.4 million increased $439.5 million from a net cash used in operating activities of $213.1 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$178.9 million",
+      "value": 178.9,
+      "unit": "million",
+      "money_mn": 178.9,
+      "decimals": 1,
+      "context": "...alone would give  . Working capital grew: contract assets rose from $178.9 million at year-end to $365.5 million, and inventories...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "178,928",
+        "snippet": "178,928"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$365.5 million",
+      "value": 365.5,
+      "unit": "million",
+      "money_mn": 365.5,
+      "decimals": 1,
+      "context": "...grew: contract assets rose from $178.9 million at year-end to $365.5 million, and inventories from $643.3 million to $758.2...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "365,461",
+        "snippet": "365,461"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$643.3 million",
+      "value": 643.3,
+      "unit": "million",
+      "money_mn": 643.3,
+      "decimals": 1,
+      "context": "...$178.9 million at year-end to $365.5 million, and inventories from $643.3 million to $758.2 million  . The share count rose to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "643,306",
+        "snippet": "643,306"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$758.2 million",
+      "value": 758.2,
+      "unit": "million",
+      "money_mn": 758.2,
+      "decimals": 1,
+      "context": "...year-end to $365.5 million, and inventories from $643.3 million to $758.2 million  . The share count rose to 293.4 million  .  Q3...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "758,188",
+        "snippet": "758,188"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,235.8 million",
+      "value": 1235.8,
+      "unit": "million",
+      "money_mn": 1235.8,
+      "decimals": 1,
+      "context": "...still growing but at a slower rate in percentage terms. Revenue was $1,235.8 million, up 138.1% from $519.0 million, and up 16% from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,235.8 million",
+        "snippet": "• Achieved record quarterly revenue of $1,235.8 million, delivering 138.1% year-over-year growth"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$519.0 million",
+      "value": 519.0,
+      "unit": "million",
+      "money_mn": 519.0,
+      "decimals": 1,
+      "context": "...in percentage terms. Revenue was $1,235.8 million, up 138.1% from $519.0 million, and up 16% from Q2 in dollars  . Gross margin...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "519,048",
+        "snippet": "519,048"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.78",
+      "value": 0.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Gross margin was 33.8%, against 29.2%, and GAAP diluted EPS was $0.78 against -$0.10  . Non-GAAP operating income was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.78",
+        "snippet": "• EPS of $0.62 increased $0.80 compared to a loss of $(0.18). Non-GAAP EPS of $0.78 increased $0.68 compared to $0.10."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$0.10",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was 33.8%, against 29.2%, and GAAP diluted EPS was $0.78 against -$0.10  . Non-GAAP operating income was $285.7 million...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.10)",
+        "snippet": "(0.10)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$285.7 million",
+      "value": 285.7,
+      "unit": "million",
+      "money_mn": 285.7,
+      "decimals": 1,
+      "context": "...EPS was $0.78 against -$0.10  . Non-GAAP operating income was $285.7 million against $46.2 million  . Free cash flow margin...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "285.7 million",
+        "snippet": "• Operating income of $225.4 million increased $217.6 million. Non-GAAP operating income of $285.7 million increased $239.4 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$46.2 million",
+      "value": 46.2,
+      "unit": "million",
+      "money_mn": 46.2,
+      "decimals": 1,
+      "context": "...-$0.10  . Non-GAAP operating income was $285.7 million against $46.2 million  . Free cash flow margin fell to -14.6% from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "46,249",
+        "snippet": "46,249"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$792.8 million",
+      "value": 792.8,
+      "unit": "million",
+      "money_mn": 792.8,
+      "decimals": 1,
+      "context": "...sections extracted here. The balance sheet shows contract assets at $792.8 million and inventories at $927.7 million, and accounts...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "792,833",
+        "snippet": "792,833"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$927.7 million",
+      "value": 927.7,
+      "unit": "million",
+      "money_mn": 927.7,
+      "decimals": 1,
+      "context": "...sheet shows contract assets at $792.8 million and inventories at $927.7 million, and accounts receivable at $634.7 million  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "927,670",
+        "snippet": "927,670"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$634.7 million",
+      "value": 634.7,
+      "unit": "million",
+      "money_mn": 634.7,
+      "decimals": 1,
+      "context": "...and inventories at $927.7 million, and accounts receivable at $634.7 million  . Current ratio fell to 3.7x from 4.4x a year...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "634,743",
+        "snippet": "634,743"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.4",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 25.0% y/y  . Management raised FY2026 revenue guidance to $4.4-4.6 billion and non-GAAP EPS to $3.10-3.40  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.4 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.10",
+      "value": 3.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2026 revenue guidance to $4.4-4.6 billion and non-GAAP EPS to $3.10-3.40  . Consensus EPS for FY2026 is $3.27, and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.10",
+        "snippet": "$3.10 - $3.40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.27",
+      "value": 3.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and non-GAAP EPS to $3.10-3.40  . Consensus EPS for FY2026 is $3.27, and forecasts moved up 20.6% in 90 days  .",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.27",
+        "snippet": "...revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "130.4%",
+      "value": 130.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the first quarter after the     . Revenue was $751.1 million, up 130.4% from $326.0 million, and product revenue rose...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.4%",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "208.4%",
+      "value": 208.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, up 130.4% from $326.0 million, and product revenue rose 208.4% to $653.3 million  . Gross margin was 30.0%,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "208.4%",
+        "snippet": "...in the first quarter of 2025. Product revenue of $653.3 million in the first quarter of 2026, an increase of 208.4% compared to $211.9 million in the first quarter of 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30.0%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...product revenue rose 208.4% to $653.3 million  . Gross margin was 30.0%, against 27.2% a year earlier, and GAAP...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "30.0%",
+        "snippet": "• Gross margin of 30.0% in the first quarter of 2026, an increase of 2.8 percentage points year-over-year. Non-GAAP gross margin of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 208.4% to $653.3 million  . Gross margin was 30.0%, against 27.2% a year earlier, and GAAP operating income was...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "13.3%",
+      "value": 13.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million better than a year earlier  . Service gross margin rose to 13.3% from 1.3%, which is the clearest sign that the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "service",
+          "gross",
+          "margin"
+        ],
+        "hl": "13.3%",
+        "snippet": "• Service gross margin of 13.3% in the first quarter of 2026, an increase of 12.0 percentage points compared to 1.3% in the first quarter of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...than a year earlier  . Service gross margin rose to 13.3% from 1.3%, which is the clearest sign that the service...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "1.4%",
+        "snippet": "...2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "165.5%",
+      "value": 165.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...FY2026 was the strongest quarter. Revenue was $1,065.4 million, up 165.5% from $401.2 million, and the first quarter above...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "165.5%",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "215.4%",
+      "value": 215.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and the first quarter above $1 billion  . Product revenue rose 215.4% to $935.4 million  . Gross margin reached 33.4%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "product",
+          "revenue"
+        ],
+        "hl": "215.4%",
+        "snippet": "...of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue rose 215.4% to $935.4 million  . Gross margin reached 33.4% against 26.7%, and operating margin was 17.1%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.7%",
+      "value": 26.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 215.4% to $935.4 million  . Gross margin reached 33.4% against 26.7%, and operating margin was 17.1% against -0.9%  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Gross margin reached 33.4% against 26.7%, and operating margin was 17.1% against -0.9%  . Operating cash flow was $226.4...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "17.1%",
+        "snippet": "17.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-0.9%",
+      "value": 0.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reached 33.4% against 26.7%, and operating margin was 17.1% against -0.9%  . Operating cash flow was $226.4 million,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "0.9)%",
+        "snippet": "(0.9)%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "138.1%",
+      "value": 138.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a slower rate in percentage terms. Revenue was $1,235.8 million, up 138.1% from $519.0 million, and up 16% from Q2 in...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "138.1%",
+        "snippet": "• Achieved record quarterly revenue of $1,235.8 million, delivering 138.1% year-over-year growth"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue was $1,235.8 million, up 138.1% from $519.0 million, and up 16% from Q2 in dollars  . Gross margin was 33.8%,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "16.3%",
+        "snippet": "- Opex in % of revenue: FY2025 25.4%; Q1 FY2026 20.4% (year-ago n/a, n/a); Q2 FY2026 16.3% (year-ago n/a, n/a); Q3 FY2026 15.5% (year-ago 27.7%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.8%",
+      "value": 33.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$519.0 million, and up 16% from Q2 in dollars  . Gross margin was 33.8%, against 29.2%, and GAAP diluted EPS was $0.78...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.8%",
+        "snippet": "• Gross margin of 33.8% increased 453 basis points. Non-GAAP gross margin of 34.5% increased 412 basis points."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and up 16% from Q2 in dollars  . Gross margin was 33.8%, against 29.2%, and GAAP diluted EPS was $0.78 against -$0.10...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "29.2%",
+        "snippet": "...29.0%; Q1 FY2026 30.0% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 33.8% (year-ago 29.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-14.6%",
+      "value": 14.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million against $46.2 million  . Free cash flow margin fell to -14.6% from +16.4% in Q2  . The release does not...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cashflow",
+          "margin"
+        ],
+        "hl": "14.6%",
+        "snippet": "...margin: FY2025 2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.4%",
+      "value": 16.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against $46.2 million  . Free cash flow margin fell to -14.6% from +16.4% in Q2  . The release does not explain the Q3...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow",
+          "margin"
+        ],
+        "hl": "16.4%",
+        "snippet": "- Free cash flow margin: FY2025 2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.0%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...4.4x a year earlier  . The share count rose to 295.5 million, up 25.0% y/y  . Management raised FY2026 revenue guidance...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.6%",
+      "value": 20.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus EPS for FY2026 is $3.27, and forecasts moved up 20.6% in 90 days  .",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "20.6%",
+        "snippet": "...EPS consensus current fiscal year: $3.27 today, $3.26 30 days ago, $2.71 90 days ago, change vs 90 days ago +20.6%; analysts raising/cutting in last 30 days: 21/0"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "3.7x",
+      "value": 3.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and accounts receivable at $634.7 million  . Current ratio fell to 3.7x from 4.4x a year earlier  . The share count rose...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "3.74",
+        "snippet": "...ratio: FY2025 5.98x; Q1 FY2026 5.03x (year-ago n/a, n/a); Q2 FY2026 4.09x (year-ago n/a, n/a); Q3 FY2026 3.74x (year-ago 4.40x, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "4.4x",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...receivable at $634.7 million  . Current ratio fell to 3.7x from 4.4x a year earlier  . The share count rose to 295.5...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "4.40",
+        "snippet": "...5.98x; Q1 FY2026 5.03x (year-ago n/a, n/a); Q2 FY2026 4.09x (year-ago n/a, n/a); Q3 FY2026 3.74x (year-ago 4.40x, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "284.2",
+      "value": 284.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...that the service book is becoming profitable  . The share count was 284.2 million at March 31  . The main drag was cost:...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "284.2",
+        "snippet": "- Share count: FY2025 280.0; Q1 FY2026 284.2 (year-ago n/a, n/a); Q2 FY2026 293.4 (year-ago n/a, n/a); Q3 FY2026 295.5 (year-ago 236.4, worse); trend..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "293.4",
+      "value": 293.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from $643.3 million to $758.2 million  . The share count rose to 293.4 million  .  Q3 FY2026 shows revenue still...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "293.4",
+        "snippet": "- Share count: FY2025 280.0; Q1 FY2026 284.2 (year-ago n/a, n/a); Q2 FY2026 293.4 (year-ago n/a, n/a); Q3 FY2026 295.5 (year-ago 236.4, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "295.5",
+      "value": 295.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell to 3.7x from 4.4x a year earlier  . The share count rose to 295.5 million, up 25.0% y/y  . Management raised...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "295.5",
+        "snippet": "...count: FY2025 280.0; Q1 FY2026 284.2 (year-ago n/a, n/a); Q2 FY2026 293.4 (year-ago n/a, n/a); Q3 FY2026 295.5 (year-ago 236.4, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 25.0% y/y  . Management raised FY2026 revenue guidance to $4.4-4.6 billion and non-GAAP EPS to $3.10-3.40  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "revenue"
+        ],
+        "hl": "4.6 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.40",
+      "value": 3.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...revenue guidance to $4.4-4.6 billion and non-GAAP EPS to $3.10-3.40  . Consensus EPS for FY2026 is $3.27, and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "revenue"
+        ],
+        "hl": "3.4B",
+        "snippet": "$3.4B - $3.8B"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Consensus EPS for FY2026 is $3.27, and forecasts moved up 20.6% in 90 days  .",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $3.27 today, $3.26 30 days ago, $2.71 90 days ago, change vs 90 days ago +20.6%; analysts raising/cutting in last 30 days: 21/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.4",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q2 and 138.1% in Q3  . FY2026 revenue guidance was raised to $4.4-4.6 billion in Q3, and the consensus of $4,525.9...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.4 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,525.9 million",
+      "value": 4525.9,
+      "unit": "million",
+      "money_mn": 4525.9,
+      "decimals": 1,
+      "context": "...guidance was raised to $4.4-4.6 billion in Q3, and the consensus of $4,525.9 million sits inside the $4.41-4.64 billion range  . Q3...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4,525.9 million",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.41",
+      "value": 4.41,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q3, and the consensus of $4,525.9 million sits inside the $4.41-4.64 billion range  . Q3 growth in percentage...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$2,613.7 million",
+      "value": 2613.7,
+      "unit": "million",
+      "money_mn": 2613.7,
+      "decimals": 1,
+      "context": "...margin was -14.6% after +16.4% in Q2  . Recourse debt fell from $2,613.7 million at year-end to $2,473.5 million at September 30...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,613,726",
+        "snippet": "2,613,726"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,473.5 million",
+      "value": 2473.5,
+      "unit": "million",
+      "money_mn": 2473.5,
+      "decimals": 1,
+      "context": "...in Q2  . Recourse debt fell from $2,613.7 million at year-end to $2,473.5 million at September 30  . TTM free cash flow of $436.7...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,473,499",
+        "snippet": "2,473,499"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$436.7 million",
+      "value": 436.7,
+      "unit": "million",
+      "money_mn": 436.7,
+      "decimals": 1,
+      "context": "...to $2,473.5 million at September 30  . TTM free cash flow of $436.7 million is positive, but the Q3 reversal is the new...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "436.7 million",
+        "snippet": "...investments $2,486.7 million, total debt $2,783.4 million, net cash -$296.7 million, TTM free cash flow $436.7 million, cash runway at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$70.7 million",
+      "value": 70.7,
+      "unit": "million",
+      "money_mn": 70.7,
+      "decimals": 1,
+      "context": "...for growth beyond history. Q1 net profit to common stockholders was $70.7 million, the first GAAP profit in the period  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "70,653",
+        "snippet": "70,653"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.27",
+      "value": 3.27,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the first GAAP profit in the period  . Consensus FY2026 EPS is $3.27, up 20.6% in 90 days, with 21 upward and 0...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.27",
+        "snippet": "...revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57); forward P/E 46.8x; EV/Sales 10.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "130.4%",
+      "value": 130.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...AI and utility demand converts into delivered sites. Revenue grew 130.4% in Q1, 165.5% in Q2 and 138.1% in Q3  . FY2026...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130.4%",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "165.5%",
+      "value": 165.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...demand converts into delivered sites. Revenue grew 130.4% in Q1, 165.5% in Q2 and 138.1% in Q3  . FY2026 revenue...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "165.5%",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "138.1%",
+      "value": 138.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...into delivered sites. Revenue grew 130.4% in Q1, 165.5% in Q2 and 138.1% in Q3  . FY2026 revenue guidance was raised to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "138.1%",
+        "snippet": "• Achieved record quarterly revenue of $1,235.8 million, delivering 138.1% year-over-year growth"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.0%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...flow covers its debt. Share count reached 295.5 million at Q3, up 25.0% y/y, at the invalidation level  . Q3 free cash...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-14.6%",
+      "value": 14.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...y/y, at the invalidation level  . Q3 free cash flow margin was -14.6% after +16.4% in Q2  . Recourse debt fell from...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cashflow",
+          "margin"
+        ],
+        "hl": "14.6%",
+        "snippet": "...margin: FY2025 2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.4%",
+      "value": 16.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...invalidation level  . Q3 free cash flow margin was -14.6% after +16.4% in Q2  . Recourse debt fell from $2,613.7...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow",
+          "margin"
+        ],
+        "hl": "16.4%",
+        "snippet": "- Free cash flow margin: FY2025 2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.6%",
+      "value": 20.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...GAAP profit in the period  . Consensus FY2026 EPS is $3.27, up 20.6% in 90 days, with 21 upward and 0 downward...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "20.6%",
+        "snippet": "...EPS consensus current fiscal year: $3.27 today, $3.26 30 days ago, $2.71 90 days ago, change vs 90 days ago +20.6%; analysts raising/cutting in last 30 days: 21/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and 0 downward revisions in 30 days  . The reverse DCF implies a 10.6% return against the 15.0% WACC, and this is a...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "wacc",
+          "return"
+        ],
+        "hl": "10.6%",
+        "snippet": "...price requires growth well above both history and the steep fade in consensus [2][3]. The implied return of 10.6% sits below the 15% WACC used [3]. Main risks are financing dependence, tax-credit policy and permitting for..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.0%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 30 days  . The reverse DCF implies a 10.6% return against the 15.0% WACC, and this is a single snapshot taken after...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "15.0%",
+        "snippet": "...million -> about $107,564.0 million in FY2035), assuming the free cash flow margin moves from 2.8% to 15.0% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.50 x 5.0% equity risk premium) and 2.5%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30.0%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...scale and one-off charges fade. Consolidated gross margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "30.0%",
+        "snippet": "• Gross margin of 30.0% in the first quarter of 2026, an increase of 2.8 percentage points year-over-year. Non-GAAP gross margin of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...one-off charges fade. Consolidated gross margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.8%",
+      "value": 33.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fade. Consolidated gross margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.8%",
+        "snippet": "• Gross margin of 33.8% increased 453 basis points. Non-GAAP gross margin of 34.5% increased 412 basis points."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...gross margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year earlier  . Product gross...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "26.7%",
+      "value": 26.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year earlier  . Product gross margin...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year earlier  . Product gross margin is not...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "29.2%",
+        "snippet": "...29.0%; Q1 FY2026 30.0% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 33.8% (year-ago 29.2%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.3%",
+      "value": 13.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q1 signpost is only partly verified; service gross margin rose to 13.3% from 1.3%  . Gross margin remained above the 27%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "service",
+          "gross",
+          "margin"
+        ],
+        "hl": "13.3%",
+        "snippet": "• Service gross margin of 13.3% in the first quarter of 2026, an increase of 12.0 percentage points compared to 1.3% in the first quarter of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is only partly verified; service gross margin rose to 13.3% from 1.3%  . Gross margin remained above the 27%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "1.4%",
+        "snippet": "...2.8%; Q1 FY2026 6.3% (year-ago n/a, n/a); Q2 FY2026 16.4% (year-ago n/a, n/a); Q3 FY2026 -14.6% (year-ago 1.4%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin rose to 13.3% from 1.3%  . Gross margin remained above the 27% invalidation level in each quarter.",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q2 and 138.1% in Q3  . FY2026 revenue guidance was raised to $4.4-4.6 billion in Q3, and the consensus of $4,525.9...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "revenue"
+        ],
+        "hl": "4.6 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.64",
+      "value": 4.64,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q3, and the consensus of $4,525.9 million sits inside the $4.41-4.64 billion range  . Q3 growth in percentage terms...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "295.5",
+      "value": 295.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...until operating cash flow covers its debt. Share count reached 295.5 million at Q3, up 25.0% y/y, at the invalidation...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "295.5",
+        "snippet": "...count: FY2025 280.0; Q1 FY2026 284.2 (year-ago n/a, n/a); Q2 FY2026 293.4 (year-ago n/a, n/a); Q3 FY2026 295.5 (year-ago 236.4, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...profit in the period  . Consensus FY2026 EPS is $3.27, up 20.6% in 90 days, with 21 upward and 0 downward revisions in...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $3.27 today, $3.26 30 days ago, $2.71 90 days ago, change vs 90 days ago +20.6%; analysts raising/cutting in last 30 days: 21/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "21",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...period  . Consensus FY2026 EPS is $3.27, up 20.6% in 90 days, with 21 upward and 0 downward revisions in 30 days  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "21",
+        "snippet": "...30 days ago, $2.71 90 days ago, change vs 90 days ago +20.6%; analysts raising/cutting in last 30 days: 21/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 20.6% in 90 days, with 21 upward and 0 downward revisions in 30 days  . The reverse DCF implies a 10.6% return...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "- EPS consensus current fiscal year: $3.27 today, $3.26 30 days ago, $2.71 90 days ago, change vs 90 days ago +20.6%; analysts raising/cutting in last 30 days: 21/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.0%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to it  . Second, dilution has risen. The share count is up 25.0% y/y at Q3  , which reaches the invalidation...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Court ruled IEEPA tariffs unlawful in February 2026. A temporary 10% tariff followed, and the      for Q3 describes a...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.6%",
+        "snippet": "9.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in late July 2026  . Risks that eased: gross margin stayed above 27% in each quarter, and freight pressure was partly...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.4",
+      "value": 3.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose at each of the three reports. FY2026 revenue was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.4B",
+        "snippet": "$3.4B - $3.8B"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.9",
+      "value": 3.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...three reports. FY2026 revenue was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.9 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $3.9 billion – 4.2 billion, representing 100% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.4",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3. Non-GAAP EPS guidance moved...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.4 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.10",
+      "value": 3.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q2 and $4.4-4.6 billion in Q3. Non-GAAP EPS guidance moved to $3.10-3.40 from $1.85-2.25  . Consensus FY2026 revenue...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.10",
+        "snippet": "$3.10 - $3.40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.85",
+      "value": 1.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...billion in Q3. Non-GAAP EPS guidance moved to $3.10-3.40 from $1.85-2.25  . Consensus FY2026 revenue is $4,525.9...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.85",
+        "snippet": "$1.85 - $2.25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,525.9 million",
+      "value": 4525.9,
+      "unit": "million",
+      "money_mn": 4525.9,
+      "decimals": 1,
+      "context": "...moved to $3.10-3.40 from $1.85-2.25  . Consensus FY2026 revenue is $4,525.9 million, and consensus FY2027 EPS is $5.35, with a range...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4,525.9 million",
+        "snippet": "- FY2026E: revenue $4,525.9 million (range $4,412.0 million to $4,637.0 million, 25 analysts), growth +123.6%; EPS $3.27 (range $2.98 to $3.57);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.35",
+      "value": 5.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2026 revenue is $4,525.9 million, and consensus FY2027 EPS is $5.35, with a range of $2.96 to $7.49  . The consensus...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "5.35",
+        "snippet": "...revenue $7,187.1 million (range $5,820.1 million to $8,861.6 million, 27 analysts), growth +58.8%; EPS $5.35 (range $2.96 to $7.49); forward P/E 28.6x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.96",
+      "value": 2.96,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million, and consensus FY2027 EPS is $5.35, with a range of $2.96 to $7.49  . The consensus data are dated after...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.96",
+        "snippet": "...$7,187.1 million (range $5,820.1 million to $8,861.6 million, 27 analysts), growth +58.8%; EPS $5.35 (range $2.96 to $7.49); forward P/E 28.6x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.49",
+      "value": 7.49,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and consensus FY2027 EPS is $5.35, with a range of $2.96 to $7.49  . The consensus data are dated after the     ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7.49)",
+        "snippet": "...million (range $5,820.1 million to $8,861.6 million, 27 analysts), growth +58.8%; EPS $5.35 (range $2.96 to $7.49); forward P/E 28.6x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.4 billion",
+      "value": 4.4,
+      "unit": "billion",
+      "money_mn": 4400.0,
+      "decimals": 1,
+      "context": "...gross margin below 27%, or a cut to FY2026 revenue guidance below $4.4 billion. The Fremont 2 GW milestone needs its own...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.4 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "nt 2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or a cut to FY2026 revenue guidance below $4.4 billion. The Fremont 2 GW milestone needs its own disclosure to be...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2",
+        "snippet": "2 ex991_q126financialresults.htm"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...view wrong: the Q4 or FY2026      showing share count growth above 25%, a second negative free cash flow quarter,...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "25.0%",
+        "snippet": "...at that burn self-funded, current ratio 3.7x, shares outstanding 295.5 million, change in share count y/y +25.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...negative free cash flow quarter, consolidated gross margin below 27%, or a cut to FY2026 revenue guidance below $4.4...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.8",
+      "value": 3.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at each of the three reports. FY2026 revenue was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.8B",
+        "snippet": "$3.4B - $3.8B"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.2",
+      "value": 4.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reports. FY2026 revenue was raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.2 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $3.9 billion – 4.2 billion, representing 100% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...raised to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3. Non-GAAP EPS guidance moved to...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.6 billion",
+        "snippet": "• Raises full year 2026 revenue guidance to $4.4 billion - $4.6 billion, representing 122% year-over-year growth at the midpoint"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.40",
+      "value": 3.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Q2 and $4.4-4.6 billion in Q3. Non-GAAP EPS guidance moved to $3.10-3.40 from $1.85-2.25  . Consensus FY2026 revenue is...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "non-gaap",
+          "pershare"
+        ],
+        "hl": "3.40",
+        "snippet": "$3.10 - $3.40"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.25",
+      "value": 2.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...billion in Q3. Non-GAAP EPS guidance moved to $3.10-3.40 from $1.85-2.25  . Consensus FY2026 revenue is $4,525.9 million,...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "non-gaap",
+          "pershare"
+        ],
+        "hl": "2.25",
+        "snippet": "$1.85 - $2.25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$751.1 million",
+      "value": 751.1,
+      "unit": "million",
+      "money_mn": 751.1,
+      "decimals": 1,
+      "context": "Revenue: $751.1 million vs $326.0 million, $1065.4 million vs $401.2...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "751.1 million",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$326.0 million",
+      "value": 326.0,
+      "unit": "million",
+      "money_mn": 326.0,
+      "decimals": 1,
+      "context": "Revenue: $751.1 million vs $326.0 million, $1065.4 million vs $401.2 million, $1235.8...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "326.0 million",
+        "snippet": "• Revenue of $751.1 million in the first quarter of 2026, an increase of 130.4% compared to $326.0 million in the first quarter of 2025. Product revenue of $653.3 million in the first quarter of 2026, an increase of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1065.4 million",
+      "value": 1065.4,
+      "unit": "million",
+      "money_mn": 1065.4,
+      "decimals": 1,
+      "context": "Revenue: $751.1 million vs $326.0 million, $1065.4 million vs $401.2 million, $1235.8 million vs $519.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,065.4 million",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$401.2 million",
+      "value": 401.2,
+      "unit": "million",
+      "money_mn": 401.2,
+      "decimals": 1,
+      "context": "Revenue: $751.1 million vs $326.0 million, $1065.4 million vs $401.2 million, $1235.8 million vs $519.0 million. Gross margin...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "401.2 million",
+        "snippet": "• Revenue of $1,065.4 million increased 165.5% compared to $401.2 million. Product revenue of $935.4 million increased 215.4% compared to $296.6 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1235.8 million",
+      "value": 1235.8,
+      "unit": "million",
+      "money_mn": 1235.8,
+      "decimals": 1,
+      "context": "...million vs $326.0 million, $1065.4 million vs $401.2 million, $1235.8 million vs $519.0 million. Gross margin (GAAP): 30.0% vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,235.8 million",
+        "snippet": "• Achieved record quarterly revenue of $1,235.8 million, delivering 138.1% year-over-year growth"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$519.0 million",
+      "value": 519.0,
+      "unit": "million",
+      "money_mn": 519.0,
+      "decimals": 1,
+      "context": "...million, $1065.4 million vs $401.2 million, $1235.8 million vs $519.0 million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "519,048",
+        "snippet": "519,048"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$129.7 million",
+      "value": 129.7,
+      "unit": "million",
+      "money_mn": 129.7,
+      "decimals": 1,
+      "context": "...27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP operating income: $129.7 million vs $13.2 million, $239.6 million vs $28.6...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "129.7 million",
+        "snippet": "...in the first quarter of 2026, an increase of $91.3 million year-over-year. Non-GAAP operating income of $129.7 million in the first quarter of 2026, an increase of $116.5 million year-over-year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.2 million",
+      "value": 13.2,
+      "unit": "million",
+      "money_mn": 13.2,
+      "decimals": 1,
+      "context": "...26.7%, 33.8% vs 29.2%. Non-GAAP operating income: $129.7 million vs $13.2 million, $239.6 million vs $28.6 million, $285.7 million...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13.2",
+        "snippet": "...first quarter of 2025. Service non-GAAP gross margin of 18.0% in the first quarter of 2026, an increase of 13.2 percentage points compared to 4.8% in the first quarter of 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$239.6 million",
+      "value": 239.6,
+      "unit": "million",
+      "money_mn": 239.6,
+      "decimals": 1,
+      "context": "...29.2%. Non-GAAP operating income: $129.7 million vs $13.2 million, $239.6 million vs $28.6 million, $285.7 million vs $46.2...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "239.6 million",
+        "snippet": "...million increased $185.7 million compared to $3.5 million operating loss. Non-GAAP operating income of $239.6 million increased $211.0 million compared to $28.6 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.6 million",
+      "value": 28.6,
+      "unit": "million",
+      "money_mn": 28.6,
+      "decimals": 1,
+      "context": "...income: $129.7 million vs $13.2 million, $239.6 million vs $28.6 million, $285.7 million vs $46.2 million. Non-GAAP EPS,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "28.6 million",
+        "snippet": "...million operating loss. Non-GAAP operating income of $239.6 million increased $211.0 million compared to $28.6 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$285.7 million",
+      "value": 285.7,
+      "unit": "million",
+      "money_mn": 285.7,
+      "decimals": 1,
+      "context": "...$129.7 million vs $13.2 million, $239.6 million vs $28.6 million, $285.7 million vs $46.2 million. Non-GAAP EPS, diluted: $0.44...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "285.7 million",
+        "snippet": "• Operating income of $225.4 million increased $217.6 million. Non-GAAP operating income of $285.7 million increased $239.4 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$46.2 million",
+      "value": 46.2,
+      "unit": "million",
+      "money_mn": 46.2,
+      "decimals": 1,
+      "context": "...$13.2 million, $239.6 million vs $28.6 million, $285.7 million vs $46.2 million. Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "46,249",
+        "snippet": "46,249"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.44",
+      "value": 0.44,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million, $285.7 million vs $46.2 million. Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs $0.1, $0.94 vs $0.15.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.44",
+        "snippet": "0.44"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.03",
+      "value": 0.03,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$285.7 million vs $46.2 million. Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs $0.1, $0.94 vs $0.15.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.03",
+        "snippet": "0.03"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.78",
+      "value": 0.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million vs $46.2 million. Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs $0.1, $0.94 vs $0.15.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.78",
+        "snippet": "• EPS of $0.62 increased $0.80 compared to a loss of $(0.18). Non-GAAP EPS of $0.78 increased $0.68 compared to $0.10."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.1",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $46.2 million. Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs $0.1, $0.94 vs $0.15.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.10)",
+        "snippet": "(0.10)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.94",
+      "value": 0.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million. Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs $0.1, $0.94 vs $0.15.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.94",
+        "snippet": "• EPS of $0.78 increased $0.88. Non-GAAP EPS of $0.94 increased $0.79."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.15",
+      "value": 0.15,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Non-GAAP EPS, diluted: $0.44 vs $0.03, $0.78 vs $0.1, $0.94 vs $0.15.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.15",
+        "snippet": "0.15"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30.0%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, $1235.8 million vs $519.0 million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%....",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "30.0%",
+        "snippet": "• Gross margin of 30.0% in the first quarter of 2026, an increase of 2.8 percentage points year-over-year. Non-GAAP gross margin of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$1235.8 million vs $519.0 million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP...",
+      "section": "Company KPIs",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "33.4%",
+      "value": 33.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $519.0 million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP operating...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.4%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.7%",
+      "value": 26.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $519.0 million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP operating income:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "26.7%",
+        "snippet": "• Gross margin of 33.4% increased 668 basis points compared to 26.7%. Non-GAAP gross margin of 34.3% increased 604 basis points compared to 28.2%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.8%",
+      "value": 33.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million. Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP operating income: $129.7...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "33.8%",
+        "snippet": "• Gross margin of 33.8% increased 453 basis points. Non-GAAP gross margin of 34.5% increased 412 basis points."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Gross margin (GAAP): 30.0% vs 27.2%, 33.4% vs 26.7%, 33.8% vs 29.2%. Non-GAAP operating income: $129.7 million vs...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "29.2%",
+        "snippet": "...29.0%; Q1 FY2026 30.0% (year-ago n/a, n/a); Q2 FY2026 33.4% (year-ago n/a, n/a); Q3 FY2026 33.8% (year-ago 29.2%, better); trend improving"
+      }
+    }
+  ],
+  "build_round": 1
+}

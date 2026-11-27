@@ -1,0 +1,3420 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 118,
+  "context_match_rate": 0.808,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "45.6%",
+      "value": 45.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cash flow of US$3.16 billion, but gross margin fell to 42.0% from 45.6% as credit losses and deposit costs grew faster...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "45.6%",
+        "snippet": "45.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...value, well below the 52.9% historical three-year CAGR and the 22.2% consensus growth for FY2027  . The current price...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "22.2%",
+        "snippet": "- FY2027E: revenue $27,417.3 million (range $24,867.0 million to $29,880.0 million, 8 analysts), growth +22.2%; EPS $1.06 (range $0.78 to $1.23); forward P/E 11.7x; EV/Sales 1.8x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reached US$41.9 billion, up 45.3% in dollars, and total assets rose 50% to US$74.9 billion  . The model is a single...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50%",
+        "snippet": "consider ourselves the primary banking relationship for active customers who had at least 50% of their post-tax monthly income transferred"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.9%",
+      "value": 20.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...US$9.4 billion from US$5.3 billion  . Credit card interest rose 20.9% to US$4,597.8 million, the slowest growing of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "20.9%",
+        "snippet": "20.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2021 (ABECS data)  . Purchase volume reached US$141.7 billion, up 13% in reported dollars and 17% FX-neutral  .  Scale...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13%",
+        "snippet": "account in June 2024. It was highly disruptive in the market as it offered a very high yield (13% annually v. market average of less than"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.6%",
+      "value": 0.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the Cuenta Nu launch in mid-2024, and Mexico's GDP growth slowed to 0.6% in 2025 from 1.5%  . The U.S. bank, Nubank N.A.,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.5%",
+        "snippet": "● Nu Credit & Prepaid Card, with 0.5% cashback"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.5%",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in mid-2024, and Mexico's GDP growth slowed to 0.6% in 2025 from 1.5%  . The U.S. bank, Nubank N.A., received...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1.6%",
+        "snippet": "- Quarter ending 2025-12-31: EPS $0.18 vs estimate $0.18 (surprise -1.6%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "14.1",
+      "value": 14.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at year-end 2025, up 15.0%, including 113 million in Brazil, 14.1 million in Mexico and over 4 million in Colombia...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "14.1 million",
+        "snippet": "– Our customer base in Mexico is growing at a rapid rate and, as of December 31, 2025, we had a total of 14.1 million"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85.2%",
+      "value": 85.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of US$15,774.8 million, up 37.0%, with interest income supplying 85.2% of the total  . Net income rose 45.6% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "85.2%",
+        "snippet": "85.2% and 83.6% of total revenue, respectively. We earned US$13.4 billion of interest income and gains net of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.4%",
+      "value": 0.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS rose 44.9% to US$0.5846, while diluted share count grew only 0.4%  . Operating leverage was the main driver of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.5%",
+        "snippet": "● Nu Credit & Prepaid Card, with 0.5% cashback"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.0%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was the main driver of profit growth. Operating expenses rose 12.0% to US$2,752.9 million, falling to 17.5% of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12.0%",
+        "snippet": "for 10.9% and 29.1% of our revenue, respectively (12.0% and 33.0% in the year ended December 31, 2024). While we expect our revenue concentration"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.1%",
+      "value": 46.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...compressed. Costs of financial and transactional services rose 46.1%, faster than revenue, led by deposit interest...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.1%",
+        "snippet": "46.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.7%",
+      "value": 32.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...led by deposit interest expense (+65.5%) and expected credit loss (+32.7%), so gross margin fell to 42.0% from 45.6%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "32.7%",
+        "snippet": "32.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.6%",
+      "value": 45.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...expected credit loss (+32.7%), so gross margin fell to 42.0% from 45.6%  . Expected credit loss on cards and loans held...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "45.6%",
+        "snippet": "45.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...US$385.0 million  . Consolidated net margin improved to 18.2% from 17.1% on the lower tax rate, a gain that management...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17.0%",
+        "snippet": "...Bank for International Settlements (BIS); and (3) limited household debt as a percentage of GDP, at 36.5%, 17.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rise in card and loan receivables, and financing supplied about 42% of the US$5,448.4 million increase in cash  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "42.0%",
+        "snippet": "...year ended December 31, 2024. Our gross margin (gross profit divided by total revenue) decreased, reaching 42.0% for"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.2%",
+      "value": 42.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...after the     , expects FY2026 revenue of US$22,438.6 million (+42.2%) and EPS of US$0.85  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "42.2%",
+        "snippet": "- FY2026E: revenue $22,438.6 million (range $22,283.0 million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.7%",
+      "value": 32.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reserves will cover actual losses  . Expected credit loss grew 32.7% to US$4,204.9 million, and the ratio held at...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "32.7%",
+        "snippet": "32.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54.7%",
+      "value": 54.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...would hit earnings directly  . Financial and cash assets made up 54.7% of total assets at year-end, carrying investment...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "54.7%",
+        "snippet": "central banks represented 54.7% and 55.0% of our total assets as of December 31, 2025 and 2024, respectively. Any realized or unrealized"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.6%",
+      "value": 89.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to US$10,627 million in 2025, but growth has slowed each year, to 89.6%, 46.8% and 28.5%  . Note that the peer data use...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2023: 89.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.8%",
+      "value": 46.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million in 2025, but growth has slowed each year, to 89.6%, 46.8% and 28.5%  . Note that the peer data use a...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 46.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.5%",
+      "value": 28.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2025, but growth has slowed each year, to 89.6%, 46.8% and 28.5%  . Note that the peer data use a revenue base of...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 28.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38.3%",
+      "value": 38.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the filing  .  On 2025 growth Nu trailed both peers, with SoFi at 38.3% and Inter at 31.3%  . Nu's free cash flow rose...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "38.4%",
+        "snippet": "38.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.3%",
+      "value": 31.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2025 growth Nu trailed both peers, with SoFi at 38.3% and Inter at 31.3%  . Nu's free cash flow rose to US$3,160 million,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTR Revenue Growth 2025: 31.3%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.89",
+      "value": 2.89,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 5.86 was second only to SoFi's 8.38, and well above Inter's 2.89 and PagSeguro's 2.73  . Its price-to-book of...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,885.6)",
+        "snippet": "(2,885.6)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.73",
+      "value": 2.73,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...only to SoFi's 8.38, and well above Inter's 2.89 and PagSeguro's 2.73  . Its price-to-book of 7.20 was the highest in...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAGS EV/Sales 2025: 2.73"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.20",
+      "value": 7.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...above Inter's 2.89 and PagSeguro's 2.73  . Its price-to-book of 7.20 was the highest in the group  . Consensus, dated...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "PB Ratio 2025: 7.2"
+      }
+    }
+  ],
+  "total_claims": 146,
+  "matched": 145,
+  "match_rate": 0.993,
+  "by_kind": {
+    "money": {
+      "total": 55,
+      "matched": 55,
+      "context_matched": 55
+    },
+    "pct": {
+      "total": 68,
+      "matched": 67,
+      "context_matched": 44
+    },
+    "multiple": {
+      "total": 6,
+      "matched": 6,
+      "context_matched": 6
+    },
+    "plain": {
+      "total": 17,
+      "matched": 17,
+      "context_matched": 13
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 112,
+    "[2] Yahoo Finance": 14,
+    "[2][3] Liquidity and consensus": 15,
+    "[4] Peer data": 4
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "18.2%",
+      "value": 18.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...33.9% to US$385.0 million  . Consolidated net margin improved to 18.2% from 17.1% on the lower tax rate, a gain that...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "US$15.8 billion",
+      "value": 15.8,
+      "unit": "billion",
+      "money_mn": 15800.0,
+      "decimals": 1,
+      "context": "Nu Holdings delivered strong 2025 growth, with revenue up 37.0% to US$15.8 billion, net income up 45.6% to US$2.87 billion and...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15.8 billion",
+        "snippet": "model. Revenues grew 37% year-over-year, to US$15.8 billion in 2025. Notably, net income grew 45% from 2024 to close at US$2.9 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2.87 billion",
+      "value": 2.87,
+      "unit": "billion",
+      "money_mn": 2870.0,
+      "decimals": 2,
+      "context": "...with revenue up 37.0% to US$15.8 billion, net income up 45.6% to US$2.87 billion and diluted EPS up 44.9%  . Cash generation kept...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,868.9",
+        "snippet": "2,868.9 1,972.0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$3.16 billion",
+      "value": 3.16,
+      "unit": "billion",
+      "money_mn": 3160.0,
+      "decimals": 2,
+      "context": "...EPS up 44.9%  . Cash generation kept pace, with free cash flow of US$3.16 billion, but gross margin fell to 42.0% from 45.6% as...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 3160"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$0.85",
+      "value": 0.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...after the     , expects FY2026 revenue growth of 42.2% and EPS of US$0.85, with forward EV/Sales of 2.2x and forward P/E...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "0.85",
+        "snippet": "...revenue $22,438.6 million (range $22,283.0 million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$12.36",
+      "value": 12.36,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...US$0.85, with forward EV/Sales of 2.2x and forward P/E of 14.5x at US$12.36  . The reverse DCF implies only about 4.0% annual...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "12.36",
+        "snippet": "- Forward multiples use the current share price of $12.36 and the current enterprise value. EPS methodology: gaap."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.0%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Nu Holdings delivered strong 2025 growth, with revenue up 37.0% to US$15.8 billion, net income up 45.6% to...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "united"
+        ],
+        "hl": "37%",
+        "snippet": "model. Revenues grew 37% year-over-year, to US$15.8 billion in 2025. Notably, net income grew 45% from 2024 to close at US$2.9 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.6%",
+      "value": 45.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth, with revenue up 37.0% to US$15.8 billion, net income up 45.6% to US$2.87 billion and diluted EPS up 44.9%  ....",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "income",
+          "united"
+        ],
+        "hl": "45.6%",
+        "snippet": "for the year ended December 31, 2025 was US$2,871.7 million, an increase of US$899.6 million, or 45.6%, from a net income of US$1,972.1"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.9%",
+      "value": 44.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion, net income up 45.6% to US$2.87 billion and diluted EPS up 44.9%  . Cash generation kept pace, with free cash...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "income",
+          "united"
+        ],
+        "hl": "45%",
+        "snippet": "model. Revenues grew 37% year-over-year, to US$15.8 billion in 2025. Notably, net income grew 45% from 2024 to close at US$2.9 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.0%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...with free cash flow of US$3.16 billion, but gross margin fell to 42.0% from 45.6% as credit losses and deposit costs...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross"
+        ],
+        "hl": "42.0%",
+        "snippet": "...year ended December 31, 2024. Our gross margin (gross profit divided by total revenue) decreased, reaching 42.0% for"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.6%",
+      "value": 45.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cash flow of US$3.16 billion, but gross margin fell to 42.0% from 45.6% as credit losses and deposit costs grew faster...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "45.6%",
+        "snippet": "45.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.3%",
+      "value": 45.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...than revenue  . The balance sheet grew quickly, with deposits up 45.3% and borrowings nearly tripling, so funding...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "deposit"
+        ],
+        "hl": "45.3%",
+        "snippet": "...65.5% in interest expenses on deposits due to an increase in the volume of deposits of US$13.0 billion, or 45.3%, reaching"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.2%",
+      "value": 42.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Consensus, dated after the     , expects FY2026 revenue growth of 42.2% and EPS of US$0.85, with forward EV/Sales of...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "42.2%",
+        "snippet": "- FY2026E: revenue $22,438.6 million (range $22,283.0 million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.0%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...P/E of 14.5x at US$12.36  . The reverse DCF implies only about 4.0% annual revenue growth for ten years at the...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "4.0%",
+        "snippet": "- The current enterprise value of $50,485.0 million implies revenue growth of 4.0% per year for 10 years (FY2025 revenue $10,626.9 million -> about $15,803.2 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52.9%",
+      "value": 52.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for ten years at the current enterprise value, well below the 52.9% historical three-year CAGR and the 22.2%...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "52.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 52.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...value, well below the 52.9% historical three-year CAGR and the 22.2% consensus growth for FY2027  . The current price...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "22.2%",
+        "snippet": "- FY2027E: revenue $27,417.3 million (range $24,867.0 million to $29,880.0 million, 8 analysts), growth +22.2%; EPS $1.06 (range $0.78 to $1.23); forward P/E 11.7x; EV/Sales 1.8x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.2x",
+      "value": 2.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 42.2% and EPS of US$0.85, with forward EV/Sales of 2.2x and forward P/E of 14.5x at US$12.36  . The...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "2.2",
+        "snippet": "...$22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "14.5x",
+      "value": 14.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS of US$0.85, with forward EV/Sales of 2.2x and forward P/E of 14.5x at US$12.36  . The reverse DCF implies only...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "14.5",
+        "snippet": "...million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rather than the growth delivered so far. Piotroski F-score of 4 of 7 flags weak quality signals  .  Key risks...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "f-score",
+          "piotroski"
+        ],
+        "hl": "4",
+        "snippet": "- Piotroski F-Score: 4 of 7 available criteria; failed: Return on assets improved, No increase in share count, Asset turnover..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rather than the growth delivered so far. Piotroski F-score of 4 of 7 flags weak quality signals  .  Key risks are...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "f-score",
+          "piotroski"
+        ],
+        "hl": "7",
+        "snippet": "- Piotroski F-Score: 4 of 7 available criteria; failed: Return on assets improved, No increase in share count, Asset turnover improved"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$41.9 billion",
+      "value": 41.9,
+      "unit": "billion",
+      "money_mn": 41900.0,
+      "decimals": 1,
+      "context": "...it had 131.0 million customers at year-end 2025  . Deposits reached US$41.9 billion, up 45.3% in dollars, and total assets rose 50%...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "41.9\nbillion",
+        "snippet": "...to strengthen our deposit franchise. Total deposits increased 29% year-on-year on a FX-neutral basis to US$41.9 billion, while our interest-earning portfolio expanded 47% to US$18.5 billion, also on an FX-neutral basis. We have..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$74.9 billion",
+      "value": 74.9,
+      "unit": "billion",
+      "money_mn": 74900.0,
+      "decimals": 1,
+      "context": "...US$41.9 billion, up 45.3% in dollars, and total assets rose 50% to US$74.9 billion  . The model is a single consolidated group...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "74,894.0",
+        "snippet": "74,894.0 49,931.2"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$4,784.3 million",
+      "value": 4784.3,
+      "unit": "million",
+      "money_mn": 4784.3,
+      "decimals": 1,
+      "context": "...remains the core revenue engine. Loan interest income rose 57.4% to US$4,784.3 million, the largest dollar increase of any interest...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,784.3",
+        "snippet": "4,784.3 3,038.7"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$9.4 billion",
+      "value": 9.4,
+      "unit": "billion",
+      "money_mn": 9400.0,
+      "decimals": 1,
+      "context": "...increase of any interest line, and loans to customers reached US$9.4 billion from US$5.3 billion  . Credit card interest rose...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "9.4 billion",
+        "snippet": "US$9.4 billion as of December 31, 2025, from US$5.3 billion as of December 31, 2024, or an increase of US$4.1 billion or..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$5.3 billion",
+      "value": 5.3,
+      "unit": "billion",
+      "money_mn": 5300.0,
+      "decimals": 1,
+      "context": "...interest line, and loans to customers reached US$9.4 billion from US$5.3 billion  . Credit card interest rose 20.9% to US$4,597.8...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.3 billion",
+        "snippet": "US$9.4 billion as of December 31, 2025, from US$5.3 billion as of December 31, 2024, or an increase of US$4.1 billion or 77%. The total"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$4,597.8 million",
+      "value": 4597.8,
+      "unit": "million",
+      "money_mn": 4597.8,
+      "decimals": 1,
+      "context": "...billion from US$5.3 billion  . Credit card interest rose 20.9% to US$4,597.8 million, the slowest growing of the large interest...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,597.8",
+        "snippet": "4,597.8 3,802.4"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$21.7 billion",
+      "value": 21.7,
+      "unit": "billion",
+      "money_mn": 21700.0,
+      "decimals": 1,
+      "context": "...large interest lines, while the card receivables balance grew to US$21.7 billion from US$14.6 billion  . Deposit-funded assets...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "21.7 billion",
+        "snippet": "credit card receivables reflects a growth in the purchase volume and the credit card balances to US$21.7 billion as of December 31, 2025,"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$14.6 billion",
+      "value": 14.6,
+      "unit": "billion",
+      "money_mn": 14600.0,
+      "decimals": 1,
+      "context": "...while the card receivables balance grew to US$21.7 billion from US$14.6 billion  . Deposit-funded assets grew fastest, with...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "14.6 billion",
+        "snippet": "from US$14.6 billion as of December 31, 2024. The increase for loans to customers reflects mainly the growth in the loan..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2,284.6 million",
+      "value": 2284.6,
+      "unit": "million",
+      "money_mn": 2284.6,
+      "decimals": 1,
+      "context": "...fastest, with interest income on amortized-cost assets up 78.6% to US$2,284.6 million, but interest expense on deposits rose 65.5% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,284.6",
+        "snippet": "2,284.6 1,279.0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$3,876.5 million",
+      "value": 3876.5,
+      "unit": "million",
+      "money_mn": 3876.5,
+      "decimals": 1,
+      "context": "...US$2,284.6 million, but interest expense on deposits rose 65.5% to US$3,876.5 million, which is the main pressure on the spread...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,876.5)",
+        "snippet": "(3,876.5)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$1.06",
+      "value": 1.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...July 2024  . Consensus, dated after the     , expects FY2027 EPS of US$1.06 with a wide range of US$0.78 to US$1.23  ....",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF Conversion 2023: 1.06"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$0.78",
+      "value": 0.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...after the     , expects FY2027 EPS of US$1.06 with a wide range of US$0.78 to US$1.23  . Consolidated net income of...",
+      "section": "Business Overview",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "0.78",
+        "snippet": "...million (range $24,867.0 million to $29,880.0 million, 8 analysts), growth +22.2%; EPS $1.06 (range $0.78 to $1.23); forward P/E 11.7x; EV/Sales 1.8x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$1.23",
+      "value": 1.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "..., expects FY2027 EPS of US$1.06 with a wide range of US$0.78 to US$1.23  . Consolidated net income of US$2,871.7 million...",
+      "section": "Business Overview",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1.23)",
+        "snippet": "...(range $24,867.0 million to $29,880.0 million, 8 analysts), growth +22.2%; EPS $1.06 (range $0.78 to $1.23); forward P/E 11.7x; EV/Sales 1.8x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2,871.7 million",
+      "value": 2871.7,
+      "unit": "million",
+      "money_mn": 2871.7,
+      "decimals": 1,
+      "context": "...a wide range of US$0.78 to US$1.23  . Consolidated net income of US$2,871.7 million is the most reliable measure of the 2025 result...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,871.7",
+        "snippet": "2,871.7 1,972.0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.3%",
+      "value": 45.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...customers at year-end 2025  . Deposits reached US$41.9 billion, up 45.3% in dollars, and total assets rose 50% to US$74.9...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "deposit",
+          "united"
+        ],
+        "hl": "45.3%",
+        "snippet": "...65.5% in interest expenses on deposits due to an increase in the volume of deposits of US$13.0 billion, or 45.3%, reaching"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reached US$41.9 billion, up 45.3% in dollars, and total assets rose 50% to US$74.9 billion  . The model is a single...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50%",
+        "snippet": "consider ourselves the primary banking relationship for active customers who had at least 50% of their post-tax monthly income transferred"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57.4%",
+      "value": 57.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  Credit remains the core revenue engine. Loan interest income rose 57.4% to US$4,784.3 million, the largest dollar...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "loan",
+          "interest",
+          "income",
+          "united"
+        ],
+        "hl": "57.4%",
+        "snippet": "...primarily attributable to (i) an increase in interest income from the loan portfolio (US$1,745.6million, or 57.4% increase in interest"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.9%",
+      "value": 20.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...US$9.4 billion from US$5.3 billion  . Credit card interest rose 20.9% to US$4,597.8 million, the slowest growing of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "20.9%",
+        "snippet": "20.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78.6%",
+      "value": 78.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...grew fastest, with interest income on amortized-cost assets up 78.6% to US$2,284.6 million, but interest expense on...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "interest",
+          "income",
+          "united"
+        ],
+        "hl": "78.6%",
+        "snippet": "in purchased volume; and (ii) an increase of US$1,005.6 million, or 78.6% in Interest income – other assets at amortized cost, due"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65.5%",
+      "value": 65.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...78.6% to US$2,284.6 million, but interest expense on deposits rose 65.5% to US$3,876.5 million, which is the main...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "interest",
+          "united"
+        ],
+        "hl": "65.5%",
+        "snippet": "million or 65.5% in interest expenses on deposits due to an increase in the volume of deposits of US$13.0 billion, or 45.3%,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "131.0",
+      "value": 131.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Mexico, Colombia and, prospectively, the United States, and it had 131.0 million customers at year-end 2025  . Deposits...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "mexico",
+          "customer"
+        ],
+        "hl": "131 million",
+        "snippet": "largest digital financial services platforms, and one of the leading technology companies in the world, with 131 million customers across"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "100",
+      "value": 100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...pressure on the spread  .  Recent initiatives include more than 100 product launches in 2025, among them Brazilian...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "product"
+        ],
+        "hl": "100",
+        "snippet": "than 100 new products and features, each designed to deepen engagement, expand access, and strengthen unit economics...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$227.9 billion",
+      "value": 227.9,
+      "unit": "billion",
+      "money_mn": 227900.0,
+      "decimals": 1,
+      "context": "...estimates the retail financial revenue pool in these markets at US$227.9 billion in 2025 and holds a share of about 5%  . Within...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "227.9 billion",
+        "snippet": "...and Colombia, measured as revenues from interest income and service fees minus funding costs, totaled US$227.9 billion in 2025,"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$141.7 billion",
+      "value": 141.7,
+      "unit": "billion",
+      "money_mn": 141700.0,
+      "decimals": 1,
+      "context": "...in 2024 and 8.7% in 2021 (ABECS data)  . Purchase volume reached US$141.7 billion, up 13% in reported dollars and 17% FX-neutral...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "141.7 billion",
+        "snippet": "PV reached US$141.7 billion in the"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$7.4",
+      "value": 7.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...without paid channels each year, and customer acquisition cost was US$7.4 with paid marketing about 32% of it  . Monthly...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.4",
+        "snippet": "For the year ended December 31, 2025, our CAC was US$7.4 per customer (of which paid marketing accounted for approximately 32%), compared"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$13.3",
+      "value": 13.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...US$7.4 with paid marketing about 32% of it  . Monthly ARPAC rose to US$13.3 from US$11.3, and net churn averaged 0.1% per...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13.3",
+        "snippet": "13.3 11.3"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$11.3",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...marketing about 32% of it  . Monthly ARPAC rose to US$13.3 from US$11.3, and net churn averaged 0.1% per month  . The...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11.3",
+        "snippet": "11.3 23.0%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2.5 billion",
+      "value": 2.5,
+      "unit": "billion",
+      "money_mn": 2500.0,
+      "decimals": 1,
+      "context": "...position is weaker in the newer markets. Colombian deposits reached US$2.5 billion after the Cuenta Nu launch in mid-2024, and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2.5 billion",
+        "snippet": "trillion), equivalent to US$ 2.5 billion (as of December 31, 2025) and customer count (2.4 million)."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$12.36",
+      "value": 12.36,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and its FY2026 EV/Sales of 2.2x and forward P/E of 14.5x at US$12.36 per share suggest the market is pricing the core...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "12.36",
+        "snippet": "- Forward multiples use the current share price of $12.36 and the current enterprise value. EPS methodology: gaap."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Brazil, Mexico and Colombia, where the five largest incumbents hold 68% to 80% of loans and deposits  . The company...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "hold",
+          "loan",
+          "colombia",
+          "mexico"
+        ],
+        "hl": "68%",
+        "snippet": "in Brazil, Mexico and Colombia, which on average hold between 68% and 80% of all loans and deposits across all segments, charge high fees,"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "80%",
+      "value": 80.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Mexico and Colombia, where the five largest incumbents hold 68% to 80% of loans and deposits  . The company estimates...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "hold",
+          "loan",
+          "colombia"
+        ],
+        "hl": "80%",
+        "snippet": "in Brazil, Mexico and Colombia, which on average hold between 68% and 80% of all loans and deposits across all segments, charge high fees,"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...markets at US$227.9 billion in 2025 and holds a share of about 5%  . Within Brazil's card market, Nu held 14.7% of...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "5%",
+        "snippet": "Our market share for the year ended December 31, 2025 reached approximately 5% of SAM, demonstrating the massive opportunity ahead."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.7%",
+      "value": 14.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...holds a share of about 5%  . Within Brazil's card market, Nu held 14.7% of total credit card purchase volume in 2025, up...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "credit"
+        ],
+        "hl": "14.7%",
+        "snippet": "14.7% of the total credit card PV, compared to 14.2% in 2024, 13.9% in 2023, 11.6% in 2022 and 8.7% in 2021,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.2%",
+      "value": 14.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Nu held 14.7% of total credit card purchase volume in 2025, up from 14.2% in 2024 and 8.7% in 2021 (ABECS data)  ....",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "card",
+          "credit"
+        ],
+        "hl": "14.2%",
+        "snippet": "14.7% of the total credit card PV, compared to 14.2% in 2024, 13.9% in 2023, 11.6% in 2022 and 8.7% in 2021, according to data from ABECS."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...credit card purchase volume in 2025, up from 14.2% in 2024 and 8.7% in 2021 (ABECS data)  . Purchase volume reached...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "data",
+          "card"
+        ],
+        "hl": "8.7%",
+        "snippet": "14.7% of the total credit card PV, compared to 14.2% in 2024, 13.9% in 2023, 11.6% in 2022 and 8.7% in 2021, according to data from ABECS."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2021 (ABECS data)  . Purchase volume reached US$141.7 billion, up 13% in reported dollars and 17% FX-neutral  .  Scale...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13%",
+        "snippet": "account in June 2024. It was highly disruptive in the market as it offered a very high yield (13% annually v. market average of less than"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...volume reached US$141.7 billion, up 13% in reported dollars and 17% FX-neutral  .  Scale is the clearest sign of...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "volume"
+        ],
+        "hl": "17.0%",
+        "snippet": "17.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.0%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of position. Customers reached 131.0 million at year-end 2025, up 15.0%, including 113 million in Brazil, 14.1 million...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "customer"
+        ],
+        "hl": "15.0%",
+        "snippet": "15.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Mexico and over 4 million in Colombia  . Digital banks held over 8% of Brazilian individual loans by September 2025,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "september"
+        ],
+        "hl": "8%",
+        "snippet": "increased from below 1% in 2018 to above 8% as of September 2025. When excluding certain earmarked loans, such as mortgages and rural"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...8% of Brazilian individual loans by September 2025, up from below 1% in 2018  . Customer acquisition is largely...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "below"
+        ],
+        "hl": "1%",
+        "snippet": "increased from below 1% in 2018 to above 8% as of September 2025. When excluding certain earmarked loans, such as mortgages and rural"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "80%",
+      "value": 80.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below 1% in 2018  . Customer acquisition is largely organic, with 80% to 90% of new customers acquired without paid...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "new",
+          "customer"
+        ],
+        "hl": "80%",
+        "snippet": "...are core to our marketing as word-of-mouth drives a large portion of new customers to us. Approximately 80%-90%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "90%",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...1% in 2018  . Customer acquisition is largely organic, with 80% to 90% of new customers acquired without paid channels...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "new",
+          "customer"
+        ],
+        "hl": "90%",
+        "snippet": "...are core to our marketing as word-of-mouth drives a large portion of new customers to us. Approximately 80%-90%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and customer acquisition cost was US$7.4 with paid marketing about 32% of it  . Monthly ARPAC rose to US$13.3 from...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "paid",
+          "marketing",
+          "customer",
+          "united"
+        ],
+        "hl": "32%",
+        "snippet": "...December 31, 2025, our CAC was US$7.4 per customer (of which paid marketing accounted for approximately 32%), compared"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.1%",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Monthly ARPAC rose to US$13.3 from US$11.3, and net churn averaged 0.1% per month  . The      does not disclose customer...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "churn",
+          "net"
+        ],
+        "hl": "0.1%",
+        "snippet": "...of customer engagement contributes to our low customer churn. Our net churn is relatively low, averaging 0.1% per month"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.6%",
+      "value": 0.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the Cuenta Nu launch in mid-2024, and Mexico's GDP growth slowed to 0.6% in 2025 from 1.5%  . The U.S. bank, Nubank N.A.,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.5%",
+        "snippet": "● Nu Credit & Prepaid Card, with 0.5% cashback"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.5%",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in mid-2024, and Mexico's GDP growth slowed to 0.6% in 2025 from 1.5%  . The U.S. bank, Nubank N.A., received...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1.6%",
+        "snippet": "- Quarter ending 2025-12-31: EPS $0.18 vs estimate $0.18 (surprise -1.6%)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.2x",
+      "value": 2.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus is dated after the      and its FY2026 EV/Sales of 2.2x and forward P/E of 14.5x at US$12.36 per share...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "2.2",
+        "snippet": "...$22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "14.5x",
+      "value": 14.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...after the      and its FY2026 EV/Sales of 2.2x and forward P/E of 14.5x at US$12.36 per share suggest the market is...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "14.5",
+        "snippet": "...million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "131.0",
+      "value": 131.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  Scale is the clearest sign of position. Customers reached 131.0 million at year-end 2025, up 15.0%, including...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "reached",
+          "customer"
+        ],
+        "hl": "131 million",
+        "snippet": "We reached 131 million monthly customers"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "113",
+      "value": 113.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reached 131.0 million at year-end 2025, up 15.0%, including 113 million in Brazil, 14.1 million in Mexico and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "brazil"
+        ],
+        "hl": "113 million",
+        "snippet": "As of December 31, 2025, we had 131 million customers. In Brazil we had 113 million customers, which represented approximately 62% of"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "14.1",
+      "value": 14.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at year-end 2025, up 15.0%, including 113 million in Brazil, 14.1 million in Mexico and over 4 million in Colombia...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "14.1 million",
+        "snippet": "– Our customer base in Mexico is growing at a rapid rate and, as of December 31, 2025, we had a total of 14.1 million"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...including 113 million in Brazil, 14.1 million in Mexico and over 4 million in Colombia  . Digital banks held over...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "colombia"
+        ],
+        "hl": "4 million",
+        "snippet": "surpassed 4 million customers, with the subscription-based credit card increasing approval rates while maintaining healthy unit..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$15,774.8 million",
+      "value": 15774.8,
+      "unit": "million",
+      "money_mn": 15774.8,
+      "decimals": 1,
+      "context": "Nu Holdings reported 2025 revenue of US$15,774.8 million, up 37.0%, with interest income supplying 85.2%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15,774.8",
+        "snippet": "15,774.8 11,517.0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2,871.7 million",
+      "value": 2871.7,
+      "unit": "million",
+      "money_mn": 2871.7,
+      "decimals": 1,
+      "context": "...income supplying 85.2% of the total  . Net income rose 45.6% to US$2,871.7 million and diluted EPS rose 44.9% to US$0.5846, while...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,871.7",
+        "snippet": "2,871.7 1,972.0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$0.5846",
+      "value": 0.5846,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 4,
+      "context": "...rose 45.6% to US$2,871.7 million and diluted EPS rose 44.9% to US$0.5846, while diluted share count grew only 0.4%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.5846",
+        "snippet": "0.5846 0.4034"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2,752.9 million",
+      "value": 2752.9,
+      "unit": "million",
+      "money_mn": 2752.9,
+      "decimals": 1,
+      "context": "...the main driver of profit growth. Operating expenses rose 12.0% to US$2,752.9 million, falling to 17.5% of revenue from 21.3%, and the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,752.9)",
+        "snippet": "(2,752.9)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$1,720.3 million",
+      "value": 1720.3,
+      "unit": "million",
+      "money_mn": 1720.3,
+      "decimals": 1,
+      "context": "...in the ratio  . Credit and prepaid card income rose 24.6% to US$1,720.3 million, while late fees rose 33.9% to US$385.0 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,720.3 million",
+        "snippet": "December 31, 2025, total credit and prepaid cards income was US$1,720.3 million, equivalent to 1.2% of PV over the year ended December"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$385.0 million",
+      "value": 385.0,
+      "unit": "million",
+      "money_mn": 385.0,
+      "decimals": 1,
+      "context": "...rose 24.6% to US$1,720.3 million, while late fees rose 33.9% to US$385.0 million  . Consolidated net margin improved to 18.2%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "385.0",
+        "snippet": "385.0 287.5"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$3,500.5 million",
+      "value": 3500.5,
+      "unit": "million",
+      "money_mn": 3500.5,
+      "decimals": 1,
+      "context": "...strengthened alongside earnings. Operating cash flow reached US$3,500.5 million against US$2,399.1 million in 2024, and capital...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,500.5",
+        "snippet": "3,500.5 2,399.1"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2,399.1 million",
+      "value": 2399.1,
+      "unit": "million",
+      "money_mn": 2399.1,
+      "decimals": 1,
+      "context": "...earnings. Operating cash flow reached US$3,500.5 million against US$2,399.1 million in 2024, and capital expenditure of US$340.8...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,399.1",
+        "snippet": "2,399.1 1,266.2"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$340.8 million",
+      "value": 340.8,
+      "unit": "million",
+      "money_mn": 340.8,
+      "decimals": 1,
+      "context": "...against US$2,399.1 million in 2024, and capital expenditure of US$340.8 million left illustrative free cash flow of US$3,159.7...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "340.8 million",
+        "snippet": "US$340.8 million, US$175.0 million and US$177.0 million, respectively."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$3,159.7 million",
+      "value": 3159.7,
+      "unit": "million",
+      "money_mn": 3159.7,
+      "decimals": 1,
+      "context": "...expenditure of US$340.8 million left illustrative free cash flow of US$3,159.7 million  . Working capital absorbed US$11,078.7 million,...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 3,159,695,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$11,078.7 million",
+      "value": 11078.7,
+      "unit": "million",
+      "money_mn": 11078.7,
+      "decimals": 1,
+      "context": "...free cash flow of US$3,159.7 million  . Working capital absorbed US$11,078.7 million, mainly from a US$12,445.8 million rise in card...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Change In Working Capital 2025-12-31: -11,078,669,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$12,445.8 million",
+      "value": 12445.8,
+      "unit": "million",
+      "money_mn": 12445.8,
+      "decimals": 1,
+      "context": ".... Working capital absorbed US$11,078.7 million, mainly from a US$12,445.8 million rise in card and loan receivables, and financing...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Changes In Account Receivables 2025-12-31: -12,445,835,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$5,448.4 million",
+      "value": 5448.4,
+      "unit": "million",
+      "money_mn": 5448.4,
+      "decimals": 1,
+      "context": "...card and loan receivables, and financing supplied about 42% of the US$5,448.4 million increase in cash  . The company paid no...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5,448.4",
+        "snippet": "5,448.4 2,796.2"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$22,438.6 million",
+      "value": 22438.6,
+      "unit": "million",
+      "money_mn": 22438.6,
+      "decimals": 1,
+      "context": "...basis  . Consensus, dated after the     , expects FY2026 revenue of US$22,438.6 million (+42.2%) and EPS of US$0.85  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "22,438.6 million",
+        "snippet": "- FY2026E: revenue $22,438.6 million (range $22,283.0 million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$0.85",
+      "value": 0.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "..., expects FY2026 revenue of US$22,438.6 million (+42.2%) and EPS of US$0.85  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "0.85",
+        "snippet": "...revenue $22,438.6 million (range $22,283.0 million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.0%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Nu Holdings reported 2025 revenue of US$15,774.8 million, up 37.0%, with interest income supplying 85.2% of the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "united"
+        ],
+        "hl": "37%",
+        "snippet": "model. Revenues grew 37% year-over-year, to US$15.8 billion in 2025. Notably, net income grew 45% from 2024 to close at US$2.9 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85.2%",
+      "value": 85.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of US$15,774.8 million, up 37.0%, with interest income supplying 85.2% of the total  . Net income rose 45.6% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "85.2%",
+        "snippet": "85.2% and 83.6% of total revenue, respectively. We earned US$13.4 billion of interest income and gains net of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.6%",
+      "value": 45.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...interest income supplying 85.2% of the total  . Net income rose 45.6% to US$2,871.7 million and diluted EPS rose 44.9%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "income",
+          "united"
+        ],
+        "hl": "45.6%",
+        "snippet": "for the year ended December 31, 2025 was US$2,871.7 million, an increase of US$899.6 million, or 45.6%, from a net income of US$1,972.1"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.9%",
+      "value": 44.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Net income rose 45.6% to US$2,871.7 million and diluted EPS rose 44.9% to US$0.5846, while diluted share count grew...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "income",
+          "united"
+        ],
+        "hl": "45%",
+        "snippet": "model. Revenues grew 37% year-over-year, to US$15.8 billion in 2025. Notably, net income grew 45% from 2024 to close at US$2.9 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.4%",
+      "value": 0.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS rose 44.9% to US$0.5846, while diluted share count grew only 0.4%  . Operating leverage was the main driver of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.5%",
+        "snippet": "● Nu Credit & Prepaid Card, with 0.5% cashback"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.0%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was the main driver of profit growth. Operating expenses rose 12.0% to US$2,752.9 million, falling to 17.5% of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12.0%",
+        "snippet": "for 10.9% and 29.1% of our revenue, respectively (12.0% and 33.0% in the year ended December 31, 2024). While we expect our revenue concentration"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.5%",
+      "value": 17.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Operating expenses rose 12.0% to US$2,752.9 million, falling to 17.5% of revenue from 21.3%, and the effective tax...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "revenue",
+          "expens"
+        ],
+        "hl": "17.5%",
+        "snippet": "Operating expenses represented 17.5% of our total revenue in 2025, compared to 21.3% in 2024. The main changes leading to the increase/decrease"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.3%",
+      "value": 21.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 12.0% to US$2,752.9 million, falling to 17.5% of revenue from 21.3%, and the effective tax rate dropped to 25.8%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "21.3%",
+        "snippet": "Operating expenses represented 17.5% of our total revenue in 2025, compared to 21.3% in 2024. The main changes leading to the increase/decrease"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.8%",
+      "value": 25.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...17.5% of revenue from 21.3%, and the effective tax rate dropped to 25.8% from 29.4%  .  The gross margin, however,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "effective",
+          "tax"
+        ],
+        "hl": "25.8%",
+        "snippet": "ended December 31, 2024. The effective income tax rates were 25.8% and 29.4% in the years 2025 and 2024, respectively. The decrease in"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.4%",
+      "value": 29.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 21.3%, and the effective tax rate dropped to 25.8% from 29.4%  .  The gross margin, however, compressed. Costs...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "effective",
+          "tax"
+        ],
+        "hl": "29.4%",
+        "snippet": "ended December 31, 2024. The effective income tax rates were 25.8% and 29.4% in the years 2025 and 2024, respectively. The decrease in"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.1%",
+      "value": 46.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...compressed. Costs of financial and transactional services rose 46.1%, faster than revenue, led by deposit interest...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.1%",
+        "snippet": "46.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65.5%",
+      "value": 65.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 46.1%, faster than revenue, led by deposit interest expense (+65.5%) and expected credit loss (+32.7%), so gross...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "interest"
+        ],
+        "hl": "65.5%",
+        "snippet": "million or 65.5% in interest expenses on deposits due to an increase in the volume of deposits of US$13.0 billion, or 45.3%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.7%",
+      "value": 32.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...led by deposit interest expense (+65.5%) and expected credit loss (+32.7%), so gross margin fell to 42.0% from 45.6%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "32.7%",
+        "snippet": "32.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.0%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(+65.5%) and expected credit loss (+32.7%), so gross margin fell to 42.0% from 45.6%  . Expected credit loss on cards and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross"
+        ],
+        "hl": "42.0%",
+        "snippet": "...year ended December 31, 2024. Our gross margin (gross profit divided by total revenue) decreased, reaching 42.0% for"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.6%",
+      "value": 45.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...expected credit loss (+32.7%), so gross margin fell to 42.0% from 45.6%  . Expected credit loss on cards and loans held...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "45.6%",
+        "snippet": "45.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.4%",
+      "value": 15.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...42.0% from 45.6%  . Expected credit loss on cards and loans held at 15.4% of receivables in both years, so the increase...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "loan",
+          "card",
+          "credit"
+        ],
+        "hl": "15.4%",
+        "snippet": "ECL for credit cards and loans was 15.4% of the total receivable, remaining stable compared as of December 31, 2024, when it was also"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.6%",
+      "value": 24.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a deterioration in the ratio  . Credit and prepaid card income rose 24.6% to US$1,720.3 million, while late fees rose...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "prepaid",
+          "credit",
+          "united"
+        ],
+        "hl": "24.6%",
+        "snippet": "...for the year ended December 31, 2024, primarily attributable to (i) an increase of US$ 339.7 million, or 24.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.9%",
+      "value": 33.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...card income rose 24.6% to US$1,720.3 million, while late fees rose 33.9% to US$385.0 million  . Consolidated net margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "late",
+          "fees",
+          "united"
+        ],
+        "hl": "33.9%",
+        "snippet": "in the number of customers and (ii) an increase of US$97.5 million, or 33.9% in late fees, as a result of the portfolio growth of 58%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.2%",
+      "value": 18.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...33.9% to US$385.0 million  . Consolidated net margin improved to 18.2% from 17.1% on the lower tax rate, a gain that...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...US$385.0 million  . Consolidated net margin improved to 18.2% from 17.1% on the lower tax rate, a gain that management...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17.0%",
+        "snippet": "...Bank for International Settlements (BIS); and (3) limited household debt as a percentage of GDP, at 36.5%, 17.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rise in card and loan receivables, and financing supplied about 42% of the US$5,448.4 million increase in cash  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "42.0%",
+        "snippet": "...year ended December 31, 2024. Our gross margin (gross profit divided by total revenue) decreased, reaching 42.0% for"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.3%",
+      "value": 45.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Reported growth also benefits from currency effects: deposits grew 45.3% in US dollars but 29.0% on an FX-neutral basis...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "deposit",
+          "united"
+        ],
+        "hl": "45.3%",
+        "snippet": "...65.5% in interest expenses on deposits due to an increase in the volume of deposits of US$13.0 billion, or 45.3%, reaching"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.0%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from currency effects: deposits grew 45.3% in US dollars but 29.0% on an FX-neutral basis  . Consensus, dated after...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "fx-neutral",
+          "deposit"
+        ],
+        "hl": "29%",
+        "snippet": "In parallel, we continued to strengthen our deposit franchise. Total deposits increased 29% year-on-year on a FX-neutral basis to US$41.9"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42.2%",
+      "value": 42.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...after the     , expects FY2026 revenue of US$22,438.6 million (+42.2%) and EPS of US$0.85  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "42.2%",
+        "snippet": "- FY2026E: revenue $22,438.6 million (range $22,283.0 million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$4,204.9 million",
+      "value": 4204.9,
+      "unit": "million",
+      "money_mn": 4204.9,
+      "decimals": 1,
+      "context": "...will cover actual losses  . Expected credit loss grew 32.7% to US$4,204.9 million, and the ratio held at 15.4% of receivables, so...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,204.9)",
+        "snippet": "(4,204.9)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$600",
+      "value": 600.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...book through the Over-Indebtedness Law and Decree No. 11,567's R$600 minimum threshold, and fee or interest caps...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "600.0",
+        "snippet": "existencial ”) of R$ 600.0 for the prevention, treatment and conciliation of situations of over-indebtedness in consumer debt."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.7%",
+      "value": 32.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reserves will cover actual losses  . Expected credit loss grew 32.7% to US$4,204.9 million, and the ratio held at...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "32.7%",
+        "snippet": "32.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.4%",
+      "value": 15.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...credit loss grew 32.7% to US$4,204.9 million, and the ratio held at 15.4% of receivables, so any rise in that ratio would...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "credit"
+        ],
+        "hl": "15.4%",
+        "snippet": "ECL for credit cards and loans was 15.4% of the total receivable, remaining stable compared as of December 31, 2024, when it was also"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54.7%",
+      "value": 54.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...would hit earnings directly  . Financial and cash assets made up 54.7% of total assets at year-end, carrying investment...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "54.7%",
+        "snippet": "central banks represented 54.7% and 55.0% of our total assets as of December 31, 2025 and 2024, respectively. Any realized or unrealized"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.0%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...form the second risk. Card fees and card interest made up 40.0% of 2025 revenue, down from 45.0%, but the mix...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "card"
+        ],
+        "hl": "40.0%",
+        "snippet": "40.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.0%",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fees and card interest made up 40.0% of 2025 revenue, down from 45.0%, but the mix remains weighted toward cards  ....",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "card"
+        ],
+        "hl": "45.0%",
+        "snippet": "45.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.6%",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus, dated after the     , sees FY2027 EPS revisions down 4.6% over the last 90 days, which may reflect part of...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "4.6%",
+        "snippet": "- EPS consensus next fiscal year: $1.06 today, $1.11 30 days ago, $1.11 90 days ago, change vs 90 days ago -4.6%; analysts raising/cutting in last 30 days: 2/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "11,567",
+      "value": 11567.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the credit book through the Over-Indebtedness Law and Decree No. 11,567's R$600 minimum threshold, and fee or interest...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "interest"
+        ],
+        "hl": null,
+        "snippet": "PAGS Interest Income 2025-12-31: 11,584,606,000 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...after the     , sees FY2027 EPS revisions down 4.6% over the last 90 days, which may reflect part of this risk...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "and repayment track record. As of December 31, 2025, our reported NPL 15-90 days late rate reached 3.9% and our NPL 90+ days late rate"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quality scores point the same way: the Piotroski F-score is 4 of 7, with failures on asset turnover and return...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "4)",
+        "snippet": "Monthly Average Revenue per Active Customer (in $) (4)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quality scores point the same way: the Piotroski F-score is 4 of 7, with failures on asset turnover and return on...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "return",
+          "f-score",
+          "piotroski"
+        ],
+        "hl": "7",
+        "snippet": "- Piotroski F-Score: 4 of 7 available criteria; failed: Return on assets improved, No increase in share count, Asset turnover improved"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$2,971 million",
+      "value": 2971.0,
+      "unit": "million",
+      "money_mn": 2971.0,
+      "decimals": 0,
+      "context": "...growth has been the fastest in the set over three years, from US$2,971 million in 2022 to US$10,627 million in 2025, but growth...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue 2022: 2971"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$10,627 million",
+      "value": 10627.0,
+      "unit": "million",
+      "money_mn": 10627.0,
+      "decimals": 0,
+      "context": "...in the set over three years, from US$2,971 million in 2022 to US$10,627 million in 2025, but growth has slowed each year, to...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue 2025: 10627"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$10,627 million",
+      "value": 10627.0,
+      "unit": "million",
+      "money_mn": 10627.0,
+      "decimals": 0,
+      "context": "...46.8% and 28.5%  . Note that the peer data use a revenue base of US$10,627 million, which differs from the US$15,774.8 million in...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue 2025: 10627"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$15,774.8 million",
+      "value": 15774.8,
+      "unit": "million",
+      "money_mn": 15774.8,
+      "decimals": 1,
+      "context": "...use a revenue base of US$10,627 million, which differs from the US$15,774.8 million in the     , so growth and multiples are not...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15,774.8",
+        "snippet": "15,774.8 11,517.0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$3,160 million",
+      "value": 3160.0,
+      "unit": "million",
+      "money_mn": 3160.0,
+      "decimals": 0,
+      "context": "...SoFi at 38.3% and Inter at 31.3%  . Nu's free cash flow rose to US$3,160 million, with FCF conversion near 1 in each year from...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 3160"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$7,160 million",
+      "value": 7160.0,
+      "unit": "million",
+      "money_mn": 7160.0,
+      "decimals": 0,
+      "context": "...in the set. Inter's free cash flow was larger in absolute terms, at US$7,160 million in 2025, though its conversion ratio is volatile...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTR FCF 2025: 7160"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.6%",
+      "value": 89.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to US$10,627 million in 2025, but growth has slowed each year, to 89.6%, 46.8% and 28.5%  . Note that the peer data use...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2023: 89.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.8%",
+      "value": 46.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million in 2025, but growth has slowed each year, to 89.6%, 46.8% and 28.5%  . Note that the peer data use a...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 46.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.5%",
+      "value": 28.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2025, but growth has slowed each year, to 89.6%, 46.8% and 28.5%  . Note that the peer data use a revenue base of...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 28.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38.3%",
+      "value": 38.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the filing  .  On 2025 growth Nu trailed both peers, with SoFi at 38.3% and Inter at 31.3%  . Nu's free cash flow rose...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "38.4%",
+        "snippet": "38.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.3%",
+      "value": 31.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2025 growth Nu trailed both peers, with SoFi at 38.3% and Inter at 31.3%  . Nu's free cash flow rose to US$3,160 million,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTR Revenue Growth 2025: 31.3%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "14.5x",
+      "value": 14.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus, dated after the     , values Nu at a forward P/E of 14.5x and forward EV/Sales of 2.2x, which signals that...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "14.5",
+        "snippet": "...million to $22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.2x",
+      "value": 2.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "..., values Nu at a forward P/E of 14.5x and forward EV/Sales of 2.2x, which signals that the market pricing depends...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue"
+        ],
+        "hl": "2.2",
+        "snippet": "...$22,597.0 million, 5 analysts), growth +42.2%; EPS $0.85 (range $0.80 to $0.90); forward P/E 14.5x; EV/Sales 2.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "5.86",
+      "value": 5.86,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...2025  .  Valuation is where Nu stands apart. Its 2025 EV/Sales of 5.86 was second only to SoFi's 8.38, and well above...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "EV/Sales 2025: 5.86"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.38",
+      "value": 8.38,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...stands apart. Its 2025 EV/Sales of 5.86 was second only to SoFi's 8.38, and well above Inter's 2.89 and PagSeguro's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "SOFI EV/Sales 2025: 8.38"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.89",
+      "value": 2.89,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 5.86 was second only to SoFi's 8.38, and well above Inter's 2.89 and PagSeguro's 2.73  . Its price-to-book of...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,885.6)",
+        "snippet": "(2,885.6)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.73",
+      "value": 2.73,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...only to SoFi's 8.38, and well above Inter's 2.89 and PagSeguro's 2.73  . Its price-to-book of 7.20 was the highest in...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAGS EV/Sales 2025: 2.73"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.20",
+      "value": 7.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...above Inter's 2.89 and PagSeguro's 2.73  . Its price-to-book of 7.20 was the highest in the group  . Consensus, dated...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "PB Ratio 2025: 7.2"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4784.3 million",
+      "value": 4784.3,
+      "unit": "million",
+      "money_mn": 4784.3,
+      "decimals": 1,
+      "context": "Loan interest income: $4784.3 million, prior $3038.7 million; Credit card interest...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,784.3",
+        "snippet": "4,784.3 3,038.7"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3038.7 million",
+      "value": 3038.7,
+      "unit": "million",
+      "money_mn": 3038.7,
+      "decimals": 1,
+      "context": "Loan interest income: $4784.3 million, prior $3038.7 million; Credit card interest income: $4597.8 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,038.7",
+        "snippet": "3,038.7 1,745.6"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4597.8 million",
+      "value": 4597.8,
+      "unit": "million",
+      "money_mn": 4597.8,
+      "decimals": 1,
+      "context": "...million, prior $3038.7 million; Credit card interest income: $4597.8 million, prior $3805.0 million; Credit and prepaid card...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,597.8",
+        "snippet": "4,597.8 3,802.4"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3805.0 million",
+      "value": 3805.0,
+      "unit": "million",
+      "money_mn": 3805.0,
+      "decimals": 1,
+      "context": "...million; Credit card interest income: $4597.8 million, prior $3805.0 million; Credit and prepaid card income: $1720.3...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,803.7",
+        "snippet": "3,803.7 39.5%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1720.3 million",
+      "value": 1720.3,
+      "unit": "million",
+      "money_mn": 1720.3,
+      "decimals": 1,
+      "context": "...million, prior $3805.0 million; Credit and prepaid card income: $1720.3 million, prior $1380.9 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,720.3 million",
+        "snippet": "December 31, 2025, total credit and prepaid cards income was US$1,720.3 million, equivalent to 1.2% of PV over the year ended December"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1380.9 million",
+      "value": 1380.9,
+      "unit": "million",
+      "money_mn": 1380.9,
+      "decimals": 1,
+      "context": "...million; Credit and prepaid card income: $1720.3 million, prior $1380.9 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,380.6 million",
+        "snippet": "card income increased US$339.7 million, an increase of 24.6% compared to US$1,380.6 million for the year ended December 31, 2024 driven"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "INTR",
+    "SOFI",
+    "PAGS"
+  ],
+  "build_round": 1,
+  "self_correct": true
+}

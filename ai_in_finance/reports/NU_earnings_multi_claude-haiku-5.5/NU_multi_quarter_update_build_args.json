@@ -1,0 +1,118 @@
+{
+  "ticker_symbol": "NU",
+  "fyear": "2025",
+  "save_dir": "../reports/NU_earnings_multi_claude-haiku-5.5",
+  "headline": "Nu posted record quarterly profit through Q3 FY2026, but deposit growth fell below its 20% invalidation line and the 90+ NPL ratio kept rising.",
+  "summary": "Nu's three quarters since the FY2025 annual report show record profit, but the funding thesis has broken its own invalidation test. Net income was US$871.4m in Q1 FY2026, US$1,061.1m in Q2 and US$1,091.6m in Q3 [1]. Diluted EPS was 0.18, 0.22 and 0.22: Q2 beat the 0.19 consensus by 13% and Q1 missed by 5.2% [3]. The efficiency ratio was 17.6%, 19.5% and 19.3%, and management now guides FY2026 to 19% to 19.5%, below its earlier expectation of about 20% [1]. The operating leverage thesis (T1) and the valuation thesis (T3) remain intact on the evidence. Credit (T2) weakened in Q3 as the 90+ NPL ratio rose to 7.3% from 6.7% a year earlier [1]. Funding (T4) broke its invalidation rule: FX-neutral deposit growth was 18% in Q2 and 19% in Q3, below the 20% line [1][4]. TTM free cash flow remained negative at -US$625.9m at the latest quarter [2]. Consensus FY2026 EPS of US$0.85 is unchanged over 90 days, while FY2027 EPS fell 4.6% to US$1.06 [3]. Consensus data are dated after the 10-K.",
+  "results_commentary": "Q1 FY2026 (ended 31 March) was the weakest quarter of the three. Net income was US$871.4m and diluted EPS was 0.18, a 5.2% miss against the 0.19 consensus [1][3]. The efficiency ratio was 17.6% and risk-adjusted NIM was 9.5%, which management described as resilient despite the seasonal rise in early delinquencies [1]. Deposits recovered from the Q1 seasonal outflow to US$42.4bn, up 22% FX-neutral year on year [1].\n\nQ2 FY2026 (ended 30 June) was the strongest quarter. Managerial revenue was US$5,875.7m, up 39% year on year, and net income reached US$1,061.1m, up 49% FX-neutral from US$637.0m a year earlier [1]. EPS of 0.22 beat the 0.19 consensus by 13% [3]. Risk-adjusted NIM rose to 12.4% from 9.9% a year earlier, helped by a 9% quarter-on-quarter fall in cost of credit to US$1.7bn, which management attributed to normal second-quarter seasonality [1]. Two items moved the other way. The efficiency ratio rose to 19.5% from 17.6% in Q1 because real estate and marketing costs shifted into the quarter, and 90+ NPLs rose to 6.9% from 6.5% a year earlier [1]. Deposit growth slowed to 18% FX-neutral, below the 20% invalidation line set in the annual report, and Mexico deposits declined by design [1][4].\n\nQ3 FY2026 (ended 30 September) grew revenue but added to the credit and funding concerns. Managerial revenue was US$6,258.5m, up 37% FX-neutral, and net income reached a record US$1,091.6m, up 31% [1]. EPS was 0.22, in line with the estimate [3]. Cost of credit was US$1,788.7m, or 28.6% of managerial revenue against 24.0% a year earlier (computed from [1]). Risk-adjusted NIM fell to 12.1% from 12.4% in Q2, and management reported 12.7% excluding non-recurring items [1]. The 90+ NPL ratio rose to 7.3% from 6.9% in Q2 and 6.7% a year earlier, which management linked to intentional expansion into higher-risk segments [1]. Deposits reached US$47.5bn, up 19% FX-neutral, still below the 20% line [1]. The efficiency ratio was 19.3%, and management lowered its FY2026 target to 19% to 19.5% [1].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Operating leverage keeps EPS compounding even as gross margin compresses.",
+      "signpost": "Operating expenses stay below 20% of revenue in each 2026 quarterly report, and FY2026 diluted EPS lands near the US$0.85 consensus [3]. Nu reports an efficiency ratio rather than opex-to-revenue; this update uses it as the proxy.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The efficiency ratio was 17.6% in Q1, 19.5% in Q2 (21.3% a year earlier) and 19.3% in Q3 (20.3% a year earlier) [1]; all stay below the 20% level for the 2026 quarters, and the Q2 and Q3 ratios improved year on year. Diluted EPS of 0.22 in Q2 beat the estimate by 13%, and the FY2026 consensus of US$0.85 is unchanged over 90 days [3]. Q3 year-on-year gross margin was not reported, so the gross-margin half of the thesis is not tested here."
+    },
+    {
+      "thesis": "T2: Credit losses stay contained at about 15% of receivables, so gross margin stabilises.",
+      "signpost": "The expected credit loss ratio on cards and loans stays at or below 15.4% in each 2026 quarterly report.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "The expected credit loss ratio to receivables is not disclosed in the 2026 releases, so the signpost cannot be tested directly. The 90+ NPL ratio was 6.5% in Q1, 6.9% in Q2 and 7.3% in Q3, against 6.5%, 6.5% and 6.7% a year earlier [1]. Cost of credit rose to 28.6% of managerial revenue in Q3 from 24.0% a year earlier (computed from [1]), so the Q3 deterioration is visible even without the ratio."
+    },
+    {
+      "thesis": "T3: The current valuation prices in a sharp growth slowdown, so the stock can re-rate if revenue keeps growing.",
+      "signpost": "FY2026 revenue reported in the 2026 20-F (early 2027) at or above the US$22.3 billion low end of consensus [3].",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Managerial revenue for the first nine months of FY2026 totals US$17,449.7m (computed from [1]). Reaching the US$22.3bn low end would need about US$4.8bn in Q4 (illustrative), below the Q3 level of US$6.26bn, but the company reports on a managerial basis and the consensus basis is not stated [1][3]. Q2 revenue grew 39% YoY [1]. FY2027 consensus EPS fell 4.6% over 90 days to US$1.06, the thesis's warning sign [3]."
+    },
+    {
+      "thesis": "T4: Deposit funding keeps the balance sheet self-sustaining without new equity.",
+      "signpost": "Deposit growth stays above 25% on an FX-neutral basis, and TTM free cash flow turns positive in the FY2026 20-F (early 2027).",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "broken",
+        "Q3 FY2026": "broken"
+      },
+      "current_status": "broken",
+      "evidence": "FX-neutral deposit growth was 22% in Q1, 18% in Q2 and 19% in Q3 [1], below the 25% signpost and, in Q2 and Q3, below the 20% invalidation level set in the annual report [4]. Deposits reached US$47.5bn in Q3, but Mexico deposits fell by design [1]. TTM free cash flow was still -US$625.9m at the latest quarter [2], so the positive-FCF signpost is not yet met."
+    }
+  ],
+  "risk_update": "Credit risk has partly materialised. The 90+ NPL ratio rose in each quarter, from 6.5% in Q1 FY2026 to 7.3% in Q3, and management said it expanded into higher-risk segments on purpose [1]. Funding growth has slowed. FX-neutral deposit growth dropped to 18% in Q2 and 19% in Q3, and Mexico deposits fell as management optimised funding costs [1]. Expansion is a new operating risk. Nu launched its Mexico bank in August, Nu US in September and Nu Global in October, and management committed to keep their combined impact on the efficiency ratio within 100 bps in each of 2026 and 2027 [1]. Cash flow remains negative on a TTM basis at -US$625.9m [2]. The regulatory risks in the annual report, including card-fee rules and open finance, were not addressed in the 2026 releases and are not assessed here [4].",
+  "outlook": "Management now expects a FY2026 efficiency ratio of 19% to 19.5%, below its earlier expectation of about 20%, with a sequential rise in Q4 [1]. Consensus FY2026 EPS of US$0.85 is unchanged over 90 days, and the range is US$0.80 to US$0.90 [3]. Consensus FY2027 EPS fell 4.6% to US$1.06 over 90 days, and the range is wide at US$0.78 to US$1.23 [3]. Consensus data are dated after the 10-K. Next we will watch whether FX-neutral deposit growth recovers above 20%, whether the 90+ NPL ratio stops rising, and whether TTM free cash flow turns positive in the FY2026 20-F. A failure on the deposit or credit signposts would confirm that the funding and credit theses are broken.",
+  "company_kpis": [
+    {
+      "name": "Net income (managerial)",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 871.4,
+        "Q2 FY2026": 1061.1,
+        "Q3 FY2026": 1091.6
+      },
+      "prior_values": {
+        "Q2 FY2026": 637.0,
+        "Q3 FY2026": 782.7
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Efficiency ratio",
+      "unit": "%",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 17.6,
+        "Q2 FY2026": 19.5,
+        "Q3 FY2026": 19.3
+      },
+      "prior_values": {
+        "Q2 FY2026": 21.3,
+        "Q3 FY2026": 20.3
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Risk-adjusted NIM",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 9.5,
+        "Q2 FY2026": 12.4,
+        "Q3 FY2026": 12.1
+      },
+      "prior_values": {
+        "Q2 FY2026": 9.9,
+        "Q3 FY2026": 10.8
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "NPL 90+ ratio",
+      "unit": "%",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 6.5,
+        "Q2 FY2026": 6.9,
+        "Q3 FY2026": 7.3
+      },
+      "prior_values": {
+        "Q2 FY2026": 6.5,
+        "Q3 FY2026": 6.7
+      },
+      "source": "[1] earnings releases"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+Company names (use exactly these names): NFLX = Netflix, Inc.; WBD = Warner Bros. Discovery Inc; PSKY = Paramount Skydance Corp; DIS = The Walt Disney Company
+
+
+Revenue:
+NFLX: 2022    31616
+2023    33723
+2024    39001
+2025    45183
+Name: Revenue, dtype: object
+WBD: 2022    33817
+2023    41321
+2024    39321
+2025    37296
+Name: Revenue, dtype: object
+PSKY: 2021    28586
+2022    30154
+2023    29652
+2024    29213
+Name: Revenue, dtype: object
+DIS: 2023     88898
+2024     91361
+2025     94425
+2026    102344
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+NFLX: 2022      n/a
+2023     6.7%
+2024    15.6%
+2025    15.9%
+Name: Revenue Growth, dtype: object
+WBD: 2022      n/a
+2023    22.2%
+2024    -4.8%
+2025    -5.1%
+Name: Revenue Growth, dtype: object
+PSKY: 2021      n/a
+2022     5.5%
+2023    -1.7%
+2024    -1.5%
+Name: Revenue Growth, dtype: object
+DIS: 2023     n/a
+2024    2.8%
+2025    3.4%
+2026    8.4%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+NFLX: 2022    12447
+2023    14008
+2024    17963
+2025    21908
+Name: Gross Profit, dtype: object
+WBD: 2022    13375
+2023    16795
+2024    16351
+2025    16411
+Name: Gross Profit, dtype: object
+PSKY: 2021    10842
+2022    10309
+2023     7264
+2024     8658
+Name: Gross Profit, dtype: object
+DIS: 2023    29697
+2024    32663
+2025    35659
+2026    38914
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+NFLX: 2022    39.4%
+2023    41.5%
+2024    46.1%
+2025    48.5%
+Name: Gross Margin, dtype: object
+WBD: 2022    39.6%
+2023    40.6%
+2024    41.6%
+2025    44.0%
+Name: Gross Margin, dtype: object
+PSKY: 2021    37.9%
+2022    34.2%
+2023    24.5%
+2024    29.6%
+Name: Gross Margin, dtype: object
+DIS: 2023    33.4%
+2024    35.8%
+2025    37.8%
+2026    38.0%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+NFLX: 2022    20333
+2023    21508
+2024    26315
+2025    30255
+Name: EBITDA, dtype: object
+WBD: 2022    14171
+2023    22367
+2024    11612
+2025    21263
+Name: EBITDA, dtype: object
+PSKY: 2021     6582
+2022     2575
+2023       85
+2024    -4925
+Name: EBITDA, dtype: object
+DIS: 2023    12111
+2024    14629
+2025    19141
+2026    21723
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+NFLX: 2022    64.3%
+2023    63.8%
+2024    67.5%
+2025    67.0%
+Name: EBITDA Margin, dtype: object
+WBD: 2022    41.9%
+2023    54.1%
+2024    29.5%
+2025    57.0%
+Name: EBITDA Margin, dtype: object
+PSKY: 2021     23.0%
+2022      8.5%
+2023      0.3%
+2024    -16.9%
+Name: EBITDA Margin, dtype: object
+DIS: 2023    13.6%
+2024    16.0%
+2025    20.3%
+2026    21.2%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+NFLX: 2022    1619
+2023    6926
+2024    6922
+2025    9461
+Name: FCF, dtype: object
+WBD: 2022    3317
+2023    6161
+2024    4427
+2025    3088
+Name: FCF, dtype: object
+PSKY: 2021     599
+2022    -139
+2023     147
+2024     489
+Name: FCF, dtype: object
+DIS: 2023     4897
+2024     8559
+2025    10077
+2026    10572
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+NFLX: 2022    0.36
+2023    1.28
+2024    0.79
+2025    0.86
+Name: FCF Conversion, dtype: object
+WBD: 2022     n/m
+2023     n/m
+2024     n/m
+2025    4.25
+Name: FCF Conversion, dtype: object
+PSKY: 2021    0.13
+2022   -0.13
+2023     n/m
+2024     n/m
+Name: FCF Conversion, dtype: object
+DIS: 2023    2.08
+2024    1.72
+2025    0.81
+2026    1.07
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+NFLX: 2022    14.4%
+2023    17.2%
+2024    23.1%
+2025    28.4%
+Name: ROIC, dtype: object
+WBD: 2022    -6.1%
+2023    -1.5%
+2024    -9.5%
+2025     4.0%
+Name: ROIC, dtype: object
+PSKY: 2021       n/a
+2022      4.6%
+2023     -0.6%
+2024    -16.4%
+Name: ROIC, dtype: object
+DIS: 2023    3.3%
+2024    5.0%
+2025    6.8%
+2026    7.7%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+NFLX: 2022     6.91
+2023    10.14
+2024    14.78
+2025    13.26
+Name: EV/EBITDA, dtype: object
+WBD: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EV/EBITDA, dtype: object
+PSKY: 2021    n/a
+2022    n/a
+2023    n/a
+2024    n/m
+Name: EV/EBITDA, dtype: object
+DIS: 2023     15.2
+2024    14.81
+2025    12.76
+2026    10.25
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+NFLX: 2022    4.44
+2023    6.47
+2024    9.98
+2025    8.88
+Name: EV/Sales, dtype: object
+WBD: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: EV/Sales, dtype: object
+PSKY: 2021    n/a
+2022    n/a
+2023    n/a
+2024    n/a
+Name: EV/Sales, dtype: object
+DIS: 2023    2.07
+2024    2.37
+2025    2.59
+2026    2.18
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+NFLX: 2022    29.64
+2023    40.47
+2024    44.95
+2025    37.06
+Name: PE Ratio, dtype: object
+WBD: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/a
+Name: PE Ratio, dtype: object
+PSKY: 2021    n/a
+2022    n/a
+2023    n/m
+2024    n/m
+Name: PE Ratio, dtype: object
+DIS: 2023    62.83
+2024    35.36
+2025    16.72
+2026    18.63
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+NFLX: 2022     6.32
+2023    10.23
+2024    15.41
+2025    14.87
+Name: PB Ratio, dtype: object
+WBD: 2022    n/a
+2023    n/a
+2024    n/a
+2025    n/a
+Name: PB Ratio, dtype: object
+PSKY: 2021    n/m
+2022    n/a
+2023    n/a
+2024    n/a
+Name: PB Ratio, dtype: object
+DIS: 2023    1.49
+2024    1.73
+2025    1.87
+2026    1.63
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for NFLX and ['WBD', 'PSKY', 'DIS'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

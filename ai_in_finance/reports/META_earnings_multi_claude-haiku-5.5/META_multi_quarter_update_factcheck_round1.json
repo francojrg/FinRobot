@@ -1,0 +1,4346 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 159,
+  "context_match_rate": 0.815,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "-33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 26-33% in each quarter since the     , but Q3 operating...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "26",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 26-33% in each quarter since the     , but Q3...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26,229",
+        "snippet": "Operating lease liabilities, non-current 26,229 22,940"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth that stayed above 20% while profit fell. Revenue rose 33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...average price per ad rose 12%, 12% and 14%  . Operating income fell 37% in Q3 to $12.99 billion after a $9.89 billion...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37) %",
+        "snippet": "Income from operations $ 12,988 $ 20,535 (37) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...general agreement; excluding it, operating income would have risen 11% to $22.88 billion  . Free cash flow was $12.39...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11 %",
+        "snippet": "Effective tax rate 16 % 11 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...that charge, operating income would have been $22.88 billion, up 11% year on year, and diluted EPS would have been...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11 %",
+        "snippet": "Effective tax rate 16 % 11 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...faster than revenue  . Research and development rose 67% to $21.66 billion, driven by employee...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "67%",
+        "snippet": "Costs and expenses 36,976 22,175 67% 5,050 4,900 3% 42,026 27,075 55%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...costs  . Operating income fell 8% to $18.78 billion and EPS fell 13% to $6.18  . Ad impressions growth slowed to 14%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13) %",
+        "snippet": "Diluted earnings per share (EPS) $ 6.18 $ 7.14 (13) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...while price per ad held at 12%  . Family daily active people grew 3%, down from 4%  .  Q1 FY2026 was the strongest...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.60 billion on average for June 2026, an increase of 3% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...per ad held at 12%  . Family daily active people grew 3%, down from 4%  .  Q1 FY2026 was the strongest quarter. Revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.56 billion on average for March 2026, an increase of 4% year-over-year. The slight decline in DAP on a quarter-over-quarter basis was driven by internet disruptions..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 19% with price per ad up 12%  . Operating income rose 30% to $22.87 billion  . Diluted EPS of $10.44...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "30 %",
+        "snippet": "Income from operations $ 22,872 $ 17,555 30 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(illustrative)  . Revenue growth slowed in each later quarter (33%, 28%, 26%) as impressions growth fell faster...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$34.91 billion  . Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025 revenue of about $59.9 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "27%",
+        "snippet": "...billion, an increase of 28% year-over-year. Revenue on a constant currency basis would have increased by 27% year-over-year."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "22",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and $34.91 billion  . Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025 revenue of about $59.9...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "21,752",
+        "snippet": "Income before income taxes 21,752 18,382"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2027. Q1 impressions grew 19% and price per ad 12%, against a 10%/8% signpost  . Impressions growth slowed to 14% in...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8) %",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a 10%/8% signpost  . Impressions growth slowed to 14% in Q2 and 10% in Q3, while price rose 12% and 14%  . Q3...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...statuses rest on reported growth, which stayed at 26-33%  . The implied return on the consensus path is...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "59",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...run rate of about $32 billion in operating cash flow before $49-59 billion of implied Q4 capex  . T3: At the...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "58,748",
+        "snippet": "Long-term debt 58,748 58,744"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "26",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...statuses rest on reported growth, which stayed at 26-33%  . The implied return on the consensus path...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26,229",
+        "snippet": "Operating lease liabilities, non-current 26,229 22,940"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in total (illustrative), and 2026 guidance was narrowed to $18-19 billion  . EPS consensus for the current year...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19)",
+        "snippet": "Interest and other income (expense), net (19) 93 (1,139) 919"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...may result in a material loss  . Ad impression growth slowed from 19% to 10% over three quarters, and reduced ad...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in a material loss  . Ad impression growth slowed from 19% to 10% over three quarters, and reduced ad targeting...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to weigh on marketer budgets  . Family daily active people grew 3% in Q2 and Q3, down from 4% in Q1  . Risks that...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.60 billion on average for June 2026, an increase of 3% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Family daily active people grew 3% in Q2 and Q3, down from 4% in Q1  . Risks that are new: the 2026 capex...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.56 billion on average for March 2026, an increase of 4% year-over-year. The slight decline in DAP on a quarter-over-quarter basis was driven by internet disruptions..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q4 impressions growth at or above 10% and price growth at or above 8% (T1); FY2026 free cash flow against $43.59...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8) %",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "76",
+      "value": 76.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Management guides Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "76 billion",
+        "snippet": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion. Our guidance assumes foreign currency is an approximately 1% headwind to year-over-year total revenue..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "179",
+      "value": 179.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179 billion including the $9.9 billion Q3 charge,...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "179 billion",
+        "snippet": "...recognized in the third quarter. We now expect full year 2026 total expenses to be in the range of $175-179 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.0%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Ad impressions growth y/y: 19.0% vs , 14.0% vs , 10.0% vs . Average price per ad...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.0%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Ad impressions growth y/y: 19.0% vs , 14.0% vs , 10.0% vs . Average price per ad growth y/y:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "14) %",
+        "snippet": "Net income $ 15,848 $ 18,337 (14) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.0%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Ad impressions growth y/y: 19.0% vs , 14.0% vs , 10.0% vs . Average price per ad growth y/y: 12.0% vs ,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    }
+  ],
+  "total_claims": 195,
+  "matched": 189,
+  "match_rate": 0.969,
+  "by_kind": {
+    "money": {
+      "total": 99,
+      "matched": 94,
+      "context_matched": 94
+    },
+    "pct": {
+      "total": 74,
+      "matched": 74,
+      "context_matched": 51
+    },
+    "plain": {
+      "total": 22,
+      "matched": 21,
+      "context_matched": 14
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 157,
+    "[2] Forms 10-Q": 9,
+    "[3] Yahoo Finance": 21,
+    "[4] Annual report and thesis log": 2
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$7.31",
+      "value": 7.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...worth $3.13 per share, so EPS without it would have been about $7.31 (illustrative)  . Revenue growth slowed in each...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$11.05 billion",
+      "value": 11.05,
+      "unit": "billion",
+      "money_mn": 11050.0,
+      "decimals": 2,
+      "context": "...$0.78 billion and negative $2.12 billion, a nine-month total of $11.05 billion (illustrative)  . Reaching $43.59 billion would...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$32.5 billion",
+      "value": 32.5,
+      "unit": "billion",
+      "money_mn": 32500.0,
+      "decimals": 1,
+      "context": "...billion (illustrative)  . Reaching $43.59 billion would need about $32.5 billion in Q4 free cash flow (illustrative), above the...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$298.7",
+      "value": 298.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus is $313.1 billion, growth of 21.9%, with a range of $298.7-350.3 billion; it sits at the signpost floor  ....",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$12.78 billion",
+      "value": 12.78,
+      "unit": "billion",
+      "money_mn": 12780.0,
+      "decimals": 2,
+      "context": "...billion, $4.62 billion and $4.13 billion in the three quarters, $12.78 billion in total (illustrative), and 2026 guidance was...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "350.3",
+      "value": 350.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is $313.1 billion, growth of 21.9%, with a range of $298.7-350.3 billion; it sits at the signpost floor  . Only...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$9.89 billion",
+      "value": 9.89,
+      "unit": "billion",
+      "money_mn": 9890.0,
+      "decimals": 2,
+      "context": "...quarter since the     , but Q3 operating margin fell to 20% on a $9.89 billion legal charge and rising AI and infrastructure...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.89 billion",
+        "snippet": "...for payments of up to approximately $18.59 billion. Third quarter 2026 costs and expenses includes a $9.89 billion charge related to this agreement. Excluding this charge, the third quarter 2026:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 26-33% in each quarter since the     , but Q3 operating...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in each quarter since the     , but Q3 operating margin fell to 20% on a $9.89 billion legal charge and rising AI...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "20 %",
+        "snippet": "Operating margin 20 % 40 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "26",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 26-33% in each quarter since the     , but Q3...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26,229",
+        "snippet": "Operating lease liabilities, non-current 26,229 22,940"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$56.31 billion",
+      "value": 56.31,
+      "unit": "billion",
+      "money_mn": 56310.0,
+      "decimals": 2,
+      "context": "...above 20% while profit fell. Revenue rose 33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to $60.80 billion and 26% in Q3 to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "56.31 billion",
+        "snippet": "• Revenue – Revenue was $56.31 billion, an increase of 33% year-over-year. Revenue on a constant currency basis would have increased by 29%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.80 billion",
+      "value": 60.8,
+      "unit": "billion",
+      "money_mn": 60800.0,
+      "decimals": 2,
+      "context": "...fell. Revenue rose 33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to $60.80 billion and 26% in Q3 to $64.60 billion  . Ad...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "60.80 billion",
+        "snippet": "• Revenue – Revenue was $60.80 billion, an increase of 28% year-over-year. Revenue on a constant currency basis would have increased by 27%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$64.60 billion",
+      "value": 64.6,
+      "unit": "billion",
+      "money_mn": 64599.99999999999,
+      "decimals": 2,
+      "context": "...to $56.31 billion, 28% in Q2 to $60.80 billion and 26% in Q3 to $64.60 billion  . Ad impressions growth slowed from 19% to 14%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "64.60 billion",
+        "snippet": "• Revenue – Revenue was $64.60 billion, an increase of 26% year-over-year on both a reported and constant currency basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.99 billion",
+      "value": 12.99,
+      "unit": "billion",
+      "money_mn": 12990.0,
+      "decimals": 2,
+      "context": "...per ad rose 12%, 12% and 14%  . Operating income fell 37% in Q3 to $12.99 billion after a $9.89 billion charge for the August 2026...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12.99 billion",
+        "snippet": "• Income from operations of $12.99 billion would have increased by $9.89 billion to $22.88 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.89 billion",
+      "value": 9.89,
+      "unit": "billion",
+      "money_mn": 9890.0,
+      "decimals": 2,
+      "context": "...14%  . Operating income fell 37% in Q3 to $12.99 billion after a $9.89 billion charge for the August 2026 multistate attorneys...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.89 billion",
+        "snippet": "...for payments of up to approximately $18.59 billion. Third quarter 2026 costs and expenses includes a $9.89 billion charge related to this agreement. Excluding this charge, the third quarter 2026:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.88 billion",
+      "value": 22.88,
+      "unit": "billion",
+      "money_mn": 22880.0,
+      "decimals": 2,
+      "context": "...agreement; excluding it, operating income would have risen 11% to $22.88 billion  . Free cash flow was $12.39 billion, $0.78...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "22.88 billion",
+        "snippet": "• Income from operations of $12.99 billion would have increased by $9.89 billion to $22.88 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.39 billion",
+      "value": 12.39,
+      "unit": "billion",
+      "money_mn": 12390.0,
+      "decimals": 2,
+      "context": "...income would have risen 11% to $22.88 billion  . Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion in the...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12.39 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.23 billion, and free cash flow was $12.39 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.78 billion",
+      "value": 0.78,
+      "unit": "billion",
+      "money_mn": 780.0,
+      "decimals": 2,
+      "context": "...risen 11% to $22.88 billion  . Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion in the three quarters...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "784 million",
+        "snippet": "• Cash flow – Cash flow from operating activities was $31.86 billion, and free cash flow was $784 million. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.12 billion",
+      "value": 2.12,
+      "unit": "billion",
+      "money_mn": 2120.0,
+      "decimals": 2,
+      "context": ".... Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion in the three quarters  . Capex guidance for 2026...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.12 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.79 billion, and free cash flow was negative $2.12 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in the three quarters  . Capex guidance for 2026 was raised to $135-145 billion  . Consensus FY2026 EPS of $29.01...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "...payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component pricing this year and, to a lesser extent, additional..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.01",
+      "value": 29.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...for 2026 was raised to $135-145 billion  . Consensus FY2026 EPS of $29.01 fell 8.5% over 90 days  . Net cash moved from...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29",
+        "snippet": "MENLO PARK, Calif. – April 29, 2026 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$2.31 billion",
+      "value": 2.31,
+      "unit": "billion",
+      "money_mn": 2310.0,
+      "decimals": 2,
+      "context": "...FY2026 EPS of $29.01 fell 8.5% over 90 days  . Net cash moved from -$2.31 billion at year-end 2025 to -$32.39 billion at September...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,305.0)",
+        "snippet": "- Net cash (debt): FY2025 (2,305.0); Q1 FY2026 (5,589.0) (year-ago n/a, n/a); Q2 FY2026 (22,058.0) (year-ago n/a, n/a); Q3 FY2026 (32,393.0)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$32.39 billion",
+      "value": 32.39,
+      "unit": "billion",
+      "money_mn": 32390.0,
+      "decimals": 2,
+      "context": "...90 days  . Net cash moved from -$2.31 billion at year-end 2025 to -$32.39 billion at September 30, 2026  . The revenue thesis...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "32,393.0)",
+        "snippet": "...(2,305.0); Q1 FY2026 (5,589.0) (year-ago n/a, n/a); Q2 FY2026 (22,058.0) (year-ago n/a, n/a); Q3 FY2026 (32,393.0) (year-ago (6,612.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...since the FY2025      show revenue growth that stayed above 20% while profit fell. Revenue rose 33% in Q1 FY2026...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "19.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth that stayed above 20% while profit fell. Revenue rose 33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...while profit fell. Revenue rose 33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to $60.80 billion and 26% in Q3 to $64.60...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "27.8%",
+        "snippet": "- FY2026E: revenue $256,909.6 million (range $255,646.0 million to $259,775.5 million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...33% in Q1 FY2026 to $56.31 billion, 28% in Q2 to $60.80 billion and 26% in Q3 to $64.60 billion  . Ad impressions growth...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26 %",
+        "snippet": "Revenue $ 64,601 $ 51,242 26 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...26% in Q3 to $64.60 billion  . Ad impressions growth slowed from 19% to 14% to 10%, while average price per ad rose...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q3 to $64.60 billion  . Ad impressions growth slowed from 19% to 14% to 10%, while average price per ad rose 12%, 12%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "14%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$64.60 billion  . Ad impressions growth slowed from 19% to 14% to 10%, while average price per ad rose 12%, 12% and...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...slowed from 19% to 14% to 10%, while average price per ad rose 12%, 12% and 14%  . Operating income fell 37% in Q3...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...slowed from 19% to 14% to 10%, while average price per ad rose 12%, 12% and 14%  . Operating income fell 37% in Q3 to...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...19% to 14% to 10%, while average price per ad rose 12%, 12% and 14%  . Operating income fell 37% in Q3 to $12.99...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "14%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...average price per ad rose 12%, 12% and 14%  . Operating income fell 37% in Q3 to $12.99 billion after a $9.89 billion...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37) %",
+        "snippet": "Income from operations $ 12,988 $ 20,535 (37) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...general agreement; excluding it, operating income would have risen 11% to $22.88 billion  . Free cash flow was $12.39...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11 %",
+        "snippet": "Effective tax rate 16 % 11 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...raised to $135-145 billion  . Consensus FY2026 EPS of $29.01 fell 8.5% over 90 days  . Net cash moved from -$2.31...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "8.5%",
+        "snippet": "...consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "145",
+      "value": 145.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in the three quarters  . Capex guidance for 2026 was raised to $135-145 billion  . Consensus FY2026 EPS of $29.01 fell...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "capital"
+        ],
+        "hl": "144,647",
+        "snippet": "Retained earnings 144,647 121,179"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$135-145 billion  . Consensus FY2026 EPS of $29.01 fell 8.5% over 90 days  . Net cash moved from -$2.31 billion at...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$64.60 billion",
+      "value": 64.6,
+      "unit": "billion",
+      "money_mn": 64599.99999999999,
+      "decimals": 2,
+      "context": "Q3 FY2026 was the weakest quarter. Revenue rose 26% to $64.60 billion  , but operating income fell 37% to $12.99...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "64.60 billion",
+        "snippet": "• Revenue – Revenue was $64.60 billion, an increase of 26% year-over-year on both a reported and constant currency basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.99 billion",
+      "value": 12.99,
+      "unit": "billion",
+      "money_mn": 12990.0,
+      "decimals": 2,
+      "context": "...rose 26% to $64.60 billion  , but operating income fell 37% to $12.99 billion and operating margin dropped to 20% from 40% a...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12.99 billion",
+        "snippet": "• Income from operations of $12.99 billion would have increased by $9.89 billion to $22.88 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.89 billion",
+      "value": 9.89,
+      "unit": "billion",
+      "money_mn": 9890.0,
+      "decimals": 2,
+      "context": "...dropped to 20% from 40% a year earlier  . The main cause was a $9.89 billion charge for the August 2026 multistate attorneys...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.89 billion",
+        "snippet": "...for payments of up to approximately $18.59 billion. Third quarter 2026 costs and expenses includes a $9.89 billion charge related to this agreement. Excluding this charge, the third quarter 2026:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.88 billion",
+      "value": 22.88,
+      "unit": "billion",
+      "money_mn": 22880.0,
+      "decimals": 2,
+      "context": "...in costs  . Excluding that charge, operating income would have been $22.88 billion, up 11% year on year, and diluted EPS would have...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "22.88 billion",
+        "snippet": "• Income from operations of $12.99 billion would have increased by $9.89 billion to $22.88 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.40",
+      "value": 7.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...billion, up 11% year on year, and diluted EPS would have been $7.40 instead of $3.83  . Costs were also pushed up by...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "7.40",
+        "snippet": "• Diluted EPS of $3.83 would have increased by $3.57 to $7.40."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.83",
+      "value": 3.83,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...11% year on year, and diluted EPS would have been $7.40 instead of $3.83  . Costs were also pushed up by data center,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.83",
+        "snippet": "Diluted earnings per share (EPS) $ 3.83 $ 1.05 265 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.42",
+      "value": 5.42,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...center, cloud and third-party AI token spending  . Consensus EPS of $5.42 was missed by 29.3%  . Because the reported...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "5.42",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.80 billion",
+      "value": 60.8,
+      "unit": "billion",
+      "money_mn": 60800.0,
+      "decimals": 2,
+      "context": "...showed the cost pattern before the charge. Revenue rose 28% to $60.80 billion, but total costs rose 55% to $42.03 billion  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "60.80 billion",
+        "snippet": "• Revenue – Revenue was $60.80 billion, an increase of 28% year-over-year. Revenue on a constant currency basis would have increased by 27%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$42.03 billion",
+      "value": 42.03,
+      "unit": "billion",
+      "money_mn": 42030.0,
+      "decimals": 2,
+      "context": "...Revenue rose 28% to $60.80 billion, but total costs rose 55% to $42.03 billion  . That included $2.40 billion of legal charges...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "42.03 billion",
+        "snippet": "• Costs and expenses – Total costs and expenses were $42.03 billion, an increase of 55% year-over-year. This includes $2.40 billion of charges related to legal proceedings and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.40 billion",
+      "value": 2.4,
+      "unit": "billion",
+      "money_mn": 2400.0,
+      "decimals": 2,
+      "context": "...but total costs rose 55% to $42.03 billion  . That included $2.40 billion of legal charges and $1.18 billion of severance...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.40 billion",
+        "snippet": "...expenses – Total costs and expenses were $42.03 billion, an increase of 55% year-over-year. This includes $2.40 billion of charges related to legal proceedings and $1.18 billion of severance expenses in connection with the May..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.18 billion",
+      "value": 1.18,
+      "unit": "billion",
+      "money_mn": 1180.0,
+      "decimals": 2,
+      "context": "...$42.03 billion  . That included $2.40 billion of legal charges and $1.18 billion of severance from the May 2026 headcount...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.18 billion",
+        "snippet": "...an increase of 55% year-over-year. This includes $2.40 billion of charges related to legal proceedings and $1.18 billion of severance expenses in connection with the May 2026 headcount reduction."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.66 billion",
+      "value": 21.66,
+      "unit": "billion",
+      "money_mn": 21660.0,
+      "decimals": 2,
+      "context": "...faster than revenue  . Research and development rose 67% to $21.66 billion, driven by employee compensation and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "21,656",
+        "snippet": "Research and development 21,656 12,942 39,354 25,092"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.78 billion",
+      "value": 18.78,
+      "unit": "billion",
+      "money_mn": 18780.0,
+      "decimals": 2,
+      "context": "...and infrastructure costs  . Operating income fell 8% to $18.78 billion and EPS fell 13% to $6.18  . Ad impressions...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18,775",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.18",
+      "value": 6.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Operating income fell 8% to $18.78 billion and EPS fell 13% to $6.18  . Ad impressions growth slowed to 14% from 19%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.18",
+        "snippet": "Diluted earnings per share (EPS) $ 6.18 $ 7.14 (13) %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$56.31 billion",
+      "value": 56.31,
+      "unit": "billion",
+      "money_mn": 56310.0,
+      "decimals": 2,
+      "context": "...4%  .  Q1 FY2026 was the strongest quarter. Revenue rose 33% to $56.31 billion, or 29% at constant currency, and impressions...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "56.31 billion",
+        "snippet": "• Revenue – Revenue was $56.31 billion, an increase of 33% year-over-year. Revenue on a constant currency basis would have increased by 29%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.87 billion",
+      "value": 22.87,
+      "unit": "billion",
+      "money_mn": 22870.0,
+      "decimals": 2,
+      "context": "...grew 19% with price per ad up 12%  . Operating income rose 30% to $22.87 billion  . Diluted EPS of $10.44 included an $8.03...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "22,872",
+        "snippet": "Income from operations $ 22,872 $ 17,555 30 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.44",
+      "value": 10.44,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Operating income rose 30% to $22.87 billion  . Diluted EPS of $10.44 included an $8.03 billion tax benefit worth...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10.44",
+        "snippet": "$ 10.44 $ 6.43 62 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.03 billion",
+      "value": 8.03,
+      "unit": "billion",
+      "money_mn": 8029.999999999999,
+      "decimals": 2,
+      "context": "...rose 30% to $22.87 billion  . Diluted EPS of $10.44 included an $8.03 billion tax benefit worth $3.13 per share, so EPS...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8.03 billion",
+        "snippet": "(1) Includes an $8.03 billion income tax benefit recognized in the first quarter of 2026, which partially offsets the $15.93 billion..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.13",
+      "value": 3.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Diluted EPS of $10.44 included an $8.03 billion tax benefit worth $3.13 per share, so EPS without it would have been...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.13",
+        "snippet": "...rate would have been 37 percentage points higher and our diluted earnings per share (EPS) would have been $3.13 lower."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.31",
+      "value": 7.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...worth $3.13 per share, so EPS without it would have been about $7.31 (illustrative)  . Revenue growth slowed in each...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$12.39 billion",
+      "value": 12.39,
+      "unit": "billion",
+      "money_mn": 12390.0,
+      "decimals": 2,
+      "context": "...impressions growth fell faster than price rose. Free cash flow was $12.39 billion in Q1, $0.78 billion in Q2 and negative $2.12...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12.39 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.23 billion, and free cash flow was $12.39 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.78 billion",
+      "value": 0.78,
+      "unit": "billion",
+      "money_mn": 780.0,
+      "decimals": 2,
+      "context": "...faster than price rose. Free cash flow was $12.39 billion in Q1, $0.78 billion in Q2 and negative $2.12 billion in Q3, as capex...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "784 million",
+        "snippet": "• Cash flow – Cash flow from operating activities was $31.86 billion, and free cash flow was $784 million. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.12 billion",
+      "value": 2.12,
+      "unit": "billion",
+      "money_mn": 2120.0,
+      "decimals": 2,
+      "context": "...flow was $12.39 billion in Q1, $0.78 billion in Q2 and negative $2.12 billion in Q3, as capex including finance leases reached...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.12 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.79 billion, and free cash flow was negative $2.12 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.84 billion",
+      "value": 19.84,
+      "unit": "billion",
+      "money_mn": 19840.0,
+      "decimals": 2,
+      "context": "...$2.12 billion in Q3, as capex including finance leases reached $19.84 billion, $31.08 billion and $34.91 billion  . Q4 revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.84 billion",
+        "snippet": "• Capital expenditures – Capital expenditures, including principal payments on finance leases, were $19.84 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$31.08 billion",
+      "value": 31.08,
+      "unit": "billion",
+      "money_mn": 31080.0,
+      "decimals": 2,
+      "context": "...in Q3, as capex including finance leases reached $19.84 billion, $31.08 billion and $34.91 billion  . Q4 revenue guidance of...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.08 billion",
+        "snippet": "• Capital expenditures – Capital expenditures, including principal payments on finance leases, were $31.08 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.91 billion",
+      "value": 34.91,
+      "unit": "billion",
+      "money_mn": 34910.0,
+      "decimals": 2,
+      "context": "...including finance leases reached $19.84 billion, $31.08 billion and $34.91 billion  . Q4 revenue guidance of $73-76 billion implies...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.91 billion",
+        "snippet": "• Capital expenditures – Capital expenditures, including principal payments on finance leases, were $34.91 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73",
+      "value": 73.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$31.08 billion and $34.91 billion  . Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "73",
+        "snippet": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion. Our guidance assumes foreign currency is an approximately 1% headwind to year-over-year total..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59.9 billion",
+      "value": 59.9,
+      "unit": "billion",
+      "money_mn": 59900.0,
+      "decimals": 1,
+      "context": "...of $73-76 billion implies 22-27% growth on Q4 2025 revenue of about $59.9 billion (illustrative, derived from the FY2025 total...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "59,893,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q3 FY2026 was the weakest quarter. Revenue rose 26% to $64.60 billion  , but operating income fell...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "26.1%",
+        "snippet": "...growth y/y: FY2025 22.2%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 26.1% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 26% to $64.60 billion  , but operating income fell 37% to $12.99 billion and operating margin dropped...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue",
+          "operating"
+        ],
+        "hl": "37) %",
+        "snippet": "Income from operations $ 12,988 $ 20,535 (37) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income fell 37% to $12.99 billion and operating margin dropped to 20% from 40% a year earlier  . The main cause was a...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "20 %",
+        "snippet": "Operating margin 20 % 40 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fell 37% to $12.99 billion and operating margin dropped to 20% from 40% a year earlier  . The main cause was a $9.89...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "40 %",
+        "snippet": "Operating margin 20 % 40 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...that charge, operating income would have been $22.88 billion, up 11% year on year, and diluted EPS would have been...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11 %",
+        "snippet": "Effective tax rate 16 % 11 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.3%",
+      "value": 29.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...AI token spending  . Consensus EPS of $5.42 was missed by 29.3%  . Because the reported figure includes the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "29.3%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $3.83 vs estimate $5.42 (surprise -29.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026 showed the cost pattern before the charge. Revenue rose 28% to $60.80 billion, but total costs rose 55% to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cost",
+          "revenue"
+        ],
+        "hl": "28 %",
+        "snippet": "Revenue $ 60,801 $ 47,516 28 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "55%",
+      "value": 55.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...charge. Revenue rose 28% to $60.80 billion, but total costs rose 55% to $42.03 billion  . That included $2.40 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cost",
+          "revenue"
+        ],
+        "hl": "55 %",
+        "snippet": "Costs and expenses 42,026 27,075 55 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...headcount reduction  . Excluding those two items, costs grew about 42% (illustrative), faster than revenue  . Research...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "42.0%",
+        "snippet": "...40.6%; Q1 FY2026 41.2% (year-ago n/a, n/a); Q2 FY2026 50.5% (year-ago n/a, n/a); Q3 FY2026 59.2% (year-ago 42.0%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...faster than revenue  . Research and development rose 67% to $21.66 billion, driven by employee...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "67%",
+        "snippet": "Costs and expenses 36,976 22,175 67% 5,050 4,900 3% 42,026 27,075 55%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...compensation and infrastructure costs  . Operating income fell 8% to $18.78 billion and EPS fell 13% to $6.18  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "8.0%",
+        "snippet": "- Quarter ending 2025-12-31: EPS $8.88 vs estimate $8.22 (surprise +8.0%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...costs  . Operating income fell 8% to $18.78 billion and EPS fell 13% to $6.18  . Ad impressions growth slowed to 14%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13) %",
+        "snippet": "Diluted earnings per share (EPS) $ 6.18 $ 7.14 (13) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and EPS fell 13% to $6.18  . Ad impressions growth slowed to 14% from 19% in Q1, while price per ad held at 12%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "14%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS fell 13% to $6.18  . Ad impressions growth slowed to 14% from 19% in Q1, while price per ad held at 12%  . Family...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth slowed to 14% from 19% in Q1, while price per ad held at 12%  . Family daily active people grew 3%, down from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...while price per ad held at 12%  . Family daily active people grew 3%, down from 4%  .  Q1 FY2026 was the strongest...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.60 billion on average for June 2026, an increase of 3% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...per ad held at 12%  . Family daily active people grew 3%, down from 4%  .  Q1 FY2026 was the strongest quarter. Revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.56 billion on average for March 2026, an increase of 4% year-over-year. The slight decline in DAP on a quarter-over-quarter basis was driven by internet disruptions..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...down from 4%  .  Q1 FY2026 was the strongest quarter. Revenue rose 33% to $56.31 billion, or 29% at constant currency,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "constant",
+          "revenue"
+        ],
+        "hl": "33%",
+        "snippet": "• Revenue – Revenue was $56.31 billion, an increase of 33% year-over-year. Revenue on a constant currency basis would have increased by 29% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was the strongest quarter. Revenue rose 33% to $56.31 billion, or 29% at constant currency, and impressions grew 19%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "constant",
+          "currency"
+        ],
+        "hl": "29%",
+        "snippet": "...billion, an increase of 33% year-over-year. Revenue on a constant currency basis would have increased by 29% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$56.31 billion, or 29% at constant currency, and impressions grew 19% with price per ad up 12%  . Operating income...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...at constant currency, and impressions grew 19% with price per ad up 12%  . Operating income rose 30% to $22.87 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 19% with price per ad up 12%  . Operating income rose 30% to $22.87 billion  . Diluted EPS of $10.44...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "30 %",
+        "snippet": "Income from operations $ 22,872 $ 17,555 30 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(illustrative)  . Revenue growth slowed in each later quarter (33%, 28%, 26%) as impressions growth fell faster...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(illustrative)  . Revenue growth slowed in each later quarter (33%, 28%, 26%) as impressions growth fell faster than...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "27.8%",
+        "snippet": "- FY2026E: revenue $256,909.6 million (range $255,646.0 million to $259,775.5 million, 57 analysts), growth +27.8%; EPS $29.01 (range $27.77 to $32.34); forward P/E 21.0x; EV/Sales 6.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Revenue growth slowed in each later quarter (33%, 28%, 26%) as impressions growth fell faster than price...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "26.1%",
+        "snippet": "...growth y/y: FY2025 22.2%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 26.1% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$34.91 billion  . Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025 revenue of about $59.9 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "27%",
+        "snippet": "...billion, an increase of 28% year-over-year. Revenue on a constant currency basis would have increased by 27% year-over-year."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "76",
+      "value": 76.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$31.08 billion and $34.91 billion  . Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025 revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "revenue"
+        ],
+        "hl": "76 billion",
+        "snippet": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion. Our guidance assumes foreign currency is an approximately 1% headwind to year-over-year total revenue..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "22",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and $34.91 billion  . Q4 revenue guidance of $73-76 billion implies 22-27% growth on Q4 2025 revenue of about $59.9...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "21,752",
+        "snippet": "Income before income taxes 21,752 18,382"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115",
+      "value": 115.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...outpaces operating cash flow. 2026 capex guidance was raised from $115-135 billion to $125-145 billion in Q1, then to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "115",
+        "snippet": "...payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component pricing this year and, to a lesser extent,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$125",
+      "value": 125.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cash flow. 2026 capex guidance was raised from $115-135 billion to $125-145 billion in Q1, then to $130-145 billion in...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "125",
+        "snippet": "...anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$130",
+      "value": 130.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was raised from $115-135 billion to $125-145 billion in Q1, then to $130-145 billion in Q2 and $135-145 billion in Q3  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "130",
+        "snippet": "...anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $125-145 billion in Q1, then to $130-145 billion in Q2 and $135-145 billion in Q3  . Free cash flow was $12.39...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "...payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component pricing this year and, to a lesser extent, additional..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.39 billion",
+      "value": 12.39,
+      "unit": "billion",
+      "money_mn": 12390.0,
+      "decimals": 2,
+      "context": "...billion in Q2 and $135-145 billion in Q3  . Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion, a...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12.39 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.23 billion, and free cash flow was $12.39 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.78 billion",
+      "value": 0.78,
+      "unit": "billion",
+      "money_mn": 780.0,
+      "decimals": 2,
+      "context": "...Q2 and $135-145 billion in Q3  . Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion, a nine-month total...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "784 million",
+        "snippet": "• Cash flow – Cash flow from operating activities was $31.86 billion, and free cash flow was $784 million. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.12 billion",
+      "value": 2.12,
+      "unit": "billion",
+      "money_mn": 2120.0,
+      "decimals": 2,
+      "context": "...Q3  . Free cash flow was $12.39 billion, $0.78 billion and negative $2.12 billion, a nine-month total of $11.05 billion...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.12 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.79 billion, and free cash flow was negative $2.12 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.05 billion",
+      "value": 11.05,
+      "unit": "billion",
+      "money_mn": 11050.0,
+      "decimals": 2,
+      "context": "...$0.78 billion and negative $2.12 billion, a nine-month total of $11.05 billion (illustrative)  . Reaching $43.59 billion would...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$43.59 billion",
+      "value": 43.59,
+      "unit": "billion",
+      "money_mn": 43590.0,
+      "decimals": 2,
+      "context": "...a nine-month total of $11.05 billion (illustrative)  . Reaching $43.59 billion would need about $32.5 billion in Q4 free cash...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "43.59 billion",
+        "snippet": "...ad [1]. Profit lagged: net income fell 3% after a $15.93 billion tax charge, and free cash flow fell 16% to $43.59 billion as capex nearly doubled [1]."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.5 billion",
+      "value": 32.5,
+      "unit": "billion",
+      "money_mn": 32500.0,
+      "decimals": 1,
+      "context": "...billion (illustrative)  . Reaching $43.59 billion would need about $32.5 billion in Q4 free cash flow (illustrative), above the...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$32 billion",
+      "value": 32.0,
+      "unit": "billion",
+      "money_mn": 32000.0,
+      "decimals": 0,
+      "context": "...cash flow (illustrative), above the quarterly run rate of about $32 billion in operating cash flow before $49-59 billion of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "31.86 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $31.86 billion, and free cash flow was $784 million. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$49",
+      "value": 49.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...run rate of about $32 billion in operating cash flow before $49-59 billion of implied Q4 capex  . T3: At the...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "49",
+        "snippet": "Operating margin 27 % 49 % (932) % (943) % 20 % 40 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$313.1 billion",
+      "value": 313.1,
+      "unit": "billion",
+      "money_mn": 313100.0,
+      "decimals": 1,
+      "context": "...below the cost of capital. Current FY2027 revenue consensus is $313.1 billion, growth of 21.9%, with a range of $298.7-350.3...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "313,138.9 million",
+        "snippet": "- FY2027E: revenue $313,138.9 million (range $298,683.0 million to $350,349.9 million, 60 analysts), growth +21.9%; EPS $33.74 (range $28.62 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$298.7",
+      "value": 298.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus is $313.1 billion, growth of 21.9%, with a range of $298.7-350.3 billion; it sits at the signpost floor  ....",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$19 billion",
+      "value": 19.0,
+      "unit": "billion",
+      "money_mn": 19000.0,
+      "decimals": 0,
+      "context": "...versus a 19.9% three-year CAGR  . T4: Reality Labs losses stay near $19 billion a year and cap EPS growth until the AI and...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19 billion",
+        "snippet": "At a segment level, we now expect Reality Labs losses to decline compared to 2025 to a range of $18-19 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.03 billion",
+      "value": 4.03,
+      "unit": "billion",
+      "money_mn": 4030.0000000000005,
+      "decimals": 2,
+      "context": "...and hardware payoff is visible. Reality Labs operating losses were $4.03 billion, $4.62 billion and $4.13 billion in the three...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,028)",
+        "snippet": "Income (loss) from operations $ 26,900 $ 21,765 24% $ (4,028) $ (4,210) 4% $ 22,872 $ 17,555 30%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.62 billion",
+      "value": 4.62,
+      "unit": "billion",
+      "money_mn": 4620.0,
+      "decimals": 2,
+      "context": "...is visible. Reality Labs operating losses were $4.03 billion, $4.62 billion and $4.13 billion in the three quarters, $12.78...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,619)",
+        "snippet": "Income (loss) from operations $ 23,394 $ 24,971 (6)% $ (4,619) $ (4,530) (2)% $ 18,775 $ 20,441 (8)%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.13 billion",
+      "value": 4.13,
+      "unit": "billion",
+      "money_mn": 4130.0,
+      "decimals": 2,
+      "context": "...Reality Labs operating losses were $4.03 billion, $4.62 billion and $4.13 billion in the three quarters, $12.78 billion in total...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,137",
+        "snippet": "Other liabilities 4,137 4,253"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.78 billion",
+      "value": 12.78,
+      "unit": "billion",
+      "money_mn": 12780.0,
+      "decimals": 2,
+      "context": "...billion, $4.62 billion and $4.13 billion in the three quarters, $12.78 billion in total (illustrative), and 2026 guidance was...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$18",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion in total (illustrative), and 2026 guidance was narrowed to $18-19 billion  . EPS consensus for the current year...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18",
+        "snippet": "At a segment level, we now expect Reality Labs losses to decline compared to 2025 to a range of $18-19 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "T1: Ad pricing and impression growth keep revenue growing near 20% into 2027. Q1 impressions grew 19% and price per...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "19.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth keep revenue growing near 20% into 2027. Q1 impressions grew 19% and price per ad 12%, against a 10%/8% signpost...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...near 20% into 2027. Q1 impressions grew 19% and price per ad 12%, against a 10%/8% signpost  . Impressions growth...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...into 2027. Q1 impressions grew 19% and price per ad 12%, against a 10%/8% signpost  . Impressions growth slowed to 14%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2027. Q1 impressions grew 19% and price per ad 12%, against a 10%/8% signpost  . Impressions growth slowed to 14% in...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8) %",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ad 12%, against a 10%/8% signpost  . Impressions growth slowed to 14% in Q2 and 10% in Q3, while price rose 12% and...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "14%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a 10%/8% signpost  . Impressions growth slowed to 14% in Q2 and 10% in Q3, while price rose 12% and 14%  . Q3...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth slowed to 14% in Q2 and 10% in Q3, while price rose 12% and 14%  . Q3 impressions growth is exactly at...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth slowed to 14% in Q2 and 10% in Q3, while price rose 12% and 14%  . Q3 impressions growth is exactly at the 10%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "14%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...price rose 12% and 14%  . Q3 impressions growth is exactly at the 10% signpost floor, so the margin of safety is gone...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "9.7%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.7% per year (-1.5 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the margin of safety is gone even though the invalidation level of 5% is far away  . T2: Free cash flow falls again in...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "5.3%",
+        "snippet": "...30.1%; Q1 FY2026 47.5% (year-ago n/a, n/a); Q2 FY2026 26.1% (year-ago n/a, n/a); Q3 FY2026 15.3% (year-ago 5.3%, better); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.9%",
+      "value": 21.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Current FY2027 revenue consensus is $313.1 billion, growth of 21.9%, with a range of $298.7-350.3 billion; it sits...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "range",
+          "revenue"
+        ],
+        "hl": "21.9%",
+        "snippet": "- FY2027E: revenue $313,138.9 million (range $298,683.0 million to $350,349.9 million, 60 analysts), growth +21.9%; EPS $33.74 (range $28.62 to $40.18); forward P/E 18.1x; EV/Sales 5.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...statuses rest on reported growth, which stayed at 26-33%  . The implied return on the consensus path is...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...stayed at 26-33%  . The implied return on the consensus path is 9.7%, below the 11.2% WACC, and the reverse DCF needs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.7%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.7% per year (-1.5 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The implied return on the consensus path is 9.7%, below the 11.2% WACC, and the reverse DCF needs 17.7% revenue...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 22.9% to 22.9% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.28 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.7%",
+      "value": 17.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...path is 9.7%, below the 11.2% WACC, and the reverse DCF needs 17.7% revenue growth for ten years versus a 19.9%...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "17.7%",
+        "snippet": "- The current enterprise value of $1,591,418.9 million implies revenue growth of 17.7% per year for 10 years (FY2025 revenue $200,966.0 million -> about $1,028,398.3 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.9%",
+      "value": 19.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the reverse DCF needs 17.7% revenue growth for ten years versus a 19.9% three-year CAGR  . T4: Reality Labs losses stay...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "revenue"
+        ],
+        "hl": "19.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 19.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $18-19 billion  . EPS consensus for the current year fell 8.5% over 90 days, so the EPS invalidation is not...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "8.5%",
+        "snippet": "...consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating cash flow. 2026 capex guidance was raised from $115-135 billion to $125-145 billion in Q1, then to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "guidance",
+          "capital"
+        ],
+        "hl": "135 billion",
+        "snippet": "...Free cash flow should lag growth, because capex nearly doubled to $72.22 billion and 2026 guidance is $115–135 billion [1]. The stock looks fully priced: the current enterprise value needs 17.7% revenue growth for a decade,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "145",
+      "value": 145.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...flow. 2026 capex guidance was raised from $115-135 billion to $125-145 billion in Q1, then to $130-145 billion in Q2...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "capital"
+        ],
+        "hl": "144,647",
+        "snippet": "Retained earnings 144,647 121,179"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "145",
+      "value": 145.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $115-135 billion to $125-145 billion in Q1, then to $130-145 billion in Q2 and $135-145 billion in Q3  . Free...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "145 billion",
+        "snippet": "...2026 capital expenditures, including principal payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "145",
+      "value": 145.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $125-145 billion in Q1, then to $130-145 billion in Q2 and $135-145 billion in Q3  . Free cash flow was $12.39...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "145 billion",
+        "snippet": "...2026 capital expenditures, including principal payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "59",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...run rate of about $32 billion in operating cash flow before $49-59 billion of implied Q4 capex  . T3: At the...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "58,748",
+        "snippet": "Long-term debt 58,748 58,744"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "350.3",
+      "value": 350.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is $313.1 billion, growth of 21.9%, with a range of $298.7-350.3 billion; it sits at the signpost floor  . Only...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "26",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...statuses rest on reported growth, which stayed at 26-33%  . The implied return on the consensus path...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26,229",
+        "snippet": "Operating lease liabilities, non-current 26,229 22,940"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in total (illustrative), and 2026 guidance was narrowed to $18-19 billion  . EPS consensus for the current year...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19)",
+        "snippet": "Interest and other income (expense), net (19) 93 (1,139) 919"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$18-19 billion  . EPS consensus for the current year fell 8.5% over 90 days, so the EPS invalidation is not triggered...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.40 billion",
+      "value": 2.4,
+      "unit": "billion",
+      "money_mn": 2400.0,
+      "decimals": 2,
+      "context": "...legal costs are now large and recurring in the P&L. Charges were $2.40 billion in Q2 and $9.89 billion in Q3 for the multistate...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.40 billion",
+        "snippet": "...expenses – Total costs and expenses were $42.03 billion, an increase of 55% year-over-year. This includes $2.40 billion of charges related to legal proceedings and $1.18 billion of severance expenses in connection with the May..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.89 billion",
+      "value": 9.89,
+      "unit": "billion",
+      "money_mn": 9890.0,
+      "decimals": 2,
+      "context": "...and recurring in the P&L. Charges were $2.40 billion in Q2 and $9.89 billion in Q3 for the multistate attorneys general...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.89 billion",
+        "snippet": "...for payments of up to approximately $18.59 billion. Third quarter 2026 costs and expenses includes a $9.89 billion charge related to this agreement. Excluding this charge, the third quarter 2026:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.59 billion",
+      "value": 18.59,
+      "unit": "billion",
+      "money_mn": 18590.0,
+      "decimals": 2,
+      "context": "...general agreement, which provides for payments of up to about $18.59 billion  . Management says youth-related trials are...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18.59 billion",
+        "snippet": "...related to teen mental health and social media, which provides for payments of up to approximately $18.59 billion. Third quarter 2026 costs and expenses includes a $9.89 billion charge related to this agreement. Excluding..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...4% in Q1  . Risks that are new: the 2026 capex range has risen to $135-145 billion, and the company will create a...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "...payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component pricing this year and, to a lesser extent, additional..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$32.39 billion",
+      "value": 32.39,
+      "unit": "billion",
+      "money_mn": 32390.0,
+      "decimals": 2,
+      "context": "...by a two-for-one split in the share price  . Net cash fell to -$32.39 billion and shares outstanding rose 1.4% year on year  ....",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "32,393.0)",
+        "snippet": "...(2,305.0); Q1 FY2026 (5,589.0) (year-ago n/a, n/a); Q2 FY2026 (22,058.0) (year-ago n/a, n/a); Q3 FY2026 (32,393.0) (year-ago (6,612.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year on year in Q1 and Q3, and the 2026 guidance for it is now $18-19 billion  .",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18",
+        "snippet": "At a segment level, we now expect Reality Labs losses to decline compared to 2025 to a range of $18-19 billion."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...may result in a material loss  . Ad impression growth slowed from 19% to 10% over three quarters, and reduced ad...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in a material loss  . Ad impression growth slowed from 19% to 10% over three quarters, and reduced ad targeting...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to weigh on marketer budgets  . Family daily active people grew 3% in Q2 and Q3, down from 4% in Q1  . Risks that...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.60 billion on average for June 2026, an increase of 3% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Family daily active people grew 3% in Q2 and Q3, down from 4% in Q1  . Risks that are new: the 2026 capex...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4%",
+        "snippet": "• Family daily active people (DAP) – DAP was 3.56 billion on average for March 2026, an increase of 4% year-over-year. The slight decline in DAP on a quarter-over-quarter basis was driven by internet disruptions..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.4%",
+      "value": 1.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Net cash fell to -$32.39 billion and shares outstanding rose 1.4% year on year  . Risks that eased: the Reality...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "pershare"
+        ],
+        "hl": "1.4%",
+        "snippet": "...at that burn self-funded, current ratio 1.9x, shares outstanding 2,556.8 million, change in share count y/y +1.4%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "145",
+      "value": 145.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q1  . Risks that are new: the 2026 capex range has risen to $135-145 billion, and the company will create a...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "capital"
+        ],
+        "hl": "144,647",
+        "snippet": "Retained earnings 144,647 121,179"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year on year in Q1 and Q3, and the 2026 guidance for it is now $18-19 billion  .",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "now"
+        ],
+        "hl": "19.19 billion",
+        "snippet": "Investment and funding risk is now the largest financial one. Reality Labs lost $19.19 billion in 2025, with similar losses expected in 2026, and capex guidance of $115 to $135 billion would require..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73",
+      "value": 73.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Management guides Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "73",
+        "snippet": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion. Our guidance assumes foreign currency is an approximately 1% headwind to year-over-year total..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$175",
+      "value": 175.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179 billion including the $9.9 billion Q3...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "175",
+        "snippet": "...recognized in the third quarter. We now expect full year 2026 total expenses to be in the range of $175-179 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.9 billion",
+      "value": 9.9,
+      "unit": "billion",
+      "money_mn": 9900.0,
+      "decimals": 1,
+      "context": "...billion, FY2026 total expenses to $175-179 billion including the $9.9 billion Q3 charge, 2026 capex to $135-145 billion and...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.9 billion",
+        "snippet": "We are raising our expense outlook to incorporate the $9.9 billion charge related to legal proceedings recognized in the third quarter. We now expect full year 2026 total..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$135",
+      "value": 135.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion including the $9.9 billion Q3 charge, 2026 capex to $135-145 billion and Reality Labs losses to $18-19...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "135 billion",
+        "snippet": "...payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion. This reflects our expectations for higher component pricing this year and, to a lesser extent, additional..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...charge, 2026 capex to $135-145 billion and Reality Labs losses to $18-19 billion, and says it expects 2027 Reality...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18",
+        "snippet": "At a segment level, we now expect Reality Labs losses to decline compared to 2025 to a range of $18-19 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15 billion",
+      "value": 15.0,
+      "unit": "billion",
+      "money_mn": 15000.0,
+      "decimals": 0,
+      "context": "...billion, and says it expects 2027 Reality Labs losses of about $15 billion  . It gives no full-year 2027 revenue outlook  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "15 billion",
+        "snippet": "...we remain focused on improving Reality Labs profitability and expect losses to narrow next year to around $15 billion as we reallocate investment toward other priority areas, primarily AI."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.01",
+      "value": 29.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...gives no full-year 2027 revenue outlook  . Consensus FY2026 EPS of $29.01 is down 8.5% over 90 days, while FY2027 EPS of...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29",
+        "snippet": "MENLO PARK, Calif. – April 29, 2026 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$33.74",
+      "value": 33.74,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2026 EPS of $29.01 is down 8.5% over 90 days, while FY2027 EPS of $33.74 is down only 0.4%  . What to watch: Q4...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "33.74",
+        "snippet": "...$313,138.9 million (range $298,683.0 million to $350,349.9 million, 60 analysts), growth +21.9%; EPS $33.74 (range $28.62 to $40.18); forward P/E 18.1x; EV/Sales 5.1x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.59 billion",
+      "value": 43.59,
+      "unit": "billion",
+      "money_mn": 43590.0,
+      "decimals": 2,
+      "context": "...and price growth at or above 8% (T1); FY2026 free cash flow against $43.59 billion (T2); the FY2026 Reality Labs loss against...",
+      "section": "Outlook",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "hl": "43.59 billion",
+        "snippet": "...ad [1]. Profit lagged: net income fell 3% after a $15.93 billion tax charge, and free cash flow fell 16% to $43.59 billion as capex nearly doubled [1]."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.19 billion",
+      "value": 19.19,
+      "unit": "billion",
+      "money_mn": 19190.0,
+      "decimals": 2,
+      "context": "...against $43.59 billion (T2); the FY2026 Reality Labs loss against $19.19 billion (T4); FY2027 consensus revenue against $313...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "19,176,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$313 billion",
+      "value": 313.0,
+      "unit": "billion",
+      "money_mn": 313000.0,
+      "decimals": 0,
+      "context": "...loss against $19.19 billion (T4); FY2027 consensus revenue against $313 billion (T3); and the size of further legal charges and...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "313,138.9 million",
+        "snippet": "- FY2027E: revenue $313,138.9 million (range $298,683.0 million to $350,349.9 million, 60 analysts), growth +21.9%; EPS $33.74 (range $28.62 to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2027 revenue outlook  . Consensus FY2026 EPS of $29.01 is down 8.5% over 90 days, while FY2027 EPS of $33.74 is down...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "8.5%",
+        "snippet": "...consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.4%",
+      "value": 0.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is down 8.5% over 90 days, while FY2027 EPS of $33.74 is down only 0.4%  . What to watch: Q4 impressions growth at or...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "0.4%",
+        "snippet": "...EPS consensus next fiscal year: $33.74 today, $33.92 30 days ago, $33.88 90 days ago, change vs 90 days ago -0.4%; analysts raising/cutting in last 30 days: 22/22"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...down only 0.4%  . What to watch: Q4 impressions growth at or above 10% and price growth at or above 8% (T1); FY2026...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price"
+        ],
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q4 impressions growth at or above 10% and price growth at or above 8% (T1); FY2026 free cash flow against $43.59...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8) %",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "76",
+      "value": 76.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Management guides Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "76 billion",
+        "snippet": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion. Our guidance assumes foreign currency is an approximately 1% headwind to year-over-year total revenue..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "179",
+      "value": 179.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q4 FY2026 revenue to $73-76 billion, FY2026 total expenses to $175-179 billion including the $9.9 billion Q3 charge,...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "179 billion",
+        "snippet": "...recognized in the third quarter. We now expect full year 2026 total expenses to be in the range of $175-179 billion."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "145",
+      "value": 145.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion including the $9.9 billion Q3 charge, 2026 capex to $135-145 billion and Reality Labs losses to $18-19...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "loss",
+          "capital"
+        ],
+        "hl": "144,647",
+        "snippet": "Retained earnings 144,647 121,179"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2026 capex to $135-145 billion and Reality Labs losses to $18-19 billion, and says it expects 2027 Reality Labs...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "loss"
+        ],
+        "hl": "19 billion",
+        "snippet": "At a segment level, we now expect Reality Labs losses to decline compared to 2025 to a range of $18-19 billion."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue outlook  . Consensus FY2026 EPS of $29.01 is down 8.5% over 90 days, while FY2027 EPS of $33.74 is down only...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $29.01 today, $29.21 30 days ago, $31.72 90 days ago, change vs 90 days ago -8.5%; analysts raising/cutting in last 30 days: 7/40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$56311.0 million",
+      "value": 56311.0,
+      "unit": "million",
+      "money_mn": 56311.0,
+      "decimals": 1,
+      "context": "...price per ad growth y/y: 12.0% vs , 12.0% vs , 14.0% vs . Revenue: $56311.0 million vs $42314.0 million, $60801.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "56,311",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$42314.0 million",
+      "value": 42314.0,
+      "unit": "million",
+      "money_mn": 42314.0,
+      "decimals": 1,
+      "context": "...y/y: 12.0% vs , 12.0% vs , 14.0% vs . Revenue: $56311.0 million vs $42314.0 million, $60801.0 million vs $47516.0 million, $64601.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "42,314",
+        "snippet": "Revenue $ 56,311 $ 42,314 33 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60801.0 million",
+      "value": 60801.0,
+      "unit": "million",
+      "money_mn": 60801.0,
+      "decimals": 1,
+      "context": "...vs , 14.0% vs . Revenue: $56311.0 million vs $42314.0 million, $60801.0 million vs $47516.0 million, $64601.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "60,801",
+        "snippet": "Revenue $ 60,801 $ 47,516 28 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$47516.0 million",
+      "value": 47516.0,
+      "unit": "million",
+      "money_mn": 47516.0,
+      "decimals": 1,
+      "context": "...Revenue: $56311.0 million vs $42314.0 million, $60801.0 million vs $47516.0 million, $64601.0 million vs $51242.0 million. Income...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "47,516",
+        "snippet": "Revenue $ 60,801 $ 47,516 28 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$64601.0 million",
+      "value": 64601.0,
+      "unit": "million",
+      "money_mn": 64601.0,
+      "decimals": 1,
+      "context": "...million vs $42314.0 million, $60801.0 million vs $47516.0 million, $64601.0 million vs $51242.0 million. Income from operations:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "64,601",
+        "snippet": "Revenue $ 64,601 $ 51,242 26 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51242.0 million",
+      "value": 51242.0,
+      "unit": "million",
+      "money_mn": 51242.0,
+      "decimals": 1,
+      "context": "...million, $60801.0 million vs $47516.0 million, $64601.0 million vs $51242.0 million. Income from operations: $22872.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "51,242",
+        "snippet": "Revenue $ 64,601 $ 51,242 26 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22872.0 million",
+      "value": 22872.0,
+      "unit": "million",
+      "money_mn": 22872.0,
+      "decimals": 1,
+      "context": "...$64601.0 million vs $51242.0 million. Income from operations: $22872.0 million vs $17555.0 million, $18775.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "22,872",
+        "snippet": "Income from operations $ 22,872 $ 17,555 30 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17555.0 million",
+      "value": 17555.0,
+      "unit": "million",
+      "money_mn": 17555.0,
+      "decimals": 1,
+      "context": "...vs $51242.0 million. Income from operations: $22872.0 million vs $17555.0 million, $18775.0 million vs $20441.0 million, $12988.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "17,555",
+        "snippet": "Income from operations $ 22,872 $ 17,555 30 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18775.0 million",
+      "value": 18775.0,
+      "unit": "million",
+      "money_mn": 18775.0,
+      "decimals": 1,
+      "context": "...Income from operations: $22872.0 million vs $17555.0 million, $18775.0 million vs $20441.0 million, $12988.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "18,775",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20441.0 million",
+      "value": 20441.0,
+      "unit": "million",
+      "money_mn": 20441.0,
+      "decimals": 1,
+      "context": "...$22872.0 million vs $17555.0 million, $18775.0 million vs $20441.0 million, $12988.0 million vs $20535.0 million. Reality...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20,441",
+        "snippet": "Income from operations $ 18,775 $ 20,441 (8) %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12988.0 million",
+      "value": 12988.0,
+      "unit": "million",
+      "money_mn": 12988.0,
+      "decimals": 1,
+      "context": "...million vs $17555.0 million, $18775.0 million vs $20441.0 million, $12988.0 million vs $20535.0 million. Reality Labs operating...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,988",
+        "snippet": "Income from operations $ 12,988 $ 20,535 (37) %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20535.0 million",
+      "value": 20535.0,
+      "unit": "million",
+      "money_mn": 20535.0,
+      "decimals": 1,
+      "context": "...million, $18775.0 million vs $20441.0 million, $12988.0 million vs $20535.0 million. Reality Labs operating loss: $4028.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20,535",
+        "snippet": "Income from operations $ 12,988 $ 20,535 (37) %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4028.0 million",
+      "value": 4028.0,
+      "unit": "million",
+      "money_mn": 4028.0,
+      "decimals": 1,
+      "context": "...$12988.0 million vs $20535.0 million. Reality Labs operating loss: $4028.0 million vs $4210.0 million, $4619.0 million vs $4530.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,028)",
+        "snippet": "Income (loss) from operations $ 26,900 $ 21,765 24% $ (4,028) $ (4,210) 4% $ 22,872 $ 17,555 30%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4210.0 million",
+      "value": 4210.0,
+      "unit": "million",
+      "money_mn": 4210.0,
+      "decimals": 1,
+      "context": "...$20535.0 million. Reality Labs operating loss: $4028.0 million vs $4210.0 million, $4619.0 million vs $4530.0 million, $4129.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,210)",
+        "snippet": "Income (loss) from operations $ 26,900 $ 21,765 24% $ (4,028) $ (4,210) 4% $ 22,872 $ 17,555 30%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4619.0 million",
+      "value": 4619.0,
+      "unit": "million",
+      "money_mn": 4619.0,
+      "decimals": 1,
+      "context": "...Reality Labs operating loss: $4028.0 million vs $4210.0 million, $4619.0 million vs $4530.0 million, $4129.0 million vs $4432.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,619)",
+        "snippet": "Income (loss) from operations $ 23,394 $ 24,971 (6)% $ (4,619) $ (4,530) (2)% $ 18,775 $ 20,441 (8)%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4530.0 million",
+      "value": 4530.0,
+      "unit": "million",
+      "money_mn": 4530.0,
+      "decimals": 1,
+      "context": "...loss: $4028.0 million vs $4210.0 million, $4619.0 million vs $4530.0 million, $4129.0 million vs $4432.0 million. Free cash...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,530)",
+        "snippet": "Income (loss) from operations $ 23,394 $ 24,971 (6)% $ (4,619) $ (4,530) (2)% $ 18,775 $ 20,441 (8)%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4129.0 million",
+      "value": 4129.0,
+      "unit": "million",
+      "money_mn": 4129.0,
+      "decimals": 1,
+      "context": "...million vs $4210.0 million, $4619.0 million vs $4530.0 million, $4129.0 million vs $4432.0 million. Free cash flow: $12390.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4,137",
+        "snippet": "Other liabilities 4,137 4,253"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4432.0 million",
+      "value": 4432.0,
+      "unit": "million",
+      "money_mn": 4432.0,
+      "decimals": 1,
+      "context": "...million, $4619.0 million vs $4530.0 million, $4129.0 million vs $4432.0 million. Free cash flow: $12390.0 million vs , $784.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4,432)",
+        "snippet": "Income (loss) from operations $ 17,117 $ 24,967 (31)% $ (4,129) $ (4,432) 7% $ 12,988 $ 20,535 (37)%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12390.0 million",
+      "value": 12390.0,
+      "unit": "million",
+      "money_mn": 12390.0,
+      "decimals": 1,
+      "context": "...million, $4129.0 million vs $4432.0 million. Free cash flow: $12390.0 million vs , $784.0 million vs , $-2120.0 million vs .",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12.39 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.23 billion, and free cash flow was $12.39 billion. (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$784.0 million",
+      "value": 784.0,
+      "unit": "million",
+      "money_mn": 784.0,
+      "decimals": 1,
+      "context": "...million vs $4432.0 million. Free cash flow: $12390.0 million vs , $784.0 million vs , $-2120.0 million vs .",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "784 million",
+        "snippet": "• Cash flow – Cash flow from operating activities was $31.86 billion, and free cash flow was $784 million. (1)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.0%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Ad impressions growth y/y: 19.0% vs , 14.0% vs , 10.0% vs . Average price per ad...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 19% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.0%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Ad impressions growth y/y: 19.0% vs , 14.0% vs , 10.0% vs . Average price per ad growth y/y:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "14) %",
+        "snippet": "Net income $ 15,848 $ 18,337 (14) %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.0%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Ad impressions growth y/y: 19.0% vs , 14.0% vs , 10.0% vs . Average price per ad growth y/y: 12.0% vs ,...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 10% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.0%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...19.0% vs , 14.0% vs , 10.0% vs . Average price per ad growth y/y: 12.0% vs , 12.0% vs , 14.0% vs . Revenue: $56311.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.0%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "..., 14.0% vs , 10.0% vs . Average price per ad growth y/y: 12.0% vs , 12.0% vs , 14.0% vs . Revenue: $56311.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "12%",
+        "snippet": "• Average price per ad – Average price per ad increased by 12% year-over-year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.0%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "..., 10.0% vs . Average price per ad growth y/y: 12.0% vs , 12.0% vs , 14.0% vs . Revenue: $56311.0 million vs $42314.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "price",
+          "average"
+        ],
+        "hl": "14%",
+        "snippet": "• Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2120.0",
+      "value": 2120.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million. Free cash flow: $12390.0 million vs , $784.0 million vs , $-2120.0 million vs .",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow"
+        ],
+        "hl": "2.12 billion",
+        "snippet": "• Cash flow – Cash flow from operating activities was $32.79 billion, and free cash flow was negative $2.12 billion. (1)"
+      }
+    }
+  ],
+  "build_round": 1
+}

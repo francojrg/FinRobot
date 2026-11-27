@@ -1,0 +1,318 @@
+Company names (use exactly these names): DHR = Danaher Corporation; TMO = Thermo Fisher Scientific Inc.; A = Agilent Technologies, Inc.; RVTY = Revvity, Inc.
+
+
+Revenue:
+DHR: 2022    26643
+2023    23890
+2024    23875
+2025    24568
+Name: Revenue, dtype: object
+TMO: 2022    44915
+2023    42857
+2024    42879
+2025    44557
+Name: Revenue, dtype: object
+A: 2022    6848
+2023    6833
+2024    6510
+2025    6948
+Name: Revenue, dtype: object
+RVTY: 2022    3312
+2023    2751
+2024    2755
+2025    2856
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+DHR: 2022       n/a
+2023    -10.3%
+2024     -0.1%
+2025      2.9%
+Name: Revenue Growth, dtype: object
+TMO: 2022      n/a
+2023    -4.6%
+2024     0.1%
+2025     3.9%
+Name: Revenue Growth, dtype: object
+A: 2022      n/a
+2023    -0.2%
+2024    -4.7%
+2025     6.7%
+Name: Revenue Growth, dtype: object
+RVTY: 2022       n/a
+2023    -16.9%
+2024      0.2%
+2025      3.7%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+DHR: 2022    16188
+2023    14034
+2024    14206
+2025    14523
+Name: Gross Profit, dtype: object
+TMO: 2022    18971
+2023    17100
+2024    17702
+2025    18239
+Name: Gross Profit, dtype: object
+A: 2022    3722
+2023    3465
+2024    3535
+2025    3643
+Name: Gross Profit, dtype: object
+RVTY: 2022    1990
+2023    1540
+2024    1538
+2025    1564
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+DHR: 2022    60.8%
+2023    58.7%
+2024    59.5%
+2025    59.1%
+Name: Gross Margin, dtype: object
+TMO: 2022    42.2%
+2023    39.9%
+2024    41.3%
+2025    40.9%
+Name: Gross Margin, dtype: object
+A: 2022    54.4%
+2023    50.7%
+2024    54.3%
+2025    52.4%
+Name: Gross Margin, dtype: object
+RVTY: 2022    60.1%
+2023    56.0%
+2024    55.8%
+2025    54.8%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+DHR: 2022    9482
+2023    7496
+2024    7276
+2025    6945
+Name: EBITDA, dtype: object
+TMO: 2022    11942
+2023    11079
+2024    11535
+2025    11507
+Name: EBITDA, dtype: object
+A: 2022    1905
+2023    1705
+2024    1874
+2025    1835
+Name: EBITDA, dtype: object
+RVTY: 2022    1183
+2023     714
+2024     840
+2025     766
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+DHR: 2022    35.6%
+2023    31.4%
+2024    30.5%
+2025    28.3%
+Name: EBITDA Margin, dtype: object
+TMO: 2022    26.6%
+2023    25.9%
+2024    26.9%
+2025    25.8%
+Name: EBITDA Margin, dtype: object
+A: 2022    27.8%
+2023    25.0%
+2024    28.8%
+2025    26.4%
+Name: EBITDA Margin, dtype: object
+RVTY: 2022    35.7%
+2023    25.9%
+2024    30.5%
+2025    26.8%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+DHR: 2022    7401
+2023    5781
+2024    5296
+2025    5260
+Name: FCF, dtype: object
+TMO: 2022    6911
+2023    6927
+2024    7267
+2025    6293
+Name: FCF, dtype: object
+A: 2022    1021
+2023    1474
+2024    1373
+2025    1152
+Name: FCF, dtype: object
+RVTY: 2022    594
+2023     10
+2024    542
+2025    509
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+DHR: 2022    1.03
+2023    1.21
+2024    1.36
+2025    1.46
+Name: FCF Conversion, dtype: object
+TMO: 2022    0.99
+2023    1.16
+2024    1.15
+2025    0.94
+Name: FCF Conversion, dtype: object
+A: 2022    0.81
+2023    1.19
+2024    1.07
+2025    0.88
+Name: FCF Conversion, dtype: object
+RVTY: 2022    1.04
+2023    0.01
+2024     2.0
+2025    2.11
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+DHR: 2022    9.6%
+2023    6.2%
+2024    6.3%
+2025    5.4%
+Name: ROIC, dtype: object
+TMO: 2022    9.9%
+2023    9.0%
+2024    9.5%
+2025    8.7%
+Name: ROIC, dtype: object
+A: 2022    16.4%
+2023    15.5%
+2024    14.7%
+2025    13.9%
+Name: ROIC, dtype: object
+RVTY: 2022    5.0%
+2023    2.3%
+2024    3.4%
+2025    3.1%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+DHR: 2022    19.62
+2023    24.64
+2024    24.76
+2025    25.47
+Name: EV/EBITDA, dtype: object
+TMO: 2022    20.18
+2023    20.95
+2024    19.54
+2025    21.51
+Name: EV/EBITDA, dtype: object
+A: 2022    22.33
+2023    18.38
+2024    20.93
+2025    23.43
+Name: EV/EBITDA, dtype: object
+RVTY: 2022    18.47
+2023    23.33
+2024     18.6
+2025    17.42
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+DHR: 2022    6.98
+2023    7.73
+2024    7.55
+2025     7.2
+Name: EV/Sales, dtype: object
+TMO: 2022    5.37
+2023    5.41
+2024    5.26
+2025    5.56
+Name: EV/Sales, dtype: object
+A: 2022    6.21
+2023    4.59
+2024    6.03
+2025    6.19
+Name: EV/Sales, dtype: object
+RVTY: 2022     6.6
+2023    6.05
+2024    5.67
+2025    4.67
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+DHR: 2022    24.36
+2023    36.26
+2024    43.39
+2025    45.33
+Name: PE Ratio, dtype: object
+TMO: 2022    31.24
+2023    34.36
+2024    31.47
+2025    32.66
+Name: PE Ratio, dtype: object
+A: 2022     33.1
+2023    24.67
+2024    29.42
+2025    32.03
+Name: PE Ratio, dtype: object
+RVTY: 2022    30.62
+2023     19.7
+2024    50.73
+2025    46.74
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+DHR: 2022    3.42
+2023     3.2
+2024    3.33
+2025    3.08
+Name: PB Ratio, dtype: object
+TMO: 2022    4.89
+2023    4.39
+2024    3.99
+2025    4.08
+Name: PB Ratio, dtype: object
+A: 2022    7.69
+2023    5.17
+2024     6.3
+2025    6.15
+Name: PB Ratio, dtype: object
+RVTY: 2022     2.4
+2023    1.71
+2024    1.76
+2025     1.5
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for DHR and ['TMO', 'A', 'RVTY'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

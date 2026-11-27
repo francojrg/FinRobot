@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/NFLX_earnings_multi_claude-haiku-5.5\\NFLX_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Operating margin stays above 29% in 2026 as content amortization grows slower than revenue.",
+        "signpost": "Q4 2026 results (January 2027): full-year 2026 operating margin at or above 29%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: The WBD financing will absorb cash that would otherwise fund buybacks, so the 2027 repurchase pace falls below 2025's $9.1 billion.",
+        "signpost": "Q1 2027 results (April 2027) and the WBD closing update: repurchases below $9.1 billion annualized and debt drawn under the bridge.",
+        "statuses": {
+          "Q1 FY2026": "broken",
+          "Q2 FY2026": "broken",
+          "Q3 FY2026": "broken"
+        },
+        "current_status": "broken"
+      },
+      {
+        "thesis": "T3: The current price needs growth above consensus for a decade, so returns are below the cost of capital unless growth beats expectations.",
+        "signpost": "Q4 2026 results (January 2027): FY2026 revenue at or above $51.1 billion, and FY2027 EPS consensus of $3.76 held or raised.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T4: Free cash flow will keep covering buybacks, but only if operating cash flow grows faster than content spending.",
+        "signpost": "Trailing twelve-month free cash flow above $11 billion at each quarter-end through Q4 2026.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/NFLX_earnings_multi_claude-haiku-5.5\\NFLX_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Operating margin stays above 29% in 2026 as content amortization grows slower than revenue.",
+        "signpost": "Q4 2026 results (January 2027): full-year 2026 operating margin at or above 29%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: The WBD financing will absorb cash that would otherwise fund buybacks, so the 2027 repurchase pace falls below 2025's $9.1 billion.",
+        "signpost": "Q1 2027 results (April 2027) and the WBD closing update: repurchases below $9.1 billion annualized and debt drawn under the bridge.",
+        "statuses": {
+          "Q1 FY2026": "broken",
+          "Q2 FY2026": "broken",
+          "Q3 FY2026": "broken"
+        },
+        "current_status": "broken"
+      },
+      {
+        "thesis": "T3: The current price needs growth above consensus for a decade, so returns are below the cost of capital unless growth beats expectations.",
+        "signpost": "Q4 2026 results (January 2027): FY2026 revenue at or above $51.1 billion, and FY2027 EPS consensus of $3.76 held or raised.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T4: Free cash flow will keep covering buybacks, but only if operating cash flow grows faster than content spending.",
+        "signpost": "Trailing twelve-month free cash flow above $11 billion at each quarter-end through Q4 2026.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

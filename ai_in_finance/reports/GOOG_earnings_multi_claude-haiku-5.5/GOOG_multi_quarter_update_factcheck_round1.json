@@ -4,8 +4,8 @@
     "plain",
     "multiple"
   ],
-  "context_matched": 139,
-  "context_match_rate": 0.863,
+  "context_matched": 152,
+  "context_match_rate": 0.899,
   "number_only": [
     {
       "kind": "pct",
@@ -14,7 +14,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...accelerated in each of the three quarters since the FY2025     , to 22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud...",
+      "context": "...combined faster revenue growth with a funding problem. Revenue grew 22% in Q1, 24% in Q2 and 25% in Q3 FY2026  . Google...",
       "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": false,
@@ -27,174 +27,30 @@
     },
     {
       "kind": "pct",
-      "text": "24%",
-      "value": 24.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...in each of the three quarters since the FY2025     , to 22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "24%",
-        "snippet": "• Consolidated Alphabet revenues increased 24%, or 23% in constant currency, to $119.8 billion, reflecting strong performance across the business and our..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "25%",
-      "value": 25.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...each of the three quarters since the FY2025     , to 22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud revenue...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "25%",
-        "snippet": "• Consolidated Alphabet revenues increased 25% to $127.6 billion, reflecting strong performance across the business and our 13th consecutive quarter of..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "27%",
-      "value": 27.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...a year earlier (our calculation from segment data  ). Cloud was 27% of Q3 operating income, against 12% a year...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "27.4%",
-        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x; EV/Sales 5.2x"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "9%",
-      "value": 9.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...in Q2 and 12% in Q3, to $63.4bn  . YouTube ads grew 11%, 13% and 9%  . Management said Q3 year-over-year query...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "9.0%",
-        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.0% per year (-1.9 percentage points vs the WACC)."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "5.0%",
-      "value": 5.0,
+      "text": "20.7%",
+      "value": 20.7,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...income rose 30% to $40.6bn  . Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "5%",
-        "snippet": "• The company announced a 5% increase to the dividend, resulting in a quarterly cash dividend of $0.22."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "2.1%",
-      "value": 2.1,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": ".... Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.1%",
-        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "10.5%",
-      "value": 10.5,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs $2.98)  . The Q3 comparison uses...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "10.5%",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "36%",
-      "value": 36.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...EPS. The releases do not reconcile the consensus gap. R&D rose 36% to $20.6bn and Alphabet-level AI costs rose to...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "36 %",
-        "snippet": "34 % 36 %"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "22%",
-      "value": 22.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...above Alphabet's own history for a decade. Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month...",
+      "context": "...was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a year earlier (derived from  ). Cloud...",
       "section": "Thesis check",
-      "source": "[1] Earnings releases",
+      "source": "[3] Yahoo Finance",
       "context_ok": false,
       "evidence": {
-        "source": "[1] Earnings releases",
+        "source": "[3] Yahoo Finance",
         "origin": null,
-        "hl": "22%",
-        "snippet": "• Consolidated Alphabet revenues increased 22%, or 19% in constant currency, to $109.9 billion, reflecting strong performance across the business and our..."
+        "hl": "20.7%",
+        "snippet": "...margin: FY2025 32.8%; Q1 FY2026 56.9% (year-ago n/a, n/a); Q2 FY2026 93.7% (year-ago n/a, n/a); Q3 FY2026 20.7% (year-ago 34.2%, worse); trend deteriorating"
       }
     },
     {
       "kind": "pct",
-      "text": "23.6%",
-      "value": 23.6,
+      "text": "23.7%",
+      "value": 23.7,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month growth is 23.6% (our calculation from  ). Consensus FY2026...",
+      "context": "...in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a year earlier (derived from  ). Cloud revenue...",
       "section": "Thesis check",
       "source": "[4] Annual report and thesis log",
       "context_ok": false,
@@ -207,397 +63,13 @@
     },
     {
       "kind": "pct",
-      "text": "24.0%",
-      "value": 24.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...is 23.6% (our calculation from  ). Consensus FY2026 growth is 24.0%  . The reverse DCF implies 20.9% ten-year growth...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "24%",
-        "snippet": "• Consolidated Alphabet revenues increased 24%, or 23% in constant currency, to $119.8 billion, reflecting strong performance across the business and our..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "5.0%",
-      "value": 5.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...Near-term estimates hold up, but delivery risk is real. Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%  . The...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "5%",
-        "snippet": "• The company announced a 5% increase to the dividend, resulting in a quarterly cash dividend of $0.22."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "2.1%",
-      "value": 2.1,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...hold up, but delivery risk is real. Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%  . The Q3 miss is beyond...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.1%",
-        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "10.5%",
-      "value": 10.5,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...risk is real. Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%  . The Q3 miss is beyond the 5% threshold....",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "10.5%",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "5%",
-      "value": 5.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...missed by 2.1% and Q3 missed by 10.5%  . The Q3 miss is beyond the 5% threshold. FY2026 EPS consensus is $13.09, up...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "5%",
-        "snippet": "• The company announced a 5% increase to the dividend, resulting in a quarterly cash dividend of $0.22."
-      }
-    }
-  ],
-  "total_claims": 161,
-  "matched": 155,
-  "match_rate": 0.963,
-  "by_kind": {
-    "money": {
-      "total": 78,
-      "matched": 77,
-      "context_matched": 77
-    },
-    "pct": {
-      "total": 76,
-      "matched": 71,
-      "context_matched": 55
-    },
-    "plain": {
-      "total": 5,
-      "matched": 5,
-      "context_matched": 5
-    },
-    "multiple": {
-      "total": 2,
-      "matched": 2,
-      "context_matched": 2
-    }
-  },
-  "by_source": {
-    "[1] Earnings releases": 110,
-    "[2] Forms 10-Q": 0,
-    "[3] Yahoo Finance": 40,
-    "[4] Annual report and thesis log": 5
-  },
-  "unmatched": [
-    {
-      "kind": "money",
-      "text": "$19.0bn",
-      "value": 19.0,
-      "unit": "billion",
-      "money_mn": 19000.0,
-      "decimals": 1,
-      "context": "...cash flow of $45.8bn less capex, our calculation), against $19.0bn a year earlier. The FCF margin was -4.9% in Q2...",
-      "section": "Results and drivers",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
-      "text": "35.6%",
-      "value": 35.6,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...in Q1 to $11.1bn in Q3  . The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year...",
-      "section": "Results and drivers",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
-      "text": "17.8%",
-      "value": 17.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": ".... The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year earlier (our calculation...",
-      "section": "Results and drivers",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
-      "text": "35.6%",
-      "value": 35.6,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...margin path, Cloud signpost.) Cloud operating margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the 20%...",
-      "section": "Thesis check",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
-      "text": "17.8%",
-      "value": 17.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...vs $15157.0 million. Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search &...",
-      "section": "Company KPIs",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
-      "text": "35.6%",
-      "value": 35.6,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...vs $15157.0 million. Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other...",
-      "section": "Company KPIs",
-      "source": null,
-      "context_ok": null
-    }
-  ],
-  "name_issues": [],
-  "claims": [
-    {
-      "kind": "money",
-      "text": "$30.7bn",
-      "value": 30.7,
-      "unit": "billion",
-      "money_mn": 30700.0,
-      "decimals": 1,
-      "context": "Google Cloud revenue more than doubled to $30.7bn at a 36% margin in Q3 FY2026, but free cash flow...",
-      "section": "Headline",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "30.7 billion",
-        "snippet": "• Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "36%",
-      "value": 36.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "Google Cloud revenue more than doubled to $30.7bn at a 36% margin in Q3 FY2026, but free cash flow turned...",
-      "section": "Headline",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "margin"
-        ],
-        "hl": "36.1%",
-        "snippet": "...Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "10.5%",
-      "value": 10.5,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...but free cash flow turned negative and Q3 EPS missed consensus by 10.5%.",
-      "section": "Headline",
-      "source": "[3] Yahoo Finance",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "pershare"
-        ],
-        "hl": "10.5%",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$30.7bn",
-      "value": 30.7,
-      "unit": "billion",
-      "money_mn": 30700.0,
-      "decimals": 1,
-      "context": "...22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud revenue reached $30.7bn in Q3, up 103%, at a 36.2% operating margin  ....",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "30.7 billion",
-        "snippet": "• Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$19.7bn",
-      "value": 19.7,
-      "unit": "billion",
-      "money_mn": 19700.0,
-      "decimals": 1,
-      "context": "...was -4.9% in Q2 and -7.1% in Q3, and trailing twelve-month FCF was $19.7bn at 30 September 2026  , against $73.3bn for...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "19,747.0 million",
-        "snippet": "...$265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded, current ratio 2.8x, shares outstanding 12,294.0 million, change in..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$73.3bn",
-      "value": 73.3,
-      "unit": "billion",
-      "money_mn": 73300.0,
-      "decimals": 1,
-      "context": "...twelve-month FCF was $19.7bn at 30 September 2026  , against $73.3bn for FY2025  . Q3 EPS of $2.67 missed the...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "73,266.0 million",
-        "snippet": "...investments $126,843.0 million, total debt $59,291.0 million, net cash $67,552.0 million, free cash flow $73,266.0 million, cash runway at that burn self-funded, current ratio 2.0x, shares outstanding 12,088.0 million, change in..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.67",
-      "value": 2.67,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...at 30 September 2026  , against $73.3bn for FY2025  . Q3 EPS of $2.67 missed the consensus estimate of $2.98 by 10.5%,...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.67",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.98",
-      "value": 2.98,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...for FY2025  . Q3 EPS of $2.67 missed the consensus estimate of $2.98 by 10.5%, beyond the 5% threshold in the annual...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.98",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$125.1bn",
-      "value": 125.1,
-      "unit": "billion",
-      "money_mn": 125100.0,
-      "decimals": 1,
-      "context": "...the 5% threshold in the annual report  . Long-term debt rose to $125.1bn and the company raised $49.6bn of equity in June...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "125,102",
-        "snippet": "Long-term debt 46,547 125,102 Income taxes payable, non-current 9,531 12,219"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$49.6bn",
-      "value": 49.6,
-      "unit": "billion",
-      "money_mn": 49600.0,
-      "decimals": 1,
-      "context": "...report  . Long-term debt rose to $125.1bn and the company raised $49.6bn of equity in June  . Thesis statuses follow the...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "49.6 billion",
-        "snippet": "...of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and..."
-      }
-    },
-    {
-      "kind": "pct",
       "text": "22%",
       "value": 22.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...accelerated in each of the three quarters since the FY2025     , to 22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud...",
-      "section": "Summary",
+      "context": "...above Alphabet's own history for a decade. Revenue growth was 22%, 24% and 25% in Q1-Q3  ; year-to-date revenue of...",
+      "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": false,
       "evidence": {
@@ -609,13 +81,13 @@
     },
     {
       "kind": "pct",
-      "text": "24%",
+      "text": "24.0%",
       "value": 24.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...in each of the three quarters since the FY2025     , to 22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud...",
-      "section": "Summary",
+      "decimals": 1,
+      "context": "...revenue of $357.3 billion is up 23.6%  . Consensus FY2026 growth is 24.0%  . Illustratively, FY2026 growth of 24% needs Q4...",
+      "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": false,
       "evidence": {
@@ -623,6 +95,203 @@
         "origin": null,
         "hl": "24%",
         "snippet": "• Consolidated Alphabet revenues increased 24%, or 23% in constant currency, to $119.8 billion, reflecting strong performance across the business and our..."
+      }
+    }
+  ],
+  "total_claims": 169,
+  "matched": 157,
+  "match_rate": 0.929,
+  "by_kind": {
+    "pct": {
+      "total": 84,
+      "matched": 78,
+      "context_matched": 73
+    },
+    "money": {
+      "total": 79,
+      "matched": 74,
+      "context_matched": 74
+    },
+    "plain": {
+      "total": 6,
+      "matched": 5,
+      "context_matched": 5
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 116,
+    "[2] Forms 10-Q": 0,
+    "[3] Yahoo Finance": 37,
+    "[4] Annual report and thesis log": 4
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$80.1 billion",
+      "value": 80.1,
+      "unit": "billion",
+      "money_mn": 80100.0,
+      "decimals": 1,
+      "context": "...$19.7 billion at 30 September 2026  . Alphabet funded the gap with $80.1 billion of senior notes, a $49.6 billion equity raise in...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$19.0 billion",
+      "value": 19.0,
+      "unit": "billion",
+      "money_mn": 19000.0,
+      "decimals": 1,
+      "context": "...beat consensus by 5.0%  . Free cash flow fell to $10.1 billion from $19.0 billion a year earlier (derived from operating cash flow...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose to $6.6 billion from $2.2 billion, a margin of 32.9% against 17.8% a year earlier (derived from  ). GAAP EPS of...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.6%",
+      "value": 35.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion)  . Cloud growth accelerated to 82%, and its margin rose to 35.6%  . The drivers named in the release were AI...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$80.1 billion",
+      "value": 80.1,
+      "unit": "billion",
+      "money_mn": 80100.0,
+      "decimals": 1,
+      "context": "...cash flow margin was -4.9% in Q2 and -7.1% in Q3  . Alphabet raised $80.1 billion of senior notes in Q1-Q3  , a $49.6 billion...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.6%",
+      "value": 35.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the main profit driver. Cloud operating margin was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%,...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a year earlier (derived from...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$80.1 billion",
+      "value": 80.1,
+      "unit": "billion",
+      "money_mn": 80100.0,
+      "decimals": 1,
+      "context": "...annual report: capital-markets and dilution risk. Alphabet issued $80.1 billion of senior notes in Q1-Q3 and sold $49.6 billion...",
+      "section": "Risk update",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$545",
+      "value": 545.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is $15.29 EPS, up 2.5% over 90 days, with a wide revenue range of $545-697 billion  . Illustrative reverse DCF: the...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "697",
+      "value": 697.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15.29 EPS, up 2.5% over 90 days, with a wide revenue range of $545-697 billion  . Illustrative reverse DCF: the current...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$3594.0 million. Google Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search &...",
+      "section": "Company KPIs",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.6%",
+      "value": 35.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million. Google Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other...",
+      "section": "Company KPIs",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Google Cloud margin above 30% and revenue growth at 25% in Q3 FY2026, but free...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "30%",
+        "snippet": "• Consolidated Alphabet operating income increased 30% and operating margin was 31.8%."
       }
     },
     {
@@ -632,103 +301,19 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...each of the three quarters since the FY2025     , to 22%, 24% and 25% in Q1 to Q3 FY2026  . Google Cloud revenue...",
-      "section": "Summary",
+      "context": "Google Cloud margin above 30% and revenue growth at 25% in Q3 FY2026, but free cash flow was negative in...",
+      "section": "Headline",
       "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "25%",
-        "snippet": "• Consolidated Alphabet revenues increased 25% to $127.6 billion, reflecting strong performance across the business and our 13th consecutive quarter of..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "103%",
-      "value": 103.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...Q1 to Q3 FY2026  . Google Cloud revenue reached $30.7bn in Q3, up 103%, at a 36.2% operating margin  . Free cash flow...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "cloud",
-          "google",
-          "revenue"
-        ],
-        "hl": "103%",
-        "snippet": "• Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "36.2%",
-      "value": 36.2,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...FY2026  . Google Cloud revenue reached $30.7bn in Q3, up 103%, at a 36.2% operating margin  . Free cash flow did not keep...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "margin",
-          "operating"
-        ],
-        "hl": "36.1%",
-        "snippet": "...Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "-4.9%",
-      "value": 4.9,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...margin  . Free cash flow did not keep pace. The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing twelve-month...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "cashflow"
-        ],
-        "hl": "5%",
-        "snippet": "...2026, Alphabet’s Board of Directors declared a quarterly cash dividend of $0.22 per share, representing a 5% increase from the previous quarterly dividend of $0.21 per share. The dividend is payable on June 15, 2026..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "-7.1%",
-      "value": 7.1,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...cash flow did not keep pace. The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing twelve-month FCF was $19.7bn...",
-      "section": "Summary",
-      "source": "[3] Yahoo Finance",
       "context_ok": true,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "cashflow",
-          "margin"
+          "margin",
+          "revenue"
         ],
-        "hl": "7.1%",
-        "snippet": "...margin: FY2025 18.2%; Q1 FY2026 9.2% (year-ago n/a, n/a); Q2 FY2026 -4.9% (year-ago n/a, n/a); Q3 FY2026 -7.1% (year-ago 23.9%, worse); trend deteriorating"
+        "hl": "24.7%",
+        "snippet": "...growth y/y: FY2025 15.1%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 24.7% (year-ago n/a, n/a); trend n/a"
       }
     },
     {
@@ -738,15 +323,14 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...FY2025  . Q3 EPS of $2.67 missed the consensus estimate of $2.98 by 10.5%, beyond the 5% threshold in the annual report  ....",
-      "section": "Summary",
+      "context": "...cash flow was negative in Q2 and Q3 and Q3 normalized EPS missed by 10.5%.",
+      "section": "Headline",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "estimate",
           "pershare"
         ],
         "hl": "10.5%",
@@ -754,143 +338,14 @@
       }
     },
     {
-      "kind": "pct",
-      "text": "5%",
-      "value": 5.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...$2.67 missed the consensus estimate of $2.98 by 10.5%, beyond the 5% threshold in the annual report  . Long-term debt...",
-      "section": "Summary",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "estimate"
-        ],
-        "hl": "5.0%",
-        "snippet": "- Quarter ending 2026-03-31: EPS $2.76 vs estimate $2.63 (surprise +5.0%)"
-      }
-    },
-    {
       "kind": "money",
-      "text": "$20.0bn",
-      "value": 20.0,
-      "unit": "billion",
-      "money_mn": 20000.0,
-      "decimals": 1,
-      "context": "...Q2 and 25% in Q3  . Google Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn  . Cloud operating income...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "20.0 billion",
-        "snippet": "• Google Cloud saw a meaningful acceleration in growth as revenues increased 63% to $20.0 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$24.8bn",
-      "value": 24.8,
-      "unit": "billion",
-      "money_mn": 24800.0,
-      "decimals": 1,
-      "context": "...in Q3  . Google Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn  . Cloud operating income rose from...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "24.8 billion",
-        "snippet": "• Google Cloud saw a meaningful acceleration in growth as revenues increased 82% to $24.8 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$30.7bn",
-      "value": 30.7,
-      "unit": "billion",
-      "money_mn": 30700.0,
-      "decimals": 1,
-      "context": "...Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn  . Cloud operating income rose from $2.2bn in Q1...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "30.7 billion",
-        "snippet": "• Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.2bn",
-      "value": 2.2,
-      "unit": "billion",
-      "money_mn": 2200.0,
-      "decimals": 1,
-      "context": "...to $20.0bn, $24.8bn and $30.7bn  . Cloud operating income rose from $2.2bn in Q1 to $11.1bn in Q3  . The Cloud operating...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "2,180)",
-        "snippet": "Accumulated other comprehensive income (loss) (1,916) (2,180)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$11.1bn",
-      "value": 11.1,
-      "unit": "billion",
-      "money_mn": 11100.0,
-      "decimals": 1,
-      "context": "...and $30.7bn  . Cloud operating income rose from $2.2bn in Q1 to $11.1bn in Q3  . The Cloud operating margin was 32.9%,...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "11,121",
-        "snippet": "Google Cloud 3,594 11,121 Other Bets (1,426) (2,047)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$63.4bn",
-      "value": 63.4,
-      "unit": "billion",
-      "money_mn": 63400.0,
-      "decimals": 1,
-      "context": "...Search & other revenue grew 19% in Q1, 17% in Q2 and 12% in Q3, to $63.4bn  . YouTube ads grew 11%, 13% and 9%  ....",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "63,350",
-        "snippet": "Google Search & other $ 56,567 $ 63,350 YouTube ads 10,261 11,207"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$35.7bn",
+      "text": "$35.7 billion",
       "value": 35.7,
       "unit": "billion",
       "money_mn": 35700.0,
       "decimals": 1,
-      "context": "...generation is the main weakness. Capex more than doubled in Q1 to $35.7bn from $17.2bn  . Q1 free cash flow was $10.1bn...",
-      "section": "Results and drivers",
+      "context": "...23.7% a year earlier (derived from  ). Against that, capex was $35.7 billion in Q1 alone, double the year-ago level  . Free...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": null,
       "evidence": {
@@ -902,79 +357,13 @@
     },
     {
       "kind": "money",
-      "text": "$17.2bn",
-      "value": 17.2,
-      "unit": "billion",
-      "money_mn": 17200.0,
-      "decimals": 1,
-      "context": "...is the main weakness. Capex more than doubled in Q1 to $35.7bn from $17.2bn  . Q1 free cash flow was $10.1bn (operating cash...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "17,197)",
-        "snippet": "Purchases of property and equipment (17,197) (35,674)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$10.1bn",
-      "value": 10.1,
-      "unit": "billion",
-      "money_mn": 10100.0,
-      "decimals": 1,
-      "context": "...than doubled in Q1 to $35.7bn from $17.2bn  . Q1 free cash flow was $10.1bn (operating cash flow of $45.8bn less capex, our...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": null,
-        "snippet": "10,116,000,000 USD"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$45.8bn",
-      "value": 45.8,
-      "unit": "billion",
-      "money_mn": 45800.0,
-      "decimals": 1,
-      "context": "...$17.2bn  . Q1 free cash flow was $10.1bn (operating cash flow of $45.8bn less capex, our calculation), against $19.0bn a...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "45,790",
-        "snippet": "Net cash provided by operating activities 36,150 45,790 Investing activities"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$19.0bn",
-      "value": 19.0,
-      "unit": "billion",
-      "money_mn": 19000.0,
-      "decimals": 1,
-      "context": "...cash flow of $45.8bn less capex, our calculation), against $19.0bn a year earlier. The FCF margin was -4.9% in Q2...",
-      "section": "Results and drivers",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "money",
-      "text": "$19.7bn",
+      "text": "$19.7 billion",
       "value": 19.7,
       "unit": "billion",
       "money_mn": 19700.0,
       "decimals": 1,
-      "context": "...-7.1% in Q3, against +23.9% in Q3 FY2025  . Trailing FCF fell to $19.7bn  . Funding came from debt and equity: long-term...",
-      "section": "Results and drivers",
+      "context": "...and -7.1% in Q3, and trailing twelve-month free cash flow fell to $19.7 billion at 30 September 2026  . Alphabet funded the gap...",
+      "section": "Summary",
       "source": "[3] Yahoo Finance",
       "context_ok": null,
       "evidence": {
@@ -986,103 +375,25 @@
     },
     {
       "kind": "money",
-      "text": "$125.1bn",
-      "value": 125.1,
+      "text": "$80.1 billion",
+      "value": 80.1,
       "unit": "billion",
-      "money_mn": 125100.0,
+      "money_mn": 80100.0,
       "decimals": 1,
-      "context": ".... Funding came from debt and equity: long-term debt reached $125.1bn at Q3, from $46.5bn at year-end  . Notes raised...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "125,102",
-        "snippet": "Long-term debt 46,547 125,102 Income taxes payable, non-current 9,531 12,219"
-      }
+      "context": "...$19.7 billion at 30 September 2026  . Alphabet funded the gap with $80.1 billion of senior notes, a $49.6 billion equity raise in...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
     },
     {
       "kind": "money",
-      "text": "$46.5bn",
-      "value": 46.5,
-      "unit": "billion",
-      "money_mn": 46500.0,
-      "decimals": 1,
-      "context": "...from debt and equity: long-term debt reached $125.1bn at Q3, from $46.5bn at year-end  . Notes raised $31.1bn, $20.3bn and...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "46,547",
-        "snippet": "Long-term debt 46,547 77,501"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$31.1bn",
-      "value": 31.1,
-      "unit": "billion",
-      "money_mn": 31100.0,
-      "decimals": 1,
-      "context": "...reached $125.1bn at Q3, from $46.5bn at year-end  . Notes raised $31.1bn, $20.3bn and $28.7bn across the three quarters,...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "31.1 billion",
-        "snippet": "In the first quarter of 2026, we issued senior unsecured notes for net proceeds of $31.1 billion, to be used for general corporate purposes."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$20.3bn",
-      "value": 20.3,
-      "unit": "billion",
-      "money_mn": 20300.0,
-      "decimals": 1,
-      "context": "...$125.1bn at Q3, from $46.5bn at year-end  . Notes raised $31.1bn, $20.3bn and $28.7bn across the three quarters, and the...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "20.3 billion",
-        "snippet": "In the second quarter of 2026, we issued senior unsecured notes for net proceeds of $20.3 billion, to be used for general corporate purposes."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$28.7bn",
-      "value": 28.7,
-      "unit": "billion",
-      "money_mn": 28700.0,
-      "decimals": 1,
-      "context": "...Q3, from $46.5bn at year-end  . Notes raised $31.1bn, $20.3bn and $28.7bn across the three quarters, and the June equity...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "28.7 billion",
-        "snippet": "In the third quarter of 2026, we issued senior unsecured notes for net proceeds of $28.7 billion, to be used for general corporate purposes."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$49.6bn",
+      "text": "$49.6 billion",
       "value": 49.6,
       "unit": "billion",
       "money_mn": 49600.0,
       "decimals": 1,
-      "context": "...$28.7bn across the three quarters, and the June equity issue netted $49.6bn  . Total debt was $141.9bn at Q3  .  Reported...",
-      "section": "Results and drivers",
+      "context": ".... Alphabet funded the gap with $80.1 billion of senior notes, a $49.6 billion equity raise in June and at-the-market sales  ....",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": null,
       "evidence": {
@@ -1094,13 +405,13 @@
     },
     {
       "kind": "money",
-      "text": "$141.9bn",
+      "text": "$141.9 billion",
       "value": 141.9,
       "unit": "billion",
       "money_mn": 141900.0,
       "decimals": 1,
-      "context": "...and the June equity issue netted $49.6bn  . Total debt was $141.9bn at Q3  .  Reported EPS fell as the top line...",
-      "section": "Results and drivers",
+      "context": "...equity raise in June and at-the-market sales  . Total debt reached $141.9 billion  . Normalized EPS beat consensus by 5.0% in Q1...",
+      "section": "Summary",
       "source": "[3] Yahoo Finance",
       "context_ok": null,
       "evidence": {
@@ -1111,275 +422,19 @@
       }
     },
     {
-      "kind": "money",
-      "text": "$2.12",
-      "value": 2.12,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...Q3  .  Reported EPS fell as the top line grew. Q3 diluted EPS was $2.12, against $2.87, because other income swung from...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "2.12",
-        "snippet": "• Net income available to common stockholders was $26.2 billion and EPS was $2.12."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.87",
-      "value": 2.87,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...EPS fell as the top line grew. Q3 diluted EPS was $2.12, against $2.87, because other income swung from +$12.8bn to...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "2.87",
-        "snippet": "Diluted net income per common share $ 2.87 $ 2.12"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$12.8bn",
-      "value": 12.8,
-      "unit": "billion",
-      "money_mn": 12800.0,
-      "decimals": 1,
-      "context": "...EPS was $2.12, against $2.87, because other income swung from +$12.8bn to -$8.2bn, although operating income rose 30%...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "12,759",
-        "snippet": "$ 12,759 $ (8,221)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "-$8.2bn",
-      "value": 8.2,
-      "unit": "billion",
-      "money_mn": 8200.0,
-      "decimals": 1,
-      "context": "...$2.12, against $2.87, because other income swung from +$12.8bn to -$8.2bn, although operating income rose 30% to $40.6bn...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "8,221)",
-        "snippet": "$ 12,759 $ (8,221)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$40.6bn",
-      "value": 40.6,
-      "unit": "billion",
-      "money_mn": 40600.0,
-      "decimals": 1,
-      "context": "...from +$12.8bn to -$8.2bn, although operating income rose 30% to $40.6bn  . Against consensus, Q1 beat by 5.0% ($2.76 vs...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "40,589",
-        "snippet": "$ 32,682 $ 40,589 Google Cloud 2,177 6,598"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.76",
-      "value": 2.76,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...income rose 30% to $40.6bn  . Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91)...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.76",
-        "snippet": "- Quarter ending 2026-03-31: EPS $2.76 vs estimate $2.63 (surprise +5.0%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.63)",
-      "value": 2.63,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...rose 30% to $40.6bn  . Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.63",
-        "snippet": "- Quarter ending 2026-03-31: EPS $2.76 vs estimate $2.63 (surprise +5.0%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.85",
-      "value": 2.85,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.85",
-        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.91)",
-      "value": 2.91,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs $2.98)  . The...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.91",
-        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.67",
-      "value": 2.67,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...$2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs $2.98)  . The Q3 comparison uses Yahoo's EPS...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.67",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$2.98)",
-      "value": 2.98,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 2,
-      "context": "...Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs $2.98)  . The Q3 comparison uses Yahoo's EPS basis,...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.98",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$20.6bn",
-      "value": 20.6,
-      "unit": "billion",
-      "money_mn": 20600.0,
-      "decimals": 1,
-      "context": "...The releases do not reconcile the consensus gap. R&D rose 36% to $20.6bn and Alphabet-level AI costs rose to $7.7bn from...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "20,640",
-        "snippet": "Research and development 15,151 20,640 42,515 55,891"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$7.7bn",
-      "value": 7.7,
-      "unit": "billion",
-      "money_mn": 7700.0,
-      "decimals": 1,
-      "context": "...gap. R&D rose 36% to $20.6bn and Alphabet-level AI costs rose to $7.7bn from $4.5bn  . These are the fastest-growing...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "7,655)",
-        "snippet": "(4,467) (7,655)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$4.5bn",
-      "value": 4.5,
-      "unit": "billion",
-      "money_mn": 4500.0,
-      "decimals": 1,
-      "context": "...rose 36% to $20.6bn and Alphabet-level AI costs rose to $7.7bn from $4.5bn  . These are the fastest-growing cost lines, but...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "4,487",
-        "snippet": "Depreciation of property and equipment 4,487 6,482"
-      }
-    },
-    {
       "kind": "pct",
       "text": "22%",
       "value": 22.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...cash flow and reported earnings weakened. Consolidated revenue grew 22% in Q1 FY2026, 24% in Q2 and 25% in Q3  . Google...",
-      "section": "Results and drivers",
+      "context": "...combined faster revenue growth with a funding problem. Revenue grew 22% in Q1, 24% in Q2 and 25% in Q3 FY2026  . Google...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
-      "context_ok": true,
+      "context_ok": false,
       "evidence": {
         "source": "[1] Earnings releases",
         "origin": null,
-        "context_words": [
-          "consolidated",
-          "revenue"
-        ],
         "hl": "22%",
         "snippet": "• Consolidated Alphabet revenues increased 22%, or 19% in constant currency, to $109.9 billion, reflecting strong performance across the business and our..."
       }
@@ -1391,19 +446,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...earnings weakened. Consolidated revenue grew 22% in Q1 FY2026, 24% in Q2 and 25% in Q3  . Google Cloud revenue grew...",
-      "section": "Results and drivers",
+      "context": "...revenue growth with a funding problem. Revenue grew 22% in Q1, 24% in Q2 and 25% in Q3 FY2026  . Google Cloud...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
-        "source": "[1] Earnings releases",
+        "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "consolidated",
           "revenue"
         ],
-        "hl": "24%",
-        "snippet": "• Consolidated Alphabet revenues increased 24%, or 23% in constant currency, to $119.8 billion, reflecting strong performance across the business and our..."
+        "hl": "24.0%",
+        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
       }
     },
     {
@@ -1413,19 +467,18 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...weakened. Consolidated revenue grew 22% in Q1 FY2026, 24% in Q2 and 25% in Q3  . Google Cloud revenue grew 63%, 82% and...",
-      "section": "Results and drivers",
+      "context": "...with a funding problem. Revenue grew 22% in Q1, 24% in Q2 and 25% in Q3 FY2026  . Google Cloud revenue rose 63%,...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
-        "source": "[1] Earnings releases",
+        "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "consolidated",
           "revenue"
         ],
-        "hl": "25%",
-        "snippet": "• Consolidated Alphabet revenues increased 25% to $127.6 billion, reflecting strong performance across the business and our 13th consecutive quarter of..."
+        "hl": "24.7%",
+        "snippet": "...growth y/y: FY2025 15.1%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 24.7% (year-ago n/a, n/a); trend n/a"
       }
     },
     {
@@ -1435,8 +488,8 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...in Q1 FY2026, 24% in Q2 and 25% in Q3  . Google Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn...",
-      "section": "Results and drivers",
+      "context": "...in Q1, 24% in Q2 and 25% in Q3 FY2026  . Google Cloud revenue rose 63%, 82% and 103% in the same quarters, and its...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
@@ -1458,8 +511,8 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...FY2026, 24% in Q2 and 25% in Q3  . Google Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn  ....",
-      "section": "Results and drivers",
+      "context": "...24% in Q2 and 25% in Q3 FY2026  . Google Cloud revenue rose 63%, 82% and 103% in the same quarters, and its operating...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
@@ -1481,8 +534,8 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...24% in Q2 and 25% in Q3  . Google Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn  . Cloud...",
-      "section": "Results and drivers",
+      "context": "...Q2 and 25% in Q3 FY2026  . Google Cloud revenue rose 63%, 82% and 103% in the same quarters, and its operating margin...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
@@ -1499,46 +552,13 @@
     },
     {
       "kind": "pct",
-      "text": "32.9%",
-      "value": 32.9,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...$2.2bn in Q1 to $11.1bn in Q3  . The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7%...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "margin"
-        ],
-        "hl": "32.8%",
-        "snippet": "- Net margin: FY2025 32.8%; Q1 FY2026 56.9% (year-ago n/a, n/a); Q2 FY2026 93.7% (year-ago n/a, n/a); Q3 FY2026 20.7% (year-ago 34.2%,..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "35.6%",
-      "value": 35.6,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...in Q1 to $11.1bn in Q3  . The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year...",
-      "section": "Results and drivers",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
       "text": "36.2%",
       "value": 36.2,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...to $11.1bn in Q3  . The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year earlier...",
-      "section": "Results and drivers",
+      "context": "...82% and 103% in the same quarters, and its operating margin reached 36.2% in Q3 against 23.7% a year earlier (derived from...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
@@ -1554,52 +574,20 @@
     },
     {
       "kind": "pct",
-      "text": "17.8%",
-      "value": 17.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": ".... The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year earlier (our calculation...",
-      "section": "Results and drivers",
-      "source": null,
-      "context_ok": null
-    },
-    {
-      "kind": "pct",
-      "text": "20.7%",
-      "value": 20.7,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year earlier (our calculation from...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "margin"
-        ],
-        "hl": "20.7%",
-        "snippet": "...margin: FY2025 32.8%; Q1 FY2026 56.9% (year-ago n/a, n/a); Q2 FY2026 93.7% (year-ago n/a, n/a); Q3 FY2026 20.7% (year-ago 34.2%, worse); trend deteriorating"
-      }
-    },
-    {
-      "kind": "pct",
       "text": "23.7%",
       "value": 23.7,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year earlier (our calculation from segment...",
-      "section": "Results and drivers",
+      "context": "...same quarters, and its operating margin reached 36.2% in Q3 against 23.7% a year earlier (derived from  ). Against that,...",
+      "section": "Summary",
       "source": "[4] Annual report and thesis log",
       "context_ok": true,
       "evidence": {
         "source": "[4] Annual report and thesis log",
         "origin": null,
         "context_words": [
+          "operating",
           "margin"
         ],
         "hl": "23.7%",
@@ -1608,172 +596,25 @@
     },
     {
       "kind": "pct",
-      "text": "27%",
-      "value": 27.0,
+      "text": "9.2%",
+      "value": 9.2,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...a year earlier (our calculation from segment data  ). Cloud was 27% of Q3 operating income, against 12% a year...",
-      "section": "Results and drivers",
+      "decimals": 1,
+      "context": "...in Q1 alone, double the year-ago level  . Free cash flow margin was 9.2% in Q1, then -4.9% in Q2 and -7.1% in Q3, and...",
+      "section": "Summary",
       "source": "[3] Yahoo Finance",
-      "context_ok": false,
+      "context_ok": true,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
-        "hl": "27.4%",
-        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x; EV/Sales 5.2x"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "12%",
-      "value": 12.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...from segment data  ). Cloud was 27% of Q3 operating income, against 12% a year earlier  .  Google Services slowed as it...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[4] Annual report and thesis log",
-        "origin": null,
         "context_words": [
-          "against"
+          "free",
+          "cashflow",
+          "margin"
         ],
-        "hl": "12.5%",
-        "snippet": "...at 6.7x forward sales [2][3]. The reverse DCF implies 21.2% annual revenue growth for ten years, against a 12.5% three-year historical CAGR, and an implied return of 9.0% versus an 11.0% cost of capital [2][3]. The price..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "19%",
-      "value": 19.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...Services slowed as it grew. Google Search & other revenue grew 19% in Q1, 17% in Q2 and 12% in Q3, to $63.4bn  ....",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "search",
-          "google",
-          "revenue"
-        ],
-        "hl": "19%",
-        "snippet": "• Google Services revenues increased 16% to $89.6 billion, led by 19% growth in Google Search & other, 19% in Google subscriptions, platforms, and devices, and 11% in YouTube..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "17%",
-      "value": 17.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...slowed as it grew. Google Search & other revenue grew 19% in Q1, 17% in Q2 and 12% in Q3, to $63.4bn  . YouTube ads...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "search",
-          "google",
-          "revenue"
-        ],
-        "hl": "17%",
-        "snippet": "• Google Services revenues increased 15% to $94.5 billion, led by 17% growth in Google Search & other, 15% in Google subscriptions, platforms, and devices, and 13% in YouTube..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "12%",
-      "value": 12.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...grew. Google Search & other revenue grew 19% in Q1, 17% in Q2 and 12% in Q3, to $63.4bn  . YouTube ads grew 11%, 13%...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "search",
-          "google",
-          "revenue"
-        ],
-        "hl": "12%",
-        "snippet": "• Google Services revenues increased 11% to $96.3 billion, led by 12% growth in Google Search & other with the year-over-year Search query growth rate the highest it has been in..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "11%",
-      "value": 11.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...19% in Q1, 17% in Q2 and 12% in Q3, to $63.4bn  . YouTube ads grew 11%, 13% and 9%  . Management said Q3 year-over-year...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "ads",
-          "youtube"
-        ],
-        "hl": "11%",
-        "snippet": "...led by 19% growth in Google Search & other, 19% in Google subscriptions, platforms, and devices, and 11% in YouTube ads."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "13%",
-      "value": 13.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...in Q1, 17% in Q2 and 12% in Q3, to $63.4bn  . YouTube ads grew 11%, 13% and 9%  . Management said Q3 year-over-year...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "ads",
-          "youtube"
-        ],
-        "hl": "13%",
-        "snippet": "...led by 17% growth in Google Search & other, 15% in Google subscriptions, platforms, and devices, and 13% in YouTube ads."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "9%",
-      "value": 9.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...in Q2 and 12% in Q3, to $63.4bn  . YouTube ads grew 11%, 13% and 9%  . Management said Q3 year-over-year query...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "9.0%",
-        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.0% per year (-1.9 percentage points vs the WACC)."
+        "hl": "9.2%",
+        "snippet": "- Free cash flow margin: FY2025 18.2%; Q1 FY2026 9.2% (year-ago n/a, n/a); Q2 FY2026 -4.9% (year-ago n/a, n/a); Q3 FY2026 -7.1% (year-ago 23.9%, worse); trend..."
       }
     },
     {
@@ -1783,8 +624,8 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...calculation), against $19.0bn a year earlier. The FCF margin was -4.9% in Q2 and -7.1% in Q3, against +23.9% in Q3...",
-      "section": "Results and drivers",
+      "context": "...the year-ago level  . Free cash flow margin was 9.2% in Q1, then -4.9% in Q2 and -7.1% in Q3, and trailing twelve-month...",
+      "section": "Summary",
       "source": "[1] Earnings releases",
       "context_ok": true,
       "evidence": {
@@ -1804,7 +645,1021 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...against $19.0bn a year earlier. The FCF margin was -4.9% in Q2 and -7.1% in Q3, against +23.9% in Q3 FY2025  . Trailing...",
+      "context": "...level  . Free cash flow margin was 9.2% in Q1, then -4.9% in Q2 and -7.1% in Q3, and trailing twelve-month free cash flow...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cashflow",
+          "margin"
+        ],
+        "hl": "7.1%",
+        "snippet": "...margin: FY2025 18.2%; Q1 FY2026 9.2% (year-ago n/a, n/a); Q2 FY2026 -4.9% (year-ago n/a, n/a); Q3 FY2026 -7.1% (year-ago 23.9%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.0%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...debt reached $141.9 billion  . Normalized EPS beat consensus by 5.0% in Q1 and missed by 2.1% in Q2 and 10.5% in Q3...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "5.0%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.76 vs estimate $2.63 (surprise +5.0%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2.1%",
+      "value": 2.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Normalized EPS beat consensus by 5.0% in Q1 and missed by 2.1% in Q2 and 10.5% in Q3  . Three of four theses...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "2.1%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS beat consensus by 5.0% in Q1 and missed by 2.1% in Q2 and 10.5% in Q3  . Three of four theses are unchanged or...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "10.5%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$109.9 billion",
+      "value": 109.9,
+      "unit": "billion",
+      "money_mn": 109900.0,
+      "decimals": 1,
+      "context": "Q1 FY2026: Revenue rose 22% to $109.9 billion (19% in constant currency), and operating margin...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "109.9 billion",
+        "snippet": "• Consolidated Alphabet revenues increased 22%, or 19% in constant currency, to $109.9 billion, reflecting strong performance across the business and our 11th consecutive quarter of double-digit growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.0 billion",
+      "value": 20.0,
+      "unit": "billion",
+      "money_mn": 20000.0,
+      "decimals": 1,
+      "context": "...margin widened to 36% from 34%  . Google Cloud revenue rose 63% to $20.0 billion and its operating income rose to $6.6 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20.0 billion",
+        "snippet": "• Google Cloud saw a meaningful acceleration in growth as revenues increased 63% to $20.0 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.6 billion",
+      "value": 6.6,
+      "unit": "billion",
+      "money_mn": 6600.0,
+      "decimals": 1,
+      "context": "...revenue rose 63% to $20.0 billion and its operating income rose to $6.6 billion from $2.2 billion, a margin of 32.9% against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,598",
+        "snippet": "Google Cloud 2,177 6,598 Other Bets (1,226) (2,100)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.2 billion",
+      "value": 2.2,
+      "unit": "billion",
+      "money_mn": 2200.0,
+      "decimals": 1,
+      "context": "...to $20.0 billion and its operating income rose to $6.6 billion from $2.2 billion, a margin of 32.9% against 17.8% a year earlier...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,180)",
+        "snippet": "Accumulated other comprehensive income (loss) (1,916) (2,180)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.11",
+      "value": 5.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 32.9% against 17.8% a year earlier (derived from  ). GAAP EPS of $5.11 included a $37.7 billion gain on non-marketable...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5.11",
+        "snippet": "• Net income increased 81% and EPS increased 82% to $5.11."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$37.7 billion",
+      "value": 37.7,
+      "unit": "billion",
+      "money_mn": 37700.0,
+      "decimals": 1,
+      "context": "...17.8% a year earlier (derived from  ). GAAP EPS of $5.11 included a $37.7 billion gain on non-marketable securities  . Normalized...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "37.7 billion",
+        "snippet": "• Other income reflected a net gain of $37.7 billion, primarily the result of net unrealized gains on our non-marketable equity securities."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.1 billion",
+      "value": 10.1,
+      "unit": "billion",
+      "money_mn": 10100.0,
+      "decimals": 1,
+      "context": ".... Normalized EPS beat consensus by 5.0%  . Free cash flow fell to $10.1 billion from $19.0 billion a year earlier (derived from...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "10,116,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.0 billion",
+      "value": 19.0,
+      "unit": "billion",
+      "money_mn": 19000.0,
+      "decimals": 1,
+      "context": "...beat consensus by 5.0%  . Free cash flow fell to $10.1 billion from $19.0 billion a year earlier (derived from operating cash flow...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$35.7 billion",
+      "value": 35.7,
+      "unit": "billion",
+      "money_mn": 35700.0,
+      "decimals": 1,
+      "context": "...from operating cash flow less capex in  ), because capex doubled to $35.7 billion  .  Q2 FY2026: Revenue accelerated to 24% growth...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "35,674)",
+        "snippet": "Purchases of property and equipment (17,197) (35,674)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$119.8 billion",
+      "value": 119.8,
+      "unit": "billion",
+      "money_mn": 119800.0,
+      "decimals": 1,
+      "context": "...to $35.7 billion  .  Q2 FY2026: Revenue accelerated to 24% growth ($119.8 billion)  . Cloud growth accelerated to 82%, and its...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "119.8 billion",
+        "snippet": "• Consolidated Alphabet revenues increased 24%, or 23% in constant currency, to $119.8 billion, reflecting strong performance across the business and our 12th consecutive quarter of double-digit revenue..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.11",
+      "value": 9.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...grew 13%  . Normalized EPS missed consensus by 2.1%  . GAAP EPS of $9.11 included $98.0 billion of other income, mainly...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.11",
+        "snippet": "• Net income available to common stockholders increased 298% and EPS increased 294% to $9.11."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$98.0 billion",
+      "value": 98.0,
+      "unit": "billion",
+      "money_mn": 98000.0,
+      "decimals": 1,
+      "context": "...EPS missed consensus by 2.1%  . GAAP EPS of $9.11 included $98.0 billion of other income, mainly unrealized equity gains...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "98.0 billion",
+        "snippet": "• Other income reflected a net gain of $98.0 billion, primarily the result of net unrealized gains on our equity securities."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.8 billion",
+      "value": 5.8,
+      "unit": "billion",
+      "money_mn": 5800.0,
+      "decimals": 1,
+      "context": "...activities, which carry shared AI research costs, rose to $5.8 billion from $3.4 billion  .  Q3 FY2026: Revenue grew...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,789)",
+        "snippet": "(3,372) (5,789)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.4 billion",
+      "value": 3.4,
+      "unit": "billion",
+      "money_mn": 3400.0,
+      "decimals": 1,
+      "context": "...which carry shared AI research costs, rose to $5.8 billion from $3.4 billion  .  Q3 FY2026: Revenue grew 25% to $127.6...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3,403)",
+        "snippet": "Other assets (1,288) (3,403)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$127.6 billion",
+      "value": 127.6,
+      "unit": "billion",
+      "money_mn": 127600.0,
+      "decimals": 1,
+      "context": "...$5.8 billion from $3.4 billion  .  Q3 FY2026: Revenue grew 25% to $127.6 billion  . Cloud revenue rose 103% to $30.7 billion, and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "127.6 billion",
+        "snippet": "• Consolidated Alphabet revenues increased 25% to $127.6 billion, reflecting strong performance across the business and our 13th consecutive quarter of double-digit revenue..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$30.7 billion",
+      "value": 30.7,
+      "unit": "billion",
+      "money_mn": 30700.0,
+      "decimals": 1,
+      "context": "...Revenue grew 25% to $127.6 billion  . Cloud revenue rose 103% to $30.7 billion, and the release names TPU system sales as a...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "30.7 billion",
+        "snippet": "• Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure and enterprise AI..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.67",
+      "value": 2.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...operating income grew 17%, against 24% in Q1  . Normalized EPS of $2.67 missed consensus of $2.98 by 10.5%  . GAAP EPS...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.67",
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.98",
+      "value": 2.98,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...against 24% in Q1  . Normalized EPS of $2.67 missed consensus of $2.98 by 10.5%  . GAAP EPS fell to $2.12 from $2.87...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.98",
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.12",
+      "value": 2.12,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS of $2.67 missed consensus of $2.98 by 10.5%  . GAAP EPS fell to $2.12 from $2.87 because other income swung to an $8.2...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.12",
+        "snippet": "• Net income available to common stockholders was $26.2 billion and EPS was $2.12."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.87",
+      "value": 2.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...missed consensus of $2.98 by 10.5%  . GAAP EPS fell to $2.12 from $2.87 because other income swung to an $8.2 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.87",
+        "snippet": "Diluted net income per common share $ 2.87 $ 2.12"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.2 billion",
+      "value": 8.2,
+      "unit": "billion",
+      "money_mn": 8200.0,
+      "decimals": 1,
+      "context": ".... GAAP EPS fell to $2.12 from $2.87 because other income swung to an $8.2 billion expense from a $12.8 billion gain  . Operating...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,221)",
+        "snippet": "$ 12,759 $ (8,221)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.8 billion",
+      "value": 12.8,
+      "unit": "billion",
+      "money_mn": 12800.0,
+      "decimals": 1,
+      "context": "...$2.87 because other income swung to an $8.2 billion expense from a $12.8 billion gain  . Operating income rose 30%, so the miss...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,759",
+        "snippet": "$ 12,759 $ (8,221)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.6 billion",
+      "value": 20.6,
+      "unit": "billion",
+      "money_mn": 20600.0,
+      "decimals": 1,
+      "context": "...sits below the operating line. Research and development rose 36% to $20.6 billion, faster than revenue. The releases do not state...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20,640",
+        "snippet": "Research and development 15,151 20,640 42,515 55,891"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 FY2026: Revenue rose 22% to $109.9 billion (19% in constant currency),...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "currency",
+          "constant",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "• Consolidated Alphabet revenues increased 22%, or 19% in constant currency, to $109.9 billion, reflecting strong performance across the business and our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 FY2026: Revenue rose 22% to $109.9 billion (19% in constant currency), and operating margin...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "currency",
+          "constant",
+          "revenue"
+        ],
+        "hl": "19%",
+        "snippet": "• Consolidated Alphabet revenues increased 22%, or 19% in constant currency, to $109.9 billion, reflecting strong performance across the business and our 11th..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion (19% in constant currency), and operating margin widened to 36% from 34%  . Google Cloud revenue rose 63% to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "36.1%",
+        "snippet": "...Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34%",
+      "value": 34.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in constant currency), and operating margin widened to 36% from 34%  . Google Cloud revenue rose 63% to $20.0...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "34 %",
+        "snippet": "34 % 36 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63%",
+      "value": 63.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin widened to 36% from 34%  . Google Cloud revenue rose 63% to $20.0 billion and its operating income rose...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cloud",
+          "google",
+          "revenue"
+        ],
+        "hl": "63%",
+        "snippet": "...experiences driving usage, queries at an all time high, and 19% revenue growth. Google Cloud revenues grew 63% with backlog nearly doubling quarter on quarter to over $460 billion. This was our strongest quarter ever..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.9%",
+      "value": 32.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose to $6.6 billion from $2.2 billion, a margin of 32.9% against 17.8% a year earlier (derived from  )....",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "32.8%",
+        "snippet": "- Net margin: FY2025 32.8%; Q1 FY2026 56.9% (year-ago n/a, n/a); Q2 FY2026 93.7% (year-ago n/a, n/a); Q3 FY2026 20.7% (year-ago 34.2%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose to $6.6 billion from $2.2 billion, a margin of 32.9% against 17.8% a year earlier (derived from  ). GAAP EPS of...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "5.0%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on non-marketable securities  . Normalized EPS beat consensus by 5.0%  . Free cash flow fell to $10.1 billion from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "5.0%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.76 vs estimate $2.63 (surprise +5.0%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...doubled to $35.7 billion  .  Q2 FY2026: Revenue accelerated to 24% growth ($119.8 billion)  . Cloud growth...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "24.0%",
+        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 24% growth ($119.8 billion)  . Cloud growth accelerated to 82%, and its margin rose to 35.6%  . The drivers...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cloud"
+        ],
+        "hl": "82%",
+        "snippet": "...amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth, driven by demand for AI infrastructure and AI solutions. It’s great to see wide adoption of Gemini..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35.6%",
+      "value": 35.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion)  . Cloud growth accelerated to 82%, and its margin rose to 35.6%  . The drivers named in the release were AI...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...The core advertising line slowed: Google Search & other grew 17% (19% in Q1), and YouTube ads grew 13%  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "search",
+          "google"
+        ],
+        "hl": "17%",
+        "snippet": "• Google Services revenues increased 15% to $94.5 billion, led by 17% growth in Google Search & other, 15% in Google subscriptions, platforms, and devices, and 13% in YouTube..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...The core advertising line slowed: Google Search & other grew 17% (19% in Q1), and YouTube ads grew 13%  . Normalized...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "search",
+          "google"
+        ],
+        "hl": "19%",
+        "snippet": "• Google Services revenues increased 16% to $89.6 billion, led by 19% growth in Google Search & other, 19% in Google subscriptions, platforms, and devices, and 11% in YouTube..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Google Search & other grew 17% (19% in Q1), and YouTube ads grew 13%  . Normalized EPS missed consensus by 2.1%  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "ads",
+          "youtube",
+          "google"
+        ],
+        "hl": "13%",
+        "snippet": "...led by 17% growth in Google Search & other, 15% in Google subscriptions, platforms, and devices, and 13% in YouTube ads."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2.1%",
+      "value": 2.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q1), and YouTube ads grew 13%  . Normalized EPS missed consensus by 2.1%  . GAAP EPS of $9.11 included $98.0 billion of...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "2.1%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-4.9%",
+      "value": 4.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...unrealized equity gains  . Free cash flow margin turned negative at -4.9%  . Alphabet-level activities, which carry shared...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cashflow"
+        ],
+        "hl": "5%",
+        "snippet": "...2026, Alphabet’s Board of Directors declared a quarterly cash dividend of $0.22 per share, representing a 5% increase from the previous quarterly dividend of $0.21 per share. The dividend is payable on June 15, 2026..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to $5.8 billion from $3.4 billion  .  Q3 FY2026: Revenue grew 25% to $127.6 billion  . Cloud revenue rose 103% to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "24.7%",
+        "snippet": "...growth y/y: FY2025 15.1%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 24.7% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "103%",
+      "value": 103.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026: Revenue grew 25% to $127.6 billion  . Cloud revenue rose 103% to $30.7 billion, and the release names TPU...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cloud",
+          "revenue"
+        ],
+        "hl": "103%",
+        "snippet": "• Google Cloud delivered record growth as revenues increased 103% to $30.7 billion, led by strong growth in Google Cloud Platform (GCP) across enterprise AI infrastructure..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36.2%",
+      "value": 36.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...names TPU system sales as a meaningful contributor; the margin was 36.2%  . Search & other growth fell to 12%, the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "36.1%",
+        "snippet": "...Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...contributor; the margin was 36.2%  . Search & other growth fell to 12%, the slowest of the three quarters, though the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "search"
+        ],
+        "hl": "12%",
+        "snippet": "• Google Services revenues increased 11% to $96.3 billion, led by 12% growth in Google Search & other with the year-over-year Search query growth rate the highest it has been in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth at a five-year high  . Google Services operating income grew 17%, against 24% in Q1  . Normalized EPS of $2.67...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "servic",
+          "google"
+        ],
+        "hl": "17%",
+        "snippet": "• Google Services revenues increased 15% to $94.5 billion, led by 17% growth in Google Search & other, 15% in Google subscriptions, platforms, and devices, and 13% in YouTube..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...high  . Google Services operating income grew 17%, against 24% in Q1  . Normalized EPS of $2.67 missed...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "google"
+        ],
+        "hl": "24%",
+        "snippet": "...the stock [3]. Alphabet grew 2025 revenue 15% to $402.8 billion, and Google Cloud, up 36% with a margin near 24%, is the clearest source of profit momentum [1]. Free cash flow was flat at $73.3 billion while capex rose..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...24% in Q1  . Normalized EPS of $2.67 missed consensus of $2.98 by 10.5%  . GAAP EPS fell to $2.12 from $2.87 because...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "10.5%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion expense from a $12.8 billion gain  . Operating income rose 30%, so the miss sits below the operating line....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "30%",
+        "snippet": "• Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...miss sits below the operating line. Research and development rose 36% to $20.6 billion, faster than revenue. The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "36%",
+        "snippet": "...that could weigh on the stock [3]. Alphabet grew 2025 revenue 15% to $402.8 billion, and Google Cloud, up 36% with a margin near 24%, is the clearest source of profit momentum [1]. Free cash flow was flat at $73.3..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-7.1%",
+      "value": 7.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of the miss, and I cannot attribute it. Free cash flow margin was -7.1% against 23.9% a year earlier  . Trend: revenue...",
       "section": "Results and drivers",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -1826,7 +1681,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...earlier. The FCF margin was -4.9% in Q2 and -7.1% in Q3, against +23.9% in Q3 FY2025  . Trailing FCF fell to $19.7bn  ....",
+      "context": "...and I cannot attribute it. Free cash flow margin was -7.1% against 23.9% a year earlier  . Trend: revenue and Cloud...",
       "section": "Results and drivers",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -1841,142 +1696,13 @@
       }
     },
     {
-      "kind": "pct",
-      "text": "30%",
-      "value": 30.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...swung from +$12.8bn to -$8.2bn, although operating income rose 30% to $40.6bn  . Against consensus, Q1 beat by 5.0%...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "operating"
-        ],
-        "hl": "30%",
-        "snippet": "• Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "5.0%",
-      "value": 5.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...income rose 30% to $40.6bn  . Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "5%",
-        "snippet": "• The company announced a 5% increase to the dividend, resulting in a quarterly cash dividend of $0.22."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "2.1%",
-      "value": 2.1,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": ".... Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "2.1%",
-        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "10.5%",
-      "value": 10.5,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs $2.98)  . The Q3 comparison uses...",
-      "section": "Results and drivers",
-      "source": "[3] Yahoo Finance",
-      "context_ok": false,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "10.5%",
-        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "36%",
-      "value": 36.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...EPS. The releases do not reconcile the consensus gap. R&D rose 36% to $20.6bn and Alphabet-level AI costs rose to...",
-      "section": "Results and drivers",
-      "source": "[1] Earnings releases",
-      "context_ok": false,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "36 %",
-        "snippet": "34 % 36 %"
-      }
-    },
-    {
       "kind": "money",
-      "text": "$35.7bn",
-      "value": 35.7,
-      "unit": "billion",
-      "money_mn": 35700.0,
-      "decimals": 1,
-      "context": "...so funding rather than earnings limits the stock. Q1 capex was $35.7bn, against $17.2bn a year earlier  . The FCF...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "35,674)",
-        "snippet": "Purchases of property and equipment (17,197) (35,674)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$17.2bn",
-      "value": 17.2,
-      "unit": "billion",
-      "money_mn": 17200.0,
-      "decimals": 1,
-      "context": "...than earnings limits the stock. Q1 capex was $35.7bn, against $17.2bn a year earlier  . The FCF margin was -4.9% in Q2...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "17,197)",
-        "snippet": "Purchases of property and equipment (17,197) (35,674)"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$19.7bn",
+      "text": "$19.7 billion",
       "value": 19.7,
       "unit": "billion",
       "money_mn": 19700.0,
       "decimals": 1,
-      "context": "...FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing FCF was $19.7bn at Q3  . Reaching the $73.3bn FY2025 level in...",
+      "context": "...so funding rather than earnings limits the stock. Trailing FCF was $19.7 billion at 30 September 2026  , well below the $50...",
       "section": "Thesis check",
       "source": "[3] Yahoo Finance",
       "context_ok": null,
@@ -1989,30 +1715,12 @@
     },
     {
       "kind": "money",
-      "text": "$73.3bn",
-      "value": 73.3,
+      "text": "$50 billion",
+      "value": 50.0,
       "unit": "billion",
-      "money_mn": 73300.0,
-      "decimals": 1,
-      "context": "...and -7.1% in Q3, and trailing FCF was $19.7bn at Q3  . Reaching the $73.3bn FY2025 level in FY2026 would need a strong Q4...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "73,266.0 million",
-        "snippet": "...investments $126,843.0 million, total debt $59,291.0 million, net cash $67,552.0 million, free cash flow $73,266.0 million, cash runway at that burn self-funded, current ratio 2.0x, shares outstanding 12,088.0 million, change in..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$49.6bn",
-      "value": 49.6,
-      "unit": "billion",
-      "money_mn": 49600.0,
-      "decimals": 1,
-      "context": "...run, so the earlier log status of broken stands. Funding came from $49.6bn of equity and $80bn of notes  . T3: The current...",
+      "money_mn": 50000.0,
+      "decimals": 0,
+      "context": "...FCF was $19.7 billion at 30 September 2026  , well below the $50 billion ceiling, so the funding-pressure direction is...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -2025,20 +1733,158 @@
     },
     {
       "kind": "money",
-      "text": "$80bn",
-      "value": 80.0,
+      "text": "$73.3 billion",
+      "value": 73.3,
       "unit": "billion",
-      "money_mn": 80000.0,
-      "decimals": 0,
-      "context": "...status of broken stands. Funding came from $49.6bn of equity and $80bn of notes  . T3: The current valuation requires...",
+      "money_mn": 73300.0,
+      "decimals": 1,
+      "context": "...out. The earlier-log signpost of FY2026 free cash flow at or above $73.3 billion is broken: free cash flow margin was -4.9% in Q2...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "73,266.0 million",
+        "snippet": "...investments $126,843.0 million, total debt $59,291.0 million, net cash $67,552.0 million, free cash flow $73,266.0 million, cash runway at that burn self-funded, current ratio 2.0x, shares outstanding 12,088.0 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$80.1 billion",
+      "value": 80.1,
+      "unit": "billion",
+      "money_mn": 80100.0,
+      "decimals": 1,
+      "context": "...cash flow margin was -4.9% in Q2 and -7.1% in Q3  . Alphabet raised $80.1 billion of senior notes in Q1-Q3  , a $49.6 billion...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$49.6 billion",
+      "value": 49.6,
+      "unit": "billion",
+      "money_mn": 49600.0,
+      "decimals": 1,
+      "context": "...Q3  . Alphabet raised $80.1 billion of senior notes in Q1-Q3  , a $49.6 billion equity raise in June   and $12.4 billion through...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": null,
       "evidence": {
         "source": "[1] Earnings releases",
         "origin": null,
-        "hl": "80,466",
-        "snippet": "Income from operations 31,271 40,770 61,877 80,466 Other income (expense), net 2,662 97,983 13,845 135,699"
+        "hl": "49.6 billion",
+        "snippet": "...of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.4 billion",
+      "value": 12.4,
+      "unit": "billion",
+      "money_mn": 12400.0,
+      "decimals": 1,
+      "context": "...senior notes in Q1-Q3  , a $49.6 billion equity raise in June   and $12.4 billion through the ATM in Q3  , and total debt rose to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,384",
+        "snippet": "Google subscriptions, platforms, and devices 10,379 12,384 Google Services total 77,264 89,637"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$141.9 billion",
+      "value": 141.9,
+      "unit": "billion",
+      "money_mn": 141900.0,
+      "decimals": 1,
+      "context": "...and $12.4 billion through the ATM in Q3  , and total debt rose to $141.9 billion from $59.3 billion  . T3: The current valuation...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "141,917.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59.3 billion",
+      "value": 59.3,
+      "unit": "billion",
+      "money_mn": 59300.0,
+      "decimals": 1,
+      "context": "...through the ATM in Q3  , and total debt rose to $141.9 billion from $59.3 billion  . T3: The current valuation requires growth...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "59,291.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $126,843.0 million, total debt $59,291.0 million, net cash $67,552.0 million, free cash flow $73,266.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$357.3 billion",
+      "value": 357.3,
+      "unit": "billion",
+      "money_mn": 357300.0,
+      "decimals": 1,
+      "context": "...growth was 22%, 24% and 25% in Q1-Q3  ; year-to-date revenue of $357.3 billion is up 23.6%  . Consensus FY2026 growth is 24.0%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "357,269",
+        "snippet": "Revenues $ 102,346 $ 127,577 $ 289,007 $ 357,269 Costs and expenses:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$142 billion",
+      "value": 142.0,
+      "unit": "billion",
+      "money_mn": 142000.0,
+      "decimals": 0,
+      "context": ".... Illustratively, FY2026 growth of 24% needs Q4 revenue of about $142 billion, roughly 25% above Q4 FY2025 (derived). FY2027...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "141,917.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$636.4 billion",
+      "value": 636.4,
+      "unit": "billion",
+      "money_mn": 636400.0,
+      "decimals": 1,
+      "context": "...billion, roughly 25% above Q4 FY2025 (derived). FY2027 consensus is $636.4 billion  ; the data provided has no 90-day revenue...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "636,424.1 million",
+        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to..."
       }
     },
     {
@@ -2048,7 +1894,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": ".... The Q3 miss is beyond the 5% threshold. FY2026 EPS consensus is $13.09, up 11.9% over 90 days, but two analysts cut...",
+      "context": "...invalidation trigger is already met for Q3. FY2026 EPS consensus is $13.09, up from $11.70 90 days earlier and above the...",
       "section": "Thesis check",
       "source": "[3] Yahoo Finance",
       "context_ok": null,
@@ -2056,7 +1902,25 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "hl": "13.09",
-        "snippet": "...$499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 21.1x; EV/Sales 6.6x"
+        "snippet": "...$499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.70",
+      "value": 11.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is already met for Q3. FY2026 EPS consensus is $13.09, up from $11.70 90 days earlier and above the $12.00 floor  ....",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "11.70",
+        "snippet": "- EPS consensus current fiscal year: $13.09 today, $11.89 30 days ago, $11.70 90 days ago, change vs 90 days ago +11.9%; analysts raising/cutting in last 30 days: 0/2"
       }
     },
     {
@@ -2066,7 +1930,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...raised them in the last 30 days  . The consensus level is above the $12.00 invalidation level  .",
+      "context": "...consensus is $13.09, up from $11.70 90 days earlier and above the $12.00 floor  . Yahoo EPS is normalized; GAAP diluted...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -2078,13 +1942,67 @@
       }
     },
     {
+      "kind": "money",
+      "text": "$5.11",
+      "value": 5.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$12.00 floor  . Yahoo EPS is normalized; GAAP diluted EPS in   is $5.11, $9.11 and $2.12, so the two bases should not be...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5.11",
+        "snippet": "• Net income increased 81% and EPS increased 82% to $5.11."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.11",
+      "value": 9.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...floor  . Yahoo EPS is normalized; GAAP diluted EPS in   is $5.11, $9.11 and $2.12, so the two bases should not be...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9.11",
+        "snippet": "• Net income available to common stockholders increased 298% and EPS increased 294% to $9.11."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.12",
+      "value": 2.12,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Yahoo EPS is normalized; GAAP diluted EPS in   is $5.11, $9.11 and $2.12, so the two bases should not be compared...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.12",
+        "snippet": "• Net income available to common stockholders was $26.2 billion and EPS was $2.12."
+      }
+    },
+    {
       "kind": "pct",
       "text": "32.9%",
       "value": 32.9,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...Q3 group margin path, Cloud signpost.) Cloud operating margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the...",
+      "context": "...making Cloud the main profit driver. Cloud operating margin was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026,...",
       "section": "Thesis check",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -2105,7 +2023,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...margin path, Cloud signpost.) Cloud operating margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the 20%...",
+      "context": "...the main profit driver. Cloud operating margin was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%,...",
       "section": "Thesis check",
       "source": null,
       "context_ok": null
@@ -2117,7 +2035,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...path, Cloud signpost.) Cloud operating margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the 20% signpost, and...",
+      "context": "...driver. Cloud operating margin was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2134,25 +2052,50 @@
     },
     {
       "kind": "pct",
-      "text": "20%",
-      "value": 20.0,
+      "text": "17.8%",
+      "value": 17.8,
       "unit": "",
       "money_mn": null,
-      "decimals": 0,
-      "context": "...margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the 20% signpost, and Cloud revenue grew 63%, 82% and...",
+      "decimals": 1,
+      "context": "...margin was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a year earlier (derived from...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "20.7%",
+      "value": 20.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 32.9% in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a year earlier (derived from  ). Cloud...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "20.7%",
+        "snippet": "...margin: FY2025 32.8%; Q1 FY2026 56.9% (year-ago n/a, n/a); Q2 FY2026 93.7% (year-ago n/a, n/a); Q3 FY2026 20.7% (year-ago 34.2%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23.7%",
+      "value": 23.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q1, 35.6% in Q2 and 36.2% in Q3 FY2026, against 17.8%, 20.7% and 23.7% a year earlier (derived from  ). Cloud revenue...",
       "section": "Thesis check",
       "source": "[4] Annual report and thesis log",
-      "context_ok": true,
+      "context_ok": false,
       "evidence": {
         "source": "[4] Annual report and thesis log",
         "origin": null,
-        "context_words": [
-          "margin",
-          "cloud",
-          "signpost"
-        ],
-        "hl": "20%",
-        "snippet": "...and lifts group operating margin above 32% in FY2026\", \"signpost\": \"Cloud operating margin stays above 20% in each FY2026 quarterly report, with Cloud growth above 30% in the Q4 2026 report\", \"statuses\": {\"Q1..."
+        "hl": "23.7%",
+        "snippet": "...the strongest growth engine, and its margin gains should persist as revenue scales: operating margin rose to 23.7% from 14.1% [1]. Funding strain is the key risk: free cash flow stayed flat at $73.3 billion as capex rose..."
       }
     },
     {
@@ -2162,7 +2105,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...in Q1 to Q3 FY2026, above the 20% signpost, and Cloud revenue grew 63%, 82% and 103%  . Group operating margin was...",
+      "context": "...earlier (derived from  ). Cloud revenue growth accelerated from 63% to 82% to 103%  . Q3 revenue includes TPU system...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2184,7 +2127,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...to Q3 FY2026, above the 20% signpost, and Cloud revenue grew 63%, 82% and 103%  . Group operating margin was 31.8% in...",
+      "context": "...(derived from  ). Cloud revenue growth accelerated from 63% to 82% to 103%  . Q3 revenue includes TPU system sales,...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2206,7 +2149,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...FY2026, above the 20% signpost, and Cloud revenue grew 63%, 82% and 103%  . Group operating margin was 31.8% in Q3, below...",
+      "context": "...from  ). Cloud revenue growth accelerated from 63% to 82% to 103%  . Q3 revenue includes TPU system sales, which...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2223,56 +2166,12 @@
     },
     {
       "kind": "pct",
-      "text": "31.8%",
-      "value": 31.8,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...Cloud revenue grew 63%, 82% and 103%  . Group operating margin was 31.8% in Q3, below the 32% level in the earlier log,...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "margin",
-          "operating"
-        ],
-        "hl": "31.8%",
-        "snippet": "• Consolidated Alphabet operating income increased 30% and operating margin was 31.8%."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "32%",
-      "value": 32.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...82% and 103%  . Group operating margin was 31.8% in Q3, below the 32% level in the earlier log, so the group-level...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "context_words": [
-          "margin",
-          "operating"
-        ],
-        "hl": "32 %",
-        "snippet": "32 % 34 %"
-      }
-    },
-    {
-      "kind": "pct",
       "text": "-4.9%",
       "value": 4.9,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...was $35.7bn, against $17.2bn a year earlier  . The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing FCF was...",
+      "context": "...flow at or above $73.3 billion is broken: free cash flow margin was -4.9% in Q2 and -7.1% in Q3  . Alphabet raised $80.1...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2293,7 +2192,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...$17.2bn a year earlier  . The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing FCF was $19.7bn at Q3  ....",
+      "context": "...$73.3 billion is broken: free cash flow margin was -4.9% in Q2 and -7.1% in Q3  . Alphabet raised $80.1 billion of senior...",
       "section": "Thesis check",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -2315,7 +2214,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...above Alphabet's own history for a decade. Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month...",
+      "context": "...above Alphabet's own history for a decade. Revenue growth was 22%, 24% and 25% in Q1-Q3  ; year-to-date revenue of...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": false,
@@ -2333,7 +2232,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...above Alphabet's own history for a decade. Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month...",
+      "context": "...above Alphabet's own history for a decade. Revenue growth was 22%, 24% and 25% in Q1-Q3  ; year-to-date revenue of...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2344,7 +2243,7 @@
           "revenue"
         ],
         "hl": "24.0%",
-        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 21.1x; EV/Sales 6.6x"
+        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
       }
     },
     {
@@ -2354,7 +2253,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...own history for a decade. Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month growth is...",
+      "context": "...own history for a decade. Revenue growth was 22%, 24% and 25% in Q1-Q3  ; year-to-date revenue of $357.3...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2375,13 +2274,16 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month growth is 23.6% (our calculation from  ). Consensus FY2026...",
+      "context": "...and 25% in Q1-Q3  ; year-to-date revenue of $357.3 billion is up 23.6%  . Consensus FY2026 growth is 24.0%  ....",
       "section": "Thesis check",
       "source": "[4] Annual report and thesis log",
-      "context_ok": false,
+      "context_ok": true,
       "evidence": {
         "source": "[4] Annual report and thesis log",
         "origin": null,
+        "context_words": [
+          "revenue"
+        ],
         "hl": "23.7%",
         "snippet": "...the strongest growth engine, and its margin gains should persist as revenue scales: operating margin rose to 23.7% from 14.1% [1]. Funding strain is the key risk: free cash flow stayed flat at $73.3 billion as capex rose..."
       }
@@ -2393,7 +2295,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...is 23.6% (our calculation from  ). Consensus FY2026 growth is 24.0%  . The reverse DCF implies 20.9% ten-year growth...",
+      "context": "...revenue of $357.3 billion is up 23.6%  . Consensus FY2026 growth is 24.0%  . Illustratively, FY2026 growth of 24% needs Q4...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": false,
@@ -2406,78 +2308,12 @@
     },
     {
       "kind": "pct",
-      "text": "20.9%",
-      "value": 20.9,
+      "text": "24%",
+      "value": 24.0,
       "unit": "",
       "money_mn": null,
-      "decimals": 1,
-      "context": "...). Consensus FY2026 growth is 24.0%  . The reverse DCF implies 20.9% ten-year growth against 12.5% historical, and...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "imply"
-        ],
-        "hl": "20.9%",
-        "snippet": "- The current enterprise value of $3,303,530.6 million implies revenue growth of 20.9% per year for 10 years (FY2025 revenue $402,836.0 million -> about $2,691,288.1 million in FY2035), assuming..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "12.5%",
-      "value": 12.5,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...is 24.0%  . The reverse DCF implies 20.9% ten-year growth against 12.5% historical, and the implied return of 9.0% is...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "implied",
-          "historical"
-        ],
-        "hl": "12.5%",
-        "snippet": "- For comparison: historical 3-year revenue CAGR 12.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "9.0%",
-      "value": 9.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...ten-year growth against 12.5% historical, and the implied return of 9.0% is below the 11.0% WACC (illustrative)  . The...",
-      "section": "Thesis check",
-      "source": "[3] Yahoo Finance",
-      "context_ok": true,
-      "evidence": {
-        "source": "[4] Annual report and thesis log",
-        "origin": null,
-        "context_words": [
-          "return",
-          "implied",
-          "historical"
-        ],
-        "hl": "9.0%",
-        "snippet": "...annual revenue growth for ten years, against a 12.5% three-year historical CAGR, and an implied return of 9.0% versus an 11.0% cost of capital [2][3]. The price therefore requires near-term growth at the consensus pace..."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "11.0%",
-      "value": 11.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...12.5% historical, and the implied return of 9.0% is below the 11.0% WACC (illustrative)  . The signpost is on track,...",
+      "decimals": 0,
+      "context": "...FY2026 growth is 24.0%  . Illustratively, FY2026 growth of 24% needs Q4 revenue of about $142 billion, roughly...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2485,10 +2321,53 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "wacc"
+          "revenue"
         ],
-        "hl": "11.0%",
-        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 18.2% to 18.2% by year 10, a WACC of 11.0% (10y US Treasury (^TNX) 4.8% + beta 1.23 x 5.0% equity risk premium) and 2.5% terminal growth."
+        "hl": "24.0%",
+        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth of 24% needs Q4 revenue of about $142 billion, roughly 25% above Q4 FY2025 (derived). FY2027 consensus is...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "24.7%",
+        "snippet": "...growth y/y: FY2025 15.1%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 24.7% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion  ; the data provided has no 90-day revenue revision, so the 5% cut test cannot be run. T4: Near-term estimates...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "cut",
+          "revenue"
+        ],
+        "hl": "5%",
+        "snippet": "...the FY2026 10-K; invalidation if FY2026 growth is below 18% or FY2027 consensus revenue is cut by more than 5% during 2026.\", \"statuses\": {\"Q1 FY2026\": \"intact\", \"Q2 FY2026\": \"intact\", \"Q3 FY2026\": \"intact\"},..."
       }
     },
     {
@@ -2498,49 +2377,61 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...Near-term estimates hold up, but delivery risk is real. Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%  . The...",
+      "context": "...miss shows that delivery risk is real. Normalized EPS surprise was +5.0% in Q1, -2.1% in Q2 and -10.5% in Q3  . The Q3...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
-      "context_ok": false,
+      "context_ok": true,
       "evidence": {
-        "source": "[1] Earnings releases",
+        "source": "[3] Yahoo Finance",
         "origin": null,
-        "hl": "5%",
-        "snippet": "• The company announced a 5% increase to the dividend, resulting in a quarterly cash dividend of $0.22."
+        "context_words": [
+          "surprise",
+          "pershare"
+        ],
+        "hl": "5.0%",
+        "snippet": "- Quarter ending 2026-03-31: EPS $2.76 vs estimate $2.63 (surprise +5.0%)"
       }
     },
     {
       "kind": "pct",
-      "text": "2.1%",
+      "text": "-2.1%",
       "value": 2.1,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...hold up, but delivery risk is real. Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%  . The Q3 miss is beyond...",
+      "context": "...delivery risk is real. Normalized EPS surprise was +5.0% in Q1, -2.1% in Q2 and -10.5% in Q3  . The Q3 miss is outside...",
       "section": "Thesis check",
       "source": "[3] Yahoo Finance",
-      "context_ok": false,
+      "context_ok": true,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
+        "context_words": [
+          "surprise",
+          "pershare"
+        ],
         "hl": "2.1%",
         "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
       }
     },
     {
       "kind": "pct",
-      "text": "10.5%",
+      "text": "-10.5%",
       "value": 10.5,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...risk is real. Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%  . The Q3 miss is beyond the 5% threshold....",
+      "context": "...is real. Normalized EPS surprise was +5.0% in Q1, -2.1% in Q2 and -10.5% in Q3  . The Q3 miss is outside the 5%...",
       "section": "Thesis check",
       "source": "[3] Yahoo Finance",
-      "context_ok": false,
+      "context_ok": true,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
+        "context_words": [
+          "surprise",
+          "pershare"
+        ],
         "hl": "10.5%",
         "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
       }
@@ -2552,37 +2443,15 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...missed by 2.1% and Q3 missed by 10.5%  . The Q3 miss is beyond the 5% threshold. FY2026 EPS consensus is $13.09, up...",
+      "context": "...in Q1, -2.1% in Q2 and -10.5% in Q3  . The Q3 miss is outside the 5% tolerance, so the invalidation trigger is...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
-      "context_ok": false,
+      "context_ok": null,
       "evidence": {
         "source": "[1] Earnings releases",
         "origin": null,
         "hl": "5%",
         "snippet": "• The company announced a 5% increase to the dividend, resulting in a quarterly cash dividend of $0.22."
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "11.9%",
-      "value": 11.9,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 1,
-      "context": "...miss is beyond the 5% threshold. FY2026 EPS consensus is $13.09, up 11.9% over 90 days, but two analysts cut estimates and...",
-      "section": "Thesis check",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "analyst",
-          "days"
-        ],
-        "hl": "11.9%",
-        "snippet": "...consensus current fiscal year: $13.09 today, $11.89 30 days ago, $11.70 90 days ago, change vs 90 days ago +11.9%; analysts raising/cutting in last 30 days: 0/2"
       }
     },
     {
@@ -2592,7 +2461,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...the 5% threshold. FY2026 EPS consensus is $13.09, up 11.9% over 90 days, but two analysts cut estimates and none...",
+      "context": "...already met for Q3. FY2026 EPS consensus is $13.09, up from $11.70 90 days earlier and above the $12.00 floor  . Yahoo...",
       "section": "Thesis check",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2609,133 +2478,69 @@
       }
     },
     {
-      "kind": "plain",
-      "text": "30",
-      "value": 30.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...but two analysts cut estimates and none raised them in the last 30 days  . The consensus level is above the $12.00...",
-      "section": "Thesis check",
+      "kind": "money",
+      "text": "$80.1 billion",
+      "value": 80.1,
+      "unit": "billion",
+      "money_mn": 80100.0,
+      "decimals": 1,
+      "context": "...annual report: capital-markets and dilution risk. Alphabet issued $80.1 billion of senior notes in Q1-Q3 and sold $49.6 billion...",
+      "section": "Risk update",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$49.6 billion",
+      "value": 49.6,
+      "unit": "billion",
+      "money_mn": 49600.0,
+      "decimals": 1,
+      "context": "...Alphabet issued $80.1 billion of senior notes in Q1-Q3 and sold $49.6 billion of stock in June  . Diluted share count rose...",
+      "section": "Risk update",
       "source": "[1] Earnings releases",
-      "context_ok": true,
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "49.6 billion",
+        "snippet": "...of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$265.1 billion",
+      "value": 265.1,
+      "unit": "billion",
+      "money_mn": 265100.0,
+      "decimals": 1,
+      "context": "...Cloud growth and margin improved, and the balance sheet still holds $265.1 billion of cash and investments against $141.9 billion...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "265,098",
+        "snippet": "Total cash, cash equivalents, and marketable securities 126,843 265,098 Accounts receivable, net 62,886 72,784"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$141.9 billion",
+      "value": 141.9,
+      "unit": "billion",
+      "money_mn": 141900.0,
+      "decimals": 1,
+      "context": "...sheet still holds $265.1 billion of cash and investments against $141.9 billion of total debt  . New risk factors: TPU system...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
-        "context_words": [
-          "analyst",
-          "days"
-        ],
-        "hl": "30",
-        "snippet": "...$11.89 30 days ago, $11.70 90 days ago, change vs 90 days ago +11.9%; analysts raising/cutting in last 30 days: 0/2"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$125.1bn",
-      "value": 125.1,
-      "unit": "billion",
-      "money_mn": 125100.0,
-      "decimals": 1,
-      "context": "...report materialised. Capital intensity rose: long-term debt was $125.1bn at Q3 against $46.5bn at year-end, and net PP&E...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "125,102",
-        "snippet": "Long-term debt 46,547 125,102 Income taxes payable, non-current 9,531 12,219"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$46.5bn",
-      "value": 46.5,
-      "unit": "billion",
-      "money_mn": 46500.0,
-      "decimals": 1,
-      "context": "...Capital intensity rose: long-term debt was $125.1bn at Q3 against $46.5bn at year-end, and net PP&E rose to $372.8bn from...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "46,547",
-        "snippet": "Long-term debt 46,547 77,501"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$372.8bn",
-      "value": 372.8,
-      "unit": "billion",
-      "money_mn": 372800.0,
-      "decimals": 1,
-      "context": "...$125.1bn at Q3 against $46.5bn at year-end, and net PP&E rose to $372.8bn from $246.6bn  . Dilution is new: shares...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "372,827",
-        "snippet": "Property and equipment, net 246,597 372,827 Operating lease assets 15,221 20,273"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$246.6bn",
-      "value": 246.6,
-      "unit": "billion",
-      "money_mn": 246600.0,
-      "decimals": 1,
-      "context": "...Q3 against $46.5bn at year-end, and net PP&E rose to $372.8bn from $246.6bn  . Dilution is new: shares outstanding rose 1.8%...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "246,597",
-        "snippet": "Property and equipment, net 246,597 281,020"
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$40.0bn",
-      "value": 40.0,
-      "unit": "billion",
-      "money_mn": 40000.0,
-      "decimals": 1,
-      "context": "...outstanding rose 1.8% year over year to 12,294 million  , and a $40.0bn at-the-market programme was authorised, with...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "40.0 billion",
-        "snippet": "...Additionally, we entered into an equity distribution agreement with certain sales agents to sell up to $40.0 billion of our Class A stock and Class C stock from time to time through an At-the-Market Program (ATM Program). The..."
-      }
-    },
-    {
-      "kind": "money",
-      "text": "$27.6bn",
-      "value": 27.6,
-      "unit": "billion",
-      "money_mn": 27600.0,
-      "decimals": 1,
-      "context": "..., and a $40.0bn at-the-market programme was authorised, with $27.6bn unused at Q3  . The      risk factors add...",
-      "section": "Risk update",
-      "source": "[1] Earnings releases",
-      "context_ok": null,
-      "evidence": {
-        "source": "[1] Earnings releases",
-        "origin": null,
-        "hl": "27.6 billion",
-        "snippet": "...billion and 24 million shares of Class C stock for net proceeds of $8.1 billion. As of September 30, 2026, $27.6 billion remained available for future issuance under the ATM Program."
+        "hl": "141,917.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded,..."
       }
     },
     {
@@ -2745,7 +2550,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...$372.8bn from $246.6bn  . Dilution is new: shares outstanding rose 1.8% year over year to 12,294 million  , and a...",
+      "context": "...and sold $49.6 billion of stock in June  . Diluted share count rose 1.8% year over year to 12,294 million at 30 September...",
       "section": "Risk update",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -2753,7 +2558,7 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "outstanding",
+          "count",
           "pershare"
         ],
         "hl": "1.8%",
@@ -2762,12 +2567,12 @@
     },
     {
       "kind": "pct",
-      "text": "32%",
-      "value": 32.0,
+      "text": "19%",
+      "value": 19.0,
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...in 2027  . The Cloud margin risk eased, as the margin stayed above 32% in each quarter. The regulatory risks (Search...",
+      "context": "...growth also slowed: Google Search & other growth fell from 19% in Q1 to 12% in Q3  . Infrastructure commitments...",
       "section": "Risk update",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2775,10 +2580,33 @@
         "source": "[1] Earnings releases",
         "origin": null,
         "context_words": [
-          "margin"
+          "search",
+          "google"
         ],
-        "hl": "32 %",
-        "snippet": "32 % 34 %"
+        "hl": "19%",
+        "snippet": "• Google Services revenues increased 16% to $89.6 billion, led by 19% growth in Google Search & other, 19% in Google subscriptions, platforms, and devices, and 11% in YouTube..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...also slowed: Google Search & other growth fell from 19% in Q1 to 12% in Q3  . Infrastructure commitments became more...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "search",
+          "google"
+        ],
+        "hl": "12%",
+        "snippet": "• Google Services revenues increased 11% to $96.3 billion, led by 12% growth in Google Search & other with the year-over-year Search query growth rate the highest it has been in..."
       }
     },
     {
@@ -2788,7 +2616,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": ".... Dilution is new: shares outstanding rose 1.8% year over year to 12,294 million  , and a $40.0bn at-the-market programme...",
+      "context": "...of stock in June  . Diluted share count rose 1.8% year over year to 12,294 million at 30 September  . Advertising growth...",
       "section": "Risk update",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2796,21 +2624,21 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "outstanding",
+          "count",
           "pershare"
         ],
-        "hl": "12,294.0 million",
-        "snippet": "...cash flow $19,747.0 million, cash runway at that burn self-funded, current ratio 2.8x, shares outstanding 12,294.0 million, change in share count y/y +1.8%"
+        "hl": "12,294.0",
+        "snippet": "...FY2025 12,088.0; Q1 FY2026 12,116.0 (year-ago n/a, n/a); Q2 FY2026 12,229.9 (year-ago n/a, n/a); Q3 FY2026 12,294.0 (year-ago 12,077.0, worse); trend deteriorating"
       }
     },
     {
       "kind": "money",
-      "text": "$499.6bn",
+      "text": "$499.6 billion",
       "value": 499.6,
       "unit": "billion",
       "money_mn": 499600.0,
       "decimals": 1,
-      "context": "Consensus for FY2026 is revenue of $499.6bn, up 24.0%, and EPS of $13.09; FY2027 EPS is...",
+      "context": "Consensus FY2026 revenue is $499.6 billion, up 24.0%, and FY2026 normalized EPS is $13.09...",
       "section": "Outlook",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -2828,7 +2656,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "Consensus for FY2026 is revenue of $499.6bn, up 24.0%, and EPS of $13.09; FY2027 EPS is $15.29  . These figures are dated...",
+      "context": "...revenue is $499.6 billion, up 24.0%, and FY2026 normalized EPS is $13.09  . Consensus FY2026 EPS rose 11.9% over 90 days,...",
       "section": "Outlook",
       "source": "[3] Yahoo Finance",
       "context_ok": null,
@@ -2836,7 +2664,25 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "hl": "13.09",
-        "snippet": "...$499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 21.1x; EV/Sales 6.6x"
+        "snippet": "...$499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.70",
+      "value": 11.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS is $13.09  . Consensus FY2026 EPS rose 11.9% over 90 days, from $11.70, while two analysts cut estimates in the last 30...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "11.70",
+        "snippet": "- EPS consensus current fiscal year: $13.09 today, $11.89 30 days ago, $11.70 90 days ago, change vs 90 days ago +11.9%; analysts raising/cutting in last 30 days: 0/2"
       }
     },
     {
@@ -2846,7 +2692,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...is revenue of $499.6bn, up 24.0%, and EPS of $13.09; FY2027 EPS is $15.29  . These figures are dated 25 November 2026,...",
+      "context": "...in the last 30 days and none raised  . FY2027 consensus is $15.29 EPS, up 2.5% over 90 days, with a wide revenue...",
       "section": "Outlook",
       "source": "[3] Yahoo Finance",
       "context_ok": null,
@@ -2854,43 +2700,37 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "hl": "15.29",
-        "snippet": "...$636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x; EV/Sales 5.2x"
+        "snippet": "...$636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 17.7x; EV/Sales 5.1x"
       }
     },
     {
       "kind": "money",
-      "text": "$142bn",
-      "value": 142.0,
-      "unit": "billion",
-      "money_mn": 142000.0,
+      "text": "$545",
+      "value": 545.0,
+      "unit": "",
+      "money_mn": null,
       "decimals": 0,
-      "context": "...and EV/sales 6.6x  . Consensus implies Q4 FY2026 revenue of about $142bn, up about 25% on Q4 FY2025 (illustrative)  . We...",
+      "context": "...is $15.29 EPS, up 2.5% over 90 days, with a wide revenue range of $545-697 billion  . Illustrative reverse DCF: the...",
       "section": "Outlook",
-      "source": "[3] Yahoo Finance",
-      "context_ok": null,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "hl": "141,917.0 million",
-        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded,..."
-      }
+      "source": null,
+      "context_ok": null
     },
     {
       "kind": "money",
-      "text": "$50bn",
-      "value": 50.0,
+      "text": "$60 billion",
+      "value": 60.0,
       "unit": "billion",
-      "money_mn": 50000.0,
+      "money_mn": 60000.0,
       "decimals": 0,
-      "context": "...positive, and whether the trailing FCF figure moves toward the $50bn signpost in the FY2026     . We would view the...",
+      "context": "...would be a sharp reversal from 36.2%; trailing FCF moving above $60 billion (none of these is in the data yet). Consensus...",
       "section": "Outlook",
       "source": "[1] Earnings releases",
       "context_ok": null,
       "evidence": {
         "source": "[1] Earnings releases",
         "origin": null,
-        "hl": "49.6 billion",
-        "snippet": "...of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and..."
+        "hl": "60,000",
+        "snippet": "...additional paid-in capital, $0.001 par value per share: 300,000 shares authorized (Class A 180,000, Class B 60,000, Class C 60,000); 12,088 (Class A 5,822, Class B 837, Class C 5,429) and 12,116 (Class A 5,824, Class B 836,..."
       }
     },
     {
@@ -2900,7 +2740,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "Consensus for FY2026 is revenue of $499.6bn, up 24.0%, and EPS of $13.09; FY2027 EPS is $15.29  ....",
+      "context": "Consensus FY2026 revenue is $499.6 billion, up 24.0%, and FY2026 normalized EPS is $13.09  ....",
       "section": "Outlook",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2912,7 +2752,7 @@
           "pershare"
         ],
         "hl": "24.0%",
-        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 21.1x; EV/Sales 6.6x"
+        "snippet": "- FY2026E: revenue $499,635.9 million (range $496,000.0 million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 20.7x; EV/Sales 6.5x"
       }
     },
     {
@@ -2922,7 +2762,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...dated 25 November 2026, after the     . FY2026 EPS consensus rose 11.9% over 90 days, but the last 30 days show two cuts...",
+      "context": "...and FY2026 normalized EPS is $13.09  . Consensus FY2026 EPS rose 11.9% over 90 days, from $11.70, while two analysts...",
       "section": "Outlook",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -2930,6 +2770,7 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
+          "analyst",
           "days"
         ],
         "hl": "11.9%",
@@ -2938,55 +2779,12 @@
     },
     {
       "kind": "pct",
-      "text": "25%",
-      "value": 25.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": ".... Consensus implies Q4 FY2026 revenue of about $142bn, up about 25% on Q4 FY2025 (illustrative)  . We will watch...",
-      "section": "Outlook",
-      "source": "[1] Earnings releases",
-      "context_ok": true,
-      "evidence": {
-        "source": "[3] Yahoo Finance",
-        "origin": null,
-        "context_words": [
-          "revenue"
-        ],
-        "hl": "24.7%",
-        "snippet": "...growth y/y: FY2025 15.1%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 24.7% (year-ago n/a, n/a); trend n/a"
-      }
-    },
-    {
-      "kind": "pct",
-      "text": "20%",
-      "value": 20.0,
-      "unit": "",
-      "money_mn": null,
-      "decimals": 0,
-      "context": "...would view the Cloud thesis as wrong if the Cloud margin fell below 20% in Q4.",
-      "section": "Outlook",
-      "source": "[4] Annual report and thesis log",
-      "context_ok": true,
-      "evidence": {
-        "source": "[4] Annual report and thesis log",
-        "origin": null,
-        "context_words": [
-          "margin",
-          "cloud"
-        ],
-        "hl": "20%",
-        "snippet": "...and lifts group operating margin above 32% in FY2026\", \"signpost\": \"Cloud operating margin stays above 20% in each FY2026 quarterly report, with Cloud growth above 30% in the Q4 2026 report\", \"statuses\": {\"Q1..."
-      }
-    },
-    {
-      "kind": "multiple",
-      "text": "21.1x",
-      "value": 21.1,
+      "text": "2.5%",
+      "value": 2.5,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...but the last 30 days show two cuts and no raises  . Forward P/E is 21.1x and EV/sales 6.6x  . Consensus implies Q4 FY2026...",
+      "context": "...last 30 days and none raised  . FY2027 consensus is $15.29 EPS, up 2.5% over 90 days, with a wide revenue range of...",
       "section": "Outlook",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -2994,33 +2792,119 @@
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "forward",
+          "consensu",
           "revenue"
         ],
-        "hl": "21.1",
-        "snippet": "...million to $505,324.0 million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 21.1x; EV/Sales 6.6x"
+        "hl": "2.5%",
+        "snippet": "...(IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.2% per year (-1.8 percentage points vs the WACC)."
       }
     },
     {
-      "kind": "multiple",
-      "text": "6.6x",
-      "value": 6.6,
+      "kind": "pct",
+      "text": "20.6%",
+      "value": 20.6,
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...show two cuts and no raises  . Forward P/E is 21.1x and EV/sales 6.6x  . Consensus implies Q4 FY2026 revenue of about...",
+      "context": ".... Illustrative reverse DCF: the current enterprise value implies 20.6% revenue growth for ten years against a 12.5%...",
       "section": "Outlook",
-      "source": "[1] Earnings releases",
+      "source": "[3] Yahoo Finance",
       "context_ok": true,
       "evidence": {
         "source": "[3] Yahoo Finance",
         "origin": null,
         "context_words": [
-          "forward",
+          "imply",
+          "value",
+          "enterprise",
           "revenue"
         ],
-        "hl": "6.6",
-        "snippet": "...million, 50 analysts), growth +24.0%; EPS $13.09 (range $11.26 to $19.35); forward P/E 21.1x; EV/Sales 6.6x"
+        "hl": "20.6%",
+        "snippet": "- The current enterprise value of $3,234,684.2 million implies revenue growth of 20.6% per year for 10 years (FY2025 revenue $402,836.0 million -> about $2,630,824.5 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...value implies 20.6% revenue growth for ten years against a 12.5% three-year history  . Watch: the Q4 FY2026 EPS...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12.5%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS result against consensus (signpost T4); Search growth below 12%; Cloud margin below 30%, which would be a sharp...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "search"
+        ],
+        "hl": "12%",
+        "snippet": "• Google Services revenues increased 11% to $96.3 billion, led by 12% growth in Google Search & other with the year-over-year Search query growth rate the highest it has been in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(signpost T4); Search growth below 12%; Cloud margin below 30%, which would be a sharp reversal from 36.2%;...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "30%",
+        "snippet": "• Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36.2%",
+      "value": 36.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...12%; Cloud margin below 30%, which would be a sharp reversal from 36.2%; trailing FCF moving above $60 billion (none of...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "36.1%",
+        "snippet": "...Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%."
       }
     },
     {
@@ -3030,7 +2914,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": "...November 2026, after the     . FY2026 EPS consensus rose 11.9% over 90 days, but the last 30 days show two cuts and no...",
+      "context": "...normalized EPS is $13.09  . Consensus FY2026 EPS rose 11.9% over 90 days, from $11.70, while two analysts cut...",
       "section": "Outlook",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -3053,7 +2937,29 @@
       "unit": "",
       "money_mn": null,
       "decimals": 0,
-      "context": ".... FY2026 EPS consensus rose 11.9% over 90 days, but the last 30 days show two cuts and no raises  . Forward P/E...",
+      "context": "...90 days, from $11.70, while two analysts cut estimates in the last 30 days and none raised  . FY2027 consensus is...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "...$11.89 30 days ago, $11.70 90 days ago, change vs 90 days ago +11.9%; analysts raising/cutting in last 30 days: 0/2"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and none raised  . FY2027 consensus is $15.29 EPS, up 2.5% over 90 days, with a wide revenue range of $545-697...",
       "section": "Outlook",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -3065,9 +2971,21 @@
           "days",
           "pershare"
         ],
-        "hl": "30",
+        "hl": "90",
         "snippet": "- EPS consensus current fiscal year: $13.09 today, $11.89 30 days ago, $11.70 90 days ago, change vs 90 days ago +11.9%; analysts raising/cutting in last 30 days: 0/2"
       }
+    },
+    {
+      "kind": "plain",
+      "text": "697",
+      "value": 697.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15.29 EPS, up 2.5% over 90 days, with a wide revenue range of $545-697 billion  . Illustrative reverse DCF: the current...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
     },
     {
       "kind": "money",
@@ -3166,7 +3084,7 @@
       "unit": "million",
       "money_mn": 15157.0,
       "decimals": 1,
-      "context": "...million, $24768.0 million vs $13624.0 million, $30709.0 million vs $15157.0 million. Google Cloud operating margin: 32.9% vs 17.8%,...",
+      "context": "...million, $24768.0 million vs $13624.0 million, $30709.0 million vs $15157.0 million. Google Cloud operating income: $6598.0 million...",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3175,6 +3093,114 @@
         "origin": null,
         "hl": "15,157",
         "snippet": "Google Cloud 15,157 30,709"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6598.0 million",
+      "value": 6598.0,
+      "unit": "million",
+      "money_mn": 6598.0,
+      "decimals": 1,
+      "context": "...million vs $15157.0 million. Google Cloud operating income: $6598.0 million vs $2177.0 million, $8814.0 million vs $2826.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,598",
+        "snippet": "Google Cloud 2,177 6,598 Other Bets (1,226) (2,100)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2177.0 million",
+      "value": 2177.0,
+      "unit": "million",
+      "money_mn": 2177.0,
+      "decimals": 1,
+      "context": "...$15157.0 million. Google Cloud operating income: $6598.0 million vs $2177.0 million, $8814.0 million vs $2826.0 million, $11121.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,177",
+        "snippet": "Google Cloud 2,177 6,598"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8814.0 million",
+      "value": 8814.0,
+      "unit": "million",
+      "money_mn": 8814.0,
+      "decimals": 1,
+      "context": "...Google Cloud operating income: $6598.0 million vs $2177.0 million, $8814.0 million vs $2826.0 million, $11121.0 million vs $3594.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,814",
+        "snippet": "Google Cloud 2,826 8,814 Other Bets (1,246) (1,799)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2826.0 million",
+      "value": 2826.0,
+      "unit": "million",
+      "money_mn": 2826.0,
+      "decimals": 1,
+      "context": "...income: $6598.0 million vs $2177.0 million, $8814.0 million vs $2826.0 million, $11121.0 million vs $3594.0 million. Google...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,826",
+        "snippet": "Google Cloud 2,826 8,814"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11121.0 million",
+      "value": 11121.0,
+      "unit": "million",
+      "money_mn": 11121.0,
+      "decimals": 1,
+      "context": "...million vs $2177.0 million, $8814.0 million vs $2826.0 million, $11121.0 million vs $3594.0 million. Google Cloud operating...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "11,121",
+        "snippet": "Google Cloud 3,594 11,121 Other Bets (1,426) (2,047)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3594.0 million",
+      "value": 3594.0,
+      "unit": "million",
+      "money_mn": 3594.0,
+      "decimals": 1,
+      "context": "...million, $8814.0 million vs $2826.0 million, $11121.0 million vs $3594.0 million. Google Cloud operating margin (derived): 32.9%...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3,594",
+        "snippet": "Google Cloud 3,594 11,121"
       }
     },
     {
@@ -3256,7 +3282,7 @@
       "unit": "million",
       "money_mn": 63350.0,
       "decimals": 1,
-      "context": "...million vs $50702.0 million, $63271.0 million vs $54190.0 million, $63350.0 million vs $56567.0 million. Diluted EPS (reported):...",
+      "context": "...million vs $50702.0 million, $63271.0 million vs $54190.0 million, $63350.0 million vs $56567.0 million. Diluted EPS (GAAP): $5.11...",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3274,7 +3300,7 @@
       "unit": "million",
       "money_mn": 56567.0,
       "decimals": 1,
-      "context": "...million, $63271.0 million vs $54190.0 million, $63350.0 million vs $56567.0 million. Diluted EPS (reported): $5.11 vs $2.81, $9.11...",
+      "context": "...million, $63271.0 million vs $54190.0 million, $63350.0 million vs $56567.0 million. Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs...",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3292,7 +3318,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...$63350.0 million vs $56567.0 million. Diluted EPS (reported): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
+      "context": "...million, $63350.0 million vs $56567.0 million. Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3310,7 +3336,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...million vs $56567.0 million. Diluted EPS (reported): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
+      "context": "...$63350.0 million vs $56567.0 million. Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3328,7 +3354,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...vs $56567.0 million. Diluted EPS (reported): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
+      "context": "...million vs $56567.0 million. Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3346,7 +3372,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...$56567.0 million. Diluted EPS (reported): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
+      "context": "...vs $56567.0 million. Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3364,7 +3390,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...million. Diluted EPS (reported): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
+      "context": "...million. Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3382,7 +3408,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 2,
-      "context": "...Diluted EPS (reported): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
+      "context": "...Diluted EPS (GAAP): $5.11 vs $2.81, $9.11 vs $2.31, $2.12 vs $2.87.",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": null,
@@ -3400,7 +3426,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...million vs $15157.0 million. Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google...",
+      "context": "...vs $3594.0 million. Google Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google...",
       "section": "Company KPIs",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -3421,7 +3447,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...vs $15157.0 million. Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search &...",
+      "context": "...$3594.0 million. Google Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search &...",
       "section": "Company KPIs",
       "source": null,
       "context_ok": null
@@ -3433,7 +3459,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...vs $15157.0 million. Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other...",
+      "context": "...million. Google Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other...",
       "section": "Company KPIs",
       "source": null,
       "context_ok": null
@@ -3445,7 +3471,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...million. Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other revenue:...",
+      "context": "...Google Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other revenue:...",
       "section": "Company KPIs",
       "source": "[3] Yahoo Finance",
       "context_ok": true,
@@ -3466,7 +3492,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...Google Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other revenue:...",
+      "context": "...Cloud operating margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other revenue:...",
       "section": "Company KPIs",
       "source": "[1] Earnings releases",
       "context_ok": true,
@@ -3488,7 +3514,7 @@
       "unit": "",
       "money_mn": null,
       "decimals": 1,
-      "context": "...Cloud operating margin: 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other revenue: $60399.0 million...",
+      "context": "...margin (derived): 32.9% vs 17.8%, 35.6% vs 20.7%, 36.2% vs 23.7%. Google Search & other revenue: $60399.0 million...",
       "section": "Company KPIs",
       "source": "[4] Annual report and thesis log",
       "context_ok": true,
@@ -3496,7 +3522,6 @@
         "source": "[4] Annual report and thesis log",
         "origin": null,
         "context_words": [
-          "operating",
           "margin"
         ],
         "hl": "23.7%",

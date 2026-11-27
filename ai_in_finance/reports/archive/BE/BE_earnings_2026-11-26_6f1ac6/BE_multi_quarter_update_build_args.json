@@ -1,0 +1,122 @@
+{
+  "ticker_symbol": "BE",
+  "fyear": "2025",
+  "save_dir": "../reports/BE_earnings_multi_claude-haiku-5.5",
+  "headline": "Revenue grew 130-166% y/y in each quarter and FY2026 guidance was raised three times, but Q3 free cash flow turned negative and the share count rose 25% y/y.",
+  "summary": "Bloom Energy's three quarters since the FY2025 10-K show the revenue thesis strengthening. Revenue rose 130.4% y/y to $751.1 million in Q1 FY2026, 165.5% to $1,065.4 million in Q2 and 138.1% to $1,235.8 million in Q3 [1]. GAAP gross margin was 30.0%, 33.4% and 33.8% in the three quarters, against 27.2%, 26.7% and 29.2% a year earlier, as shown in the release tables [1]. GAAP diluted EPS was positive in each quarter, and the FY2026 revenue guide was raised from about 60% growth to 122% at the midpoint [1]. Three issues weigh against the thesis. Q3 free cash flow margin was -14.6% after +16.4% in Q2 [3]. The share count was 295.5 million, up 25.0% y/y, which reaches the invalidation level for the funding thesis [2][3]. The reverse DCF still implies a 10.6% return against a 15.0% WACC, a single snapshot taken after the 10-K [3][4]. Consensus data are dated after the 10-K.",
+  "results_commentary": "Q1 FY2026 was the first quarter after the 10-K. Revenue was $751.1 million, up 130.4% from $326.0 million, and product revenue rose 208.4% to $653.3 million [1]. Gross margin was 30.0%, against 27.2% a year earlier, and GAAP operating income was $72.2 million against a $19.1 million loss [1]. Operating cash flow was $73.6 million, $184.3 million better than a year earlier [1]. Service gross margin rose to 13.3% from 1.3%, which is the clearest sign that the service book is becoming profitable [1]. The share count was 284.2 million at March 31 [2][3]. The main drag was cost: the 10-Q cites higher freight and labor costs and wage inflation in field and manufacturing work [2].\n\nQ2 FY2026 was the strongest quarter. Revenue was $1,065.4 million, up 165.5% from $401.2 million, and the first quarter above $1 billion [1]. Product revenue rose 215.4% to $935.4 million [1]. Gross margin reached 33.4% against 26.7%, and operating margin was 17.1% against -0.9% [1]. Operating cash flow was $226.4 million, against an outflow of $213.1 million a year earlier [1]. The 10-Q says the company selectively incurred higher logistics costs to expedite air deliveries so that it could meet customer timelines [2]. Working capital grew: contract assets rose from $178.9 million at year-end to $365.5 million, and inventories from $643.3 million to $758.2 million [1]. The share count rose to 293.4 million [3].\n\nQ3 FY2026 shows revenue still growing but at a slower rate in percentage terms. Revenue was $1,235.8 million, up 138.1% from $519.0 million, and up 16% from Q2 in dollars [1]. Gross margin was 33.8%, against 29.2%, and GAAP diluted EPS was $0.78 against -$0.10 [1]. Non-GAAP operating income was $285.7 million against $46.2 million [1]. Free cash flow margin fell to -14.6% from +16.4% in Q2 [3]. The release extracts provided do not explain the Q3 cash outflow. The balance sheet shows contract assets at $792.8 million, inventories at $927.7 million and accounts receivable at $634.7 million at September 30 [1]. Current ratio fell to 3.7x from 4.4x a year earlier [3]. The share count rose to 295.5 million, up 25.0% y/y [3]. Management raised FY2026 revenue guidance to $4.4-4.6 billion and non-GAAP EPS to $3.10-3.40 [1]. Consensus EPS for FY2026 is $3.27, and forecasts moved up 20.6% in 90 days [3].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Revenue keeps compounding as AI and utility demand converts into delivered sites.",
+      "signpost": "Fremont reaches a 2 GW annual run rate by end-2026, and FY2026 revenue lands within the $4,412.0-4,637.0 million consensus range [3]. The releases and 10-Qs provided do not report Fremont capacity, so this part cannot be checked.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Revenue grew 130.4% in Q1, 165.5% in Q2 and 138.1% in Q3 [1]. FY2026 revenue guidance was raised to $4.4-4.6 billion in Q3, and the consensus of $4,525.9 million sits inside the $4,412.0-4,637.0 million range [1][3]. Q3 growth in percentage terms slowed from Q2, so the status is held at intact, and the Fremont milestone is unverified [1][4]."
+    },
+    {
+      "thesis": "T2: Bloom relies on refinancing and equity until operating cash flow covers its debt.",
+      "signpost": "Share count growth below 5% y/y in the FY2026 10-K, with full-year free cash flow positive. The invalidation is share count growth above 25% y/y.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Share count reached 295.5 million at Q3, up 25.0% y/y, at the invalidation level [2][3]. Q3 free cash flow margin was -14.6% after +16.4% in Q2 [3]. Recourse debt fell from $2,613.7 million at year-end to $2,473.5 million at September 30 [1]. TTM free cash flow of $436.7 million is positive, but the Q3 reversal is the new evidence [3]."
+    },
+    {
+      "thesis": "T3: The valuation needs earnings to convert within two years; the market is paying for growth beyond history.",
+      "signpost": "A positive GAAP net income quarter in 2026, and FY2026 EPS consensus holding at or above $3.27 [3]. Invalidation: FY2026 EPS consensus below $2.98, or the implied return under WACC after the next two reported quarters.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q1 net profit to common stockholders was $70.7 million, a positive GAAP net income quarter [1]. Consensus FY2026 EPS is $3.27, up 20.6% in 90 days, with 21 upward and 0 downward revisions in 30 days [3]. The reverse DCF implies a 10.6% return against the 15.0% WACC, a single snapshot taken after the 10-K, so the two-quarter test is not yet measured [3][4]."
+    },
+    {
+      "thesis": "T4: Gross margin expansion continues as volumes scale and one-off charges fade.",
+      "signpost": "Product gross margin above its 2025 level in Q1 2026 results, with no new Electrolyzer reserves. Invalidation: consolidated gross margin below 27% in any reported quarter.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Consolidated gross margin was 30.0% in Q1, 33.4% in Q2 and 33.8% in Q3, against 27.2%, 26.7% and 29.2% a year earlier [1]. Product gross margin is not reported in the extracted text, so the Q1 signpost is only partly verified; service gross margin rose to 13.3% from 1.3% [1]. Gross margin remained above the 27% invalidation level in each quarter."
+    }
+  ],
+  "risk_update": "Three risks have changed since the annual report. First, a short-seller report published on July 8, 2026 alleged problems with raw material supply. The company rejected the report, states it has sufficient supply for current demand and backlog, and says it has incurred and may continue to incur costs in responding [2]. Second, dilution has risen. The share count is up 25.0% y/y at Q3 [3], which reaches the invalidation threshold on the funding thesis. Third, the tariff position is unresolved. The Supreme Court ruled IEEPA tariffs unlawful in February 2026, a temporary 10% tariff followed, and the Q2 10-Q notes a further change in late July 2026 whose details are cut off in the extract [2]. Risks that did not worsen: gross margin stayed above 27% in each quarter, and the 10-Qs describe mitigation through indexed freight, air-freight renegotiation and regional sourcing [2]. The Q3 10-Q states there were no material changes in risk factors beyond the 10-K and the Q2 10-Q [2].",
+  "outlook": "Guidance rose at each of the three reports. FY2026 revenue guidance went to $3.4-3.8 billion in Q1, $3.9-4.2 billion in Q2 and $4.4-4.6 billion in Q3. Non-GAAP EPS guidance went from $1.85-2.25 in Q1 to $3.10-3.40 in Q3 [1]. Consensus FY2026 revenue is $4,525.9 million, and consensus FY2027 EPS is $5.35, with a range of $2.96 to $7.49 [3]. The consensus data are dated after the 10-K. What would prove the view wrong: the FY2026 10-K showing share count growth above 25%, another negative free cash flow quarter, consolidated gross margin below 27%, or a cut to FY2026 revenue guidance below $4.4 billion. The Fremont 2 GW milestone needs its own disclosure to be checked.",
+  "company_kpis": [
+    {
+      "name": "Revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 751.1,
+        "Q2 FY2026": 1065.4,
+        "Q3 FY2026": 1235.8
+      },
+      "prior_values": {
+        "Q1 FY2026": 326,
+        "Q2 FY2026": 401.2,
+        "Q3 FY2026": 519
+      },
+      "source": "Earnings releases [1]"
+    },
+    {
+      "name": "Gross margin (GAAP)",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 30,
+        "Q2 FY2026": 33.4,
+        "Q3 FY2026": 33.8
+      },
+      "prior_values": {
+        "Q1 FY2026": 27.2,
+        "Q2 FY2026": 26.7,
+        "Q3 FY2026": 29.2
+      },
+      "source": "Earnings releases [1], prior-year columns of the GAAP tables"
+    },
+    {
+      "name": "Non-GAAP operating income",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 129.7,
+        "Q2 FY2026": 239.6,
+        "Q3 FY2026": 285.7
+      },
+      "prior_values": {
+        "Q1 FY2026": 13.2,
+        "Q2 FY2026": 28.6,
+        "Q3 FY2026": 46.2
+      },
+      "source": "Earnings releases [1]"
+    },
+    {
+      "name": "Non-GAAP EPS, diluted",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 0.44,
+        "Q2 FY2026": 0.78,
+        "Q3 FY2026": 0.94
+      },
+      "prior_values": {
+        "Q1 FY2026": 0.03,
+        "Q2 FY2026": 0.1,
+        "Q3 FY2026": 0.15
+      },
+      "source": "Earnings releases [1]"
+    }
+  ]
+}

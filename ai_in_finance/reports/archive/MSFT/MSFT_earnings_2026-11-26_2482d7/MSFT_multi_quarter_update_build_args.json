@@ -1,0 +1,110 @@
+{
+  "ticker_symbol": "MSFT",
+  "fyear": "2026",
+  "save_dir": "../reports/MSFT_earnings_multi_claude-haiku-5.5",
+  "headline": "Q1 FY2027: revenue rose 19% and Azure 48%, but the free cash flow margin fell to 20% from 33% as AI spending weighed on cash.",
+  "summary": "Microsoft's first quarter since the FY2026 10-K (quarter ended 30 September 2026) brought revenue of $92.3 billion, up 19%, and non-GAAP EPS of $4.89, up 18% and 3.6% above the $4.72 estimate [1][3]. Azure revenue grew 48% and commercial remaining performance obligation rose 73% to $677 billion [1]. Free cash flow was the weak point: the quarterly free cash flow margin was 20.2% against 33.0% a year earlier, and trailing free cash flow was $60.0 billion against $67.0 billion for FY2026 [2][3]. Net cash fell to $7.1 billion from $41.4 billion a year earlier [2][3]. Consensus FY2027 EPS rose 1.4% over 90 days, with 25 analysts raising and 3 cutting [3]. Thesis T1 (Azure) and T4 (estimates) strengthened, T2 (free cash flow) stays weakened, and T3 (valuation) stays intact. Consensus and valuation data are dated after the 10-K, retrieved 26 November 2026 [3].",
+  "results_commentary": "Only Q1 FY2027 (quarter ended 30 September 2026) has been reported since the 10-K, so the quarter-by-quarter view compares one quarter with the year-ago quarter and with the FY2026 full-year rate. Free cash flow weakened most. The Q1 free cash flow margin was 20.2% against 33.0% a year earlier, the same as the FY2026 full-year margin [3]. Trailing free cash flow was $60.0 billion at quarter end, against $67.0 billion for FY2026 [2][3]. The sources we received do not give Q1 capex, so we cannot tie the drop to capex with a figure; the baseline records capex rising from $64.6 billion to $115.9 billion in FY2026 [4]. Gross margin fell to 67.8% from 69.0% [3]. Net cash fell to $7.1 billion from $41.4 billion a year earlier, and total debt is $57.2 billion [2][3]. Devices and Consumer revenue fell 3% to $15.5 billion, with Windows OEM and devices down 22% [1].\n\nRevenue growth held and operating leverage improved. Revenue rose 19% to $92.3 billion, against 17.8% for FY2026 [1][3]. Operating income rose 21% to $45.9 billion, and operating margin was 49.8% against 48.9% [1][3]. Operating expenses fell to 18.0% of revenue from 20.2%, which offset the lower gross margin [3]. Agents and Infra revenue rose 25% to $76.8 billion. Azure revenue grew 48%, Microsoft Cloud grew 30% to $63.9 billion, and commercial remaining performance obligation rose 73% to $677 billion [1][2]. Backlog growing far faster than revenue is the pattern the T1 invalidation test requires. The September 2026 segment change also updated the Azure metric, so the 48% is not a clean comparison with the 41% FY2026 figure [2][4].\n\nGAAP EPS of $4.92 grew 32%, but that overstates the operating gain. Net income includes a $207 million gain on OpenAI investments this quarter, against a $3.1 billion loss a year earlier [1]. Excluding OpenAI, EPS was $4.89, up 18% from $4.13 [1]. The quarter beat the $4.72 consensus estimate by 3.6%, after beats of 5.7%, 4.8% and 11.8% in the three preceding quarters [3].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Azure growth stays above 30% as the commercial backlog converts into revenue.",
+      "signpost": "Azure growth at or above 30% in the Q2 FY2027 results (January 2027); invalidation: Azure growth below 25% in any FY2027 quarter, or backlog growth falling well below revenue growth.",
+      "statuses": {
+        "Q1 FY2027": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Azure revenue grew 48% in Q1 FY2027 and commercial remaining performance obligation rose 73% to $677 billion, against revenue growth of 19% [1][2]. The Azure metric was redefined with the segment change, and the signpost quarter (Q2 FY2027) has not yet been reported. Invalidation is not triggered."
+    },
+    {
+      "thesis": "T2: Free cash flow rebuilds as capex growth moderates.",
+      "signpost": "FY2027 capex growth below 30% and positive free cash flow growth in the FY2027 10-K (July 2027); invalidation: free cash flow falls again in FY2027, or capex growth stays above 50%.",
+      "statuses": {
+        "Q1 FY2027": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Q1 free cash flow margin was 20.2% against 33.0% a year earlier, and trailing free cash flow was $60.0 billion against $67.0 billion for FY2026 [2][3]. Q1 capex is not in the sources, so the capex signpost cannot yet be tested. Status stays weakened, not broken, until the FY2027 10-K."
+    },
+    {
+      "thesis": "T3: The current price needs more growth than history or consensus supports, so returns will lag unless growth beats expectations.",
+      "signpost": "FY2027 revenue of at least $396.0 billion, the consensus figure, in the FY2027 10-K (July 2027); invalidation: FY2027 revenue growth of 22% or more, or a share price fall that lifts the implied return above the WACC.",
+      "statuses": {
+        "Q1 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The reverse DCF on the post-10-K enterprise value still implies 21.8% annual revenue growth for ten years, against a 16.1% three-year historical CAGR and 19.3% FY2027 consensus growth, with an implied return of 6.7% against a 10.1% WACC [3]. Q1 revenue growth of 19% is in line with consensus, not with the 22% that would validate the price [1][3]."
+    },
+    {
+      "thesis": "T4: EPS estimates keep rising, which supports the earnings base behind the valuation.",
+      "signpost": "EPS beat and further upward revisions at the Q2 FY2027 results (January 2027); invalidation: a quarterly EPS miss, or cuts outnumbering raises in the 30-day revision count.",
+      "statuses": {
+        "Q1 FY2027": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Q1 non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6% [1][3]. FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and 25 analysts raised estimates against 3 cutting in the last 30 days [3]. The Q2 FY2027 test is still ahead."
+    }
+  ],
+  "risk_update": "Risks that materialised: the return on AI infrastructure now shows in cash. Free cash flow margin fell to 20.2% from 33.0%, and net cash fell to $7.1 billion from $41.4 billion [2][3]. Demand risk in Windows is visible: Windows OEM and devices revenue fell 22% [1]. The 10-Q adds a risk factor on strategic partners: some are significant Azure customers and may shift or reduce workloads, which could cut expected consumption [2]. GAAP earnings also carry OpenAI investment swings, with a $207 million gain this quarter against a $3.1 billion loss a year earlier [1]. The risk factor excerpt we received does not update the IRS tax claim or the cybersecurity disclosures in the 10-K, so those risks are unchanged in our view and not re-tested this quarter [4].",
+  "outlook": "The release says guidance is given on the earnings call, and the guidance figures are not in the text we received, so we report none. Consensus, retrieved 26 November 2026 after the 10-K, has FY2027 revenue at $396.0 billion (+19.3%) and EPS at $20.03, and FY2028 at $478.0 billion and $24.23 [3]. At $489.93 the forward P/E is 24.5x for FY2027 [3]. What to watch: Q2 FY2027 results in January 2027, where Azure growth at or above 30% and another EPS beat would test T1 and T4. Free cash flow and capex in the FY2027 10-K (July 2027) decide T2. A full-year FY2027 revenue growth of 22% or more would challenge T3.",
+  "company_kpis": [
+    {
+      "name": "Revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 92279
+      },
+      "prior_values": {
+        "Q1 FY2026": 77673
+      },
+      "source": "[1]"
+    },
+    {
+      "name": "Operating income",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 45915
+      },
+      "prior_values": {
+        "Q1 FY2026": 37961
+      },
+      "source": "[1]"
+    },
+    {
+      "name": "Diluted EPS, non-GAAP (excl. OpenAI impact)",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 4.89
+      },
+      "prior_values": {
+        "Q1 FY2026": 4.13
+      },
+      "source": "[1]"
+    },
+    {
+      "name": "Free cash flow margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 20.2
+      },
+      "prior_values": {
+        "Q1 FY2026": 33.0
+      },
+      "source": "[3]"
+    },
+    {
+      "name": "Net cash (debt)",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 7094
+      },
+      "prior_values": {
+        "Q1 FY2026": 41449
+      },
+      "source": "[2][3]"
+    }
+  ]
+}
