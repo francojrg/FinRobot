@@ -57,4 +57,16 @@ __pycache__/
 ai_in_finance/news/
 ai_in_finance/reports/portfolio_*/
 ai_in_finance/reports/news_*/
+ai_in_finance/reports/brief_*/
+ai_in_finance/reports/site/
 ai_in_finance/research/
+# Testdownloads der SEC-Abschnitte
+ai_in_finance/eval/edgar_test/
+# Private Unterlagen und Auswertungen mit Zeilen aus dem echten Depot
+ai_in_finance/_nicht_im_showcase/
+ai_in_finance/eval/eval_results.csv
+ai_in_finance/eval/manual_review_sample.csv
+# Lokale Werkzeuge und Sicherungskopien
+.claude/
+.agents/
+ai_in_finance/notebooks/_backup_*/

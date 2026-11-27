@@ -1,0 +1,4101 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 177,
+  "context_match_rate": 0.894,
+  "number_only": [
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue growth held at 12-13% and FY2026 targets were raised, but...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12",
+        "snippet": "SAN JOSE, Calif. – March 12, 2026 – Adobe (Nasdaq:ADBE), the global technology leader that unleashes creativity and productivity for..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and non-GAAP EPS targets  . Total ARR was $27.50 billion at Q3, up 11.2%, but Q2 and Q3 include Semrush, which added...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe Experience..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...April and added about $480 million of ARR. Reported ARR growth was 12.5%; excluding Semrush, our illustrative estimate is...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "12.5%",
+        "snippet": "Total Adobe ARR grew to $27.10 billion at the end of the second quarter of fiscal 2026, representing 12.5% year-over-year growth, including approximately $480 million from the Semrush acquisition and further driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 12.5%; excluding Semrush, our illustrative estimate is about 10.5%  . Management raised FY2026 revenue and non-GAAP...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 34.8% against 36.3%  . ARR was $27.50 billion, up 11.2%, including Semrush. The      attributes growth...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe Experience..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was $6.13 against $6.09 consensus, the smallest beat this year at 0.7%  . GAAP diluted EPS rose to $4.62 from $4.18,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "424",
+      "value": 424.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $4.18, helped by a diluted share count of 395 million against 424 million  . The filings do not quantify the cost...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "424",
+        "snippet": "Shares used to compute diluted net income per share 395 424 403 430"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q1 (below the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3  . Q2 and Q3 include...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "12.5%",
+        "snippet": "Total Adobe ARR grew to $27.10 billion at the end of the second quarter of fiscal 2026, representing 12.5% year-over-year growth, including approximately $480 million from the Semrush acquisition and further driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3  . Q2 and Q3 include Semrush, which added...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe Experience..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of ARR in Q2; excluding it, our illustrative Q2 estimate is about 10.5%  . The company's own FY2026 ending ARR growth...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Semrush, and excluding it our illustrative Q2 estimate is about 10.5%  . Third, management and balance sheet risk...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "424",
+      "value": 424.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... One risk eased: the diluted share count fell to 395 million from 424 million year on year in Q3, through buybacks  .",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "424",
+        "snippet": "Shares used to compute diluted net income per share 395 424 403 430"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "6.85",
+      "value": 6.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "Management's Q4 FY2026 targets are revenue of $6.80-6.85 billion and non-GAAP EPS of $6.30-6.35  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.85 billion",
+        "snippet": "Total revenue $6.80 billion to $6.85 billion"
+      }
+    }
+  ],
+  "total_claims": 198,
+  "matched": 190,
+  "match_rate": 0.96,
+  "by_kind": {
+    "pct": {
+      "total": 54,
+      "matched": 48,
+      "context_matched": 39
+    },
+    "plain": {
+      "total": 15,
+      "matched": 15,
+      "context_matched": 11
+    },
+    "money": {
+      "total": 121,
+      "matched": 119,
+      "context_matched": 119
+    },
+    "multiple": {
+      "total": 8,
+      "matched": 8,
+      "context_matched": 8
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 147,
+    "[2] Forms 10-Q": 5,
+    "[3] Yahoo Finance": 38,
+    "[4] Annual report and thesis log": 0
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "13.7%",
+      "value": 13.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $586 million from $505 million, which is 16.0% growth against 13.7% for subscription revenue (computed from  )....",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "24.1%",
+      "value": 24.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cost of revenue rose to $633 million from $510 million, which is 24.1% growth against 13.7% for subscription revenue...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "13.7%",
+      "value": 13.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $633 million from $510 million, which is 24.1% growth against 13.7% for subscription revenue (computed from  ), so...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$7.65 billion",
+      "value": 7.65,
+      "unit": "billion",
+      "money_mn": 7650.0,
+      "decimals": 2,
+      "context": "...in Q1, $2.17 billion in Q2 and $2.52 billion in Q3  ; the sum of $7.65 billion leaves about $2.35 billion for Q4 to reach $10...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$6.82 billion",
+      "value": 6.82,
+      "unit": "billion",
+      "money_mn": 6820.0,
+      "decimals": 2,
+      "context": "...of $2.48 billion, $2.11 billion and $2.23 billion totalled about $6.82 billion, and operating cash flow less capex of about...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "24.1%",
+      "value": 24.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...88.7% in Q3  . Subscription cost of revenue rose 16.0% in Q2 and 24.1% in Q3 (computed from  ), against subscription...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "13.7%",
+      "value": 13.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q3 (computed from  ), against subscription revenue growth of 13.7% in each quarter (computed from  ). Subscription...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "88%",
+      "value": 88.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...invalidation rule. The Q3 gross margin of 88.7% is still above the 88% line  . T3: The shares are undervalued because...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "pct",
+      "text": "-13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue growth held at 12-13% and FY2026 targets were raised, but subscription...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13%",
+        "snippet": "• Total subscription revenue and RPO increases 13% year over year"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue growth held at 12-13% and FY2026 targets were raised, but...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12",
+        "snippet": "SAN JOSE, Calif. – March 12, 2026 – Adobe (Nasdaq:ADBE), the global technology leader that unleashes creativity and productivity for..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27.50 billion",
+      "value": 27.5,
+      "unit": "billion",
+      "money_mn": 27500.0,
+      "decimals": 2,
+      "context": "...raised full-year revenue and non-GAAP EPS targets  . Total ARR was $27.50 billion at Q3, up 11.2%, but Q2 and Q3 include Semrush,...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "27.50 billion",
+        "snippet": "• Total Adobe Annualized Recurring Revenue (“ARR”) exiting the quarter was $27.50 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$480 million",
+      "value": 480.0,
+      "unit": "million",
+      "money_mn": 480.0,
+      "decimals": 0,
+      "context": "...at Q3, up 11.2%, but Q2 and Q3 include Semrush, which added about $480 million of ARR in Q2  . Subscription cost of revenue...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "480 million",
+        "snippet": "...Adobe Annualized Recurring Revenue (“ARR”) exiting the quarter was $27.10 billion, including approximately $480 million from Semrush."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$586 million",
+      "value": 586.0,
+      "unit": "million",
+      "money_mn": 586.0,
+      "decimals": 0,
+      "context": "...cost of revenue rose faster than subscription revenue in Q2 ($586 million vs $505 million a year earlier) and Q3 ($633...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "586",
+        "snippet": "Subscription 586 505 1,126 995"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$505 million",
+      "value": 505.0,
+      "unit": "million",
+      "money_mn": 505.0,
+      "decimals": 0,
+      "context": "...rose faster than subscription revenue in Q2 ($586 million vs $505 million a year earlier) and Q3 ($633 million vs $510...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "505",
+        "snippet": "Subscription 586 505 1,126 995"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$633 million",
+      "value": 633.0,
+      "unit": "million",
+      "money_mn": 633.0,
+      "decimals": 0,
+      "context": "...revenue in Q2 ($586 million vs $505 million a year earlier) and Q3 ($633 million vs $510 million), and Q3 gross margin was 88.7%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "633",
+        "snippet": "Subscription 633 510 1,759 1,505"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$510 million",
+      "value": 510.0,
+      "unit": "million",
+      "money_mn": 510.0,
+      "decimals": 0,
+      "context": "...million vs $505 million a year earlier) and Q3 ($633 million vs $510 million), and Q3 gross margin was 88.7% against 89.3%  ....",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "510",
+        "snippet": "Subscription 633 510 1,759 1,505"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.47",
+      "value": 24.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in every quarter, by 0.7% to 3.2%, and FY2026 EPS consensus is $24.47  . Operating cash flow was $2.96 billion, $2.17...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "24.45",
+        "snippet": "GAAP: $17.90 to $18.00 Non-GAAP: $24.35 to $24.45"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.96 billion",
+      "value": 2.96,
+      "unit": "billion",
+      "money_mn": 2960.0,
+      "decimals": 2,
+      "context": "...3.2%, and FY2026 EPS consensus is $24.47  . Operating cash flow was $2.96 billion, $2.17 billion and $2.52 billion, so reaching...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.96 billion",
+        "snippet": "• Record Q1 operating cash flows of $2.96 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.17 billion",
+      "value": 2.17,
+      "unit": "billion",
+      "money_mn": 2170.0,
+      "decimals": 2,
+      "context": "...EPS consensus is $24.47  . Operating cash flow was $2.96 billion, $2.17 billion and $2.52 billion, so reaching $10 billion for...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.17 billion",
+        "snippet": "• Cash flows from operations were $2.17 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.52 billion",
+      "value": 2.52,
+      "unit": "billion",
+      "money_mn": 2520.0,
+      "decimals": 2,
+      "context": "...$24.47  . Operating cash flow was $2.96 billion, $2.17 billion and $2.52 billion, so reaching $10 billion for the year needs...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.52 billion",
+        "snippet": "• Record Q3 cash flows from operations were $2.52 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10 billion",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 0,
+      "context": "...was $2.96 billion, $2.17 billion and $2.52 billion, so reaching $10 billion for the year needs about $2.35 billion in Q4...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10,163",
+        "snippet": "Total current assets 10,386 10,163"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.35 billion",
+      "value": 2.35,
+      "unit": "billion",
+      "money_mn": 2350.0,
+      "decimals": 2,
+      "context": "...and $2.52 billion, so reaching $10 billion for the year needs about $2.35 billion in Q4 (illustrative)  . The current ratio stayed...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.35 billion",
+        "snippet": "• GAAP operating income in the third quarter was $2.35 billion and non-GAAP operating income was $2.97 billion. GAAP net income was $1.83 billion and non-GAAP net income..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.12 billion",
+      "value": 1.12,
+      "unit": "billion",
+      "money_mn": 1120.0,
+      "decimals": 2,
+      "context": ".... The current ratio stayed below 1.0x and net cash was -$1.12 billion at Q3  . The CEO transition (Q1) and CFO...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1,123.0)",
+        "snippet": "...FY2025 (53.0); Q1 FY2026 234.0 (year-ago n/a, n/a); Q2 FY2026 (1,439.0) (year-ago n/a, n/a); Q3 FY2026 (1,123.0) (year-ago (696.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$232.83",
+      "value": 232.83,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...CEO transition (Q1) and CFO departure (Q2) add execution risk. At $232.83 the shares trade at 9.5x forward EPS  .",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "232.83",
+        "snippet": "- Forward multiples use the current share price of $232.83 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fiscal 2026 quarters (ended Feb, May and Aug 2026) grew revenue 12%, 13% and 13% year on year, and the Q2 and Q3...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.9%",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2026 quarters (ended Feb, May and Aug 2026) grew revenue 12%, 13% and 13% year on year, and the Q2 and Q3 releases...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12.9%",
+        "snippet": "...growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarters (ended Feb, May and Aug 2026) grew revenue 12%, 13% and 13% year on year, and the Q2 and Q3 releases raised...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12.9%",
+        "snippet": "...growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and non-GAAP EPS targets  . Total ARR was $27.50 billion at Q3, up 11.2%, but Q2 and Q3 include Semrush, which added...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe Experience..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "88.7%",
+      "value": 88.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and Q3 ($633 million vs $510 million), and Q3 gross margin was 88.7% against 89.3%  . Under the pre-set rule, two...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "88.7%",
+        "snippet": "...margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.3%",
+      "value": 89.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $510 million), and Q3 gross margin was 88.7% against 89.3%  . Under the pre-set rule, two consecutive...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "89.3%",
+        "snippet": "- Gross margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...break thesis T2. Non-GAAP EPS beat consensus in every quarter, by 0.7% to 3.2%, and FY2026 EPS consensus is $24.47  ....",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.2%",
+      "value": 3.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...thesis T2. Non-GAAP EPS beat consensus in every quarter, by 0.7% to 3.2%, and FY2026 EPS consensus is $24.47  . Operating...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "3.2%",
+        "snippet": "- Quarter ending 2026-02-28: EPS $6.06 vs estimate $5.87 (surprise +3.2%)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.0x",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion in Q4 (illustrative)  . The current ratio stayed below 1.0x and net cash was -$1.12 billion at Q3  . The CEO...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "cashflow"
+        ],
+        "hl": "1",
+        "snippet": "• Record Q1 operating cash flows of $2.96 billion"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "9.5x",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...departure (Q2) add execution risk. At $232.83 the shares trade at 9.5x forward EPS  .",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "pershare"
+        ],
+        "hl": "9.5",
+        "snippet": "...million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.40 billion",
+      "value": 6.4,
+      "unit": "billion",
+      "money_mn": 6400.0,
+      "decimals": 2,
+      "context": "Q1 FY2026 (ended Feb 2026) was the cleanest quarter. Revenue was $6.40 billion, up 12% from $5.71 billion, and subscription...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.40 billion",
+        "snippet": "• Adobe achieved record revenue of $6.40 billion in its first quarter of FY2026, which represents 12% year-over-year growth, or 11% in constant currency...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.71 billion",
+      "value": 5.71,
+      "unit": "billion",
+      "money_mn": 5710.0,
+      "decimals": 2,
+      "context": "...was the cleanest quarter. Revenue was $6.40 billion, up 12% from $5.71 billion, and subscription revenue rose to $6.20 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,714",
+        "snippet": "Total revenue 6,398 5,714"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.20 billion",
+      "value": 6.2,
+      "unit": "billion",
+      "money_mn": 6200.0,
+      "decimals": 2,
+      "context": "...up 12% from $5.71 billion, and subscription revenue rose to $6.20 billion from $5.48 billion  . Subscription cost of...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,198",
+        "snippet": "Subscription $ 6,198 $ 5,483"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.48 billion",
+      "value": 5.48,
+      "unit": "billion",
+      "money_mn": 5480.0,
+      "decimals": 2,
+      "context": "...$5.71 billion, and subscription revenue rose to $6.20 billion from $5.48 billion  . Subscription cost of revenue was $540 million...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,483",
+        "snippet": "Subscription $ 6,198 $ 5,483 Product 90 95"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$540 million",
+      "value": 540.0,
+      "unit": "million",
+      "money_mn": 540.0,
+      "decimals": 0,
+      "context": "...billion from $5.48 billion  . Subscription cost of revenue was $540 million against $490 million, growing more slowly than...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "540",
+        "snippet": "Subscription 540 490"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$490 million",
+      "value": 490.0,
+      "unit": "million",
+      "money_mn": 490.0,
+      "decimals": 0,
+      "context": "...billion  . Subscription cost of revenue was $540 million against $490 million, growing more slowly than subscription revenue,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "490",
+        "snippet": "Subscription 540 490 Product 6 6"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.06 billion",
+      "value": 26.06,
+      "unit": "billion",
+      "money_mn": 26060.0,
+      "decimals": 2,
+      "context": "...revenue, and gross margin was 89.6%  . Total ARR reached $26.06 billion, up 10.9%, just short of the 11% signpost....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26.06 billion",
+        "snippet": "• Total Adobe Annualized Recurring Revenue (“ARR”) exiting the quarter was $26.06 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.06",
+      "value": 6.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Platform grew, partly offset by Adobe Stock  . Non-GAAP EPS was $6.06 against $5.87 consensus  . Operating cash flow...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.06",
+        "snippet": "...growth, or 11% in constant currency. Diluted earnings per share was $4.60 on a GAAP basis and $6.06 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.87",
+      "value": 5.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...partly offset by Adobe Stock  . Non-GAAP EPS was $6.06 against $5.87 consensus  . Operating cash flow was $2.96...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "5.87",
+        "snippet": "- Quarter ending 2026-02-28: EPS $6.06 vs estimate $5.87 (surprise +3.2%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.96 billion",
+      "value": 2.96,
+      "unit": "billion",
+      "money_mn": 2960.0,
+      "decimals": 2,
+      "context": "...EPS was $6.06 against $5.87 consensus  . Operating cash flow was $2.96 billion against $2.48 billion a year earlier  .  Q2...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.96 billion",
+        "snippet": "• Record Q1 operating cash flows of $2.96 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.48 billion",
+      "value": 2.48,
+      "unit": "billion",
+      "money_mn": 2480.0,
+      "decimals": 2,
+      "context": "...$5.87 consensus  . Operating cash flow was $2.96 billion against $2.48 billion a year earlier  .  Q2 FY2026 (ended May 2026) is...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,482",
+        "snippet": "Net cash provided by operating activities 2,958 2,482"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.62 billion",
+      "value": 6.62,
+      "unit": "billion",
+      "money_mn": 6620.0,
+      "decimals": 2,
+      "context": "...(ended May 2026) is where the cost pattern turned. Revenue was $6.62 billion, up 13%, and subscription revenue rose to $6.42...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.62 billion",
+        "snippet": "“Adobe delivered record revenue of $6.62 billion in Q2 reflecting strong AI-driven demand across our customer groups and we are raising our full-year fiscal..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.42 billion",
+      "value": 6.42,
+      "unit": "billion",
+      "money_mn": 6420.0,
+      "decimals": 2,
+      "context": "...Revenue was $6.62 billion, up 13%, and subscription revenue rose to $6.42 billion from $5.64 billion. Subscription cost of revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,416",
+        "snippet": "Subscription $ 6,416 $ 5,641 $ 12,614 $ 11,124"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.64 billion",
+      "value": 5.64,
+      "unit": "billion",
+      "money_mn": 5640.0,
+      "decimals": 2,
+      "context": "...up 13%, and subscription revenue rose to $6.42 billion from $5.64 billion. Subscription cost of revenue rose to $586...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,641",
+        "snippet": "Subscription $ 6,416 $ 5,641 $ 12,614 $ 11,124"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$586 million",
+      "value": 586.0,
+      "unit": "million",
+      "money_mn": 586.0,
+      "decimals": 0,
+      "context": "...billion from $5.64 billion. Subscription cost of revenue rose to $586 million from $505 million, which is 16.0% growth against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "586",
+        "snippet": "Subscription 586 505 1,126 995"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$505 million",
+      "value": 505.0,
+      "unit": "million",
+      "money_mn": 505.0,
+      "decimals": 0,
+      "context": "...billion. Subscription cost of revenue rose to $586 million from $505 million, which is 16.0% growth against 13.7% for...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "505",
+        "snippet": "Subscription 586 505 1,126 995"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.24 billion",
+      "value": 2.24,
+      "unit": "billion",
+      "money_mn": 2240.0,
+      "decimals": 2,
+      "context": "...from  ). Gross margin fell to 89.2%. GAAP operating income was $2.24 billion against $2.11 billion, but G&A rose to $546...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.24 billion",
+        "snippet": "• GAAP operating income in the second quarter was $2.24 billion and non-GAAP operating income was $2.95 billion. GAAP net income was $1.71 billion and non-GAAP net income..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.11 billion",
+      "value": 2.11,
+      "unit": "billion",
+      "money_mn": 2110.0,
+      "decimals": 2,
+      "context": "...fell to 89.2%. GAAP operating income was $2.24 billion against $2.11 billion, but G&A rose to $546 million from $377 million...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,109",
+        "snippet": "Operating income 2,238 2,109 4,656 4,272"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$546 million",
+      "value": 546.0,
+      "unit": "million",
+      "money_mn": 546.0,
+      "decimals": 0,
+      "context": "...income was $2.24 billion against $2.11 billion, but G&A rose to $546 million from $377 million and sales and marketing to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "546",
+        "snippet": "General and administrative 546 377 1,009 744"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$377 million",
+      "value": 377.0,
+      "unit": "million",
+      "money_mn": 377.0,
+      "decimals": 0,
+      "context": "...billion against $2.11 billion, but G&A rose to $546 million from $377 million and sales and marketing to $1.88 billion from...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "377",
+        "snippet": "General and administrative 546 377 1,009 744"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.88 billion",
+      "value": 1.88,
+      "unit": "billion",
+      "money_mn": 1880.0,
+      "decimals": 2,
+      "context": "...rose to $546 million from $377 million and sales and marketing to $1.88 billion from $1.63 billion  . GAAP results carried a $70...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,884",
+        "snippet": "Sales and marketing 1,884 1,626 3,592 3,121"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.63 billion",
+      "value": 1.63,
+      "unit": "billion",
+      "money_mn": 1630.0,
+      "decimals": 2,
+      "context": "...from $377 million and sales and marketing to $1.88 billion from $1.63 billion  . GAAP results carried a $70 million goodwill...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,626",
+        "snippet": "Sales and marketing 1,884 1,626 3,592 3,121"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$70 million",
+      "value": 70.0,
+      "unit": "million",
+      "money_mn": 70.0,
+      "decimals": 0,
+      "context": "...to $1.88 billion from $1.63 billion  . GAAP results carried a $70 million goodwill impairment on the Publishing &...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "70",
+        "snippet": "Impairment of goodwill 70 —"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.17",
+      "value": 0.17,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million goodwill impairment on the Publishing & Advertising unit ($0.17 per share) and a $30 million loss contingency  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.17",
+        "snippet": "...Diluted earnings per share was $4.25 on a GAAP basis and $5.96 on a non-GAAP basis. GAAP results reflect a $0.17 per share non-cash goodwill impairment charge related to the Publishing & Advertising reporting unit."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$30 million",
+      "value": 30.0,
+      "unit": "million",
+      "money_mn": 30.0,
+      "decimals": 0,
+      "context": "...on the Publishing & Advertising unit ($0.17 per share) and a $30 million loss contingency  . Semrush closed in April and...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "30",
+        "snippet": "May 29, 2026 May 30, 2025 May 29, 2026 May 30, 2025"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$480 million",
+      "value": 480.0,
+      "unit": "million",
+      "money_mn": 480.0,
+      "decimals": 0,
+      "context": "...million loss contingency  . Semrush closed in April and added about $480 million of ARR. Reported ARR growth was 12.5%; excluding...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "480 million",
+        "snippet": "...Adobe Annualized Recurring Revenue (“ARR”) exiting the quarter was $27.10 billion, including approximately $480 million from Semrush."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.56 billion",
+      "value": 1.56,
+      "unit": "billion",
+      "money_mn": 1560.0,
+      "decimals": 2,
+      "context": "...raised FY2026 revenue and non-GAAP EPS targets. Acquisitions used $1.56 billion of cash, and net cash moved to -$1.44 billion  ....",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,560)",
+        "snippet": "Acquisitions, net of cash acquired (1,560) —"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.44 billion",
+      "value": 1.44,
+      "unit": "billion",
+      "money_mn": 1440.0,
+      "decimals": 2,
+      "context": "...Acquisitions used $1.56 billion of cash, and net cash moved to -$1.44 billion  . The CFO's departure was announced, effective...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,438",
+        "snippet": "Prepaid expenses and other current assets 1,438 1,224"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.76 billion",
+      "value": 6.76,
+      "unit": "billion",
+      "money_mn": 6760.0,
+      "decimals": 2,
+      "context": "...(ended Aug 2026) shows the cost pressure continuing. Revenue was $6.76 billion, up 13%. Subscription cost of revenue rose to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.76 billion",
+        "snippet": "• Adobe achieved record revenue of $6.76 billion in its third quarter of FY2026, which represents 13% year-over-year growth, or 12% in constant currency...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$633 million",
+      "value": 633.0,
+      "unit": "million",
+      "money_mn": 633.0,
+      "decimals": 0,
+      "context": "...was $6.76 billion, up 13%. Subscription cost of revenue rose to $633 million from $510 million, which is 24.1% growth against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "633",
+        "snippet": "Subscription 633 510 1,759 1,505"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$510 million",
+      "value": 510.0,
+      "unit": "million",
+      "money_mn": 510.0,
+      "decimals": 0,
+      "context": "...up 13%. Subscription cost of revenue rose to $633 million from $510 million, which is 24.1% growth against 13.7% for...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "510",
+        "snippet": "Subscription 633 510 1,759 1,505"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.35 billion",
+      "value": 2.35,
+      "unit": "billion",
+      "money_mn": 2350.0,
+      "decimals": 2,
+      "context": "...Gross margin fell to 88.7% from 89.3%  . GAAP operating income was $2.35 billion against $2.17 billion, and the GAAP operating...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.35 billion",
+        "snippet": "• GAAP operating income in the third quarter was $2.35 billion and non-GAAP operating income was $2.97 billion. GAAP net income was $1.83 billion and non-GAAP net income..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.17 billion",
+      "value": 2.17,
+      "unit": "billion",
+      "money_mn": 2170.0,
+      "decimals": 2,
+      "context": "...88.7% from 89.3%  . GAAP operating income was $2.35 billion against $2.17 billion, and the GAAP operating margin was 34.8% against...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.17 billion",
+        "snippet": "• Cash flows from operations were $2.17 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27.50 billion",
+      "value": 27.5,
+      "unit": "billion",
+      "money_mn": 27500.0,
+      "decimals": 2,
+      "context": "...and the GAAP operating margin was 34.8% against 36.3%  . ARR was $27.50 billion, up 11.2%, including Semrush. The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "27.50 billion",
+        "snippet": "• Total Adobe Annualized Recurring Revenue (“ARR”) exiting the quarter was $27.50 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.13",
+      "value": 6.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...apps, Acrobat and Adobe Experience Manager  . Non-GAAP EPS was $6.13 against $6.09 consensus, the smallest beat this...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.13",
+        "snippet": "...growth, or 12% in constant currency. Diluted earnings per share was $4.62 on a GAAP basis and $6.13 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.09",
+      "value": 6.09,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and Adobe Experience Manager  . Non-GAAP EPS was $6.13 against $6.09 consensus, the smallest beat this year at 0.7%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.10",
+        "snippet": "GAAP: $4.40 to $4.45 Non-GAAP: $6.05 to $6.10"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.62",
+      "value": 4.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the smallest beat this year at 0.7%  . GAAP diluted EPS rose to $4.62 from $4.18, helped by a diluted share count of...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.62",
+        "snippet": "...which represents 13% year-over-year growth, or 12% in constant currency. Diluted earnings per share was $4.62 on a GAAP basis and $6.13 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.18",
+      "value": 4.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...beat this year at 0.7%  . GAAP diluted EPS rose to $4.62 from $4.18, helped by a diluted share count of 395 million...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.18",
+        "snippet": "Basic net income per share $ 4.63 $ 4.18 $ 13.48 $ 12.28"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Feb 2026) was the cleanest quarter. Revenue was $6.40 billion, up 12% from $5.71 billion, and subscription revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "12%",
+        "snippet": "• Creative & Marketing Professionals subscription revenue was $4.39 billion, which represents 12% year-over-year growth, or 11% in constant currency."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.6%",
+      "value": 89.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growing more slowly than subscription revenue, and gross margin was 89.6%  . Total ARR reached $26.06 billion, up 10.9%,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "89.6%",
+        "snippet": "- Gross margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%, worse); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and gross margin was 89.6%  . Total ARR reached $26.06 billion, up 10.9%, just short of the 11% signpost. Creative Cloud...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11%",
+        "snippet": "...with working capital of $(37) million [1]. We see the shares as undervalued if ARR growth holds near 11%. The thesis fails if it falls below 10%. The most important risk is competition in AI. The filing describes..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Total ARR reached $26.06 billion, up 10.9%, just short of the 11% signpost. Creative Cloud Pro, Acrobat and Adobe...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "ARR growth should keep consensus revenue expansion on track, since Total ARR rose 11.5% to $25.20 billion [1][3]. Profitability should hold despite AI costs: operating income of $8.71 billion and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is where the cost pattern turned. Revenue was $6.62 billion, up 13%, and subscription revenue rose to $6.42 billion...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13%",
+        "snippet": "• Total subscription revenue and RPO increases 13% year over year"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.0%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cost of revenue rose to $586 million from $505 million, which is 16.0% growth against 13.7% for subscription revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "16%",
+        "snippet": "• Business Professionals & Consumers subscription revenue was $1.78 billion, which represents 16% year-over-year growth, or 15% in constant currency."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.7%",
+      "value": 13.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $586 million from $505 million, which is 16.0% growth against 13.7% for subscription revenue (computed from  )....",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "89.2%",
+      "value": 89.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for subscription revenue (computed from  ). Gross margin fell to 89.2%. GAAP operating income was $2.24 billion against...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "89.3%",
+        "snippet": "- Gross margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...April and added about $480 million of ARR. Reported ARR growth was 12.5%; excluding Semrush, our illustrative estimate is...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "12.5%",
+        "snippet": "Total Adobe ARR grew to $27.10 billion at the end of the second quarter of fiscal 2026, representing 12.5% year-over-year growth, including approximately $480 million from the Semrush acquisition and further driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 12.5%; excluding Semrush, our illustrative estimate is about 10.5%  . Management raised FY2026 revenue and non-GAAP...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...shows the cost pressure continuing. Revenue was $6.76 billion, up 13%. Subscription cost of revenue rose to $633...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12.9%",
+        "snippet": "...growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.1%",
+      "value": 24.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cost of revenue rose to $633 million from $510 million, which is 24.1% growth against 13.7% for subscription revenue...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "13.7%",
+      "value": 13.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $633 million from $510 million, which is 24.1% growth against 13.7% for subscription revenue (computed from  ), so...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "88.7%",
+      "value": 88.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue (computed from  ), so the gap widened. Gross margin fell to 88.7% from 89.3%  . GAAP operating income was $2.35...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "88.7%",
+        "snippet": "...margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.3%",
+      "value": 89.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from  ), so the gap widened. Gross margin fell to 88.7% from 89.3%  . GAAP operating income was $2.35 billion...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "89.3%",
+        "snippet": "- Gross margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.8%",
+      "value": 34.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion against $2.17 billion, and the GAAP operating margin was 34.8% against 36.3%  . ARR was $27.50 billion, up...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "34.8%",
+        "snippet": "...margin: FY2025 36.6%; Q1 FY2026 37.8% (year-ago n/a, n/a); Q2 FY2026 33.8% (year-ago n/a, n/a); Q3 FY2026 34.8% (year-ago 36.3%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36.3%",
+      "value": 36.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$2.17 billion, and the GAAP operating margin was 34.8% against 36.3%  . ARR was $27.50 billion, up 11.2%, including...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "36.3%",
+        "snippet": "...36.6%; Q1 FY2026 37.8% (year-ago n/a, n/a); Q2 FY2026 33.8% (year-ago n/a, n/a); Q3 FY2026 34.8% (year-ago 36.3%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 34.8% against 36.3%  . ARR was $27.50 billion, up 11.2%, including Semrush. The      attributes growth...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe Experience..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was $6.13 against $6.09 consensus, the smallest beat this year at 0.7%  . GAAP diluted EPS rose to $4.62 from $4.18,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "395",
+      "value": 395.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS rose to $4.62 from $4.18, helped by a diluted share count of 395 million against 424 million  . The filings do...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "395 million",
+        "snippet": "...operating margin of ~44.0%, GAAP tax rate of ~23.0%, non-GAAP tax rate of ~18.0% and diluted share count of ~395 million for third quarter FY2026."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "424",
+      "value": 424.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $4.18, helped by a diluted share count of 395 million against 424 million  . The filings do not quantify the cost...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "424",
+        "snippet": "Shares used to compute diluted net income per share 395 424 403 430"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$480 million",
+      "value": 480.0,
+      "unit": "million",
+      "money_mn": 480.0,
+      "decimals": 0,
+      "context": "...Q2 and 11.2% in Q3  . Q2 and Q3 include Semrush, which added about $480 million of ARR in Q2; excluding it, our illustrative Q2...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "480 million",
+        "snippet": "...Adobe Annualized Recurring Revenue (“ARR”) exiting the quarter was $27.10 billion, including approximately $480 million from Semrush."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.61 billion",
+      "value": 26.61,
+      "unit": "billion",
+      "money_mn": 26610.0,
+      "decimals": 2,
+      "context": "...target is 10.2%, below the signpost  . FY2026 revenue consensus of $26.61 billion sits inside the raised target of $26.58-26.63...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26.60 billion",
+        "snippet": "Total revenue $26.50 billion to $26.60 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.58",
+      "value": 26.58,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...consensus of $26.61 billion sits inside the raised target of $26.58-26.63 billion, so no revenue cut occurred  . T2:...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26.576 billion",
+        "snippet": "Total revenue $26.576 billion to $26.626 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.06",
+      "value": 6.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...than consensus expects. Non-GAAP EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.06",
+        "snippet": "...growth, or 11% in constant currency. Diluted earnings per share was $4.60 on a GAAP basis and $6.06 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.87)",
+      "value": 5.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...expects. Non-GAAP EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "5.87",
+        "snippet": "- Quarter ending 2026-02-28: EPS $6.06 vs estimate $5.87 (surprise +3.2%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.96",
+      "value": 5.96,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09)  ....",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5.96",
+        "snippet": "• Diluted earnings per share was $4.25 on a GAAP basis and $5.96 on a non-GAAP basis. GAAP results reflect a $0.17 per share non-cash goodwill impairment charge related to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.81)",
+      "value": 5.81,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09)  . FY2026 EPS...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5.80",
+        "snippet": "GAAP: $4.35 to $4.40 Non-GAAP: $5.80 to $5.85"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.13",
+      "value": 6.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09)  . FY2026 EPS consensus is $24.47,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.13",
+        "snippet": "...growth, or 12% in constant currency. Diluted earnings per share was $4.62 on a GAAP basis and $6.13 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.09)",
+      "value": 6.09,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09)  . FY2026 EPS consensus is $24.47, unchanged over...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.10",
+        "snippet": "GAAP: $4.40 to $4.45 Non-GAAP: $6.05 to $6.10"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.47",
+      "value": 24.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$5.81) and 0.7% in Q3 ($6.13 vs $6.09)  . FY2026 EPS consensus is $24.47, unchanged over 30 days and up 0.6% over 90...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "24.45",
+        "snippet": "GAAP: $17.90 to $18.00 Non-GAAP: $24.35 to $24.45"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.45",
+      "value": 24.45,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...raised the FY2026 non-GAAP EPS target in Q2 and again in Q3, to $24.45-24.50  . The reverse DCF implies about zero...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "24.45",
+        "snippet": "GAAP: $17.90 to $18.00 Non-GAAP: $24.35 to $24.45"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$91.8 billion",
+      "value": 91.8,
+      "unit": "billion",
+      "money_mn": 91800.0,
+      "decimals": 1,
+      "context": "...to $24.45-24.50  . The reverse DCF implies about zero growth at a $91.8 billion enterprise value, and the forward P/E is 9.5x  ....",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "91,762.4 million",
+        "snippet": "- The current enterprise value of $91,762.4 million implies revenue growth of -0.0% per year for 10 years (FY2025 revenue $23,769.0 million -> about $23,653.5..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.96 billion",
+      "value": 2.96,
+      "unit": "billion",
+      "money_mn": 2960.0,
+      "decimals": 2,
+      "context": "...the capital return and debt is manageable. Operating cash flow was $2.96 billion in Q1, $2.17 billion in Q2 and $2.52 billion in...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.96 billion",
+        "snippet": "• Record Q1 operating cash flows of $2.96 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.17 billion",
+      "value": 2.17,
+      "unit": "billion",
+      "money_mn": 2170.0,
+      "decimals": 2,
+      "context": "...debt is manageable. Operating cash flow was $2.96 billion in Q1, $2.17 billion in Q2 and $2.52 billion in Q3  ; the sum of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.17 billion",
+        "snippet": "• Cash flows from operations were $2.17 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.52 billion",
+      "value": 2.52,
+      "unit": "billion",
+      "money_mn": 2520.0,
+      "decimals": 2,
+      "context": "...cash flow was $2.96 billion in Q1, $2.17 billion in Q2 and $2.52 billion in Q3  ; the sum of $7.65 billion leaves about...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.52 billion",
+        "snippet": "• Record Q3 cash flows from operations were $2.52 billion."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.65 billion",
+      "value": 7.65,
+      "unit": "billion",
+      "money_mn": 7650.0,
+      "decimals": 2,
+      "context": "...in Q1, $2.17 billion in Q2 and $2.52 billion in Q3  ; the sum of $7.65 billion leaves about $2.35 billion for Q4 to reach $10...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$2.35 billion",
+      "value": 2.35,
+      "unit": "billion",
+      "money_mn": 2350.0,
+      "decimals": 2,
+      "context": "...Q2 and $2.52 billion in Q3  ; the sum of $7.65 billion leaves about $2.35 billion for Q4 to reach $10 billion (illustrative). The...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.35 billion",
+        "snippet": "• GAAP operating income in the third quarter was $2.35 billion and non-GAAP operating income was $2.97 billion. GAAP net income was $1.83 billion and non-GAAP net income..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10 billion",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 0,
+      "context": "...the sum of $7.65 billion leaves about $2.35 billion for Q4 to reach $10 billion (illustrative). The current ratio was 0.91x,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10,163",
+        "snippet": "Total current assets 10,386 10,163"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$234 million",
+      "value": 234.0,
+      "unit": "million",
+      "money_mn": 234.0,
+      "decimals": 0,
+      "context": "...0.91x, 0.75x and 0.77x, below the 1.0x signpost  . Net cash was +$234 million at Q1, then -$1.44 billion at Q2 and -$1.12...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "234.0",
+        "snippet": "- Net cash (debt): FY2025 (53.0); Q1 FY2026 234.0 (year-ago n/a, n/a); Q2 FY2026 (1,439.0) (year-ago n/a, n/a); Q3 FY2026 (1,123.0) (year-ago (696.0), worse);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.44 billion",
+      "value": 1.44,
+      "unit": "billion",
+      "money_mn": 1440.0,
+      "decimals": 2,
+      "context": "...below the 1.0x signpost  . Net cash was +$234 million at Q1, then -$1.44 billion at Q2 and -$1.12 billion at Q3  . Repurchases of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,438",
+        "snippet": "Prepaid expenses and other current assets 1,438 1,224"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.12 billion",
+      "value": 1.12,
+      "unit": "billion",
+      "money_mn": 1120.0,
+      "decimals": 2,
+      "context": ".... Net cash was +$234 million at Q1, then -$1.44 billion at Q2 and -$1.12 billion at Q3  . Repurchases of $2.48 billion, $2.11...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1,123.0)",
+        "snippet": "...FY2025 (53.0); Q1 FY2026 234.0 (year-ago n/a, n/a); Q2 FY2026 (1,439.0) (year-ago n/a, n/a); Q3 FY2026 (1,123.0) (year-ago (696.0), worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.48 billion",
+      "value": 2.48,
+      "unit": "billion",
+      "money_mn": 2480.0,
+      "decimals": 2,
+      "context": "...-$1.44 billion at Q2 and -$1.12 billion at Q3  . Repurchases of $2.48 billion, $2.11 billion and $2.23 billion totalled about...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,482",
+        "snippet": "Net cash provided by operating activities 2,958 2,482"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.11 billion",
+      "value": 2.11,
+      "unit": "billion",
+      "money_mn": 2110.0,
+      "decimals": 2,
+      "context": "...at Q2 and -$1.12 billion at Q3  . Repurchases of $2.48 billion, $2.11 billion and $2.23 billion totalled about $6.82 billion,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,109",
+        "snippet": "Operating income 2,238 2,109 4,656 4,272"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.23 billion",
+      "value": 2.23,
+      "unit": "billion",
+      "money_mn": 2230.0,
+      "decimals": 2,
+      "context": "...billion at Q3  . Repurchases of $2.48 billion, $2.11 billion and $2.23 billion totalled about $6.82 billion, and operating cash...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,232)",
+        "snippet": "Repurchases of common stock (2,232) (2,057)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.82 billion",
+      "value": 6.82,
+      "unit": "billion",
+      "money_mn": 6820.0,
+      "decimals": 2,
+      "context": "...of $2.48 billion, $2.11 billion and $2.23 billion totalled about $6.82 billion, and operating cash flow less capex of about...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$7.5 billion",
+      "value": 7.5,
+      "unit": "billion",
+      "money_mn": 7500.0,
+      "decimals": 1,
+      "context": "...about $6.82 billion, and operating cash flow less capex of about $7.5 billion (illustrative) still covered them, so the...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "7.490 billion",
+        "snippet": "Business Professionals & Consumers subscription revenue $7.470 billion to $7.490 billion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "T1: ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth stays near 11%, so consensus fiscal 2026 revenue growth of 11.9% is achievable. Reported ARR growth was 10.9% in...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.9%",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026 revenue growth of 11.9% is achievable. Reported ARR growth was 10.9% in Q1 (below the 11% signpost, above the 10%...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11%",
+        "snippet": "...with working capital of $(37) million [1]. We see the shares as undervalued if ARR growth holds near 11%. The thesis fails if it falls below 10%. The most important risk is competition in AI. The filing describes..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...11.9% is achievable. Reported ARR growth was 10.9% in Q1 (below the 11% signpost, above the 10% invalidation line),...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "below"
+        ],
+        "hl": "10.5%",
+        "snippet": "...for ten years at an 11.8% WACC [2][3]. That is well below consensus growth of 11.9% for fiscal 2026 and the 10.5% three-year historical CAGR [1][3]. The current price therefore requires growth to fade sharply, or the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ARR growth was 10.9% in Q1 (below the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "10.2%",
+        "snippet": "Total Adobe ending ARR growth 10.2% year over year"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q1 (below the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3  . Q2 and Q3 include...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "12.5%",
+        "snippet": "Total Adobe ARR grew to $27.10 billion at the end of the second quarter of fiscal 2026, representing 12.5% year-over-year growth, including approximately $480 million from the Semrush acquisition and further driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3  . Q2 and Q3 include Semrush, which added...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "11.2%",
+        "snippet": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe Experience..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of ARR in Q2; excluding it, our illustrative Q2 estimate is about 10.5%  . The company's own FY2026 ending ARR growth...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.2%",
+      "value": 10.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...about 10.5%  . The company's own FY2026 ending ARR growth target is 10.2%, below the signpost  . FY2026 revenue consensus...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "10.2%",
+        "snippet": "Total Adobe ending ARR growth 10.2% year over year"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.6%",
+      "value": 89.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...because pricing and mix offset the cost increase. Gross margin was 89.6% in Q1, 89.2% in Q2 and 88.7% in Q3  ....",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "89.6%",
+        "snippet": "- Gross margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%, worse); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.2%",
+      "value": 89.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and mix offset the cost increase. Gross margin was 89.6% in Q1, 89.2% in Q2 and 88.7% in Q3  . Subscription cost of...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "89.3%",
+        "snippet": "- Gross margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "88.7%",
+      "value": 88.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the cost increase. Gross margin was 89.6% in Q1, 89.2% in Q2 and 88.7% in Q3  . Subscription cost of revenue rose 16.0%...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "88.7%",
+        "snippet": "...margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.0%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...89.2% in Q2 and 88.7% in Q3  . Subscription cost of revenue rose 16.0% in Q2 and 24.1% in Q3 (computed from  ), against...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "16%",
+        "snippet": "• Business Professionals & Consumers subscription revenue was $1.78 billion, which represents 16% year-over-year growth, or 15% in constant currency."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.1%",
+      "value": 24.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...88.7% in Q3  . Subscription cost of revenue rose 16.0% in Q2 and 24.1% in Q3 (computed from  ), against subscription...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "13.7%",
+      "value": 13.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in Q3 (computed from  ), against subscription revenue growth of 13.7% in each quarter (computed from  ). Subscription...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "88.7%",
+      "value": 88.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...which meets the pre-set invalidation rule. The Q3 gross margin of 88.7% is still above the 88% line  . T3: The shares...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "88.7%",
+        "snippet": "...margin: FY2025 89.3%; Q1 FY2026 89.6% (year-ago n/a, n/a); Q2 FY2026 89.2% (year-ago n/a, n/a); Q3 FY2026 88.7% (year-ago 89.3%, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "88%",
+      "value": 88.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...invalidation rule. The Q3 gross margin of 88.7% is still above the 88% line  . T3: The shares are undervalued because...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "3.2%",
+      "value": 3.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...less growth than consensus expects. Non-GAAP EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "3.2%",
+        "snippet": "- Quarter ending 2026-02-28: EPS $6.06 vs estimate $5.87 (surprise +3.2%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2.5%",
+      "value": 2.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Non-GAAP EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu"
+        ],
+        "hl": "2.5%",
+        "snippet": "...(IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 17.1% per year (+5.3 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09)  . FY2026 EPS consensus...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.6%",
+      "value": 0.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... FY2026 EPS consensus is $24.47, unchanged over 30 days and up 0.6% over 90 days, so there is no headroom above the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "9.5x",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth at a $91.8 billion enterprise value, and the forward P/E is 9.5x  . T4: Funding is adequate despite buybacks,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "9.5",
+        "snippet": "...million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.91x",
+      "value": 0.91,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...for Q4 to reach $10 billion (illustrative). The current ratio was 0.91x, 0.75x and 0.77x, below the 1.0x signpost  . Net...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.91",
+        "snippet": "- Current ratio: FY2025 1.00x; Q1 FY2026 0.91x (year-ago n/a, n/a); Q2 FY2026 0.75x (year-ago n/a, n/a); Q3 FY2026 0.77x (year-ago 1.02x, worse); trend..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.75x",
+      "value": 0.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to reach $10 billion (illustrative). The current ratio was 0.91x, 0.75x and 0.77x, below the 1.0x signpost  . Net cash...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.75",
+        "snippet": "- Current ratio: FY2025 1.00x; Q1 FY2026 0.91x (year-ago n/a, n/a); Q2 FY2026 0.75x (year-ago n/a, n/a); Q3 FY2026 0.77x (year-ago 1.02x, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.77x",
+      "value": 0.77,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$10 billion (illustrative). The current ratio was 0.91x, 0.75x and 0.77x, below the 1.0x signpost  . Net cash was +$234...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.77",
+        "snippet": "...ratio: FY2025 1.00x; Q1 FY2026 0.91x (year-ago n/a, n/a); Q2 FY2026 0.75x (year-ago n/a, n/a); Q3 FY2026 0.77x (year-ago 1.02x, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.0x",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...The current ratio was 0.91x, 0.75x and 0.77x, below the 1.0x signpost  . Net cash was +$234 million at Q1,...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "1.00",
+        "snippet": "- Current ratio: FY2025 1.00x; Q1 FY2026 0.91x (year-ago n/a, n/a); Q2 FY2026 0.75x (year-ago n/a, n/a); Q3 FY2026 0.77x (year-ago 1.02x,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "26.63",
+      "value": 26.63,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...consensus of $26.61 billion sits inside the raised target of $26.58-26.63 billion, so no revenue cut occurred  . T2:...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "revenue"
+        ],
+        "hl": "26.61 billion",
+        "snippet": "...hit $9.85 billion [1]. Total ARR grew 11.5% to $25.20 billion [1]. Consensus expects fiscal 2026 revenue of $26.61 billion (+11.9%) and EPS of $24.47, both dated after the 10-K [3]."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...($6.13 vs $6.09)  . FY2026 EPS consensus is $24.47, unchanged over 30 days and up 0.6% over 90 days, so there is no...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "30",
+        "snippet": "- EPS consensus current fiscal year: $24.47 today, $24.48 30 days ago, $24.33 90 days ago, change vs 90 days ago +0.6%; analysts raising/cutting in last 30 days: 0/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS consensus is $24.47, unchanged over 30 days and up 0.6% over 90 days, so there is no headroom above the signpost...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $24.47 today, $24.48 30 days ago, $24.33 90 days ago, change vs 90 days ago +0.6%; analysts raising/cutting in last 30 days: 0/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "24.50",
+      "value": 24.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the FY2026 non-GAAP EPS target in Q2 and again in Q3, to $24.45-24.50  . The reverse DCF implies about zero growth at...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "target",
+          "non-gaap",
+          "pershare"
+        ],
+        "hl": "24.50",
+        "snippet": "GAAP: $18.12 to $18.17 Non-GAAP: $24.45 to $24.50"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.44 billion",
+      "value": 1.44,
+      "unit": "billion",
+      "money_mn": 1440.0,
+      "decimals": 2,
+      "context": "...from June 15, 2026  . After the Semrush closing, net cash fell to -$1.44 billion in Q2 and the current ratio to 0.75x  . The Q2...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1,438",
+        "snippet": "Prepaid expenses and other current assets 1,438 1,224"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$70 million",
+      "value": 70.0,
+      "unit": "million",
+      "money_mn": 70.0,
+      "decimals": 0,
+      "context": "...Q2 and the current ratio to 0.75x  . The Q2 GAAP results include a $70 million goodwill impairment on the Publishing &...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "70",
+        "snippet": "Impairment of goodwill 70 —"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Semrush, and excluding it our illustrative Q2 estimate is about 10.5%  . Third, management and balance sheet risk...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.75x",
+      "value": 0.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...net cash fell to -$1.44 billion in Q2 and the current ratio to 0.75x  . The Q2 GAAP results include a $70 million...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.75",
+        "snippet": "- Current ratio: FY2025 1.00x; Q1 FY2026 0.91x (year-ago n/a, n/a); Q2 FY2026 0.75x (year-ago n/a, n/a); Q3 FY2026 0.77x (year-ago 1.02x, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "395",
+      "value": 395.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...through 2030  . One risk eased: the diluted share count fell to 395 million from 424 million year on year in Q3,...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "395 million",
+        "snippet": "...operating margin of ~44.0%, GAAP tax rate of ~23.0%, non-GAAP tax rate of ~18.0% and diluted share count of ~395 million for third quarter FY2026."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "424",
+      "value": 424.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... One risk eased: the diluted share count fell to 395 million from 424 million year on year in Q3, through buybacks  .",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "424",
+        "snippet": "Shares used to compute diluted net income per share 395 424 403 430"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.80",
+      "value": 6.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "Management's Q4 FY2026 targets are revenue of $6.80-6.85 billion and non-GAAP EPS of $6.30-6.35  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.80 billion",
+        "snippet": "Total revenue $6.80 billion to $6.85 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.30",
+      "value": 6.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...targets are revenue of $6.80-6.85 billion and non-GAAP EPS of $6.30-6.35  . Updated FY2026 targets are revenue of...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.30",
+        "snippet": "GAAP: $4.65 to $4.70 Non-GAAP: $6.30 to $6.35"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.576",
+      "value": 26.576,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 3,
+      "context": "...non-GAAP EPS of $6.30-6.35  . Updated FY2026 targets are revenue of $26.576-26.626 billion, non-GAAP EPS of $24.45-24.50,...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26.576 billion",
+        "snippet": "Total revenue $26.576 billion to $26.626 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.45",
+      "value": 24.45,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...targets are revenue of $26.576-26.626 billion, non-GAAP EPS of $24.45-24.50, and ending ARR growth of 10.2%  . FY2026...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "24.45",
+        "snippet": "GAAP: $17.90 to $18.00 Non-GAAP: $24.35 to $24.45"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.61 billion",
+      "value": 26.61,
+      "unit": "billion",
+      "money_mn": 26610.0,
+      "decimals": 2,
+      "context": "...and ending ARR growth of 10.2%  . FY2026 consensus revenue of $26.61 billion and EPS of $24.47 sit inside these ranges, with...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "26.60 billion",
+        "snippet": "Total revenue $26.50 billion to $26.60 billion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.47",
+      "value": 24.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 10.2%  . FY2026 consensus revenue of $26.61 billion and EPS of $24.47 sit inside these ranges, with EPS unchanged over...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "24.45",
+        "snippet": "GAAP: $17.90 to $18.00 Non-GAAP: $24.35 to $24.45"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.04 billion",
+      "value": 29.04,
+      "unit": "billion",
+      "money_mn": 29040.0,
+      "decimals": 2,
+      "context": "...with EPS unchanged over 30 days  . FY2027 consensus is revenue of $29.04 billion (+9.1%) and EPS of $27.41, with an EPS range of...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "29,036.6 million",
+        "snippet": "- FY2027E: revenue $29,036.6 million (range $28,350.0 million to $29,785.0 million, 36 analysts), growth +9.1%; EPS $27.41 (range $22.67 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27.41",
+      "value": 27.41,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... FY2027 consensus is revenue of $29.04 billion (+9.1%) and EPS of $27.41, with an EPS range of $22.67-29.19  . Consensus...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "27.41",
+        "snippet": "...revenue $29,036.6 million (range $28,350.0 million to $29,785.0 million, 36 analysts), growth +9.1%; EPS $27.41 (range $22.67 to $29.19); forward P/E 8.5x; EV/Sales 3.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.67",
+      "value": 22.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of $29.04 billion (+9.1%) and EPS of $27.41, with an EPS range of $22.67-29.19  . Consensus FY2027 revenue growth is...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "22.67",
+        "snippet": "...million (range $28,350.0 million to $29,785.0 million, 36 analysts), growth +9.1%; EPS $27.41 (range $22.67 to $29.19); forward P/E 8.5x; EV/Sales 3.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.35 billion",
+      "value": 2.35,
+      "unit": "billion",
+      "money_mn": 2350.0,
+      "decimals": 2,
+      "context": "...met, so Q4 confirms or reverses it), operating cash flow of about $2.35 billion needed in Q4 to reach $10 billion for the year...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.35 billion",
+        "snippet": "• GAAP operating income in the third quarter was $2.35 billion and non-GAAP operating income was $2.97 billion. GAAP net income was $1.83 billion and non-GAAP net income..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10 billion",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 0,
+      "context": "...operating cash flow of about $2.35 billion needed in Q4 to reach $10 billion for the year (T4), the choice of permanent CEO...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10,163",
+        "snippet": "Total current assets 10,386 10,163"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.2%",
+      "value": 10.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion, non-GAAP EPS of $24.45-24.50, and ending ARR growth of 10.2%  . FY2026 consensus revenue of $26.61 billion...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "10.2%",
+        "snippet": "Total Adobe ending ARR growth 10.2% year over year"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.1%",
+      "value": 9.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...over 30 days  . FY2027 consensus is revenue of $29.04 billion (+9.1%) and EPS of $27.41, with an EPS range of...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "range",
+          "revenue",
+          "pershare"
+        ],
+        "hl": "9.1%",
+        "snippet": "- FY2027E: revenue $29,036.6 million (range $28,350.0 million to $29,785.0 million, 36 analysts), growth +9.1%; EPS $27.41 (range $22.67 to $29.19); forward P/E 8.5x; EV/Sales 3.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of $22.67-29.19  . Consensus FY2027 revenue growth is below the 11% signpost in T1. Items to watch: Q4 subscription...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "10.5%",
+        "snippet": "- Revenue growth y/y: FY2025 10.5%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 12.9% (year-ago n/a, n/a);..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...CEO and CFO, and whether ARR growth excluding Semrush holds above 10%.",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "10.2%",
+        "snippet": "Total Adobe ending ARR growth 10.2% year over year"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "6.85",
+      "value": 6.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "Management's Q4 FY2026 targets are revenue of $6.80-6.85 billion and non-GAAP EPS of $6.30-6.35  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6.85 billion",
+        "snippet": "Total revenue $6.80 billion to $6.85 billion"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "6.35",
+      "value": 6.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...targets are revenue of $6.80-6.85 billion and non-GAAP EPS of $6.30-6.35  . Updated FY2026 targets are revenue of...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "target",
+          "non-gaap",
+          "pershare"
+        ],
+        "hl": "6.35",
+        "snippet": "GAAP: $4.65 to $4.70 Non-GAAP: $6.30 to $6.35"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "26.626",
+      "value": 26.626,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 3,
+      "context": "...EPS of $6.30-6.35  . Updated FY2026 targets are revenue of $26.576-26.626 billion, non-GAAP EPS of $24.45-24.50, and...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "revenue"
+        ],
+        "hl": "26.61 billion",
+        "snippet": "...hit $9.85 billion [1]. Total ARR grew 11.5% to $25.20 billion [1]. Consensus expects fiscal 2026 revenue of $26.61 billion (+11.9%) and EPS of $24.47, both dated after the 10-K [3]."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "24.50",
+      "value": 24.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...are revenue of $26.576-26.626 billion, non-GAAP EPS of $24.45-24.50, and ending ARR growth of 10.2%  . FY2026...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "non-gaap",
+          "pershare"
+        ],
+        "hl": "24.50",
+        "snippet": "GAAP: $18.12 to $18.17 Non-GAAP: $24.45 to $24.50"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and EPS of $24.47 sit inside these ranges, with EPS unchanged over 30 days  . FY2027 consensus is revenue of $29.04...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "30",
+        "snippet": "- EPS consensus current fiscal year: $24.47 today, $24.48 30 days ago, $24.33 90 days ago, change vs 90 days ago +0.6%; analysts raising/cutting in last 30 days: 0/3"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "29.19",
+      "value": 29.19,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...billion (+9.1%) and EPS of $27.41, with an EPS range of $22.67-29.19  . Consensus FY2027 revenue growth is below the...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "range",
+          "pershare"
+        ],
+        "hl": "29.19)",
+        "snippet": "...(range $28,350.0 million to $29,785.0 million, 36 analysts), growth +9.1%; EPS $27.41 (range $22.67 to $29.19); forward P/E 8.5x; EV/Sales 3.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6198.0 million",
+      "value": 6198.0,
+      "unit": "million",
+      "money_mn": 6198.0,
+      "decimals": 1,
+      "context": "Subscription revenue: $6198.0 million vs $5483.0 million, $6416.0 million vs $5641.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,198",
+        "snippet": "Subscription $ 6,198 $ 5,483"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5483.0 million",
+      "value": 5483.0,
+      "unit": "million",
+      "money_mn": 5483.0,
+      "decimals": 1,
+      "context": "Subscription revenue: $6198.0 million vs $5483.0 million, $6416.0 million vs $5641.0 million, $6582.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,483",
+        "snippet": "Subscription $ 6,198 $ 5,483 Product 90 95"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6416.0 million",
+      "value": 6416.0,
+      "unit": "million",
+      "money_mn": 6416.0,
+      "decimals": 1,
+      "context": "Subscription revenue: $6198.0 million vs $5483.0 million, $6416.0 million vs $5641.0 million, $6582.0 million vs $5791.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,416",
+        "snippet": "Subscription $ 6,416 $ 5,641 $ 12,614 $ 11,124"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5641.0 million",
+      "value": 5641.0,
+      "unit": "million",
+      "money_mn": 5641.0,
+      "decimals": 1,
+      "context": "...revenue: $6198.0 million vs $5483.0 million, $6416.0 million vs $5641.0 million, $6582.0 million vs $5791.0 million....",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,641",
+        "snippet": "Subscription $ 6,416 $ 5,641 $ 12,614 $ 11,124"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6582.0 million",
+      "value": 6582.0,
+      "unit": "million",
+      "money_mn": 6582.0,
+      "decimals": 1,
+      "context": "...million vs $5483.0 million, $6416.0 million vs $5641.0 million, $6582.0 million vs $5791.0 million. Subscription cost of...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,582",
+        "snippet": "Subscription $ 6,582 $ 5,791 $ 19,196 $ 16,915"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5791.0 million",
+      "value": 5791.0,
+      "unit": "million",
+      "money_mn": 5791.0,
+      "decimals": 1,
+      "context": "...million, $6416.0 million vs $5641.0 million, $6582.0 million vs $5791.0 million. Subscription cost of revenue: $540.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "5,791",
+        "snippet": "Subscription $ 6,582 $ 5,791 $ 19,196 $ 16,915"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$540.0 million",
+      "value": 540.0,
+      "unit": "million",
+      "money_mn": 540.0,
+      "decimals": 1,
+      "context": "...$6582.0 million vs $5791.0 million. Subscription cost of revenue: $540.0 million vs $490.0 million, $586.0 million vs $505.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "540",
+        "snippet": "Subscription 540 490"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$490.0 million",
+      "value": 490.0,
+      "unit": "million",
+      "money_mn": 490.0,
+      "decimals": 1,
+      "context": "...vs $5791.0 million. Subscription cost of revenue: $540.0 million vs $490.0 million, $586.0 million vs $505.0 million, $633.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "490",
+        "snippet": "Subscription 540 490 Product 6 6"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$586.0 million",
+      "value": 586.0,
+      "unit": "million",
+      "money_mn": 586.0,
+      "decimals": 1,
+      "context": "...Subscription cost of revenue: $540.0 million vs $490.0 million, $586.0 million vs $505.0 million, $633.0 million vs $510.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "586",
+        "snippet": "Subscription 586 505 1,126 995"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$505.0 million",
+      "value": 505.0,
+      "unit": "million",
+      "money_mn": 505.0,
+      "decimals": 1,
+      "context": "...of revenue: $540.0 million vs $490.0 million, $586.0 million vs $505.0 million, $633.0 million vs $510.0 million. GAAP...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "505",
+        "snippet": "Subscription 586 505 1,126 995"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$633.0 million",
+      "value": 633.0,
+      "unit": "million",
+      "money_mn": 633.0,
+      "decimals": 1,
+      "context": "...$540.0 million vs $490.0 million, $586.0 million vs $505.0 million, $633.0 million vs $510.0 million. GAAP operating income:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "633",
+        "snippet": "Subscription 633 510 1,759 1,505"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$510.0 million",
+      "value": 510.0,
+      "unit": "million",
+      "money_mn": 510.0,
+      "decimals": 1,
+      "context": "...$490.0 million, $586.0 million vs $505.0 million, $633.0 million vs $510.0 million. GAAP operating income: $2418.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "510",
+        "snippet": "Subscription 633 510 1,759 1,505"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2418.0 million",
+      "value": 2418.0,
+      "unit": "million",
+      "money_mn": 2418.0,
+      "decimals": 1,
+      "context": "...million, $633.0 million vs $510.0 million. GAAP operating income: $2418.0 million vs $2163.0 million, $2238.0 million vs $2109.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,418",
+        "snippet": "Operating income 2,418 2,163"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2163.0 million",
+      "value": 2163.0,
+      "unit": "million",
+      "money_mn": 2163.0,
+      "decimals": 1,
+      "context": "...vs $510.0 million. GAAP operating income: $2418.0 million vs $2163.0 million, $2238.0 million vs $2109.0 million, $2354.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,163",
+        "snippet": "Operating income 2,418 2,163"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2238.0 million",
+      "value": 2238.0,
+      "unit": "million",
+      "money_mn": 2238.0,
+      "decimals": 1,
+      "context": "...million. GAAP operating income: $2418.0 million vs $2163.0 million, $2238.0 million vs $2109.0 million, $2354.0 million vs $2173.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,238",
+        "snippet": "Operating income 2,238 2,109 4,656 4,272"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2109.0 million",
+      "value": 2109.0,
+      "unit": "million",
+      "money_mn": 2109.0,
+      "decimals": 1,
+      "context": "...income: $2418.0 million vs $2163.0 million, $2238.0 million vs $2109.0 million, $2354.0 million vs $2173.0 million. Operating...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,109",
+        "snippet": "Operating income 2,238 2,109 4,656 4,272"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2354.0 million",
+      "value": 2354.0,
+      "unit": "million",
+      "money_mn": 2354.0,
+      "decimals": 1,
+      "context": "...million vs $2163.0 million, $2238.0 million vs $2109.0 million, $2354.0 million vs $2173.0 million. Operating cash flow: $2958.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,354",
+        "snippet": "Operating income 2,354 2,173 7,010 6,445"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2173.0 million",
+      "value": 2173.0,
+      "unit": "million",
+      "money_mn": 2173.0,
+      "decimals": 1,
+      "context": "...million, $2238.0 million vs $2109.0 million, $2354.0 million vs $2173.0 million. Operating cash flow: $2958.0 million vs $2482.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,173",
+        "snippet": "Operating income 2,354 2,173 7,010 6,445"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2958.0 million",
+      "value": 2958.0,
+      "unit": "million",
+      "money_mn": 2958.0,
+      "decimals": 1,
+      "context": "...million, $2354.0 million vs $2173.0 million. Operating cash flow: $2958.0 million vs $2482.0 million, $2165.0 million vs $2191.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,958",
+        "snippet": "Net cash provided by operating activities 2,958 2,482"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2482.0 million",
+      "value": 2482.0,
+      "unit": "million",
+      "money_mn": 2482.0,
+      "decimals": 1,
+      "context": "...million vs $2173.0 million. Operating cash flow: $2958.0 million vs $2482.0 million, $2165.0 million vs $2191.0 million, $2523.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,482",
+        "snippet": "Net cash provided by operating activities 2,958 2,482"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2165.0 million",
+      "value": 2165.0,
+      "unit": "million",
+      "money_mn": 2165.0,
+      "decimals": 1,
+      "context": "...million. Operating cash flow: $2958.0 million vs $2482.0 million, $2165.0 million vs $2191.0 million, $2523.0 million vs $2198.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,165",
+        "snippet": "Net cash provided by operating activities 2,165 2,191"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2191.0 million",
+      "value": 2191.0,
+      "unit": "million",
+      "money_mn": 2191.0,
+      "decimals": 1,
+      "context": "...cash flow: $2958.0 million vs $2482.0 million, $2165.0 million vs $2191.0 million, $2523.0 million vs $2198.0 million. Diluted EPS...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,191",
+        "snippet": "Net cash provided by operating activities 2,165 2,191"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2523.0 million",
+      "value": 2523.0,
+      "unit": "million",
+      "money_mn": 2523.0,
+      "decimals": 1,
+      "context": "...million vs $2482.0 million, $2165.0 million vs $2191.0 million, $2523.0 million vs $2198.0 million. Diluted EPS (GAAP): $4.6 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,523",
+        "snippet": "Net cash provided by operating activities 2,523 2,198"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2198.0 million",
+      "value": 2198.0,
+      "unit": "million",
+      "money_mn": 2198.0,
+      "decimals": 1,
+      "context": "...million, $2165.0 million vs $2191.0 million, $2523.0 million vs $2198.0 million. Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2,198",
+        "snippet": "Net cash provided by operating activities 2,523 2,198"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, $2523.0 million vs $2198.0 million. Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs $3.94, $4.62 vs $4.18.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.60",
+        "snippet": "...which represents 12% year-over-year growth, or 11% in constant currency. Diluted earnings per share was $4.60 on a GAAP basis and $6.06 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.14",
+      "value": 4.14,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$2523.0 million vs $2198.0 million. Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs $3.94, $4.62 vs $4.18.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.14",
+        "snippet": "Diluted net income per share $ 4.60 $ 4.14 Shares used to compute diluted net income per share 411 438"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.25",
+      "value": 4.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million vs $2198.0 million. Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs $3.94, $4.62 vs $4.18.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.25",
+        "snippet": "• Diluted earnings per share was $4.25 on a GAAP basis and $5.96 on a non-GAAP basis. GAAP results reflect a $0.17 per share non-cash goodwill..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.94",
+      "value": 3.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $2198.0 million. Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs $3.94, $4.62 vs $4.18.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "3.94",
+        "snippet": "Diluted net income per share $ 4.25 $ 3.94 $ 8.86 $ 8.08"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.62",
+      "value": 4.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$2198.0 million. Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs $3.94, $4.62 vs $4.18.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.62",
+        "snippet": "...which represents 13% year-over-year growth, or 12% in constant currency. Diluted earnings per share was $4.62 on a GAAP basis and $6.13 on a non-GAAP basis."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.18",
+      "value": 4.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Diluted EPS (GAAP): $4.6 vs $4.14, $4.25 vs $3.94, $4.62 vs $4.18.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "4.18",
+        "snippet": "Basic net income per share $ 4.63 $ 4.18 $ 13.48 $ 12.28"
+      }
+    }
+  ],
+  "build_round": 2,
+  "round1": {
+    "total_claims": 193,
+    "matched": 173,
+    "match_rate": 0.896
+  }
+}

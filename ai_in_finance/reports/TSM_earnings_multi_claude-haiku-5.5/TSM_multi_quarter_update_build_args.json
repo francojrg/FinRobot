@@ -1,0 +1,133 @@
+{
+  "ticker_symbol": "TSM",
+  "fyear": "2025",
+  "save_dir": "../reports/TSM_earnings_multi_claude-haiku-5.5",
+  "headline": "TSMC's three 2026 quarters beat guidance on revenue and margins, with Q3 revenue up 50.9%; the main shortfall is a lower Q2 free cash flow margin.",
+  "summary": "TSMC has reported three quarters since the FY2025 annual report. Q3 FY2026 revenue was NT$1,494.2 billion, up 50.9% year on year, and net income was NT$763.1 billion, up 68.7% [1]. Gross margin was 66.2%, 67.7% and 66.4% across the three quarters, well above the 58% signpost in thesis T1, and advanced nodes (7nm and below) rose from 74% to 79% of wafer revenue [1]. Net cash reached NT$3.03 trillion at 30 September 2026, against NT$2.06 trillion at FY2025 year end, with total debt flat near NT$1.07 trillion [2][3]. EPS beat consensus in each quarter, by 1.7% to 10.9% [3]. The weak point is cash conversion: the free cash flow margin fell to 21.6% in Q2 from 30.6% in Q1 [3]. Consensus FY2027 EPS is US$23.39, up 9.9% over 90 days, which clears the US$23 signpost by only about 1.7% [3]. At 18.7 times FY2026 consensus EPS, the valuation still depends on growth staying above the 23.7% a year implied by the current enterprise value [3]. All three theses are intact or strengthened, with T3 the most exposed to a single estimate cut. Consensus and valuation figures are dated after the 10-K.",
+  "results_commentary": "Q1 FY2026 was the first quarter after the annual report. Revenue was NT$1,134.1 billion, up 35.1% year on year and 8.4% on Q4 2025, and net income was NT$572.5 billion, up 58.3% [1]. Gross margin was 66.2% and operating margin 58.1%, both above the FY2025 levels of 59.9% gross and 50.8% operating [1][3]. Advanced nodes were 74% of wafer revenue, with 3nm at 25% and 5nm at 36% [1]. The free cash flow margin was 30.6% [3]. EPS of US$3.49 beat the US$3.33 consensus estimate by 4.7% [3].\n\nQ2 FY2026 was the weakest quarter on cash conversion. The free cash flow margin fell to 21.6% from 30.6% in Q1 [3]. The release does not explain the drop, and no 10-Q is available for this foreign private issuer, so the cause is not confirmed in the sources used here [1][2]. The P&L was strong. Revenue was NT$1,270.4 billion, up 36.0% year on year, and above the US$39.0 billion to US$40.2 billion guidance range, reaching US$40.20 billion [1]. Gross margin of 67.7% was above the guided 65.5% to 67.5% range, and operating margin of 60.3% was above the guided 56.5% to 58.5% range [1]. Net income rose 77.4% to NT$706.6 billion, and EPS of US$4.31 beat the US$3.89 estimate by 10.9%, the largest beat in the period [1][3]. Advanced nodes rose to 77% of wafer revenue, with 2nm at 3% [1].\n\nQ3 FY2026 showed the largest revenue acceleration. Revenue was NT$1,494.2 billion, up 50.9% year on year and 17.6% on Q2, with 2nm rising to 8% of wafer revenue [1]. Gross margin eased to 66.4% from 67.7% in Q2, and operating margin to 58.7% from 60.3%. Both were inside the guided ranges for Q3 of 65% to 67% and 56% to 58% [1]. The release gives no reason for the sequential dip. Net cash was NT$3.03 trillion against NT$1.78 trillion a year earlier, and the current ratio was 2.58x against 2.69x [2][3]. The current ratio is lower year on year, but liquidity is not a constraint. Opex fell to 7.8% of revenue from 8.9% a year earlier [3].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Advanced-node and HPC mix keeps gross margin near 60% through 2026, so margin is not a cyclical casualty of the capex cycle.",
+      "signpost": "Reported quarterly gross margin at or above 58% in each 2026 quarter, confirmed in Q4 2026 results (early 2027). Invalidated by a gross margin at or below 56.1%, or a fall in 7nm-and-below share of wafer revenue.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Gross margin was 66.2% in Q1, 67.7% in Q2 and 66.4% in Q3, all above the 58% signpost [1][3]. Advanced nodes rose from 74% to 77% to 79% of wafer revenue [1]. Q2 is strengthened because both gross margin and advanced share rose. Q3 is intact because gross margin eased from Q2 with no cause given in the release, though the advanced share still rose."
+    },
+    {
+      "thesis": "T2: Operating cash flow can fund the 2026 capex plan without a rise in debt, so the balance sheet stays net-cash.",
+      "signpost": "Trailing free cash flow above about NT$1.3 trillion in the Q4 2026 filing, with total debt flat near NT$1.06 trillion. Invalidated by total debt rising materially or net cash falling below NT$2 trillion.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Net cash was NT$2.36 trillion in Q1, NT$2.53 trillion in Q2 and NT$3.03 trillion in Q3, all above the NT$2 trillion limit [2][3]. At Q3 total debt was NT$1.066 trillion, flat against NT$1.065 trillion at FY2025 year end, and trailing free cash flow was NT$1.46 trillion, above the NT$1.3 trillion signpost [2][3]. Q2 is intact because the quarterly free cash flow margin fell to 21.6%, though net cash still rose."
+    },
+    {
+      "thesis": "T3: Consensus earnings revisions keep rising, so the stock can grow into its forward multiple rather than rely only on rerating.",
+      "signpost": "FY2027 EPS consensus holding at or above US$23 and at least one more quarterly EPS beat in the Q4 2026 results (early 2027). Invalidated by a quarterly EPS miss, or more estimate cuts than raises over 30 days.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "EPS beat consensus by 4.7% in Q1, 10.9% in Q2 and 1.7% in Q3 [3]. FY2027 consensus is US$23.39, up from US$21.28 90 days ago, but it was US$21.92 30 days ago, so the US$23 signpost was only recently cleared [3]. Revisions were 10 up and 2 down for FY2027 in the last 30 days [3]. Q2 is strengthened by the 10.9% beat; Q3 is intact because the beat narrowed to 1.7% and the signpost headroom is small."
+    }
+  ],
+  "risk_update": "The annual report risks still apply: customer concentration (the ten largest customers were 78% of FY2025 revenue), export controls and tariffs, and the US$52-56 billion 2026 capex plan [4]. None of the three quarterly releases updates the customer or tariff disclosures, so these are unchanged rather than resolved [1]. The 2nm ramp is new in the evidence. Its share of wafer revenue rose from 3% in Q2 to 8% in Q3, and the company names the steep 2nm ramp as a driver of Q4 [1]. A faster ramp adds cost and yield risk not quantified in the releases. The Q2 drop in free cash flow margin to 21.6% from 30.6% is a funding signal to watch against the capex plan, though the cause is not given in the sources used here [3]. Quarterly capex data was not available in the sources used for this update.",
+  "outlook": "Management guides Q4 FY2026 revenue to US$52.3 billion to US$54.3 billion, gross margin 65% to 67% and operating margin 56.5% to 58.5%, at an exchange rate of 31.8 NT dollars [1]. Q2 and Q3 revenue and margins landed at or above the guided ranges, so the guidance has been conservative. The Q4 FY2026 release, due early 2027, is the test for T1 and T2. Consensus FY2026 EPS is US$17.50, up 4.8% over 90 days, and FY2027 is US$23.39, up 9.9% [3]. Valuation is 18.7x FY2026 and 14.0x FY2027 EPS, and the reverse DCF implies 23.7% annual revenue growth for ten years against an 18.9% three-year history [2][3]. The baseline reported 23.6% and an 11.1% return; the current pull gives 23.7% and 11.0% [4][3]. The reverse DCF is a simplified, illustrative model, not a price target.",
+  "company_kpis": [
+    {
+      "name": "Gross margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 66.2,
+        "Q2 FY2026": 67.7,
+        "Q3 FY2026": 66.4
+      },
+      "prior_values": {
+        "Q3 FY2026": 59.5
+      },
+      "source": "[1] releases; Q3 prior-year value from [3] scorecard"
+    },
+    {
+      "name": "Operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 58.1,
+        "Q2 FY2026": 60.3,
+        "Q3 FY2026": 58.7
+      },
+      "prior_values": {
+        "Q3 FY2026": 50.6
+      },
+      "source": "[1] releases; Q3 prior-year value from [3] scorecard"
+    },
+    {
+      "name": "Advanced nodes (7nm and below) share of wafer revenue",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 74,
+        "Q2 FY2026": 77,
+        "Q3 FY2026": 79
+      },
+      "prior_values": {},
+      "source": "[1] releases; prior-year share not disclosed in the releases"
+    },
+    {
+      "name": "Net sales",
+      "unit": "NT$ million",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1134103,
+        "Q2 FY2026": 1270381,
+        "Q3 FY2026": 1494243
+      },
+      "prior_values": {
+        "Q1 FY2026": 839254,
+        "Q2 FY2026": 933792,
+        "Q3 FY2026": 989918
+      },
+      "source": "[1] releases"
+    },
+    {
+      "name": "Net income",
+      "unit": "NT$ million",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 572480,
+        "Q2 FY2026": 706562,
+        "Q3 FY2026": 763064
+      },
+      "prior_values": {
+        "Q1 FY2026": 361564,
+        "Q2 FY2026": 398273,
+        "Q3 FY2026": 452302
+      },
+      "source": "[1] releases"
+    },
+    {
+      "name": "Net cash",
+      "unit": "NT$ million",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2361828,
+        "Q2 FY2026": 2532487.9,
+        "Q3 FY2026": 3028664.4
+      },
+      "prior_values": {
+        "Q3 FY2026": 1779495.4
+      },
+      "source": "[3] Yahoo Finance balance sheet via scorecard; year-ago only available for Q3"
+    }
+  ]
+}

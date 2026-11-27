@@ -1,0 +1,138 @@
+{
+  "ticker_symbol": "AVGO",
+  "fyear": "2025",
+  "save_dir": "../reports/AVGO_earnings_multi_claude-haiku-5.5",
+  "headline": "Semiconductor revenue grew 52%, 79% and 127% in Q1-Q3 FY2026, gross margin held at about 68-70%, and FY2026 consensus revenue stayed near $106 billion.",
+  "summary": "Broadcom's first three fiscal 2026 quarters (ended February 1, May 3 and August 2, 2026) delivered revenue of $19,311 million, $22,187 million and $29,591 million, up 29%, 48% and 86% year on year [1][2]. Semiconductor revenue grew 52%, 79% and 127%, and AI semiconductor revenue reached $16.7 billion in Q3, up 221% [1]. GAAP gross margin stayed between 68% and 70% in every quarter [2], above the 66% signpost. Infrastructure software grew 1%, 9% and 29%, but the releases reviewed do not give software operating income, so the software signpost cannot be measured directly [1]. Consensus FY2026 revenue of $105,978 million [3] matches the annual baseline of $105,981 million [4]. Net debt fell from $48,958 million at FY2025 year end to $35,444 million at the Q3 balance sheet date [2][3]. All four theses are intact or strengthened, and none has reached an invalidation level. The new concern is customer financing: the AI XPV platform carries a backstop with maximum exposure of about $29 billion [2]. Thesis statuses carry forward from the earlier update [4] unless new evidence changes them.",
+  "results_commentary": "Q1 FY2026 (ended February 1, 2026) was the first quarter after the annual report. Revenue rose 29% to $19,311 million [1]. Semiconductor revenue grew 52% to $12,515 million, driven by custom AI accelerators and AI networking, while infrastructure software was almost flat, up 1% to $6,796 million [1][2]. GAAP operating margin was 44% against 42% a year earlier [2]. Two items held the quarter back. R&D rose 32% to $2,965 million, mainly on higher stock-based compensation, and software revenue barely grew [2]. The 10-Q also shows $1,755 million of upfront license revenue inside products revenue, which is recognised at a point in time and does not repeat evenly [2].\n\nQ2 FY2026 (ended May 3, 2026) accelerated. Revenue rose 48% to $22,187 million, and semiconductor revenue rose 79% to $15,009 million [1]. AI semiconductor revenue was $10.8 billion, up 143% [1]. Software growth improved to 9% to $7,178 million [1]. GAAP operating margin reached 49% against 39% [2]. Free cash flow was $10,262 million, up 60% [1]. Two items weakened. The top five end customers accounted for about 45% of revenue, against 40% a year earlier, and the single distributor customer accounted for 42% against 29% [2]. Diluted share count was 4,758 million at the quarter end, up from 4,722 million a year earlier [3], despite $600 million of Q2 repurchases [2].\n\nQ3 FY2026 (ended August 2, 2026) was the strongest quarter. Revenue rose 86% to $29,591 million, and semiconductor revenue rose 127% to $20,839 million [1]. Software revenue grew 29% to $8,752 million, but the release does not give the driver of that step-up [1]. GAAP gross margin was 69% against 67% a year earlier, even though products made up 82% of revenue against 70% [2]. GAAP operating income rose 171% to $15,955 million [2]. Days sales outstanding rose to 42 from 37 [3], and the 10-Q shows $5,641 million of senior notes repurchased [2]. The Q4 guide is $34.8 billion of revenue (+93%) and a 66% non-GAAP operating margin [1], down from Q3 non-GAAP operating margin of 68% on an illustrative basis (non-GAAP operating income of $20.1 billion over $29.6 billion) [1]. The release does not give the reason. The annual filing says AI rack sales compress gross margin [4].",
+  "thesis_check": [
+    {
+      "thesis": "T1: AI demand keeps semiconductor revenue growing fast enough to support consensus FY2026 revenue of about $106 billion.",
+      "signpost": "Semiconductor revenue growth of at least 40% year on year in the fiscal 2026 10-K, due by early December 2026; interim invalidation below 20% in any quarter or a cut of more than 10% in consensus FY2026 revenue.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Semiconductor revenue grew 52% in Q1, 79% in Q2 and 127% in Q3 [1], each well above the 20% interim invalidation level. Consensus FY2026 revenue is $105,978 million [3], against $105,981 million in the annual baseline [4]. The Q4 guide of $34.8 billion [1] comes on top of nine-month total revenue of $71,089 million [2], so the full year is tracking close to the $106 billion consensus."
+    },
+    {
+      "thesis": "T2: Infrastructure software keeps its high margin as the subscription transition continues.",
+      "signpost": "Software operating income growth of at least 25% in the fiscal 2026 10-K, due by early December 2026; invalidation below 10% growth.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Software revenue grew 1% in Q1, 9% in Q2 and 29% in Q3 [1]. The releases reviewed do not disclose software segment operating income, so the 25% signpost cannot yet be tested [1]. The Q3 strengthened status rests on the revenue acceleration and should be re-checked against segment operating income when it is available in the fiscal 2026 10-K [4]."
+    },
+    {
+      "thesis": "T3: Gross margin holds near 68% even as AI rack sales grow, so the margin expansion lasts.",
+      "signpost": "Reported gross margin of at least 66% in each fiscal 2026 quarter; invalidation below 63%.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "GAAP gross margin was 68% in Q1, 69% in Q2 and 69% in Q3 as stated in the 10-Qs [2], each above the 66% signpost and far above the 63% invalidation level. In Q3, products reached 82% of revenue against 70% a year earlier and gross margin still rose to 69% from 67% [2], which tests the compression the annual filing expected [4]. No gross margin guidance was given for Q4 [1]."
+    },
+    {
+      "thesis": "T4: Earnings estimates keep rising, so the current valuation stays supported by consensus rather than requiring a higher growth rate.",
+      "signpost": "FY2027 EPS consensus holds at or above $19 through the fiscal 2026 10-K, due by early December 2026; invalidation is a cut of more than 10% or a forward P/E above 40x without an earnings upgrade.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "FY2027 EPS consensus is $19.33 [3], down 1.0% over 90 days, with 2 analysts raising and none cutting in the last 30 days [3]. It sits 1.7% above the $19 floor, and the analyst range runs from $17.47 to $22.44 [3]. FY2026 EPS consensus is $11.65 against $11.62 90 days earlier [3]. At $300.86 the forward P/E is 25.8x on FY2026 [3], well below the 40x invalidation level. All four last quarters beat EPS estimates by 1.3% to 4.4% [3]."
+    }
+  ],
+  "risk_update": "Concentration risk has materialised. The top five end customers were about 50% of revenue in Q1 and 45% in Q2, against 40% a year earlier, and one distributor customer was 42% against 29% [2]. A new risk is the AI XPV platform. In June 2026 Broadcom launched it with an initial $35 billion tranche led by a financial partner, and it carries a backstop of up to about $29 billion undiscounted, with no amounts paid [2]. In a customer default, the backstop liability is the gap between 85% of the outstanding lease amount and the value of the racks [2]. The filing says customers' access to financing is a risk to demand [2]. Eased risks: total debt fell to $59,419 million at Q3 from $65,136 million at FY2025 year end, and net cash debt improved to $35,444 million [2][3]. Margin risk has not materialised so far, since GAAP gross margin held at 68-70% [2]. Not updated from the releases: the global minimum tax and the VMware tax exposure.",
+  "outlook": "Management guides Q4 FY2026 revenue to about $34.8 billion (+93%) and non-GAAP operating margin to about 66% [1]. Consensus FY2026 revenue of $105,978 million [3] is consistent with the year to date plus that guide. FY2027 consensus is $174,745 million of revenue (+64.9%) and $19.33 of EPS, at 15.6x forward earnings [3]. The reverse DCF implies 26.6% annual revenue growth for ten years at the current enterprise value [2], so the consensus path is well above the market-implied path after FY2027. Watch for: the fiscal 2026 10-K in December 2026, where the software operating income signpost (25%) and the semiconductor signpost (40%) are tested; Q4 gross margin against the 66% floor; top-five customer share, which was not reported for Q3 in the 10-Q extract reviewed; the AI XPV backstop if the customer's lease payments slip; and FY2027 EPS consensus against the $19 floor. This view is wrong if FY2027 EPS consensus falls below $19 or if semiconductor growth drops below 20% in any quarter.",
+  "company_kpis": [
+    {
+      "name": "Semiconductor solutions revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 12515,
+        "Q2 FY2026": 15009,
+        "Q3 FY2026": 20839
+      },
+      "prior_values": {
+        "Q1 FY2026": 8212,
+        "Q2 FY2026": 8408,
+        "Q3 FY2026": 9166
+      },
+      "source": "[1] earnings releases; prior-year quarters from the same releases"
+    },
+    {
+      "name": "Infrastructure software revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 6796,
+        "Q2 FY2026": 7178,
+        "Q3 FY2026": 8752
+      },
+      "prior_values": {
+        "Q1 FY2026": 6704,
+        "Q2 FY2026": 6596,
+        "Q3 FY2026": 6786
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "GAAP gross margin (as stated in 10-Q)",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 68,
+        "Q2 FY2026": 69,
+        "Q3 FY2026": 69
+      },
+      "prior_values": {
+        "Q1 FY2026": 68,
+        "Q2 FY2026": 68,
+        "Q3 FY2026": 67
+      },
+      "source": "[2] 10-Q MD&A percentage of net revenue table"
+    },
+    {
+      "name": "Free cash flow",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 8010,
+        "Q2 FY2026": 10262,
+        "Q3 FY2026": 13665
+      },
+      "prior_values": {
+        "Q1 FY2026": 6013,
+        "Q2 FY2026": 6411,
+        "Q3 FY2026": 7024
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "GAAP diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1.5,
+        "Q2 FY2026": 1.91,
+        "Q3 FY2026": 2.68
+      },
+      "prior_values": {
+        "Q1 FY2026": 1.14,
+        "Q2 FY2026": 1.03,
+        "Q3 FY2026": 0.85
+      },
+      "source": "[1] earnings releases"
+    }
+  ]
+}

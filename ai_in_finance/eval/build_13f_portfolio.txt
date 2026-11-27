@@ -1,0 +1,63 @@
+40 Quartale: 2016-12-31 bis 2026-09-30
+  Meldung 1/40: Quartal 2016-12-31
+  Meldung 2/40: Quartal 2017-03-31
+  Meldung 3/40: Quartal 2017-06-30
+  Meldung 4/40: Quartal 2017-09-30
+  Meldung 5/40: Quartal 2017-12-31
+  Meldung 6/40: Quartal 2018-03-31
+  Meldung 7/40: Quartal 2018-06-30
+  Meldung 8/40: Quartal 2018-09-30
+  Meldung 9/40: Quartal 2018-12-31
+  Meldung 10/40: Quartal 2019-03-31
+  Meldung 11/40: Quartal 2019-06-30
+  Meldung 12/40: Quartal 2019-09-30
+  Meldung 13/40: Quartal 2019-12-31
+  Meldung 14/40: Quartal 2020-03-31
+  Meldung 15/40: Quartal 2020-06-30
+  Meldung 16/40: Quartal 2020-09-30
+  Meldung 17/40: Quartal 2020-12-31
+  Meldung 18/40: Quartal 2021-03-31
+  Meldung 19/40: Quartal 2021-06-30
+  Meldung 20/40: Quartal 2021-09-30
+  Meldung 21/40: Quartal 2021-12-31
+  Meldung 22/40: Quartal 2022-03-31
+  Meldung 23/40: Quartal 2022-06-30
+  Meldung 24/40: Quartal 2022-09-30
+  Meldung 25/40: Quartal 2022-12-31
+  Meldung 26/40: Quartal 2023-03-31
+  Meldung 27/40: Quartal 2023-06-30
+  Meldung 28/40: Quartal 2023-09-30
+  Meldung 29/40: Quartal 2023-12-31
+  Meldung 30/40: Quartal 2024-03-31
+  Meldung 31/40: Quartal 2024-06-30
+  Meldung 32/40: Quartal 2024-09-30
+  Meldung 33/40: Quartal 2024-12-31
+  Meldung 34/40: Quartal 2025-03-31
+  Meldung 35/40: Quartal 2025-06-30
+  Meldung 36/40: Quartal 2025-09-30
+  Meldung 37/40: Quartal 2025-12-31
+  Meldung 38/40: Quartal 2026-03-31
+  Meldung 39/40: Quartal 2026-06-30
+  Meldung 40/40: Quartal 2026-09-30
+Pruefe Yahoo-Kurse fuer 19 Ticker ...
+Ohne Yahoo-Kurse (uebersprungen): AZPN
+Lade Kurse fuer 18 Ticker ...
+Depotwert (Variante Quartalsende, in USD-Kursen): Start 100,000, heute ca. 436,657
+sample_transactions_vfc_quarter.csv: 313 Buchungen
+sample_transactions_vfc_filed.csv: 310 Buchungen
+{
+ "cik": "1697868",
+ "quarters": 40,
+ "first": "2016-12-31",
+ "last": "2026-09-30",
+ "last_filed": "2026-11-16",
+ "start_value": 100000,
+ "value_today_usd": 436657,
+ "unmatched": [],
+ "no_prices": [
+  "AZPN"
+ ],
+ "created": "2026-11-26 09:33"
+}
+Zuordnung CUSIP -> Ticker: {'ASPEN TECHNOLOGY INC': None, 'INTUIT': 'INTU', 'MASTERCARD INCORPORATED': 'MA', 'MONSTER BEVERAGE CORP NEW': 'MNST', 'MOODYS CORP': 'MCO', 'NIKE INC': 'NKE', 'S&P GLOBAL INC': 'SPGI', 'VISA INC': 'V', 'EQUIFAX INC': 'EFX', 'FACEBOOK INC': 'META', 'AMAZON COM INC': 'AMZN', 'FAIR ISAAC CORP': 'FICO', 'AUTODESK INC': 'ADSK', 'ADOBE INC': 'ADBE', 'ASML HOLDING N V': 'ASML', 'MSCI INC': 'MSCI', 'BROADCOM INC': 'AVGO', 'NVIDIA CORPORATION': 'NVDA', 'TAIWAN SEMICONDUCTOR MANUFAC': 'TSM'}
+Endbestand (heutige Stueckzahlen): {'AMZN': 122.59, 'ASML': 35.95, 'AVGO': 81.95, 'FICO': 110.38, 'MA': 29.23, 'MCO': 157.12, 'NVDA': 111.4, 'SPGI': 240.15, 'TSM': 51.53, 'V': 41.07}

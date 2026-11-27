@@ -22,6 +22,7 @@ import autogen
 from finrobot.toolkits import register_toolkits
 
 from . import quarterly_data as qd
+from .style import STYLE_RULES
 from .outlook_tools import get_consensus_and_liquidity
 
 STATUSES = ("intact", "strengthened", "weakened", "broken")
@@ -520,7 +521,7 @@ SYSTEM = dedent("""
     Your job: explain what changed since the annual report, judge whether each investment thesis still holds, and keep
     every number traceable to the sources. Never invent figures, companies or guidance; if a tool returns no data, say so.
     Use tools one at a time. Reply TERMINATE when the update is built.
-""").strip()
+""").strip() + "\n" + STYLE_RULES
 
 
 def build_reviewer(llm_config, max_rounds=25):

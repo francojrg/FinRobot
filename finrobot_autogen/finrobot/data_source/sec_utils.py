@@ -1,4 +1,5 @@
 import os
+import re
 import html
 import requests
 from sec_api import ExtractorApi, QueryApi, RenderApi
@@ -12,13 +13,35 @@ CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".cache")
 PDF_GENERATOR_API = "https://api.sec-api.io/filing-reader"
 
 
+def _edgar_10k_section(url, ticker, fyear, section):
+    """Item eines 10-K aus dem EDGAR-Dokument: Item-Ueberschrift, sonst Abschnittsueberschrift/Stichworte; None, wenn
+    nichts Brauchbares gefunden wird."""
+    try:
+        from .edgar_sections import fetch_text, section as item_section
+        from .annual_20f import SECTIONS, _by_heading, _by_keywords
+        full = fetch_text(url, os.path.join(CACHE_PATH, "sec_utils", "full", f"{ticker}_{fyear}_10k.txt"))
+    except Exception:
+        return None
+    seg = item_section(full, section)
+    if seg:
+        return f"[Item {section} of the 10-K; extracted from the EDGAR filing by item heading]\n" + seg
+    spec = SECTIONS.get(str(section).upper())
+    if spec:
+        for method, fn in (("section heading", _by_heading), ("keyword selection", _by_keywords)):
+            seg = fn(full, spec)
+            if seg:
+                return f"[Item {section} of the 10-K; located by {method}]\n" + seg[:100_000]
+    return None
+
+
 def init_sec_api(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         global extractor_api, query_api, render_api
         if os.environ.get("SEC_API_KEY") is None:
-            print("Please set the environment variable SEC_API_KEY to use sec_api.")
-            return None
+            # ohne sec-api-Schluessel weiter: 10-K/20-F-Abschnitte kommen aus EDGAR (edgar_sections, annual_20f)
+            extractor_api = query_api = render_api = None
+            return func(*args, **kwargs)
         else:
             extractor_api = ExtractorApi(os.environ["SEC_API_KEY"])
             query_api = QueryApi(os.environ["SEC_API_KEY"])
@@ -174,9 +197,12 @@ class SECUtils:
         #     with open(report_name, "r") as f:
         #         section_text = f.read()
         # else:
+        form = "10-K"
         if report_address is None:
             report_address = FMPUtils.get_sec_report(ticker_symbol, fyear)
             if report_address.startswith("Link: "):
+                m_form = re.search(r"Form: (\S+)", report_address)
+                form = m_form.group(1) if m_form else "10-K"
                 report_address = report_address.lstrip("Link: ").split()[0]
             else:
                 return report_address  # debug info
@@ -187,8 +213,24 @@ class SECUtils:
         if os.path.exists(cache_path):
             with open(cache_path, "r", encoding="utf-8") as f:
                 section_text = html.unescape(f.read())
+        elif form.replace("/A", "") in ("20-F", "40-F"):
+            # Auslaendische Emittenten: sec-api zerlegt keine 20-F, eigene Zerlegung (annual_20f.py)
+            from .annual_20f import extract, filing_text
+            full = filing_text(report_address, ticker_symbol, fyear, os.path.join(CACHE_PATH, "sec_utils"))
+            section_text = extract(full, section)
+            os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+            with open(cache_path, "w", encoding="utf-8") as f:
+                f.write(section_text)
         else:
-            section_text = html.unescape(extractor_api.get_section(report_address, section, "text"))  # HTML-Entities wie &#8220; in Text umwandeln
+            # 10-K: eigene Zerlegung des EDGAR-Dokuments (edgar_sections.py); sec-api nur als Rueckfall, weil dessen
+            # kostenloses Kontingent auf 100 Abrufe begrenzt ist
+            section_text = _edgar_10k_section(report_address, ticker_symbol, fyear, section)
+            if section_text is None:
+                try:
+                    section_text = html.unescape(extractor_api.get_section(report_address, section, "text"))
+                except Exception as e:
+                    return (f"(Item {section} of the {form} could not be extracted: not found in the EDGAR document, "
+                            f"and the sec-api fallback failed: {str(e)[:120]})")
             os.makedirs(os.path.dirname(cache_path), exist_ok=True)
             with open(cache_path, "w", encoding="utf-8") as f:
                 f.write(section_text)

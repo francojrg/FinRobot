@@ -121,6 +121,156 @@ def _momentum_chart(mo, path, color):
     return path
 
 
+def _num_cell(v):
+    """Tabellenwert ('62.3%', '1,234', 25.4, 'n/m') als float oder None."""
+    try:
+        return float(str(v).replace("%", "").replace(",", "").strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _revenue_margin_chart(metrics, con, path, color):
+    """Zwei kleine Panels (keine zweite y-Achse): links Umsatz je Geschaeftsjahr, Konsensjahre heller;
+    rechts EBITDA-Marge. Werte aus der Kennzahlentabelle (Yahoo) und dem Konsens (Yahoo)."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    years = [c for c in sorted(metrics.columns)]
+    rev = [_num_cell(metrics.at["Revenue", c]) if "Revenue" in metrics.index else None for c in years]
+    mar = [_num_cell(metrics.at["EBITDA Margin", c]) if "EBITDA Margin" in metrics.index else None for c in years]
+    est = [(f"{y['fy']}E", y["rev"]) for y in (con or {}).get("years", []) if y.get("rev")]
+    labels = [f"FY{str(c)[-2:]}" for c in years] + [f"FY{e[0][2:4]}E" for e in est]
+    vals = rev + [e[1] for e in est]
+    if not any(v for v in vals):
+        return None
+    tint = _tint(color, 0.55)
+    plt.rcParams.update({"font.size": 8})
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(9.2, 2.7), gridspec_kw={"width_ratios": [1.5, 1]})
+    big = max(v or 0 for v in vals) >= 10_000
+    scale, unit = (1000, "bn") if big else (1, "mn")
+    xs = range(len(labels))
+    a1.bar(xs, [(v or 0) / scale for v in vals], width=0.55,
+           color=[color] * len(rev) + [tint] * len(est), edgecolor="white", linewidth=1)
+    for x, v in zip(xs, vals):
+        if v:
+            a1.text(x, v / scale, f"{v / scale:,.1f}" if big else f"{v:,.0f}", ha="center", va="bottom", fontsize=7,
+                    color="#333")
+    a1.set_xticks(list(xs))
+    a1.set_xticklabels(labels)
+    a1.set_title(f"Revenue ({unit}, reporting currency; E = consensus)", loc="left", fontsize=8.5)
+    pts = [(i, m) for i, m in enumerate(mar) if m is not None]
+    if pts:
+        a2.plot([p[0] for p in pts], [p[1] for p in pts], color=color, marker="o", lw=1.8, ms=4)
+        for i, m in pts:
+            a2.text(i, m, f"{m:.1f}%", ha="center", va="bottom", fontsize=7, color="#333")
+        lo, hi = min(p[1] for p in pts), max(p[1] for p in pts)
+        a2.set_ylim(min(0, lo - 5), hi + max(5, (hi - lo) * 0.3))
+    a2.set_xticks(range(len(years)))
+    a2.set_xlim(-0.5, len(years) - 0.5)
+    a2.set_xticklabels([f"FY{str(c)[-2:]}" for c in years])
+    a2.set_title("EBITDA margin (%)", loc="left", fontsize=8.5)
+    for ax in (a1, a2):
+        for sp in ("top", "right"):
+            ax.spines[sp].set_visible(False)
+        ax.spines["left"].set_color("#bbb")
+        ax.spines["bottom"].set_color("#bbb")
+        ax.tick_params(colors="#444")
+        ax.yaxis.grid(True, color="#eee")
+        ax.set_axisbelow(True)
+    plt.tight_layout()
+    plt.savefig(path, dpi=200)
+    plt.close(fig)
+    return path
+
+
+def _leverage_table(ticker_symbol, max_fy, n=3):
+    """Verschuldung und Deckung je Geschaeftsjahr aus den Yahoo-Abschluessen: [(Jahr, {kennzahl: wert})]."""
+    import pandas as pd
+    try:
+        inc, bs = YFinanceUtils.get_income_stmt(ticker_symbol), YFinanceUtils.get_balance_sheet(ticker_symbol)
+    except Exception:
+        return []
+
+    def g(df, names, c):
+        for nm in names:
+            if df is not None and nm in df.index and c in df.columns and pd.notna(df.at[nm, c]):
+                return float(df.at[nm, c])
+        return None
+    cols = sorted([c for c in inc.columns if c in bs.columns and (max_fy is None or pd.Timestamp(c).year <= max_fy)])[-n:]
+    out = []
+    for c in cols:
+        ebitda = g(inc, ["EBITDA", "Normalized EBITDA"], c)
+        ebit = g(inc, ["EBIT", "Operating Income"], c)
+        intr = g(inc, ["Interest Expense", "Interest Expense Non Operating"], c)
+        debt = g(bs, ["Total Debt"], c) or 0.0
+        cash = g(bs, ["Cash Cash Equivalents And Short Term Investments", "Cash And Cash Equivalents"], c) or 0.0
+        ca, cl = g(bs, ["Current Assets"], c), g(bs, ["Current Liabilities"], c)
+        eq, ta = g(bs, ["Stockholders Equity", "Common Stock Equity"], c), g(bs, ["Total Assets"], c)
+        nd = debt - cash
+        out.append((pd.Timestamp(c).year, {
+            "nd_ebitda": None if not ebitda or ebitda <= 0 else nd / ebitda,
+            "coverage": None if not intr or not ebit or abs(intr) < 1 else ebit / abs(intr),
+            "current": None if not ca or not cl else ca / cl,
+            "equity_ratio": None if not eq or not ta else eq / ta,
+            "net_debt": nd}))
+    return out
+
+
+def _kpi_strip(ticker_symbol, info, metrics, own_fy, con, theses, usable, PANEL, NAVY, cell):
+    """Sechs Kacheln: Kurs, Boersenwert, EV/EBITDA, FCF-Rendite, vom Kurs eingepreistes Wachstum, Thesen."""
+    from reportlab.lib.units import cm
+    from .outlook import reverse_dcf, _fx_to_fin
+    cur = info.get("currency") or "USD"
+    sym = {"USD": "$", "EUR": "€", "GBP": "£", "TWD": "NT$"}.get(cur, cur + " ")
+    price = info.get("currentPrice") or info.get("regularMarketPrice")
+    lo, hi = info.get("fiftyTwoWeekLow"), info.get("fiftyTwoWeekHigh")
+    mc = info.get("marketCap")
+    big = lambda v: "n/a" if not v else (f"{sym}{v / 1e12:,.2f} tn" if v >= 1e12 else f"{sym}{v / 1e9:,.0f} bn")
+    ev_row = [(_num_cell(metrics.at["EV/EBITDA", c]), c) for c in sorted(metrics.columns)] if "EV/EBITDA" in metrics.index else []
+    ev_vals = [v for v, _ in ev_row if v is not None]
+    ev_now = ev_row[-1][0] if ev_row else None
+    fcf = _num_cell(metrics.at["FCF", own_fy]) if "FCF" in metrics.index and own_fy in metrics.columns else None
+    fx = _fx_to_fin(info)
+    mc_fin = mc * fx / 1e6 if mc and fx else None
+    fcf_y = fcf / mc_fin if fcf is not None and mc_fin else None
+    try:
+        rd = reverse_dcf(ticker_symbol, fy=int(own_fy)) if str(own_fy).isdigit() else {"error": "n/a"}
+    except Exception:
+        rd = {"error": "n/a"}
+    g = rd.get("implied_g") if not rd.get("error") and isinstance(rd.get("implied_g"), float) else None
+    cg = (con.get("years") or [{}])[0].get("growth") if con else None
+    tiles = [
+        ("Price", f"{sym}{price:,.2f}" if price else "n/a", f"52w {lo:,.0f}–{hi:,.0f}" if lo and hi else ""),
+        ("Market cap", big(mc), cur),
+        (f"EV/EBITDA FY{str(own_fy)[-2:]}", f"{ev_now:.1f}x" if ev_now else "n/a",
+         f"avg. {len(ev_vals)}y {sum(ev_vals) / len(ev_vals):.1f}x" if len(ev_vals) > 1 else ""),
+        ("FCF yield", f"{fcf_y * 100:.1f}%" if fcf_y is not None else "n/a", "FCF / market cap"),
+        ("Price implies", f"{g * 100:.1f}% p.a." if g is not None else "n/a",
+         (f"consensus {cg * 100:.1f}%" if cg is not None else "10y revenue growth")),
+        ("Theses", str(len(theses or [])), "signposts p. 2"),
+    ]
+    lab = ParagraphStyle("KpiL", parent=cell, fontSize=6.8, leading=8, textColor=colors.HexColor("#5A6472"))
+    val = ParagraphStyle("KpiV", parent=cell, fontName="Helvetica-Bold", fontSize=11.5, leading=13.5, textColor=NAVY)
+    sub_ = ParagraphStyle("KpiS", parent=cell, fontSize=6.6, leading=8, textColor=colors.HexColor("#5A6472"))
+    cells = [[Paragraph(l_, lab), Paragraph(v_, val), Paragraph(s_, sub_)] for l_, v_, s_ in tiles]
+    gap = 0.18 * cm
+    w = (usable - 5 * gap) / 6
+    row, widths = [], []
+    for i, c_ in enumerate(cells):
+        row.append(c_)
+        widths.append(w)
+        if i < 5:
+            row.append("")
+            widths.append(gap)
+    t = Table([row], colWidths=widths)
+    style = [("VALIGN", (0, 0), (-1, -1), "TOP"), ("TOPPADDING", (0, 0), (-1, -1), 4),
+             ("BOTTOMPADDING", (0, 0), (-1, -1), 4), ("LEFTPADDING", (0, 0), (-1, -1), 5),
+             ("RIGHTPADDING", (0, 0), (-1, -1), 3)]
+    style += [("BACKGROUND", (2 * i, 0), (2 * i, 0), PANEL) for i in range(6)]
+    t.setStyle(TableStyle(style))
+    return t
+
+
 def reset_build_rounds():
     """Vor jedem neuen Agenten-Lauf aufrufen (zaehlt die PDF-Builds je Datei)."""
     _BUILD_ROUNDS.clear()
@@ -179,6 +329,26 @@ def _paragraphs(text, style):
     for para in [p.strip() for p in text.split("\n") if p.strip()]:
         out.append(Paragraph(_html.escape(para, quote=False), style))
     return out
+
+
+def _annual_form(ticker_symbol, filing_date):
+    """'10-K' oder bei auslaendischen Emittenten '20-F'/'40-F' (fuer Beschriftungen)."""
+    return ((_tenk_reference(ticker_symbol, filing_date) or {}).get("form") or "10-K").replace("/A", "")
+
+
+def _tenk_method(ticker_symbol, tenk):
+    """Wie die 10-K-Abschnitte gewonnen wurden (Quellenverzeichnis): eigene EDGAR-Zerlegung oder frueher sec-api.io."""
+    try:
+        from ..data_source.sec_utils import CACHE_PATH
+        fy = str((tenk or {}).get("report_date") or "")[:4]
+        p_ = os.path.join(CACHE_PATH, "sec_utils", f"{ticker_symbol}_{fy}_7.txt")
+        if os.path.exists(p_):
+            with open(p_, encoding="utf-8") as f_:
+                if f_.read(1) == "[":
+                    return "Items 1, 1A and 7 parsed from the EDGAR document"
+    except Exception:
+        pass
+    return "Items 1, 1A and 7 retrieved via sec-api.io"
 
 
 def _tenk_reference(ticker_symbol, filing_date):
@@ -260,16 +430,32 @@ def _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics
         with open(f, encoding="utf-8", errors="ignore") as fh:
             s1.add_text(fh.read())
 
+    def _df(src, df, prefix="", raw_usd=False):
+        """Tabellenwerte mit Zeilen- und Spaltenname als Notiz (Kontext fuer den Faktencheck und den Tooltip)."""
+        for row in df.index:
+            for col in df.columns:
+                v = df.at[row, col]
+                col_s = str(col)[:10] if hasattr(col, "year") else str(col)
+                note = f"{prefix}{row} {col_s}: "
+                if raw_usd:
+                    try:
+                        src.add_raw_usd(v, note=note + f"{float(v):,.0f} USD")
+                    except (TypeError, ValueError):
+                        pass
+                else:
+                    src.add_value(v, note=note + str(v))
+
     s2 = SourceIndex("[2] Yahoo Finance")
     for getter in (YFinanceUtils.get_income_stmt, YFinanceUtils.get_balance_sheet, YFinanceUtils.get_cash_flow):
         try:
-            df = getter(ticker_symbol)
-            for v in df.values.flatten():
-                s2.add_raw_usd(v)
+            _df(s2, getter(ticker_symbol), raw_usd=True)
         except Exception:
             pass
-    for v in metrics.values.flatten():
-        s2.add_value(v)
+    try:
+        _df(s2, metrics)
+    except Exception:
+        for v in metrics.values.flatten():
+            s2.add_value(v)
     for v in key_data.values():
         s2.add_text(str(v))
     try:
@@ -283,12 +469,14 @@ def _collect_sources(ticker_symbol, filing_date, metrics, key_data, peer_metrics
 
     s4 = SourceIndex("[4] Peer data")
     for sym, df in peer_metrics.items():
-        for v in df.values.flatten():
-            s4.add_value(v)
+        try:
+            _df(s4, df, prefix=f"{sym} ")
+        except Exception:
+            for v in df.values.flatten():
+                s4.add_value(v)
         try:
             for getter in (YFinanceUtils.get_income_stmt, YFinanceUtils.get_cash_flow):
-                for v in getter(sym).values.flatten():
-                    s4.add_raw_usd(v)
+                _df(s4, getter(sym), prefix=f"{sym} ", raw_usd=True)
         except Exception:
             pass
     return [s1, s2, s4], len(files)
@@ -388,12 +576,12 @@ def _build_report_v3(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
     info = YFinanceUtils.get_stock_info(ticker_symbol) or {}
     name = info.get("shortName") or info.get("longName") or ticker_symbol
-    currency = info.get("currency", "USD")
+    currency = info.get("financialCurrency") or info.get("currency", "USD")   # Abschluss-, nicht Handelswaehrung (ADR)
 
     content = [
         Paragraph("EQUITY RESEARCH REPORT", over),
         Paragraph(f"{name} ({ticker_symbol})", title),
-        Paragraph(f"Based on the 10-K filed {filing_date} [1] &nbsp;|&nbsp; generated with {REPORT_BRAND}"
+        Paragraph(f"Based on the {_annual_form(ticker_symbol, filing_date)} filed {filing_date} [1] &nbsp;|&nbsp; generated with {REPORT_BRAND}"
                   + ("" if "FinRobot" in REPORT_BRAND else " (built on FinRobot)"), sub),
     ]
 
@@ -508,11 +696,17 @@ def _build_report_v3(ticker_symbol, pdf_path, summary, sections, share_img, val_
     # --- Quellenverzeichnis ---------------------------------------------------
     today = date.today().isoformat()
     tenk = _tenk_reference(ticker_symbol, filing_date)
+    form_ = (tenk or {}).get("form", "10-K")
+    how_ = ("Items 4, 3D and 5 parsed from the EDGAR document" if form_.startswith(("20-F", "40-F"))
+            else _tenk_method(ticker_symbol, tenk))
     if tenk:
-        r1 = (f"{name}, Form 10-K for the fiscal year ended {tenk.get('report_date', 'n/a')}, filed {tenk.get('filing_date')}, "
-              f"SEC EDGAR, {tenk.get('url')} (Items 1, 1A and 7 retrieved via sec-api.io).")
+        u_ = str(tenk.get("url") or "")
+        from xml.sax.saxutils import escape as _xe
+        link_ = f"<link href='{_xe(u_)}' color='#185FA5'><u>{_xe(u_)}</u></link>" if u_.startswith("https://") else _xe(u_)
+        r1 = (f"{name}, Form {form_} for the fiscal year ended {tenk.get('report_date', 'n/a')}, filed {tenk.get('filing_date')}, "
+              f"SEC EDGAR, {link_} ({how_}).")
     else:
-        r1 = f"{name}, Form 10-K filed {filing_date}, SEC EDGAR (Items 1, 1A and 7 retrieved via sec-api.io)."
+        r1 = f"{name}, Form {form_} filed {filing_date}, SEC EDGAR ({how_})."
     refs = [
         r1,
         f"Yahoo Finance: annual financial statements and daily share prices for {ticker_symbol}, retrieved {today} via yfinance.",
@@ -619,7 +813,7 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
 
     info = YFinanceUtils.get_stock_info(ticker_symbol) or {}
     name = info.get("shortName") or info.get("longName") or ticker_symbol
-    currency = info.get("currency", "USD")
+    currency = info.get("financialCurrency") or info.get("currency", "USD")   # Abschluss-, nicht Handelswaehrung (ADR)
     sector = " / ".join(x for x in [info.get("sector"), info.get("industry")] if x) or "Equity Research"
     exchange = info.get("exchange") or ""
     import re as _re
@@ -627,16 +821,19 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     first_sentence = _re.sub(r"\s*\[\d+\](\[\d+\])*", "", first_sentence)
 
     content = [
-        Paragraph(f"{name} <font size=12 color='#5A6472'>({ticker_symbol}{', ' + exchange if exchange else ''})</font>", title),
-        Paragraph(first_sentence, headline),
-        Paragraph(f"Based on the 10-K filed {filing_date} [1] &nbsp;|&nbsp; {sector} &nbsp;|&nbsp; Generated by {REPORT_BRAND}", sub),
+        Paragraph(f"{_esc(name)} <font size=12 color='#5A6472'>({ticker_symbol}{', ' + exchange if exchange else ''})</font>", title),
+        Paragraph(_esc(first_sentence), headline),
+        Paragraph(f"Based on the {_annual_form(ticker_symbol, filing_date)} filed {filing_date} [1] &nbsp;|&nbsp; {_esc(sector)} &nbsp;|&nbsp; Generated by {_esc(REPORT_BRAND)}", sub),
     ]
 
     # --- Seite 1: links Text, rechts Charts und Key Data -------------------
     gap = 0.5 * cm
     left_w = usable * 0.52
     right_w = usable - left_w - gap
-    row_h = 15.0 * cm
+    # Hoehe des Kastens: 13.7 cm bei einzeiliger Kopfzeile; jede weitere Zeile von Schlagzeile/Unterzeile zieht ab,
+    # damit Exhibit 3 auf Seite 1 bleibt (sonst steht es allein auf Seite 2)
+    extra = sum(p_.wrap(usable, 10 * cm)[1] for p_ in content[1:3]) - (headline.leading + sub.leading)
+    row_h = max(11.0 * cm, 13.7 * cm - max(0.0, extra))
 
     from reportlab.platypus import HRFlowable
 
@@ -658,7 +855,7 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     short = lambda k, v: str(v).split(", current")[0].replace("range ", "") if k == "Target Price" else str(v)
     labels = {"52 Week Price Range (USD)": "52-week range (USD)", "6m avg daily vol (USDmn)": "6m avg. daily vol. (USD mn)",
               "Market Cap (USDmn)": "Market cap (USD mn)", "Closing Price (USD)": "Closing price (USD)",
-              "Target Price": "Target price (USD)"}
+              "Target Price": "Consensus target (USD)", "Rating": "Consensus rating"}
     kd_rows += [[Paragraph(labels.get(k, str(k)), cell), Paragraph(short(k, v), cell_r)] for k, v in key_data.items()]
     kd = Table(kd_rows, colWidths=[inner * 0.52, inner * 0.48])
     kd.setStyle(TableStyle(line.getCommands() + [("SPAN", (0, 0), (-1, 0)), ("BACKGROUND", (0, 1), (-1, -1), colors.white),
@@ -738,7 +935,7 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
             vals["Revenue"] = round(y["rev"])
         if y["growth"] is not None:
             vals["Revenue Growth"] = f"{round(y['growth'] * 100, 1)}%"
-        if y["eps"] is not None:
+        if y["eps"] is not None and con.get("eps_comparable", True):   # ADR-EPS in USD passt nicht zur EUR-Historie
             vals["EPS (diluted)"] = f"{y['eps']:.2f}"
         if y["ev_sales"] is not None:
             vals["EV/Sales"] = round(y["ev_sales"], 2)
@@ -774,6 +971,14 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     content += [KeepTogether([exhibit(3, "Financial metrics and consensus estimates" if con["years"] else "Financial metrics"),
                               fm, source(fm_note)]),
                 PageBreak()]
+    # --- Kennzahlenleiste unter dem Titel (deterministisch, Quellen [2][3]) --
+    try:
+        strip = _kpi_strip(ticker_symbol, info, metrics, own_fy, con, theses, usable, PANEL, NAVY, cell)
+        if strip is not None:
+            content.insert(3, strip)
+            content.insert(4, Spacer(1, 0.25 * cm))
+    except Exception as e_:
+        print(f"Kennzahlenleiste nicht erstellt: {e_}")
 
     # --- Ab Seite 2: Abschnitte ---------------------------------------------
     sec = dict(sections)
@@ -852,6 +1057,17 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
                              "free cash flow is the trailing twelve months.")
                 content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Liquidity and funding"), tb, source(note)])]
             try:
+                img_rm = _revenue_margin_chart(metrics, con, os.path.splitext(pdf_path)[0] + "_revenue_margin.png",
+                                               REPORT_COLOR)
+            except Exception as e_:
+                img_rm = None
+                print(f"Umsatz-Margen-Chart nicht erstellt: {e_}")
+            if img_rm:
+                content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Revenue and EBITDA margin"),
+                                          _scaled_image(img_rm, usable, 6.0 * cm),
+                                          source(f"Yahoo Finance [2]; E = analyst consensus (mean) [3], retrieved "
+                                                 f"{date.today().isoformat()}. Revenue in {currency}.")])]
+            try:
                 mo = estimate_momentum(ticker_symbol)
             except Exception:
                 mo = {"error": "n/a", "trend": [], "surprises": []}
@@ -868,6 +1084,23 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
                     content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Earnings momentum: estimate revisions and surprises"),
                                               chart, source(note)])]
         if sec_title == "Risk Assessment":
+            lev = _leverage_table(ticker_symbol, int(own_fy) if own_fy.isdigit() else None)
+            if lev:
+                xf = lambda v: "n/a" if v is None else (f"{v:.1f}x" if v >= 0 else "net cash")
+                spec_l = [("Net debt / EBITDA", "nd_ebitda", xf),
+                          ("Interest coverage (EBIT / interest)", "coverage", lambda v: "n/a" if v is None else f"{v:.0f}x"),
+                          ("Current ratio", "current", lambda v: "n/a" if v is None else f"{v:.1f}"),
+                          ("Equity ratio (equity / total assets)", "equity_ratio",
+                           lambda v: "n/a" if v is None else f"<i>{v * 100:.0f}%</i>")]
+                rows = [[Paragraph(c_, cell_w if i == 0 else cell_wr) for i, c_ in
+                         enumerate(["Leverage and coverage"] + [f"FY{y_}" for y_, _ in lev])]]
+                for lab_, key_, f_ in spec_l:
+                    rows.append([Paragraph(lab_, cell)] + [Paragraph(f_(d_[key_]), cell_r) for _, d_ in lev])
+                tb = Table(rows, colWidths=[usable * 0.40] + [usable * 0.15] * len(lev), hAlign="LEFT")
+                tb.setStyle(TableStyle(line.getCommands()))
+                content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Balance sheet: leverage and coverage"), tb,
+                                          source("Yahoo Finance [2], own calculations. Net debt = total debt - cash and "
+                                                 "short-term investments; 'net cash' if negative. n/a: item not reported.")])]
             try:
                 q = quality_scores(ticker_symbol, fy=int(own_fy)) if own_fy.isdigit() else {"error": "n/a"}
             except Exception:
@@ -910,8 +1143,16 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
                         "earnings manipulation, not proof.")
                 content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Financial quality scores"), row_, source(note)])]
         if sec_title == "Competitors Analysis" and peer_metrics:
-            cols = ["Company", "FY", f"Sales ({currency} mn)", "Growth", "Gross margin", "EBITDA margin",
-                    "FCF margin", "EV/ Sales", "Fwd EV/ Sales", "P/B"]
+            def _cur(t_):
+                try:
+                    import yfinance as yf
+                    return (yf.Ticker(t_).info or {}).get("financialCurrency") or "USD"
+                except Exception:
+                    return "USD"
+            curs = {t_: _cur(t_) for t_ in [ticker_symbol] + list(peer_metrics)}
+            mixed = len(set(curs.values())) > 1          # z. B. ASML (EUR) gegen US-Peers (USD)
+            cols = ["Company", "FY", "Sales (mn)" if mixed else f"Sales ({currency} mn)", "Growth", "Gross margin",
+                    "EBITDA margin", "FCF margin", "EV/ Sales", "Fwd EV/ Sales", "P/B"]
             hdr_s = ParagraphStyle("PeerHdrV5", parent=cell_wr, fontSize=7.2, leading=8.6)
             rows = [[Paragraph(c, cell_w if i == 0 else hdr_s) for i, c in enumerate(cols)]]
 
@@ -922,7 +1163,8 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
                 except Exception:
                     return "n/a"
             for t_, m_ in [(ticker_symbol, metrics)] + list(peer_metrics.items()):
-                vals = [f"{names.get(t_, t_)} ({t_})", str(sorted(m_.columns)[-1]), _latest(m_, "Revenue"),
+                vals = [f"{names.get(t_, t_)} ({t_})" + (f" · {curs.get(t_)}" if mixed else ""),
+                        str(sorted(m_.columns)[-1]), _latest(m_, "Revenue"),
                         _latest(m_, "Revenue Growth"), _latest(m_, "Gross Margin"), _latest(m_, "EBITDA Margin"),
                         _fcf_margin(m_), _latest(m_, "EV/Sales"), _fwd(t_), _latest(m_, "PB Ratio")]
                 bold = t_ == ticker_symbol
@@ -935,9 +1177,32 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
             tb.setStyle(TableStyle(line.getCommands() + [("BACKGROUND", (0, 1), (-1, 1), PANEL)]))
             note = ("Yahoo Finance [2][4], own calculations. Fiscal year ends can differ between companies. "
                     "Fwd EV/Sales: current enterprise value / consensus revenue for the current fiscal year [3].")
+            if mixed:
+                note += (" Sales in each company's reporting currency (shown after the name); ratios are currency-neutral "
+                         "(market values converted into the reporting currency).")
             if peer_errors:
                 note += " Not available: " + "; ".join(peer_errors)
             content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Peer comparison, latest fiscal year"), tb, source(note)])]
+            hist_rows = [[Paragraph(c_, cell_w if i == 0 else cell_wr) for i, c_ in
+                          enumerate(["EV/EBITDA", "FY t", "t-3", "t-2", "t-1", "t", "EBITDA margin t", "ROIC t"])]]
+            for t_, m_ in [(ticker_symbol, metrics)] + list(peer_metrics.items()):
+                cs = sorted(m_.columns)[-4:]
+                evs = [m_.at["EV/EBITDA", c_] if "EV/EBITDA" in m_.index else "n/a" for c_ in cs]
+                evs = ["n/a"] * (4 - len(evs)) + [f"{_num_cell(v):.1f}x" if _num_cell(v) is not None else str(v) for v in evs]
+                vals = [f"{names.get(t_, t_)} ({t_})", str(cs[-1]) if cs else "n/a"] + evs + [
+                    _latest(m_, "EBITDA Margin"), _latest(m_, "ROIC")]
+                bold = t_ == ticker_symbol
+                hist_rows.append([Paragraph((f"<b>{v}</b>" if bold else str(v)) if i == 0 else
+                                            (f"<i>{v}</i>" if str(v).endswith("%") else str(v)), cell if i == 0 else cell_r)
+                                  for i, v in enumerate(vals)])
+            w0h, wfy = usable * 0.28, usable * 0.08
+            th_ = Table(hist_rows, colWidths=[w0h, wfy] + [(usable - w0h - wfy) / 6] * 6)
+            th_.setStyle(TableStyle(line.getCommands() + [("BACKGROUND", (0, 1), (-1, 1), PANEL),
+                                                          ("LINEBEFORE", (2, 0), (2, -1), 0.6, NAVY)]))
+            content += [KeepTogether([Spacer(1, 4), exhibit(next_ex(), "Peer multiples over the last four fiscal years"),
+                                      th_, source("Yahoo Finance [2][4], own calculations. t = latest fiscal year of each "
+                                                  "company (column FY t); EV at the fiscal year end. Shows whether a "
+                                                  "valuation premium is new or persistent.")])]
         if sec_title == "Competitors Analysis":
             try:
                 rd = reverse_dcf(ticker_symbol, fy=int(own_fy)) if own_fy.isdigit() else {"error": "no fiscal year"}
@@ -1006,11 +1271,17 @@ def _build_report_v4(ticker_symbol, pdf_path, summary, sections, share_img, val_
     # --- Quellenverzeichnis ---------------------------------------------------
     today = date.today().isoformat()
     tenk = _tenk_reference(ticker_symbol, filing_date)
+    form_ = (tenk or {}).get("form", "10-K")
+    how_ = ("Items 4, 3D and 5 parsed from the EDGAR document" if form_.startswith(("20-F", "40-F"))
+            else _tenk_method(ticker_symbol, tenk))
     if tenk:
-        r1 = (f"{name}, Form 10-K for the fiscal year ended {tenk.get('report_date', 'n/a')}, filed {tenk.get('filing_date')}, "
-              f"SEC EDGAR, {tenk.get('url')} (Items 1, 1A and 7 retrieved via sec-api.io).")
+        u_ = str(tenk.get("url") or "")
+        from xml.sax.saxutils import escape as _xe
+        link_ = f"<link href='{_xe(u_)}' color='#185FA5'><u>{_xe(u_)}</u></link>" if u_.startswith("https://") else _xe(u_)
+        r1 = (f"{name}, Form {form_} for the fiscal year ended {tenk.get('report_date', 'n/a')}, filed {tenk.get('filing_date')}, "
+              f"SEC EDGAR, {link_} ({how_}).")
     else:
-        r1 = f"{name}, Form 10-K filed {filing_date}, SEC EDGAR (Items 1, 1A and 7 retrieved via sec-api.io)."
+        r1 = f"{name}, Form {form_} filed {filing_date}, SEC EDGAR ({how_})."
     refs = [
         r1,
         f"Yahoo Finance: annual and quarterly financial statements and daily share prices for {ticker_symbol}, retrieved {today} via yfinance.",

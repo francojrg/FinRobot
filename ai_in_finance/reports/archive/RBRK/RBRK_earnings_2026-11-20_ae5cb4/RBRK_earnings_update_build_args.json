@@ -1,0 +1,42 @@
+{
+  "ticker_symbol": "RBRK",
+  "fyear": "2026",
+  "save_dir": "../reports/RBRK_earnings_claude-haiku-5.5",
+  "headline": "Rubrik's July-quarter revenue rose 38% and GAAP losses narrowed, but ARR and cloud ARR growth decelerated and share count rose 5%.",
+  "summary": "Rubrik's quarter ended 31 July 2026 (fiscal Q2 2027) showed strong top-line growth and a narrower loss, but growth in its recurring base slowed. Revenue reached $427.3m, up 37.9% y/y [3], and the GAAP operating margin improved to -16.8% from -30.5% [3]. Subscription ARR rose 33% to $1,660.9m, while Cloud ARR grew 39% to $1,482.7m, down from 57% growth [2]. Average net retention slipped to 119% from 120% [2]. Net cash rose to $598.1m and trailing free cash flow reached $286.2m [2][3]. Dilution persisted, with shares outstanding up 5.0% y/y to 207.2m [3]. Consensus FY2027 EPS rose 60% over 90 days [3], yet the current enterprise value implies 30.7% annual revenue growth for ten years, and the consensus path yields about a 5.3% IRR against a 10.5% WACC [3]. Caveat: the annual report baseline and the earnings release were unavailable, so the theses checked here are proxy theses drawn from the 10-Q, not the original 10-K thesis set. Operating momentum looks intact; valuation and dilution are the pressure points.",
+  "results_commentary": "Most profitability metrics improved year on year. Revenue grew 37.9% to $427.3m from $309.9m [3]. The operating margin improved to -16.8% from -30.5%, and opex fell to 95.3% of revenue from 110.0% [3]. Diluted EPS was -$0.30 against -$0.49 [3]. The 10-Q attributes part of the margin gain to ARR growth outpacing non-GAAP cost and opex growth: trailing-12-month Subscription ARR Contribution Margin rose to 14.0% from 9.4% [2]. Net cash rose to $598.1m from $382.0m and days sales outstanding fell to 57 from 64 [3]. Six-month free cash flow was $139.3m against $90.9m, which the 10-Q ties to higher sales, renewal timing and operating leverage [2].\n\nSeveral metrics moved the wrong way. Gross margin slipped to 78.4% from 79.5% [3]. The 10-Q links cost pressure to public cloud contracts and to commodity server constraints, though it does not quantify the gross-margin effect [2]. Quarterly free cash flow margin fell to 15.4% from 18.6% [3], and the 10-Q warns that renewal timing can make free cash flow volatile [2]. The current ratio fell to 1.64x from 1.82x [3]. Shares outstanding rose 5.0% to 207.2m [3]. Growth also decelerated across the recurring base. Subscription ARR grew 33% against 36%, Cloud ARR grew 39% against 57%, net retention was 119% against 120%, and customers with $100,000 or more in Subscription ARR grew 23% against 27%, to 3,084 [2].\n\nData caveats: the scorecard's GAAP diluted EPS (-$0.30) differs from the normalised EPS in the consensus feed (+$0.20 against a $0.04 estimate) [3]. The feed's surprise percentages look miscalculated (for example +4.1% for a $0.20 vs $0.04 beat), so they are not relied on here. The earnings release was not retrieved, so management guidance is not cited.",
+  "thesis_check": [
+    {
+      "thesis": "Proxy thesis (no annual report baseline available): subscription ARR keeps compounding at a high rate. Subscription ARR of $1,660.9m is still growing 33% y/y.",
+      "status": "intact",
+      "evidence": "Subscription ARR reached $1,660.9m at 31 July 2026, up 33% from 36% a year earlier [2]. Growth is still high but decelerating."
+    },
+    {
+      "thesis": "Proxy thesis: cloud migration drives recurring growth (Cloud ARR).",
+      "status": "weakened",
+      "evidence": "Cloud ARR grew 39% to $1,482.7m, down from 57% a year earlier [2]. The 10-Q says RSC remains the main ARR growth driver, and RAC only became commercially available in February 2026 [2]."
+    },
+    {
+      "thesis": "Proxy thesis: operating leverage is narrowing losses.",
+      "status": "strengthened",
+      "evidence": "The operating margin improved to -16.8% from -30.5%, and Subscription ARR Contribution Margin rose to 14.0% from 9.4% [3][2]. Gross margin fell to 78.4% from 79.5%, which partly offsets this [3]."
+    },
+    {
+      "thesis": "Proxy thesis: existing customers keep expanding.",
+      "status": "intact",
+      "evidence": "Average subscription net retention was 119% against 120% a year earlier, and customers with $100,000 or more in Subscription ARR rose 23% to 3,084 against 27% growth [2]. Expansion is slightly softer but still strong."
+    },
+    {
+      "thesis": "Proxy thesis: the balance sheet funds growth without dilution risk.",
+      "status": "weakened",
+      "evidence": "Net cash rose to $598.1m and trailing free cash flow reached $286.2m [2][3]. However, shares outstanding rose 5.0% y/y to 207.2m [3], and the current ratio fell to 1.64x from 1.82x [3]."
+    },
+    {
+      "thesis": "Proxy thesis: the current valuation is supported by consensus growth.",
+      "status": "weakened",
+      "evidence": "The current EV implies 30.7% annual revenue growth for ten years [3]. Consensus FY2027E revenue is $1,691.1m (+28.5%) and the consensus path gives a 5.3% IRR against a 10.5% WACC [3]. Forward P/E is 227x [3]."
+    }
+  ],
+  "risk_update": "No annual report risk section was available, so this update cannot say which baseline risks materialised. The 10-Q names the risks to watch. Materialising: gross margin fell to 78.4% from 79.5% [3], and the 10-Q links this to public cloud pricing and commodity server constraints. It also warns that commercial accommodations to customers could reduce margins if they become widespread [2]. Cloud ARR growth slowed to 39% from 57% [2]. Easing: the transition from RCDM-T licences to RSC is largely complete in fiscal 2026, which reduces upfront-recognition distortion, although subscription-credit benefits are declining [2]. Persisting: the 10-Q says profitability is not assured and that stock-based compensation keeps expenses and dilution high (shares up 5.0%) [2][3]. New or unproven: RAC became commercially available only in February 2026, so its adoption is still uncertain [2].",
+  "outlook": "No company guidance is available because the earnings release could not be retrieved. Consensus [3] (retrieved 20 Nov 2026, after the 10-K) expects FY2027 revenue of $1,691.1m (+28.5%) and EPS of $0.50, and FY2028 revenue of $2,058.2m (+21.7%) and EPS of $0.78. FY2027 EPS estimates rose 60% over 90 days, with 20 upward revisions and no cuts in the last 30 days [3]. The forward P/E is 227x at $114.56 [3]. The reverse DCF shows the current EV needs 30.7% annual revenue growth for ten years, against a 29.9% three-year historical CAGR, which leaves little room for error [3]. Next quarter, watch Cloud ARR growth from 39%, gross margin against the FY2026 level of 80.1%, share dilution and free-cash-flow timing [2][3]."
+}

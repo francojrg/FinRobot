@@ -1,0 +1,318 @@
+Company names (use exactly these names): ADBE = Adobe Inc.; ADSK = Autodesk, Inc.; CRM = Salesforce, Inc.; INTU = Intuit Inc.
+
+
+Revenue:
+ADBE: 2022    17606
+2023    19409
+2024    21505
+2025    23769
+Name: Revenue, dtype: object
+ADSK: 2023    5005
+2024    5497
+2025    6131
+2026    7206
+Name: Revenue, dtype: object
+CRM: 2023    31352
+2024    34857
+2025    37895
+2026    41525
+Name: Revenue, dtype: object
+INTU: 2023    14368
+2024    16285
+2025    18831
+2026    21448
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+ADBE: 2022      n/a
+2023    10.2%
+2024    10.8%
+2025    10.5%
+Name: Revenue Growth, dtype: object
+ADSK: 2023      n/a
+2024     9.8%
+2025    11.5%
+2026    17.5%
+Name: Revenue Growth, dtype: object
+CRM: 2023      n/a
+2024    11.2%
+2025     8.7%
+2026     9.6%
+Name: Revenue Growth, dtype: object
+INTU: 2023      n/a
+2024    13.3%
+2025    15.6%
+2026    13.9%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+ADBE: 2022    15441
+2023    17055
+2024    19147
+2025    21218
+Name: Gross Profit, dtype: object
+ADSK: 2023    4525
+2024    4986
+2025    5553
+2026    6556
+Name: Gross Profit, dtype: object
+CRM: 2023    22992
+2024    26316
+2025    29252
+2026    32255
+Name: Gross Profit, dtype: object
+INTU: 2023    11225
+2024    12820
+2025    14983
+2026    17195
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+ADBE: 2022    87.7%
+2023    87.9%
+2024    89.0%
+2025    89.3%
+Name: Gross Margin, dtype: object
+ADSK: 2023    90.4%
+2024    90.7%
+2025    90.6%
+2026    91.0%
+Name: Gross Margin, dtype: object
+CRM: 2023    73.3%
+2024    75.5%
+2025    77.2%
+2026    77.7%
+Name: Gross Margin, dtype: object
+INTU: 2023    78.1%
+2024    78.7%
+2025    79.6%
+2026    80.2%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+ADBE: 2022    6976
+2023    7784
+2024    7957
+2025    9815
+Name: EBITDA, dtype: object
+ADSK: 2023    1167
+2024    1267
+2025    1549
+2026    1989
+Name: EBITDA, dtype: object
+CRM: 2023     5644
+2024     9958
+2025    11143
+2026    12548
+Name: EBITDA, dtype: object
+INTU: 2023    4043
+2024    4581
+2025    5890
+2026    7119
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+ADBE: 2022    39.6%
+2023    40.1%
+2024    37.0%
+2025    41.3%
+Name: EBITDA Margin, dtype: object
+ADSK: 2023    23.3%
+2024    23.0%
+2025    25.3%
+2026    27.6%
+Name: EBITDA Margin, dtype: object
+CRM: 2023    18.0%
+2024    28.6%
+2025    29.4%
+2026    30.2%
+Name: EBITDA Margin, dtype: object
+INTU: 2023    28.1%
+2024    28.1%
+2025    31.3%
+2026    33.2%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+ADBE: 2022    7396
+2023    6942
+2024    7873
+2025    9852
+Name: FCF, dtype: object
+ADSK: 2023    2025
+2024    1252
+2025    1505
+2026    2376
+Name: FCF, dtype: object
+CRM: 2023     6313
+2024     9498
+2025    12434
+2026    14402
+Name: FCF, dtype: object
+INTU: 2023    4786
+2024    4634
+2025    6083
+2026    8617
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+ADBE: 2022    1.56
+2023    1.28
+2024    1.42
+2025    1.38
+Name: FCF Conversion, dtype: object
+ADSK: 2023    2.46
+2024    1.38
+2025    1.35
+2026    2.11
+Name: FCF Conversion, dtype: object
+CRM: 2023    30.35
+2024      2.3
+2025     2.01
+2026     1.93
+Name: FCF Conversion, dtype: object
+INTU: 2023    2.01
+2024    1.56
+2025    1.57
+2026    1.89
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+ADBE: 2022    26.6%
+2023    27.4%
+2024    28.8%
+2025    41.4%
+Name: ROIC, dtype: object
+ADSK: 2023    25.8%
+2024    21.7%
+2025    22.4%
+2026    22.7%
+Name: ROIC, dtype: object
+CRM: 2023    2.0%
+2024    7.3%
+2025    9.2%
+2026    9.5%
+Name: ROIC, dtype: object
+INTU: 2023    11.0%
+2024    12.9%
+2025    15.8%
+2026    17.9%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+ADBE: 2022     22.9
+2023    35.32
+2024     28.4
+2025    13.59
+Name: EV/EBITDA, dtype: object
+ADSK: 2023    40.26
+2024    43.43
+2025    43.63
+2026     27.2
+Name: EV/EBITDA, dtype: object
+CRM: 2023    30.45
+2024    27.82
+2025    29.73
+2026     16.5
+Name: EV/EBITDA, dtype: object
+INTU: 2023    36.44
+2024    40.25
+2025    37.85
+2026    12.44
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+ADBE: 2022     9.07
+2023    14.17
+2024    10.51
+2025     5.61
+Name: EV/Sales, dtype: object
+ADSK: 2023     9.39
+2024    10.01
+2025    11.02
+2026     7.51
+Name: EV/Sales, dtype: object
+CRM: 2023    5.48
+2024    7.95
+2025    8.74
+2026    4.99
+Name: EV/Sales, dtype: object
+INTU: 2023    10.25
+2024    11.32
+2025    11.84
+2026     4.13
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+ADBE: 2022    34.15
+2023    51.69
+2024    41.74
+2025    19.17
+Name: PE Ratio, dtype: object
+ADSK: 2023    56.92
+2024    60.58
+2025    60.81
+2026    48.35
+Name: PE Ratio, dtype: object
+CRM: 2023    799.86
+2024     66.93
+2025     53.73
+2026     27.22
+Name: PE Ratio, dtype: object
+INTU: 2023    60.77
+2024    62.07
+2025    57.43
+2026     19.2
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+ADBE: 2022    11.34
+2023    16.83
+2024    16.13
+2025    11.38
+Name: PB Ratio, dtype: object
+ADSK: 2023     40.4
+2024    29.27
+2025    25.42
+2026    17.61
+Name: PB Ratio, dtype: object
+CRM: 2023    2.82
+2024    4.58
+2025    5.37
+2026    3.33
+Name: PB Ratio, dtype: object
+INTU: 2023     8.31
+2024     9.84
+2025    11.12
+2026     4.47
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for ADBE and ['ADSK', 'CRM', 'INTU'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

@@ -1,0 +1,318 @@
+Company names (use exactly these names): NVDA = NVIDIA Corporation; AMD = Advanced Micro Devices, Inc.; AVGO = Broadcom Inc.; INTC = Intel Corporation
+
+
+Revenue:
+NVDA: 2023     26974
+2024     60922
+2025    130497
+2026    215938
+Name: Revenue, dtype: object
+AMD: 2022    23601
+2023    22680
+2024    25785
+2025    34639
+Name: Revenue, dtype: object
+AVGO: 2022    33203
+2023    35819
+2024    51574
+2025    63887
+Name: Revenue, dtype: object
+INTC: 2022    63054
+2023    54228
+2024    53101
+2025    52853
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+NVDA: 2023       n/a
+2024    125.9%
+2025    114.2%
+2026     65.5%
+Name: Revenue Growth, dtype: object
+AMD: 2022      n/a
+2023    -3.9%
+2024    13.7%
+2025    34.3%
+Name: Revenue Growth, dtype: object
+AVGO: 2022      n/a
+2023     7.9%
+2024    44.0%
+2025    23.9%
+Name: Revenue Growth, dtype: object
+INTC: 2022       n/a
+2023    -14.0%
+2024     -2.1%
+2025     -0.5%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+NVDA: 2023     15356
+2024     44301
+2025     97858
+2026    153463
+Name: Gross Profit, dtype: object
+AMD: 2022    10603
+2023    10460
+2024    12725
+2025    17152
+Name: Gross Profit, dtype: object
+AVGO: 2022    22095
+2023    24690
+2024    32509
+2025    43294
+Name: Gross Profit, dtype: object
+INTC: 2022    26866
+2023    21711
+2024    17345
+2025    18375
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+NVDA: 2023    56.9%
+2024    72.7%
+2025    75.0%
+2026    71.1%
+Name: Gross Margin, dtype: object
+AMD: 2022    44.9%
+2023    46.1%
+2024    49.4%
+2025    49.5%
+Name: Gross Margin, dtype: object
+AVGO: 2022    66.5%
+2023    68.9%
+2024    63.0%
+2025    67.8%
+Name: Gross Margin, dtype: object
+INTC: 2022    42.6%
+2023    40.0%
+2024    32.7%
+2025    34.8%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+NVDA: 2023      5986
+2024     35583
+2025     86137
+2026    144552
+Name: EBITDA, dtype: object
+AMD: 2022    5534
+2023    4051
+2024    5145
+2025    7275
+Name: EBITDA, dtype: object
+AVGO: 2022    19155
+2023    20554
+2024    23879
+2025    34714
+Name: EBITDA, dtype: object
+INTC: 2022    21299
+2023    11242
+2024     1203
+2025    14354
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+NVDA: 2023    22.2%
+2024    58.4%
+2025    66.0%
+2026    66.9%
+Name: EBITDA Margin, dtype: object
+AMD: 2022    23.4%
+2023    17.9%
+2024    20.0%
+2025    21.0%
+Name: EBITDA Margin, dtype: object
+AVGO: 2022    57.7%
+2023    57.4%
+2024    46.3%
+2025    54.3%
+Name: EBITDA Margin, dtype: object
+INTC: 2022    33.8%
+2023    20.7%
+2024     2.3%
+2025    27.2%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+NVDA: 2023     3808
+2024    27021
+2025    60853
+2026    96676
+Name: FCF, dtype: object
+AMD: 2022    3115
+2023    1121
+2024    2405
+2025    6735
+Name: FCF, dtype: object
+AVGO: 2022    16312
+2023    17633
+2024    19414
+2025    26914
+Name: FCF, dtype: object
+INTC: 2022     -9411
+2023    -14279
+2024    -15656
+2025     -4949
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+NVDA: 2023    0.87
+2024    0.91
+2025    0.83
+2026    0.81
+Name: FCF Conversion, dtype: object
+AMD: 2022    2.36
+2023    1.31
+2024    1.47
+2025    1.55
+Name: FCF Conversion, dtype: object
+AVGO: 2022    1.42
+2023    1.25
+2024    3.29
+2025    1.16
+Name: FCF Conversion, dtype: object
+INTC: 2022   -1.17
+2023   -8.45
+2024     n/m
+2025     n/m
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+NVDA: 2023    10.0%
+2024    56.9%
+2025    83.3%
+2026    72.6%
+Name: ROIC, dtype: object
+AMD: 2022    1.6%
+2023    0.8%
+2024    2.8%
+2025    4.8%
+Name: ROIC, dtype: object
+AVGO: 2022    21.1%
+2023    24.7%
+2024     6.4%
+2025    13.2%
+Name: ROIC, dtype: object
+INTC: 2022     4.3%
+2023     0.8%
+2024    -5.1%
+2025     1.2%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+NVDA: 2023    81.93
+2024    42.71
+2025    34.14
+2026    32.14
+Name: EV/EBITDA, dtype: object
+AMD: 2022    18.51
+2023    58.57
+2024    37.77
+2025    47.75
+Name: EV/EBITDA, dtype: object
+AVGO: 2022    11.67
+2023    18.17
+2024    35.75
+2025    51.89
+Name: EV/EBITDA, dtype: object
+INTC: 2022      6.58
+2023     22.65
+2024    106.88
+2025     15.09
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+NVDA: 2023    18.18
+2024    24.95
+2025    22.53
+2026    21.51
+Name: EV/Sales, dtype: object
+AMD: 2022     4.34
+2023    10.46
+2024     7.54
+2025    10.03
+Name: EV/Sales, dtype: object
+AVGO: 2022     6.73
+2023    10.42
+2024    16.55
+2025     28.2
+Name: EV/Sales, dtype: object
+INTC: 2022    2.22
+2023     4.7
+2024    2.42
+2025     4.1
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+NVDA: 2023    112.28
+2024      51.7
+2025     40.84
+2026     39.01
+Name: PE Ratio, dtype: object
+AMD: 2022     77.11
+2023    278.13
+2024    120.79
+2025     80.82
+Name: PE Ratio, dtype: object
+AVGO: 2022     17.72
+2023     25.51
+2024    138.02
+2025     77.49
+Name: PE Ratio, dtype: object
+INTC: 2022     13.62
+2023    125.62
+2024       n/m
+2025       n/m
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+NVDA: 2023     21.8
+2024    35.27
+2025    37.05
+2026    29.53
+Name: PB Ratio, dtype: object
+AMD: 2022    1.91
+2023    4.26
+2024     3.4
+2025    5.54
+Name: PB Ratio, dtype: object
+AVGO: 2022     8.65
+2023    14.52
+2024    11.75
+2025    21.56
+Name: PB Ratio, dtype: object
+INTC: 2022    1.08
+2023    2.01
+2024    0.87
+2025    1.61
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for NVDA and ['AMD', 'AVGO', 'INTC'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

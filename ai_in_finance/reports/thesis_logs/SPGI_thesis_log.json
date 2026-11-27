@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2026-11-25",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/SPGI_earnings_multi_claude-haiku-5.5\\SPGI_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Indices asset-linked fees keep growing at mid-teens rates as ETF assets compound, so Indices remains the main earnings driver.",
+        "signpost": "Indices asset-linked fee growth of at least 10% reported in the FY2026 10-K (about February 2027). Interim test: ETF AUM rising, not falling, each quarter.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Shareholder payouts above free cash flow are not sustainable without disposal proceeds, so leverage keeps rising.",
+        "signpost": "FY2026 buybacks plus dividends at or below free cash flow, and total debt growth below 10%, in the FY2026 10-K (about February 2027).",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T3: The current valuation requires revenue growth to return to historical rates, which consensus does not yet forecast.",
+        "signpost": "FY2026 consensus EPS at or above $17.94 with more analysts raising than cutting estimates over the next 30 days, confirmed at the FY2026 results (about February 2027).",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T4: Regulatory and legal costs will not erode the 42% operating margin, so the margin story holds despite supervision in Ratings, Indices and Energy.",
+        "signpost": "Operating margin excluding disposal gains of at least 40% in the FY2026 10-K (about February 2027).",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/SPGI_earnings_multi_claude-haiku-5.5\\SPGI_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Indices asset-linked fees keep growing at mid-teens rates as ETF assets compound, so Indices remains the main earnings driver.",
+        "signpost": "Indices asset-linked fee growth of at least 10% reported in the FY2026 10-K (about February 2027). Interim test: ETF AUM rising, not falling, each quarter.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Shareholder payouts above free cash flow are not sustainable without disposal proceeds, so leverage keeps rising.",
+        "signpost": "FY2026 buybacks plus dividends at or below free cash flow, and total debt growth below 10%, in the FY2026 10-K (about February 2027).",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T3: The current valuation requires revenue growth to return to historical rates, which consensus does not yet forecast.",
+        "signpost": "FY2026 consensus EPS at or above $17.94 with more analysts raising than cutting estimates over the next 30 days, confirmed at the FY2026 results (about February 2027).",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T4: Regulatory and legal costs will not erode the 42% operating margin, so the margin story holds despite supervision in Ratings, Indices and Energy.",
+        "signpost": "Operating margin excluding disposal gains of at least 40% in the FY2026 10-K (about February 2027).",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

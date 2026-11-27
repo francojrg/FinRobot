@@ -35,8 +35,8 @@ RESEARCH = AIF / "research"
 REPORTS = AIF / "reports"
 COMMITTEE_DIR = REPORTS / "committee"
 FORECAST_LOG = AIF / "forecasts" / "forecast_log.csv"
-STEP_ORDER = ["annual_report", "earnings_review", "committee", "forecast", "news", "portfolio", "brief"]
-LLM_STEPS = {"annual_report", "earnings_review", "committee", "forecast", "news", "portfolio", "brief"}
+STEP_ORDER = ["annual_report", "quarter_review", "earnings_review", "committee", "forecast", "preview", "news", "portfolio", "brief"]
+LLM_STEPS = {"annual_report", "quarter_review", "earnings_review", "committee", "forecast", "preview", "news", "portfolio", "brief"}
 
 
 # =============================================================== Modelle (wie scripts/run_eval.py)
@@ -73,22 +73,20 @@ def is_us(ticker):
 
 
 def edgar_status(symbol):
-    """Ein EDGAR-Abruf je Titel: neuester 10-K (Geschaeftsjahr = Jahr des Stichtags) und alle 8-K Item 2.02."""
-    import requests
-    from finrobot.data_source.fmp_utils import _sec_headers, _ticker_to_cik
+    """Ein EDGAR-Abruf je Titel: neuester Jahresbericht (10-K, bei auslaendischen Emittenten 20-F/40-F;
+    Geschaeftsjahr = Jahr des Stichtags) und alle Quartalsmitteilungen (8-K Item 2.02 bzw. 6-K zum Quartalsstichtag)."""
+    from finrobot.data_source.fmp_utils import _submissions, _ticker_to_cik
+    from .quarterly_data import results_filings
     cik = _ticker_to_cik().get(symbol.upper())
     if cik is None:
         return {"error": "no CIK (not an SEC filer)"}
-    rec = requests.get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", headers=_sec_headers(), timeout=30).json()
-    r = rec["filings"]["recent"]
-    items = r.get("items") or [""] * len(r["form"])
-    tenk = [(fd, rd) for f, fd, rd in zip(r["form"], r["filingDate"], r.get("reportDate", [""] * len(r["form"])))
-            if f == "10-K" and rd]
-    out = {"error": None, "releases": sorted(d for f, d, it in zip(r["form"], r["filingDate"], items)
-                                             if f in ("8-K", "8-K/A") and "2.02" in str(it))}
+    r = _submissions(cik)["filings"]["recent"]
+    tenk = [(fd, rd, f) for f, fd, rd in zip(r["form"], r["filingDate"], r.get("reportDate", [""] * len(r["form"])))
+            if f in ("10-K", "20-F", "40-F") and rd]
+    out = {"error": None, "releases": sorted(d for d, a, f, rd, doc in results_filings(r) if f != "6-K alt")}
     if tenk:
-        fd, rd = max(tenk)
-        out.update(tenk_filed=fd, tenk_period=rd, fyear=int(rd[:4]))
+        fd, rd, form = max(tenk)
+        out.update(tenk_filed=fd, tenk_period=rd, fyear=int(rd[:4]), annual_form=form)
     return out
 
 
@@ -167,8 +165,10 @@ def ticker_state(t, edgar=None):
 
 # =============================================================== Planen
 def plan(tickers, today=None, committee_days=30, forecast_days=6, news_days=6, edgar=None, news=None,
-         with_portfolio=True, with_brief=True):
-    """Welche Schritte sind faellig und warum (ohne LLM-Aufrufe)."""
+         with_portfolio=True, with_brief=True, force=()):
+    """Welche Schritte sind faellig und warum (ohne LLM-Aufrufe).
+    force: Schritte, die auch ohne neue Einreichung neu erstellt werden ('annual_report', 'earnings_review')."""
+    force = set(force or ())
     today = pd.Timestamp(today or date.today())
     news = news if news is not None else last_news()
     steps, states = [], {}
@@ -184,15 +184,28 @@ def plan(tickers, today=None, committee_days=30, forecast_days=6, news_days=6, e
             continue
         rep, rev, com, fc = s["report"], s["review"], s["committee"], s["forecast"]
         new_report = False
-        if e.get("fyear") and (rep is None or e["fyear"] > rep["fyear"]):
+        if e.get("fyear") and (rep is None or e["fyear"] > rep["fyear"] or "annual_report" in force):
             steps.append({"step": "annual_report", "ticker": t, "fyear": e["fyear"],
-                          "reason": f"10-K FY{e['fyear']} filed {e['tenk_filed']}; "
-                                    + (f"last agent report FY{rep['fyear']}" if rep else "no agent report yet")})
+                          "reason": f"{e.get('annual_form', '10-K')} FY{e['fyear']} filed {e['tenk_filed']}; "
+                                    + ("rebuilt on request" if rep and e["fyear"] <= rep["fyear"] else
+                                       f"last agent report FY{rep['fyear']}" if rep else "no agent report yet")})
             new_report = True
         fy = e.get("fyear") or (rep or {}).get("fyear")
         cutoff = (pd.Timestamp(e["tenk_period"]) + pd.Timedelta(days=75)).date().isoformat() if e.get("tenk_period") else None
         rels = [d for d in e.get("releases", []) if cutoff and d > cutoff]
         new_rels = [d for d in rels if rev is None or rev.get("fyear") != fy or d > (rev.get("date") or "")]
+        if not new_rels and "earnings_review" in force:
+            new_rels = rels
+        if (rep or new_report) and e.get("tenk_period"):   # Thesis Tracker: jedes Quartal seit dem 10-K einzeln (inkl. Q4)
+            try:
+                from .thesis_tracker import missing_releases
+                miss = missing_releases(t, e.get("releases", []), e["tenk_period"])
+            except Exception:
+                miss = []
+            if miss:
+                steps.append({"step": "quarter_review", "ticker": t, "fyear": fy, "releases": miss,
+                              "tenk_period": e["tenk_period"],
+                              "reason": f"{len(miss)} quarter(s) without a quarter record (releases {', '.join(miss)})"})
         new_review = False
         if (rep or new_report) and new_rels:
             steps.append({"step": "earnings_review", "ticker": t, "fyear": fy,
@@ -217,6 +230,16 @@ def plan(tickers, today=None, committee_days=30, forecast_days=6, news_days=6, e
         if fc is None or (today - pd.Timestamp(fc["date"])).days > forecast_days:
             steps.append({"step": "forecast", "ticker": t,
                           "reason": "no forecast yet" if fc is None else f"last forecast {fc['date']}"})
+    # Earnings Preview: Quartalszahlen in den naechsten 14 Tagen und noch keine Vorschau fuer diesen Termin
+    try:
+        from .earnings_preview import path_for, upcoming_earnings
+        ups = upcoming_earnings([t for t in tickers if states.get(t, {}).get("us") and not (states[t].get("edgar") or {}).get("error")],
+                                today=today.date())
+        for t_, when in ups.items():
+            if not path_for(t_, when).exists():
+                steps.append({"step": "preview", "ticker": t_, "date": when, "reason": f"quarterly results on {when}"})
+    except Exception:
+        pass
     uncovered = [t for t in tickers if t not in (news.get("signals") or {})]
     if news.get("date") is None or (today - pd.Timestamp(news["date"])).days > news_days:
         steps.append({"step": "news", "ticker": "portfolio",
@@ -321,8 +344,40 @@ def committee_context(t):
 
 
 # =============================================================== Ausfuehren
+def portfolio_positions():
+    """Positionen des letzten Portfolio Reviews (fuer Dividenden und ETF-Durchschau)."""
+    import json as _json
+    try:
+        dash = _json.load(open(AIF / "research" / "portfolio_dashboard.json", encoding="utf-8"))
+    except Exception:
+        return []
+    return [{"ticker": p["ticker"], "name": p.get("name"), "value_eur": p.get("value_eur"), "weight": p.get("weight"),
+             "sector": p.get("sector")} for p in dash.get("positions") or []]
+
+
+def warm_portfolio_extras():
+    """Dividenden und ETF-Daten direkt nach dem Portfolio Review laden, damit die App sie sofort zeigt."""
+    try:
+        from . import dividends, etf_lookthrough
+        pos = portfolio_positions()
+        if pos:
+            dividends.payload(pos, refresh=True)
+            etf_lookthrough.payload(pos, refresh=True)
+    except Exception:
+        pass
+
+
 def _run_step(step, cfgs, ctx):
     t, k = step["ticker"], step["step"]
+    try:                                       # Modell je Agent (Agents-Seite der App)
+        from . import agent_settings as _AS
+        mo = _AS.model(k)
+        if mo:
+            cfgs = {**cfgs, "writer": llm_config_for(mo), "committee": llm_config_for(mo),
+                    "forecast": llm_config_for(mo, temperature=0.3),
+                    "classifier": llm_config_for(mo, temperature=0, max_tokens=8000)}
+    except Exception as e:
+        print(f"Agent settings not applied: {e}")
     if k == "annual_report":
         from . import report_agent
         from finrobot.functional.reportlab import reset_build_rounds
@@ -332,9 +387,27 @@ def _run_step(step, cfgs, ctx):
         reset_build_rounds()
         agent = report_agent.build_agent(cfgs["writer"], max_rounds=ctx.get("max_rounds", 30))
         msg = report_agent.default_message(t, step["fyear"], os.path.relpath(work_abs, ctx["cwd"]).replace("\\", "/"))
+        msg += _AS.extra("annual.extra")
         agent.user_proxy.initiate_chat(agent.assistant, message=msg, cache=None, max_turns=60)
         pdfs = [p for p in glob.glob(str(work_abs / "*.pdf")) if os.path.getmtime(p) >= ctx["t0"]]
+        if pdfs:                                   # Bewertungsdaten und KI-Basisfall fuer die Firmenseite auffrischen
+            try:
+                from . import valuation_data as vd
+                vd.compute(t)
+                vd.suggest_case(t, model=cfgs["writer"]["config_list"][0]["model"])
+            except Exception as e:
+                print(f"Valuation data for {t} not updated: {e}")
+            try:                                   # Thesis Book aus den neuen Thesen (messbare Meilensteine)
+                from . import thesis_tracker as tt
+                tt.build_book(t, model=cfgs["writer"]["config_list"][0]["model"])
+            except Exception as e:
+                print(f"Thesis book for {t} not built: {e}")
         return {"output": pdfs[-1] if pdfs else None, "ok": bool(pdfs)}
+    if k == "quarter_review":
+        from . import thesis_tracker as tt
+        done = tt.review_missing(t, step["releases"], step["tenk_period"], step["fyear"],
+                                 model=cfgs["writer"]["config_list"][0]["model"])
+        return {"output": ", ".join(r["label"] for r in done) or None, "ok": bool(done)}
     if k == "earnings_review":
         from .earnings_reviewer_multi import run_multi_review
         tag = cfgs["writer"]["config_list"][0]["model"].split("/")[-1]
@@ -355,6 +428,10 @@ def _run_step(step, cfgs, ctx):
         f = last_forecast(t)
         return {"output": str(FORECAST_LOG), "ok": bool(f and f["date"] == date.today().isoformat()),
                 "direction": (f or {}).get("direction")}
+    if k == "preview":
+        from .earnings_preview import path_for, run as run_preview
+        run_preview(t, step["date"], model=cfgs["writer"]["config_list"][0]["model"])
+        return {"output": str(path_for(t, step["date"])), "ok": path_for(t, step["date"]).exists()}
     if k == "news":
         from . import news_tracker as nt
         wl = ctx.get("watchlist")
@@ -371,8 +448,10 @@ def _run_step(step, cfgs, ctx):
         run_portfolio_review(cfgs["writer"], ctx.get("portfolio_file"), os.path.relpath(save, ctx["cwd"]).replace("\\", "/"),
                              name=ctx.get("name", "pipeline"), title=ctx.get("title", "Portfolio Review"),
                              transaction_files=ctx.get("transaction_files"), research=views,
-                             holdings_files=ctx.get("holdings_files"))
+                             holdings_files=ctx.get("holdings_files"), cap=_AS.param("portfolio.cap", 0.10),
+                             sector_cap=_AS.param("portfolio.sector_cap", 0.35))
         pdf = save / f"{ctx.get('name', 'pipeline')}_portfolio_review.pdf"
+        warm_portfolio_extras()
         return {"output": str(pdf), "ok": pdf.exists() and os.path.getmtime(pdf) >= ctx["t0"]}
     if k == "brief":
         from .brief_agent import run_brief
@@ -381,6 +460,12 @@ def _run_step(step, cfgs, ctx):
         name = f"brief_{date.today().isoformat()}"
         run_brief(cfgs["writer"], ctx["tickers"], os.path.relpath(save, ctx["cwd"]).replace("\\", "/"), name=name)
         pdf = save / f"{name}.pdf"
+        try:                                    # Interesting Reads einmal pro Woche mit auffrischen (ein Modellaufruf)
+            from . import reads
+            if reads.is_due():
+                reads.run(model=cfgs["writer"]["config_list"][0]["model"])
+        except Exception:
+            pass
         return {"output": str(pdf), "ok": pdf.exists() and os.path.getmtime(pdf) >= ctx["t0"]}
     raise ValueError(k)
 

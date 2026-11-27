@@ -1,0 +1,4901 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 210,
+  "context_match_rate": 0.917,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 16% to $1.38 billion, and Media and Entertainment grew 5% to $332 million  . The Media and Entertainment...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5%",
+        "snippet": "...annual global revenue, whichever is greater, the PIPL provides for penalties of up to 50 million renminbi or 5% of a company's annual revenue and disgorgement of all illegal gains, whichever is greater, and the CCPA..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...suggests  . Other revenue, mainly consulting and training, rose 6% to $125 million  .  The most important strategic...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6 %",
+        "snippet": "125 7 6 % 118 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63%",
+      "value": 63.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...directly with the customer. That moved the direct channel to 63% of revenue from 42%, and cut TD Synnex's share...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "63%",
+        "snippet": "For fiscal 2026 and 2025, approximately 63% and 42%, respectively, of our revenue was derived from direct sales to customers. With the continued growth..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the customer. That moved the direct channel to 63% of revenue from 42%, and cut TD Synnex's share to 14% from 33%  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "42%",
+        "snippet": "For fiscal 2026 and 2025, approximately 63% and 42%, respectively, of our revenue was derived from direct sales to customers. With the continued growth of our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from the reported figures). EMEA delivered $2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "39%",
+        "snippet": "...TD Synnex Corporation and its global affiliates (collectively, “TD Synnex”), accounted for 14%, 33%, and 39% of our net revenue for the fiscal years ended January 31, 2026, 2025 and 2024, respectively. In connection..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63%",
+      "value": 63.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to Autodesk itself. Direct revenue rose 78% to $4.56 billion, or 63% of the total, while indirect revenue fell 26% to...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "63%",
+        "snippet": "For fiscal 2026 and 2025, approximately 63% and 42%, respectively, of our revenue was derived from direct sales to customers. With the continued growth..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...transaction model, while R&D rose 11% to $1.64 billion and G&A rose 7% to $693 million  . Operating income rose 17% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7 %",
+        "snippet": "315 20 7 % 295 Increase due to revenue from the PIX acquisition and EBA offerings. Other"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion and G&A rose 7% to $693 million  . Operating income rose 17% to $1.58 billion, so operating margin was flat...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(calculated), down from 18.1% a year earlier  . Diluted EPS rose 2% to $5.23, while non-GAAP diluted EPS rose 23% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2) %",
+        "snippet": "80 (2) (2) % 82 Decrease primarily due to decrease in professional fees and stock-based compensation expense...."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "52",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...be material. Shares traded between $215 and $329 over the past 52 weeks, and the current price of $246.78 sits in...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Current Debt And Capital Lease Obligation 2026-01-31: 52,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2025 was the highest of the group, while the other three sat in a 78% to 84% range  . Profitability is where it...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "78 %",
+        "snippet": "...percentages) $ % Net revenue by sales channel: Indirect $ 2,646 $ (922) (26) % $ 3,568 Direct 4,560 1,997 78 % 2,563 Total net revenue $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "84%",
+      "value": 84.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was the highest of the group, while the other three sat in a 78% to 84% range  . Profitability is where it trails. Its...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PTC Gross Margin 2025: 83.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at Bentley and 41.3% at PTC, and Procore was close to break-even at 1.3%  . In FY2026 Autodesk's EBITDA margin improved...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PCOR EBITDA Margin 2025: 1.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 22.4% in FY2025 was roughly double PTC's 15.9% and Bentley's 11.9%, and Procore remained negative at -5.5%  . Its...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12 %",
+        "snippet": "...31, 2024 Management Comments (in millions, except percentages) $ % Net revenue: Subscription $ 5,717 $ 601 12 % $ 5,116 Increase due to growth in subscriptions from our existing customer base. Maintenance 41 (13) (24) %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-5.5%",
+      "value": 5.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...PTC's 15.9% and Bentley's 11.9%, and Procore remained negative at -5.5%  . Its FY2026 revenue growth of 17.5% also far...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "5.6%",
+        "snippet": "- Quarter ending 2026-07-31: EPS $3.30 vs estimate $3.12 (surprise +5.6%)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.5x",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at PTC and $1.32 billion at Procore  . Trimble was closer in size (0.5x) but is less aligned with Autodesk's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "BSY Net Other Financing Charges 2025-12-31: -513,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of the $1.08 billion increase  . Consensus expects FY2027 growth of 16.1%  . Each FY2027 quarterly report shows total...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16 %",
+        "snippet": "...LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to growth in revenue from MFG Collections, Fusion, and Inventor. M&E"
+      }
+    }
+  ],
+  "total_claims": 229,
+  "matched": 227,
+  "match_rate": 0.991,
+  "by_kind": {
+    "money": {
+      "total": 106,
+      "matched": 106,
+      "context_matched": 106
+    },
+    "pct": {
+      "total": 109,
+      "matched": 107,
+      "context_matched": 92
+    },
+    "plain": {
+      "total": 12,
+      "matched": 12,
+      "context_matched": 11
+    },
+    "multiple": {
+      "total": 2,
+      "matched": 2,
+      "context_matched": 1
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 177,
+    "[2] Yahoo Finance": 23,
+    "[2][3] Liquidity and consensus": 18,
+    "[4] Peer data": 9
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "44%",
+      "value": 44.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the Americas delivered $3.18 billion of revenue, up 17%, which is 44% of the $7.21 billion total (calculated from the...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "15.6%",
+      "value": 15.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million  . Net income rose only 1% to $1.12 billion, which is a 15.6% net margin on $7.21 billion of revenue...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$3.58 billion",
+      "value": 3.58,
+      "unit": "billion",
+      "money_mn": 3580.0,
+      "decimals": 2,
+      "context": "...stay strong as AECO scales: revenue rose 18% and AECO grew 22% to $3.58 billion  . Earnings quality needs to improve: GAAP...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,583",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.38 billion",
+      "value": 2.38,
+      "unit": "billion",
+      "money_mn": 2380.0,
+      "decimals": 2,
+      "context": "...forecasts  . Cash generation supports buybacks: free cash flow of $2.38 billion covered $1.40 billion of repurchases, though...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 2,376,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.40 billion",
+      "value": 1.4,
+      "unit": "billion",
+      "money_mn": 1400.0,
+      "decimals": 2,
+      "context": "...supports buybacks: free cash flow of $2.38 billion covered $1.40 billion of repurchases, though working capital absorbed...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.40 billion",
+        "snippet": "...billion for the fiscal year ended January 31, 2025. We repurchased 5 million shares of our common stock for $1.40 billion during fiscal 2026. Comparatively, we repurchased 3 million shares of our common stock for $858 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$501 million",
+      "value": 501.0,
+      "unit": "million",
+      "money_mn": 501.0,
+      "decimals": 0,
+      "context": "...$1.40 billion of repurchases, though working capital absorbed $501 million  .",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "501",
+        "snippet": "The Autodesk Foundation (the “Foundation”), a privately funded 501(c)(3) charity organization established and solely funded by us, leads our philanthropic efforts. The purpose..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Growth should stay strong as AECO scales: revenue rose 18% and AECO grew 22% to $3.58 billion  . Earnings...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2026: 17.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...should stay strong as AECO scales: revenue rose 18% and AECO grew 22% to $3.58 billion  . Earnings quality needs to...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "aeco",
+          "revenue"
+        ],
+        "hl": "22 %",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk Construction..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Earnings quality needs to improve: GAAP operating margin stayed at 22% while restructuring and commissions absorbed the...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "income"
+        ],
+        "hl": "22 %",
+        "snippet": "...operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the gains  . Valuation looks full: the consensus path implies a 9.5% return, below the 11.1% WACC, so returns depend...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...looks full: the consensus path implies a 9.5% return, below the 11.1% WACC, so returns depend on growth beating...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 33.0% to 33.0% by year 10, a WACC of 11.1% (10y US Treasury (^TNX) 4.8% + beta 1.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.21 billion",
+      "value": 7.21,
+      "unit": "billion",
+      "money_mn": 7210.0,
+      "decimals": 2,
+      "context": "...2026 showed accelerating top-line momentum: revenue rose 18% to $7.21 billion, 97% of it recurring, and free cash flow reached...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.21 billion",
+        "snippet": "• Total net revenue was $7.21 billion during fiscal 2026, an increase of 18% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.38 billion",
+      "value": 2.38,
+      "unit": "billion",
+      "money_mn": 2380.0,
+      "decimals": 2,
+      "context": "...to $7.21 billion, 97% of it recurring, and free cash flow reached $2.38 billion  . Profit lagged. Operating margin held at 22%,...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 2,376,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$216 million",
+      "value": 216.0,
+      "unit": "million",
+      "money_mn": 216.0,
+      "decimals": 0,
+      "context": "...at 22%, and net income rose only 1% as restructuring costs reached $216 million and tax expense climbed  .  Consensus expects...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "216",
+        "snippet": "...No material change as compared to the prior period. Restructuring, other exit costs, and facility reductions 216 201 1,340 % 15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 16.1% in FY2027 and 10.7% in FY2028, with normalized EPS of $12.80 for FY2027  . At $246.78, the reverse DCF...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$246.78",
+      "value": 246.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and 10.7% in FY2028, with normalized EPS of $12.80 for FY2027  . At $246.78, the reverse DCF implies 11.3% annual revenue...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "246.94",
+        "snippet": "246.94"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fiscal 2026 showed accelerating top-line momentum: revenue rose 18% to $7.21 billion, 97% of it recurring, and free...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "recurring",
+          "revenue"
+        ],
+        "hl": "18 %",
+        "snippet": "$ 7,024 $ 1,050 18 % $ 5,974 $ 597 11 % $ 5,377 As a percentage of net revenue 97 % N/A N/A 97 % N/A N/A 98 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "97%",
+      "value": 97.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...accelerating top-line momentum: revenue rose 18% to $7.21 billion, 97% of it recurring, and free cash flow reached...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "recurring",
+          "revenue"
+        ],
+        "hl": "97%",
+        "snippet": "• Recurring revenue as a percentage of net revenue was 97% for both fiscal years ending January 31, 2026 and 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reached $2.38 billion  . Profit lagged. Operating margin held at 22%, and net income rose only 1% as restructuring...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "income",
+          "net"
+        ],
+        "hl": "22 %",
+        "snippet": "...operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...lagged. Operating margin held at 22%, and net income rose only 1% as restructuring costs reached $216 million and...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "restructuring",
+          "cost"
+        ],
+        "hl": "1 %",
+        "snippet": "...% Amortization of purchased intangibles and developed technologies 2 % 2 % 2 % Acquisition-related costs — % 1 % 1 % Restructuring, other exit costs, and facility reductions 3 % — % — % Non-GAAP operating margin (1) 38 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and tax expense climbed  .  Consensus expects revenue growth of 16.1% in FY2027 and 10.7% in FY2028, with normalized...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.7%",
+      "value": 10.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...climbed  .  Consensus expects revenue growth of 16.1% in FY2027 and 10.7% in FY2028, with normalized EPS of $12.80 for...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "10.7%",
+        "snippet": "- FY2028E: revenue $9,264.6 million (range $9,026.5 million to $9,894.0 million, 34 analysts), growth +10.7%; EPS $14.25 (range $13.34 to $15.64); forward P/E 17.3x; EV/Sales 5.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.3%",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS of $12.80 for FY2027  . At $246.78, the reverse DCF implies 11.3% annual revenue growth for ten years at an 11.1%...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "11.3%",
+        "snippet": "- The current enterprise value of $52,991.3 million implies revenue growth of 11.3% per year for 10 years (FY2026 revenue $7,206.0 million -> about $21,005.1 million in FY2036), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reverse DCF implies 11.3% annual revenue growth for ten years at an 11.1% WACC  . That is close to the historical 12.9%...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 33.0% to 33.0% by year 10, a WACC of 11.1% (10y US Treasury (^TNX) 4.8% + beta 1.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.9%",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for ten years at an 11.1% WACC  . That is close to the historical 12.9% three-year revenue CAGR  , so the valuation...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "12.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth for a decade. The consensus path yields an implied return of 9.5%, below the WACC, which leaves little margin for...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "yield",
+          "path",
+          "margin"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "64%",
+      "value": 64.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin for error  . Main risks are the shift to annual billing, 64% international exposure and AI-driven competition...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "international"
+        ],
+        "hl": "64%",
+        "snippet": "International net revenue represented 64% of our net revenue for both fiscal 2026 and 2025. Our international revenue, some of which comes from..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.21 billion",
+      "value": 7.21,
+      "unit": "billion",
+      "money_mn": 7210.0,
+      "decimals": 2,
+      "context": "...fiscal 2026, which ended January 31, 2026, net revenue rose 18% to $7.21 billion from $6.13 billion, and 97% of it was recurring...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.21 billion",
+        "snippet": "• Total net revenue was $7.21 billion during fiscal 2026, an increase of 18% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.13 billion",
+      "value": 6.13,
+      "unit": "billion",
+      "money_mn": 6130.0,
+      "decimals": 2,
+      "context": "...ended January 31, 2026, net revenue rose 18% to $7.21 billion from $6.13 billion, and 97% of it was recurring  . Subscription...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,131",
+        "snippet": "...subscription and maintenance revenue 6,776 1,018 18 % 5,758 Other 430 57 15 % 373 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.74 billion",
+      "value": 6.74,
+      "unit": "billion",
+      "money_mn": 6740.0,
+      "decimals": 2,
+      "context": "...and 97% of it was recurring  . Subscription revenue reached $6.74 billion, and current remaining performance obligations...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,743",
+        "snippet": "...Ended January 31, 2025 Management Comments (in millions, except percentages) $ % Net revenue: Subscription $ 6,743 $ 1,026 18 % $ 5,717 Increase due to growth in subscriptions from our existing customer base. Maintenance 33..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.48 billion",
+      "value": 5.48,
+      "unit": "billion",
+      "money_mn": 5480.0,
+      "decimals": 2,
+      "context": "...billion, and current remaining performance obligations grew 23% to $5.48 billion, which is a useful guide to contracted revenue...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.48 billion",
+        "snippet": "• Current remaining performance obligations were $5.48 billion, an increase of 23% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.58 billion",
+      "value": 3.58,
+      "unit": "billion",
+      "money_mn": 3580.0,
+      "decimals": 2,
+      "context": "...3ds Max  .  Growth is concentrated in AECO. That family rose 22% to $3.58 billion and added $646 million, the largest dollar gain...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,583",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$646 million",
+      "value": 646.0,
+      "unit": "million",
+      "money_mn": 646.0,
+      "decimals": 0,
+      "context": "...in AECO. That family rose 22% to $3.58 billion and added $646 million, the largest dollar gain of any family, on AEC...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "646",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk Construction..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.79 billion",
+      "value": 1.79,
+      "unit": "billion",
+      "money_mn": 1790.0,
+      "decimals": 2,
+      "context": "...called Forma for Construction  . AutoCAD and AutoCAD LT grew 14% to $1.79 billion, Manufacturing grew 16% to $1.38 billion, and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,787",
+        "snippet": "...EBA offerings, and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.38 billion",
+      "value": 1.38,
+      "unit": "billion",
+      "money_mn": 1380.0,
+      "decimals": 2,
+      "context": "...and AutoCAD LT grew 14% to $1.79 billion, Manufacturing grew 16% to $1.38 billion, and Media and Entertainment grew 5% to $332...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.38 billion",
+        "snippet": "...was $479 million and $272 million for fiscal 2026 and 2025, relative to pre-tax income of $1.60 billion and $1.38 billion, respectively, for the same periods. The tax expense for fiscal 2026 consists primarily of the U.S. and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$332 million",
+      "value": 332.0,
+      "unit": "million",
+      "money_mn": 332.0,
+      "decimals": 0,
+      "context": "...grew 16% to $1.38 billion, and Media and Entertainment grew 5% to $332 million  . The Media and Entertainment figure is...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "332",
+        "snippet": "332 17 5 % 315 Increase due to lower contra revenue driven by the adoption of the new transaction model and EBA..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$125 million",
+      "value": 125.0,
+      "unit": "million",
+      "money_mn": 125.0,
+      "decimals": 0,
+      "context": ".... Other revenue, mainly consulting and training, rose 6% to $125 million  .  The most important strategic change is the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "125",
+        "snippet": "125 7 6 % 118 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$216 million",
+      "value": 216.0,
+      "unit": "million",
+      "money_mn": 216.0,
+      "decimals": 0,
+      "context": "...toward cloud, platform and AI. Restructuring and exit costs rose to $216 million from $15 million, the company spent $1.40...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "216",
+        "snippet": "...No material change as compared to the prior period. Restructuring, other exit costs, and facility reductions 216 201 1,340 % 15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15 million",
+      "value": 15.0,
+      "unit": "million",
+      "money_mn": 15.0,
+      "decimals": 0,
+      "context": "...and AI. Restructuring and exit costs rose to $216 million from $15 million, the company spent $1.40 billion repurchasing 5...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15",
+        "snippet": "...Current Reports on Form 8-K, and amendments to reports filed or furnished pursuant to Sections 13(a) and 15(d) of the Securities Exchange Act of 1934, as amended, are available free of charge on the Investor..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.40 billion",
+      "value": 1.4,
+      "unit": "billion",
+      "money_mn": 1400.0,
+      "decimals": 2,
+      "context": "...exit costs rose to $216 million from $15 million, the company spent $1.40 billion repurchasing 5 million shares, and it made no...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.40 billion",
+        "snippet": "...billion for the fiscal year ended January 31, 2025. We repurchased 5 million shares of our common stock for $1.40 billion during fiscal 2026. Comparatively, we repurchased 3 million shares of our common stock for $858 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$246.78",
+      "value": 246.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...buying Payapps in fiscal 2025  . At the current share price of $246.78, the stock trades well below the consensus...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "246.94",
+        "snippet": "246.94"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$307.54",
+      "value": 307.54,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of $246.78, the stock trades well below the consensus target of $307.54 and a Buy rating, with a 52-week range of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "307 million",
+        "snippet": "As of January 31, 2026, we had $307 million of gross unrecognized tax benefits, of which $50 million would reduce our valuation allowance, if..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$215.01",
+      "value": 215.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...target of $307.54 and a Buy rating, with a 52-week range of $215.01 to $329.09  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "215",
+        "snippet": "...and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$329.09",
+      "value": 329.09,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of $307.54 and a Buy rating, with a 52-week range of $215.01 to $329.09  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "329.09",
+        "snippet": "215.01 - 329.09"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...In fiscal 2026, which ended January 31, 2026, net revenue rose 18% to $7.21 billion from $6.13 billion, and 97% of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "january",
+          "net",
+          "revenue"
+        ],
+        "hl": "18 %",
+        "snippet": "...(now known as Forma for Construction) and Fusion. Other 430 57 15 % 373 Total Net Revenue $ 7,206 $ 1,075 18 % $ 6,131 Fiscal Year Ended January 31, 2025 Change compared to prior fiscal year Fiscal Year Ended January..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "97%",
+      "value": 97.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2026, net revenue rose 18% to $7.21 billion from $6.13 billion, and 97% of it was recurring  . Subscription revenue...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "recurring",
+          "net",
+          "revenue"
+        ],
+        "hl": "97%",
+        "snippet": "• Recurring revenue as a percentage of net revenue was 97% for both fiscal years ending January 31, 2026 and 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$6.74 billion, and current remaining performance obligations grew 23% to $5.48 billion, which is a useful guide to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "remaining",
+          "performance",
+          "obligation"
+        ],
+        "hl": "23%",
+        "snippet": "• Current remaining performance obligations were $5.48 billion, an increase of 23% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "100%",
+      "value": 100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the next twelve months  . Net revenue retention stayed above the 100% to 110% range on a constant currency basis at...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "retention",
+          "above",
+          "range",
+          "constant",
+          "currency"
+        ],
+        "hl": "100%",
+        "snippet": "• Net revenue retention rate (“NR3”) was above the range of 100% and 110%, on a constant currency basis, as of both January 31, 2026 and 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "110%",
+      "value": 110.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...twelve months  . Net revenue retention stayed above the 100% to 110% range on a constant currency basis at both year...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "above",
+          "range",
+          "constant",
+          "currency"
+        ],
+        "hl": "110%",
+        "snippet": "• Net revenue retention rate (“NR3”) was above the range of 100% and 110%, on a constant currency basis, as of both January 31, 2026 and 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and 3ds Max  .  Growth is concentrated in AECO. That family rose 22% to $3.58 billion and added $646 million, the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "family"
+        ],
+        "hl": "22 %",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk Construction..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...now called Forma for Construction  . AutoCAD and AutoCAD LT grew 14% to $1.79 billion, Manufacturing grew 16% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "autocad"
+        ],
+        "hl": "14 %",
+        "snippet": "...and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AutoCAD LT grew 14% to $1.79 billion, Manufacturing grew 16% to $1.38 billion, and Media and Entertainment...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "autocad"
+        ],
+        "hl": "16 %",
+        "snippet": "...LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to growth in revenue from MFG Collections, Fusion, and Inventor. M&E"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 16% to $1.38 billion, and Media and Entertainment grew 5% to $332 million  . The Media and Entertainment...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5%",
+        "snippet": "...annual global revenue, whichever is greater, the PIPL provides for penalties of up to 50 million renminbi or 5% of a company's annual revenue and disgorgement of all illegal gains, whichever is greater, and the CCPA..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...suggests  . Other revenue, mainly consulting and training, rose 6% to $125 million  .  The most important strategic...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6 %",
+        "snippet": "125 7 6 % 118 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63%",
+      "value": 63.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...directly with the customer. That moved the direct channel to 63% of revenue from 42%, and cut TD Synnex's share...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "63%",
+        "snippet": "For fiscal 2026 and 2025, approximately 63% and 42%, respectively, of our revenue was derived from direct sales to customers. With the continued growth..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the customer. That moved the direct channel to 63% of revenue from 42%, and cut TD Synnex's share to 14% from 33%  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "42%",
+        "snippet": "For fiscal 2026 and 2025, approximately 63% and 42%, respectively, of our revenue was derived from direct sales to customers. With the continued growth of our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...channel to 63% of revenue from 42%, and cut TD Synnex's share to 14% from 33%  . Management is also reallocating...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "synnex",
+          "revenue"
+        ],
+        "hl": "14%",
+        "snippet": "...and its global affiliates (collectively, “TD Synnex”). Total revenue from TD Synnex accounted for 14%, 33%, and 39% of Autodesk’s total net revenue during fiscal 2026, 2025, and 2024, respectively. Our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 63% of revenue from 42%, and cut TD Synnex's share to 14% from 33%  . Management is also reallocating resources...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "synnex",
+          "revenue"
+        ],
+        "hl": "33%",
+        "snippet": "...and its global affiliates (collectively, “TD Synnex”). Total revenue from TD Synnex accounted for 14%, 33%, and 39% of Autodesk’s total net revenue during fiscal 2026, 2025, and 2024, respectively. Our customers..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "5",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $15 million, the company spent $1.40 billion repurchasing 5 million shares, and it made no acquisitions...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "acquisition"
+        ],
+        "hl": "5,497",
+        "snippet": "118 21 22 % 97 $ 6,131 $ 634 12 % $ 5,497"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.18 billion",
+      "value": 3.18,
+      "unit": "billion",
+      "money_mn": 3180.0,
+      "decimals": 2,
+      "context": "...from outside the Americas. In fiscal 2026 the Americas delivered $3.18 billion of revenue, up 17%, which is 44% of the $7.21...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,178",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.21 billion",
+      "value": 7.21,
+      "unit": "billion",
+      "money_mn": 7210.0,
+      "decimals": 2,
+      "context": "...delivered $3.18 billion of revenue, up 17%, which is 44% of the $7.21 billion total (calculated from the reported figures)....",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.21 billion",
+        "snippet": "• Total net revenue was $7.21 billion during fiscal 2026, an increase of 18% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.79 billion",
+      "value": 2.79,
+      "unit": "billion",
+      "money_mn": 2790.0,
+      "decimals": 2,
+      "context": "...total (calculated from the reported figures). EMEA delivered $2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,794",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23 billion",
+      "value": 1.23,
+      "unit": "billion",
+      "money_mn": 1230.0,
+      "decimals": 2,
+      "context": "...figures). EMEA delivered $2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or 14% in constant currency)  ....",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,234",
+        "snippet": "...3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $ 7,206 $ 1,075 18 % 18 % $ 6,131 $ 634 12 % 13 % $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.56 billion",
+      "value": 4.56,
+      "unit": "billion",
+      "money_mn": 4560.0,
+      "decimals": 2,
+      "context": "...channel partners to Autodesk itself. Direct revenue rose 78% to $4.56 billion, or 63% of the total, while indirect revenue...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,560",
+        "snippet": "...except percentages) $ % Net revenue by sales channel: Indirect $ 2,646 $ (922) (26) % $ 3,568 Direct 4,560 1,997 78 % 2,563 Total net revenue $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.65 billion",
+      "value": 2.65,
+      "unit": "billion",
+      "money_mn": 2650.0,
+      "decimals": 2,
+      "context": "...billion, or 63% of the total, while indirect revenue fell 26% to $2.65 billion  . TD Synnex dropped to 14% of revenue from 33%,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,646",
+        "snippet": "...Year Ended January 31, 2025 (in millions, except percentages) $ % Net revenue by sales channel: Indirect $ 2,646 $ (922) (26) % $ 3,568 Direct 4,560 1,997 78 % 2,563 Total net revenue $ 7,206 $ 1,075 18 % $ 6,131..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.13 billion",
+      "value": 6.13,
+      "unit": "billion",
+      "money_mn": 6130.0,
+      "decimals": 2,
+      "context": "...the largest revenue base in its peer set. Fiscal 2025 revenue of $6.13 billion compared with $1.50 billion at Bentley Systems,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,131",
+        "snippet": "...subscription and maintenance revenue 6,776 1,018 18 % 5,758 Other 430 57 15 % 373 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.50 billion",
+      "value": 1.5,
+      "unit": "billion",
+      "money_mn": 1500.0,
+      "decimals": 2,
+      "context": "...in its peer set. Fiscal 2025 revenue of $6.13 billion compared with $1.50 billion at Bentley Systems, $2.74 billion at PTC and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.5 billion",
+        "snippet": "...Agreement, which provides for an unsecured revolving loan facility in the aggregate principal amount of $1.5 billion, with an option to be increased up to $2 billion, subject to receipt of additional commitments and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.74 billion",
+      "value": 2.74,
+      "unit": "billion",
+      "money_mn": 2740.0,
+      "decimals": 2,
+      "context": "...of $6.13 billion compared with $1.50 billion at Bentley Systems, $2.74 billion at PTC and $1.32 billion at Procore  . Analysts...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,737",
+        "snippet": "...$ 6,703 $ 5,683 $ 5,080 Income from operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.32 billion",
+      "value": 1.32,
+      "unit": "billion",
+      "money_mn": 1320.0,
+      "decimals": 2,
+      "context": "...with $1.50 billion at Bentley Systems, $2.74 billion at PTC and $1.32 billion at Procore  . Analysts expect FY2027 revenue of...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PCOR Total Revenue 2025-12-31: 1,322,509,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.37 billion",
+      "value": 8.37,
+      "unit": "billion",
+      "money_mn": 8370.0,
+      "decimals": 2,
+      "context": "...and $1.32 billion at Procore  . Analysts expect FY2027 revenue of $8.37 billion, up 16.1%, with a consensus Buy rating and a...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$307.54",
+      "value": 307.54,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of $8.37 billion, up 16.1%, with a consensus Buy rating and a $307.54 target price, both dated after the       . That...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "307 million",
+        "snippet": "As of January 31, 2026, we had $307 million of gross unrecognized tax benefits, of which $50 million would reduce our valuation allowance, if..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...In fiscal 2026 the Americas delivered $3.18 billion of revenue, up 17%, which is 44% of the $7.21 billion total...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "america"
+        ],
+        "hl": "17 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44%",
+      "value": 44.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the Americas delivered $3.18 billion of revenue, up 17%, which is 44% of the $7.21 billion total (calculated from the...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from the reported figures). EMEA delivered $2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "39%",
+        "snippet": "...TD Synnex Corporation and its global affiliates (collectively, “TD Synnex”), accounted for 14%, 33%, and 39% of our net revenue for the fiscal years ended January 31, 2026, 2025 and 2024, respectively. In connection..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from the reported figures). EMEA delivered $2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or 14% in...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "emea",
+          "apac"
+        ],
+        "hl": "21 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $ 7,206 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EMEA delivered $2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or 14% in constant currency)  . Foreign...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "emea",
+          "apac"
+        ],
+        "hl": "17 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or 14% in constant currency)  . Foreign...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "apac"
+        ],
+        "hl": "11 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$2.79 billion (39%, up 21%) and APAC $1.23 billion (17%, up 11%, or 14% in constant currency)  . Foreign exchange was...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "apac"
+        ],
+        "hl": "14 %",
+        "snippet": "...17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $ 7,206 $ 1,075 18 % 18 % $ 6,131 $ 634 12 % 13 % $ 5,497..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or 14% in constant currency)  . Foreign exchange was neutral to the 18% total growth, and international revenue stayed...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "neutral",
+          "exchange",
+          "foreign",
+          "revenue"
+        ],
+        "hl": "18 %",
+        "snippet": "...to prior fiscal year (1) Positive/negative/neutral impact from foreign exchange rate changes Net revenue 18 % 18 % Neutral Total spend 18 % 18 % Neutral"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "64%",
+      "value": 64.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to the 18% total growth, and international revenue stayed at 64% of the total in both fiscal 2026 and 2025  . The...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "international",
+          "revenue"
+        ],
+        "hl": "64%",
+        "snippet": "International net revenue represented 64% of our net revenue for both fiscal 2026 and 2025. Our international revenue, some of which comes from..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from channel partners to Autodesk itself. Direct revenue rose 78% to $4.56 billion, or 63% of the total, while...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "direct",
+          "revenue"
+        ],
+        "hl": "78 %",
+        "snippet": "...percentages) $ % Net revenue by sales channel: Indirect $ 2,646 $ (922) (26) % $ 3,568 Direct 4,560 1,997 78 % 2,563 Total net revenue $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63%",
+      "value": 63.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to Autodesk itself. Direct revenue rose 78% to $4.56 billion, or 63% of the total, while indirect revenue fell 26% to...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "63%",
+        "snippet": "For fiscal 2026 and 2025, approximately 63% and 42%, respectively, of our revenue was derived from direct sales to customers. With the continued growth..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $4.56 billion, or 63% of the total, while indirect revenue fell 26% to $2.65 billion  . TD Synnex dropped to 14% of...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "indirect",
+          "revenue"
+        ],
+        "hl": "26) %",
+        "snippet": "...31, 2025 (in millions, except percentages) $ % Net revenue by sales channel: Indirect $ 2,646 $ (922) (26) % $ 3,568 Direct 4,560 1,997 78 % 2,563 Total net revenue $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...indirect revenue fell 26% to $2.65 billion  . TD Synnex dropped to 14% of revenue from 33%, and no other partner or...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "synnex",
+          "revenue"
+        ],
+        "hl": "14%",
+        "snippet": "...and its global affiliates (collectively, “TD Synnex”). Total revenue from TD Synnex accounted for 14%, 33%, and 39% of Autodesk’s total net revenue during fiscal 2026, 2025, and 2024, respectively. Our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...26% to $2.65 billion  . TD Synnex dropped to 14% of revenue from 33%, and no other partner or direct customer reached...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "synnex",
+          "revenue"
+        ],
+        "hl": "33%",
+        "snippet": "...and its global affiliates (collectively, “TD Synnex”). Total revenue from TD Synnex accounted for 14%, 33%, and 39% of Autodesk’s total net revenue during fiscal 2026, 2025, and 2024, respectively. Our customers..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue from 33%, and no other partner or direct customer reached 10%  . The      names no blue-chip end customers...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "customer",
+          "direct"
+        ],
+        "hl": "10%",
+        "snippet": "...not substantially dependent on TD Synnex. No other distributor, reseller, or direct customer accounted for 10% or more of our revenue in fiscal 2026."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at Procore  . Analysts expect FY2027 revenue of $8.37 billion, up 16.1%, with a consensus Buy rating and a $307.54...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.21 billion",
+      "value": 7.21,
+      "unit": "billion",
+      "money_mn": 7210.0,
+      "decimals": 2,
+      "context": "Fiscal 2026 revenue rose 18% to $7.21 billion, accelerating from 12% a year earlier, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.21 billion",
+        "snippet": "• Total net revenue was $7.21 billion during fiscal 2026, an increase of 18% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.03 billion",
+      "value": 1.03,
+      "unit": "billion",
+      "money_mn": 1030.0,
+      "decimals": 2,
+      "context": "...from 12% a year earlier, and subscription revenue supplied $1.03 billion of the $1.08 billion increase  . AECO led with...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,026",
+        "snippet": "...31, 2025 Management Comments (in millions, except percentages) $ % Net revenue: Subscription $ 6,743 $ 1,026 18 % $ 5,717 Increase due to growth in subscriptions from our existing customer base. Maintenance 33 (8) (20)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.08 billion",
+      "value": 1.08,
+      "unit": "billion",
+      "money_mn": 1080.0,
+      "decimals": 2,
+      "context": "...earlier, and subscription revenue supplied $1.03 billion of the $1.08 billion increase  . AECO led with 22% growth to $3.58...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,075",
+        "snippet": "...(20) % 41 Total subscription and maintenance revenue 6,776 1,018 18 % 5,758 Other 430 57 15 % 373 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.58 billion",
+      "value": 3.58,
+      "unit": "billion",
+      "money_mn": 3580.0,
+      "decimals": 2,
+      "context": "...of the $1.08 billion increase  . AECO led with 22% growth to $3.58 billion, while AutoCAD and AutoCAD LT grew 14%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,583",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "nt 5",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AutoCAD LT grew 14%, Manufacturing 16% and Media and Entertainment 5%  . Gross margin held at 91.0%, but several...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5",
+        "snippet": "...where customers are located and establish a global minimum tax rate of 15% (“Pillar Two”). On January 5, 2026, the OECD announced a“side-by-side” elective safe harbor that exempts U.S.-parented multinational..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.37 billion",
+      "value": 2.37,
+      "unit": "billion",
+      "money_mn": 2370.0,
+      "decimals": 2,
+      "context": "...costs grew faster than revenue. Marketing and sales rose 19% to $2.37 billion, mainly because Solution Provider commissions...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,373",
+        "snippet": "$ 2,373 $ 373 19 % $ 2,000 Increase primarily due to an increase in sales commissions to Solution Providers due to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.64 billion",
+      "value": 1.64,
+      "unit": "billion",
+      "money_mn": 1640.0,
+      "decimals": 2,
+      "context": "...expense under the new transaction model, while R&D rose 11% to $1.64 billion and G&A rose 7% to $693 million  . Operating...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,642",
+        "snippet": "...operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $ 2,242 $ 1,839 $ 1,642 Diluted net income per share $ 5.23 $ 5.12 $ 4.19 Non-GAAP diluted net income per share $ 10.43 $ 8.47 $ 7.60..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$693 million",
+      "value": 693.0,
+      "unit": "million",
+      "money_mn": 693.0,
+      "decimals": 0,
+      "context": "...model, while R&D rose 11% to $1.64 billion and G&A rose 7% to $693 million  . Operating income rose 17% to $1.58 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "693",
+        "snippet": "693 43 7 % 650 Increase primarily due to an increase in charitable contributions to the Autodesk Foundation and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.58 billion",
+      "value": 1.58,
+      "unit": "billion",
+      "money_mn": 1580.0,
+      "decimals": 2,
+      "context": "...and G&A rose 7% to $693 million  . Operating income rose 17% to $1.58 billion, so operating margin was flat at 22%  . Part of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,578",
+        "snippet": "...Gross profit $ 6,556 $ 5,553 $ 4,986 Non-GAAP gross profit $ 6,703 $ 5,683 $ 5,080 Income from operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$216 million",
+      "value": 216.0,
+      "unit": "million",
+      "money_mn": 216.0,
+      "decimals": 0,
+      "context": "...line, profit growth stalled. Restructuring charges rose to $216 million from $15 million, and tax expense climbed to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "216",
+        "snippet": "...No material change as compared to the prior period. Restructuring, other exit costs, and facility reductions 216 201 1,340 % 15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15 million",
+      "value": 15.0,
+      "unit": "million",
+      "money_mn": 15.0,
+      "decimals": 0,
+      "context": "...growth stalled. Restructuring charges rose to $216 million from $15 million, and tax expense climbed to $479 million from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15",
+        "snippet": "...Current Reports on Form 8-K, and amendments to reports filed or furnished pursuant to Sections 13(a) and 15(d) of the Securities Exchange Act of 1934, as amended, are available free of charge on the Investor..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$479 million",
+      "value": 479.0,
+      "unit": "million",
+      "money_mn": 479.0,
+      "decimals": 0,
+      "context": "...rose to $216 million from $15 million, and tax expense climbed to $479 million from $272 million  . Net income rose only 1% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "479 million",
+        "snippet": "Income tax expense was $479 million and $272 million for fiscal 2026 and 2025, relative to pre-tax income of $1.60 billion and $1.38 billion,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$272 million",
+      "value": 272.0,
+      "unit": "million",
+      "money_mn": 272.0,
+      "decimals": 0,
+      "context": "...from $15 million, and tax expense climbed to $479 million from $272 million  . Net income rose only 1% to $1.12 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "272 million",
+        "snippet": "Income tax expense was $479 million and $272 million for fiscal 2026 and 2025, relative to pre-tax income of $1.60 billion and $1.38 billion, respectively, for..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.12 billion",
+      "value": 1.12,
+      "unit": "billion",
+      "money_mn": 1120.0,
+      "decimals": 2,
+      "context": "...to $479 million from $272 million  . Net income rose only 1% to $1.12 billion, which is a 15.6% net margin on $7.21 billion of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.12 billion",
+        "snippet": "Net cash provided by operating activities of $2.45 billion for fiscal 2026, primarily consisted of $1.12 billion of our net income adjusted for $1.83 billion non-cash items such as stock-based compensation expense,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.21 billion",
+      "value": 7.21,
+      "unit": "billion",
+      "money_mn": 7210.0,
+      "decimals": 2,
+      "context": "...rose only 1% to $1.12 billion, which is a 15.6% net margin on $7.21 billion of revenue (calculated), down from 18.1% a year...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.21 billion",
+        "snippet": "• Total net revenue was $7.21 billion during fiscal 2026, an increase of 18% compared to the prior fiscal year."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.23",
+      "value": 5.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...down from 18.1% a year earlier  . Diluted EPS rose 2% to $5.23, while non-GAAP diluted EPS rose 23% to $10.43,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.23",
+        "snippet": "...Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $ 2,242 $ 1,839 $ 1,642 Diluted net income per share $ 5.23 $ 5.12 $ 4.19 Non-GAAP diluted net income per share $ 10.43 $ 8.47 $ 7.60"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.43",
+      "value": 10.43,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS rose 2% to $5.23, while non-GAAP diluted EPS rose 23% to $10.43, and non-GAAP operating margin widened to 38%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10.43",
+        "snippet": "...$ 1,839 $ 1,642 Diluted net income per share $ 5.23 $ 5.12 $ 4.19 Non-GAAP diluted net income per share $ 10.43 $ 8.47 $ 7.60"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.79 billion",
+      "value": 2.79,
+      "unit": "billion",
+      "money_mn": 2790.0,
+      "decimals": 2,
+      "context": "...the non-GAAP trend  . Geography was balanced: EMEA grew 21% to $2.79 billion, Americas 17% to $3.18 billion and APAC 11% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,794",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.18 billion",
+      "value": 3.18,
+      "unit": "billion",
+      "money_mn": 3180.0,
+      "decimals": 2,
+      "context": "...was balanced: EMEA grew 21% to $2.79 billion, Americas 17% to $3.18 billion and APAC 11% to $1.23 billion, with foreign...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,178",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.23 billion",
+      "value": 1.23,
+      "unit": "billion",
+      "money_mn": 1230.0,
+      "decimals": 2,
+      "context": "...21% to $2.79 billion, Americas 17% to $3.18 billion and APAC 11% to $1.23 billion, with foreign exchange neutral to growth...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,234",
+        "snippet": "...3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $ 7,206 $ 1,075 18 % 18 % $ 6,131 $ 634 12 % 13 % $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.45 billion",
+      "value": 2.45,
+      "unit": "billion",
+      "money_mn": 2450.0,
+      "decimals": 2,
+      "context": "...was the strongest part of the year. Operating cash flow rose to $2.45 billion from $1.61 billion, and free cash flow reached...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2.45 billion",
+        "snippet": "...billion in cash, cash equivalents, and marketable securities. Our cash flow from operations increased to $2.45 billion for the fiscal year ended January 31, 2026, from $1.61 billion for the fiscal year ended January 31, 2025...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.61 billion",
+      "value": 1.61,
+      "unit": "billion",
+      "money_mn": 1610.0,
+      "decimals": 2,
+      "context": "...part of the year. Operating cash flow rose to $2.45 billion from $1.61 billion, and free cash flow reached $2.38 billion  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.61 billion",
+        "snippet": "...Our cash flow from operations increased to $2.45 billion for the fiscal year ended January 31, 2026, from $1.61 billion for the fiscal year ended January 31, 2025. We repurchased 5 million shares of our common stock for $1.40..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.38 billion",
+      "value": 2.38,
+      "unit": "billion",
+      "money_mn": 2380.0,
+      "decimals": 2,
+      "context": "...to $2.45 billion from $1.61 billion, and free cash flow reached $2.38 billion  . Working capital absorbed $501 million, mainly...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 2,376,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$501 million",
+      "value": 501.0,
+      "unit": "million",
+      "money_mn": 501.0,
+      "decimals": 0,
+      "context": "...free cash flow reached $2.38 billion  . Working capital absorbed $501 million, mainly from a $1.05 billion rise in prepaid and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "501",
+        "snippet": "The Autodesk Foundation (the “Foundation”), a privately funded 501(c)(3) charity organization established and solely funded by us, leads our philanthropic efforts. The purpose..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.05 billion",
+      "value": 1.05,
+      "unit": "billion",
+      "money_mn": 1050.0,
+      "decimals": 2,
+      "context": "...billion  . Working capital absorbed $501 million, mainly from a $1.05 billion rise in prepaid and other assets  . The company...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,050",
+        "snippet": "$ 7,024 $ 1,050 18 % $ 5,974 $ 597 11 % $ 5,377 As a percentage of net revenue 97 % N/A N/A 97 % N/A N/A 98 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.40 billion",
+      "value": 1.4,
+      "unit": "billion",
+      "money_mn": 1400.0,
+      "decimals": 2,
+      "context": "...and other assets  . The company repurchased 5 million shares for $1.40 billion and paid no dividend  . On consensus, analysts...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.40 billion",
+        "snippet": "...billion for the fiscal year ended January 31, 2025. We repurchased 5 million shares of our common stock for $1.40 billion during fiscal 2026. Comparatively, we repurchased 3 million shares of our common stock for $858 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.37 billion",
+      "value": 8.37,
+      "unit": "billion",
+      "money_mn": 8370.0,
+      "decimals": 2,
+      "context": "...paid no dividend  . On consensus, analysts expect FY2027 revenue of $8.37 billion, up 16.1%, and normalized EPS of $12.80, figures...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2027 revenue of $8.37 billion, up 16.1%, and normalized EPS of $12.80, figures dated after the       . Against peers,...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.13 billion",
+      "value": 6.13,
+      "unit": "billion",
+      "money_mn": 6130.0,
+      "decimals": 2,
+      "context": "...dated after the       . Against peers, Autodesk's FY2025 revenue of $6.13 billion was the largest in its group, well ahead of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,131",
+        "snippet": "...subscription and maintenance revenue 6,776 1,018 18 % 5,758 Other 430 57 15 % 373 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Fiscal 2026 revenue rose 18% to $7.21 billion, accelerating from 12% a year...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2026: 17.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Fiscal 2026 revenue rose 18% to $7.21 billion, accelerating from 12% a year earlier, and subscription revenue...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription",
+          "revenue"
+        ],
+        "hl": "12 %",
+        "snippet": "...31, 2024 Management Comments (in millions, except percentages) $ % Net revenue: Subscription $ 5,717 $ 601 12 % $ 5,116 Increase due to growth in subscriptions from our existing customer base. Maintenance 41 (13) (24) %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$1.03 billion of the $1.08 billion increase  . AECO led with 22% growth to $3.58 billion, while AutoCAD and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "aeco"
+        ],
+        "hl": "22 %",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk Construction..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...with 22% growth to $3.58 billion, while AutoCAD and AutoCAD LT grew 14%, Manufacturing 16% and Media and Entertainment...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "autocad"
+        ],
+        "hl": "14 %",
+        "snippet": "...and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$3.58 billion, while AutoCAD and AutoCAD LT grew 14%, Manufacturing 16% and Media and Entertainment 5%  . Gross margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "autocad"
+        ],
+        "hl": "16 %",
+        "snippet": "...LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to growth in revenue from MFG Collections, Fusion, and Inventor. M&E"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "91.0%",
+      "value": 91.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...16% and Media and Entertainment 5%  . Gross margin held at 91.0%, but several costs grew faster than revenue....",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2026: 91.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...several costs grew faster than revenue. Marketing and sales rose 19% to $2.37 billion, mainly because Solution...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "marketing",
+          "revenue"
+        ],
+        "hl": "19 %",
+        "snippet": "$ 2,373 $ 373 19 % $ 2,000 Increase primarily due to an increase in sales commissions to Solution Providers due to the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating expense under the new transaction model, while R&D rose 11% to $1.64 billion and G&A rose 7% to $693 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "model",
+          "transaction"
+        ],
+        "hl": "11 %",
+        "snippet": "1,643 158 11 % 1,485 Increase primarily due to employee-related costs driven by higher headcount and merit increases and an..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...transaction model, while R&D rose 11% to $1.64 billion and G&A rose 7% to $693 million  . Operating income rose 17% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7 %",
+        "snippet": "315 20 7 % 295 Increase due to revenue from the PIX acquisition and EBA offerings. Other"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion and G&A rose 7% to $693 million  . Operating income rose 17% to $1.58 billion, so operating margin was flat...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income rose 17% to $1.58 billion, so operating margin was flat at 22%  . Part of the reported growth is therefore...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "income"
+        ],
+        "hl": "22 %",
+        "snippet": "...operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...climbed to $479 million from $272 million  . Net income rose only 1% to $1.12 billion, which is a 15.6% net margin on...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "PCOR EBITDA Margin 2024: -1.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.6%",
+      "value": 15.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million  . Net income rose only 1% to $1.12 billion, which is a 15.6% net margin on $7.21 billion of revenue...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "18.1%",
+      "value": 18.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...net margin on $7.21 billion of revenue (calculated), down from 18.1% a year earlier  . Diluted EPS rose 2% to $5.23,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "18%",
+        "snippet": "During fiscal 2026, net revenue increased 18%, as compared to the prior fiscal year, primarily due to an increase in subscription revenue."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(calculated), down from 18.1% a year earlier  . Diluted EPS rose 2% to $5.23, while non-GAAP diluted EPS rose 23% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2) %",
+        "snippet": "80 (2) (2) % 82 Decrease primarily due to decrease in professional fees and stock-based compensation expense...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Diluted EPS rose 2% to $5.23, while non-GAAP diluted EPS rose 23% to $10.43, and non-GAAP operating margin widened...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2023: 23.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38%",
+      "value": 38.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS rose 23% to $10.43, and non-GAAP operating margin widened to 38% from 36%  . The gap between GAAP and non-GAAP...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "non-gaap"
+        ],
+        "hl": "38 %",
+        "snippet": "...income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $ 2,242 $ 1,839 $ 1,642 Diluted net income..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...23% to $10.43, and non-GAAP operating margin widened to 38% from 36%  . The gap between GAAP and non-GAAP results is...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "non-gaap"
+        ],
+        "hl": "36 %",
+        "snippet": "...from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $ 2,242 $ 1,839 $ 1,642 Diluted net income per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...confirm the non-GAAP trend  . Geography was balanced: EMEA grew 21% to $2.79 billion, Americas 17% to $3.18 billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "emea",
+          "america"
+        ],
+        "hl": "21 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 % 1,017 Total net revenue $ 7,206 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Geography was balanced: EMEA grew 21% to $2.79 billion, Americas 17% to $3.18 billion and APAC 11% to $1.23 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "emea",
+          "apac",
+          "america"
+        ],
+        "hl": "17 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 21% to $2.79 billion, Americas 17% to $3.18 billion and APAC 11% to $1.23 billion, with foreign exchange neutral...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "apac",
+          "america"
+        ],
+        "hl": "11 %",
+        "snippet": "612 124 25 % * 488 28 6 % * 460 Total Americas 3,178 462 17 % 17 % 2,716 278 11 % 12 % 2,438 EMEA 2,794 487 21 % 21 % 2,307 265 13 % 13 % 2,042 APAC 1,234 126 11 % 14 % 1,108 91 9 % 13 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... On consensus, analysts expect FY2027 revenue of $8.37 billion, up 16.1%, and normalized EPS of $12.80, figures dated...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "analyst",
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "5",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion rise in prepaid and other assets  . The company repurchased 5 million shares for $1.40 billion and paid no...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "repurchased",
+          "pershare"
+        ],
+        "hl": "5 million",
+        "snippet": "...year ended January 31, 2026, from $1.61 billion for the fiscal year ended January 31, 2025. We repurchased 5 million shares of our common stock for $1.40 billion during fiscal 2026. Comparatively, we repurchased 3 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.50 billion",
+      "value": 2.5,
+      "unit": "billion",
+      "money_mn": 2500.0,
+      "decimals": 2,
+      "context": "...shortfall would hit profitability quickly  . Debt is manageable: $2.50 billion of principal matures between June 2027 and June...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2.50 billion",
+        "snippet": "We have $2.50 billion of principal debt, consisting of notes due at various times from June 2027 to June 2035, as of January 31,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.5 billion",
+      "value": 1.5,
+      "unit": "billion",
+      "money_mn": 1500.0,
+      "decimals": 1,
+      "context": "...billion of principal matures between June 2027 and June 2035, and a $1.5 billion revolver is undrawn  . On the balance sheet,...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.5 billion",
+        "snippet": "...Agreement, which provides for an unsecured revolving loan facility in the aggregate principal amount of $1.5 billion, with an option to be increased up to $2 billion, subject to receipt of additional commitments and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$137 million",
+      "value": 137.0,
+      "unit": "million",
+      "money_mn": 137.0,
+      "decimals": 0,
+      "context": "...is undrawn  . On the balance sheet, Yahoo Finance shows net debt of $137 million at fiscal year-end and net cash of $450 million...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "137",
+        "snippet": "...to our investment agreements with limited liability partnership funds. Deferred compensation obligations 137 14 30 28 65 Deferred compensation obligations relate to amounts held in a rabbi trust under our non-qualified..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$450 million",
+      "value": 450.0,
+      "unit": "million",
+      "money_mn": 450.0,
+      "decimals": 0,
+      "context": "...shows net debt of $137 million at fiscal year-end and net cash of $450 million at the latest quarter, with a current ratio of...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Sale Of Investment 2023-01-31: 450,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$215",
+      "value": 215.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...metrics, any restatement would be material. Shares traded between $215 and $329 over the past 52 weeks, and the current...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "215",
+        "snippet": "...and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$329",
+      "value": 329.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...any restatement would be material. Shares traded between $215 and $329 over the past 52 weeks, and the current price of...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "329.09",
+        "snippet": "215.01 - 329.09"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$246.78",
+      "value": 246.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$215 and $329 over the past 52 weeks, and the current price of $246.78 sits in the lower half of that range  .",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "246.94",
+        "snippet": "246.94"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk is concentration. The AutoCAD and AutoCAD LT family made up 25% of fiscal 2026 revenue, down from 26%, and the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "family",
+          "autocad"
+        ],
+        "hl": "25 %",
+        "snippet": "...primarily due to growth in AEC collections, AutoCAD Family, MFG collections, and EBA offerings. Make 654 131 25 % 523 Increase primarily due to growth in revenue from Autodesk Construction Cloud (now known as Forma for..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AutoCAD LT family made up 25% of fiscal 2026 revenue, down from 26%, and the filing notes that sales of these...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "autocad"
+        ],
+        "hl": "26%",
+        "snippet": "...family products, not including collections having AutoCAD or AutoCAD LT as a component, represented 25% and 26% of our total net revenue, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...concentration has eased sharply, with TD Synnex falling to 14% of revenue from 33%, but the shift has moved...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "synnex",
+          "revenue"
+        ],
+        "hl": "14%",
+        "snippet": "...and its global affiliates (collectively, “TD Synnex”). Total revenue from TD Synnex accounted for 14%, 33%, and 39% of Autodesk’s total net revenue during fiscal 2026, 2025, and 2024, respectively. Our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...has eased sharply, with TD Synnex falling to 14% of revenue from 33%, but the shift has moved sales cost and...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "synnex",
+          "revenue"
+        ],
+        "hl": "33%",
+        "snippet": "...and its global affiliates (collectively, “TD Synnex”). Total revenue from TD Synnex accounted for 14%, 33%, and 39% of Autodesk’s total net revenue during fiscal 2026, 2025, and 2024, respectively. Our customers..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "64%",
+      "value": 64.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to share loss  .  The second risk is international exposure. About 64% of net revenue came from outside the United...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "revenue"
+        ],
+        "hl": "64%",
+        "snippet": "International net revenue represented 64% of our net revenue for both fiscal 2026 and 2025. Our international revenue, some of which comes from..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rescinded on February 24, 2026, but refunds remain uncertain, and a 10% temporary import surcharge under Section 122...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "surcharge",
+          "temporary",
+          "import"
+        ],
+        "hl": "10%",
+        "snippet": "...Beginning February 24, 2026, the U.S. government implemented a new, global “temporary import surcharge” of 10% on many of the same products affected by the prior reciprocal tariffs, under authorities provided for in..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.9x",
+      "value": 0.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cash of $450 million at the latest quarter, with a current ratio of 0.9x  . The Altman Z-Score of 4.09 is in the safe...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio",
+          "cashflow"
+        ],
+        "hl": "0.9",
+        "snippet": "...cash -$137.0 million, free cash flow $2,376.0 million, cash runway at that burn self-funded, current ratio 0.9x, shares outstanding 212.0 million, change in share count y/y -0.9%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "122",
+      "value": 122.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...uncertain, and a 10% temporary import surcharge under Section 122 applies from the same date to many of the same...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "section"
+        ],
+        "hl": "122",
+        "snippet": "...of the same products affected by the prior reciprocal tariffs, under authorities provided for in Section 122 of the Trade Act of 1974, supplementing existing non-IEEPA measures. Additional trade-related investigations..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...it does not fully hedge currency risk, with hedges running one to 18 months  .  The third risk is execution during...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "one"
+        ],
+        "hl": "18",
+        "snippet": "...ongoing business operations. These foreign currency instruments may have maturities that extend for one to 18 months in the future and provide us with some protection against currency exposures. However, our attempts to..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.09",
+      "value": 4.09,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...quarter, with a current ratio of 0.9x  . The Altman Z-Score of 4.09 is in the safe zone, and the Beneish M-Score of...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "safe",
+          "altman",
+          "zone",
+          "z-score"
+        ],
+        "hl": "4.09",
+        "snippet": "- Altman Z-Score: 4.09 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2.68",
+      "value": 2.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Z-Score of 4.09 is in the safe zone, and the Beneish M-Score of -2.68 shows no statistical warning sign  .  Governance...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "m-score",
+          "beneish",
+          "statistical",
+          "warning"
+        ],
+        "hl": "2.68",
+        "snippet": "- Beneish M-Score: -2.68 (below -1.78: no statistical warning sign)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "52",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...be material. Shares traded between $215 and $329 over the past 52 weeks, and the current price of $246.78 sits in...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Current Debt And Capital Lease Obligation 2026-01-31: 52,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.13 billion",
+      "value": 6.13,
+      "unit": "billion",
+      "money_mn": 6130.0,
+      "decimals": 2,
+      "context": "...cloud  . Size came second: Autodesk's FY2025 revenue of $6.13 billion was the largest in the group, against $1.50...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,131",
+        "snippet": "...subscription and maintenance revenue 6,776 1,018 18 % 5,758 Other 430 57 15 % 373 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.50 billion",
+      "value": 1.5,
+      "unit": "billion",
+      "money_mn": 1500.0,
+      "decimals": 2,
+      "context": "...revenue of $6.13 billion was the largest in the group, against $1.50 billion at Bentley, $2.74 billion at PTC and $1.32...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.5 billion",
+        "snippet": "...Agreement, which provides for an unsecured revolving loan facility in the aggregate principal amount of $1.5 billion, with an option to be increased up to $2 billion, subject to receipt of additional commitments and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.74 billion",
+      "value": 2.74,
+      "unit": "billion",
+      "money_mn": 2740.0,
+      "decimals": 2,
+      "context": "...was the largest in the group, against $1.50 billion at Bentley, $2.74 billion at PTC and $1.32 billion at Procore  . Trimble...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,737",
+        "snippet": "...$ 6,703 $ 5,683 $ 5,080 Income from operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.32 billion",
+      "value": 1.32,
+      "unit": "billion",
+      "money_mn": 1320.0,
+      "decimals": 2,
+      "context": "...group, against $1.50 billion at Bentley, $2.74 billion at PTC and $1.32 billion at Procore  . Trimble was closer in size (0.5x)...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PCOR Total Revenue 2025-12-31: 1,322,509,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "90.6%",
+      "value": 90.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...model, so it ranked below these three.  Autodesk's gross margin of 90.6% in FY2025 was the highest of the group, while...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 90.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2025 was the highest of the group, while the other three sat in a 78% to 84% range  . Profitability is where it...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "78 %",
+        "snippet": "...percentages) $ % Net revenue by sales channel: Indirect $ 2,646 $ (922) (26) % $ 3,568 Direct 4,560 1,997 78 % 2,563 Total net revenue $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "84%",
+      "value": 84.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was the highest of the group, while the other three sat in a 78% to 84% range  . Profitability is where it trails. Its...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PTC Gross Margin 2025: 83.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.3%",
+      "value": 25.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...range  . Profitability is where it trails. Its EBITDA margin was 25.3% in FY2025, against 28.8% at Bentley and 41.3% at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 25.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.8%",
+      "value": 28.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is where it trails. Its EBITDA margin was 25.3% in FY2025, against 28.8% at Bentley and 41.3% at PTC, and Procore was...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "BSY EBITDA Margin 2025: 28.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.3%",
+      "value": 41.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Its EBITDA margin was 25.3% in FY2025, against 28.8% at Bentley and 41.3% at PTC, and Procore was close to break-even at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "PTC EBITDA Margin 2025: 41.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at Bentley and 41.3% at PTC, and Procore was close to break-even at 1.3%  . In FY2026 Autodesk's EBITDA margin improved...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PCOR EBITDA Margin 2025: 1.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.6%",
+      "value": 27.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at 1.3%  . In FY2026 Autodesk's EBITDA margin improved to 27.6%, while PTC reached 54.9% on revenue that was...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2026: 27.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54.9%",
+      "value": 54.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Autodesk's EBITDA margin improved to 27.6%, while PTC reached 54.9% on revenue that was flat at -0.2%  . Return on...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "PTC EBITDA Margin 2026: 54.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-0.2%",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to 27.6%, while PTC reached 54.9% on revenue that was flat at -0.2%  . Return on invested capital is the offsetting...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "PTC Revenue Growth 2026: -0.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.4%",
+      "value": 22.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on invested capital is the offsetting strength. Autodesk's ROIC of 22.4% in FY2025 was roughly double PTC's 15.9% and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2025: 22.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.9%",
+      "value": 15.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Autodesk's ROIC of 22.4% in FY2025 was roughly double PTC's 15.9% and Bentley's 11.9%, and Procore remained...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "PTC ROIC 2025: 15.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 22.4% in FY2025 was roughly double PTC's 15.9% and Bentley's 11.9%, and Procore remained negative at -5.5%  . Its...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12 %",
+        "snippet": "...31, 2024 Management Comments (in millions, except percentages) $ % Net revenue: Subscription $ 5,717 $ 601 12 % $ 5,116 Increase due to growth in subscriptions from our existing customer base. Maintenance 41 (13) (24) %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-5.5%",
+      "value": 5.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...PTC's 15.9% and Bentley's 11.9%, and Procore remained negative at -5.5%  . Its FY2026 revenue growth of 17.5% also far...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "5.6%",
+        "snippet": "- Quarter ending 2026-07-31: EPS $3.30 vs estimate $3.12 (surprise +5.6%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.5%",
+      "value": 17.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Procore remained negative at -5.5%  . Its FY2026 revenue growth of 17.5% also far exceeded PTC's  .  On valuation,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2026: 17.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...lose its quality premium if revenue growth fell back toward the 10% to 11% range of 2024 and 2025, or if ROIC...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 9.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...its quality premium if revenue growth fell back toward the 10% to 11% range of 2024 and 2025, or if ROIC dropped below...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 11.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.7%",
+      "value": 21.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the 10% to 11% range of 2024 and 2025, or if ROIC dropped below 21.7%, its 2024 low  .",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2024: 21.7%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.5x",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at PTC and $1.32 billion at Procore  . Trimble was closer in size (0.5x) but is less aligned with Autodesk's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "BSY Net Other Financing Charges 2025-12-31: -513,000 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "27.2",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...far exceeded PTC's  .  On valuation, Autodesk's EV/EBITDA fell to 27.2 in FY2026 from 43.6 in FY2025, while PTC traded...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2026: 27.2"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "43.6",
+      "value": 43.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  On valuation, Autodesk's EV/EBITDA fell to 27.2 in FY2026 from 43.6 in FY2025, while PTC traded at 11.2 on...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 43.63"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "11.2",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell to 27.2 in FY2026 from 43.6 in FY2025, while PTC traded at 11.2 on EV/EBITDA, and Autodesk's EV/Sales of 7.5...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "PTC EV/EBITDA 2026: 11.2"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.5",
+      "value": 7.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...while PTC traded at 11.2 on EV/EBITDA, and Autodesk's EV/Sales of 7.5 compared with PTC's 6.2  . The premium to PTC on...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "EV/Sales 2026: 7.51"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "6.2",
+      "value": 6.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on EV/EBITDA, and Autodesk's EV/Sales of 7.5 compared with PTC's 6.2  . The premium to PTC on sales is therefore...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "PTC EV/Sales 2026: 6.15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.58 billion",
+      "value": 3.58,
+      "unit": "billion",
+      "money_mn": 3580.0,
+      "decimals": 2,
+      "context": "...keeps total revenue growth above 15% in FY2027. AECO rose 22% to $3.58 billion and subscription revenue supplied $1.03 billion...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,583",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.03 billion",
+      "value": 1.03,
+      "unit": "billion",
+      "money_mn": 1030.0,
+      "decimals": 2,
+      "context": "...AECO rose 22% to $3.58 billion and subscription revenue supplied $1.03 billion of the $1.08 billion increase  . Consensus...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,026",
+        "snippet": "...31, 2025 Management Comments (in millions, except percentages) $ % Net revenue: Subscription $ 6,743 $ 1,026 18 % $ 5,717 Increase due to growth in subscriptions from our existing customer base. Maintenance 33 (8) (20)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.08 billion",
+      "value": 1.08,
+      "unit": "billion",
+      "money_mn": 1080.0,
+      "decimals": 2,
+      "context": "...billion and subscription revenue supplied $1.03 billion of the $1.08 billion increase  . Consensus expects FY2027 growth of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,075",
+        "snippet": "...(20) % 41 Total subscription and maintenance revenue 6,776 1,018 18 % 5,758 Other 430 57 15 % 373 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$216 million",
+      "value": 216.0,
+      "unit": "million",
+      "money_mn": 216.0,
+      "decimals": 0,
+      "context": "...margin rises above 22% in FY2027 as restructuring costs fall from $216 million. Operating margin was flat at 22% in FY2026...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "216",
+        "snippet": "...No material change as compared to the prior period. Restructuring, other exit costs, and facility reductions 216 201 1,340 % 15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15 million",
+      "value": 15.0,
+      "unit": "million",
+      "money_mn": 15.0,
+      "decimals": 0,
+      "context": "...margin was flat at 22% in FY2026 while restructuring rose from $15 million to $216 million  . Non-GAAP operating margin...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15",
+        "snippet": "...Current Reports on Form 8-K, and amendments to reports filed or furnished pursuant to Sections 13(a) and 15(d) of the Securities Exchange Act of 1934, as amended, are available free of charge on the Investor..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$216 million",
+      "value": 216.0,
+      "unit": "million",
+      "money_mn": 216.0,
+      "decimals": 0,
+      "context": "...flat at 22% in FY2026 while restructuring rose from $15 million to $216 million  . Non-GAAP operating margin widened to 38% from...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "216",
+        "snippet": "...No material change as compared to the prior period. Restructuring, other exit costs, and facility reductions 216 201 1,340 % 15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$100 million",
+      "value": 100.0,
+      "unit": "million",
+      "money_mn": 100.0,
+      "decimals": 0,
+      "context": "...2027, shows GAAP operating margin above 23% and restructuring below $100 million. Restructuring stays above $150 million in...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Accounts Payable 2024-01-31: 100,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$150 million",
+      "value": 150.0,
+      "unit": "million",
+      "money_mn": 150.0,
+      "decimals": 0,
+      "context": "...23% and restructuring below $100 million. Restructuring stays above $150 million in FY2027, or GAAP operating margin remains at...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Reconciled Depreciation 2023-01-31: 150,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.37 billion",
+      "value": 8.37,
+      "unit": "billion",
+      "money_mn": 8370.0,
+      "decimals": 2,
+      "context": "...against an 11.1% WACC  . FY2027 consensus revenue holds at or above $8.37 billion through the next two quarterly updates, and...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the next two quarterly updates, and FY2027 EPS estimates rise above $12.80. FY2027 consensus revenue is cut below $8.2...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.2 billion",
+      "value": 8.2,
+      "unit": "billion",
+      "money_mn": 8200.0,
+      "decimals": 1,
+      "context": "...estimates rise above $12.80. FY2027 consensus revenue is cut below $8.2 billion, which would make the growth path too weak to...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Liabilities Net Minority Interest 2025-01-31: 8,212,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.0 billion",
+      "value": 2.0,
+      "unit": "billion",
+      "money_mn": 2000.0,
+      "decimals": 1,
+      "context": "...path too weak to support the valuation. Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2 billion",
+        "snippet": "...loan facility in the aggregate principal amount of $1.5 billion, with an option to be increased up to $2 billion, subject to receipt of additional commitments and other customary conditions, as described in Part II, Item..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.38 billion",
+      "value": 2.38,
+      "unit": "billion",
+      "money_mn": 2380.0,
+      "decimals": 2,
+      "context": "...as billings move to annual installments. Free cash flow reached $2.38 billion in FY2026 and operating cash flow $2.45 billion,...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 2,376,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.45 billion",
+      "value": 2.45,
+      "unit": "billion",
+      "money_mn": 2450.0,
+      "decimals": 2,
+      "context": "...cash flow reached $2.38 billion in FY2026 and operating cash flow $2.45 billion, although working capital absorbed $501 million...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2.45 billion",
+        "snippet": "...billion in cash, cash equivalents, and marketable securities. Our cash flow from operations increased to $2.45 billion for the fiscal year ended January 31, 2026, from $1.61 billion for the fiscal year ended January 31, 2025...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$501 million",
+      "value": 501.0,
+      "unit": "million",
+      "money_mn": 501.0,
+      "decimals": 0,
+      "context": "...cash flow $2.45 billion, although working capital absorbed $501 million  . Trailing free cash flow reached $2.80 billion...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "501",
+        "snippet": "The Autodesk Foundation (the “Foundation”), a privately funded 501(c)(3) charity organization established and solely funded by us, leads our philanthropic efforts. The purpose..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.80 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 2,
+      "context": "...capital absorbed $501 million  . Trailing free cash flow reached $2.80 billion at the latest quarter  . The FY2027 annual...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2,804.0 million",
+        "snippet": "...investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current ratio 0.9x, shares outstanding 209.0 million, change in share..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.0 billion",
+      "value": 2.0,
+      "unit": "billion",
+      "money_mn": 2000.0,
+      "decimals": 1,
+      "context": "...report, due around March 2027, shows free cash flow of at least $2.0 billion and deferred revenue growing at least as fast as...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2 billion",
+        "snippet": "...loan facility in the aggregate principal amount of $1.5 billion, with an option to be increased up to $2 billion, subject to receipt of additional commitments and other customary conditions, as described in Part II, Item..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.0 billion",
+      "value": 2.0,
+      "unit": "billion",
+      "money_mn": 2000.0,
+      "decimals": 1,
+      "context": "...growing at least as fast as revenue. Free cash flow falls below $2.0 billion, or buybacks are funded with new debt rather...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2 billion",
+        "snippet": "...loan facility in the aggregate principal amount of $1.5 billion, with an option to be increased up to $2 billion, subject to receipt of additional commitments and other customary conditions, as described in Part II, Item..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AECO growth keeps total revenue growth above 15% in FY2027. AECO rose 22% to $3.58 billion and...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "PCOR Revenue Growth 2025: 14.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AECO growth keeps total revenue growth above 15% in FY2027. AECO rose 22% to $3.58 billion and subscription revenue...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "aeco",
+          "revenue"
+        ],
+        "hl": "22 %",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk Construction..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of the $1.08 billion increase  . Consensus expects FY2027 growth of 16.1%  . Each FY2027 quarterly report shows total...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16 %",
+        "snippet": "...LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to growth in revenue from MFG Collections, Fusion, and Inventor. M&E"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Each FY2027 quarterly report shows total revenue growth of at least 15% and AECO growth of at least 18%. Total revenue...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "PCOR Revenue Growth 2025: 14.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...total revenue growth of at least 15% and AECO growth of at least 18%. Total revenue growth falls below 12% for two...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2026: 17.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AECO growth of at least 18%. Total revenue growth falls below 12% for two consecutive quarters, or AECO growth...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 11.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below 12% for two consecutive quarters, or AECO growth falls below 15%. GAAP operating margin rises above 22% in FY2027...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "two"
+        ],
+        "hl": "15%",
+        "snippet": "...greater taxing rights to countries where customers are located and establish a global minimum tax rate of 15% (“Pillar Two”). On January 5, 2026, the OECD announced a“side-by-side” elective safe harbor that exempts..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or AECO growth falls below 15%. GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "22 %",
+        "snippet": "...operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...costs fall from $216 million. Operating margin was flat at 22% in FY2026 while restructuring rose from $15...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "22 %",
+        "snippet": "...operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38%",
+      "value": 38.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15 million to $216 million  . Non-GAAP operating margin widened to 38% from 36%  . The FY2027 annual report, due around...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "non-gaap"
+        ],
+        "hl": "38 %",
+        "snippet": "...income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $ 2,242 $ 1,839 $ 1,642 Diluted net income..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $216 million  . Non-GAAP operating margin widened to 38% from 36%  . The FY2027 annual report, due around March...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating",
+          "non-gaap"
+        ],
+        "hl": "36 %",
+        "snippet": "...from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $ 2,242 $ 1,839 $ 1,642 Diluted net income per..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...report, due around March 2027, shows GAAP operating margin above 23% and restructuring below $100 million....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2023: 23.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million in FY2027, or GAAP operating margin remains at or below 22%. At the current price, the stock returns less...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "22 %",
+        "snippet": "...operations $ 1,578 $ 1,354 $ 1,128 Non-GAAP income from operations $ 2,737 $ 2,231 $ 1,962 Operating margin 22 % 22 % 21 % Non-GAAP operating margin 38 % 36 % 36 % Net income $ 1,124 $ 1,112 $ 906 Non-GAAP net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.3%",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of capital unless growth beats consensus. The reverse DCF implies 11.3% annual revenue growth for ten years against a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "11.3%",
+        "snippet": "- The current enterprise value of $52,991.3 million implies revenue growth of 11.3% per year for 10 years (FY2026 revenue $7,206.0 million -> about $21,005.1 million in FY2036), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.9%",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...11.3% annual revenue growth for ten years against a historical 12.9% three-year CAGR  . The consensus path yields a...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "12.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a historical 12.9% three-year CAGR  . The consensus path yields a 9.5% IRR against an 11.1% WACC  . FY2027 consensus...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "yield",
+          "path"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...three-year CAGR  . The consensus path yields a 9.5% IRR against an 11.1% WACC  . FY2027 consensus revenue holds at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 33.0% to 33.0% by year 10, a WACC of 11.1% (10y US Treasury (^TNX) 4.8% + beta 1.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3583.0 million",
+      "value": 3583.0,
+      "unit": "million",
+      "money_mn": 3583.0,
+      "decimals": 1,
+      "context": "AECO: $3583.0 million, prior $2937.0 million; AutoCAD and AutoCAD LT:...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,583",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2937.0 million",
+      "value": 2937.0,
+      "unit": "million",
+      "money_mn": 2937.0,
+      "decimals": 1,
+      "context": "AECO: $3583.0 million, prior $2937.0 million; AutoCAD and AutoCAD LT: $1787.0 million, prior...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,937",
+        "snippet": "AECO $ 3,583 $ 646 22 % $ 2,937 Increase due to growth in revenue from AEC Collections, EBA offerings, and Autodesk Construction Cloud (now..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1787.0 million",
+      "value": 1787.0,
+      "unit": "million",
+      "money_mn": 1787.0,
+      "decimals": 1,
+      "context": "AECO: $3583.0 million, prior $2937.0 million; AutoCAD and AutoCAD LT: $1787.0 million, prior $1572.0 million; MFG: $1379.0 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,787",
+        "snippet": "...EBA offerings, and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1572.0 million",
+      "value": 1572.0,
+      "unit": "million",
+      "money_mn": 1572.0,
+      "decimals": 1,
+      "context": "...$2937.0 million; AutoCAD and AutoCAD LT: $1787.0 million, prior $1572.0 million; MFG: $1379.0 million, prior $1189.0 million;...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,572",
+        "snippet": "...and Autodesk Construction Cloud (now known as Forma for Construction). AutoCAD and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1379.0 million",
+      "value": 1379.0,
+      "unit": "million",
+      "money_mn": 1379.0,
+      "decimals": 1,
+      "context": "...and AutoCAD LT: $1787.0 million, prior $1572.0 million; MFG: $1379.0 million, prior $1189.0 million; M&E: $332.0 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,379",
+        "snippet": "...and AutoCAD LT 1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to growth in revenue from MFG Collections, Fusion, and Inventor. M&E"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1189.0 million",
+      "value": 1189.0,
+      "unit": "million",
+      "money_mn": 1189.0,
+      "decimals": 1,
+      "context": "...$1787.0 million, prior $1572.0 million; MFG: $1379.0 million, prior $1189.0 million; M&E: $332.0 million, prior $315.0 million;...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,189",
+        "snippet": "...1,787 215 14 % 1,572 Increase due to growth in revenue from both AutoCAD and AutoCAD LT. MFG 1,379 190 16 % 1,189 Increase due to growth in revenue from MFG Collections, Fusion, and Inventor. M&E"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$332.0 million",
+      "value": 332.0,
+      "unit": "million",
+      "money_mn": 332.0,
+      "decimals": 1,
+      "context": "...$1572.0 million; MFG: $1379.0 million, prior $1189.0 million; M&E: $332.0 million, prior $315.0 million; Other: $125.0 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "332",
+        "snippet": "332 17 5 % 315 Increase due to lower contra revenue driven by the adoption of the new transaction model and EBA..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$315.0 million",
+      "value": 315.0,
+      "unit": "million",
+      "money_mn": 315.0,
+      "decimals": 1,
+      "context": "...$1379.0 million, prior $1189.0 million; M&E: $332.0 million, prior $315.0 million; Other: $125.0 million, prior $118.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "315",
+        "snippet": "332 17 5 % 315 Increase due to lower contra revenue driven by the adoption of the new transaction model and EBA offerings...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$125.0 million",
+      "value": 125.0,
+      "unit": "million",
+      "money_mn": 125.0,
+      "decimals": 1,
+      "context": "...$1189.0 million; M&E: $332.0 million, prior $315.0 million; Other: $125.0 million, prior $118.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "125",
+        "snippet": "125 7 6 % 118 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$118.0 million",
+      "value": 118.0,
+      "unit": "million",
+      "money_mn": 118.0,
+      "decimals": 1,
+      "context": "...$332.0 million, prior $315.0 million; Other: $125.0 million, prior $118.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "118",
+        "snippet": "125 7 6 % 118 $ 7,206 $ 1,075 18 % $ 6,131"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "BSY",
+    "PTC",
+    "PCOR"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 227,
+    "matched": 225,
+    "match_rate": 0.991,
+    "name_issues": 0
+  }
+}

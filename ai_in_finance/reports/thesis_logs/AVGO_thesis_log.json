@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2026-11-25",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/AVGO_earnings_multi_claude-haiku-5.5\\AVGO_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: AI demand keeps semiconductor revenue growing fast enough to support consensus FY2026 revenue of about $106 billion.",
+        "signpost": "Semiconductor revenue growth of at least 40% year on year in the fiscal 2026 10-K, due by early December 2026. Interim invalidation: growth below 20% in any fiscal 2026 quarter, or a cut in FY2026 consensus revenue beyond the level set in the annual report.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Infrastructure software keeps its high margin as the subscription transition continues.",
+        "signpost": "Software operating income growth of at least 25% in the fiscal 2026 10-K, due by early December 2026. Invalidation: software operating income growth below the 10% level set in the annual report.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Gross margin holds near 68% even as AI rack sales grow, so the margin expansion lasts.",
+        "signpost": "Reported gross margin of at least 66% in each fiscal 2026 quarter. Invalidation: quarterly gross margin below 63%, the fiscal 2024 level.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T4: Earnings estimates keep rising, so the current valuation stays supported by consensus rather than requiring a higher growth rate.",
+        "signpost": "FY2027 EPS consensus holds at or above $19 through the fiscal 2026 10-K, due by early December 2026. Invalidation: FY2027 EPS consensus cut by more than the level set in the annual report, or the stock trades above 40x forward earnings without an earnings upgrade.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/AVGO_earnings_multi_claude-haiku-5.5\\AVGO_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: AI demand keeps semiconductor revenue growing fast enough to support consensus FY2026 revenue of about $106 billion.",
+        "signpost": "Semiconductor revenue growth of at least 40% year on year in the fiscal 2026 10-K, due by early December 2026; interim invalidation below 20% in any quarter or a cut of more than 10% in consensus FY2026 revenue.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Infrastructure software keeps its high margin as the subscription transition continues.",
+        "signpost": "Software operating income growth of at least 25% in the fiscal 2026 10-K, due by early December 2026; invalidation below 10% growth.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Gross margin holds near 68% even as AI rack sales grow, so the margin expansion lasts.",
+        "signpost": "Reported gross margin of at least 66% in each fiscal 2026 quarter; invalidation below 63%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T4: Earnings estimates keep rising, so the current valuation stays supported by consensus rather than requiring a higher growth rate.",
+        "signpost": "FY2027 EPS consensus holds at or above $19 through the fiscal 2026 10-K, due by early December 2026; invalidation is a cut of more than 10% or a forward P/E above 40x without an earnings upgrade.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

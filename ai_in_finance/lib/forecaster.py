@@ -21,6 +21,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 import autogen
+from . import agent_settings as _AS  # Prompts/Parameter aus der App (research/agent_settings.json)
 from finrobot.data_source import FinnHubUtils, YFinanceUtils
 from finrobot.toolkits import register_toolkits
 
@@ -41,7 +42,7 @@ SYSTEM = ("As a Market Analyst, one must possess strong analytical and problem-s
 
 
 def build_forecaster(llm_config, extended=False):
-    analyst = autogen.AssistantAgent(name="Market_Analyst", system_message=SYSTEM, llm_config=llm_config)
+    analyst = autogen.AssistantAgent(name="Market_Analyst", system_message=_AS.get("forecast.system", SYSTEM), llm_config=llm_config)
     user_proxy = autogen.UserProxyAgent(
         name="User_Proxy",
         is_termination_msg=lambda x: x.get("content", "") and x.get("content", "").rstrip().endswith("TERMINATE"),
@@ -103,7 +104,7 @@ def _last_close(ticker):
 def forecast(llm_config, ticker, model_name="", extended=False, out_dir=None):
     ticker = ticker.upper()
     analyst, user_proxy = build_forecaster(llm_config, extended)
-    user_proxy.initiate_chat(analyst, message=forecast_message(ticker), cache=None)
+    user_proxy.initiate_chat(analyst, message=forecast_message(ticker) + _AS.extra("forecast.extra"), cache=None)
     msgs = analyst.chat_messages.get(user_proxy, [])  # aus Sicht des Analysten: eigene Nachrichten = "assistant"
     answer = ""
     for m in reversed(msgs):

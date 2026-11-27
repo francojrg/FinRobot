@@ -1,0 +1,2558 @@
+{
+  "total_claims": 157,
+  "matched": 157,
+  "match_rate": 1.0,
+  "by_kind": {
+    "money": {
+      "total": 50,
+      "matched": 50
+    },
+    "pct": {
+      "total": 92,
+      "matched": 92
+    },
+    "plain": {
+      "total": 12,
+      "matched": 12
+    },
+    "multiple": {
+      "total": 3,
+      "matched": 3
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 109,
+    "[2] Yahoo Finance": 19,
+    "[2][3] Liquidity and consensus": 16,
+    "[4] Peer data": 13
+  },
+  "unmatched": [],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$16.4 billion",
+      "value": 16.4,
+      "unit": "billion",
+      "money_mn": 16400.0,
+      "decimals": 1,
+      "context": ".... Cash generation backs shareholder returns, as free cash flow of $16.4 billion covered $14.5 billion of buybacks and dividends...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "16,433,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.5 billion",
+      "value": 14.5,
+      "unit": "billion",
+      "money_mn": 14500.0,
+      "decimals": 1,
+      "context": "...shareholder returns, as free cash flow of $16.4 billion covered $14.5 billion of buybacks and dividends in 2025  . Regulation...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Adjusted net revenue Adjusted net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Value-added services should keep the growth lead, since 23% growth against 12% for the network makes...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...services should keep the growth lead, since 23% growth against 12% for the network makes diversification the core...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of capital need growth above consensus: the reverse DCF implies 13.4% revenue growth against a 6.9% implied return  ....",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $567,076.0 million implies revenue growth of 13.4% per year for 10 years (FY2025 revenue $32,791.0 million -> about $115,656.5 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus: the reverse DCF implies 13.4% revenue growth against a 6.9% implied return  . Cash generation backs...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "9% 9% 8% 11% United States 6% 6% 7% 7% Worldwide less United States 10% 10% 9% 12%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.8 billion",
+      "value": 32.8,
+      "unit": "billion",
+      "money_mn": 32800.0,
+      "decimals": 1,
+      "context": "Mastercard closed 2025 with strong momentum. Net revenue rose 16% to $32.8 billion, value-added services grew 23%, and diluted EPS...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.52",
+      "value": 16.52,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...billion, value-added services grew 23%, and diluted EPS rose 19% to $16.52  . Operating margin widened to 57.6% from 55.3%,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.6 billion",
+      "value": 17.6,
+      "unit": "billion",
+      "money_mn": 17600.0,
+      "decimals": 1,
+      "context": "...margin widened to 57.6% from 55.3%, and operating cash flow reached $17.6 billion  .\\n\\nConsensus, dated after the     , expects...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.06",
+      "value": 20.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...revenue growth of 14.0% in FY2026 and 12.6% in FY2027, with EPS of $20.06 and $23.16, and most analysts have raised...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...revenue $37,372.3 million (range $37,051.0 million to $37,545.0 million, 37 analysts), growth +14.0%; EPS $20.06 (range $19.91 to $20.40); forward P/E 32.1x; EV/Sales 15.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.16",
+      "value": 23.16,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 14.0% in FY2026 and 12.6% in FY2027, with EPS of $20.06 and $23.16, and most analysts have raised estimates in the...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...revenue $42,086.2 million (range $41,390.4 million to $42,799.0 million, 36 analysts), growth +12.6%; EPS $23.16 (range $22.56 to $23.80); forward P/E 27.8x; EV/Sales 13.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Mastercard closed 2025 with strong momentum. Net revenue rose 16% to $32.8 billion, value-added services grew 23%,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Net revenue rose 16% to $32.8 billion, value-added services grew 23%, and diluted EPS rose 19% to $16.52  . Operating...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$32.8 billion, value-added services grew 23%, and diluted EPS rose 19% to $16.52  . Operating margin widened to 57.6%...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57.6%",
+      "value": 57.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and diluted EPS rose 19% to $16.52  . Operating margin widened to 57.6% from 55.3%, and operating cash flow reached...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52% (3)% Effective income tax..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "55.3%",
+      "value": 55.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS rose 19% to $16.52  . Operating margin widened to 57.6% from 55.3%, and operating cash flow reached $17.6 billion...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52% (3)% Effective income tax rate 19.4..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.0%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....\\n\\nConsensus, dated after the     , expects revenue growth of 14.0% in FY2026 and 12.6% in FY2027, with EPS of...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.6%",
+      "value": 12.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...dated after the     , expects revenue growth of 14.0% in FY2026 and 12.6% in FY2027, with EPS of $20.06 and $23.16, and...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2027E: revenue $42,086.2 million (range $41,390.4 million to $42,799.0 million, 36 analysts), growth +12.6%; EPS $23.16 (range $22.56 to $23.80); forward P/E 27.8x; EV/Sales 13.5x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...month  . At the current enterprise value, the reverse DCF implies 13.4% annual revenue growth for ten years, close to...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $567,076.0 million implies revenue growth of 13.4% per year for 10 years (FY2025 revenue $32,791.0 million -> about $115,656.5 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.8%",
+      "value": 13.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...annual revenue growth for ten years, close to consensus and the 13.8% three-year historical CAGR, yet the implied...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- For comparison: historical 3-year revenue CAGR 13.8%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and the 13.8% three-year historical CAGR, yet the implied return of 6.9% sits below the 8.7% WACC  . The price therefore...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "9% 9% 8% 11% United States 6% 6% 7% 7% Worldwide less United States 10% 10% 9% 12%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...historical CAGR, yet the implied return of 6.9% sits below the 8.7% WACC  . The price therefore requires...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...is compared to GDV growth on a local currency basis. In 2025, GDV on a U.S. dollar-converted basis increased 8.7%, while GDV on a local currency basis increased 8.6% versus 2024. In 2024, GDV on a U.S. dollar-converted..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...payment systems, and dependence on five customers that provide 21% of revenue  . On these figures the shares look...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.8 billion",
+      "value": 32.8,
+      "unit": "billion",
+      "money_mn": 32800.0,
+      "decimals": 1,
+      "context": "...which limits direct credit exposure  . Net revenue rose 16% to $32.8 billion in 2025 from $28.2 billion in 2024, and diluted...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.2 billion",
+      "value": 28.2,
+      "unit": "billion",
+      "money_mn": 28200.0,
+      "decimals": 1,
+      "context": "...exposure  . Net revenue rose 16% to $32.8 billion in 2025 from $28.2 billion in 2024, and diluted EPS rose 19% to $16.52...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.52",
+      "value": 16.52,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in 2025 from $28.2 billion in 2024, and diluted EPS rose 19% to $16.52  .\\n\\nThe business has two reporting components....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.5 billion",
+      "value": 19.5,
+      "unit": "billion",
+      "money_mn": 19500.0,
+      "decimals": 1,
+      "context": "...has two reporting components. The payment network generated $19.5 billion in 2025, up 12% from $17.3 billion, driven by...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2025 2024 2023 2025 2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.3 billion",
+      "value": 17.3,
+      "unit": "billion",
+      "money_mn": 17300.0,
+      "decimals": 1,
+      "context": "...The payment network generated $19.5 billion in 2025, up 12% from $17.3 billion, driven by domestic and cross-border dollar...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2025 2024 2023 2025 2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.5 billion",
+      "value": 20.5,
+      "unit": "billion",
+      "money_mn": 20500.0,
+      "decimals": 1,
+      "context": "...transactions. Rebates and incentives paid to customers rose 16% to $20.5 billion, faster than the network revenue they offset  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...reflecting growth trends across all of our key drivers. Net revenue from our payment network included $20,522 million of rebates and incentives provided to customers, which increased 16%, on both an as-reported and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.3 billion",
+      "value": 13.3,
+      "unit": "billion",
+      "money_mn": 13300.0,
+      "decimals": 1,
+      "context": "...revenue they offset  . Value-added services and solutions generated $13.3 billion, up 23% from $10.8 billion. Acquisitions...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.8 billion",
+      "value": 10.8,
+      "unit": "billion",
+      "money_mn": 10800.0,
+      "decimals": 1,
+      "context": "...services and solutions generated $13.3 billion, up 23% from $10.8 billion. Acquisitions contributed 3 percentage points,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.7 billion",
+      "value": 11.7,
+      "unit": "billion",
+      "money_mn": 11700.0,
+      "decimals": 1,
+      "context": ".... Capital allocation stayed shareholder-focused: buybacks of $11.7 billion and dividends of $2.8 billion were funded from...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...net revenue Adjusted net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.8 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 1,
+      "context": "...shareholder-focused: buybacks of $11.7 billion and dividends of $2.8 billion were funded from operating cash flow of $17.6...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$2.8B Dividends paid cash flows from operations"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.6 billion",
+      "value": 17.6,
+      "unit": "billion",
+      "money_mn": 17600.0,
+      "decimals": 1,
+      "context": "...dividends of $2.8 billion were funded from operating cash flow of $17.6 billion  . On market data, the shares closed at $537.74...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$537.74",
+      "value": 537.74,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...cash flow of $17.6 billion  . On market data, the shares closed at $537.74 with a 52-week range of $460.65 to $597.14  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 7,251 $ 6,673 $ 6,022 9% 11% Professional fees 537 549 495 (2)% 11% Data processing and telecommunications 1,272 1,119 1,008 14% 11%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$460.65",
+      "value": 460.65,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...market data, the shares closed at $537.74 with a 52-week range of $460.65 to $597.14  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "460.65 - 597.14"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$597.14",
+      "value": 597.14,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the shares closed at $537.74 with a 52-week range of $460.65 to $597.14  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "460.65 - 597.14"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...lending, which limits direct credit exposure  . Net revenue rose 16% to $32.8 billion in 2025 from $28.2 billion in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion in 2025 from $28.2 billion in 2024, and diluted EPS rose 19% to $16.52  .\\n\\nThe business has two reporting...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...components. The payment network generated $19.5 billion in 2025, up 12% from $17.3 billion, driven by domestic and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...transactions. Rebates and incentives paid to customers rose 16% to $20.5 billion, faster than the network...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Value-added services and solutions generated $13.3 billion, up 23% from $10.8 billion. Acquisitions contributed 3...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...contributed 3 percentage points, and currency-neutral growth was 21%. Security, digital and authentication solutions,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from the 2026 season  . It cites tokenization, which covered about 40% of transactions in 2025, together with cash...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• In 2025, approximately 40% of all Mastercard transactions are now tokenized"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1966",
+      "value": 1966.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...principal operating subsidiary Mastercard International formed in 1966, it runs a four-party payments network that...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...International Incorporated, a Delaware non-stock (or membership) corporation that was formed in November 1966. For more information about our capital structure, including our Class A common stock (our voting stock) and..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "150",
+      "value": 150.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...that authorizes, clears and settles transactions in more than 150 currencies and over 220 countries and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...insights to our customers. We enable transactions for our customers through our payment network in more than 150 currencies and in more than 220 countries and territories."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "220",
+      "value": 220.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and settles transactions in more than 150 currencies and over 220 countries and territories  . The company does...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...transactions for our customers through our payment network in more than 150 currencies and in more than 220 countries and territories."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$13.3 billion, up 23% from $10.8 billion. Acquisitions contributed 3 percentage points, and currency-neutral growth...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and Analysis of Financial Condition and Results of Operations - Revenue” in Part II, Item 7 and Note 3 (Revenue) to the consolidated financial statements included in Part II, Item 8 for more detail about our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.9 billion",
+      "value": 6.9,
+      "unit": "billion",
+      "money_mn": 6900.0,
+      "decimals": 1,
+      "context": "...commercial dependency. The five largest customers generated about $6.9 billion, or 21% of net revenue, in 2025, and the filing...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...among our five largest customers. In 2025, the net revenue from these customers was approximately $6.9 billion, or 21%, of total net revenue. The loss of any of these customers or their significant card programs could..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.06",
+      "value": 20.06,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... On consensus, the forward P/E is 32.1x on FY2026 EPS of $20.06, with forward EV/Sales of 15.2x  . Analysts rate...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...revenue $37,372.3 million (range $37,051.0 million to $37,545.0 million, 37 analysts), growth +14.0%; EPS $20.06 (range $19.91 to $20.40); forward P/E 32.1x; EV/Sales 15.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$720.69",
+      "value": 720.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 15.2x  . Analysts rate the stock buy with a mean target of $720.69 in a range of $550 to $800  .",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 327 $ 274 $ (2) $ 53 Gains (losses) on equity investments, net (88) (29) (61) (59) 32 Interest expense (722) (646) (575) (76) (71)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$550",
+      "value": 550.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rate the stock buy with a mean target of $720.69 in a range of $550 to $800  .",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 7,251 $ 6,673 $ 6,022 9% 11% Professional fees 537 549 495 (2)% 11% Data processing and telecommunications 1,272 1,119 1,008 14% 11%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$800",
+      "value": 800.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the stock buy with a mean target of $720.69 in a range of $550 to $800  .",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 8,927 11 % 14 % Advertising and marketing 929 815 825 14 % (1) % Depreciation and amortization 1,143 897 799 27 % 12 % Provision for litigation 504 680 539 (26) % 26 % Total operating expenses 13,894 12,585 11,090 10 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rather than a challenger. Its franchise is global, with roughly 71% of 2025 revenue generated outside the United...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "During 2025, approximately 71% of our revenue was generated from activities outside the U.S., which could be transacted in a non-functional..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...United States, and no single non-U.S. country produced more than 10% of net revenue  . The      does not quantify...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by geography: U.S. Mastercard-branded gross dollar volume rose 6% in 2025, compared with 10% for the rest of the...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...to meet specific needs. Our voluntary workforce turnover (rolling 12-month attrition) was approximately 6% as of December 31, 2025. The total cost of our workforce for the year ended December 31, 2025 was $7.3..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...gross dollar volume rose 6% in 2025, compared with 10% for the rest of the world on a U.S. dollar basis...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...The five largest customers generated about $6.9 billion, or 21% of net revenue, in 2025, and the filing does not...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58.2%",
+      "value": 58.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...are the clearest differentiator. Mastercard's fiscal 2025 ROIC of 58.2% compares with 33.0% for Visa and 18.5% for...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "58.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.0%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Mastercard's fiscal 2025 ROIC of 58.2% compares with 33.0% for Visa and 18.5% for PayPal, and it has risen...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "33.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.5%",
+      "value": 18.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fiscal 2025 ROIC of 58.2% compares with 33.0% for Visa and 18.5% for PayPal, and it has risen every year since...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...margin 59.2 % 58.4 % 58.0 % 0.8 ppt 0.7 ppt 0.4 ppt 0.7 ppt Adjusted effective income tax rate 19.6 % 16.2 % 18.5 % 3.4 ppt 3.4 ppt (2.3) ppt (2.2) ppt Adjusted net income $ 15,415 $ 13,541 $ 11,607 14% 13% 17% 18% Adjusted..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "62.3%",
+      "value": 62.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and it has risen every year since 2022  . Its 2025 EBITDA margin of 62.3% is below Visa's 65.0%, so Visa remains the...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "62.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65.0%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...year since 2022  . Its 2025 EBITDA margin of 62.3% is below Visa's 65.0%, so Visa remains the margin benchmark  . On...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "65.0%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "32.1x",
+      "value": 32.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...remains the margin benchmark  . On consensus, the forward P/E is 32.1x on FY2026 EPS of $20.06, with forward EV/Sales...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...million to $37,545.0 million, 37 analysts), growth +14.0%; EPS $20.06 (range $19.91 to $20.40); forward P/E 32.1x; EV/Sales 15.2x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "15.2x",
+      "value": 15.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...P/E is 32.1x on FY2026 EPS of $20.06, with forward EV/Sales of 15.2x  . Analysts rate the stock buy with a mean...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Remaining authorization at December 31, 2024 $ 15,188 Dollar-value of shares repurchased in 2025 $ 11,727 Remaining authorization at December 31, 2025 $ 17,461..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.8 billion",
+      "value": 32.8,
+      "unit": "billion",
+      "money_mn": 32800.0,
+      "decimals": 1,
+      "context": "Net revenue rose 16% to $32.8 billion in 2025, with the payment network up 12% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.5 billion",
+      "value": 19.5,
+      "unit": "billion",
+      "money_mn": 19500.0,
+      "decimals": 1,
+      "context": "...16% to $32.8 billion in 2025, with the payment network up 12% to $19.5 billion and value-added services up 23% to $13.3 billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2025 2024 2023 2025 2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.3 billion",
+      "value": 13.3,
+      "unit": "billion",
+      "money_mn": 13300.0,
+      "decimals": 1,
+      "context": "...network up 12% to $19.5 billion and value-added services up 23% to $13.3 billion  . Cross-border assessments grew 18%, the main...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.0 billion",
+      "value": 15.0,
+      "unit": "billion",
+      "money_mn": 15000.0,
+      "decimals": 1,
+      "context": "...operating margin rose to 57.6% from 55.3%  . Net income rose 16% to $15.0 billion from $12.9 billion, but the effective tax rate...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.9 billion",
+      "value": 12.9,
+      "unit": "billion",
+      "money_mn": 12900.0,
+      "decimals": 1,
+      "context": "...to 57.6% from 55.3%  . Net income rose 16% to $15.0 billion from $12.9 billion, but the effective tax rate climbed to 19.4%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 2,444 52% (3)% Effective income tax rate 19.4 % 15.6 % 17.9 % 3.8 ppt (2.3) ppt Net income $ 14,968 $ 12,874 $ 11,195 16% 15% Diluted earnings per share $ 16.52 $ 13.89 $ 11.83 19% 17% Diluted weighted-average shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$504 million",
+      "value": 504.0,
+      "unit": "million",
+      "money_mn": 504.0,
+      "decimals": 0,
+      "context": "...on personnel for strategic initiatives  . The company also recorded $504 million of litigation charges, a cost the      treats as...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• During 2025, we recorded pre-tax charges of $504 million ($357 million after tax, or $0.39 per diluted share), primarily as a result of a change in estimate related..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.52",
+      "value": 16.52,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the      treats as a recurring exposure  . Diluted EPS rose 19% to $16.52, faster than net income, because diluted shares...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.6 billion",
+      "value": 17.6,
+      "unit": "billion",
+      "money_mn": 17600.0,
+      "decimals": 1,
+      "context": "...is consistent with reported profit. Operating cash flow rose to $17.6 billion from $14.8 billion, and free cash flow reached...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.8 billion",
+      "value": 14.8,
+      "unit": "billion",
+      "money_mn": 14800.0,
+      "decimals": 1,
+      "context": "...reported profit. Operating cash flow rose to $17.6 billion from $14.8 billion, and free cash flow reached $16.4 billion, with...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Ended December 31, 2025 2024 2023 (in millions) Net cash provided by operating activities $ 17,648 $ 14,780 $ 11,980 Net cash used in investing activities (1,362) (3,402) (1,351) Net cash used in financing activities..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.4 billion",
+      "value": 16.4,
+      "unit": "billion",
+      "money_mn": 16400.0,
+      "decimals": 1,
+      "context": "...to $17.6 billion from $14.8 billion, and free cash flow reached $16.4 billion, with a free cash flow conversion of 1.10  ....",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "16,433,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.4 billion",
+      "value": 1.4,
+      "unit": "billion",
+      "money_mn": 1400.0,
+      "decimals": 1,
+      "context": "...flow conversion of 1.10  . Working-capital absorption widened to $1.4 billion from $1.0 billion  . Quarters after the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.0 billion",
+      "value": 1.0,
+      "unit": "billion",
+      "money_mn": 1000.0,
+      "decimals": 1,
+      "context": "...of 1.10  . Working-capital absorption widened to $1.4 billion from $1.0 billion  . Quarters after the      have beaten...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 6,022 9% 11% Professional fees 537 549 495 (2)% 11% Data processing and telecommunications 1,272 1,119 1,008 14% 11%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.76",
+      "value": 4.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...have beaten consensus: EPS for the quarter ending            was $4.76 against an estimate of $4.24, a 12.3% surprise,...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2025-12-31: EPS $4.76 vs estimate $4.24 (surprise +12.3%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.24",
+      "value": 4.24,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...for the quarter ending            was $4.76 against an estimate of $4.24, a 12.3% surprise, and all four later quarters...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2025-12-31: EPS $4.76 vs estimate $4.24 (surprise +12.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Net revenue rose 16% to $32.8 billion in 2025, with the payment...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 16% to $32.8 billion in 2025, with the payment network up 12% to $19.5 billion and value-added services up 23%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...payment network up 12% to $19.5 billion and value-added services up 23% to $13.3 billion  . Cross-border assessments...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...services up 23% to $13.3 billion  . Cross-border assessments grew 18%, the main driver within the network  . Gross...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16.2 % 18.5 % 3.4 ppt 3.4 ppt (2.3) ppt (2.2) ppt Adjusted net income $ 15,415 $ 13,541 $ 11,607 14% 13% 17% 18% Adjusted diluted earnings per share $ 17.01 $ 14.60 $ 12.26 17% 15% 19% 21% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "77.9%",
+      "value": 77.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...18%, the main driver within the network  . Gross margin rose to 77.9% from 76.3%, and operating margin rose to 57.6%...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "77.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "76.3%",
+      "value": 76.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...main driver within the network  . Gross margin rose to 77.9% from 76.3%, and operating margin rose to 57.6% from 55.3%...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "76.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57.6%",
+      "value": 57.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Gross margin rose to 77.9% from 76.3%, and operating margin rose to 57.6% from 55.3%  . Net income rose 16% to $15.0...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52% (3)% Effective income tax..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "55.3%",
+      "value": 55.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose to 77.9% from 76.3%, and operating margin rose to 57.6% from 55.3%  . Net income rose 16% to $15.0 billion from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52% (3)% Effective income tax rate 19.4..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and operating margin rose to 57.6% from 55.3%  . Net income rose 16% to $15.0 billion from $12.9 billion, but the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.4%",
+      "value": 19.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion from $12.9 billion, but the effective tax rate climbed to 19.4% from 15.6%, mainly from a Singapore net tax...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...% 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52% (3)% Effective income tax rate 19.4 % 15.6 % 17.9 % 3.8 ppt (2.3) ppt Net income $ 14,968 $ 12,874 $ 11,195 16% 15% Diluted earnings per share $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.6%",
+      "value": 15.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$12.9 billion, but the effective tax rate climbed to 19.4% from 15.6%, mainly from a Singapore net tax effect and the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...% 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52% (3)% Effective income tax rate 19.4 % 15.6 % 17.9 % 3.8 ppt (2.3) ppt Net income $ 14,968 $ 12,874 $ 11,195 16% 15% Diluted earnings per share $ 16.52 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...supported the margin gain. Adjusted operating expenses rose 14%, below the rate of revenue growth  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the rate of revenue growth  . Depreciation and amortization jumped 27% as capitalized software was amortized, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...8,927 11 % 14 % Advertising and marketing 929 815 825 14 % (1) % Depreciation and amortization 1,143 897 799 27 % 12 % Provision for litigation 504 680 539 (26) % 26 % Total operating expenses 13,894 12,585 11,090 10 % 13..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a cost the      treats as a recurring exposure  . Diluted EPS rose 19% to $16.52, faster than net income, because...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...19% to $16.52, faster than net income, because diluted shares fell 2% to 906 million  .\\n\\nCash generation is...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...earnings per share $ 16.52 $ 13.89 $ 11.83 19% 17% Diluted weighted-average shares outstanding 906 927 946 (2)% (2)% ##TABLE_END Note: Table may not sum due to rounding."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.3%",
+      "value": 12.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...quarter ending            was $4.76 against an estimate of $4.24, a 12.3% surprise, and all four later quarters beat...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "12.2%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from 15.6%, mainly from a Singapore net tax effect and the Pillar 2 rules, which held back the bottom-line gain...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Consumer Debit and Prepaid 2"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "906",
+      "value": 906.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$16.52, faster than net income, because diluted shares fell 2% to 906 million  .\\n\\nCash generation is consistent with...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15% Diluted earnings per share $ 16.52 $ 13.89 $ 11.83 19% 17% Diluted weighted-average shares outstanding 906 927 946 (2)% (2)% ##TABLE_END Note: Table may not sum due to rounding."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.10",
+      "value": 1.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...flow reached $16.4 billion, with a free cash flow conversion of 1.10  . Working-capital absorption widened to $1.4...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "1.1"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the filing, and the cross-border effect is a direct threat to the 18% growth in cross-border assessments  .\\n\\nThe...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16.2 % 18.5 % 3.4 ppt 3.4 ppt (2.3) ppt (2.2) ppt Adjusted net income $ 15,415 $ 13,541 $ 11,607 14% 13% 17% 18% Adjusted diluted earnings per share $ 17.01 $ 14.60 $ 12.26 17% 15% 19% 21% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or subsidized pricing  . The five largest customers provide about 21% of net revenue, and the filing notes that some...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...adds a further layer of risk. The current price implies about 13.4% revenue growth for a decade, and the implied...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $567,076.0 million implies revenue growth of 13.4% per year for 10 years (FY2025 revenue $32,791.0 million -> about $115,656.5 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...about 13.4% revenue growth for a decade, and the implied return of 6.9% is below the 8.7% WACC  . A slowdown toward the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "9% 9% 8% 11% United States 6% 6% 7% 7% Worldwide less United States 10% 10% 9% 12%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth for a decade, and the implied return of 6.9% is below the 8.7% WACC  . A slowdown toward the 9% to 11% growth...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...is compared to GDV growth on a local currency basis. In 2025, GDV on a U.S. dollar-converted basis increased 8.7%, while GDV on a local currency basis increased 8.6% versus 2024. In 2024, GDV on a U.S. dollar-converted..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...return of 6.9% is below the 8.7% WACC  . A slowdown toward the 9% to 11% growth that peers reported in 2024 and...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 6.9% is below the 8.7% WACC  . A slowdown toward the 9% to 11% growth that peers reported in 2024 and 2025...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$720.69",
+      "value": 720.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...forward earnings, and analysts rate it buy with a mean target of $720.69  . The difference in valuation with Visa is...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 327 $ 274 $ (2) $ 53 Gains (losses) on equity investments, net (88) (29) (61) (59) 32 Interest expense (722) (646) (575) (76) (71)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.2%",
+      "value": 12.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...its peers in fiscal 2024 and 2025. Mastercard's revenue growth was 12.2% in fiscal 2024 and 16.4% in fiscal 2025,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "12.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.4%",
+      "value": 16.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and 2025. Mastercard's revenue growth was 12.2% in fiscal 2024 and 16.4% in fiscal 2025, compared with Visa at 10.0% and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "16.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.0%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in fiscal 2024 and 16.4% in fiscal 2025, compared with Visa at 10.0% and 11.3%, American Express at 9.0% and 9.5%,...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.3%",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2024 and 16.4% in fiscal 2025, compared with Visa at 10.0% and 11.3%, American Express at 9.0% and 9.5%, and PayPal...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "11.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.0%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2025, compared with Visa at 10.0% and 11.3%, American Express at 9.0% and 9.5%, and PayPal at 6.8% and 4.3%  ....",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...compared with Visa at 10.0% and 11.3%, American Express at 9.0% and 9.5%, and PayPal at 6.8% and 4.3%  . Mastercard did...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "9.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.8%",
+      "value": 6.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...10.0% and 11.3%, American Express at 9.0% and 9.5%, and PayPal at 6.8% and 4.3%  . Mastercard did not lead in fiscal...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 6.9% per year (-1.8 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.3%",
+      "value": 4.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...11.3%, American Express at 9.0% and 9.5%, and PayPal at 6.8% and 4.3%  . Mastercard did not lead in fiscal 2023, when...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-03-31: EPS $4.60 vs estimate $4.41 (surprise +4.2%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.5%",
+      "value": 14.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Mastercard did not lead in fiscal 2023, when American Express grew 14.5% against its 12.9%  . Its revenue CAGR of about...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "14.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.9%",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...lead in fiscal 2023, when American Express grew 14.5% against its 12.9%  . Its revenue CAGR of about 13.8% over fiscal...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Adjusted net revenue Adjusted net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.8%",
+      "value": 13.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Express grew 14.5% against its 12.9%  . Its revenue CAGR of about 13.8% over fiscal 2022 to 2025 is calculated from the...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- For comparison: historical 3-year revenue CAGR 13.8%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58.2%",
+      "value": 58.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...returns are the widest gap in its favour. ROIC rose each year to 58.2% in fiscal 2025, against 33.0% for Visa and 18.5%...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "58.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.0%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in its favour. ROIC rose each year to 58.2% in fiscal 2025, against 33.0% for Visa and 18.5% for PayPal  . Visa still has...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "33.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.5%",
+      "value": 18.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose each year to 58.2% in fiscal 2025, against 33.0% for Visa and 18.5% for PayPal  . Visa still has the higher margins:...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...margin 59.2 % 58.4 % 58.0 % 0.8 ppt 0.7 ppt 0.4 ppt 0.7 ppt Adjusted effective income tax rate 19.6 % 16.2 % 18.5 % 3.4 ppt 3.4 ppt (2.3) ppt (2.2) ppt Adjusted net income $ 15,415 $ 13,541 $ 11,607 14% 13% 17% 18% Adjusted..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "80.4%",
+      "value": 80.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...PayPal  . Visa still has the higher margins: its gross margin was 80.4% in fiscal 2025 against Mastercard's 77.9%, and...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "80.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "77.9%",
+      "value": 77.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...its gross margin was 80.4% in fiscal 2025 against Mastercard's 77.9%, and its EBITDA margin was 65.0% against 62.3%...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "77.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65.0%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fiscal 2025 against Mastercard's 77.9%, and its EBITDA margin was 65.0% against 62.3%  . The EBITDA margin gap narrowed...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "65.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "62.3%",
+      "value": 62.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against Mastercard's 77.9%, and its EBITDA margin was 65.0% against 62.3%  . The EBITDA margin gap narrowed in fiscal 2025...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "62.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71.2%",
+      "value": 71.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin gap narrowed in fiscal 2025 because Visa's margin fell from 71.2% to 65.0% while Mastercard's rose from 59.6% to...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "71.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65.0%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...narrowed in fiscal 2025 because Visa's margin fell from 71.2% to 65.0% while Mastercard's rose from 59.6% to 62.3%  ....",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "65.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.6%",
+      "value": 59.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Visa's margin fell from 71.2% to 65.0% while Mastercard's rose from 59.6% to 62.3%  . American Express has no EBITDA or...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "62.3%",
+      "value": 62.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell from 71.2% to 65.0% while Mastercard's rose from 59.6% to 62.3%  . American Express has no EBITDA or gross...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "62.3%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "32.1x",
+      "value": 32.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against 20.76 in fiscal 2023  . Consensus values Mastercard at 32.1x forward earnings, and analysts rate it buy with...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...million to $37,545.0 million, 37 analysts), growth +14.0%; EPS $20.06 (range $19.91 to $20.40); forward P/E 32.1x; EV/Sales 15.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "25.38",
+      "value": 25.38,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...on those metrics  .\\n\\nOn valuation, Mastercard's EV/EBITDA was 25.38 in fiscal 2025, close to Visa's 25.58 and well...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "25.38"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "25.58",
+      "value": 25.58,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Mastercard's EV/EBITDA was 25.38 in fiscal 2025, close to Visa's 25.58 and well above PayPal's 7.23  . The premium over...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "25.58"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.23",
+      "value": 7.23,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...25.38 in fiscal 2025, close to Visa's 25.58 and well above PayPal's 7.23  . The premium over Visa had narrowed from 27.01...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "7.23"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "27.01",
+      "value": 27.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...well above PayPal's 7.23  . The premium over Visa had narrowed from 27.01 against 20.76 in fiscal 2023  . Consensus values...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "MASTERCARD 2025 FORM 10-K 27"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "20.76",
+      "value": 20.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...7.23  . The premium over Visa had narrowed from 27.01 against 20.76 in fiscal 2023  . Consensus values Mastercard at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "20.76"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.3 billion",
+      "value": 13.3,
+      "unit": "billion",
+      "money_mn": 13300.0,
+      "decimals": 1,
+      "context": "...consensus as the network matures. Value-added services grew 23% to $13.3 billion in 2025 against 12% for the network, and...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.4 billion",
+      "value": 16.4,
+      "unit": "billion",
+      "money_mn": 16400.0,
+      "decimals": 1,
+      "context": "...the current level of buybacks and dividends. Free cash flow of $16.4 billion covered $11.7 billion of buybacks and $2.8...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "16,433,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.7 billion",
+      "value": 11.7,
+      "unit": "billion",
+      "money_mn": 11700.0,
+      "decimals": 1,
+      "context": "...of buybacks and dividends. Free cash flow of $16.4 billion covered $11.7 billion of buybacks and $2.8 billion of dividends in...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...net revenue Adjusted net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.8 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 1,
+      "context": "...cash flow of $16.4 billion covered $11.7 billion of buybacks and $2.8 billion of dividends in 2025  . FY2026 free cash flow...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$2.8B Dividends paid cash flows from operations"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.5 billion",
+      "value": 14.5,
+      "unit": "billion",
+      "money_mn": 14500.0,
+      "decimals": 1,
+      "context": "...$2.8 billion of dividends in 2025  . FY2026 free cash flow above $14.5 billion, with distributions held at the 2025 level  ....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Adjusted net revenue Adjusted net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...than consensus as the network matures. Value-added services grew 23% to $13.3 billion in 2025 against 12% for the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Value-added services grew 23% to $13.3 billion in 2025 against 12% for the network, and currency-neutral growth was...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2025 against 12% for the network, and currency-neutral growth was 21%  . Consensus expects total revenue growth of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.0%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth was 21%  . Consensus expects total revenue growth of 14.0% in FY2026  . FY2026 results, reported in early...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reported in early 2027: value-added services growth at or above 20%  . Value-added services growth below 15% in...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2,145 1,787 1,319 20% 35% Total general and administrative expenses $ 11,318 $ 10,193 $ 8,927 11% 14% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth at or above 20%  . Value-added services growth below 15% in FY2026, or total growth below consensus 14.0%...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Adjusted net revenue Adjusted net income Adjusted diluted EPS $32.8B $15.4B $17.01 up 15% up 13% up 15% $14.5B $11.7B Repurchased shares $17.6B in capital returned to stockholders"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.0%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth below 15% in FY2026, or total growth below consensus 14.0%  . The current price requires growth at or near...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...so any slowdown will hurt the return. The reverse DCF implies 13.4% annual growth for ten years, and the implied...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $567,076.0 million implies revenue growth of 13.4% per year for 10 years (FY2025 revenue $32,791.0 million -> about $115,656.5 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...13.4% annual growth for ten years, and the implied return of 6.9% is below the 8.7% WACC  . Quarterly revenue...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "9% 9% 8% 11% United States 6% 6% 7% 7% Worldwide less United States 10% 10% 9% 12%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth for ten years, and the implied return of 6.9% is below the 8.7% WACC  . Quarterly revenue growth tracking at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...is compared to GDV growth on a local currency basis. In 2025, GDV on a U.S. dollar-converted basis increased 8.7%, while GDV on a local currency basis increased 8.6% versus 2024. In 2024, GDV on a U.S. dollar-converted..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the 8.7% WACC  . Quarterly revenue growth tracking at or above 14% through the FY2026 reports  . Revenue growth...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...above 14% through the FY2026 reports  . Revenue growth falls below 12% in any FY2026 quarter, or consensus EPS is cut...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...than the market expects. The five largest customers provide about 21% of net revenue, and interchange and switching...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...through FY2026, and the five-customer share stays at or below 21%  .",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt (0.5) ppt Income tax expense $ 3,610 $ 2,380 $ 2,444 52%..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19476.0 million",
+      "value": 19476.0,
+      "unit": "million",
+      "money_mn": 19476.0,
+      "decimals": 1,
+      "context": "Payment network: $19476.0 million, prior $17335.0 million; Value-added services...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2025 2024 2023 2025 2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17335.0 million",
+      "value": 17335.0,
+      "unit": "million",
+      "money_mn": 17335.0,
+      "decimals": 1,
+      "context": "Payment network: $19476.0 million, prior $17335.0 million; Value-added services and solutions: $13315.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2025 2024 2023 2025 2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13315.0 million",
+      "value": 13315.0,
+      "unit": "million",
+      "money_mn": 13315.0,
+      "decimals": 1,
+      "context": "...prior $17335.0 million; Value-added services and solutions: $13315.0 million, prior $10832.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2024 ($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10832.0 million",
+      "value": 10832.0,
+      "unit": "million",
+      "money_mn": 10832.0,
+      "decimals": 1,
+      "context": "...Value-added services and solutions: $13315.0 million, prior $10832.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...($ in millions) Payment network $ 19,476 $ 17,335 $ 15,824 12% 10% Value-added services and solutions 13,315 10,832 9,274 23% 17% Total net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% ##TABLE_END"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "V",
+    "AXP",
+    "PYPL"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 158,
+    "matched": 155,
+    "match_rate": 0.981,
+    "name_issues": 0
+  }
+}

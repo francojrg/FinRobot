@@ -1,0 +1,3501 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 141,
+  "context_match_rate": 0.881,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...three quarters since the FY2025     . Year-to-date revenue rose 7.9% to $6,287 million and GAAP operating margin rose...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "8 %",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to 45.7% from 44.3%  . The quarters diverged. Q2 revenue grew 15%, with MIS external revenue up 25%, and operating...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "15 %",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 13% to $4.33  .  Q2 FY2026 accelerated sharply. Revenue rose 15% to $2,185 million. MIS external revenue rose 25%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "15 %",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by hyperscalers, and data-center project finance  . MA grew 4% after the divestitures of MA Learning Solutions...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4 %",
+        "snippet": "...% MSS U.S. 677 711 (5 %) Non-U.S. 1,469 1,302 13 % Total 2,146 2,013 7 % Total MCO U.S. 5,007 5,204 (4 %) Non-U.S. 11,043 10,591 4 % Total 16,050 15,795 2 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from -$5,104 million  .  Year to date, adjusted diluted EPS rose 16% to $13.15  . The Yahoo scorecard shows different...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "16%",
+        "snippet": "...revenue reflects growth of 25% in MIS and 4% in MA. On an organic constant currency basis, revenue (1) grew 16%. Refer to the section entitled “Segment Results” of this MD&A for a more comprehensive discussion of the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...falls short of the cost of capital. Year-to-date revenue grew 7.9% to $6,287 million  . Q3 growth slowed to 1%,...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "8 %",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue grew 7.9% to $6,287 million  . Q3 growth slowed to 1%, below the 9% signpost  . Illustratively, a 9%...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1 %",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth is 6.5% and the reverse DCF implies 18.1%  . Q2 growth of 15% had been the weakening point for this thesis....",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "15 %",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q3  . Year-to-date MIS external revenue is $3,500 million, up about 10%  . The Q2 status is revised from the logged...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "10 %",
+        "snippet": "7,279 7,979 (9 %) MIS U.S. 1,559 1,560 — % Non-U.S. 4,693 4,274 10 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 6.5%, with EPS of $16.76, and the 90-day EPS revision is -1.3%  . FY2027 EPS is $18.59, revised -1.7%  . At...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.3%",
+        "snippet": "...consensus current fiscal year: $16.76 today, $16.80 30 days ago, $16.97 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 1/23"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the 90-day EPS revision is -1.3%  . FY2027 EPS is $18.59, revised -1.7%  . At $485.69 the forward P/E is 29.0x  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "...EPS consensus next fiscal year: $18.59 today, $18.68 30 days ago, $18.91 90 days ago, change vs 90 days ago -1.7%; analysts raising/cutting in last 30 days: 2/21"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...free cash flow of $2,977 million TTM  . A Q4 that repeats Q3's 1% growth would confirm the T2 and T4 signposts,...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1 %",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...after the     . No company guidance is available in the releases or 10-Qs provided, so none is cited. Watch: Q4 MIS...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "10",
+        "snippet": "...consolidated financial statements and notes thereto included elsewhere in this quarterly report on Form 10 – Q."
+      }
+    }
+  ],
+  "total_claims": 160,
+  "matched": 154,
+  "match_rate": 0.963,
+  "by_kind": {
+    "money": {
+      "total": 66,
+      "matched": 62,
+      "context_matched": 62
+    },
+    "pct": {
+      "total": 79,
+      "matched": 77,
+      "context_matched": 65
+    },
+    "plain": {
+      "total": 14,
+      "matched": 14,
+      "context_matched": 13
+    },
+    "multiple": {
+      "total": 1,
+      "matched": 1,
+      "context_matched": 1
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 0,
+    "[2] Forms 10-Q": 113,
+    "[3] Yahoo Finance": 38,
+    "[4] Annual report and thesis log": 3
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$6,287 million",
+      "value": 6287.0,
+      "unit": "million",
+      "money_mn": 6287.0,
+      "decimals": 0,
+      "context": "...quarters since the FY2025     . Year-to-date revenue rose 7.9% to $6,287 million and GAAP operating margin rose to 45.7% from...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$13.15",
+      "value": 13.15,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...-$5,104 million  .  Year to date, adjusted diluted EPS rose 16% to $13.15  . The Yahoo scorecard shows different margins...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$6,287 million",
+      "value": 6287.0,
+      "unit": "million",
+      "money_mn": 6287.0,
+      "decimals": 0,
+      "context": "...short of the cost of capital. Year-to-date revenue grew 7.9% to $6,287 million  . Q3 growth slowed to 1%, below the 9% signpost...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$3,500 million",
+      "value": 3500.0,
+      "unit": "million",
+      "money_mn": 3500.0,
+      "decimals": 0,
+      "context": "...25% in Q2 and fell 1% in Q3  . Year-to-date MIS external revenue is $3,500 million, up about 10%  . The Q2 status is revised from...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "12.6%",
+      "value": 12.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Illustratively, a 9% full year needs Q4 revenue growth of about 12.6% on the Q4 FY2025 base of $1,889 million  ....",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "12.6%",
+      "value": 12.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth to approach 9% (illustrative Q4 growth needed of about 12.6%)  ; FY2026 operating margin against 43.4%;...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$7.35bn",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...revenue grew 1%, operating margin fell 90 bps and debt rose above $7.35bn.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,351.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $2,448.0 million, total debt $7,351.0 million, net cash -$4,903.0 million, free cash flow $2,575.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q2 issuance spike drove MCO's first-half profit; Q3 revenue grew 1%, operating margin fell 90 bps and debt rose...",
+      "section": "Headline",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "0.8%",
+        "snippet": "...growth y/y: FY2025 8.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 0.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...MCO's first-half profit; Q3 revenue grew 1%, operating margin fell 90 bps and debt rose above $7.35bn.",
+      "section": "Headline",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "90",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,287 million",
+      "value": 6287.0,
+      "unit": "million",
+      "money_mn": 6287.0,
+      "decimals": 0,
+      "context": "...quarters since the FY2025     . Year-to-date revenue rose 7.9% to $6,287 million and GAAP operating margin rose to 45.7% from...",
+      "section": "Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$7,492 million",
+      "value": 7492.0,
+      "unit": "million",
+      "money_mn": 7492.0,
+      "decimals": 0,
+      "context": "...bps to 44.8% as operating and SG&A costs rose 2%  . Total debt was $7,492 million at 30 September 2026 on a Yahoo basis, above the...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,492.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $1,621.0 million, total debt $7,492.0 million, net cash -$5,871.0 million, TTM free cash flow $2,977.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...was $7,492 million at 30 September 2026 on a Yahoo basis, above the $7.35 billion baseline  . Consensus expects FY2026 revenue...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,351.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $2,448.0 million, total debt $7,351.0 million, net cash -$4,903.0 million, free cash flow $2,575.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.76",
+      "value": 16.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Consensus expects FY2026 revenue growth of 6.5% and EPS of $16.76, with EPS estimates cut 1.3% over 90 days  . No...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "16.76",
+        "snippet": "...revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 29.0x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...three quarters since the FY2025     . Year-to-date revenue rose 7.9% to $6,287 million and GAAP operating margin rose...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "8 %",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.7%",
+      "value": 45.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 7.9% to $6,287 million and GAAP operating margin rose to 45.7% from 44.3%  . The quarters diverged. Q2 revenue...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "45.7 %",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.3%",
+      "value": 44.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...7.9% to $6,287 million and GAAP operating margin rose to 45.7% from 44.3%  . The quarters diverged. Q2 revenue grew 15%,...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.3%",
+        "snippet": "Operating margin 44.3%, ⇑ 30 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to 45.7% from 44.3%  . The quarters diverged. Q2 revenue grew 15%, with MIS external revenue up 25%, and operating...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "15 %",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...diverged. Q2 revenue grew 15%, with MIS external revenue up 25%, and operating margin rose 480 bps  . Q3 revenue...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "external",
+          "mis",
+          "revenue"
+        ],
+        "hl": "25 %",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 25%, and operating margin rose 480 bps  . Q3 revenue grew 1%, MIS fell 1%, and operating margin fell 90 bps...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "mis",
+          "revenue"
+        ],
+        "hl": "1 %",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year quarter..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and operating margin rose 480 bps  . Q3 revenue grew 1%, MIS fell 1%, and operating margin fell 90 bps to 44.8% as...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "mis",
+          "revenue"
+        ],
+        "hl": "1 %",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year quarter..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue grew 1%, MIS fell 1%, and operating margin fell 90 bps to 44.8% as operating and SG&A costs rose 2%  . Total...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "44.9%",
+        "snippet": "- Operating margin: FY2025 44.9%; Q1 FY2026 45.6% (year-ago n/a, n/a); Q2 FY2026 49.3% (year-ago n/a, n/a); Q3 FY2026 46.1% (year-ago 46.8%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin fell 90 bps to 44.8% as operating and SG&A costs rose 2%  . Total debt was $7,492 million at 30 September...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "cost",
+          "sg&a"
+        ],
+        "hl": "2 %",
+        "snippet": "Total operating and SG&A expenses $ 966 $ 945 (2 %) — increases in costs to support operating growth, including technology infrastructure and AI usage costs;..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion baseline  . Consensus expects FY2026 revenue growth of 6.5% and EPS of $16.76, with EPS estimates cut 1.3%...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "6.5%",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 29.0x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue growth of 6.5% and EPS of $16.76, with EPS estimates cut 1.3% over 90 days  . No earnings releases were...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "1.3%",
+        "snippet": "...consensus current fiscal year: $16.76 today, $16.80 30 days ago, $16.97 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 1/23"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "480",
+      "value": 480.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...15%, with MIS external revenue up 25%, and operating margin rose 480 bps  . Q3 revenue grew 1%, MIS fell 1%, and...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "480",
+        "snippet": "Operating margin 47.9 % 43.1 % 480 BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...bps  . Q3 revenue grew 1%, MIS fell 1%, and operating margin fell 90 bps to 44.8% as operating and SG&A costs rose 2%...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "90",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth of 6.5% and EPS of $16.76, with EPS estimates cut 1.3% over 90 days  . No earnings releases were available for...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $16.76 today, $16.80 30 days ago, $16.97 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 1/23"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...were available for any quarter, so this update relies on the 10-Qs and Yahoo data. Against the logged statuses,...",
+      "section": "Summary",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "data",
+          "yahoo"
+        ],
+        "hl": "10",
+        "snippet": "REVERSE DCF (own calculation from Yahoo Finance data [2][3]; current enterprise value, i.e. after the 10-K):"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,079 million",
+      "value": 2079.0,
+      "unit": "million",
+      "money_mn": 2079.0,
+      "decimals": 0,
+      "context": "Q1 FY2026 was steady. Revenue rose 8% to $2,079 million, with MA and MIS each up 8% (organic constant...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,079",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.33",
+      "value": 4.33,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...tax obligation booked in SG&A  . Adjusted diluted EPS rose 13% to $4.33  .  Q2 FY2026 accelerated sharply. Revenue rose...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.33",
+        "snippet": "$ 4.33 $ 3.83 13 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,185 million",
+      "value": 2185.0,
+      "unit": "million",
+      "money_mn": 2185.0,
+      "decimals": 0,
+      "context": "...13% to $4.33  .  Q2 FY2026 accelerated sharply. Revenue rose 15% to $2,185 million. MIS external revenue rose 25% to $1,260 million...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,185",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,260 million",
+      "value": 1260.0,
+      "unit": "million",
+      "money_mn": 1260.0,
+      "decimals": 0,
+      "context": "...rose 15% to $2,185 million. MIS external revenue rose 25% to $1,260 million on leveraged finance, investment-grade issuance...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,260",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.68",
+      "value": 4.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...margin rose 480 bps to 47.9%  . Adjusted diluted EPS rose 31% to $4.68, a 10% beat against a $4.25 estimate. GAAP...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.68",
+        "snippet": "$ 4.68 $ 3.56 31 % — increase in Adjusted Diluted EPS (1) reflects growth in Adjusted Operating Income (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.25",
+      "value": 4.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Adjusted diluted EPS rose 31% to $4.68, a 10% beat against a $4.25 estimate. GAAP diluted EPS of $5.03 includes an...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4.25",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.14 vs estimate $4.25 (surprise -2.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.03",
+      "value": 5.03,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to $4.68, a 10% beat against a $4.25 estimate. GAAP diluted EPS of $5.03 includes an $181 million divestiture gain...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "5.03",
+        "snippet": "Diluted EPS $ 5.03 $ 3.21 57 % — increase in Diluted EPS reflects growth in operating income coupled with the gain on the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$181 million",
+      "value": 181.0,
+      "unit": "million",
+      "money_mn": 181.0,
+      "decimals": 0,
+      "context": "...against a $4.25 estimate. GAAP diluted EPS of $5.03 includes an $181 million divestiture gain outside operating income  .  Q3...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "181",
+        "snippet": "...expense, net $ (58) $ (61) 5 % Other non-operating income, net 2 15 (87 %) Gain on business divestitures 181 — NM Non-operating income (expense), net $ 125 $ (46) 372 % Net income attributable to Moody's $ 878 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,023 million",
+      "value": 2023.0,
+      "unit": "million",
+      "money_mn": 2023.0,
+      "decimals": 0,
+      "context": "...operating income  .  Q3 FY2026 deteriorated. Revenue grew 1% to $2,023 million. MIS fell 1% to $1,087 million as leveraged...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,023",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,087 million",
+      "value": 1087.0,
+      "unit": "million",
+      "money_mn": 1087.0,
+      "decimals": 0,
+      "context": "...deteriorated. Revenue grew 1% to $2,023 million. MIS fell 1% to $1,087 million as leveraged finance issuance declined against a...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,087",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27 million",
+      "value": 27.0,
+      "unit": "million",
+      "money_mn": 27.0,
+      "decimals": 0,
+      "context": "...and higher incentive compensation, while restructuring rose 29% to $27 million. Operating margin fell 90 bps to 44.8%  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "27",
+        "snippet": "Restructuring $ 27 $ 33 18 % — relates to the Company's restructuring program, more fully discussed in Note 9 to the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.14",
+      "value": 4.14,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...margin fell 90 bps to 44.8%  . Adjusted diluted EPS rose 6% to $4.14, a 2.5% miss against a $4.25 estimate  . Share...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.14",
+        "snippet": "$ 4.14 $ 3.92 6 % — increase in Adjusted Diluted EPS (1) primarily reflects a decrease in the diluted weighted..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.25",
+      "value": 4.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Adjusted diluted EPS rose 6% to $4.14, a 2.5% miss against a $4.25 estimate  . Share count fell 3.3% y/y to 172.4...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4.25",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.14 vs estimate $4.25 (surprise -2.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,621 million",
+      "value": 1621.0,
+      "unit": "million",
+      "money_mn": 1621.0,
+      "decimals": 0,
+      "context": "...y/y to 172.4 million  , but cash and short-term investments fell to $1,621 million from $2,259 million, and net cash turned to...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1,621.0",
+        "snippet": "...FY2025 2,448.0; Q1 FY2026 1,510.0 (year-ago n/a, n/a); Q2 FY2026 1,496.0 (year-ago n/a, n/a); Q3 FY2026 1,621.0 (year-ago 2,259.0, worse); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,259 million",
+      "value": 2259.0,
+      "unit": "million",
+      "money_mn": 2259.0,
+      "decimals": 0,
+      "context": "..., but cash and short-term investments fell to $1,621 million from $2,259 million, and net cash turned to -$5,871 million from...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,259.0",
+        "snippet": "...Q1 FY2026 1,510.0 (year-ago n/a, n/a); Q2 FY2026 1,496.0 (year-ago n/a, n/a); Q3 FY2026 1,621.0 (year-ago 2,259.0, worse); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$5,871 million",
+      "value": 5871.0,
+      "unit": "million",
+      "money_mn": 5871.0,
+      "decimals": 0,
+      "context": "...fell to $1,621 million from $2,259 million, and net cash turned to -$5,871 million from -$5,104 million  .  Year to date, adjusted...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "5,871.0)",
+        "snippet": "...(4,903.0); Q1 FY2026 (5,803.0) (year-ago n/a, n/a); Q2 FY2026 (6,026.0) (year-ago n/a, n/a); Q3 FY2026 (5,871.0) (year-ago (5,104.0), worse); trend stable"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$5,104 million",
+      "value": 5104.0,
+      "unit": "million",
+      "money_mn": 5104.0,
+      "decimals": 0,
+      "context": "...from $2,259 million, and net cash turned to -$5,871 million from -$5,104 million  .  Year to date, adjusted diluted EPS rose 16%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "5,105",
+        "snippet": "...6 % MSS U.S. 655 680 (4 %) Non-U.S. 1,460 1,484 (2 %) Total 2,115 2,164 (2 %) Total MCO U.S. 4,891 5,105 (4 %) Non-U.S. 10,745 10,847 (1 %) Total 15,636 15,952 (2 %)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.15",
+      "value": 13.15,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...-$5,104 million  .  Year to date, adjusted diluted EPS rose 16% to $13.15  . The Yahoo scorecard shows different margins...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Q1 FY2026 was steady. Revenue rose 8% to $2,079 million, with MA and MIS each up 8%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "mis",
+          "revenue"
+        ],
+        "hl": "8 %",
+        "snippet": "MIS external revenue $ 1,153 $ 1,065 8 % — robust investment‑grade issuance activity in CFG driven by several jumbo transactions, including..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...steady. Revenue rose 8% to $2,079 million, with MA and MIS each up 8% (organic constant currency growth 6%)  . GAAP...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "organic",
+          "constant",
+          "currency",
+          "revenue"
+        ],
+        "hl": "8%",
+        "snippet": "— Organic constant currency revenue (1) and ARR (2) both increased 8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...with MA and MIS each up 8% (organic constant currency growth 6%)  . GAAP operating margin rose 30 bps to 44.3%,...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "organic",
+          "constant",
+          "currency"
+        ],
+        "hl": "6%",
+        "snippet": "— Organic constant currency revenue (1) growth was 6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.3%",
+      "value": 44.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...currency growth 6%)  . GAAP operating margin rose 30 bps to 44.3%, and adjusted operating margin rose 150 bps to...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.3%",
+        "snippet": "Operating margin 44.3%, ⇑ 30 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "53.2%",
+      "value": 53.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 30 bps to 44.3%, and adjusted operating margin rose 150 bps to 53.2%  . Operating and SG&A expenses grew 8%, as fast...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted"
+        ],
+        "hl": "53.2%",
+        "snippet": "Adjusted Operating Margin (1) 53.2%, ⇑ 150 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin rose 150 bps to 53.2%  . Operating and SG&A expenses grew 8%, as fast as revenue. The drivers were salaries,...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "sg&a",
+          "expens"
+        ],
+        "hl": "8 %",
+        "snippet": "Total operating and SG&A expenses $ 1,008 $ 930 (8 %) — higher salaries and benefits including unfavorable foreign exchange impacts; and"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...tax obligation booked in SG&A  . Adjusted diluted EPS rose 13% to $4.33  .  Q2 FY2026 accelerated sharply....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "adjusted"
+        ],
+        "hl": "13 %",
+        "snippet": "$ 4.33 $ 3.83 13 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 13% to $4.33  .  Q2 FY2026 accelerated sharply. Revenue rose 15% to $2,185 million. MIS external revenue rose 25%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "15 %",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 15% to $2,185 million. MIS external revenue rose 25% to $1,260 million on leveraged finance,...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "external",
+          "mis",
+          "revenue"
+        ],
+        "hl": "25 %",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by hyperscalers, and data-center project finance  . MA grew 4% after the divestitures of MA Learning Solutions...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4 %",
+        "snippet": "...% MSS U.S. 677 711 (5 %) Non-U.S. 1,469 1,302 13 % Total 2,146 2,013 7 % Total MCO U.S. 5,007 5,204 (4 %) Non-U.S. 11,043 10,591 4 % Total 16,050 15,795 2 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and MA Regulatory Solutions  . Operating and SG&A costs rose 5%, and operating margin rose 480 bps to 47.9%  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "sg&a"
+        ],
+        "hl": "5 %",
+        "snippet": "...% Non-U.S.: EMEA 615 569 8 % Asia-Pacific 177 167 6 % Americas 107 123 (13 %) Total Non-U.S. 899 859 5 % Total 2,079 1,924 8 % Expenses: Operating 531 491 (8 %) SG&A 477 439 (9 %) Depreciation and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "47.9%",
+      "value": 47.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and SG&A costs rose 5%, and operating margin rose 480 bps to 47.9%  . Adjusted diluted EPS rose 31% to $4.68, a 10%...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "47.9%",
+        "snippet": "Operating margin 47.9%, ⇑ 480 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating margin rose 480 bps to 47.9%  . Adjusted diluted EPS rose 31% to $4.68, a 10% beat against a $4.25 estimate....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "adjusted"
+        ],
+        "hl": "31 %",
+        "snippet": "$ 4.68 $ 3.56 31 % — increase in Adjusted Diluted EPS (1) reflects growth in Adjusted Operating Income (1)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 480 bps to 47.9%  . Adjusted diluted EPS rose 31% to $4.68, a 10% beat against a $4.25 estimate. GAAP diluted EPS...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate",
+          "pershare"
+        ],
+        "hl": "10.0%",
+        "snippet": "- Quarter ending 2026-06-30: EPS $4.68 vs estimate $4.25 (surprise +10.0%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...outside operating income  .  Q3 FY2026 deteriorated. Revenue grew 1% to $2,023 million. MIS fell 1% to $1,087 million...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "0.8%",
+        "snippet": "...growth y/y: FY2025 8.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 0.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026 deteriorated. Revenue grew 1% to $2,023 million. MIS fell 1% to $1,087 million as leveraged finance issuance...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "0.8%",
+        "snippet": "...growth y/y: FY2025 8.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 0.8% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and project finance issuance partly offset this  . MA grew 3%, with organic constant currency revenue up 3%  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "organic",
+          "constant",
+          "currency",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "...in MA, partially offset by a decline of 1% in MIS. On an organic constant currency basis, revenue (1) grew 3%. Refer to the section entitled “Segment Results” of this MD&A for a more comprehensive discussion of the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...this  . MA grew 3%, with organic constant currency revenue up 3%  . Operating and SG&A costs rose 2%, driven by...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "organic",
+          "constant",
+          "currency",
+          "revenue"
+        ],
+        "hl": "3%",
+        "snippet": "...in MA, partially offset by a decline of 1% in MIS. On an organic constant currency basis, revenue (1) grew 3%. Refer to the section entitled “Segment Results” of this MD&A for a more comprehensive discussion of the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...constant currency revenue up 3%  . Operating and SG&A costs rose 2%, driven by technology infrastructure and AI...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "cost",
+          "sg&a"
+        ],
+        "hl": "2 %",
+        "snippet": "Total operating and SG&A expenses $ 966 $ 945 (2 %) — increases in costs to support operating growth, including technology infrastructure and AI usage costs;..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...costs and higher incentive compensation, while restructuring rose 29% to $27 million. Operating margin fell 90 bps to...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "restructuring"
+        ],
+        "hl": "29 %",
+        "snippet": "Depreciation and amortization $ 124 $ 123 (1 %) — in line with the prior year Restructuring $ 27 $ 21 (29 %) — relates to the Company's restructuring program, more fully discussed in Note 9 to the consolidated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 29% to $27 million. Operating margin fell 90 bps to 44.8%  . Adjusted diluted EPS rose 6% to $4.14, a 2.5%...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "44.9%",
+        "snippet": "- Operating margin: FY2025 44.9%; Q1 FY2026 45.6% (year-ago n/a, n/a); Q2 FY2026 49.3% (year-ago n/a, n/a); Q3 FY2026 46.1% (year-ago 46.8%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Operating margin fell 90 bps to 44.8%  . Adjusted diluted EPS rose 6% to $4.14, a 2.5% miss against a $4.25 estimate...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "adjusted"
+        ],
+        "hl": "6 %",
+        "snippet": "$ 4.14 $ 3.92 6 % — increase in Adjusted Diluted EPS (1) primarily reflects a decrease in the diluted weighted average shares..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2.5%",
+      "value": 2.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell 90 bps to 44.8%  . Adjusted diluted EPS rose 6% to $4.14, a 2.5% miss against a $4.25 estimate  . Share count...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "estimate",
+          "pershare"
+        ],
+        "hl": "2.5%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.14 vs estimate $4.25 (surprise -2.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.3%",
+      "value": 3.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $4.14, a 2.5% miss against a $4.25 estimate  . Share count fell 3.3% y/y to 172.4 million  , but cash and short-term...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "3.3%",
+        "snippet": "...at that burn self-funded, current ratio 1.3x, shares outstanding 172.4 million, change in share count y/y -3.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from -$5,104 million  .  Year to date, adjusted diluted EPS rose 16% to $13.15  . The Yahoo scorecard shows different...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "16%",
+        "snippet": "...revenue reflects growth of 25% in MIS and 4% in MA. On an organic constant currency basis, revenue (1) grew 16%. Refer to the section entitled “Segment Results” of this MD&A for a more comprehensive discussion of the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.1%",
+      "value": 46.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The Yahoo scorecard shows different margins from the 10-Qs (Q3 46.1% vs 44.8%); this update uses the      figures.",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "46.1%",
+        "snippet": "...margin: FY2025 44.9%; Q1 FY2026 45.6% (year-ago n/a, n/a); Q2 FY2026 49.3% (year-ago n/a, n/a); Q3 FY2026 46.1% (year-ago 46.8%, stable); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Yahoo scorecard shows different margins from the 10-Qs (Q3 46.1% vs 44.8%); this update uses the      figures.",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.9%",
+        "snippet": "- Operating margin: FY2025 44.9%; Q1 FY2026 45.6% (year-ago n/a, n/a); Q2 FY2026 49.3% (year-ago n/a, n/a); Q3 FY2026 46.1% (year-ago 46.8%,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(organic constant currency growth 6%)  . GAAP operating margin rose 30 bps to 44.3%, and adjusted operating margin rose...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted"
+        ],
+        "hl": "30",
+        "snippet": "52.6 % 52.9 % (30 BPS) ETR 24.0 % 25.4 % (140 BPS) — primarily reflects tax benefits recognized pursuant to the lapse of a..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "150",
+      "value": 150.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin rose 30 bps to 44.3%, and adjusted operating margin rose 150 bps to 53.2%  . Operating and SG&A expenses grew...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted"
+        ],
+        "hl": "150",
+        "snippet": "53.2 % 51.7 % 150 BPS — Adjusted Operating Margin (1) expansion reflects revenue growth coupled with disciplined cost..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "480",
+      "value": 480.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Operating and SG&A costs rose 5%, and operating margin rose 480 bps to 47.9%  . Adjusted diluted EPS rose 31% to...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "480",
+        "snippet": "Operating margin 47.9 % 43.1 % 480 BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...while restructuring rose 29% to $27 million. Operating margin fell 90 bps to 44.8%  . Adjusted diluted EPS rose 6% to...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "90",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "172.4",
+      "value": 172.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2.5% miss against a $4.25 estimate  . Share count fell 3.3% y/y to 172.4 million  , but cash and short-term investments...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "172.4",
+        "snippet": "...count: FY2025 177.5; Q1 FY2026 174.7 (year-ago n/a, n/a); Q2 FY2026 173.2 (year-ago n/a, n/a); Q3 FY2026 172.4 (year-ago 178.4, better); trend improving"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $13.15  . The Yahoo scorecard shows different margins from the 10-Qs (Q3 46.1% vs 44.8%); this update uses the...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "yahoo"
+        ],
+        "hl": "10",
+        "snippet": "CONSENSUS ESTIMATES (Yahoo Finance, retrieved 2026-11-26, i.e. after the 10-K filing; cite as [3]):"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$27 million",
+      "value": 27.0,
+      "unit": "million",
+      "money_mn": 27.0,
+      "decimals": 0,
+      "context": "...SG&A rose 2% against revenue up 1%, and restructuring rose 29% to $27 million  , so the invalidation condition on...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "27",
+        "snippet": "Restructuring $ 27 $ 33 18 % — relates to the Company's restructuring program, more fully discussed in Note 9 to the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,287 million",
+      "value": 6287.0,
+      "unit": "million",
+      "money_mn": 6287.0,
+      "decimals": 0,
+      "context": "...short of the cost of capital. Year-to-date revenue grew 7.9% to $6,287 million  . Q3 growth slowed to 1%, below the 9% signpost...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$1,889 million",
+      "value": 1889.0,
+      "unit": "million",
+      "money_mn": 1889.0,
+      "decimals": 0,
+      "context": "...needs Q4 revenue growth of about 12.6% on the Q4 FY2025 base of $1,889 million  . Consensus FY2026 growth is 6.5% and the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "1,889,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,492 million",
+      "value": 7492.0,
+      "unit": "million",
+      "money_mn": 7492.0,
+      "decimals": 0,
+      "context": "...of free cash flow will limit further debt reduction. Total debt was $7,492 million at 30 September 2026, above the $7,351 million...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,492.0 million",
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $1,621.0 million, total debt $7,492.0 million, net cash -$5,871.0 million, TTM free cash flow $2,977.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,351 million",
+      "value": 7351.0,
+      "unit": "million",
+      "money_mn": 7351.0,
+      "decimals": 0,
+      "context": "...Total debt was $7,492 million at 30 September 2026, above the $7,351 million FY2025 level and the $7.35 billion signpost  ....",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,351.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $2,448.0 million, total debt $7,351.0 million, net cash -$4,903.0 million, free cash flow $2,575.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...at 30 September 2026, above the $7,351 million FY2025 level and the $7.35 billion signpost  . Net cash moved to -$5,871 million...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,351.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $2,448.0 million, total debt $7,351.0 million, net cash -$4,903.0 million, free cash flow $2,575.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$5,871 million",
+      "value": 5871.0,
+      "unit": "million",
+      "money_mn": 5871.0,
+      "decimals": 0,
+      "context": "...FY2025 level and the $7.35 billion signpost  . Net cash moved to -$5,871 million from -$5,104 million a year earlier  . Cash fell...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "5,871.0)",
+        "snippet": "...(4,903.0); Q1 FY2026 (5,803.0) (year-ago n/a, n/a); Q2 FY2026 (6,026.0) (year-ago n/a, n/a); Q3 FY2026 (5,871.0) (year-ago (5,104.0), worse); trend stable"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$5,104 million",
+      "value": 5104.0,
+      "unit": "million",
+      "money_mn": 5104.0,
+      "decimals": 0,
+      "context": "...$7.35 billion signpost  . Net cash moved to -$5,871 million from -$5,104 million a year earlier  . Cash fell to $1,621 million...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "5,105",
+        "snippet": "...6 % MSS U.S. 655 680 (4 %) Non-U.S. 1,460 1,484 (2 %) Total 2,115 2,164 (2 %) Total MCO U.S. 4,891 5,105 (4 %) Non-U.S. 10,745 10,847 (1 %) Total 15,636 15,952 (2 %)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,621 million",
+      "value": 1621.0,
+      "unit": "million",
+      "money_mn": 1621.0,
+      "decimals": 0,
+      "context": "...-$5,871 million from -$5,104 million a year earlier  . Cash fell to $1,621 million from $2,259 million as repurchases continued,...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1,621.0",
+        "snippet": "...FY2025 2,448.0; Q1 FY2026 1,510.0 (year-ago n/a, n/a); Q2 FY2026 1,496.0 (year-ago n/a, n/a); Q3 FY2026 1,621.0 (year-ago 2,259.0, worse); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,259 million",
+      "value": 2259.0,
+      "unit": "million",
+      "money_mn": 2259.0,
+      "decimals": 0,
+      "context": "...-$5,104 million a year earlier  . Cash fell to $1,621 million from $2,259 million as repurchases continued, and the      cites...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,259.0",
+        "snippet": "...Q1 FY2026 1,510.0 (year-ago n/a, n/a); Q2 FY2026 1,496.0 (year-ago n/a, n/a); Q3 FY2026 1,621.0 (year-ago 2,259.0, worse); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,500 million",
+      "value": 3500.0,
+      "unit": "million",
+      "money_mn": 3500.0,
+      "decimals": 0,
+      "context": "...25% in Q2 and fell 1% in Q3  . Year-to-date MIS external revenue is $3,500 million, up about 10%  . The Q2 status is revised from...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "45.7%",
+      "value": 45.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...well below revenue growth. Year-to-date GAAP operating margin is 45.7% vs 44.3% a year earlier, above the 43.4%...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "45.7 %",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.3%",
+      "value": 44.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue growth. Year-to-date GAAP operating margin is 45.7% vs 44.3% a year earlier, above the 43.4% signpost  . Q2...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.3%",
+        "snippet": "Operating margin 44.3%, ⇑ 30 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...GAAP operating margin is 45.7% vs 44.3% a year earlier, above the 43.4% signpost  . Q2 margin rose 480 bps with opex up...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "signpost",
+          "above",
+          "operating",
+          "margin"
+        ],
+        "hl": "43.4%",
+        "snippet": "...operating and SG&A cost growth stays well below revenue growth.\", \"signpost\": \"FY2026 operating margin above 43.4% in the FY2026 10-K (filed about February 2027). Invalidation: below 40.6%, or restructuring rising again..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...above the 43.4% signpost  . Q2 margin rose 480 bps with opex up 5% against revenue up 15%  . Q3 margin fell 90 bps...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "against",
+          "revenue"
+        ],
+        "hl": "5%",
+        "snippet": "...is exposed to a weaker issuance cycle.\", \"signpost\": \"Corporate Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the FY2026 10-K. Invalidation: CFG revenue growth at or above..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Q2 margin rose 480 bps with opex up 5% against revenue up 15%  . Q3 margin fell 90 bps to 44.8% as opex and...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "15%",
+        "snippet": "Operating margin and Adjusted Operating Margin (1) expansion reflects the 15% increase in revenue, partially offset by growth of 5% in operating and SG&A expenses."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...with opex up 5% against revenue up 15%  . Q3 margin fell 90 bps to 44.8% as opex and SG&A rose 2% against revenue up 1%,...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "44.9%",
+        "snippet": "- Operating margin: FY2025 44.9%; Q1 FY2026 45.6% (year-ago n/a, n/a); Q2 FY2026 49.3% (year-ago n/a, n/a); Q3 FY2026 46.1% (year-ago 46.8%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 15%  . Q3 margin fell 90 bps to 44.8% as opex and SG&A rose 2% against revenue up 1%, and restructuring rose...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "restructuring",
+          "sg&a"
+        ],
+        "hl": "2 %",
+        "snippet": "...— % Total Non-U.S. 889 889 — % Total 2,023 2,007 1 % Expenses: Operating 524 492 (7 %) SG&A 442 453 2 % Depreciation and amortization 124 123 (1 %) Restructuring 27 21 (29 %) Charges related to asset..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fell 90 bps to 44.8% as opex and SG&A rose 2% against revenue up 1%, and restructuring rose 29% to $27 million  , so...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "restructuring",
+          "sg&a"
+        ],
+        "hl": "1 %",
+        "snippet": "...2,007 1 % Expenses: Operating 524 492 (7 %) SG&A 442 453 2 % Depreciation and amortization 124 123 (1 %) Restructuring 27 21 (29 %) Charges related to asset abandonment"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...opex and SG&A rose 2% against revenue up 1%, and restructuring rose 29% to $27 million  , so the invalidation condition...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "restructuring",
+          "sg&a"
+        ],
+        "hl": "29 %",
+        "snippet": "...524 492 (7 %) SG&A 442 453 2 % Depreciation and amortization 124 123 (1 %) Restructuring 27 21 (29 %) Charges related to asset abandonment"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...falls short of the cost of capital. Year-to-date revenue grew 7.9% to $6,287 million  . Q3 growth slowed to 1%,...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "8 %",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue grew 7.9% to $6,287 million  . Q3 growth slowed to 1%, below the 9% signpost  . Illustratively, a 9%...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1 %",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 7.9% to $6,287 million  . Q3 growth slowed to 1%, below the 9% signpost  . Illustratively, a 9% full year needs...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "9 %",
+        "snippet": "...%) Total Non-U.S. 899 859 5 % Total 2,079 1,924 8 % Expenses: Operating 531 491 (8 %) SG&A 477 439 (9 %) Depreciation and amortization 122 113 (8 %) Restructuring 27 33 18 % Charges related to asset..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Q3 growth slowed to 1%, below the 9% signpost  . Illustratively, a 9% full year needs Q4 revenue growth of about 12.6%...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "signpost"
+        ],
+        "hl": "9%",
+        "snippet": "...the implied return falls short of the cost of capital.\", \"signpost\": \"FY2026 revenue growth of at least 9% in the FY2026 10-K (about February 2027). Invalidation: FY2026 revenue growth of 12% or more.\", \"statuses\":..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.6%",
+      "value": 12.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Illustratively, a 9% full year needs Q4 revenue growth of about 12.6% on the Q4 FY2025 base of $1,889 million  ....",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the Q4 FY2025 base of $1,889 million  . Consensus FY2026 growth is 6.5% and the reverse DCF implies 18.1%  . Q2 growth...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "reverse",
+          "dcf",
+          "imply",
+          "consensu"
+        ],
+        "hl": "6.5%",
+        "snippet": "...[3]. These figures are dated 2026-11-25, after the 10-K. Consensus expects FY2026 revenue growth of only 6.5% [3]. The reverse DCF implies 18.1% annual growth for ten years, against a 12.2% historical three-year CAGR..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.1%",
+      "value": 18.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus FY2026 growth is 6.5% and the reverse DCF implies 18.1%  . Q2 growth of 15% had been the weakening point...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "imply"
+        ],
+        "hl": "18.1%",
+        "snippet": "- The current enterprise value of $89,885.7 million implies revenue growth of 18.1% per year for 10 years (FY2025 revenue $7,718.0 million -> about $40,722.4 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth is 6.5% and the reverse DCF implies 18.1%  . Q2 growth of 15% had been the weakening point for this thesis....",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "15 %",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...point for this thesis. T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "near",
+          "continu",
+          "deleveraging",
+          "payout",
+          "free",
+          "cashflow"
+        ],
+        "hl": "94%",
+        "snippet": "...\"strengthened\"}, \"current_status\": \"strengthened\"}, {\"thesis\": \"T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.\", \"signpost\": \"FY2026 total debt below $7.35 billion,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.3%",
+      "value": 3.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...cites lower interest income from this  . Shares outstanding fell 3.3% y/y  . Buyback and dividend dollars for FY2026...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "pershare"
+        ],
+        "hl": "3.3%",
+        "snippet": "...at that burn self-funded, current ratio 1.3x, shares outstanding 172.4 million, change in share count y/y -3.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is exposed to a weaker issuance cycle. MIS external revenue grew 8% in Q1, 25% in Q2 and fell 1% in Q3  ....",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "external",
+          "mis",
+          "revenue"
+        ],
+        "hl": "8 %",
+        "snippet": "MIS external revenue $ 1,153 $ 1,065 8 % — robust investment‑grade issuance activity in CFG driven by several jumbo transactions, including..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to a weaker issuance cycle. MIS external revenue grew 8% in Q1, 25% in Q2 and fell 1% in Q3  . Year-to-date MIS...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "external",
+          "mis",
+          "revenue"
+        ],
+        "hl": "25 %",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cycle. MIS external revenue grew 8% in Q1, 25% in Q2 and fell 1% in Q3  . Year-to-date MIS external revenue is...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "external",
+          "mis",
+          "revenue"
+        ],
+        "hl": "1 %",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year quarter..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q3  . Year-to-date MIS external revenue is $3,500 million, up about 10%  . The Q2 status is revised from the logged...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "10 %",
+        "snippet": "7,279 7,979 (9 %) MIS U.S. 1,559 1,560 — % Non-U.S. 4,693 4,274 10 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is revised from the logged 'strengthened' to 'weakened' because a 25% rise in MIS revenue is evidence against the...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "mis",
+          "revenue"
+        ],
+        "hl": "25 %",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...evidence against the predicted weaker cycle, and it sits above the 9% invalidation level. Q3 is the first quarter of...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "above",
+          "invalidation"
+        ],
+        "hl": "9%",
+        "snippet": "...in FY2026, against 9% in FY2025, reported in the FY2026 10-K. Invalidation: CFG revenue growth at or above 9% in FY2026 even if debt issuance is flat. CFG is not reported separately in the 10-Q excerpts, so MIS..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "480",
+      "value": 480.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...vs 44.3% a year earlier, above the 43.4% signpost  . Q2 margin rose 480 bps with opex up 5% against revenue up 15%  . Q3...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "480",
+        "snippet": "Operating margin 47.9 % 43.1 % 480 BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...480 bps with opex up 5% against revenue up 15%  . Q3 margin fell 90 bps to 44.8% as opex and SG&A rose 2% against...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "90",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$181 million",
+      "value": 181.0,
+      "unit": "million",
+      "money_mn": 181.0,
+      "decimals": 0,
+      "context": "...Solutions reduce reported MA growth and generated gains of $181 million in Q2 and $115 million in Q3, which lift GAAP...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "181",
+        "snippet": "...expense, net $ (58) $ (61) 5 % Other non-operating income, net 2 15 (87 %) Gain on business divestitures 181 — NM Non-operating income (expense), net $ 125 $ (46) 372 % Net income attributable to Moody's $ 878 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115 million",
+      "value": 115.0,
+      "unit": "million",
+      "money_mn": 115.0,
+      "decimals": 0,
+      "context": "...reported MA growth and generated gains of $181 million in Q2 and $115 million in Q3, which lift GAAP EPS but not adjusted EPS...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "115",
+        "snippet": "For more than 115 years, MIS has been a leading provider of credit ratings, research, and risk analysis helping businesses,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...issuance cyclicality appeared in Q3, when MIS external revenue fell 1% on lower leveraged finance issuance  . Also new:...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "issuance",
+          "external",
+          "mis",
+          "revenue"
+        ],
+        "hl": "1 %",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year quarter..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8,218.3 million",
+      "value": 8218.3,
+      "unit": "million",
+      "money_mn": 8218.3,
+      "decimals": 1,
+      "context": "Consensus FY2026 revenue is $8,218.3 million, up 6.5%, with EPS of $16.76, and the 90-day EPS...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8,218.3 million",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.76",
+      "value": 16.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "Consensus FY2026 revenue is $8,218.3 million, up 6.5%, with EPS of $16.76, and the 90-day EPS revision is -1.3%  . FY2027...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "16.76",
+        "snippet": "...revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 29.0x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.59",
+      "value": 18.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of $16.76, and the 90-day EPS revision is -1.3%  . FY2027 EPS is $18.59, revised -1.7%  . At $485.69 the forward P/E is...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "18.59",
+        "snippet": "...revenue $8,766.8 million (range $8,396.0 million to $8,859.0 million, 21 analysts), growth +6.7%; EPS $18.59 (range $17.08 to $19.07); forward P/E 26.1x; EV/Sales 10.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$485.69",
+      "value": 485.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS revision is -1.3%  . FY2027 EPS is $18.59, revised -1.7%  . At $485.69 the forward P/E is 29.0x  . Consensus data is...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "485.69",
+        "snippet": "- Forward multiples use the current share price of $485.69 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...; FY2026 operating margin against 43.4%; year-end total debt against $7.35 billion; and buybacks plus dividends against free cash...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "7,351.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $2,448.0 million, total debt $7,351.0 million, net cash -$4,903.0 million, free cash flow $2,575.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,977 million",
+      "value": 2977.0,
+      "unit": "million",
+      "money_mn": 2977.0,
+      "decimals": 0,
+      "context": "...billion; and buybacks plus dividends against free cash flow of $2,977 million TTM  . A Q4 that repeats Q3's 1% growth would...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,977.0 million",
+        "snippet": "...investments $1,621.0 million, total debt $7,492.0 million, net cash -$5,871.0 million, TTM free cash flow $2,977.0 million, cash runway at that burn self-funded, current ratio 1.3x, shares outstanding 172.4 million, change in share..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Consensus FY2026 revenue is $8,218.3 million, up 6.5%, with EPS of $16.76, and the 90-day EPS revision...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "6.5%",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 29.0x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...up 6.5%, with EPS of $16.76, and the 90-day EPS revision is -1.3%  . FY2027 EPS is $18.59, revised -1.7%  . At...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.3%",
+        "snippet": "...consensus current fiscal year: $16.76 today, $16.80 30 days ago, $16.97 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 1/23"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the 90-day EPS revision is -1.3%  . FY2027 EPS is $18.59, revised -1.7%  . At $485.69 the forward P/E is 29.0x  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "...EPS consensus next fiscal year: $18.59 today, $18.68 30 days ago, $18.91 90 days ago, change vs 90 days ago -1.7%; analysts raising/cutting in last 30 days: 2/21"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Q4 MIS issuance, which must be strong for FY2026 growth to approach 9% (illustrative Q4 growth needed of about 12.6%)...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "mis"
+        ],
+        "hl": "9 %",
+        "snippet": "...%) Non-U.S. 4,981 5,093 (2 %) Total 7,741 8,014 (3 %) MIS U.S. 1,570 1,572 — % Non-U.S. 4,593 4,196 9 % Total 6,163 5,768 7 % MSS U.S. 677 711 (5 %) Non-U.S. 1,469 1,302 13 % Total 2,146 2,013 7 % Total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.6%",
+      "value": 12.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth to approach 9% (illustrative Q4 growth needed of about 12.6%)  ; FY2026 operating margin against 43.4%;...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Q4 growth needed of about 12.6%)  ; FY2026 operating margin against 43.4%; year-end total debt against $7.35 billion; and...",
+      "section": "Outlook",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "43.4%",
+        "snippet": "Margin expansion should continue as cost growth stays below revenue growth: operating margin reached 43.4% from 40.6% [1]. The current price looks demanding: the enterprise value implies 18.1% annual growth versus..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...free cash flow of $2,977 million TTM  . A Q4 that repeats Q3's 1% growth would confirm the T2 and T4 signposts,...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1 %",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...repeats Q3's 1% growth would confirm the T2 and T4 signposts, and a 9% full year would weaken T2.",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "signpost"
+        ],
+        "hl": "9%",
+        "snippet": "...the implied return falls short of the cost of capital.\", \"signpost\": \"FY2026 revenue growth of at least 9% in the FY2026 10-K (about February 2027). Invalidation: FY2026 revenue growth of 12% or more.\", \"statuses\":..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "29.0x",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS is $18.59, revised -1.7%  . At $485.69 the forward P/E is 29.0x  . Consensus data is dated 26 November 2026,...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "29.0",
+        "snippet": "...million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 29.0x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...after the     . No company guidance is available in the releases or 10-Qs provided, so none is cited. Watch: Q4 MIS...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "10",
+        "snippet": "...consolidated financial statements and notes thereto included elsewhere in this quarterly report on Form 10 – Q."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2079.0 million",
+      "value": 2079.0,
+      "unit": "million",
+      "money_mn": 2079.0,
+      "decimals": 1,
+      "context": "Total revenue: $2079.0 million vs $1924.0 million, $2185.0 million vs $1898.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,079",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1924.0 million",
+      "value": 1924.0,
+      "unit": "million",
+      "money_mn": 1924.0,
+      "decimals": 1,
+      "context": "Total revenue: $2079.0 million vs $1924.0 million, $2185.0 million vs $1898.0 million, $2023.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,924",
+        "snippet": "Moody's total revenue $ 2,079 $ 1,924 8 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2185.0 million",
+      "value": 2185.0,
+      "unit": "million",
+      "money_mn": 2185.0,
+      "decimals": 1,
+      "context": "Total revenue: $2079.0 million vs $1924.0 million, $2185.0 million vs $1898.0 million, $2023.0 million vs $2007.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,185",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1898.0 million",
+      "value": 1898.0,
+      "unit": "million",
+      "money_mn": 1898.0,
+      "decimals": 1,
+      "context": "Total revenue: $2079.0 million vs $1924.0 million, $2185.0 million vs $1898.0 million, $2023.0 million vs $2007.0 million. Operating...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,898",
+        "snippet": "Moody's total revenue $ 2,185 $ 1,898 15 % — reflects revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2023.0 million",
+      "value": 2023.0,
+      "unit": "million",
+      "money_mn": 2023.0,
+      "decimals": 1,
+      "context": "...million vs $1924.0 million, $2185.0 million vs $1898.0 million, $2023.0 million vs $2007.0 million. Operating margin (GAAP):...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,023",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2007.0 million",
+      "value": 2007.0,
+      "unit": "million",
+      "money_mn": 2007.0,
+      "decimals": 1,
+      "context": "...million, $2185.0 million vs $1898.0 million, $2023.0 million vs $2007.0 million. Operating margin (GAAP): 44.3% vs 44.0%, 47.9%...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,007",
+        "snippet": "Moody's total revenue $ 2,023 $ 2,007 1 % — reflects growth in MA partially offset by modestly lower MIS revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1153.0 million",
+      "value": 1153.0,
+      "unit": "million",
+      "money_mn": 1153.0,
+      "decimals": 1,
+      "context": "...vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS external revenue: $1153.0 million vs $1065.0 million, $1260.0 million vs $1010.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,153",
+        "snippet": "MIS external revenue $ 1,153 $ 1,065 8 % — robust investment‑grade issuance activity in CFG driven by several jumbo transactions,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1065.0 million",
+      "value": 1065.0,
+      "unit": "million",
+      "money_mn": 1065.0,
+      "decimals": 1,
+      "context": "...vs 43.1%, 44.8% vs 45.7%. MIS external revenue: $1153.0 million vs $1065.0 million, $1260.0 million vs $1010.0 million, $1087.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,065",
+        "snippet": "MIS external revenue $ 1,153 $ 1,065 8 % — robust investment‑grade issuance activity in CFG driven by several jumbo transactions, including..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1260.0 million",
+      "value": 1260.0,
+      "unit": "million",
+      "money_mn": 1260.0,
+      "decimals": 1,
+      "context": "...vs 45.7%. MIS external revenue: $1153.0 million vs $1065.0 million, $1260.0 million vs $1010.0 million, $1087.0 million vs $1098.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,260",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1010.0 million",
+      "value": 1010.0,
+      "unit": "million",
+      "money_mn": 1010.0,
+      "decimals": 1,
+      "context": "...revenue: $1153.0 million vs $1065.0 million, $1260.0 million vs $1010.0 million, $1087.0 million vs $1098.0 million. MA external...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,010",
+        "snippet": "MIS external revenue $ 1,260 $ 1,010 25 % — strong CFG issuance activity, driven by:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1087.0 million",
+      "value": 1087.0,
+      "unit": "million",
+      "money_mn": 1087.0,
+      "decimals": 1,
+      "context": "...million vs $1065.0 million, $1260.0 million vs $1010.0 million, $1087.0 million vs $1098.0 million. MA external revenue: $926.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,087",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1098.0 million",
+      "value": 1098.0,
+      "unit": "million",
+      "money_mn": 1098.0,
+      "decimals": 1,
+      "context": "...million, $1260.0 million vs $1010.0 million, $1087.0 million vs $1098.0 million. MA external revenue: $926.0 million vs $859.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,098",
+        "snippet": "MIS external revenue $ 1,087 $ 1,098 (1 %) — lower issuance activity in leveraged finance within CFG driven by a challenging prior-year quarter..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$926.0 million",
+      "value": 926.0,
+      "unit": "million",
+      "money_mn": 926.0,
+      "decimals": 1,
+      "context": "...million, $1087.0 million vs $1098.0 million. MA external revenue: $926.0 million vs $859.0 million, $925.0 million vs $888.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "926",
+        "snippet": "MA external revenue $ 926 $ 859 8 % — sustained demand for insurance offerings and cloud-based KYC and banking solutions;"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$859.0 million",
+      "value": 859.0,
+      "unit": "million",
+      "money_mn": 859.0,
+      "decimals": 1,
+      "context": "...million vs $1098.0 million. MA external revenue: $926.0 million vs $859.0 million, $925.0 million vs $888.0 million, $936.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "859",
+        "snippet": "MA external revenue $ 926 $ 859 8 % — sustained demand for insurance offerings and cloud-based KYC and banking solutions;"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$925.0 million",
+      "value": 925.0,
+      "unit": "million",
+      "money_mn": 925.0,
+      "decimals": 1,
+      "context": "...million. MA external revenue: $926.0 million vs $859.0 million, $925.0 million vs $888.0 million, $936.0 million vs $909.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "925",
+        "snippet": "MA external revenue $ 925 $ 888 4 % — sustained demand for insurance offerings and cloud-based KYC and banking solutions within..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$888.0 million",
+      "value": 888.0,
+      "unit": "million",
+      "money_mn": 888.0,
+      "decimals": 1,
+      "context": "...revenue: $926.0 million vs $859.0 million, $925.0 million vs $888.0 million, $936.0 million vs $909.0 million. Adjusted...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "888",
+        "snippet": "MA external revenue $ 925 $ 888 4 % — sustained demand for insurance offerings and cloud-based KYC and banking solutions within Decision..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$936.0 million",
+      "value": 936.0,
+      "unit": "million",
+      "money_mn": 936.0,
+      "decimals": 1,
+      "context": "...$926.0 million vs $859.0 million, $925.0 million vs $888.0 million, $936.0 million vs $909.0 million. Adjusted diluted EPS: $4.33...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "936",
+        "snippet": "MA external revenue $ 936 $ 909 3 % — sustained demand for insurance offerings and cloud-based banking and KYC solutions within..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$909.0 million",
+      "value": 909.0,
+      "unit": "million",
+      "money_mn": 909.0,
+      "decimals": 1,
+      "context": "...$859.0 million, $925.0 million vs $888.0 million, $936.0 million vs $909.0 million. Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "909",
+        "snippet": "MA external revenue $ 936 $ 909 3 % — sustained demand for insurance offerings and cloud-based banking and KYC solutions within Decision..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.33",
+      "value": 4.33,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million, $936.0 million vs $909.0 million. Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs $3.56, $4.14 vs $3.92.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.33",
+        "snippet": "$ 4.33 $ 3.83 13 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.83",
+      "value": 3.83,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$936.0 million vs $909.0 million. Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs $3.56, $4.14 vs $3.92.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "3.83",
+        "snippet": "$ 4.33 $ 3.83 13 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.68",
+      "value": 4.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million vs $909.0 million. Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs $3.56, $4.14 vs $3.92.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.68",
+        "snippet": "$ 4.68 $ 3.56 31 % — increase in Adjusted Diluted EPS (1) reflects growth in Adjusted Operating Income (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.56",
+      "value": 3.56,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $909.0 million. Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs $3.56, $4.14 vs $3.92.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "3.56",
+        "snippet": "$ 4.68 $ 3.56 31 % — increase in Adjusted Diluted EPS (1) reflects growth in Adjusted Operating Income (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.14",
+      "value": 4.14,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million. Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs $3.56, $4.14 vs $3.92.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "4.14",
+        "snippet": "$ 4.14 $ 3.92 6 % — increase in Adjusted Diluted EPS (1) primarily reflects a decrease in the diluted weighted..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.92",
+      "value": 3.92,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Adjusted diluted EPS: $4.33 vs $3.83, $4.68 vs $3.56, $4.14 vs $3.92.",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "3.92",
+        "snippet": "$ 4.14 $ 3.92 6 % — increase in Adjusted Diluted EPS (1) primarily reflects a decrease in the diluted weighted average..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.3%",
+      "value": 44.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$2023.0 million vs $2007.0 million. Operating margin (GAAP): 44.3% vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.3%",
+        "snippet": "Operating margin 44.3%, ⇑ 30 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.0%",
+      "value": 44.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $2007.0 million. Operating margin (GAAP): 44.3% vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS external...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.0 %",
+        "snippet": "Operating margin 44.3 % 44.0 % 30 BPS — Modest operating margin expansion is due to revenue growth coupled with disciplined cost..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "47.9%",
+      "value": 47.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $2007.0 million. Operating margin (GAAP): 44.3% vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS external revenue:...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "47.9%",
+        "snippet": "Operating margin 47.9%, ⇑ 480 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.1%",
+      "value": 43.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$2007.0 million. Operating margin (GAAP): 44.3% vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS external revenue: $1153.0...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "43.1 %",
+        "snippet": "Operating margin 47.9 % 43.1 % 480 BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million. Operating margin (GAAP): 44.3% vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS external revenue: $1153.0 million...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "44.9%",
+        "snippet": "- Operating margin: FY2025 44.9%; Q1 FY2026 45.6% (year-ago n/a, n/a); Q2 FY2026 49.3% (year-ago n/a, n/a); Q3 FY2026 46.1% (year-ago 46.8%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.7%",
+      "value": 45.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Operating margin (GAAP): 44.3% vs 44.0%, 47.9% vs 43.1%, 44.8% vs 45.7%. MIS external revenue: $1153.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "45.7 %",
+        "snippet": "Operating margin 44.8 % 45.7 % (90 BPS) — Operating margin and Adjusted Operating Margin (1) contraction reflects modest operating expense..."
+      }
+    }
+  ],
+  "build_round": 1
+}

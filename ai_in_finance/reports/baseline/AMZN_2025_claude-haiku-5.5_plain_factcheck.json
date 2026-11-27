@@ -1,0 +1,659 @@
+{
+  "total_claims": 36,
+  "matched": 29,
+  "match_rate": 0.806,
+  "by_kind": {
+    "plain": {
+      "total": 5,
+      "matched": 4
+    },
+    "money": {
+      "total": 17,
+      "matched": 14
+    },
+    "pct": {
+      "total": 14,
+      "matched": 11
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 20,
+    "[2] Yahoo Finance": 4,
+    "[2][3] Liquidity and consensus": 1,
+    "[4] Peer data": 4
+  },
+  "unmatched": [
+    {
+      "kind": "plain",
+      "text": "1,200",
+      "value": 1200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and compare the company with two or three peers. Write about 1,200 words in English. -->",
+      "section": "Intro",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...and devices. This is the largest segment by revenue, at roughly $400 billion in FY2025 sales, with operating margins in the...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$130 billion",
+      "value": 130.0,
+      "unit": "billion",
+      "money_mn": 130000.0,
+      "decimals": 0,
+      "context": "...flow.** Operating cash flow grew to approximately $130 billion, reflecting higher earnings and working capital...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "10.7%",
+      "value": 10.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$80 billion, implying an operating margin near 11%, up from about 10.7% in FY2024. Gross margin improved as the...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew as a share of sales. AWS operating margin was approximately 35%, while North America and International margins...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...advertising and cloud. Alphabet's revenue is in the range of $400 billion, with operating margins around 32%, and...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...about 20% growth and remains the profit engine, with margins near 35%. - Advertising is a high-margin contributor that...",
+      "section": "Key Takeaways",
+      "source": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "plain",
+      "text": "1,200",
+      "value": 1200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and compare the company with two or three peers. Write about 1,200 words in English. -->",
+      "section": "Intro",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$717 billion",
+      "value": 717.0,
+      "unit": "billion",
+      "money_mn": 717000.0,
+      "decimals": 0,
+      "context": "...than at any point in its history. FY2025 net sales were roughly $717 billion, up about 12% year over year, and operating...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13 AWS 19 20 Consolidated 11 12..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and advertising scaled. Diluted EPS was in the range of $7, up from $5.53 in FY2024, helped by operating...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...or cloud-based infrastructure, tools and services relating to artificial intelligence, and other services; (7) companies that design, manufacture, market, or sell consumer electronics, communications, and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.53",
+      "value": 5.53,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and advertising scaled. Diluted EPS was in the range of $7, up from $5.53 in FY2024, helped by operating leverage and a...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "6 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...its history. FY2025 net sales were roughly $717 billion, up about 12% year over year, and operating income expanded...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Sales increased 12% in 2025, compared to the prior year. Changes in foreign exchange rates increased net sales by $4.4 billion..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...and devices. This is the largest segment by revenue, at roughly $400 billion in FY2025 sales, with operating margins in the...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$155 billion",
+      "value": 155.0,
+      "unit": "billion",
+      "money_mn": 155000.0,
+      "decimals": 0,
+      "context": "...across Europe, Japan, India, and other markets. Revenue was roughly $155 billion, with margins improving steadily from near...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "155,121,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$129 billion",
+      "value": 129.0,
+      "unit": "billion",
+      "money_mn": 129000.0,
+      "decimals": 0,
+      "context": "...Cloud infrastructure and platform services. AWS generated roughly $129 billion in revenue, growing about 20%, and produced the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60 billion",
+      "value": 60.0,
+      "unit": "billion",
+      "money_mn": 60000.0,
+      "decimals": 0,
+      "context": "...continues to be a major profit driver and now exceeds $60 billion in annual revenue. Third-party seller services...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "60010"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...AWS generated roughly $129 billion in revenue, growing about 20%, and produced the majority of consolidated...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$80 billion",
+      "value": 80.0,
+      "unit": "billion",
+      "money_mn": 80000.0,
+      "decimals": 0,
+      "context": "...line.  **Margins.** Consolidated operating income rose to roughly $80 billion, implying an operating margin near 11%, up from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Operating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$75",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...per share.** Net income increased to approximately $75 to $80 billion, supported by operating gains and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Inc. Edith W. Cooper 64 Former Executive Vice President, Goldman Sachs Group, Inc. Jamie S. Gorelick 75 Senior Counsel, Wilmer Cutler Pickering Hale and Dorr LLP Daniel P. Huttenlocher 67 Dean, MIT Schwarzman..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$80 billion",
+      "value": 80.0,
+      "unit": "billion",
+      "money_mn": 80000.0,
+      "decimals": 0,
+      "context": "...per share.** Net income increased to approximately $75 to $80 billion, supported by operating gains and non-operating...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Operating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...gains on Anthropic and other holdings. Diluted EPS was roughly $7, compared with $5.53 in FY2024. Investors should...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...or cloud-based infrastructure, tools and services relating to artificial intelligence, and other services; (7) companies that design, manufacture, market, or sell consumer electronics, communications, and other..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.53",
+      "value": 5.53,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and other holdings. Diluted EPS was roughly $7, compared with $5.53 in FY2024. Investors should note that...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "6 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$130 billion",
+      "value": 130.0,
+      "unit": "billion",
+      "money_mn": 130000.0,
+      "decimals": 0,
+      "context": "...flow.** Operating cash flow grew to approximately $130 billion, reflecting higher earnings and working capital...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$100 billion",
+      "value": 100.0,
+      "unit": "billion",
+      "money_mn": 100000.0,
+      "decimals": 0,
+      "context": "...expenditures, including finance leases, rose sharply to well above $100 billion, driven by data center and custom silicon...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "99,585,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "**Revenue and growth.** Consolidated net sales grew about 12% in FY2025, versus 11% in FY2024. Growth was...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Sales increased 12% in 2025, compared to the prior year. Changes in foreign exchange rates increased net sales by $4.4 billion..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth.** Consolidated net sales grew about 12% in FY2025, versus 11% in FY2024. Growth was broad-based, with AWS,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to roughly $80 billion, implying an operating margin near 11%, up from about 10.7% in FY2024. Gross margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.7%",
+      "value": 10.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$80 billion, implying an operating margin near 11%, up from about 10.7% in FY2024. Gross margin improved as the...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew as a share of sales. AWS operating margin was approximately 35%, while North America and International margins...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...advertising and cloud. Alphabet's revenue is in the range of $400 billion, with operating margins around 32%, and...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$680 billion",
+      "value": 680.0,
+      "unit": "billion",
+      "money_mn": 680000.0,
+      "decimals": 0,
+      "context": "...(WMT)** is the principal retail competitor. With revenue near $680 billion, Walmart is larger than Amazon's retail-heavy...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "680985"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45%",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Microsoft generates a higher consolidated operating margin, around 45%, and its Intelligent Cloud segment is a larger...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "44.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is in the range of $400 billion, with operating margins around 32%, and advertising constitutes the vast majority...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "31.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...retail-heavy segments, but its operating margin is only around 4%, reflecting a grocery-heavy mix. Walmart's...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-09-30: EPS $1.89 vs estimate $1.96 (surprise -3.5%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.5",
+      "value": 2.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in relative terms. However, Amazon's revenue scale is roughly 2.5 times larger, and its retail and advertising...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "- FY2025 revenue growth of roughly 12% and EPS near $7 reflect a healthy core business. - AWS...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...or cloud-based infrastructure, tools and services relating to artificial intelligence, and other services; (7) companies that design, manufacture, market, or sell consumer electronics, communications, and other..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "- FY2025 revenue growth of roughly 12% and EPS near $7 reflect a healthy core...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Sales increased 12% in 2025, compared to the prior year. Changes in foreign exchange rates increased net sales by $4.4 billion..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$7 reflect a healthy core business. - AWS re-accelerated to about 20% growth and remains the profit engine, with...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...about 20% growth and remains the profit engine, with margins near 35%. - Advertising is a high-margin contributor that...",
+      "section": "Key Takeaways",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margins. We would reassess our Buy rating if AWS growth falls below 15% for two consecutive quarters or if free cash...",
+      "section": "Investment Theses",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180 basis..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...share of consolidated profit growth through 2027.  **Thesis 2: Advertising will continue compounding faster...",
+      "section": "Investment Theses",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...We operate customer service centers globally, which are supplemented by co-sourced arrangements. See Item 2 of Part I, “Properties.”"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margins higher even if retail growth moderates.  **Thesis 3: Capex will eventually yield returns that...",
+      "section": "Investment Theses",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and distributors of physical, digital, and interactive media of all types and all distribution channels; (3) web search engines, comparison shopping websites, social networks, web portals, virtual assistants, and other..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...through the current investment cycle may be compensated.  **Thesis 4 (Risk to thesis): Capital intensity could...",
+      "section": "Investment Theses",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...either directly or in collaboration with other retailers, including through artificial intelligence; (4) companies that provide e-commerce services, including website development and hosting, omnichannel sales,..."
+      }
+    }
+  ],
+  "ticker": "AMZN",
+  "fyear": "2025",
+  "filing_date": "2026-02-06",
+  "source_file": "C:\\Users\\franc\\dev\\FinRobot\\ai_in_finance\\reports\\baseline\\AMZN_2025_claude-haiku-5.5_plain.md",
+  "peer_tickers": [
+    "MSFT",
+    "GOOGL",
+    "WMT"
+  ],
+  "n_tenk_files": 3,
+  "kind": "baseline"
+}

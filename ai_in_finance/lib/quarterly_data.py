@@ -218,6 +218,49 @@ def _html_to_text(html):
     return re.sub(r"\n\s*\n+", "\n\n", text).strip()
 
 
+def _qend_near(rd):
+    """Stichtag nahe einem Quartalsende (auch 13-Wochen-Quartale wie bei ASML: 28.09., 29.06., 30.03.)."""
+    try:
+        d = pd.Timestamp(rd)
+    except Exception:
+        return False
+    return (d.month in (3, 6, 9, 12) and d.day >= 24) or (d.month in (1, 4, 7, 10) and d.day <= 3)
+
+
+def results_filings(r):
+    """Einreichungen zu Quartalszahlen, neueste zuerst: [(Einreichung, Accession, Form, Stichtag, Dokument)].
+    US-Emittenten: 8-K mit Item 2.02. Auslaendische Emittenten (20-F) melden Quartalszahlen per 6-K ohne Item-Nummer:
+    6-K zu einem Quartalsstichtag, 7-75 Tage danach eingereicht; je Stichtag zuerst Dokumente mit Stichwort
+    (results/quarter/earnings), dann die frueheste Einreichung ab 12 Tagen (vorher kommen z. B. Monatsumsaetze).
+    Weitere Kandidaten desselben Stichtags bleiben als Ersatz in der Liste (Form '6-K alt')."""
+    n = len(r["form"])
+    items = r.get("items") or [""] * n
+    docs = r.get("primaryDocument") or [""] * n
+    descs = r.get("primaryDocDescription") or [""] * n
+    rds = r.get("reportDate") or [""] * n
+    out, six = [], {}
+    for f, d, a, it, rd, doc, ds in zip(r["form"], r["filingDate"], r["accessionNumber"], items, rds, docs, descs):
+        if f in ("8-K", "8-K/A") and "2.02" in str(it):
+            out.append((d, a, f, rd, doc))
+        elif f in ("6-K", "6-K/A") and rd and _qend_near(rd):
+            lag = (pd.Timestamp(d) - pd.Timestamp(rd)).days
+            if 7 <= lag <= 75:
+                kw = bool(re.search(r"result|earning|quarter|interim", f"{doc} {ds}", re.I))
+                six.setdefault(rd, []).append((not kw, lag < 12, d, a, f, rd, doc))
+    for rd, xs in six.items():
+        xs.sort()
+        for i, x in enumerate(xs):
+            out.append((x[2], x[3], x[4] if i == 0 else "6-K alt", x[5], x[6]))
+    return sorted(out, key=lambda x: x[0], reverse=True)
+
+
+def _looks_like_results(text):
+    """Grobe Pruefung, ob ein 6-K-Dokument Quartalszahlen enthaelt (und nicht z. B. Monatsumsatz oder HV)."""
+    low = text[:20000].lower()
+    return ("quarter" in low or "three months" in low) and any(w in low for w in ("net income", "net sales", "revenue",
+                                                                                   "gross margin", "earnings per"))
+
+
 def earnings_release(symbol, max_chars=30000):
     """Neueste Pressemitteilung zu Quartalszahlen (8-K Item 2.02, Exhibit 99.1) aus EDGAR, mit Cache.
     Jeder Schritt meldet bei Problemen einen klaren Grund (statt still leer zu bleiben)."""
@@ -235,11 +278,19 @@ def earnings_release(symbol, max_chars=30000):
     except Exception as e:
         return {"error": f"EDGAR submissions request failed ({e})"}
     r = rec["filings"]["recent"]
-    items = r.get("items") or [""] * len(r["form"])
-    hits = [(d, a) for f, d, a, it in zip(r["form"], r["filingDate"], r["accessionNumber"], items)
-            if f in ("8-K", "8-K/A") and "2.02" in str(it)]
+    found = results_filings(r)
+    hits = [(d, a) for d, a, f, rd, doc in found]
     if not hits:
-        return {"error": "no 8-K with Item 2.02 (results of operations) in the recent EDGAR filings"}
+        return {"error": "no 8-K with Item 2.02 (results of operations) or quarterly 6-K in the recent EDGAR filings"}
+    if any(f.startswith("6-K") for _, _, f, _, _ in found):     # 6-K: Ersatzkandidaten und Inhaltspruefung
+        # neuester Stichtag zuerst, darin der bevorzugte Kandidat (nicht 'alt'), dann nach Einreichungsdatum
+        order = sorted(found, key=lambda x: (x[3], x[2] != "6-K alt", [-int(c) for c in x[0].replace("-", "")]),
+                       reverse=True)
+        for d, a, f, rd, doc in order[:6]:
+            res = _fetch_exhibit99(cik, h, d, a, symbol, max_chars, form=f)
+            if not res.get("error"):
+                return res
+        return {"error": "no quarterly 6-K with results text found"}
     last_err = ""
     for fdate, acc in hits[:3]:  # neueste zuerst; falls eine Einreichung kein Exhibit 99 hat, die naechste
         cache = AIF / "reports" / "earnings_cache" / f"{symbol.upper()}_{fdate}_ex99.txt"
@@ -259,7 +310,7 @@ def earnings_release(symbol, max_chars=30000):
                 files = [x.split("/")[-1] for x in re.findall(r'href="([^"]+)"', html)]
             except Exception:
                 pass
-        ex = [f for f in files if re.search(r"ex[-_]?99", f, re.I) and f.lower().endswith((".htm", ".html", ".txt"))]
+        ex = [f for f in files if re.search(r"ex(hibit)?[^0-9/]{0,2}99", f, re.I) and f.lower().endswith((".htm", ".html", ".txt"))]
         if not ex:
             last_err = last_err or f"8-K filed {fdate} has no exhibit 99 document"
             continue
@@ -293,6 +344,29 @@ def latest_10q(symbol):
     return None
 
 
+def _tenq_section(q, symbol, item, cache):
+    """Abschnitt eines 10-Q: eigene Zerlegung des EDGAR-Dokuments, sec-api nur als Rueckfall (Kontingent begrenzt)."""
+    from finrobot.data_source.sec_utils import CACHE_PATH
+    text = None
+    try:
+        from finrobot.data_source.edgar_sections import fetch_text, tenq_item
+        full = fetch_text(q["url"], str(Path(CACHE_PATH) / "sec_utils" / "full" / f"{symbol.upper()}_{q['report_date']}_10q.txt"))
+        seg = tenq_item(full, item)
+        if seg:
+            text = f"[10-Q {q['report_date']}, {item}; extracted from the EDGAR filing]\n" + seg
+    except Exception:
+        text = None
+    if text is None:
+        try:
+            from sec_api import ExtractorApi
+            text = unescape(ExtractorApi(os.environ["SEC_API_KEY"]).get_section(q["url"], item, "text"))
+        except Exception as e:
+            return f"(not available: {str(e)[:160]})"
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    cache.write_text(text, encoding="utf-8")
+    return text
+
+
 def tenq_sections(symbol, max_chars=25000):
     """MD&A (Part I Item 2) und Risikofaktoren (Part II Item 1A) des neuesten 10-Q; je 1 sec-api-Call, dann Cache."""
     from finrobot.data_source.sec_utils import CACHE_PATH
@@ -305,14 +379,7 @@ def tenq_sections(symbol, max_chars=25000):
         if cache.exists():
             text = cache.read_text(encoding="utf-8")
         else:
-            try:
-                from sec_api import ExtractorApi
-                text = ExtractorApi(os.environ["SEC_API_KEY"]).get_section(q["url"], item, "text")
-                text = unescape(text)
-                cache.parent.mkdir(parents=True, exist_ok=True)
-                cache.write_text(text, encoding="utf-8")
-            except Exception as e:
-                text = f"(not available: {e})"
+            text = _tenq_section(q, symbol, item, cache)
         out["sections"][label] = text[:max_chars]
     return out
 
@@ -320,7 +387,10 @@ def tenq_sections(symbol, max_chars=25000):
 # --------------------------------------------------------------- Ausgangsbasis: Annual Report
 def annual_baseline(symbol):
     """Takeaways, Summary und Risiken aus dem neuesten Annual Report des Agenten (build_args.json)."""
-    cands = glob.glob(str(AIF / "reports" / f"{symbol.upper()}_*" / "*build_args.json"))
+    sym = symbol.upper()
+    # nur Annual-Report-Ordner <SYM>_<Jahr>_... (nicht <SYM>_earnings_multi_..., sonst wird ein Earnings Review zur Basis)
+    cands = [p for p in glob.glob(str(AIF / "reports" / f"{sym}_*" / "*build_args.json"))
+             if re.match(rf"{re.escape(sym)}_\d{{4}}_", Path(p).parent.name)]
     if not cands:
         return {"error": f"no annual report of the agent found for {symbol.upper()}; run the annual report agent first"}
     p = max(cands, key=os.path.getmtime)
@@ -458,7 +528,9 @@ def multi_scorecard_text(symbol, fyear):
     return "\n".join(lines)
 
 
-def _fetch_exhibit99(cik, h, fdate, acc, symbol, max_chars):
+def _fetch_exhibit99(cik, h, fdate, acc, symbol, max_chars, form="8-K"):
+    """Text der Pressemitteilung (Exhibit 99). Bei 6-K ohne Exhibit 99: groesstes HTML-Dokument der Einreichung;
+    6-K-Texte muessen nach Quartalszahlen aussehen (sonst Fehler, damit der naechste Kandidat probiert wird)."""
     import requests
     cache = AIF / "reports" / "earnings_cache" / f"{symbol.upper()}_{fdate}_ex99.txt"
     if cache.exists():
@@ -466,26 +538,32 @@ def _fetch_exhibit99(cik, h, fdate, acc, symbol, max_chars):
         return {"error": None, "filing_date": fdate, "text": cache.read_text(encoding="utf-8")[:max_chars],
                 "url": url_f.read_text(encoding="utf-8") if url_f.exists() else ""}
     base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}"
-    files = []
+    files, sizes = [], {}
     try:
         idx = requests.get(f"{base}/index.json", headers=h, timeout=30).json()
         files = [i["name"] for i in idx["directory"]["item"]]
+        sizes = {i["name"]: int(i.get("size") or 0) for i in idx["directory"]["item"] if str(i.get("size", "")).isdigit()}
     except Exception:
         try:
             html = requests.get(f"{base}/{acc}-index.htm", headers=h, timeout=30).text
             files = [x.split("/")[-1] for x in re.findall(r'href="([^"]+)"', html)]
         except Exception as e:
             return {"error": f"filing index not readable ({e})", "filing_date": fdate}
-    ex = [f for f in files if re.search(r"ex[-_]?99", f, re.I) and f.lower().endswith((".htm", ".html", ".txt"))]
+    ex = [f for f in files if re.search(r"ex(hibit)?[^0-9/]{0,2}99", f, re.I) and f.lower().endswith((".htm", ".html", ".txt"))]
+    if not ex and form.startswith("6-K"):          # 6-K: Mitteilung steht oft im Hauptdokument oder einem Anhang
+        ex = sorted([f for f in files if f.lower().endswith((".htm", ".html")) and "index" not in f.lower()
+                     and not re.match(r"R\d+\.htm", f)], key=lambda f: -sizes.get(f, 0))[:1]
     if not ex:
-        return {"error": f"8-K filed {fdate} has no exhibit 99 document", "filing_date": fdate}
-    url = f"{base}/{sorted(ex)[0]}"
+        return {"error": f"{form} filed {fdate} has no exhibit 99 document", "filing_date": fdate}
+    url = f"{base}/{sorted(ex)[0] if not form.startswith('6-K') else ex[0]}"
     try:
         text = _html_to_text(requests.get(url, headers=h, timeout=60).text)
     except Exception as e:
         return {"error": f"exhibit download failed ({e})", "filing_date": fdate}
     if len(text) < 500:
         return {"error": f"exhibit {url} is (almost) empty", "filing_date": fdate}
+    if form.startswith("6-K") and not _looks_like_results(text):
+        return {"error": f"6-K filed {fdate} does not look like a results release", "filing_date": fdate}
     cache.parent.mkdir(parents=True, exist_ok=True)
     cache.write_text(text, encoding="utf-8")
     cache.with_suffix(".url").write_text(url, encoding="utf-8")
@@ -504,13 +582,21 @@ def earnings_releases_since(symbol, after_date, max_chars=14000):
     except Exception as e:
         return [{"error": f"EDGAR request failed ({e})"}]
     r = rec["filings"]["recent"]
-    items = r.get("items") or [""] * len(r["form"])
     cutoff = (pd.Timestamp(after_date) + pd.Timedelta(days=75)).date().isoformat()
-    hits = [(d, a) for f, d, a, it in zip(r["form"], r["filingDate"], r["accessionNumber"], items)
-            if f in ("8-K", "8-K/A") and "2.02" in str(it) and d > cutoff]
-    if not hits:
-        return [{"error": f"no 8-K with Item 2.02 filed after {cutoff}"}]
-    return [_fetch_exhibit99(cik, h, d, a, symbol, max_chars) for d, a in sorted(hits)]
+    found = [x for x in results_filings(r) if x[0] > cutoff]
+    if not found:
+        return [{"error": f"no 8-K with Item 2.02 or quarterly 6-K filed after {cutoff}"}]
+    if not any(f.startswith("6-K") for _, _, f, _, _ in found):
+        return [_fetch_exhibit99(cik, h, d, a, symbol, max_chars) for d, a, _, _, _ in sorted(found)]
+    out = []                                        # 6-K: je Quartalsstichtag den ersten Kandidaten mit Ergebnistext
+    for rd in sorted({x[3] for x in found}):
+        res = {"error": f"no results release for the quarter ended {rd}"}
+        for d, a, f, rd_, doc in sorted([x for x in found if x[3] == rd], key=lambda x: (x[2] == "6-K alt", x[0])):
+            res = _fetch_exhibit99(cik, h, d, a, symbol, max_chars, form=f)
+            if not res.get("error"):
+                break
+        out.append(res)
+    return out
 
 
 def tenqs_since(symbol, after_date, max_chars=12000):
@@ -534,13 +620,7 @@ def tenqs_since(symbol, after_date, max_chars=12000):
             if cache.exists():
                 text = cache.read_text(encoding="utf-8")
             else:
-                try:
-                    from sec_api import ExtractorApi
-                    text = unescape(ExtractorApi(os.environ["SEC_API_KEY"]).get_section(q["url"], item, "text"))
-                    cache.parent.mkdir(parents=True, exist_ok=True)
-                    cache.write_text(text, encoding="utf-8")
-                except Exception as e:
-                    text = f"(not available: {e})"
+                text = _tenq_section(q, symbol, item, cache)
             q["sections"][label] = text[:max_chars]
         out.append(q)
     return out

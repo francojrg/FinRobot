@@ -1,0 +1,318 @@
+Company names (use exactly these names): META = Meta Platforms, Inc.; GOOGL = Alphabet Inc.; SNAP = Snap Inc.; PINS = Pinterest, Inc.
+
+
+Revenue:
+META: 2022    116609
+2023    134902
+2024    164501
+2025    200966
+Name: Revenue, dtype: object
+GOOGL: 2022    282836
+2023    307394
+2024    350018
+2025    402836
+Name: Revenue, dtype: object
+SNAP: 2022    4602
+2023    4606
+2024    5361
+2025    5931
+Name: Revenue, dtype: object
+PINS: 2022    2803
+2023    3055
+2024    3646
+2025    4222
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+META: 2022      n/a
+2023    15.7%
+2024    21.9%
+2025    22.2%
+Name: Revenue Growth, dtype: object
+GOOGL: 2022      n/a
+2023     8.7%
+2024    13.9%
+2025    15.1%
+Name: Revenue Growth, dtype: object
+SNAP: 2022      n/a
+2023     0.1%
+2024    16.4%
+2025    10.6%
+Name: Revenue Growth, dtype: object
+PINS: 2022      n/a
+2023     9.0%
+2024    19.3%
+2025    15.8%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+META: 2022     91360
+2023    108943
+2024    134340
+2025    164791
+Name: Gross Profit, dtype: object
+GOOGL: 2022    156633
+2023    174062
+2024    203712
+2025    240301
+Name: Gross Profit, dtype: object
+SNAP: 2022    2787
+2023    2492
+2024    2887
+2025    3262
+Name: Gross Profit, dtype: object
+PINS: 2022    2124
+2023    2366
+2024    2896
+2025    3380
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+META: 2022    78.3%
+2023    80.8%
+2024    81.7%
+2025    82.0%
+Name: Gross Margin, dtype: object
+GOOGL: 2022    55.4%
+2023    56.6%
+2024    58.2%
+2025    59.7%
+Name: Gross Margin, dtype: object
+SNAP: 2022    60.6%
+2023    54.1%
+2024    53.9%
+2025    55.0%
+Name: Gross Margin, dtype: object
+PINS: 2022    75.8%
+2023    77.5%
+2024    79.4%
+2025    80.1%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+META: 2022     37690
+2023     59052
+2024     86876
+2025    105713
+Name: EBITDA, dtype: object
+GOOGL: 2022     85160
+2023     97971
+2024    135394
+2025    180698
+Name: EBITDA, dtype: object
+SNAP: 2022    -1177
+2023    -1104
+2024     -493
+2025     -166
+Name: EBITDA, dtype: object
+PINS: 2022     -55
+2023    -104
+2024     201
+2025     345
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+META: 2022    32.3%
+2023    43.8%
+2024    52.8%
+2025    52.6%
+Name: EBITDA Margin, dtype: object
+GOOGL: 2022    30.1%
+2023    31.9%
+2024    38.7%
+2025    44.9%
+Name: EBITDA Margin, dtype: object
+SNAP: 2022    -25.6%
+2023    -24.0%
+2024     -9.2%
+2025     -2.8%
+Name: EBITDA Margin, dtype: object
+PINS: 2022    -2.0%
+2023    -3.4%
+2024     5.5%
+2025     8.2%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+META: 2022    19289
+2023    44068
+2024    54072
+2025    46109
+Name: FCF, dtype: object
+GOOGL: 2022    60010
+2023    69495
+2024    72764
+2025    73266
+Name: FCF, dtype: object
+SNAP: 2022     55
+2023     35
+2024    219
+2025    437
+Name: FCF, dtype: object
+PINS: 2022     440
+2023     605
+2024     940
+2025    1252
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+META: 2022    0.83
+2023    1.13
+2024    0.87
+2025    0.76
+Name: FCF Conversion, dtype: object
+GOOGL: 2022     1.0
+2023    0.94
+2024    0.73
+2025    0.55
+Name: FCF Conversion, dtype: object
+SNAP: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+PINS: 2022    n/m
+2023    n/m
+2024    0.5
+2025    3.0
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+META: 2022    17.2%
+2023    23.0%
+2024    29.8%
+2025    22.2%
+Name: ROIC, dtype: object
+GOOGL: 2022    22.4%
+2023    25.1%
+2024    29.9%
+2025    28.7%
+Name: ROIC, dtype: object
+SNAP: 2022    -16.2%
+2023    -15.3%
+2024     -7.9%
+2025     -4.2%
+Name: ROIC, dtype: object
+PINS: 2022    -2.3%
+2023    -3.0%
+2024     2.8%
+2025     6.3%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+META: 2022     8.66
+2023    15.27
+2024    17.14
+2025    16.25
+Name: EV/EBITDA, dtype: object
+GOOGL: 2022     13.4
+2023     17.8
+2024    17.07
+2025     21.1
+Name: EV/EBITDA, dtype: object
+SNAP: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: EV/EBITDA, dtype: object
+PINS: 2022      n/m
+2023      n/m
+2024    92.75
+2025    47.81
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+META: 2022     2.8
+2023    6.69
+2024    9.05
+2025    8.55
+Name: EV/Sales, dtype: object
+GOOGL: 2022    4.04
+2023    5.67
+2024     6.6
+2025    9.46
+Name: EV/Sales, dtype: object
+SNAP: 2022    3.66
+2023     6.6
+2024    3.99
+2025    2.85
+Name: EV/Sales, dtype: object
+PINS: 2022    5.43
+2023    7.84
+2024    5.12
+2025    3.91
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+META: 2022    14.01
+2023     23.8
+2024    24.54
+2025     28.1
+Name: PE Ratio, dtype: object
+GOOGL: 2022    19.35
+2023    24.08
+2024    23.54
+2025    28.95
+Name: PE Ratio, dtype: object
+SNAP: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+PINS: 2022      n/m
+2023      n/m
+2024    10.86
+2025    42.44
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+META: 2022     2.5
+2023    5.92
+2024    8.13
+2025    7.69
+Name: PB Ratio, dtype: object
+GOOGL: 2022    4.43
+2023    6.14
+2024    7.11
+2025    9.11
+Name: PB Ratio, dtype: object
+SNAP: 2022     5.46
+2023    11.54
+2024     7.43
+2025     6.05
+Name: PB Ratio, dtype: object
+PINS: 2022    5.05
+2023    8.13
+2024    4.13
+2025    3.63
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for META and ['GOOGL', 'SNAP', 'PINS'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

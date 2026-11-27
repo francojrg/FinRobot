@@ -1,0 +1,683 @@
+{
+  "total_claims": 37,
+  "matched": 29,
+  "match_rate": 0.784,
+  "by_kind": {
+    "plain": {
+      "total": 10,
+      "matched": 8
+    },
+    "pct": {
+      "total": 16,
+      "matched": 14
+    },
+    "money": {
+      "total": 10,
+      "matched": 6
+    },
+    "multiple": {
+      "total": 1,
+      "matched": 1
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 27,
+    "[2] Yahoo Finance": 2,
+    "[2][3] Liquidity and consensus": 0,
+    "[4] Peer data": 0
+  },
+  "unmatched": [
+    {
+      "kind": "plain",
+      "text": "1,200",
+      "value": 1200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and compare the company with two or three peers. Write about 1,200 words in English. -->",
+      "section": "Intro",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "200",
+      "value": 200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...as the largest regions. Mastercard's network spans more than 200 countries and territories and over 150 billion...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$12.9",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...~59% | ~59–60% | Stable to slightly higher | | GAAP diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B |...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$15.5",
+      "value": 15.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...| Stable to slightly higher | | GAAP diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B |...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$14.1B",
+      "value": 14.1,
+      "unit": "billion",
+      "money_mn": 14100.0,
+      "decimals": 1,
+      "context": "...diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B |...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$14.1B",
+      "value": 14.1,
+      "unit": "billion",
+      "money_mn": 14100.0,
+      "decimals": 1,
+      "context": "...income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B | ~$17B | ~+20% | | Share repurchases | ~$11.1B...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "100%",
+      "value": 100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ahead of GAAP growth. Free cash flow conversion remained above 100% of net income, reflecting the capital-light...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(FY ends Sept.) | Card network, VAS | ~10–11% | Operating margin ~67%; highest in group | | **American Express** |...",
+      "section": "Competitors Analysis",
+      "source": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "plain",
+      "text": "1,200",
+      "value": 1200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and compare the company with two or three peers. Write about 1,200 words in English. -->",
+      "section": "Intro",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "60%",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...This is the core, highest-margin business and accounts for roughly 60% of net revenue. - **Value-added services and...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...This segment has grown faster than the core and represents roughly 40% of revenue.  Revenue is also reported by...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• In 2025, approximately 40% of all Mastercard transactions are now tokenized"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "200",
+      "value": 200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...as the largest regions. Mastercard's network spans more than 200 countries and territories and over 150 billion...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "150",
+      "value": 150.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...network spans more than 200 countries and territories and over 150 billion transactions annually.",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...insights to our customers. We enable transactions for our customers through our payment network in more than 150 currencies and in more than 220 countries and territories."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$28.2B",
+      "value": 28.2,
+      "unit": "billion",
+      "money_mn": 28200.0,
+      "decimals": 1,
+      "context": "...| FY2025 (approx.) | Change | |---|---|---|---| | Net revenue | $28.2B | ~$32.8B | ~+16% | | GAAP operating margin |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.8B",
+      "value": 32.8,
+      "unit": "billion",
+      "money_mn": 32800.0,
+      "decimals": 1,
+      "context": "...(approx.) | Change | |---|---|---|---| | Net revenue | $28.2B | ~$32.8B | ~+16% | | GAAP operating margin | ~59% |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.9",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...~59% | ~59–60% | Stable to slightly higher | | GAAP diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B |...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$15.5",
+      "value": 15.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...| Stable to slightly higher | | GAAP diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B |...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$12.9B",
+      "value": 12.9,
+      "unit": "billion",
+      "money_mn": 12900.0,
+      "decimals": 1,
+      "context": "...| | GAAP diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 2,444 52% (3)% Effective income tax rate 19.4 % 15.6 % 17.9 % 3.8 ppt (2.3) ppt Net income $ 14,968 $ 12,874 $ 11,195 16% 15% Diluted earnings per share $ 16.52 $ 13.89 $ 11.83 19% 17% Diluted weighted-average shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.1B",
+      "value": 14.1,
+      "unit": "billion",
+      "money_mn": 14100.0,
+      "decimals": 1,
+      "context": "...diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B |...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$14.1B",
+      "value": 14.1,
+      "unit": "billion",
+      "money_mn": 14100.0,
+      "decimals": 1,
+      "context": "...income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B | ~$17B | ~+20% | | Share repurchases | ~$11.1B...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$17B",
+      "value": 17.0,
+      "unit": "billion",
+      "money_mn": 17000.0,
+      "decimals": 0,
+      "context": "...| ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B | ~$17B | ~+20% | | Share repurchases | ~$11.1B | ~$10B+...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...domestically and across borders to consumers with greater speed and ease, with a payout reach of more than 17 billion endpoints globally across multiple channels, and in more than 60 originating countries and 155 receiving..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.1B",
+      "value": 11.1,
+      "unit": "billion",
+      "money_mn": 11100.0,
+      "decimals": 1,
+      "context": "...from operations | ~$14.1B | ~$17B | ~+20% | | Share repurchases | ~$11.1B | ~$10B+ | Continued buybacks |  Revenue growth...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Net revenue $ 32,791 $ 28,167 $ 25,098 16% 12% Operating expenses $ 13,894 $ 12,585 $ 11,090 10% 13% Operating income $ 18,897 $ 15,582 $ 14,008 21% 11% Operating margin 57.6 % 55.3 % 55.8 % 2.3 ppt..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10B",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 0,
+      "context": "...| ~$14.1B | ~$17B | ~+20% | | Share repurchases | ~$11.1B | ~$10B+ | Continued buybacks |  Revenue growth was...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "($ in millions) Domestic assessments $ 11,029 $ 10,245 $ 9,566 8% 8% 7% 9% Cross-border assessments 12,021 10,181 8,409 18% 17% 21% 22% Transaction processing assessments 15,930 13,602 12,067 17% 16% 13% 14% Other network..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| Change | |---|---|---|---| | Net revenue | $28.2B | ~$32.8B | ~+16% | | GAAP operating margin | ~59% | ~59–60% |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59%",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Net revenue | $28.2B | ~$32.8B | ~+16% | | GAAP operating margin | ~59% | ~59–60% | Stable to slightly higher | | GAAP...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15% 12% 13% Adjusted operating expenses $ 13,389 $ 11,714 $ 10,551 14% 14% 11% 11% Adjusted operating margin 59.2 % 58.4 % 58.0 % 0.8 ppt 0.7 ppt 0.4 ppt 0.7 ppt Adjusted effective income tax rate 19.6 % 16.2 % 18.5 % 3.4..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60%",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| $28.2B | ~$32.8B | ~+16% | | GAAP operating margin | ~59% | ~59–60% | Stable to slightly higher | | GAAP diluted EPS...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to slightly higher | | GAAP diluted EPS | ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B | ~+9–10% | |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2,145 1,787 1,319 20% 35% Total general and administrative expenses $ 11,318 $ 10,193 $ 8,927 11% 14% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B | ~$17B |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B | ~$17B | ~+20% | | Share repurchases | ~$11.1B | ~$10B+ |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "2,145 1,787 1,319 20% 35% Total general and administrative expenses $ 11,318 $ 10,193 $ 8,927 11% 14% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "100%",
+      "value": 100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ahead of GAAP growth. Free cash flow conversion remained above 100% of net income, reflecting the capital-light...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "59",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| $28.2B | ~$32.8B | ~+16% | | GAAP operating margin | ~59% | ~59–60% | Stable to slightly higher | | GAAP diluted...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Investment income $ 325 $ 327 $ 274 $ (2) $ 53 Gains (losses) on equity investments, net (88) (29) (61) (59) 32 Interest expense (722) (646) (575) (76) (71)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$12.9 | ~$15.5 | ~+20% | | Net income | ~$12.9B | ~$14.1B | ~+9–10% | | Cash from operations | ~$14.1B | ~$17B |...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "MASTERCARD 2025 FORM 10-K 9"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...effects. Mastercard's market share in global GDV is roughly 25–26% by general industry estimates, and it has been...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...825 14 % (1) % Depreciation and amortization 1,143 897 799 27 % 12 % Provision for litigation 504 680 539 (26) % 26 % Total operating expenses 13,894 12,585 11,090 10 % 13 %"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "25",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...network effects. Mastercard's market share in global GDV is roughly 25–26% by general industry estimates, and it has...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "MASTERCARD 2025 FORM 10-K 25"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "35x",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk:** The stock trades at a premium multiple (roughly 30–35x forward earnings in recent periods), leaving...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "MASTERCARD 2025 FORM 10-K 35"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...**Valuation risk:** The stock trades at a premium multiple (roughly 30–35x forward earnings in recent periods), leaving...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...customer events, digital marketing, mobile marketing and social media initiatives. Over the course of nearly 30 years, “Priceless®” has evolved from an advertising campaign in more than 120 countries worldwide to a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16%",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Profile | |---|---|---|---| | **Mastercard** | Card network, VAS | ~16% | Operating margin ~59%; asset-light | |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START GAAP Net revenue Net income Diluted EPS $32.8B $15.0B $16.52 up 16% up 16% up 19% Non-GAAP 1 (currency-neutral growth rate)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59%",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...**Mastercard** | Card network, VAS | ~16% | Operating margin ~59%; asset-light | | **Visa** (FY ends Sept.) | Card...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15% 12% 13% Adjusted operating expenses $ 13,389 $ 11,714 $ 10,551 14% 14% 11% 11% Adjusted operating margin 59.2 % 58.4 % 58.0 % 0.8 ppt 0.7 ppt 0.4 ppt 0.7 ppt Adjusted effective income tax rate 19.6 % 16.2 % 18.5 % 3.4..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...asset-light | | **Visa** (FY ends Sept.) | Card network, VAS | ~10–11% | Operating margin ~67%; highest in group | |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "5,349 9 % 50 % 2,134 11 % Commercial Credit and Debit 1,405 11 % 13 % 174 14 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(FY ends Sept.) | Card network, VAS | ~10–11% | Operating margin ~67%; highest in group | | **American Express** |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...group | | **American Express** | Closed-loop network, lending | ~9–10% | Lending-heavy; higher credit risk exposure | |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Switched transactions $10.6T up 15% 175.5B up 9% up 10% ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...exposure | | **PayPal** | Digital wallet, merchant services | ~6–7% | Lower margins; growing branded checkout...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "9% 9% 8% 11% United States 6% 6% 7% 7% Worldwide less United States 10% 10% 9% 12%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...asset-light | | **Visa** (FY ends Sept.) | Card network, VAS | ~10–11% | Operating margin ~67%; highest in group...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "For a full discussion of our business, please see page 10."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in group | | **American Express** | Closed-loop network, lending | ~9–10% | Lending-heavy; higher credit risk exposure...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "MASTERCARD 2025 FORM 10-K 9"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "6",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk exposure | | **PayPal** | Digital wallet, merchant services | ~6–7% | Lower margins; growing branded checkout...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "6 MASTERCARD 2025 FORM 10-K"
+      }
+    }
+  ],
+  "ticker": "MA",
+  "fyear": "2025",
+  "filing_date": "2026-02-11",
+  "source_file": "C:\\Users\\franc\\dev\\FinRobot\\ai_in_finance\\reports\\baseline\\MA_2025_claude-haiku-5.5_plain.md",
+  "peer_tickers": [
+    "GDV"
+  ],
+  "n_tenk_files": 3,
+  "kind": "baseline"
+}

@@ -1,0 +1,108 @@
+{
+  "cik": "1697868",
+  "quarters": 40,
+  "first": "2016-12-31",
+  "last": "2026-09-30",
+  "last_filed": "2026-11-16",
+  "start_value": 100000,
+  "value_today_usd": 436657,
+  "unmatched": [],
+  "no_prices": [
+    "AZPN"
+  ],
+  "mapping": {
+    "045327103": [
+      "ASPEN TECHNOLOGY INC",
+      null
+    ],
+    "461202103": [
+      "INTUIT",
+      "INTU"
+    ],
+    "57636Q104": [
+      "MASTERCARD INCORPORATED",
+      "MA"
+    ],
+    "61174X109": [
+      "MONSTER BEVERAGE CORP NEW",
+      "MNST"
+    ],
+    "615369105": [
+      "MOODYS CORP",
+      "MCO"
+    ],
+    "654106103": [
+      "NIKE INC",
+      "NKE"
+    ],
+    "78409V104": [
+      "S&P GLOBAL INC",
+      "SPGI"
+    ],
+    "92826C839": [
+      "VISA INC",
+      "V"
+    ],
+    "294429105": [
+      "EQUIFAX INC",
+      "EFX"
+    ],
+    "30303M102": [
+      "FACEBOOK INC",
+      "META"
+    ],
+    "023135106": [
+      "AMAZON COM INC",
+      "AMZN"
+    ],
+    "303250104": [
+      "FAIR ISAAC CORP",
+      "FICO"
+    ],
+    "052769106": [
+      "AUTODESK INC",
+      "ADSK"
+    ],
+    "00724F101": [
+      "ADOBE INC",
+      "ADBE"
+    ],
+    "29109X106": [
+      "ASPEN TECHNOLOGY INC",
+      null
+    ],
+    "N07059210": [
+      "ASML HOLDING N V",
+      "ASML"
+    ],
+    "55354G100": [
+      "MSCI INC",
+      "MSCI"
+    ],
+    "11135F101": [
+      "BROADCOM INC",
+      "AVGO"
+    ],
+    "67066G104": [
+      "NVIDIA CORPORATION",
+      "NVDA"
+    ],
+    "874039100": [
+      "TAIWAN SEMICONDUCTOR MANUFAC",
+      "TSM"
+    ]
+  },
+  "final_positions": {
+    "AMZN": 122.59,
+    "ASML": 35.95,
+    "AVGO": 81.95,
+    "FICO": 110.38,
+    "MA": 29.23,
+    "MCO": 157.12,
+    "NVDA": 111.4,
+    "SPGI": 240.15,
+    "TSM": 51.53,
+    "V": 41.07
+  },
+  "created": "2026-11-26 09:33"
+}

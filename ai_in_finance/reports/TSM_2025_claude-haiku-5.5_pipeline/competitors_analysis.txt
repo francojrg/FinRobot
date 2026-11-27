@@ -1,0 +1,318 @@
+Company names (use exactly these names): TSM = Taiwan Semiconductor Manufacturing Company Limited; UMC = United Microelectronics Corporation; ASX = ASE Technology Holding Co., Ltd.; GFS = GLOBALFOUNDRIES Inc.
+
+
+Revenue:
+TSM: 2022    2263891
+2023    2161736
+2024    2894308
+2025    3809054
+Name: Revenue, dtype: object
+UMC: 2022    278705
+2023    222533
+2024    232303
+2025    237553
+Name: Revenue, dtype: object
+ASX: 2022    670873
+2023    581914
+2024    595410
+2025    645388
+Name: Revenue, dtype: object
+GFS: 2022    8108
+2023    7392
+2024    6750
+2025    6791
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+TSM: 2022      n/a
+2023    -4.5%
+2024    33.9%
+2025    31.6%
+Name: Revenue Growth, dtype: object
+UMC: 2022       n/a
+2023    -20.2%
+2024      4.4%
+2025      2.3%
+Name: Revenue Growth, dtype: object
+ASX: 2022       n/a
+2023    -13.3%
+2024      2.3%
+2025      8.4%
+Name: Revenue Growth, dtype: object
+GFS: 2022      n/a
+2023    -8.8%
+2024    -8.7%
+2025     0.6%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+TSM: 2022    1348355
+2023    1175111
+2024    1624354
+2025    2281294
+Name: Gross Profit, dtype: object
+UMC: 2022    125764
+2023     77744
+2024     75654
+2025     68906
+Name: Gross Profit, dtype: object
+ASX: 2022    134930
+2023     91757
+2024     96932
+2025    114193
+Name: Gross Profit, dtype: object
+GFS: 2022    2239
+2023    2101
+2024    1651
+2025    1690
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+TSM: 2022    59.6%
+2023    54.4%
+2024    56.1%
+2025    59.9%
+Name: Gross Margin, dtype: object
+UMC: 2022    45.1%
+2023    34.9%
+2024    32.6%
+2025    29.0%
+Name: Gross Margin, dtype: object
+ASX: 2022    20.1%
+2023    15.8%
+2024    16.3%
+2025    17.7%
+Name: Gross Margin, dtype: object
+GFS: 2022    27.6%
+2023    28.4%
+2024    24.5%
+2025    24.9%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+TSM: 2022    1593076
+2023    1523507
+2024    2079132
+2025    2742122
+Name: EBITDA, dtype: object
+UMC: 2022    155581
+2023    110408
+2024    106891
+2025    108870
+Name: EBITDA, dtype: object
+ASX: 2022    141205
+2023    106953
+2024    108296
+2025    126221
+Name: EBITDA, dtype: object
+GFS: 2022    3247
+2023    2636
+2024    1504
+2025    2275
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+TSM: 2022    70.4%
+2023    70.5%
+2024    71.8%
+2025    72.0%
+Name: EBITDA Margin, dtype: object
+UMC: 2022    55.8%
+2023    49.6%
+2024    46.0%
+2025    45.8%
+Name: EBITDA Margin, dtype: object
+ASX: 2022    21.0%
+2023    18.4%
+2024    18.2%
+2025    19.6%
+Name: EBITDA Margin, dtype: object
+GFS: 2022    40.0%
+2023    35.7%
+2024    22.3%
+2025    33.5%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+TSM: 2022    520973
+2023    286569
+2024    861196
+2025    992378
+Name: FCF, dtype: object
+UMC: 2022    62977
+2023    -8020
+2024     2529
+2025    49131
+Name: FCF, dtype: object
+ASX: 2022     37296
+2023     59832
+2024      9105
+2025    -23599
+Name: FCF, dtype: object
+GFS: 2022    -435
+2023     321
+2024    1097
+2025    1009
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+TSM: 2022    0.52
+2023    0.34
+2024    0.74
+2025    0.58
+Name: FCF Conversion, dtype: object
+UMC: 2022     0.7
+2023   -0.13
+2024    0.05
+2025    1.22
+Name: FCF Conversion, dtype: object
+ASX: 2022    0.61
+2023    1.69
+2024    0.28
+2025   -0.59
+Name: FCF Conversion, dtype: object
+GFS: 2022    -0.3
+2023    0.31
+2024     n/m
+2025    1.14
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+TSM: 2022    26.7%
+2023    19.8%
+2024    22.2%
+2025    26.7%
+Name: ROIC, dtype: object
+UMC: 2022    25.3%
+2023    15.3%
+2024    11.7%
+2025     9.9%
+Name: ROIC, dtype: object
+ASX: 2022    14.2%
+2023     9.2%
+2024     7.6%
+2025     7.9%
+Name: ROIC, dtype: object
+GFS: 2022    12.3%
+2023     8.3%
+2024    -0.4%
+2025     7.2%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+TSM: 2022     7.15
+2023    10.53
+2024    15.62
+2025    17.34
+Name: EV/EBITDA, dtype: object
+UMC: 2022    2.38
+2023    5.25
+2024    4.65
+2025    5.19
+Name: EV/EBITDA, dtype: object
+ASX: 2022     3.89
+2023     6.92
+2024     7.83
+2025    10.15
+Name: EV/EBITDA, dtype: object
+GFS: 2022     9.25
+2023    12.86
+2024    15.86
+2025     8.49
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+TSM: 2022     5.03
+2023     7.42
+2024    11.22
+2025    12.48
+Name: EV/Sales, dtype: object
+UMC: 2022    1.33
+2023    2.61
+2024    2.14
+2025    2.38
+Name: EV/Sales, dtype: object
+ASX: 2022    0.82
+2023    1.27
+2024    1.42
+2025    1.99
+Name: EV/Sales, dtype: object
+GFS: 2022     3.7
+2023    4.59
+2024    3.53
+2025    2.84
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+TSM: 2022    11.94
+2023    19.44
+2024    28.97
+2025    29.01
+Name: PE Ratio, dtype: object
+UMC: 2022     5.58
+2023    10.86
+2024    10.91
+2025    15.26
+Name: PE Ratio, dtype: object
+ASX: 2022     6.78
+2023    17.73
+2024    22.33
+2025    27.75
+Name: PE Ratio, dtype: object
+GFS: 2022    20.57
+2023    33.11
+2024      n/m
+2025    21.96
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+TSM: 2022    4.08
+2023    4.83
+2024    7.91
+2025     9.2
+Name: PB Ratio, dtype: object
+UMC: 2022    1.55
+2023    1.89
+2024    1.46
+2025    1.68
+Name: PB Ratio, dtype: object
+ASX: 2022    1.42
+2023    2.13
+2024    2.26
+2025    3.25
+Name: PB Ratio, dtype: object
+GFS: 2022    2.98
+2023    3.02
+2024     2.2
+2025    1.63
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for TSM and ['UMC', 'ASX', 'GFS'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

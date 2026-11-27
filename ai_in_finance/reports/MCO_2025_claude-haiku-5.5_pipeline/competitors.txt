@@ -1,0 +1,318 @@
+Company names (use exactly these names): MCO = Moody's Corporation; SPGI = S&P Global Inc.; MSCI = MSCI Inc.; MORN = Morningstar, Inc.
+
+
+Revenue:
+MCO: 2022    5468
+2023    5916
+2024    7088
+2025    7718
+Name: Revenue, dtype: object
+SPGI: 2022    11181
+2023    12497
+2024    14208
+2025    15336
+Name: Revenue, dtype: object
+MSCI: 2022    2249
+2023    2529
+2024    2856
+2025    3134
+Name: Revenue, dtype: object
+MORN: 2022    1871
+2023    2039
+2024    2275
+2025    2446
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+MCO: 2022      n/a
+2023     8.2%
+2024    19.8%
+2025     8.9%
+Name: Revenue Growth, dtype: object
+SPGI: 2022      n/a
+2023    11.8%
+2024    13.7%
+2025     7.9%
+Name: Revenue Growth, dtype: object
+MSCI: 2022      n/a
+2023    12.5%
+2024    12.9%
+2025     9.7%
+Name: Revenue Growth, dtype: object
+MORN: 2022      n/a
+2023     9.0%
+2024    11.6%
+2025     7.5%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+MCO: 2022    3855
+2023    4229
+2024    5143
+2025    5745
+Name: Gross Profit, dtype: object
+SPGI: 2022     7428
+2023     8356
+2024     9847
+2025    10773
+Name: Gross Profit, dtype: object
+MSCI: 2022    1844
+2023    2082
+2024    2342
+2025    2584
+Name: Gross Profit, dtype: object
+MORN: 2022    1091
+2023    1195
+2024    1379
+2025    1493
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+MCO: 2022    70.5%
+2023    71.5%
+2024    72.6%
+2025    74.4%
+Name: Gross Margin, dtype: object
+SPGI: 2022    66.4%
+2023    66.9%
+2024    69.3%
+2025    70.2%
+Name: Gross Margin, dtype: object
+MSCI: 2022    82.0%
+2023    82.3%
+2024    82.0%
+2025    82.4%
+Name: Gross Margin, dtype: object
+MORN: 2022    58.3%
+2023    58.6%
+2024    60.6%
+2025    61.0%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+MCO: 2022    2337
+2023    2630
+2024    3469
+2025    3891
+Name: EBITDA, dtype: object
+SPGI: 2022    6019
+2023    5148
+2024    6778
+2025    7693
+Name: EBITDA, dtype: object
+MSCI: 2022    1358
+2023    1715
+2024    1748
+2025    1923
+Name: EBITDA, dtype: object
+MORN: 2022    322
+2023    411
+2024    714
+2025    726
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+MCO: 2022    42.7%
+2023    44.5%
+2024    48.9%
+2025    50.4%
+Name: EBITDA Margin, dtype: object
+SPGI: 2022    53.8%
+2023    41.2%
+2024    47.7%
+2025    50.2%
+Name: EBITDA Margin, dtype: object
+MSCI: 2022    60.4%
+2023    67.8%
+2024    61.2%
+2025    61.3%
+Name: EBITDA Margin, dtype: object
+MORN: 2022    17.2%
+2023    20.1%
+2024    31.4%
+2025    29.7%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+MCO: 2022    1191
+2023    1880
+2024    2521
+2025    2575
+Name: FCF, dtype: object
+SPGI: 2022    2514
+2023    3567
+2024    5565
+2025    5456
+Name: FCF, dtype: object
+MSCI: 2022    1022
+2023    1145
+2024    1387
+2025    1459
+Name: FCF, dtype: object
+MORN: 2022    168
+2023    197
+2024    449
+2025    443
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+MCO: 2022    0.87
+2023    1.17
+2024    1.22
+2025    1.05
+Name: FCF Conversion, dtype: object
+SPGI: 2022    0.77
+2023    1.36
+2024    1.44
+2025    1.22
+Name: FCF Conversion, dtype: object
+MSCI: 2022    1.17
+2023     1.0
+2024    1.25
+2025    1.21
+Name: FCF Conversion, dtype: object
+MORN: 2022    2.39
+2023     1.4
+2024    1.21
+2025    1.18
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+MCO: 2022    15.8%
+2023    18.2%
+2024    21.1%
+2025    24.3%
+Name: ROIC, dtype: object
+SPGI: 2022     7.9%
+2023     6.9%
+2024     9.9%
+2025    11.4%
+Name: ROIC, dtype: object
+MSCI: 2022    28.9%
+2023    34.6%
+2024    35.3%
+2025    38.7%
+Name: ROIC, dtype: object
+MORN: 2022     5.0%
+2023     8.0%
+2024    17.6%
+2025    17.6%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+MCO: 2022    24.45
+2023    29.11
+2024    26.14
+2025    24.59
+Name: EV/EBITDA, dtype: object
+SPGI: 2022    19.02
+2023    27.57
+2024    22.91
+2025    20.74
+Name: EV/EBITDA, dtype: object
+MSCI: 2022    30.08
+2023    28.52
+2024     29.1
+2025    24.97
+Name: EV/EBITDA, dtype: object
+MORN: 2022    31.51
+2023    31.78
+2024    20.78
+2025    12.99
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+MCO: 2022    10.45
+2023    12.94
+2024    12.79
+2025     12.4
+Name: EV/Sales, dtype: object
+SPGI: 2022    10.24
+2023    11.36
+2024    10.93
+2025     10.4
+Name: EV/Sales, dtype: object
+MSCI: 2022    18.16
+2023    19.34
+2024    17.81
+2025    15.31
+Name: EV/Sales, dtype: object
+MORN: 2022    5.42
+2023     6.4
+2024    6.52
+2025    3.85
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+MCO: 2022    37.45
+2023    44.74
+2024    42.04
+2025    37.37
+Name: PE Ratio, dtype: object
+SPGI: 2022    31.07
+2023    50.64
+2024    38.15
+2025    33.73
+Name: PE Ratio, dtype: object
+MSCI: 2022    43.39
+2023    39.31
+2024    42.71
+2025    36.57
+Name: PE Ratio, dtype: object
+MORN: 2022    132.07
+2023      87.0
+2024     39.25
+2025      24.5
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+MCO: 2022    20.26
+2023    21.48
+2024    23.94
+2025    22.37
+Name: PB Ratio, dtype: object
+SPGI: 2022    2.87
+2023    3.84
+2024    4.37
+2025    4.75
+Name: PB Ratio, dtype: object
+MSCI: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PB Ratio, dtype: object
+MORN: 2022    7.62
+2023    9.21
+2024    8.92
+2025    7.07
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for MCO and ['SPGI', 'MSCI', 'MORN'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

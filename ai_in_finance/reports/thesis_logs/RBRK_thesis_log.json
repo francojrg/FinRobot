@@ -1,0 +1,96 @@
+[
+  {
+    "date": "2026-11-20",
+    "fyear": "2026",
+    "quarters": [
+      "Q1 FY2027",
+      "Q2 FY2027"
+    ],
+    "report": "../reports/RBRK_earnings_multi_claude-haiku-5.5\\RBRK_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "Growth durability: RSC subscription demand and the RAC AI-agent suite keep revenue growing at a high rate as the legacy CDM/RCDM-T transition ends.",
+        "signpost": "Revenue growth stays above 30% y/y with subscription quality intact; RAC becomes a visible driver of ARR growth; no sharp drop after the Subscription Credit tailwind fades.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "Operating leverage and cash conversion: opex discipline drives losses toward breakeven, and free cash flow stays self-funding.",
+        "signpost": "Operating margin improves y/y; gross margin holds near 80%; free cash flow margin stays at or above the prior-year level.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "Balance sheet and dilution: net cash and liquidity fund growth without eroding per-share value.",
+        "signpost": "Net cash stays near $600 million; share count growth slows toward low single digits; current ratio stays above 1.5x.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "weakened"
+        },
+        "current_status": "weakened"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "fyear": "2026",
+    "quarters": [
+      "Q1 FY2027",
+      "Q2 FY2027"
+    ],
+    "report": "../reports/RBRK_earnings_multi_claude-haiku-5.5\\RBRK_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Subscription growth stays strong through fiscal 2027, supporting consensus revenue growth of about 28%.",
+        "signpost": "Subscription ARR growth at or above the signpost threshold in each quarterly report through the Q4 FY2027 report. Subscription ARR was not in the retrieved filings; revenue growth is used as a proxy.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: Cash generation is durable, not only a function of upfront billing timing.",
+        "signpost": "Trailing-twelve-month free cash flow at or above the latest $286.2 million [2], with deferred revenue growth slowing.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T3: The current valuation requires growth to stay near 29% for a decade; if growth fades to consensus, returns fall below the cost of capital.",
+        "signpost": "FY2027 revenue tracking at or above the $1.69 billion consensus, and FY2028 consensus growth holding above 21.7% in the next consensus update.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Operating leverage narrows losses as gross margin holds near 80% and operating expenses keep falling.",
+        "signpost": "GAAP operating margin improving from -26% in FY2026 toward break-even in FY2027, with gross margin at or above 80% of FY2026 levels.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "Balance sheet and dilution (from thesis log): net cash and liquidity fund growth without eroding per-share value.",
+        "signpost": "Net cash stays near $600 million; share count growth slows toward low single digits; current ratio stays above 1.5x.",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "weakened"
+        },
+        "current_status": "weakened"
+      }
+    ]
+  }
+]

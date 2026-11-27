@@ -1,0 +1,318 @@
+Company names (use exactly these names): ASML = ASML Holding N.V.; AMAT = Applied Materials, Inc.; LRCX = Lam Research Corporation; KLAC = KLA Corporation
+
+
+Revenue:
+ASML: 2022    21173
+2023    27558
+2024    28263
+2025    32667
+Name: Revenue, dtype: object
+AMAT: 2022    25785
+2023    26517
+2024    27176
+2025    28368
+Name: Revenue, dtype: object
+LRCX: 2023    17429
+2024    14905
+2025    18436
+2026    23233
+Name: Revenue, dtype: object
+KLAC: 2023    10496
+2024     9812
+2025    12156
+2026    13579
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+ASML: 2022      n/a
+2023    30.2%
+2024     2.6%
+2025    15.6%
+Name: Revenue Growth, dtype: object
+AMAT: 2022     n/a
+2023    2.8%
+2024    2.5%
+2025    4.4%
+Name: Revenue Growth, dtype: object
+LRCX: 2023       n/a
+2024    -14.5%
+2025     23.7%
+2026     26.0%
+Name: Revenue Growth, dtype: object
+KLAC: 2023      n/a
+2024    -6.5%
+2025    23.9%
+2026    11.7%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+ASML: 2022    10700
+2023    14136
+2024    14492
+2025    17258
+Name: Gross Profit, dtype: object
+AMAT: 2022    11993
+2023    12384
+2024    12897
+2025    13808
+Name: Gross Profit, dtype: object
+LRCX: 2023     7777
+2024     7053
+2025     8979
+2026    11725
+Name: Gross Profit, dtype: object
+KLAC: 2023    6278
+2024    5884
+2025    7404
+2026    8324
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+ASML: 2022    50.5%
+2023    51.3%
+2024    51.3%
+2025    52.8%
+Name: Gross Margin, dtype: object
+AMAT: 2022    46.5%
+2023    46.7%
+2024    47.5%
+2025    48.7%
+Name: Gross Margin, dtype: object
+LRCX: 2023    44.6%
+2024    47.3%
+2025    48.7%
+2026    50.5%
+Name: Gross Margin, dtype: object
+KLAC: 2023    59.8%
+2024    60.0%
+2025    60.9%
+2026    61.3%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+ASML: 2022     7100
+2023     9976
+2024    10124
+2025    12550
+Name: EBITDA, dtype: object
+AMAT: 2022    8271
+2023    8469
+2024    8791
+2025    9975
+Name: EBITDA, dtype: object
+LRCX: 2023    5638
+2024    4905
+2025    6523
+2026    8861
+Name: EBITDA, dtype: object
+KLAC: 2023    4501
+2024    3903
+2025    5341
+2026    6284
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+ASML: 2022    33.5%
+2023    36.2%
+2024    35.8%
+2025    38.4%
+Name: EBITDA Margin, dtype: object
+AMAT: 2022    32.1%
+2023    31.9%
+2024    32.3%
+2025    35.2%
+Name: EBITDA Margin, dtype: object
+LRCX: 2023    32.3%
+2024    32.9%
+2025    35.4%
+2026    38.1%
+Name: EBITDA Margin, dtype: object
+KLAC: 2023    42.9%
+2024    39.8%
+2025    43.9%
+2026    46.3%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+ASML: 2022     7168
+2023     3247
+2024     9083
+2025    11027
+Name: FCF, dtype: object
+AMAT: 2022    4612
+2023    7594
+2024    7487
+2025    5698
+Name: FCF, dtype: object
+LRCX: 2023    4677
+2024    4256
+2025    5414
+2026    4891
+Name: FCF, dtype: object
+KLAC: 2023    3328
+2024    3031
+2025    3747
+2026    3767
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+ASML: 2022    1.27
+2023    0.41
+2024     1.2
+2025    1.15
+Name: FCF Conversion, dtype: object
+AMAT: 2022    0.71
+2023    1.11
+2024    1.04
+2025    0.81
+Name: FCF Conversion, dtype: object
+LRCX: 2023    1.04
+2024    1.11
+2025    1.01
+2026    0.67
+Name: FCF Conversion, dtype: object
+KLAC: 2023    0.98
+2024     1.1
+2025    0.92
+2026    0.78
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+ASML: 2022    42.4%
+2023    43.0%
+2024    32.3%
+2025    39.5%
+Name: ROIC, dtype: object
+AMAT: 2022    38.1%
+2023    32.3%
+2024    29.3%
+2025    26.7%
+Name: ROIC, dtype: object
+LRCX: 2023    35.5%
+2024    29.5%
+2025    38.5%
+2026    45.7%
+Name: ROIC, dtype: object
+KLAC: 2023    41.5%
+2024    30.3%
+2025    40.9%
+2026    41.5%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+ASML: 2022    28.06
+2023    26.73
+2024    25.08
+2025    27.29
+Name: EV/EBITDA, dtype: object
+AMAT: 2022     9.47
+2023     13.0
+2024    16.73
+2025    18.51
+Name: EV/EBITDA, dtype: object
+LRCX: 2023    15.14
+2024    28.13
+2025    18.64
+2026    60.98
+Name: EV/EBITDA, dtype: object
+KLAC: 2023    15.65
+2024    29.64
+2025    22.89
+2026    63.46
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+ASML: 2022     9.41
+2023     9.68
+2024     8.98
+2025    10.48
+Name: EV/Sales, dtype: object
+AMAT: 2022    3.04
+2023    4.15
+2024    5.41
+2025    6.51
+Name: EV/Sales, dtype: object
+LRCX: 2023      4.9
+2024     9.26
+2025      6.6
+2026    23.26
+Name: EV/Sales, dtype: object
+KLAC: 2023     6.71
+2024    11.79
+2025    10.06
+2026    29.37
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+ASML: 2022    35.96
+2023    34.32
+2024    34.59
+2025    36.53
+Name: PE Ratio, dtype: object
+AMAT: 2022      n/m
+2023    16.32
+2024    21.09
+2025    26.92
+Name: PE Ratio, dtype: object
+LRCX: 2023    19.36
+2024    36.72
+2025    23.46
+2026    75.23
+Name: PE Ratio, dtype: object
+KLAC: 2023    20.08
+2024    40.66
+2025    29.49
+2026    82.43
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+ASML: 2022    22.95
+2023     20.0
+2024    14.18
+2025     17.9
+Name: PB Ratio, dtype: object
+AMAT: 2022    6.11
+2023    6.74
+2024    7.82
+2025    9.05
+Name: PB Ratio, dtype: object
+LRCX: 2023    10.44
+2024    16.26
+2025    12.52
+2026    43.48
+Name: PB Ratio, dtype: object
+KLAC: 2023    22.72
+2024     32.9
+2025     25.2
+2026     62.1
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for ASML and ['AMAT', 'LRCX', 'KLAC'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

@@ -1,0 +1,122 @@
+{
+  "ticker_symbol": "RKLB",
+  "fyear": "2025",
+  "save_dir": "../reports/RKLB_earnings_multi_claude-haiku-5.5",
+  "headline": "Record revenue and backlog and $4.6B of cash, but Neutron slips to 2027, gross margin falls and dilution rises.",
+  "summary": "Rocket Lab posted record revenue of $200.3M in Q1 FY2026, $234.1M in Q2 and $267.8M in Q3, each up 62% to 73% year-on-year [1][2]. Backlog reached about $3.6B by Q3 [1]. The operating loss narrowed year-on-year in Q1 and Q2 but widened in Q3, to $79.2M from $59.0M [1]. GAAP gross margin fell to 33.6% in Q3 from 37.0% a year earlier [1][3]. Neutron's first launch, targeted for Q4 2026 in the annual report, now slips to 2027 after a composite manufacturing issue found in October 2026 [2][4]. Liquidity improved to $4.6B of cash and short-term investments, and Q3 GAAP operating cash flow turned positive at $7.2M [1][3]. Dilution is the offset: shares outstanding rose 25.4% year-on-year to 680.1M [3]. Consensus FY2026 revenue of $983.6M implies about 63% growth, and the share price of $45.42 is well below the annual-report baseline [3][4]. Two theses weakened (margins, Neutron timing). Demand and funding held. Consensus and liquidity data were retrieved after the 10-K.",
+  "results_commentary": "Q1 FY2026 was the strongest quarter of the year so far on growth and margin. Revenue reached a record $200.3M, up 63.5% year-on-year, with product revenue of $127.5M and service revenue of $72.9M [1]. Gross profit rose to $76.5M from $35.2M a year earlier, and GAAP gross margin reached a record 38.2% [1]. The operating loss narrowed to $56.0M from $59.2M despite operating expenses rising 40% year-on-year to $132.5M [1]. Backlog reached $2.2B, up 20.2% quarter-on-quarter, and management said 31 new Electron and HASTE contracts were signed in the quarter [1]. Neutron was described as on track for a debut later in 2026 [2].\n\nQ2 FY2026 kept growth high but gave back some margin. Revenue rose to a record $234.1M, up 62% year-on-year and $34M above Q1 [1]. GAAP gross margin fell to 36.1% from 38.2% in Q1, though gross profit still rose to $84.6M from $46.4M a year earlier [1]. Operating expenses rose to $142.1M from $106.0M a year earlier, led by SG&A, which climbed to $59.7M from $39.9M [1]. The operating loss was nearly flat year-on-year at $57.5M against $59.6M. Backlog grew to $2.36B, up 137% year-on-year [1]. Management said the window for a Q4 2026 Neutron launch was narrowing [2]. Net cash was $2.17B, and the Iridium acquisition agreement was signed on June 28 [2][3].\n\nQ3 FY2026 showed record revenue but weaker margins and a wider loss. Revenue reached $267.8M, up 72.7% year-on-year and above the $250M to $265M guidance range [1][3]. GAAP gross margin fell to 33.6% from 37.0% a year earlier, though it was still above the 29% to 31% guidance range [1][3]. Operating expenses rose 46% year-on-year to $169.3M, and the operating loss widened to $79.2M from $59.0M [1]. Net loss per share was $0.12 against $0.03 a year earlier, which missed the -$0.07 consensus [1][3]. The quarter included a $27.3M loss on debt extinguishment [1]. The operating margin improved to -29.6% from -38.0%, but that reflects higher revenue, not lower dollar losses. Positive GAAP operating cash flow of $7.2M and cash of $4.6B were the main positives. Backlog rose 52% quarter-on-quarter to about $3.6B. Neutron's first launch moved to 2027 after an October 2026 manufacturing issue with composite tank domes [2].",
+  "thesis_check": [
+    {
+      "thesis": "Backlog converts into fast-growing revenue",
+      "signpost": "Year-on-year revenue growth and backlog trend (backlog was $1.85B at year-end 2025 [4])",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Revenue grew 63.5% in Q1, 62% in Q2 and 73% in Q3 to a record $267.8M [1]. Backlog rose to $2.2B, $2.36B and about $3.6B, the last up 52% quarter-on-quarter [1]."
+    },
+    {
+      "thesis": "Gross margin expansion and operating leverage",
+      "signpost": "GAAP gross margin year-on-year and operating loss in dollars [1]",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "GAAP gross margin was a record 38.2% in Q1, then 36.1% in Q2 and 33.6% in Q3 against 37.0% a year earlier [1][3]. The Q3 operating loss widened to $79.2M from $59.0M, though the operating margin improved on higher revenue [1][3]."
+    },
+    {
+      "thesis": "Neutron reaches first launch on schedule and opens medium-lift growth",
+      "signpost": "First-launch timing versus the Q4 2026 target in the annual report [4][2]",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Q1 said Neutron was on track for a debut later in 2026 [2]. Q2 kept the Q4 2026 target but said the window was narrowing [2]. Q3 moved first launch to 2027 after an October 2026 composite dome manufacturing issue [2]. Neutron launch backlog reached 16 missions [1]."
+    },
+    {
+      "thesis": "Funding is secured without unsustainable dilution",
+      "signpost": "Net cash and year-on-year growth in share count [2][3]",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Net cash rose from $762.6M at year-end 2025 to $1,244.7M in Q1, $2,168.5M in Q2 and $4,487.7M in Q3 [3]. Shares outstanding still rose 25.4% year-on-year to 680.1M in Q3, so dilution offsets the cash gain [3]."
+    }
+  ],
+  "risk_update": "Materialised: the Neutron schedule risk has now crystallised. An October 2026 composite dome manufacturing issue pushed the first launch into 2027, after the January 2026 tank qualification failure already in the annual report [2][4]. Gross margin pressure also appeared, with Q3 GAAP margin of 33.6% against 37.0% a year earlier [1][3]. Eased: liquidity risk, since cash and short-term investments reached $4.6B and Q3 operating cash flow was positive [1][3]. New: the pending Iridium acquisition, expected to close in 2027 subject to regulatory approval, adds integration and financing risk [2]. Mynaric and Motiv were also acquired in 2026 [2]. Government concentration persists, with new contracts for SB-AMTI, missile defence and Neutron [1][2]. Dilution is still the main capital risk: shares outstanding rose to 680.1M [3]. The 10-Q risk factor update names the Neutron manufacturing and qualification delays [2].",
+  "outlook": "Management guided Q4 2026 to revenue of $270M to $290M, GAAP gross margin of 34% to 36%, GAAP operating expenses of $162M to $168M and an adjusted EBITDA loss of $14M to $20M [1]. Nine-month revenue was $702.2M, so Q4 guidance points to a full year somewhat above $970M [1]. Consensus FY2026 revenue is $983.6M, but the EPS estimate was cut 15% over 90 days to -$0.31 [3]. FY2027 consensus is $1,347M revenue and -$0.08 EPS, with a wide range [3]. Watch for the Neutron launch date and any change to the Q4 2026 guidance, gross margin progress after the Q3 dip, the Iridium closing and financing, and the share count, which management guides to 681M basic shares in Q4 [1][3].",
+  "company_kpis": [
+    {
+      "name": "Revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 200.3,
+        "Q2 FY2026": 234.1,
+        "Q3 FY2026": 267.8
+      },
+      "prior_values": {
+        "Q1 FY2026": 122.6,
+        "Q2 FY2026": 144.5,
+        "Q3 FY2026": 155.1
+      },
+      "source": "Earnings releases [1]; prior-year quarters from the same releases"
+    },
+    {
+      "name": "Gross profit",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 76.5,
+        "Q2 FY2026": 84.6,
+        "Q3 FY2026": 90.1
+      },
+      "prior_values": {
+        "Q1 FY2026": 35.2,
+        "Q2 FY2026": 46.4,
+        "Q3 FY2026": 57.3
+      },
+      "source": "Earnings releases [1] (consolidated statements of operations)"
+    },
+    {
+      "name": "Operating loss",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": -56.0,
+        "Q2 FY2026": -57.5,
+        "Q3 FY2026": -79.2
+      },
+      "prior_values": {
+        "Q1 FY2026": -59.2,
+        "Q2 FY2026": -59.6,
+        "Q3 FY2026": -59.0
+      },
+      "source": "Earnings releases [1]; operating loss from the statements of operations"
+    },
+    {
+      "name": "Diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": -0.07,
+        "Q2 FY2026": -0.08,
+        "Q3 FY2026": -0.12
+      },
+      "prior_values": {
+        "Q1 FY2026": -0.12,
+        "Q2 FY2026": -0.13,
+        "Q3 FY2026": -0.03
+      },
+      "source": "Earnings releases [1]"
+    }
+  ]
+}

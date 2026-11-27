@@ -1,0 +1,122 @@
+{
+  "ticker_symbol": "MA",
+  "fyear": "2025",
+  "save_dir": "../reports/MA_earnings_multi_claude-haiku-5.5",
+  "headline": "Mastercard's first three FY2026 quarters held operating margin above 58% and revenue growth near 14%, but value-added services growth slipped to 19% in Q3.",
+  "summary": "Mastercard's first three FY2026 quarters show steady operating leverage and revenue growth near consensus, but value-added services (VAS) growth fell below the 20% signpost in Q3. Net revenue was $8,398 million in Q1 (up 16%, or 12% currency-neutral), $9,277 million in Q2 (up 14%) and $9,807 million in Q3 (up 14%) [1][2]. Adjusted operating margin was 60.8%, 61.1% and 60.5%, above each year-ago quarter, and adjusted operating expense growth stayed below revenue growth in every quarter [1]. VAS net revenue growth slowed from 22% to 20% to 19% [1]. Thesis T1 (VAS outgrowing the payment network) is weakened in Q3. T2 (operating leverage) is intact in Q3 after strengthening in Q2, and T3 (returns versus cost of capital) and T4 (regulation) are intact [4]. Adjusted diluted EPS beat consensus in each quarter, by 2.7% in Q3 ($5.31) [1][3]. Net cash moved to -$13.5 billion after a $5.0 billion June debt offering [2][3]. Consensus FY2026 revenue is $37.4 billion (+14.0%) and EPS $20.06; consensus figures are dated after the 10-K [3].",
+  "results_commentary": "Revenue growth held in the mid-teens, but its mix shifted. Net revenue was $8,398 million in Q1 FY2026, up 16% as reported and 12% currency-neutral, so currency added about four points [1][2]. Q2 was $9,277 million, up 14% (12% currency-neutral), and Q3 was $9,807 million, up 14% both ways, so currency no longer flattered growth [1][2]. The weakest line is the payment network. Its net revenue grew 12%, 10% and 11% in the three quarters, while payment network rebates and incentives grew 23%, 22% and 18% [1]. The company ties rebates to key drivers and new and renewed deals, so volume growth of 7% to 8% (local currency) converted into a smaller share of network revenue [1]. VAS slowed every quarter, from 22% (18% currency-neutral) in Q1 to 20% (18%) in Q2 and 19% in Q3. The Q3 release cites underlying drivers, strong demand across several services and pricing, but gives no split by service [1]. Prior-year VAS growth rates are not in the releases, so the deceleration is measured only within FY2026.\n\nOperating leverage held, with one narrowing in Q3. GAAP operating margin was 58.4% in Q1, 60.2% in Q2 and 59.8% in Q3, against 57.2%, 58.7% and 58.8% a year earlier [1]. Q1 carried a $202 million restructuring charge that cut GAAP margin by 2.4 points, so the adjusted margin of 60.8% is the cleaner comparison [2]. Adjusted operating expenses grew 11%, 11% and 12%, below revenue growth in each quarter [1]. The Q3 adjusted margin gain was 0.7 points, against 1.2 points in Q2, because adjusted opex growth rose to 12%, which the release attributes to higher general and administrative expenses and includes a one-point acquisition effect [1]. Adjusted diluted EPS was $4.60, $5.04 and $5.31, up 23%, 21% and 21%, and beat consensus by 4.2%, 5.5% and 2.7% [1][3].\n\nCash generation and funding moved the other way. Q3 free cash flow margin was 48.5% against 61.7% a year earlier, and trailing-twelve-month free cash flow was $15.4 billion against $16.4 billion for FY2025 [3][2]. Nine-month buybacks were $11.9 billion, and dividends were $2.3 billion [2]. A $5.0 billion debt offering in June lifted total debt to $23.9 billion from $19.0 billion at FY2025, and net cash fell to -$13.5 billion from -$8.1 billion [2][3]. The share count was 873 million, down 3.0% year on year [3].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Value-added services keep outgrowing the payment network, so blended revenue growth stays at or above 13% in FY2026.",
+      "signpost": "VAS net revenue growth at or above 20% in each 2026 quarterly filing; invalidated by VAS growth below 15% in two consecutive quarters or FY2026 reported revenue growth below 12%.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "VAS net revenue grew 22% in Q1, 20% in Q2 and 19% in Q3 [1], while the payment network grew 12%, 10% and 11% [1]. Q3 is the first quarter below the 20% signpost, so the Q3 status moves to weakened; the 15% invalidation level has not been reached. The Q1 status and the Q2 status are carried from the thesis log [4], and the log's gross margin test (Q1 75.7%, Q2 79.0%, Q3 79.3%) [3] is noted but not the basis of the Q3 change."
+    },
+    {
+      "thesis": "T2: Operating leverage persists: operating margin stays at or above 57% in FY2026 as adjusted opex grows slower than revenue.",
+      "signpost": "Quarterly operating margin at or above 57% and adjusted opex growth below revenue growth in each 2026 10-Q; invalidated by FY2026 operating margin below 55% or adjusted opex growth above revenue growth in two consecutive quarters.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "GAAP operating margin was 58.4%, 60.2% and 59.8% [1], all above the 57% threshold. Adjusted opex grew 11%, 11% and 12% against revenue growth of 16%, 14% and 14% [1], so opex stayed below revenue in every quarter. Q2 strengthened on a 1.2-point adjusted margin gain; Q3 is intact, but the gain narrowed to 0.7 points. Adjusted EPS beat consensus in all three quarters, by 4.2% to 5.5% [3]."
+    },
+    {
+      "thesis": "T3: Returns will lag the cost of capital unless revenue compounds near 13.5% a year, because the current price already assumes that growth.",
+      "signpost": "FY2026 reported revenue growth of at least 13.5% and FY2026 EPS of at least $20.00, confirmed in the FY2026 10-K; invalidated by FY2026 revenue growth below 12% or FY2027 consensus revenue below $41.4 billion.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Nine-month reported revenue growth was 15% (13% currency-neutral) [2], and Q3 alone grew 14% [1]. Consensus FY2026 revenue is $37.4 billion (+14.0%) and EPS $20.06, and FY2027 consensus revenue is $42.1 billion, above the $41.4 billion floor [3]. The reverse DCF implies a 6.8% return against an 8.7% WACC, so the return still lags the cost of capital [3]. This is illustrative. Growth must hold near 13.5% on a currency-neutral basis, because reported growth benefited from currency in Q1."
+    },
+    {
+      "thesis": "T4: Regulatory action on interchange and switching is the main threat to growth, and tightening in a major market would push growth below consensus.",
+      "signpost": "A new interchange or cross-border switching rule adopted in a major market, or the Regulation II court outcome, reported in quarterly filings; invalidated by no material new rule in 2026 with FY2026 litigation charges below $504 million and growth in line with consensus.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The Q1 to Q3 releases and 10-Q MD&A report no new interchange or switching rule, and the Q3 10-Q refers to the 10-K for risk factors without update [1][2]. Litigation charges were $0 in Q1, $82 million in Q2 (ATM surcharge complaints and opt-out merchant claims) and $74 million in Q3 (opt-out settlements), totalling $156 million for nine months against $330 million a year earlier [2]. The invalidation test is partly met on the litigation and rule limbs, so the status will be reviewed at FY2026 year end, when the $504 million threshold can be tested."
+    }
+  ],
+  "risk_update": "Three risks moved since the annual report. First, VAS growth decelerated for three quarters, from 22% to 19%, so the mix shift that underpins the margin case is narrowing [1]. Second, payment network rebates and incentives grew 18% to 23% a quarter, faster than network revenue, and the releases tie this to new and renewed customer deals [1]. This is a pricing and customer-concentration risk that the 10-K flagged. Third, financial leverage rose: total debt went to $23.9 billion after the June offering, and net cash fell to -$13.5 billion [2][3]. Litigation charges fell to $156 million in nine months from $330 million a year earlier, which eases the 504 million litigation exposure [2]. Regulatory risk did not materialise in the filings. No new interchange or switching rule was reported in any 2026 10-Q, and the Q3 10-Q carries no risk factor update beyond the 10-K [2]. Restructuring of $202 million in Q1 is a new one-time cost, and the company says it aims to fund reinvestment [2].",
+  "outlook": "The company gave no FY2026 guidance in the releases reviewed, so the outlook rests on consensus [1][3]. FY2026 consensus revenue is $37.4 billion (+14.0%, range $37.1 billion to $37.5 billion) and EPS $20.06 (range $19.91 to $20.40) [3]. Consensus EPS rose 0.7% in the 90 days to the data date, with 29 raises and 3 cuts in the last 30 days [3]. These figures are dated after the 10-K. The next checks are the Q4 FY2026 VAS growth rate (signpost 20%), whether adjusted opex growth stays below revenue growth, and currency-neutral revenue growth against the 13.5% level implied by the reverse DCF [1][3]. Q3 FY2026 VAS growth of 19% is a first miss against the signpost; a second quarter below 20% would confirm T1 as weakened for FY2026.",
+  "company_kpis": [
+    {
+      "name": "Net revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 8398,
+        "Q2 FY2026": 9277,
+        "Q3 FY2026": 9807
+      },
+      "prior_values": {
+        "Q1 FY2026": 7250,
+        "Q2 FY2026": 8133,
+        "Q3 FY2026": 8602
+      },
+      "source": "[1] earnings releases, Q1 to Q3 FY2026, GAAP net revenue; prior values are the same quarter of FY2025"
+    },
+    {
+      "name": "Adjusted operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 60.8,
+        "Q2 FY2026": 61.1,
+        "Q3 FY2026": 60.5
+      },
+      "prior_values": {
+        "Q1 FY2026": 59.3,
+        "Q2 FY2026": 59.9,
+        "Q3 FY2026": 59.8
+      },
+      "source": "[1] earnings releases, non-GAAP adjusted operating margin excluding equity investment gains and losses and special items"
+    },
+    {
+      "name": "Adjusted operating expenses",
+      "unit": "USD mn",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 3289,
+        "Q2 FY2026": 3608,
+        "Q3 FY2026": 3872
+      },
+      "prior_values": {
+        "Q1 FY2026": 2950,
+        "Q2 FY2026": 3260,
+        "Q3 FY2026": 3459
+      },
+      "source": "[2] 10-Q MD&A non-GAAP reconciliation, adjusted operating expenses"
+    },
+    {
+      "name": "Adjusted diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 4.6,
+        "Q2 FY2026": 5.04,
+        "Q3 FY2026": 5.31
+      },
+      "prior_values": {
+        "Q1 FY2026": 3.73,
+        "Q2 FY2026": 4.15,
+        "Q3 FY2026": 4.38
+      },
+      "source": "[1] earnings releases, adjusted diluted EPS"
+    }
+  ]
+}

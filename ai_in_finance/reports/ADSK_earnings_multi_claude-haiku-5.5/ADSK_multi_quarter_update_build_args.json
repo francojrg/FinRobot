@@ -1,0 +1,53 @@
+{
+  "ticker_symbol": "ADSK",
+  "fyear": "2026",
+  "save_dir": "../reports/ADSK_earnings_multi_claude-haiku-5.5",
+  "headline": "Two quarters after the 10-K, Autodesk shows 16.1% revenue growth and a higher operating margin, but total debt rose to $3,705 million and the valuation still implies a 9.5% return below WACC.",
+  "summary": "Autodesk's two quarters since the FY2026 10-K show revenue growth of 16.1% in Q2 FY2027 [3] and a Q2 operating margin of 29.2%, up from 25.5% a year earlier [3]. Trailing free cash flow reached $2.80 billion at 31 July 2026 [2]. Net cash moved to $450 million from net debt of $137 million at fiscal year-end [2][3]. Total debt rose to $3,705 million from $2,734 million at fiscal year-end, and the sources do not state the purpose [2]. Q1 FY2027 revenue growth is not in the data set, and the earnings release text could not be retrieved for any quarter [1]. FY2027 consensus revenue of $8,369.1 million sits just under the $8.37 billion signpost, and EPS of $12.80 equals rather than exceeds the $12.80 threshold [3][4]. The consensus path implies a 9.5% return, below the 11.1% WACC [3]. Theses T1, T2 and T4 are intact or strengthened, and T3 is intact because its invalidation level is not triggered [4].",
+  "results_commentary": "Two quarters are scored: Q1 FY2027 (ended 30 April 2026) and Q2 FY2027 (ended 31 July 2026) [3]. The earnings releases could not be retrieved, and the 10-Q MD&A text available here covers strategy and risk factors only, so Q1 revenue, AECO and segment results are not available to this update [1][2]. Q2 revenue growth of 16.1% is the only top-line figure in the data [3]. A third quarter (ended 31 October 2026) has a 10-Q and a reported normalized EPS of $3.20 against a $3.07 estimate [2][3], but it is not in the scorecard and its KPIs are not scored here.\n\nThe problems come first. Days sales outstanding rose to 30 days in Q2 from 27 days a year earlier [3]; the scorecard marks the trend as deteriorating, and it rose from 27 days in Q1. The sources do not give the cause, so the update does not attribute it. Free cash flow margin was 27.1% in Q2 against 25.2% a year earlier, but down from 44.8% in Q1 [3]. Net margin fell from 25.4% in Q1 to 24.0% in Q2, though it remained above the 17.8% of Q2 FY2026 [3]. Gross margin was broadly stable, at 91.0% in Q1 and 91.4% in Q2 (91.0% a year earlier) [3].\n\nThe gains are in profitability and the balance sheet. The Q2 operating margin was 29.2% against 25.5% a year earlier, with opex at 62.2% of revenue versus 65.5% [3]. Diluted EPS was $2.33 against $1.46 [3]. Cash and short-term investments reached $4,155 million against $2,236 million a year earlier, and the share count fell to 209.0 million from 213.0 million [3]. Total debt, however, rose to $3,705 million from $2,734 million at fiscal year-end [2][3]. Net cash still improved to $450 million, so the funding test in T4 is not failed on these figures. Normalized EPS beat consensus in all four reported quarters, by 4.3% to 7.8% [3]. Those figures are normalized and differ from the GAAP EPS above. The scorecard's FY2026 operating margin of 24.9% also differs from the 22% in the annual report, so the two bases are not compared [3][4].",
+  "thesis_check": [
+    {
+      "thesis": "T1: AECO growth keeps total revenue growth above 15% in FY2027.",
+      "signpost": "Each FY2027 quarterly report shows total revenue growth of at least 15% and AECO growth of at least 18%. Invalidation: revenue growth below 12% for two consecutive quarters, or AECO growth below 15% [4].",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q2 FY2027 revenue growth was 16.1% [3], above the 15% signpost. AECO growth for either quarter is not in the data set [1][2], so the 18% AECO test is unverified. Q1 revenue growth is also not available, and the Q1 status is carried from the baseline [4]."
+    },
+    {
+      "thesis": "T2: GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216 million.",
+      "signpost": "FY2027 annual report shows GAAP operating margin above 23% and restructuring below $100 million. Invalidation: restructuring above $150 million in FY2027, or GAAP operating margin at or below 22% [4].",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Q2 FY2027 operating margin was 29.2% against 25.5% a year earlier [3]. Quarterly restructuring charges are not in the data set [1][2], so the restructuring test cannot be scored until the FY2027 annual report. The scorecard margin basis (FY2026 24.9%) differs from the 22% baseline [3][4]."
+    },
+    {
+      "thesis": "T3: At the current price, the stock returns less than its cost of capital unless growth beats consensus.",
+      "signpost": "FY2027 consensus revenue holds at or above $8.37 billion through the next two quarterly updates, and FY2027 EPS estimates rise above $12.80. Invalidation: FY2027 consensus revenue cut below $8.2 billion [4].",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "FY2027 consensus revenue is $8,369.1 million, just under the $8.37 billion signpost, and EPS is $12.80, equal to rather than above the threshold; EPS rose 1.6% over 90 days [3]. The invalidation level is not reached. The consensus path implies a 9.5% return against an 11.1% WACC, which keeps the valuation thesis intact [2][3]."
+    },
+    {
+      "thesis": "T4: Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual installments.",
+      "signpost": "FY2027 annual report shows free cash flow of at least $2.0 billion and deferred revenue growing at least as fast as revenue. Invalidation: free cash flow below $2.0 billion, or buybacks funded with new debt rather than operating cash flow [4].",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Trailing free cash flow was $2.80 billion at 31 July 2026 [2], and the Q1 FCF margin was 44.8% [3]. Net cash rose from -$137 million to $450 million, but total debt rose from $2,734 million to $3,705 million; the sources do not state the use of the new debt, so the debt-funded buyback test needs checking in the Q3 and Q4 filings [2][3]. Deferred revenue is not in the data set."
+    }
+  ],
+  "risk_update": "Risks that materialised: collections slowed, as days sales outstanding rose to 30 days in Q2 FY2027 from 27 a year earlier [3]. Total debt rose from $2,734 million at fiscal year-end to $3,705 million at the latest quarter, and the sources do not give the purpose [2][3]. The MaintainX acquisition, cited in the 10-Q, widens the operations scope and adds integration and margin risk, which the 10-Q says acquisitions can cause [2]. Risks that eased: net cash moved to $450 million and the share count fell to 209.0 million from 213.0 million [3]. The 10-Q risk factors still list dependence on AutoCAD and AutoCAD LT and AI governance [2]. No quantified data on these risks is available for the quarters scored here, and the earnings release text could not be retrieved [1].",
+  "outlook": "Consensus expects FY2027 revenue of $8,369.1 million (+16.1%) and normalized EPS of $12.80, up 1.6% over 90 days, with 17 upward and 15 downward revisions in the last 30 days [3]. FY2028 consensus is $9,264.6 million (+10.7%) and EPS of $14.25 [3]. The reverse DCF implies 11.3% annual revenue growth against 12.9% historical, and the consensus path yields 9.5% against an 11.1% WACC [2][3]. Normalized EPS of $2.99, $3.30 and $3.20 for the quarters ended April, July and October 2026 is in line with the $12.80 consensus only if the fourth quarter is similar [3]. Next to watch are Q3 and Q4 revenue growth against the 15% test, AECO growth, the use of the new debt, and whether FY2027 EPS moves above $12.80 [4].",
+  "company_kpis": []
+}

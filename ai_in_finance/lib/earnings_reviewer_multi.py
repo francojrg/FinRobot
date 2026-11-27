@@ -22,6 +22,8 @@ import autogen
 from finrobot.toolkits import register_toolkits
 
 from . import quarterly_data as qd
+from .style import STYLE_RULES
+from . import agent_settings as _AS  # Prompts/Parameter aus der App (research/agent_settings.json)
 from .earnings_reviewer import STATUSES, _arrow_font, _kpi_text, get_annual_report_baseline
 from .outlook_tools import get_consensus_and_liquidity
 
@@ -61,7 +63,7 @@ def get_earnings_releases(
     ticker_symbol: Annotated[str, "ticker symbol"],
     fyear: Annotated[str, "fiscal year of the annual report baseline, e.g. '2025'"],
 ) -> str:
-    """Texts of all quarterly earnings press releases (8-K, Item 2.02, exhibit 99.1) filed since the annual report."""
+    """Texts of all quarterly earnings press releases (8-K Item 2.02, or 6-K for foreign issuers) filed since the annual report."""
     fy_end, _ = _fy_end(ticker_symbol, fyear)
     if not fy_end:
         return "Fiscal year end not found; cannot select the releases."
@@ -88,7 +90,8 @@ def get_10q_mdna(
     except Exception as e:
         return f"10-Qs not available ({e})."
     if not qs:
-        return "No Form 10-Q filed since the annual report."
+        return ("No Form 10-Q filed since the annual report (foreign private issuers that file a 20-F publish no 10-Q; "
+                "use the quarterly 6-K releases instead).")
     out = []
     for q in qs:
         secs = "\n\n".join(f"[{k}]\n{v}" for k, v in q["sections"].items())
@@ -524,12 +527,12 @@ SYSTEM = dedent("""
     company's annual report. Explain how the business developed quarter by quarter, judge each investment thesis per
     quarter against its signpost, and keep every number traceable to the sources. Never invent figures or guidance;
     if a tool returns no data, say so. Use tools one at a time. Reply TERMINATE when the update is built.
-""").strip()
+""").strip() + "\n" + STYLE_RULES
 
 
 def build_multi_reviewer(llm_config, max_rounds=30):
     _ROUNDS.clear()
-    analyst = autogen.AssistantAgent(name="Multi_Quarter_Reviewer", system_message=SYSTEM, llm_config=llm_config)
+    analyst = autogen.AssistantAgent(name="Multi_Quarter_Reviewer", system_message=_AS.get("earnings.system", SYSTEM), llm_config=llm_config)
     proxy = autogen.UserProxyAgent(
         name="User_Proxy", human_input_mode="NEVER", max_consecutive_auto_reply=max_rounds,
         is_termination_msg=lambda x: str(x.get("content") or "").rstrip().rstrip("*.").endswith("TERMINATE"),
@@ -547,7 +550,15 @@ def multi_reviewer_message(ticker, fyear, save_dir):
         2. get_multi_quarter_scorecard (fyear {fyear}): note the exact quarter labels (e.g. "Q1 FY2026") and the trends.
         3. get_earnings_releases and get_10q_mdna (fyear {fyear}): drivers per quarter, guidance changes, new risks, and
            the company-specific KPIs (those in the signposts plus the company's own key business metrics) for every
-           quarter and the same quarter a year earlier, exactly as stated.
+           quarter and the same quarter a year earlier, exactly as stated. Prefer the metrics that matter for this
+           business model, if the company reports them: software/SaaS - ARR, net revenue retention, RPO or backlog,
+           large-customer count; semiconductors/hardware - book-to-bill, backlog, segment revenue, inventory days;
+           payments/card networks - payments or purchase volume, cross-border volume, transactions processed;
+           ratings/data providers - issuance volumes, subscription or recurring revenue, organic growth; banks -
+           net interest margin, loan growth, credit losses; retail/consumer - comparable sales, traffic, units;
+           industrials - backlog, book-to-bill, price vs. volume; internet/e-commerce - GMV, paid units, cloud or ad
+           revenue growth; healthcare - procedure or script volumes, pipeline milestones. Never invent a metric the
+           company does not report.
         4. get_consensus_and_liquidity ({ticker}, {fyear}): revisions, surprises, liquidity, valuation.
         5. Call build_multi_quarter_update with save_dir "{save_dir}": headline, summary, results_commentary (quarter by
            quarter: what accelerated, held or deteriorated, and why), thesis_check (per thesis: signpost, a status for
@@ -560,5 +571,6 @@ def multi_reviewer_message(ticker, fyear, save_dir):
 
 def run_multi_review(llm_config, ticker, fyear, save_dir):
     analyst, proxy = build_multi_reviewer(llm_config)
-    proxy.initiate_chat(analyst, message=multi_reviewer_message(ticker.upper(), fyear, save_dir), cache=None)
+    proxy.initiate_chat(analyst, message=multi_reviewer_message(ticker.upper(), fyear, save_dir) + _AS.extra("earnings.extra"),
+                        cache=None)
     return analyst, proxy

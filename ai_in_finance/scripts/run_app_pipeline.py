@@ -27,12 +27,22 @@ def main():
         from finrobot.utils import register_keys_from_json
         from lib import news_tracker as nt, pipeline as pl
         from lib.app_backend import DEFAULT_STEPS
+        from lib.tool_repair import install as _install_tool_repair
+        _install_tool_repair()                  # abgeschnittene/zerlegte Tool-Aufrufe reparieren
         os.chdir(AIF / "scripts")
         register_keys_from_json(str(FR / "config_api_keys"))
         tickers = [t.upper() for t in cfg["tickers"]]
-        watchlist = nt.watchlist_from_tickers(tickers)
-        steps, _ = pl.plan(tickers)
-        only = set(DEFAULT_STEPS) | ({"committee"} if cfg.get("include_committee") else set())
+        watch = [t.upper() for t in cfg.get("watch") or [] if t.upper() not in tickers]   # Watchlist (nur News/Reports)
+        watchlist = nt.watchlist_from_tickers(tickers + watch)
+        steps, _ = pl.plan(tickers + watch, **(cfg.get("plan_args") or {}))
+        only = set(cfg["steps"]) if cfg.get("steps") else \
+            set(DEFAULT_STEPS) | ({"committee"} if cfg.get("include_committee") else set())
+        if cfg.get("select"):                        # Automatik: genau die vorab geprueften Schritte (Schritt, Titel)
+            sel = {tuple(x) for x in cfg["select"]}
+            have = {(s["step"], s["ticker"]) for s in steps}
+            steps = [s for s in steps if (s["step"], s["ticker"]) in sel]
+            steps += [{"step": k, "ticker": t, "reason": "Automatik: woechentlich"} for k, t in sorted(sel - have)
+                      if k in ("portfolio", "brief")]
         todo = [s for s in steps if s["step"] in only]
         if cfg.get("max_steps"):
             todo = todo[: int(cfg["max_steps"])]
@@ -42,10 +52,23 @@ def main():
         cfgs = {"writer": pl.llm_config_for(m), "committee": pl.llm_config_for(m),
                 "forecast": pl.llm_config_for(m, temperature=0.3),
                 "classifier": pl.llm_config_for(m, temperature=0, max_tokens=8000)}
+        runner = None
+        if cfg.get("budget_usd"):                    # Monatsbudget: vor jedem Schritt pruefen
+            from lib import automation as au
+            spent0, use0 = au.month_spend(), pl.openrouter_usage(cfgs["writer"])
+
+            def runner(step, cfgs_, ctx):
+                now = pl.openrouter_usage(cfgs_["writer"])
+                spent = spent0 + ((now - use0) if now is not None and use0 is not None else 0)
+                need = au.est_usd(step["step"], len(tickers))
+                if spent + need > float(cfg["budget_usd"]):
+                    print(f"BUDGET: {step['step']} {step['ticker']} uebersprungen ({spent:.2f} von {cfg['budget_usd']} USD verbraucht)")
+                    return {"ok": False, "error": f"Monatsbudget erreicht ({spent:.2f} von {cfg['budget_usd']} USD)"}
+                return pl._run_step(step, cfgs_, ctx)
         log = pl.run_pipeline(steps, cfgs, tickers, transaction_files=cfg.get("transaction_files"),
                               portfolio_file=None if cfg.get("transaction_files") else cfg.get("portfolio_file"),
                               watchlist=watchlist, only=only, max_steps=cfg.get("max_steps"), name="app",
-                              title="Portfolio Review")
+                              title="Portfolio Review", runner=runner)
         done.update(ok=True, pipeline_log=str(AIF / "research" / "pipeline_runs" / f"{log['started']}.json"),
                     dashboard=log.get("dashboard"), cost_usd=log.get("cost_usd"))
     except Exception as e:

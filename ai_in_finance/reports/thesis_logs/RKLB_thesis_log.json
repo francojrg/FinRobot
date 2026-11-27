@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-23",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/RKLB_earnings_multi_claude-haiku-5.5\\RKLB_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "Backlog converts into fast-growing revenue",
+        "signpost": "Year-on-year revenue growth and backlog trend (backlog was $1.85B at year-end 2025 [4])",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "Gross margin expansion and operating leverage",
+        "signpost": "GAAP gross margin year-on-year and operating loss in dollars [1]",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "Neutron reaches first launch on schedule and opens medium-lift growth",
+        "signpost": "First-launch timing versus the Q4 2026 target in the annual report [4][2]",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "Funding is secured without unsustainable dilution",
+        "signpost": "Net cash and year-on-year growth in share count [2][3]",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

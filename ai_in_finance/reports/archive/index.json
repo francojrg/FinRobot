@@ -1,0 +1,3145 @@
+[
+ {
+  "ticker": "AMZN",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 177,
+  "fc_total": 194,
+  "title": "Annual Report FY2025",
+  "headline": "AWS growth should keep carrying earnings, because AWS sales rose 20% to $128.7 billion with a 35.4% operating margin.",
+  "theses": [
+   {
+    "thesis": "AWS keeps compounding fast enough to fund the capex build-out.",
+    "status": "baseline",
+    "evidence": "AWS net sales rose 20% to $128.7 billion and operating income rose 14% to $45.6 billion, but margin slipped to 35.4% from 37.0%."
+   },
+   {
+    "thesis": "Capex peaks and free cash flow recovers in 2026.",
+    "status": "baseline",
+    "evidence": "Cash capex reached $128.3 billion and free cash flow fell to $11.2 billion, while the 2025 tax change cut cash taxes to $8.3 billion from $12.3 billion."
+   },
+   {
+    "thesis": "The valuation requires above-trend growth, so returns are exposed to any slowdown.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 19.3% revenue growth for ten years versus 15.7% consensus and an 11.7% historical CAGR; the implied IRR of 8.3% is below the 12.4% WACC."
+   },
+   {
+    "thesis": "Regulatory and legal costs stay contained relative to the earnings base.",
+    "status": "baseline",
+    "evidence": "The 2025 results included $5.2 billion of FTC settlement and severance charges, and cash and marketable securities were $123.0 billion at year-end."
+   }
+  ],
+  "filing_date": "2026-02-06",
+  "md5": "5ddceca764b7a9b39bf4a2c5edcce235",
+  "id": "AMZN_annual_2026-11-24_5ddcec",
+  "pdf": "reports/archive/AMZN/AMZN_annual_2026-11-24_5ddcec/AMZN_2025_annual_report.pdf",
+  "args": "reports/archive/AMZN/AMZN_annual_2026-11-24_5ddcec/AMZN_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "AMZN",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 154,
+  "fc_total": 154,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "AWS growth accelerated to 39% in Q3 FY2026, but trailing free cash flow turned to a $42.4bn outflow as AI capex rose.",
+  "theses": [
+   {
+    "thesis": "T1: AWS keeps compounding fast enough to fund the capex build-out.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "strengthened"
+    },
+    "evidence": "AWS sales grew 28%, 37% and 39% in Q1, Q2 and Q3 FY2026. AWS operating margin, derived from segment sales and operating income, was above the 35% signpost in each quarter (illustrative calculation from). AWS operating income rose to $17.8bn in Q3 from $11.4bn a year earlier."
+   },
+   {
+    "thesis": "T2: Capex peaks and free cash flow recovers in 2026.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened"
+    },
+    "evidence": "Trailing free cash flow moved from a $1.2bn inflow at Q1 to a $7.6bn outflow at Q2 and a $42.4bn outflow at Q3. Nine-month cash capex rose to $172.2bn from $89.9bn, and management expects capex to increase further in 2027. Nine-month operating cash flow of $113.8bn was positive, but financing inflows of $111.8bn funded the gap. Trailing free cash flow is far below the signpost path, so the FY2026 test is at risk; the 10-K will confirm."
+   },
+   {
+    "thesis": "T3: The valuation requires above-trend growth, so returns are exposed to any slowdown.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact"
+    },
+    "evidence": "Consensus FY2026 revenue is $829.2bn, +15.7%. Quarterly net sales were $181.5bn, $200.6bn and $201.9bn, with Q3 growth of 12% held down by the Prime Day shift. The reverse DCF implies 19.3% revenue growth against 15.7% consensus, and an implied IRR of 8.3% against a 12.4% WACC."
+   },
+   {
+    "thesis": "T4: Regulatory and legal costs stay contained relative to the earnings base.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact"
+    },
+    "evidence": "The releases and 10-Q MD&A excerpts reviewed disclose no new FTC settlement or tax reserve above $2.5bn. The legal proceedings and tax notes were not in the excerpts provided, so this status rests on the MD&A review and should be checked against those notes. The $1bn Built Together and $1.5bn wage programmes announced in Q3 are operating commitments, not legal reserves."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Net sales",
+    "unit": "USD bn",
+    "values": {
+     "Q1 FY2026": 181.5,
+     "Q2 FY2026": 200.6,
+     "Q3 FY2026": 201.9
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating income (consolidated)",
+    "unit": "USD bn",
+    "values": {
+     "Q1 FY2026": 23.9,
+     "Q2 FY2026": 27.5,
+     "Q3 FY2026": 28.1
+    },
+    "good": "up"
+   },
+   {
+    "name": "AWS segment operating income",
+    "unit": "USD bn",
+    "values": {
+     "Q1 FY2026": 14.2,
+     "Q2 FY2026": 16.6,
+     "Q3 FY2026": 17.8
+    },
+    "good": "up"
+   },
+   {
+    "name": "Cash capital expenditures",
+    "unit": "USD bn",
+    "values": {
+     "Q1 FY2026": 43.2,
+     "Q2 FY2026": 53.1,
+     "Q3 FY2026": 75.9
+    },
+    "good": "down"
+   },
+   {
+    "name": "Free cash flow, trailing twelve months",
+    "unit": "USD bn",
+    "values": {
+     "Q1 FY2026": 1.2,
+     "Q2 FY2026": -7.6,
+     "Q3 FY2026": -42.4
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS (GAAP)",
+    "unit": "USD per share",
+    "values": {
+     "Q1 FY2026": 2.78,
+     "Q2 FY2026": 5.75,
+     "Q3 FY2026": 1.89
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "18f9882b1795687cfef0bd36b4d7afb0",
+  "id": "AMZN_earnings_2026-11-24_18f988",
+  "pdf": "reports/archive/AMZN/AMZN_earnings_2026-11-24_18f988/AMZN_multi_quarter_update.pdf",
+  "args": "reports/archive/AMZN/AMZN_earnings_2026-11-24_18f988/AMZN_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "GOOG",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 202,
+  "fc_total": 210,
+  "title": "Annual Report FY2025",
+  "headline": "Cloud margin expansion should keep lifting group profitability as AI demand scales: Cloud operating margin reached about 24% on 36% growth.",
+  "theses": [
+   {
+    "thesis": "Google Cloud's margin expansion continues and lifts group operating margin above 32% in FY2026.",
+    "status": "baseline",
+    "evidence": "Cloud revenue rose 36% to $58.7 billion and operating margin rose to about 24% from about 14%; group operating margin was flat at 32.0% because opex grew 22%."
+   },
+   {
+    "thesis": "Free cash flow recovers toward or above its 2025 level of $73.3 billion in FY2026 as operating cash flow outgrows capex.",
+    "status": "baseline",
+    "evidence": "Operating cash flow rose 31% to $164.7 billion but capex rose 74% to $91.4 billion, leaving free cash flow flat at $73.3 billion; trailing free cash flow was $19.7 billion at 30 September 2026."
+   },
+   {
+    "thesis": "Earnings estimates keep rising, so FY2026 EPS consensus stays above $12.76 despite recent misses.",
+    "status": "baseline",
+    "evidence": "FY2026 EPS consensus is up 9.1% over 90 days and FY2027 up 2.5%; the last four quarterly surprises were +6.8%, +5.0%, -2.1% and -10.5%."
+   },
+   {
+    "thesis": "At the current enterprise value the stock earns less than its cost of capital unless revenue growth stays near 21% for a decade.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 21.2% annual revenue growth for ten years, against a 12.5% three-year CAGR; the implied return is 9.0% against an 11.0% WACC; EV/EBITDA is 21.15x versus 16.25x for Meta and 15.38x for Amazon."
+   }
+  ],
+  "filing_date": "2026-02-05",
+  "md5": "40789579652de4e3fb9fe8e1182ac511",
+  "id": "GOOG_annual_2026-11-24_407895",
+  "pdf": "reports/archive/GOOG/GOOG_annual_2026-11-24_407895/GOOG_2025_annual_report.pdf",
+  "args": "reports/archive/GOOG/GOOG_annual_2026-11-24_407895/GOOG_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "GOOG",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 168,
+  "fc_total": 168,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Cloud growth reached 103% in Q3 FY2026, but free cash flow was negative in Q2 and Q3, debt rose and Search growth slowed to 12%.",
+  "theses": [
+   {
+    "thesis": "T1: Google Cloud's margin expansion continues and lifts group operating margin above 32% in FY2026.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Cloud operating margin was about 33%, 36% and 36% in Q1 to Q3 FY2026 (Cloud operating income over Cloud revenue, computed from), against about 18%, 21% and 24% a year earlier, and Cloud growth was 63%, 82% and 103%. Both Cloud signposts are met with room to spare. Group operating margin was 36.1%, 34.0% and 31.8% in Q1 to Q3, so the 32% group test is met on the quarters so far but Q3 alone was below it. Status stays intact; the Q3 dip is the item to watch."
+   },
+   {
+    "thesis": "T2: Free cash flow recovers toward or above its 2025 level of $73.3 billion in FY2026 as operating cash flow outgrows capex.",
+    "status": "broken",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "broken"
+    },
+    "evidence": "Q1 FY2026 free cash flow was $10.1bn (operating cash flow $45.8bn less capex $35.7bn), with capex up from $17.2bn a year earlier. Scorecard free cash flow margins were -4.9% in Q2 and -7.1% in Q3. Trailing free cash flow was $19.7bn at 30 September 2026, and total debt was $141.9bn against $59.3bn at FY2025. Q2 was already negative on the scorecard margin, so the weakened status for Q2 is kept for consistency with the log. Reaching $73.3bn would need a Q4 far above any quarter shown, so the signpost is broken."
+   },
+   {
+    "thesis": "T3: Earnings estimates keep rising, so FY2026 EPS consensus stays above $12.76 despite recent misses.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Q1 FY2026 normalized EPS beat by 5.0% and Q2 missed by 2.1%, and FY2026 consensus rose 9.1% over 90 days to $12.76. Q3 FY2026 normalized EPS of $2.67 missed the $2.98 estimate by 10.5%. FY2026 consensus now sits exactly at the $12.76 signpost floor, with a range of $11.13 to $19.35 and 2 cuts against no raises in the last 30 days. Any Q4 EPS shortfall against consensus would break the signpost test."
+   },
+   {
+    "thesis": "T4: At the current enterprise value the stock earns less than its cost of capital unless revenue growth stays near 21% for a decade.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Revenue grew 22%, 24% and 25% in Q1 to Q3 FY2026. FY2026 consensus revenue of $499.7bn implies 24.0% growth, consistent with the signpost. The reverse DCF still implies 21.2% growth for ten years and a 9.0% implied return against an 11.0% WACC. Three quarters do not test a ten-year path, so the valuation case stays intact."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Google Cloud revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 20028,
+     "Q2 FY2026": 24768,
+     "Q3 FY2026": 30709
+    },
+    "good": "up"
+   },
+   {
+    "name": "Google Cloud operating income",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 6598,
+     "Q2 FY2026": 8814,
+     "Q3 FY2026": 11121
+    },
+    "good": "up"
+   },
+   {
+    "name": "Google Search & other revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 60399,
+     "Q2 FY2026": 63271,
+     "Q3 FY2026": 63350
+    },
+    "good": "up"
+   },
+   {
+    "name": "Total revenues",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 109896,
+     "Q2 FY2026": 119796,
+     "Q3 FY2026": 127577
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "35cda5e9c62fdf1b0f212bd6bdd5fa31",
+  "id": "GOOG_earnings_2026-11-24_35cda5",
+  "pdf": "reports/archive/GOOG/GOOG_earnings_2026-11-24_35cda5/GOOG_multi_quarter_update.pdf",
+  "args": "reports/archive/GOOG/GOOG_earnings_2026-11-24_35cda5/GOOG_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "MA",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 175,
+  "fc_total": 175,
+  "title": "Annual Report FY2025",
+  "headline": "Value-added services should keep outgrowing the network and lift margins: they grew 23% against 12% for the core network.",
+  "theses": [
+   {
+    "thesis": "Value-added services keep outgrowing the payment network, lifting Mastercard's margins and mix.",
+    "status": "baseline",
+    "evidence": "VAS revenue rose 23% to $13.3 billion against 12% growth for the network to $19.5 billion; gross margin rose to 77.9% from 76.3%."
+   },
+   {
+    "thesis": "Earnings momentum continues, so consensus EPS estimates are achievable.",
+    "status": "baseline",
+    "evidence": "EPS beat consensus in each of the last four quarters, by 2.7% to 12.3%; FY2026 EPS estimate rose 0.7% over 90 days to $20.06, with 29 analysts raising and 3 cutting."
+   },
+   {
+    "thesis": "At the current price, the stock returns less than its cost of capital unless revenue growth beats consensus for years.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 13.5% revenue growth for ten years, versus 13.8% historical CAGR and 14.0% FY2026 consensus; the implied return of 6.9% is below the 8.8% WACC."
+   }
+  ],
+  "filing_date": "2026-02-11",
+  "md5": "3f60fc37d63b629b3b97cf6d0e268127",
+  "id": "MA_annual_2026-11-24_3f60fc",
+  "pdf": "reports/archive/MA/MA_annual_2026-11-24_3f60fc/MA_2025_annual_report.pdf",
+  "args": "reports/archive/MA/MA_annual_2026-11-24_3f60fc/MA_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "MA",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 166,
+  "fc_total": 166,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Three FY2026 quarters: revenue growth held at 14-16% and EPS beat consensus again, but cross-border growth slowed and net debt rose to $13.5 billion.",
+  "theses": [
+   {
+    "thesis": "T1: Value-added services keep outgrowing the payment network, lifting Mastercard's margins and mix.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Q1 FY2026: VAS grew 22% (18% currency-neutral) against 12% for the network, but Yahoo gross margin of 75.7% was below the 76.3% floor. Q2 FY2026: VAS grew 20% (18% currency-neutral) against 10% for the network, gross margin 79.0%. Q3 FY2026: VAS grew 19% against 11% for the network, gross margin 79.3% against 78.0% a year earlier; the release notes only a minimal acquisition effect on VAS."
+   },
+   {
+    "thesis": "T2: Earnings momentum continues, so consensus EPS estimates are achievable.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Adjusted EPS beat consensus in Q1 ($4.60 vs $4.41, +4.2%), Q2 ($5.04 vs $4.78, +5.5%) and Q3 ($5.31 vs $5.17, +2.7%). FY2026 consensus EPS rose 0.7% over 90 days to $20.06, with 29 raising and 3 cutting. Nine-month adjusted EPS was $14.94 against a $20.06 full-year consensus, so the remaining quarter must carry the gap."
+   },
+   {
+    "thesis": "T3: At the current price, the stock returns less than its cost of capital unless revenue growth beats consensus for years.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Nine-month net revenue grew 15% reported (13% currency-neutral) to $27.5 billion. Consensus FY2026 revenue of $37.4 billion implies Q4 revenue of $9.9 billion, about 12% above Q4 2025 (illustrative). At the $647.28 price in the consensus data (dated after the Q3 release), the reverse DCF implied return is 6.9%, below the 8.8% WACC."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Net revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 8398,
+     "Q2 FY2026": 9277,
+     "Q3 FY2026": 9807
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 60.8,
+     "Q2 FY2026": 61.1,
+     "Q3 FY2026": 60.5
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.6,
+     "Q2 FY2026": 5.04,
+     "Q3 FY2026": 5.31
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted weighted-average shares",
+    "unit": "count mn",
+    "values": {
+     "Q1 FY2026": 893,
+     "Q2 FY2026": 883,
+     "Q3 FY2026": 876
+    },
+    "good": "down"
+   }
+  ],
+  "md5": "25feb397ed08e377d50569d91cc8fa13",
+  "id": "MA_earnings_2026-11-24_25feb3",
+  "pdf": "reports/archive/MA/MA_earnings_2026-11-24_25feb3/MA_multi_quarter_update.pdf",
+  "args": "reports/archive/MA/MA_earnings_2026-11-24_25feb3/MA_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "MSFT",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-24",
+  "fc_matched": 197,
+  "fc_total": 208,
+  "title": "Annual Report FY2026",
+  "headline": "Azure momentum should keep revenue compounding, because Azure grew 41% and the $678 billion backlog gives visibility.",
+  "theses": [
+   {
+    "thesis": "Azure growth stays above 30% as the commercial backlog converts into revenue.",
+    "status": "baseline",
+    "evidence": "Azure and other cloud services grew 41% in FY2026 and commercial remaining performance obligation reached $678 billion, up 84%."
+   },
+   {
+    "thesis": "Free cash flow rebuilds as capex growth moderates.",
+    "status": "baseline",
+    "evidence": "Capex climbed from $64.6 billion to $115.9 billion and free cash flow fell 6% to $67.0 billion in FY2026. Trailing free cash flow was $60.0 billion at 30 September 2026, dated after the 10-K."
+   },
+   {
+    "thesis": "The current price needs more growth than history or consensus supports, so returns will lag unless growth beats expectations.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 22.0% annual revenue growth over ten years, against a 16.1% historical three-year CAGR and 19.3% FY2027 consensus growth; the implied return is 6.7% against a 10.1% WACC."
+   },
+   {
+    "thesis": "EPS estimates keep rising, which supports the earnings base behind the valuation.",
+    "status": "baseline",
+    "evidence": "FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; the last four quarters beat estimates by 3.6% to 11.8%."
+   }
+  ],
+  "filing_date": "2026-07-29",
+  "md5": "5c69f0133795dad7026e252590868217",
+  "id": "MSFT_annual_2026-11-24_5c69f0",
+  "pdf": "reports/archive/MSFT/MSFT_annual_2026-11-24_5c69f0/MSFT_2026_annual_report.pdf",
+  "args": "reports/archive/MSFT/MSFT_annual_2026-11-24_5c69f0/MSFT_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "MSFT",
+  "kind": "earnings",
+  "fy": "2026",
+  "date": "2026-11-24",
+  "fc_matched": 123,
+  "fc_total": 123,
+  "title": "Earnings Review bis Q1 FY2027",
+  "quarters": [
+   "Q1 FY2027"
+  ],
+  "headline": "Q1 FY2027 beat on revenue, EPS and Azure growth (48%), but free cash flow margin fell to 20.2% from 33.0%.",
+  "theses": [
+   {
+    "thesis": "T1: Azure growth stays above 30% as the commercial backlog converts into revenue.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2027": "strengthened"
+    },
+    "evidence": "Azure revenue grew 48% in Q1 FY2027, well above the 30% signpost and the 25% invalidation line. Commercial remaining performance obligation rose 73% to $677 billion against revenue growth of 19%. The Azure metric was redefined this quarter, so the Q2 result is the first clean test."
+   },
+   {
+    "thesis": "T2: Free cash flow rebuilds as capex growth moderates.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2027": "weakened"
+    },
+    "evidence": "The Q1 free cash flow margin fell to 20.2% from 33.0%, and trailing free cash flow of $60.0 billion at 30 September 2026 is below the $67.0 billion of FY2026. That is the pattern the invalidation test names, though the full-year test is the FY2027 10-K. Q1 capex is not in the data provided, so the capex growth test cannot be scored yet."
+   },
+   {
+    "thesis": "T3: The current price needs more growth than history or consensus supports, so returns will lag unless growth beats expectations.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "intact"
+    },
+    "evidence": "Q1 revenue grew 19% to $92.3 billion. Consensus FY2027 revenue of $396.0 billion implies 19.3% growth. At $494.28 the reverse DCF still implies 22.0% annual growth for ten years and a 6.7% return against a 10.1% WACC. Price and consensus are dated after the 10-K, as of 24 November 2026."
+   },
+   {
+    "thesis": "T4: EPS estimates keep rising, which supports the earnings base behind the valuation.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2027": "strengthened"
+    },
+    "evidence": "Non-GAAP EPS of $4.89 beat the $4.72 estimate by 3.6%. FY2027 EPS consensus is $20.03, up 1.4% over 90 days, and FY2028 is $24.23, up 2.8%; 25 analysts raised and 3 cut in the last 30 days. The Q1 beat was smaller than the 11.8% beat in the quarter ended 30 June 2026."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2027": 92279
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating income",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2027": 45915
+    },
+    "good": "up"
+   },
+   {
+    "name": "Non-GAAP diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2027": 4.89
+    },
+    "good": "up"
+   },
+   {
+    "name": "Net income (GAAP)",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2027": 36629
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "8c8310de3d693c90a6b704ac8399dcc1",
+  "id": "MSFT_earnings_2026-11-24_8c8310",
+  "pdf": "reports/archive/MSFT/MSFT_earnings_2026-11-24_8c8310/MSFT_multi_quarter_update.pdf",
+  "args": "reports/archive/MSFT/MSFT_earnings_2026-11-24_8c8310/MSFT_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "RBRK",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-23",
+  "fc_matched": 193,
+  "fc_total": 199,
+  "title": "Annual Report FY2026",
+  "headline": "Subscription growth should keep compounding: Subscription ARR rose 34% to $1.46 billion, supporting FY2027 revenue consensus of $1.69 billion.",
+  "theses": [
+   {
+    "thesis": "Subscription growth stays above 25% through fiscal 2027, supporting consensus revenue growth of about 28%.",
+    "status": "baseline",
+    "evidence": "Subscription ARR rose 34% to $1.46 billion and Cloud ARR rose 48%. Consensus FY2027 revenue is $1.69 billion, up 28.5%, and the current-year EPS consensus has had 20 upward revisions and no downward revisions in the last 30 days."
+   },
+   {
+    "thesis": "Cash generation is durable, not only a function of upfront billing timing.",
+    "status": "baseline",
+    "evidence": "Free cash flow rose to $237.8 million from $21.6 million, but deferred revenue added $425.8 million. Trailing-twelve-month free cash flow was $286.2 million at the latest quarter."
+   },
+   {
+    "thesis": "The current valuation requires growth to stay near 29% for a decade; if growth fades to consensus, returns fall below the cost of capital.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 29.3% annual growth, against consensus of 28.5% for FY2027 and 21.7% for FY2028, and an implied return of 5.5% versus a 10.3% WACC. Forward EV/Sales is 12.7x for FY2027."
+   },
+   {
+    "thesis": "Operating leverage narrows losses as gross margin holds near 80% and operating expenses keep falling.",
+    "status": "baseline",
+    "evidence": "Gross margin rose to 80% from 70%, and operating margin improved to -26% from -128%. Peer EBITDA margin for Commvault is 9.0% against Rubrik's -20.7%. Consensus normalized EPS for the current year is $0.50, up from $0.31 90 days earlier."
+   }
+  ],
+  "filing_date": "2026-03-19",
+  "md5": "ce1b579f36c6c073cfa7d57f484ddd18",
+  "id": "RBRK_annual_2026-11-23_ce1b57",
+  "pdf": "reports/archive/RBRK/RBRK_annual_2026-11-23_ce1b57/RBRK_2026_annual_report.pdf",
+  "args": "reports/archive/RBRK/RBRK_annual_2026-11-23_ce1b57/RBRK_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "RBRK",
+  "kind": "earnings",
+  "fy": "2026",
+  "date": "2026-11-20",
+  "fc_matched": 119,
+  "fc_total": 124,
+  "title": "Earnings Review",
+  "quarters": [],
+  "headline": "Rubrik's July-quarter revenue rose 38% and GAAP losses narrowed, but ARR and cloud ARR growth decelerated and share count rose 5%.",
+  "theses": [
+   {
+    "thesis": "Proxy thesis (no annual report baseline available): subscription ARR keeps compounding at a high rate. Subscription ARR of $1,660.9m is still growing 33% y/y.",
+    "status": null,
+    "statuses": {},
+    "evidence": "Subscription ARR reached $1,660.9m at 31 July 2026, up 33% from 36% a year earlier. Growth is still high but decelerating."
+   },
+   {
+    "thesis": "Proxy thesis: cloud migration drives recurring growth (Cloud ARR).",
+    "status": null,
+    "statuses": {},
+    "evidence": "Cloud ARR grew 39% to $1,482.7m, down from 57% a year earlier. The 10-Q says RSC remains the main ARR growth driver, and RAC only became commercially available in February 2026."
+   },
+   {
+    "thesis": "Proxy thesis: operating leverage is narrowing losses.",
+    "status": null,
+    "statuses": {},
+    "evidence": "The operating margin improved to -16.8% from -30.5%, and Subscription ARR Contribution Margin rose to 14.0% from 9.4%. Gross margin fell to 78.4% from 79.5%, which partly offsets this."
+   },
+   {
+    "thesis": "Proxy thesis: existing customers keep expanding.",
+    "status": null,
+    "statuses": {},
+    "evidence": "Average subscription net retention was 119% against 120% a year earlier, and customers with $100,000 or more in Subscription ARR rose 23% to 3,084 against 27% growth. Expansion is slightly softer but still strong."
+   },
+   {
+    "thesis": "Proxy thesis: the balance sheet funds growth without dilution risk.",
+    "status": null,
+    "statuses": {},
+    "evidence": "Net cash rose to $598.1m and trailing free cash flow reached $286.2m. However, shares outstanding rose 5.0% y/y to 207.2m, and the current ratio fell to 1.64x from 1.82x."
+   },
+   {
+    "thesis": "Proxy thesis: the current valuation is supported by consensus growth.",
+    "status": null,
+    "statuses": {},
+    "evidence": "The current EV implies 30.7% annual revenue growth for ten years. Consensus FY2027E revenue is $1,691.1m (+28.5%) and the consensus path gives a 5.3% IRR against a 10.5% WACC. Forward P/E is 227x."
+   }
+  ],
+  "kpis": [],
+  "md5": "ae5cb49dbd557590d3bc4aa81bf6d25d",
+  "id": "RBRK_earnings_2026-11-20_ae5cb4",
+  "pdf": "reports/archive/RBRK/RBRK_earnings_2026-11-20_ae5cb4/RBRK_earnings_update.pdf",
+  "args": "reports/archive/RBRK/RBRK_earnings_2026-11-20_ae5cb4/RBRK_earnings_update_build_args.json"
+ },
+ {
+  "ticker": "RBRK",
+  "kind": "earnings",
+  "fy": "2026",
+  "date": "2026-11-23",
+  "fc_matched": 125,
+  "fc_total": 125,
+  "title": "Earnings Review bis Q2 FY2027",
+  "quarters": [
+   "Q1 FY2027",
+   "Q2 FY2027"
+  ],
+  "headline": "Rubrik's first two quarters of FY2027 show revenue up 38% and operating losses narrowing, but Q2 gross margin and free cash flow margin slipped.",
+  "theses": [
+   {
+    "thesis": "T1: Subscription growth stays strong through fiscal 2027, supporting consensus revenue growth of about 28%.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "Q2 revenue grew 37.9% y/y and six-month revenue rose to $814.3 million from $588.3 million, well above the signpost threshold, although this is a revenue proxy and not Subscription ARR. The 10-Q says Subscription Credit benefits will keep declining, which is a watch item."
+   },
+   {
+    "thesis": "T2: Cash generation is durable, not only a function of upfront billing timing.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "weakened"
+    },
+    "evidence": "Q1 free cash flow margin was 19.0%, but Q2 fell to 15.4% from 18.6% a year earlier. TTM free cash flow is $286.2 million, exactly at the signpost level, and the deferred revenue trend was not in the retrieved sources, so durability cannot be confirmed."
+   },
+   {
+    "thesis": "T3: The current valuation requires growth to stay near 29% for a decade; if growth fades to consensus, returns fall below the cost of capital.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "H1 FY2027 revenue of $814.3 million leaves $876.9 million needed in H2 to reach $1,691.2 million, which is achievable at current run-rates. FY2028 consensus growth is 21.7%, exactly at the signpost level, with no cut in the last 30 days. Implied return is 5.5% against a 10.3% WACC."
+   },
+   {
+    "thesis": "T4: Operating leverage narrows losses as gross margin holds near 80% and operating expenses keep falling.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "weakened"
+    },
+    "evidence": "Operating margin improved to -13.6% in Q1 and -16.8% in Q2 from -30.5% a year earlier, with opex at 95.3% of revenue vs 110.0%. Gross margin was 80.5% in Q1 but fell to 78.4% in Q2 from 79.5%, below the 80% level in the signpost. Gross margin remains well above the fiscal 2025 invalidation level."
+   },
+   {
+    "thesis": "Balance sheet and dilution (from thesis log): net cash and liquidity fund growth without eroding per-share value.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "weakened"
+    },
+    "evidence": "Net cash was $602.7 million in Q1 and $598.1 million in Q2, and the current ratio was 1.64x. Share count rose 5.0% y/y to 207.2 million, down from the 6.6% change at fiscal year-end but not in the low single digits."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Gross margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2027": 80.5,
+     "Q2 FY2027": 78.4
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2027": -13.6,
+     "Q2 FY2027": -16.8
+    },
+    "good": "up"
+   },
+   {
+    "name": "Free cash flow margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2027": 19,
+     "Q2 FY2027": 15.4
+    },
+    "good": "up"
+   },
+   {
+    "name": "Net cash",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2027": 602.7,
+     "Q2 FY2027": 598.1
+    },
+    "good": "up"
+   },
+   {
+    "name": "Share count",
+    "unit": "mn",
+    "values": {
+     "Q1 FY2027": 205.8,
+     "Q2 FY2027": 207.2
+    },
+    "good": "down"
+   }
+  ],
+  "md5": "0663078ca44bc8ebe61d10d108a588ec",
+  "id": "RBRK_earnings_2026-11-23_066307",
+  "pdf": "reports/archive/RBRK/RBRK_earnings_2026-11-23_066307/RBRK_multi_quarter_update.pdf",
+  "args": "reports/archive/RBRK/RBRK_earnings_2026-11-23_066307/RBRK_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "RKLB",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-19",
+  "fc_matched": null,
+  "fc_total": null,
+  "title": "Annual Report FY2025",
+  "headline": "Rocket Lab delivered strong top-line momentum in 2025. Revenue rose 38% to $601.8 million, gross margin expanded to 34.4% from 26.6%, and the operating margin improved to -38.1% from -43.6%. Launch cadence rose to 21 mis",
+  "theses": [],
+  "filing_date": "2026-02-26",
+  "md5": "20553d5a0d95d17a65003fccfaae6124",
+  "id": "RKLB_annual_2026-11-19_20553d",
+  "pdf": "reports/archive/RKLB/RKLB_annual_2026-11-19_20553d/RKLB_2025_annual_report.pdf",
+  "args": "reports/archive/RKLB/RKLB_annual_2026-11-19_20553d/RKLB_2025_build_args.json"
+ },
+ {
+  "ticker": "RKLB",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-23",
+  "fc_matched": 131,
+  "fc_total": 133,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Record revenue and backlog and $4.6B of cash, but Neutron slips to 2027, gross margin falls and dilution rises.",
+  "theses": [
+   {
+    "thesis": "Backlog converts into fast-growing revenue",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Revenue grew 63.5% in Q1, 62% in Q2 and 73% in Q3 to a record $267.8M. Backlog rose to $2.2B, $2.36B and about $3.6B, the last up 52% quarter-on-quarter."
+   },
+   {
+    "thesis": "Gross margin expansion and operating leverage",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "GAAP gross margin was a record 38.2% in Q1, then 36.1% in Q2 and 33.6% in Q3 against 37.0% a year earlier. The Q3 operating loss widened to $79.2M from $59.0M, though the operating margin improved on higher revenue."
+   },
+   {
+    "thesis": "Neutron reaches first launch on schedule and opens medium-lift growth",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Q1 said Neutron was on track for a debut later in 2026. Q2 kept the Q4 2026 target but said the window was narrowing. Q3 moved first launch to 2027 after an October 2026 composite dome manufacturing issue. Neutron launch backlog reached 16 missions."
+   },
+   {
+    "thesis": "Funding is secured without unsustainable dilution",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Net cash rose from $762.6M at year-end 2025 to $1,244.7M in Q1, $2,168.5M in Q2 and $4,487.7M in Q3. Shares outstanding still rose 25.4% year-on-year to 680.1M in Q3, so dilution offsets the cash gain."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 200.3,
+     "Q2 FY2026": 234.1,
+     "Q3 FY2026": 267.8
+    },
+    "good": "up"
+   },
+   {
+    "name": "Gross profit",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 76.5,
+     "Q2 FY2026": 84.6,
+     "Q3 FY2026": 90.1
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating loss",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": -56.0,
+     "Q2 FY2026": -57.5,
+     "Q3 FY2026": -79.2
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": -0.07,
+     "Q2 FY2026": -0.08,
+     "Q3 FY2026": -0.12
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "edd111c656ca4f9d07d1136caee6f722",
+  "id": "RKLB_earnings_2026-11-23_edd111",
+  "pdf": "reports/archive/RKLB/RKLB_earnings_2026-11-23_edd111/RKLB_multi_quarter_update.pdf",
+  "args": "reports/archive/RKLB/RKLB_earnings_2026-11-23_edd111/RKLB_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "TMO",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 214,
+  "fc_total": 215,
+  "title": "Annual Report FY2025",
+  "headline": "Cash generation should recover as tax timing reverses, since free cash flow fell 13% to $6.34 billion in 2025.",
+  "theses": [
+   {
+    "thesis": "Free cash flow recovers in 2026 as the 2025 tax-payment timing reverses, lifting cash generation back above $7 billion.",
+    "status": "baseline",
+    "evidence": "Free cash flow fell 13% to $6.34 billion in 2025 as working capital used $1.77 billion; trailing twelve-month free cash flow reached $7.60 billion at 2026-09-30."
+   },
+   {
+    "thesis": "Analytical Instruments margin recovers toward 26% as tariff and mix pressure eases, lifting group segment income.",
+    "status": "baseline",
+    "evidence": "Segment margin fell 3.2 points and segment income fell 11% to $1.74 billion on tariffs, mix and investment; electron microscopy grew $87 million in 2025."
+   },
+   {
+    "thesis": "Consensus revenue growth of 7.7% in 2026 is delivered and EPS estimates keep rising, but the current valuation needs far more growth than that.",
+    "status": "baseline",
+    "evidence": "Consensus EPS is $25.28 for 2026 and $27.77 for 2027; 23 analysts raised and 1 cut the current-year estimate in the last 30 days; the reverse DCF needs 16.3% a year. EPS beat consensus in each of the last four quarters."
+   },
+   {
+    "thesis": "Leverage is manageable: debt-funded acquisitions and buybacks are supported by strong liquidity, but only if returns on capital recover above 9.5%.",
+    "status": "baseline",
+    "evidence": "Total debt $39.4 billion and net debt $29.3 billion; current ratio 1.9x and Altman Z-score 4.26; ROIC fell to 8.7% in 2025 from 9.5% in 2024; total debt reached $41.4 billion at 2026-09-30."
+   }
+  ],
+  "filing_date": "2026-02-26",
+  "md5": "b23e461482f6d8c9e0249a823227d28c",
+  "id": "TMO_annual_2026-11-24_b23e46",
+  "pdf": "reports/archive/TMO/TMO_annual_2026-11-24_b23e46/TMO_2025_annual_report.pdf",
+  "args": "reports/archive/TMO/TMO_annual_2026-11-24_b23e46/TMO_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "TMO",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-24",
+  "fc_matched": 181,
+  "fc_total": 181,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Organic growth rose from 1% in Q1 to 6% in Q3 FY2026 and EPS beat consensus each quarter, but debt of $41.4 billion is still above the baseline.",
+  "theses": [
+   {
+    "thesis": "T1: Free cash flow recovers in 2026 as the 2025 tax-payment timing reverses, lifting cash generation back above $7 billion.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Quarterly free cash flow was $825 million, $1.68 billion and $2.12 billion in Q1-Q3, against $373 million, $1.11 billion and $1.84 billion a year earlier. Trailing twelve-month FCF reached $7.60 billion at Q3, already above the $7.0 billion signpost. The releases and 10-Qs do not break out tax payments, so the tax-timing mechanism cannot be confirmed; the FY2026 10-K remains the test."
+   },
+   {
+    "thesis": "T2: Analytical Instruments margin recovers toward 26% as tariff and mix pressure eases, lifting group segment income.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Segment margin was 20.7% in Q1 (23.2% a year earlier), 23.0% in Q2 (18.8%) and 26.9% in Q3 (22.6%). Q3 clears the 25% signpost, but the 10-Q credits tariff refunds for part of the group's Q3 productivity gain without sizing them, so Q3 may not repeat. The FY2026 10-K is the test."
+   },
+   {
+    "thesis": "T3: Consensus revenue growth of 7.7% in 2026 is delivered and EPS estimates keep rising, but the current valuation needs far more growth than that.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Reported revenue grew 6%, 10% and 9% in Q1-Q3, and organic growth was 1%, 5% and 6%. Adjusted EPS beat consensus by 3.8%, 5.5% and 4.3%. The current-year EPS consensus rose from $25.12 to $25.28 over 90 days (+0.6%), with 23 analysts raising and 1 cutting in 30 days. The reverse DCF implies 16.4% a year at the current enterprise value, against 16.3% in the annual report. The Q1 2027 signpost has not been reported."
+   },
+   {
+    "thesis": "T4: Leverage is manageable: debt-funded acquisitions and buybacks are supported by strong liquidity, but only if returns on capital recover above 9.5%.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Total debt was $39.4 billion at FY2025 and $41.4 billion at Q3. Q1 and Q2 were higher still, at about $43.2 billion and $42.5 billion (illustrative, derived as cash plus net debt). Q3 sits just below the $41.4 billion invalidation level and debt is still 5% above the $39.4 billion signpost. Q3 interest expense rose to $417 million from $347 million. No 2026 ROIC figure is in the sources; the last reported ROIC was 8.7% for 2025. Q3 stays at intact as logged, but the status is borderline until ROIC is reported."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 11005,
+     "Q2 FY2026": 11994,
+     "Q3 FY2026": 12137
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 21.8,
+     "Q2 FY2026": 22.8,
+     "Q3 FY2026": 24.5
+    },
+    "good": "up"
+   },
+   {
+    "name": "Analytical Instruments segment margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 20.7,
+     "Q2 FY2026": 23,
+     "Q3 FY2026": 26.9
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 5.44,
+     "Q2 FY2026": 6.03,
+     "Q3 FY2026": 6.68
+    },
+    "good": "up"
+   },
+   {
+    "name": "Free cash flow",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 825,
+     "Q2 FY2026": 1678,
+     "Q3 FY2026": 2115
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "583c21752c435faef7c30e3b3d7a0cfa",
+  "id": "TMO_earnings_2026-11-24_583c21",
+  "pdf": "reports/archive/TMO/TMO_earnings_2026-11-24_583c21/TMO_multi_quarter_update.pdf",
+  "args": "reports/archive/TMO/TMO_earnings_2026-11-24_583c21/TMO_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "GOOG",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 155,
+  "fc_total": 161,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Google Cloud revenue more than doubled to $30.7bn at a 36% margin in Q3 FY2026, but free cash flow turned negative and Q3 EPS missed consensus by 10.5%.",
+  "theses": [
+   {
+    "thesis": "T1: Google Cloud margin expansion persists as revenue scales, making Cloud the main profit driver. (Log label: Q1 to Q3 group margin path, Cloud signpost.)",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Cloud operating margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the 20% signpost, and Cloud revenue grew 63%, 82% and 103%. Group operating margin was 31.8% in Q3, below the 32% level in the earlier log, so the group-level version of the thesis is weaker than the Cloud-level one."
+   },
+   {
+    "thesis": "T2: Free cash flow stays under pressure through 2026 as capex rises, so funding rather than earnings limits the stock.",
+    "status": "broken",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "broken"
+    },
+    "evidence": "Q1 capex was $35.7bn, against $17.2bn a year earlier. The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing FCF was $19.7bn at Q3. Reaching the $73.3bn FY2025 level in FY2026 would need a strong Q4 from a negative nine-month run, so the earlier log status of broken stands. Funding came from $49.6bn of equity and $80bn of notes."
+   },
+   {
+    "thesis": "T3: The current valuation requires growth above Alphabet's own history for a decade.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month growth is 23.6% (our calculation from). Consensus FY2026 growth is 24.0%. The reverse DCF implies 20.9% ten-year growth against 12.5% historical, and the implied return of 9.0% is below the 11.0% WACC (illustrative). The signpost is on track, but the valuation has not changed."
+   },
+   {
+    "thesis": "T4: Near-term estimates hold up, but delivery risk is real.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%. The Q3 miss is beyond the 5% threshold. FY2026 EPS consensus is $13.09, up 11.9% over 90 days, but two analysts cut estimates and none raised them in the last 30 days. The consensus level is above the $12.00 invalidation level."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Google Cloud revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 20028,
+     "Q2 FY2026": 24768,
+     "Q3 FY2026": 30709
+    },
+    "good": "up"
+   },
+   {
+    "name": "Google Cloud operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 32.9,
+     "Q2 FY2026": 35.6,
+     "Q3 FY2026": 36.2
+    },
+    "good": "up"
+   },
+   {
+    "name": "Google Search & other revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 60399,
+     "Q2 FY2026": 63271,
+     "Q3 FY2026": 63350
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS (reported)",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 5.11,
+     "Q2 FY2026": 9.11,
+     "Q3 FY2026": 2.12
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "a7d5af3573f02669bc0778edebcf4b1e",
+  "id": "GOOG_earnings_2026-11-25_a7d5af",
+  "pdf": "reports/archive/GOOG/GOOG_earnings_2026-11-25_a7d5af/GOOG_multi_quarter_update.pdf",
+  "args": "reports/archive/GOOG/GOOG_earnings_2026-11-25_a7d5af/GOOG_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "GOOG",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 160,
+  "fc_total": 161,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Google Cloud revenue more than doubled to $30.7bn in Q3 FY2026, but free cash flow turned negative and Q3 EPS missed consensus by 10.5%.",
+  "theses": [
+   {
+    "thesis": "T1: Google Cloud margin expansion persists as revenue scales, making Cloud the main profit driver.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Cloud operating income was $6.6bn, $8.8bn and $11.1bn in Q1 to Q3 FY2026, and Cloud revenue grew 63%, 82% and 103%. Cloud margin stayed above the 20% signpost in each quarter. Group operating margin was 31.8% in Q3, below the 32% level in the earlier log, so the group-level version of the thesis is weaker than the Cloud-level one."
+   },
+   {
+    "thesis": "T2: Free cash flow stays under pressure through 2026 as capex rises, so funding rather than earnings limits the stock.",
+    "status": "broken",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "broken"
+    },
+    "evidence": "Q1 capex was $35.7bn, against $17.2bn a year earlier. The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing FCF was $19.7bn at Q3. Reaching the $73.3bn FY2025 level in FY2026 would need a strong Q4 after a negative nine-month run, so the earlier log status of broken stands. Funding came from $49.6bn of equity and $80.1bn of notes."
+   },
+   {
+    "thesis": "T3: The current valuation requires growth above Alphabet's own history for a decade.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month growth is 23.6% (our calculation from). Consensus FY2026 growth is 24.0%. The reverse DCF implies 20.9% ten-year growth against 12.5% historical, and the implied return of 9.0% is below the 11.0% WACC (illustrative). Growth is on track, but the valuation gap has not closed."
+   },
+   {
+    "thesis": "T4: Near-term estimates hold up, but delivery risk is real.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5%. The Q3 miss is beyond the 5% invalidation level in the annual report; the earlier log kept the status at weakened, and this update does not change it. FY2026 EPS consensus is $13.09, up 11.9% over 90 days, but two analysts cut estimates and none raised them in the last 30 days. Consensus is above the $12.00 invalidation level."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Google Cloud revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 20028,
+     "Q2 FY2026": 24768,
+     "Q3 FY2026": 30709
+    },
+    "good": "up"
+   },
+   {
+    "name": "Google Cloud operating income",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 6598,
+     "Q2 FY2026": 8814,
+     "Q3 FY2026": 11121
+    },
+    "good": "up"
+   },
+   {
+    "name": "Google Search & other revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 60399,
+     "Q2 FY2026": 63271,
+     "Q3 FY2026": 63350
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS (reported)",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 5.11,
+     "Q2 FY2026": 9.11,
+     "Q3 FY2026": 2.12
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "c61924bdd894b4d4c212be0548f01f4d",
+  "id": "GOOG_earnings_2026-11-25_c61924",
+  "pdf": "reports/archive/GOOG/GOOG_earnings_2026-11-25_c61924/GOOG_multi_quarter_update.pdf",
+  "args": "reports/archive/GOOG/GOOG_earnings_2026-11-25_c61924/GOOG_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "SPGI",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 202,
+  "fc_total": 202,
+  "title": "Annual Report FY2025",
+  "headline": "Indices and ETF-linked fees should keep compounding, since ETF assets rose 25% to $5.48 trillion and supported a 69% segment margin.",
+  "theses": [
+   {
+    "thesis": "Indices asset-linked fees keep growing at mid-teens rates as ETF assets compound, so Indices remains the main earnings driver.",
+    "status": "baseline",
+    "evidence": "Asset-linked fees rose 15% to $1,206 million and ending ETF AUM rose 25% to $5.480 trillion; Indices operating margin was 69%."
+   },
+   {
+    "thesis": "Shareholder payouts above free cash flow are not sustainable without disposal proceeds, so leverage keeps rising.",
+    "status": "baseline",
+    "evidence": "2025 buybacks of $5.0 billion and dividends of $1.17 billion totalled about $6.2 billion against FCF of $5.1 billion; total debt rose to $13.6 billion from $11.9 billion."
+   },
+   {
+    "thesis": "The current valuation requires revenue growth to return to historical rates, which consensus does not yet forecast.",
+    "status": "baseline",
+    "evidence": "Forward P/E is 25.4x at $455.17; the reverse DCF implies 11.9% growth against an 11.1% three-year CAGR, while consensus shows +6.7% for FY2027 and an implied IRR of 6.6% against a 10% WACC. Consensus data is dated after the 10-K."
+   },
+   {
+    "thesis": "Regulatory and legal costs will not erode the 42% operating margin, so the margin story holds despite supervision in Ratings, Indices and Energy.",
+    "status": "baseline",
+    "evidence": "Consolidated operating margin reached 42%, but it includes a $270 million one-time gain; Ratings legal costs of $42 million and severance of $157 million were absorbed; GDPR fines can reach 4% of global revenue."
+   }
+  ],
+  "filing_date": "2026-02-11",
+  "md5": "758decd6b382fbeda5f8cedfafc2d98a",
+  "id": "SPGI_annual_2026-11-25_758dec",
+  "pdf": "reports/archive/SPGI/SPGI_annual_2026-11-25_758dec/SPGI_2025_annual_report.pdf",
+  "args": "reports/archive/SPGI/SPGI_annual_2026-11-25_758dec/SPGI_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "SPGI",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 155,
+  "fc_total": 155,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Revenue grew 10%, 10% and 7% in Q1-Q3 FY2026 as Ratings issuance and ETF fees held up, while disposal gains flatter reported profit and Mobility's spin-off breaks comparability.",
+  "theses": [
+   {
+    "thesis": "T1: Indices asset-linked fees keep growing at mid-teens rates as ETF assets compound, so Indices remains the main earnings driver.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Q1 FY2026 asset-linked fees rose 18% to $339 million from $288 million, and the 10-Q links this to higher ETF and mutual fund AUM. Q2 and Q3 MD&A cite higher ETF AUM and higher asset-linked fees, but the excerpts give no quarterly fee figures, so these quarters are rated on narrative only. Final test is the FY2026 10-K."
+   },
+   {
+    "thesis": "T2: Shareholder payouts above free cash flow are not sustainable without disposal proceeds, so leverage keeps rising.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Q1 net cash widened to $(11,966) million from $(11,781) million at FY2025, consistent with the thesis. By Q3, total debt was $13,465 million against $13,582 million at FY2025, and net debt narrowed to $(11,024) million, helped by $386 million of nine-month disposal gains and a cash build to $2,441 million. Leverage has not risen in FY2026 so far, so the Q3 status is intact, not weakened. The payout-versus-FCF signpost cannot be tested until the FY2026 10-K, because the 10-Qs do not show quarterly buyback or dividend totals. The invalidation test (debt above $15 billion) is not met."
+   },
+   {
+    "thesis": "T3: The current valuation requires revenue growth to return to historical rates, which consensus does not yet forecast.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Revenue growth was 10%, 10% and 7% in Q1, Q2 and Q3, all below the 11.9% growth implied by the reverse DCF and the 11.1% three-year CAGR, so growth has not returned to historical rates. Current FY2026 consensus EPS is $17.94, unchanged from the signpost level, with 13 raises and 4 cuts in the last 30 days, and FY2027 consensus is $20.15, 0.4% lower over 90 days with 11 raises and 11 cuts. The FY2026 signpost is met at the current consensus level but is not yet confirmed. Consensus data is dated after the 10-K."
+   },
+   {
+    "thesis": "T4: Regulatory and legal costs will not erode the 42% operating margin, so the margin story holds despite supervision in Ratings, Indices and Energy.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Reported operating margin was 48% in Q1, 44% in Q2 and 53% in Q3. Excluding disposal gains, the margin is 43.8%, 43.4% and 47.7% (illustrative calculation from 10-Q operating profit less gains, over revenue), all above the 40% signpost. The Q3 step-up is partly a mix effect of removing Mobility, which the filing does not quantify. The 10-Qs disclose no new regulatory fine or legal charge; legal costs in the year-ago quarters were $29 million in Q2 2025 and $13 million in Q3 2025."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 4171,
+     "Q2 FY2026": 4146,
+     "Q3 FY2026": 3678
+    },
+    "good": "up"
+   },
+   {
+    "name": "Asset-linked fees",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 339
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating margin (reported)",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 48,
+     "Q2 FY2026": 44,
+     "Q3 FY2026": 53
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS (continuing operations where stated)",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.69,
+     "Q2 FY2026": 4.12,
+     "Q3 FY2026": 4.45
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "52af2797abe81ab25232f117634c7320",
+  "id": "SPGI_earnings_2026-11-25_52af27",
+  "pdf": "reports/archive/SPGI/SPGI_earnings_2026-11-25_52af27/SPGI_multi_quarter_update.pdf",
+  "args": "reports/archive/SPGI/SPGI_earnings_2026-11-25_52af27/SPGI_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "AMZN",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 156,
+  "fc_total": 156,
+  "title": "Earnings Review bis Q2 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026"
+  ],
+  "headline": "AWS growth accelerated to 39% with operating income up sharply, but trailing free cash flow turned to a $42.4 billion outflow on AI capex.",
+  "theses": [
+   {
+    "thesis": "T1: AWS operating margin will recover above 36% in FY2026 as new infrastructure scales.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "strengthened"
+    },
+    "evidence": "AWS sales grew 28% in the March quarter and 39% in the September quarter, and AWS operating income grew faster than sales in both quarters, from $11.5 billion to $14.2 billion and from $11.4 billion to $17.8 billion. The June quarter, with AWS sales up 37% and operating income of $16.6 billion against $10.2 billion, shows the same pattern. The FY2026 10-K is not yet filed, so the status is an interim read."
+   },
+   {
+    "thesis": "T2: Free cash flow turns clearly positive in FY2026 as operating cash flow catches up with capex.",
+    "status": "broken",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "broken"
+    },
+    "evidence": "Trailing free cash flow fell to $1.2 billion at March 2026 and to an outflow of $42.4 billion at September 2026; Yahoo Finance shows -$37.6 billion. Nine-month cash capex of $172.2 billion exceeded nine-month operating cash flow of $113.8 billion, and management expects capex to rise further in 2027. The current evidence contradicts the claim that FY2026 free cash flow turns clearly positive; the FY2026 10-K will confirm."
+   },
+   {
+    "thesis": "T3: The stock earns its cost of capital only if revenue growth beats consensus for a decade.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact"
+    },
+    "evidence": "Net sales grew 17% in the March quarter and 12% in the September quarter, with the June quarter at 20%. Nine-month growth is about 16% (illustrative, from release figures), above the 15.7% signpost, though the Prime Day shift distorts the quarterly pattern. Consensus FY2026 revenue is $829.2 billion. FY2027 consensus revenue is $960,547.9 million, and consensus FY2027 EPS was revised up 1.5% over 90 days. Reverse DCF now implies 18.9% growth against a 12.3% WACC, a slightly lower hurdle than the 19.3% and 12.4% in the baseline."
+   },
+   {
+    "thesis": "T4: Gross margin keeps rising despite competitive pressure, supporting profit growth.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact"
+    },
+    "evidence": "Gross margin was 51.8% in the March quarter and 53.2% in the September quarter, against 50.8% a year earlier. The releases and MD&A excerpts we reviewed report no new legal reserve or settlement above $2.5 billion, so the legal signpost is untested rather than failed."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "AWS segment operating income",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 14200,
+     "Q2 FY2026": 17800
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating income (group)",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 23900,
+     "Q2 FY2026": 28100
+    },
+    "good": "up"
+   },
+   {
+    "name": "Trailing twelve-month free cash flow",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 1200,
+     "Q2 FY2026": -42400
+    },
+    "good": "up"
+   },
+   {
+    "name": "Cash capital expenditures (quarter)",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 43200,
+     "Q2 FY2026": 75900
+    },
+    "good": "down"
+   }
+  ],
+  "md5": "235457791da5793fd1cbe93e11060a2e",
+  "id": "AMZN_earnings_2026-11-25_235457",
+  "pdf": "reports/archive/AMZN/AMZN_earnings_2026-11-25_235457/AMZN_multi_quarter_update.pdf",
+  "args": "reports/archive/AMZN/AMZN_earnings_2026-11-25_235457/AMZN_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "ASML",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 212,
+  "fc_total": 225,
+  "title": "Annual Report FY2025",
+  "headline": "Growth should hold as AI-driven EUV demand scales: net sales rose 15.6% to €32.7bn and EUV grew 39.4%.",
+  "theses": [
+   {
+    "thesis": "EUV and service growth can sustain revenue expansion above 15% a year as AI capacity spending continues.",
+    "status": "baseline",
+    "evidence": "EUV sales rose 39.4% to €11,602.7 million and service sales rose 26.2% to €8.2bn in 2025; consensus expects FY2026 revenue growth of 36.2% and FY2027 growth of 29.0%."
+   },
+   {
+    "thesis": "Margins can stay near 50%+ gross as mix shifts to EUV and service, supporting earnings growth.",
+    "status": "baseline",
+    "evidence": "Gross margin rose to 52.8% from 51.3%, and operating margin to 34.6% from 31.9%; diluted EPS rose to €24.71 from €19.24."
+   },
+   {
+    "thesis": "Customer concentration is a material risk that could cut revenue faster than the cycle would otherwise imply.",
+    "status": "baseline",
+    "evidence": "The largest customer rose to 23.9% of sales (€7.8bn) from 16.6%, and four customers made up 61.2% of sales; unit shipments fell to 327 from 418."
+   },
+   {
+    "thesis": "The current price is fully valued: the shares need growth that history has not delivered for a decade.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 20.1% annual revenue growth for ten years against a 15.6% historical CAGR and an implied return of 10.9% against an 11.5% WACC."
+   }
+  ],
+  "filing_date": "2026-02-25",
+  "md5": "687464d922804a244c4a620913322742",
+  "id": "ASML_annual_2026-11-25_687464",
+  "pdf": "reports/archive/ASML/ASML_annual_2026-11-25_687464/ASML_2025_annual_report.pdf",
+  "args": "reports/archive/ASML/ASML_annual_2026-11-25_687464/ASML_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "AVGO",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 160,
+  "fc_total": 160,
+  "title": "Annual Report FY2025",
+  "headline": "AI-driven margin expansion should persist as software mix holds: operating margin reached 40% against 26% a year earlier.",
+  "theses": [
+   {
+    "thesis": "AI demand keeps semiconductor revenue growing fast enough to support consensus FY2026 revenue of about $106 billion.",
+    "status": "baseline",
+    "evidence": "Semiconductor revenue rose 22% to $36,858 million in fiscal 2025 on custom AI accelerators and AI networking. Consensus expects FY2026 revenue of $105,981 million, growth of 65.9%."
+   },
+   {
+    "thesis": "Infrastructure software keeps its high margin as the subscription transition continues.",
+    "status": "baseline",
+    "evidence": "Software operating income rose 49% to $20,765 million on $27,029 million of revenue, helped by lower labour costs after the VMware integration."
+   },
+   {
+    "thesis": "Gross margin holds near 68% even as AI rack sales grow, so the margin expansion lasts.",
+    "status": "baseline",
+    "evidence": "Gross margin reached 68% against 63% in fiscal 2024. The filing says AI rack sales will likely compress gross margin."
+   },
+   {
+    "thesis": "Earnings estimates keep rising, so the current valuation stays supported by consensus rather than requiring a higher growth rate.",
+    "status": "baseline",
+    "evidence": "FY2027 EPS consensus is $19.33, down 1.0% over 90 days, with 2 analysts raising and none cutting in the last 30 days. The reverse DCF implies 26.6% annual revenue growth for ten years."
+   }
+  ],
+  "filing_date": "2025-12-18",
+  "md5": "b32a9ae89c19dbc6ea32169de6219220",
+  "id": "AVGO_annual_2026-11-25_b32a9a",
+  "pdf": "reports/archive/AVGO/AVGO_annual_2026-11-25_b32a9a/AVGO_2025_annual_report.pdf",
+  "args": "reports/archive/AVGO/AVGO_annual_2026-11-25_b32a9a/AVGO_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "AVGO",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 177,
+  "fc_total": 177,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Revenue rose 29%, 48% and 86% in Q1-Q3 FY2026 as AI semiconductors led; all four theses hold, with customer financing the new risk.",
+  "theses": [
+   {
+    "thesis": "T1: AI demand keeps semiconductor revenue growing fast enough to support consensus FY2026 revenue of about $106 billion.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Semiconductor revenue grew 52% to $12,515 million in Q1, 79% to $15,009 million in Q2 and 127% to $20,839 million in Q3. Year-to-date revenue of $71,089 million plus the $34.8 billion Q4 guide sums to about $105.9 billion (illustrative sum), in line with FY2026 consensus of $105,981 million, so no consensus cut has occurred."
+   },
+   {
+    "thesis": "T2: Infrastructure software keeps its high margin as the subscription transition continues.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Software segment revenue grew 1% to $6,796 million in Q1 and 9% to $7,178 million in Q2, the two slowest quarters, and then 29% to $8,752 million in Q3. The releases and 10-Qs reviewed do not give software segment operating income, so the signpost cannot yet be tested directly."
+   },
+   {
+    "thesis": "T3: Gross margin holds near 68% even as AI rack sales grow, so the margin expansion lasts.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Gross margin was 68% in Q1 (flat year on year), 69% in Q2 (68% a year earlier) and 69% in Q3 (67% a year earlier), above the 66% signpost. The 10-Q attributes the Q1 flatness to a higher mix of semiconductor revenue, so the rack-driven margin compression the filing warned of has not appeared yet."
+   },
+   {
+    "thesis": "T4: Earnings estimates keep rising, so the current valuation stays supported by consensus rather than requiring a higher growth rate.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "All four recent quarters beat EPS consensus, by 1.3% in the January quarter, 1.7% in the April quarter and 2.5% in the July quarter. FY2027 EPS consensus is $19.33, down 1.0% over 90 days, with 2 raises and no cuts in the last 30 days, and forward P/E is 24.5x, well below the 40x trigger. The consensus figures are a single snapshot dated after the Q3 release, so the per-quarter status rests on the beats and this snapshot."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Semiconductor solutions revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 12515,
+     "Q2 FY2026": 15009,
+     "Q3 FY2026": 20839
+    },
+    "good": "up"
+   },
+   {
+    "name": "Infrastructure software revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 6796,
+     "Q2 FY2026": 7178,
+     "Q3 FY2026": 8752
+    },
+    "good": "up"
+   },
+   {
+    "name": "Gross margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 68,
+     "Q2 FY2026": 69,
+     "Q3 FY2026": 69
+    },
+    "good": "up"
+   },
+   {
+    "name": "Free cash flow",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 8010,
+     "Q2 FY2026": 10262,
+     "Q3 FY2026": 13665
+    },
+    "good": "up"
+   },
+   {
+    "name": "GAAP operating income",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 8563,
+     "Q2 FY2026": 10788,
+     "Q3 FY2026": 15955
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "b2262f184a472f631d182657b22921a3",
+  "id": "AVGO_earnings_2026-11-25_b2262f",
+  "pdf": "reports/archive/AVGO/AVGO_earnings_2026-11-25_b2262f/AVGO_multi_quarter_update.pdf",
+  "args": "reports/archive/AVGO/AVGO_earnings_2026-11-25_b2262f/AVGO_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "FICO",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-25",
+  "fc_matched": 214,
+  "fc_total": 217,
+  "title": "Annual Report FY2026",
+  "headline": "Scores should keep carrying earnings in FY2027 as mortgage pricing holds, but that tailwind is exposed to VantageScore: Scores revenue rose 41%.",
+  "theses": [
+   {
+    "thesis": "Scores will keep driving FICO's earnings in FY2027, because mortgage origination pricing holds even as VantageScore gains acceptance.",
+    "status": "baseline",
+    "evidence": "Scores revenue rose 41% to $1,652.2 million at a 90% segment margin in fiscal 2026. FHA acceptance of FICO Score 10T from January 1, 2027 supports the franchise, but consensus FY2027 revenue growth is only 2.2%."
+   },
+   {
+    "thesis": "Leverage, not cash generation, becomes the binding constraint, so buybacks must slow or debt keeps rising.",
+    "status": "baseline",
+    "evidence": "Total debt rose to $5,277.9 million from $3,074.9 million. Debt is 4.2x operating income versus 3.3x a year earlier, and buybacks of $3,046.0 million exceeded free cash flow of $1,034.4 million."
+   },
+   {
+    "thesis": "At $707.40 the shares are priced for growth that consensus does not forecast, so the stock earns less than its 11.5% cost of capital unless revenue growth re-accelerates to around 10%.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 10.2% revenue growth for ten years and an 8.6% implied return against an 11.5% WACC. Consensus revenue growth is 2.2% in FY2027 and 6.5% in FY2028, and current-year EPS estimates fell 16.5% in 90 days. Consensus figures are dated after the 10-K."
+   },
+   {
+    "thesis": "Software growth depends on platform migration, and the non-platform decline offsets platform gains unless the Software margin recovers.",
+    "status": "baseline",
+    "evidence": "Platform ARR rose 72% to $452.6 million, but non-platform ARR fell 18% to $398.3 million, and the Software margin slipped to 28% from 30% on higher hosting costs."
+   }
+  ],
+  "filing_date": "2026-11-06",
+  "md5": "abb4da120e5d13eb89fd60a9d8d0702e",
+  "id": "FICO_annual_2026-11-25_abb4da",
+  "pdf": "reports/archive/FICO/FICO_annual_2026-11-25_abb4da/FICO_2026_annual_report.pdf",
+  "args": "reports/archive/FICO/FICO_annual_2026-11-25_abb4da/FICO_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "MCO",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 172,
+  "fc_total": 173,
+  "title": "Annual Report FY2025",
+  "headline": "Margin expansion should continue as cost growth stays below revenue growth: operating margin reached 43.4% from 40.6%.",
+  "theses": [
+   {
+    "thesis": "Operating leverage keeps margins expanding, because operating and SG&A cost growth stays well below revenue growth.",
+    "status": "baseline",
+    "evidence": "Operating margin rose to 43.4% from 40.6% and gross margin to 74.4%; cost of revenue rose only 1% while revenue grew 9%, and operating and SG&A grew only 3%. MIS adjusted operating margin reached 63.6%."
+   },
+   {
+    "thesis": "The share price assumes growth well above consensus, so at consensus growth the implied return falls short of the cost of capital.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 18.1% annual revenue growth for ten years, against 6.5% FY2026 and 6.7% FY2027 consensus growth and a 12.2% historical three-year CAGR. The implied IRR is 6.1% against an 11.3% WACC. Consensus data is dated 2026-11-25, after the 10-K."
+   },
+   {
+    "thesis": "Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.",
+    "status": "baseline",
+    "evidence": "Total debt fell to $7.35 billion from $7.75 billion, and debt to equity to 1.81x from 2.17x. Buybacks of $1.71 billion and dividends of $701 million absorbed about 94% of $2.58 billion free cash flow."
+   },
+   {
+    "thesis": "Debt-issuance cyclicality will show up in MIS earnings within a year, so the stock is exposed to a weaker issuance cycle.",
+    "status": "baseline",
+    "evidence": "A majority of credit-rating revenue is transaction-based and depends on debt issuance volumes. Corporate Finance transaction revenue added $144 million in 2025. Diluted EPS for the quarter to September 2026 was $4.14 against a $4.25 estimate, a 2.5% miss."
+   }
+  ],
+  "filing_date": "2026-02-18",
+  "md5": "59bd6b4f8474c2447fc2eb9f63647328",
+  "id": "MCO_annual_2026-11-25_59bd6b",
+  "pdf": "reports/archive/MCO/MCO_annual_2026-11-25_59bd6b/MCO_2025_annual_report.pdf",
+  "args": "reports/archive/MCO/MCO_annual_2026-11-25_59bd6b/MCO_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "MCO",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 168,
+  "fc_total": 168,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Q2 issuance surge masked a 1% Q3 revenue slowdown; operating margin stayed above baseline, but total debt rose above $7.35bn by 30 September 2026.",
+  "theses": [
+   {
+    "thesis": "T1: Operating leverage keeps margins expanding, because operating and SG&A cost growth stays well below revenue growth.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Operating margin was 44.3% in Q1 (44.0% a year earlier), 47.9% in Q2 (43.1%) and 44.8% in Q3 (45.7%), so the nine-month margin of about 45.7% is above the 43.4% signpost (illustrative). In Q3 operating and SG&A expense grew 2% against 1% revenue growth, and restructuring rose 29% to $27 million, which is the invalidation pattern at quarter level."
+   },
+   {
+    "thesis": "T2: The share price assumes growth well above consensus, so at consensus growth the implied return falls short of the cost of capital.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Revenue growth was 8% in Q1, 15% in Q2 and 1% in Q3, so nine-month growth is about 7.9% (illustrative). Reaching the 9% FY2026 signpost needs Q4 growth well above the Q3 pace of 1%, and the reverse DCF still implies 18.1% growth against 6.5% consensus. The Q2 jump to 15% shows growth can spike, which is why Q2 is marked weakened for the thesis, but the Q3 reading points back toward the consensus path."
+   },
+   {
+    "thesis": "T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Net cash moved from -$4,903 million at FY2025 to -$5,803 million in Q1 and -$6,026 million in Q2, and total debt was $7,492 million at 30 September 2026 against $7,351 million at FY2025. Cash and short-term investments fell from $2,448 million to $1,510 million in Q1. Buyback and dividend amounts for FY2026 are not in the 10-Q excerpts, so the payout test cannot be checked yet; the Q3 debt level already breaches the invalidation threshold."
+   },
+   {
+    "thesis": "T4: Debt-issuance cyclicality will show up in MIS earnings within a year, so the stock is exposed to a weaker issuance cycle.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "MIS external revenue grew 8% in Q1, 25% in Q2 on leveraged-finance and investment-grade issuance, and fell 1% in Q3 as leveraged-finance issuance dropped. The swing from +25% to -1% within two quarters shows the issuance dependence the thesis describes. Adjusted diluted EPS of $4.14 in Q3 missed the $4.25 consensus by 2.5%; the $4.14 is the adjusted figure, while GAAP diluted EPS was $4.24."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 44.3,
+     "Q2 FY2026": 47.9,
+     "Q3 FY2026": 44.8
+    },
+    "good": "up"
+   },
+   {
+    "name": "Total revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 2079,
+     "Q2 FY2026": 2185,
+     "Q3 FY2026": 2023
+    },
+    "good": "up"
+   },
+   {
+    "name": "MIS external revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 1153,
+     "Q2 FY2026": 1260,
+     "Q3 FY2026": 1087
+    },
+    "good": "up"
+   },
+   {
+    "name": "MA external revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 926,
+     "Q2 FY2026": 925,
+     "Q3 FY2026": 936
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.33,
+     "Q2 FY2026": 4.68,
+     "Q3 FY2026": 4.14
+    },
+    "good": "up"
+   },
+   {
+    "name": "Restructuring charges",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 27,
+     "Q2 FY2026": 32,
+     "Q3 FY2026": 27
+    },
+    "good": "down"
+   }
+  ],
+  "md5": "7d18bc5db51ec193fd910739e6013bfd",
+  "id": "MCO_earnings_2026-11-25_7d18bc",
+  "pdf": "reports/archive/MCO/MCO_earnings_2026-11-25_7d18bc/MCO_multi_quarter_update.pdf",
+  "args": "reports/archive/MCO/MCO_earnings_2026-11-25_7d18bc/MCO_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "MA",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 177,
+  "fc_total": 177,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Mastercard's first three FY2026 quarters held operating margin above 58% and revenue growth near 14%, but value-added services growth slipped to 19% in Q3.",
+  "theses": [
+   {
+    "thesis": "T1: Value-added services keep outgrowing the payment network, so blended revenue growth stays at or above 13% in FY2026.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "VAS net revenue grew 22% in Q1, 20% in Q2 and 19% in Q3, while the payment network grew 12%, 10% and 11%. Q3 is the first quarter below the 20% signpost, so the Q3 status moves to weakened; the 15% invalidation level has not been reached. The Q1 status and the Q2 status are carried from the thesis log, and the log's gross margin test (Q1 75.7%, Q2 79.0%, Q3 79.3%) is noted but not the basis of the Q3 change."
+   },
+   {
+    "thesis": "T2: Operating leverage persists: operating margin stays at or above 57% in FY2026 as adjusted opex grows slower than revenue.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "GAAP operating margin was 58.4%, 60.2% and 59.8%, all above the 57% threshold. Adjusted opex grew 11%, 11% and 12% against revenue growth of 16%, 14% and 14%, so opex stayed below revenue in every quarter. Q2 strengthened on a 1.2-point adjusted margin gain; Q3 is intact, but the gain narrowed to 0.7 points. Adjusted EPS beat consensus in all three quarters, by 4.2% to 5.5%."
+   },
+   {
+    "thesis": "T3: Returns will lag the cost of capital unless revenue compounds near 13.5% a year, because the current price already assumes that growth.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Nine-month reported revenue growth was 15% (13% currency-neutral), and Q3 alone grew 14%. Consensus FY2026 revenue is $37.4 billion (+14.0%) and EPS $20.06, and FY2027 consensus revenue is $42.1 billion, above the $41.4 billion floor. The reverse DCF implies a 6.8% return against an 8.7% WACC, so the return still lags the cost of capital. This is illustrative. Growth must hold near 13.5% on a currency-neutral basis, because reported growth benefited from currency in Q1."
+   },
+   {
+    "thesis": "T4: Regulatory action on interchange and switching is the main threat to growth, and tightening in a major market would push growth below consensus.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "The Q1 to Q3 releases and 10-Q MD&A report no new interchange or switching rule, and the Q3 10-Q refers to the 10-K for risk factors without update. Litigation charges were $0 in Q1, $82 million in Q2 (ATM surcharge complaints and opt-out merchant claims) and $74 million in Q3 (opt-out settlements), totalling $156 million for nine months against $330 million a year earlier. The invalidation test is partly met on the litigation and rule limbs, so the status will be reviewed at FY2026 year end, when the $504 million threshold can be tested."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Net revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 8398,
+     "Q2 FY2026": 9277,
+     "Q3 FY2026": 9807
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 60.8,
+     "Q2 FY2026": 61.1,
+     "Q3 FY2026": 60.5
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted operating expenses",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 3289,
+     "Q2 FY2026": 3608,
+     "Q3 FY2026": 3872
+    },
+    "good": "down"
+   },
+   {
+    "name": "Adjusted diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.6,
+     "Q2 FY2026": 5.04,
+     "Q3 FY2026": 5.31
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "cb3dbd38ef18b0f20c5c91b12ee83f2e",
+  "id": "MA_earnings_2026-11-25_cb3dbd",
+  "pdf": "reports/archive/MA/MA_earnings_2026-11-25_cb3dbd/MA_multi_quarter_update.pdf",
+  "args": "reports/archive/MA/MA_earnings_2026-11-25_cb3dbd/MA_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "NVDA",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-25",
+  "fc_matched": 175,
+  "fc_total": 193,
+  "title": "Annual Report FY2026",
+  "headline": "Growth should stay far ahead of peers into fiscal 2027 as Blackwell and networking ramp; Data Center revenue rose 68%.",
+  "theses": [
+   {
+    "thesis": "Data center demand keeps NVIDIA's growth well above peers through fiscal 2027.",
+    "status": "baseline",
+    "evidence": "Data Center revenue rose 68% and networking rose 142% in FY2026; FY2027 consensus revenue is $423.7 billion, up 96%."
+   },
+   {
+    "thesis": "Gross margin recovers above 72% as Blackwell yields mature and the H20 charge does not recur.",
+    "status": "baseline",
+    "evidence": "Gross margin fell to 71.1% from 75.0% because of the Hopper-to-Blackwell transition and the $4.5 billion H20 charge; Broadcom's FY2025 gross margin was 67.8%."
+   },
+   {
+    "thesis": "The stock is priced for a steep growth fade, so returns depend on consensus EPS being delivered.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 26.2% growth for ten years at a 15% WACC; the forward P/E is 14.9x for FY2027 and 8.7x for FY2028, and FY2028 EPS estimates rose 27.7% over 90 days."
+   },
+   {
+    "thesis": "Free cash flow and net cash can absorb the China and customer shocks without strain.",
+    "status": "baseline",
+    "evidence": "Free cash flow of $96.7 billion and net cash of $51.5 billion at year-end; two direct customers provide 36% of revenue and China is effectively closed."
+   }
+  ],
+  "filing_date": "2026-02-25",
+  "md5": "8f653710ecb808afce8bf138d2969ac5",
+  "id": "NVDA_annual_2026-11-25_8f6537",
+  "pdf": "reports/archive/NVDA/NVDA_annual_2026-11-25_8f6537/NVDA_2026_annual_report.pdf",
+  "args": "reports/archive/NVDA/NVDA_annual_2026-11-25_8f6537/NVDA_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "NVDA",
+  "kind": "earnings",
+  "fy": "2026",
+  "date": "2026-11-25",
+  "fc_matched": 145,
+  "fc_total": 146,
+  "title": "Earnings Review bis Q2 FY2027",
+  "quarters": [
+   "Q1 FY2027",
+   "Q2 FY2027"
+  ],
+  "headline": "NVIDIA's first two quarters of FY2027 show revenue growth of 85% or more and gross margin near 75%, while net cash fell from $68.2 billion to $24.1 billion.",
+  "theses": [
+   {
+    "thesis": "T1: Data center demand keeps NVIDIA's growth well above peers through fiscal 2027.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "strengthened",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "Q1 FY2027 Data Center revenue was $75.2 billion, up 92% year over year; hyperscale revenue rose 115% and AI Clouds, Industrial and Enterprise rose 74%. For Q2 FY2027, total revenue grew 105.9%, but the Data Center revenue figure was not in the retrieved 10-Q text, so the signpost is not confirmed for Q2 and the intact status is provisional. The Q2 10-Q says Vera Rubin began production shipments in the third quarter of FY2027, inside the second half, but it also reports current supply constraints."
+   },
+   {
+    "thesis": "T2: Gross margin recovers above 72% as Blackwell yields mature and the H20 charge does not recur.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "strengthened",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "Gross margin was 74.9% in Q1 FY2027 against 60.5% a year earlier, and 75.0% in Q2 FY2027 against 72.4%. The Q1 gain came from lower inventory provisions after the prior year's $4.5 billion charge. Q2 is held at intact rather than strengthened because supply and capacity commitments rose to $279 billion from $119 billion, which raises the risk of future purchase-obligation charges named in the invalidation test."
+   },
+   {
+    "thesis": "T3: The stock is priced for a steep growth fade, so returns depend on consensus EPS being delivered.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "strengthened"
+    },
+    "evidence": "Q1 FY2027 normalised EPS of $1.87 beat the $1.77 estimate by 5.5%, and Q2 FY2027 normalised EPS of $2.22 beat $2.09 by 6.2%. As of 25 November 2026, FY2027 consensus EPS was $9.67, up 6.8% over 90 days, and FY2028 EPS was $16.61, up 27.7% over 90 days, with seven upward and no downward revisions in the last 30 days. The reverse DCF implies 26.2% growth, below the annual report's invalidation level of growth above 30%. Consensus is dated after the 10-K and is not a quarter-end figure."
+   },
+   {
+    "thesis": "T4: Free cash flow and net cash can absorb the China and customer shocks without strain.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "weakened"
+    },
+    "evidence": "Net cash was $68.2 billion at Q1 FY2027 and $24.1 billion at Q2 FY2027, still positive but down from $43.4 billion a year earlier. Free cash flow margin fell to 22.2% from 28.8%, DSO rose to 60 days from 54, and total debt reached $38.4 billion. The 10-Q says no H200 revenue has been generated under the licensing program, and the retrieved Q2 text does not disclose any H200 revenue. The invalidation test (net cash below zero) has not been triggered."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Gross margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2027": 74.9,
+     "Q2 FY2027": 75
+    },
+    "good": "up"
+   },
+   {
+    "name": "Data Center revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2027": 75246
+    },
+    "good": "up"
+   },
+   {
+    "name": "Net cash",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2027": 68224,
+     "Q2 FY2027": 24118
+    },
+    "good": "up"
+   },
+   {
+    "name": "Days sales outstanding",
+    "unit": "days",
+    "values": {
+     "Q1 FY2027": 45,
+     "Q2 FY2027": 60
+    },
+    "good": "down"
+   },
+   {
+    "name": "Free cash flow margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2027": 59.5,
+     "Q2 FY2027": 22.2
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "9f175331859630c8e86422558773010a",
+  "id": "NVDA_earnings_2026-11-25_9f1753",
+  "pdf": "reports/archive/NVDA/NVDA_earnings_2026-11-25_9f1753/NVDA_multi_quarter_update.pdf",
+  "args": "reports/archive/NVDA/NVDA_earnings_2026-11-25_9f1753/NVDA_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "TSM",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 180,
+  "fc_total": 180,
+  "title": "Annual Report FY2025",
+  "headline": "AI-led HPC demand should keep margins near 60%, since gross margin rose to 59.9% and HPC is now 58% of revenue.",
+  "theses": [
+   {
+    "thesis": "Advanced-node and HPC mix keeps gross margin near 60% through 2026, so margin is not a cyclical casualty of the capex cycle.",
+    "status": "baseline",
+    "evidence": "Gross margin rose to 59.9% from 56.1%; 7nm-and-below reached 74% of wafer revenue and HPC 58% of net revenue."
+   },
+   {
+    "thesis": "Operating cash flow can fund the 2026 capex plan without a rise in debt, so the balance sheet stays net-cash.",
+    "status": "baseline",
+    "evidence": "2025 free cash flow was NT$992,378 million against capex of NT$1,272,411 million; net cash was NT$3.03 trillion at 30 September 2026, with trailing free cash flow of NT$1.46 trillion."
+   },
+   {
+    "thesis": "Consensus earnings revisions keep rising, so the stock can grow into its forward multiple rather than rely only on rerating.",
+    "status": "baseline",
+    "evidence": "FY2026 EPS consensus is up 4.8% and FY2027 up 9.9% over 90 days, with TSMC beating quarterly EPS in each of the last four quarters by 1.7% to 10.9%."
+   }
+  ],
+  "filing_date": "2026-04-16",
+  "md5": "d1fcff6371ba877451b7c974796e4cf9",
+  "id": "TSM_annual_2026-11-25_d1fcff",
+  "pdf": "reports/archive/TSM/TSM_annual_2026-11-25_d1fcff/TSM_2025_annual_report.pdf",
+  "args": "reports/archive/TSM/TSM_annual_2026-11-25_d1fcff/TSM_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "TSM",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-25",
+  "fc_matched": 161,
+  "fc_total": 161,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "TSMC's three 2026 quarters beat guidance on revenue and margins, with Q3 revenue up 50.9%; the main shortfall is a lower Q2 free cash flow margin.",
+  "theses": [
+   {
+    "thesis": "T1: Advanced-node and HPC mix keeps gross margin near 60% through 2026, so margin is not a cyclical casualty of the capex cycle.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Gross margin was 66.2% in Q1, 67.7% in Q2 and 66.4% in Q3, all above the 58% signpost. Advanced nodes rose from 74% to 77% to 79% of wafer revenue. Q2 is strengthened because both gross margin and advanced share rose. Q3 is intact because gross margin eased from Q2 with no cause given in the release, though the advanced share still rose."
+   },
+   {
+    "thesis": "T2: Operating cash flow can fund the 2026 capex plan without a rise in debt, so the balance sheet stays net-cash.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Net cash was NT$2.36 trillion in Q1, NT$2.53 trillion in Q2 and NT$3.03 trillion in Q3, all above the NT$2 trillion limit. At Q3 total debt was NT$1.066 trillion, flat against NT$1.065 trillion at FY2025 year end, and trailing free cash flow was NT$1.46 trillion, above the NT$1.3 trillion signpost. Q2 is intact because the quarterly free cash flow margin fell to 21.6%, though net cash still rose."
+   },
+   {
+    "thesis": "T3: Consensus earnings revisions keep rising, so the stock can grow into its forward multiple rather than rely only on rerating.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "EPS beat consensus by 4.7% in Q1, 10.9% in Q2 and 1.7% in Q3. FY2027 consensus is US$23.39, up from US$21.28 90 days ago, but it was US$21.92 30 days ago, so the US$23 signpost was only recently cleared. Revisions were 10 up and 2 down for FY2027 in the last 30 days. Q2 is strengthened by the 10.9% beat; Q3 is intact because the beat narrowed to 1.7% and the signpost headroom is small."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Gross margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 66.2,
+     "Q2 FY2026": 67.7,
+     "Q3 FY2026": 66.4
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 58.1,
+     "Q2 FY2026": 60.3,
+     "Q3 FY2026": 58.7
+    },
+    "good": "up"
+   },
+   {
+    "name": "Advanced nodes (7nm and below) share of wafer revenue",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 74,
+     "Q2 FY2026": 77,
+     "Q3 FY2026": 79
+    },
+    "good": "up"
+   },
+   {
+    "name": "Net sales",
+    "unit": "NT$ million",
+    "values": {
+     "Q1 FY2026": 1134103,
+     "Q2 FY2026": 1270381,
+     "Q3 FY2026": 1494243
+    },
+    "good": "up"
+   },
+   {
+    "name": "Net income",
+    "unit": "NT$ million",
+    "values": {
+     "Q1 FY2026": 572480,
+     "Q2 FY2026": 706562,
+     "Q3 FY2026": 763064
+    },
+    "good": "up"
+   },
+   {
+    "name": "Net cash",
+    "unit": "NT$ million",
+    "values": {
+     "Q1 FY2026": 2361828,
+     "Q2 FY2026": 2532487.9,
+     "Q3 FY2026": 3028664.4
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "d633dab779ac340897be21f777602787",
+  "id": "TSM_earnings_2026-11-25_d633da",
+  "pdf": "reports/archive/TSM/TSM_earnings_2026-11-25_d633da/TSM_multi_quarter_update.pdf",
+  "args": "reports/archive/TSM/TSM_earnings_2026-11-25_d633da/TSM_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "V",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-25",
+  "fc_matched": 161,
+  "fc_total": 163,
+  "title": "Annual Report FY2026",
+  "headline": "Value-added services should keep lifting growth: VAS rose 31% to $14.2 billion, outpacing the 15% total revenue gain.",
+  "theses": [
+   {
+    "thesis": "Value-added services will keep Visa's revenue growth near or above 11% even if transaction growth slows.",
+    "status": "baseline",
+    "evidence": "VAS revenue rose 31% to $14.2 billion, while processed transactions rose 9% and total net revenue rose 15%. Consensus expects 11.3% revenue growth in FY2027."
+   },
+   {
+    "thesis": "Buybacks will be trimmed toward free cash flow, because shareholder returns currently exceed the cash generated.",
+    "status": "baseline",
+    "evidence": "Buybacks of $20.5 billion and dividends of $5.1 billion exceeded free cash flow of $22.1 billion; cash fell to $12.9 billion from $17.2 billion."
+   },
+   {
+    "thesis": "At the current price, returns will lag the cost of capital unless Visa beats consensus growth for a decade.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 13.2% growth against 11.3% FY2027 consensus; implied return is 6.7% versus an 8.8% WACC."
+   },
+   {
+    "thesis": "Litigation and fee regulation will not dent Visa's volume in FY2027.",
+    "status": "baseline",
+    "evidence": "The litigation provision fell to $1.8 billion from $2.6 billion, but $15.9 billion of interchange remains at issue in U.S. covered litigation."
+   }
+  ],
+  "filing_date": "2026-11-05",
+  "md5": "a4279509b0f4e5fb59024115698e5be2",
+  "id": "V_annual_2026-11-25_a42795",
+  "pdf": "reports/archive/V/V_annual_2026-11-25_a42795/V_2026_annual_report.pdf",
+  "args": "reports/archive/V/V_annual_2026-11-25_a42795/V_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "ADBE",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 188,
+  "fc_total": 190,
+  "title": "Annual Report FY2025",
+  "headline": "ARR growth should keep consensus revenue expansion on track, since Total ARR rose 11.5% to $25.20 billion.",
+  "theses": [
+   {
+    "thesis": "ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of 11.9% is achievable.",
+    "status": "baseline",
+    "evidence": "Total ARR rose 11.5% to $25.20 billion in fiscal 2025; consensus expects fiscal 2026 revenue of $26.61 billion, up 11.9%."
+   },
+   {
+    "thesis": "Margins hold as AI hosting and inference costs grow, because pricing and mix offset the cost increase.",
+    "status": "baseline",
+    "evidence": "Operating income of $8.71 billion and gross margin of 89.3% in fiscal 2025; subscription cost of revenue still rose 13% to $2.03 billion."
+   },
+   {
+    "thesis": "The shares are undervalued because the current price implies far less growth than consensus expects.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies about zero revenue growth for ten years at $91.8 billion enterprise value; forward P/E is 9.5x and the implied IRR is 17.1%."
+   },
+   {
+    "thesis": "Funding is adequate despite buybacks, because free cash flow covers most of the capital return and debt is manageable.",
+    "status": "baseline",
+    "evidence": "Free cash flow was $9.85 billion, against $11.28 billion of buybacks; net cash fell to -$1.12 billion in the latest quarter and the current ratio to 0.8x."
+   }
+  ],
+  "filing_date": "2026-01-15",
+  "md5": "b860d569c6bb3c6715d18c3fbdc602cc",
+  "id": "ADBE_annual_2026-11-26_b860d5",
+  "pdf": "reports/archive/ADBE/ADBE_annual_2026-11-26_b860d5/ADBE_2025_annual_report.pdf",
+  "args": "reports/archive/ADBE/ADBE_annual_2026-11-26_b860d5/ADBE_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "ADBE",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 190,
+  "fc_total": 198,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Revenue growth held at 12-13% and FY2026 targets were raised, but subscription costs outran revenue in Q2 and Q3, breaking the margin thesis.",
+  "theses": [
+   {
+    "thesis": "T1: ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of 11.9% is achievable.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Reported ARR growth was 10.9% in Q1 (below the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3. Q2 and Q3 include Semrush, which added about $480 million of ARR in Q2; excluding it, our illustrative Q2 estimate is about 10.5%. The company's own FY2026 ending ARR growth target is 10.2%, below the signpost. FY2026 revenue consensus of $26.61 billion sits inside the raised target of $26.58-26.63 billion, so no revenue cut occurred."
+   },
+   {
+    "thesis": "T2: Margins hold as AI hosting and inference costs grow, because pricing and mix offset the cost increase.",
+    "status": "broken",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "broken"
+    },
+    "evidence": "Gross margin was 89.6% in Q1, 89.2% in Q2 and 88.7% in Q3. Subscription cost of revenue rose 16.0% in Q2 and 24.1% in Q3 (computed from), against subscription revenue growth of 13.7% in each quarter (computed from). Subscription cost growth exceeded revenue growth in two consecutive quarters, which meets the pre-set invalidation rule. The Q3 gross margin of 88.7% is still above the 88% line."
+   },
+   {
+    "thesis": "T3: The shares are undervalued because the current price implies far less growth than consensus expects.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Non-GAAP EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09). FY2026 EPS consensus is $24.47, unchanged over 30 days and up 0.6% over 90 days, so there is no headroom above the signpost level. Management raised the FY2026 non-GAAP EPS target in Q2 and again in Q3, to $24.45-24.50. The reverse DCF implies about zero growth at a $91.8 billion enterprise value, and the forward P/E is 9.5x."
+   },
+   {
+    "thesis": "T4: Funding is adequate despite buybacks, because free cash flow covers most of the capital return and debt is manageable.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Operating cash flow was $2.96 billion in Q1, $2.17 billion in Q2 and $2.52 billion in Q3; the sum of $7.65 billion leaves about $2.35 billion for Q4 to reach $10 billion (illustrative). The current ratio was 0.91x, 0.75x and 0.77x, below the 1.0x signpost. Net cash was +$234 million at Q1, then -$1.44 billion at Q2 and -$1.12 billion at Q3. Repurchases of $2.48 billion, $2.11 billion and $2.23 billion totalled about $6.82 billion, and operating cash flow less capex of about $7.5 billion (illustrative) still covered them, so the invalidation condition is not met."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Subscription revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 6198,
+     "Q2 FY2026": 6416,
+     "Q3 FY2026": 6582
+    },
+    "good": "up"
+   },
+   {
+    "name": "Subscription cost of revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 540,
+     "Q2 FY2026": 586,
+     "Q3 FY2026": 633
+    },
+    "good": "down"
+   },
+   {
+    "name": "GAAP operating income",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 2418,
+     "Q2 FY2026": 2238,
+     "Q3 FY2026": 2354
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating cash flow",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 2958,
+     "Q2 FY2026": 2165,
+     "Q3 FY2026": 2523
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS (GAAP)",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.6,
+     "Q2 FY2026": 4.25,
+     "Q3 FY2026": 4.62
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "5d23dbd7a5ca598251d83cf5da2e85fd",
+  "id": "ADBE_earnings_2026-11-26_5d23db",
+  "pdf": "reports/archive/ADBE/ADBE_earnings_2026-11-26_5d23db/ADBE_multi_quarter_update.pdf",
+  "args": "reports/archive/ADBE/ADBE_earnings_2026-11-26_5d23db/ADBE_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "ADSK",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-26",
+  "fc_matched": null,
+  "fc_total": null,
+  "title": "Annual Report FY2026",
+  "headline": "Growth should stay strong as AECO scales: revenue rose 18% and AECO grew 22% to $3.58 billion.",
+  "theses": [
+   {
+    "thesis": "AECO growth keeps total revenue growth above 15% in FY2027.",
+    "status": "baseline",
+    "evidence": "AECO rose 22% to $3.58 billion and subscription revenue supplied $1.03 billion of the $1.08 billion increase. Consensus expects FY2027 growth of 16.1%."
+   },
+   {
+    "thesis": "GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216 million.",
+    "status": "baseline",
+    "evidence": "Operating margin was flat at 22% in FY2026 while restructuring rose from $15 million to $216 million. Non-GAAP operating margin widened to 38% from 36%."
+   },
+   {
+    "thesis": "At the current price, the stock returns less than its cost of capital unless growth beats consensus.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 11.3% annual revenue growth for ten years against a historical 12.9% three-year CAGR. The consensus path yields a 9.5% IRR against an 11.1% WACC."
+   },
+   {
+    "thesis": "Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual installments.",
+    "status": "baseline",
+    "evidence": "Free cash flow reached $2.38 billion in FY2026 and operating cash flow $2.45 billion, although working capital absorbed $501 million. Trailing free cash flow reached $2.80 billion at the latest quarter."
+   }
+  ],
+  "filing_date": "2026-03-03",
+  "md5": "a6f2512600ea02d8d4a349ebf28e02b8",
+  "id": "ADSK_annual_2026-11-26_a6f251",
+  "args": "reports/archive/ADSK/ADSK_annual_2026-11-26_a6f251/ADSK_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "ADSK",
+  "kind": "annual",
+  "fy": "2026",
+  "date": "2026-11-26",
+  "fc_matched": 227,
+  "fc_total": 229,
+  "title": "Annual Report FY2026",
+  "headline": "Growth should stay strong as AECO scales: revenue rose 18% and AECO grew 22% to $3.58 billion.",
+  "theses": [
+   {
+    "thesis": "AECO growth keeps total revenue growth above 15% in FY2027.",
+    "status": "baseline",
+    "evidence": "AECO rose 22% to $3.58 billion and subscription revenue supplied $1.03 billion of the $1.08 billion increase. Consensus expects FY2027 growth of 16.1%."
+   },
+   {
+    "thesis": "GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216 million.",
+    "status": "baseline",
+    "evidence": "Operating margin was flat at 22% in FY2026 while restructuring rose from $15 million to $216 million. Non-GAAP operating margin widened to 38% from 36%."
+   },
+   {
+    "thesis": "At the current price, the stock returns less than its cost of capital unless growth beats consensus.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 11.3% annual revenue growth for ten years against a historical 12.9% three-year CAGR. The consensus path yields a 9.5% IRR against an 11.1% WACC."
+   },
+   {
+    "thesis": "Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual installments.",
+    "status": "baseline",
+    "evidence": "Free cash flow reached $2.38 billion in FY2026 and operating cash flow $2.45 billion, although working capital absorbed $501 million. Trailing free cash flow reached $2.80 billion at the latest quarter."
+   }
+  ],
+  "filing_date": "2026-03-03",
+  "md5": "271d7456293bda25638ce8bbca34ccf9",
+  "id": "ADSK_annual_2026-11-26_271d74",
+  "pdf": "reports/archive/ADSK/ADSK_annual_2026-11-26_271d74/ADSK_2026_annual_report.pdf",
+  "args": "reports/archive/ADSK/ADSK_annual_2026-11-26_271d74/ADSK_2026_annual_report_build_args.json"
+ },
+ {
+  "ticker": "ADSK",
+  "kind": "earnings",
+  "fy": "2026",
+  "date": "2026-11-26",
+  "fc_matched": 98,
+  "fc_total": 101,
+  "title": "Earnings Review bis Q2 FY2027",
+  "quarters": [
+   "Q1 FY2027",
+   "Q2 FY2027"
+  ],
+  "headline": "Two quarters after the 10-K, Autodesk shows 16.1% revenue growth and a higher operating margin, but total debt rose to $3,705 million and the valuation still implies a 9.5% return below WACC.",
+  "theses": [
+   {
+    "thesis": "T1: AECO growth keeps total revenue growth above 15% in FY2027.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "Q2 FY2027 revenue growth was 16.1%, above the 15% signpost. AECO growth for either quarter is not in the data set, so the 18% AECO test is unverified. Q1 revenue growth is also not available, and the Q1 status is carried from the baseline."
+   },
+   {
+    "thesis": "T2: GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216 million.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "strengthened"
+    },
+    "evidence": "Q2 FY2027 operating margin was 29.2% against 25.5% a year earlier. Quarterly restructuring charges are not in the data set, so the restructuring test cannot be scored until the FY2027 annual report. The scorecard margin basis (FY2026 24.9%) differs from the 22% baseline."
+   },
+   {
+    "thesis": "T3: At the current price, the stock returns less than its cost of capital unless growth beats consensus.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "FY2027 consensus revenue is $8,369.1 million, just under the $8.37 billion signpost, and EPS is $12.80, equal to rather than above the threshold; EPS rose 1.6% over 90 days. The invalidation level is not reached. The consensus path implies a 9.5% return against an 11.1% WACC, which keeps the valuation thesis intact."
+   },
+   {
+    "thesis": "T4: Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual installments.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2027": "intact",
+     "Q2 FY2027": "intact"
+    },
+    "evidence": "Trailing free cash flow was $2.80 billion at 31 July 2026, and the Q1 FCF margin was 44.8%. Net cash rose from -$137 million to $450 million, but total debt rose from $2,734 million to $3,705 million; the sources do not state the use of the new debt, so the debt-funded buyback test needs checking in the Q3 and Q4 filings. Deferred revenue is not in the data set."
+   }
+  ],
+  "kpis": [],
+  "md5": "6a545f2acd8ac5c4d441437162426978",
+  "id": "ADSK_earnings_2026-11-26_6a545f",
+  "pdf": "reports/archive/ADSK/ADSK_earnings_2026-11-26_6a545f/ADSK_multi_quarter_update.pdf",
+  "args": "reports/archive/ADSK/ADSK_earnings_2026-11-26_6a545f/ADSK_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "ASML",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 131,
+  "fc_total": 132,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Through Q3 FY2026, ASML raised full-year sales guidance to €44–45bn and beat EPS consensus each quarter, while receivables and cash conversion lagged.",
+  "theses": [
+   {
+    "thesis": "T1: EUV and service growth can sustain revenue expansion above 15% a year as AI capacity spending continues.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Guidance for FY2026 net sales was raised to €36–40bn in April and to €44–45bn in October. H1 FY2026 service and field option sales rose 28.1%, above the 20% signpost. The Q4 test is not yet due, and EUV system sales are not disclosed separately in the releases, so the EUV invalidation test cannot be run from these sources."
+   },
+   {
+    "thesis": "T2: Margins can stay near 50%+ gross as mix shifts to EUV and service, supporting earnings growth.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Gross margin was 53.0%, 54.0% and 57.5% in Q1 to Q3, and Q3 was 57.5% against 51.6% a year earlier. EPS beat consensus by 8.0%, 9.1% and 9.9%. On the EU-IFRS basis, H1 gross margin was 50.9%, below the 53.3% of H1 2025, because of capitalised development amortisation; this basis is not the one the signpost uses."
+   },
+   {
+    "thesis": "T3: Customer concentration is a material risk that could cut revenue faster than the cycle would otherwise imply.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "The largest-customer share is not reported in the 2026 quarterly releases, so the signpost cannot be tested before the FY2026 20-F. Unit shipments rose: H1 FY2026 lithography units were 170 against 153. Management said customers are placing orders for 2029 and 2030 and that 2027 and 2028 supply will not fully meet demand, which supports volume but does not change the concentration exposure."
+   },
+   {
+    "thesis": "T4: The current price is fully valued: the shares need growth that history has not delivered for a decade.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Consensus FY2027 revenue has not been cut: it is €57.4bn, and FY2027 EPS estimates rose 10.5% over 90 days. The valuation inputs are a single snapshot dated 26 November 2026, so they apply to all three quarters. The reverse DCF implies 20.6% annual revenue growth for ten years, up from 20.1% in the baseline, and a 10.6% implied return against an 11.5% WACC. Consensus was raised, so the required growth did not fall; the thesis is not triggered."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Total net sales",
+    "unit": "EUR mn",
+    "values": {
+     "Q1 FY2026": 8767,
+     "Q2 FY2026": 9326,
+     "Q3 FY2026": 11662
+    },
+    "good": "up"
+   },
+   {
+    "name": "Gross margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 53,
+     "Q2 FY2026": 54,
+     "Q3 FY2026": 57.5
+    },
+    "good": "up"
+   },
+   {
+    "name": "Installed Base Management sales",
+    "unit": "EUR mn",
+    "values": {
+     "Q1 FY2026": 2488,
+     "Q2 FY2026": 2762,
+     "Q3 FY2026": 3289
+    },
+    "good": "up"
+   },
+   {
+    "name": "New lithography systems sold",
+    "unit": "count",
+    "values": {
+     "Q1 FY2026": 67,
+     "Q2 FY2026": 86,
+     "Q3 FY2026": 113
+    },
+    "good": "up"
+   },
+   {
+    "name": "Days sales outstanding",
+    "unit": "days",
+    "values": {
+     "Q1 FY2026": 46,
+     "Q2 FY2026": 71,
+     "Q3 FY2026": 72
+    },
+    "good": "down"
+   }
+  ],
+  "md5": "f8449ee20db127e20b3dbb87f3b91fe6",
+  "id": "ASML_earnings_2026-11-26_f8449e",
+  "pdf": "reports/archive/ASML/ASML_earnings_2026-11-26_f8449e/ASML_multi_quarter_update.pdf",
+  "args": "reports/archive/ASML/ASML_earnings_2026-11-26_f8449e/ASML_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "AVGO",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 179,
+  "fc_total": 179,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Semiconductor revenue grew 52%, 79% and 127% in Q1-Q3 FY2026, gross margin held at about 68-70%, and FY2026 consensus revenue stayed near $106 billion.",
+  "theses": [
+   {
+    "thesis": "T1: AI demand keeps semiconductor revenue growing fast enough to support consensus FY2026 revenue of about $106 billion.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Semiconductor revenue grew 52% in Q1, 79% in Q2 and 127% in Q3, each well above the 20% interim invalidation level. Consensus FY2026 revenue is $105,978 million, against $105,981 million in the annual baseline. The Q4 guide of $34.8 billion comes on top of nine-month total revenue of $71,089 million, so the full year is tracking close to the $106 billion consensus."
+   },
+   {
+    "thesis": "T2: Infrastructure software keeps its high margin as the subscription transition continues.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Software revenue grew 1% in Q1, 9% in Q2 and 29% in Q3. The releases reviewed do not disclose software segment operating income, so the 25% signpost cannot yet be tested. The Q3 strengthened status rests on the revenue acceleration and should be re-checked against segment operating income when it is available in the fiscal 2026 10-K."
+   },
+   {
+    "thesis": "T3: Gross margin holds near 68% even as AI rack sales grow, so the margin expansion lasts.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "GAAP gross margin was 68% in Q1, 69% in Q2 and 69% in Q3 as stated in the 10-Qs, each above the 66% signpost and far above the 63% invalidation level. In Q3, products reached 82% of revenue against 70% a year earlier and gross margin still rose to 69% from 67%, which tests the compression the annual filing expected. No gross margin guidance was given for Q4."
+   },
+   {
+    "thesis": "T4: Earnings estimates keep rising, so the current valuation stays supported by consensus rather than requiring a higher growth rate.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "FY2027 EPS consensus is $19.33, down 1.0% over 90 days, with 2 analysts raising and none cutting in the last 30 days. It sits 1.7% above the $19 floor, and the analyst range runs from $17.47 to $22.44. FY2026 EPS consensus is $11.65 against $11.62 90 days earlier. At $300.86 the forward P/E is 25.8x on FY2026, well below the 40x invalidation level. All four last quarters beat EPS estimates by 1.3% to 4.4%."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Semiconductor solutions revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 12515,
+     "Q2 FY2026": 15009,
+     "Q3 FY2026": 20839
+    },
+    "good": "up"
+   },
+   {
+    "name": "Infrastructure software revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 6796,
+     "Q2 FY2026": 7178,
+     "Q3 FY2026": 8752
+    },
+    "good": "up"
+   },
+   {
+    "name": "GAAP gross margin (as stated in 10-Q)",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 68,
+     "Q2 FY2026": 69,
+     "Q3 FY2026": 69
+    },
+    "good": "up"
+   },
+   {
+    "name": "Free cash flow",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 8010,
+     "Q2 FY2026": 10262,
+     "Q3 FY2026": 13665
+    },
+    "good": "up"
+   },
+   {
+    "name": "GAAP diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 1.5,
+     "Q2 FY2026": 1.91,
+     "Q3 FY2026": 2.68
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "67ec173f5258ec51a4667ba9ac370b12",
+  "id": "AVGO_earnings_2026-11-26_67ec17",
+  "pdf": "reports/archive/AVGO/AVGO_earnings_2026-11-26_67ec17/AVGO_multi_quarter_update.pdf",
+  "args": "reports/archive/AVGO/AVGO_earnings_2026-11-26_67ec17/AVGO_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "EFX",
+  "kind": "annual",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 201,
+  "fc_total": 213,
+  "title": "Annual Report FY2025",
+  "headline": "USIS margin gains should continue as mortgage pricing holds: operating margin rose to 22.9% from 21.4%.",
+  "theses": [
+   {
+    "thesis": "USIS margin expansion persists through the 2026 mortgage slowdown, because product pricing and diversified growth offset lower credit inquiry volumes.",
+    "status": "baseline",
+    "evidence": "USIS revenue rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million, with margin at 22.9% versus 21.4%."
+   },
+   {
+    "thesis": "Workforce Solutions remains the profit anchor even as U.S. mortgage activity falls in 2026.",
+    "status": "baseline",
+    "evidence": "Segment margin rose to 44.2% from 43.3%, operating income rose 8% to $1,141.5 million, and Verification Services grew 8% to $2,179.8 million."
+   },
+   {
+    "thesis": "At $185.68 the shares price in faster growth than history supports, so the stock needs re-acceleration to earn its cost of capital.",
+    "status": "baseline",
+    "evidence": "The reverse DCF implies 12.4% annual revenue growth over ten years against a 5.8% historical three-year CAGR, and an implied IRR of 7.8% against an 11.2% WACC. Consensus growth is 9.7% for FY2026 and 6.1% for FY2027."
+   },
+   {
+    "thesis": "Debt due within twelve months is refinanced without strain, so the liquidity squeeze does not force cuts to buybacks or dividends.",
+    "status": "baseline",
+    "evidence": "Current debt of $1,038.0 million compares with cash of $180.8 million and a 0.61x current ratio, while free cash flow of $1,134.3 million covered the $232.8 million dividend but not the $927.5 million of buybacks in addition."
+   }
+  ],
+  "filing_date": "2026-02-19",
+  "md5": "8d9d860a63bf59f3a1521f5c2a048d70",
+  "id": "EFX_annual_2026-11-26_8d9d86",
+  "pdf": "reports/archive/EFX/EFX_annual_2026-11-26_8d9d86/EFX_2025_annual_report.pdf",
+  "args": "reports/archive/EFX/EFX_annual_2026-11-26_8d9d86/EFX_2025_annual_report_build_args.json"
+ },
+ {
+  "ticker": "EFX",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 162,
+  "fc_total": 191,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Revenue grew 14%, 11% and 10% in the first three quarters of 2026; Q3 cut FY2026 revenue guidance as U.S. mortgage activity weakened.",
+  "theses": [
+   {
+    "thesis": "T1: USIS margin expansion persists through the 2026 mortgage slowdown, because product pricing and diversified growth offset lower credit inquiry volumes.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "broken",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "USIS operating margin was 20.2 percent in Q1 FY2026 against 21.1 percent a year earlier, below the 21.4 percent invalidation line, with adjusted EBITDA margin at 30.3 percent against 34.1 percent. It recovered to 22.5 percent in Q2 (22.6 percent a year earlier) and 24.3 percent in Q3 (23.2 percent) with Diversified Markets growth of 6%. The 22 percent signpost was met in Q2 and Q3, but the Q1 breach has not been reversed by a sustained run, so the status stays weakened until the margin holds through Q1 2027."
+   },
+   {
+    "thesis": "T2: Workforce Solutions remains the profit anchor even as U.S. mortgage activity falls in 2026.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Workforce Solutions operating margin was 45.3 percent in Q1 (42.7 percent a year earlier) with Verification Services up 14% to $571.4 million. In Q2 Verification Services growth slowed to 7% and segment margin fell to 44.9 percent from 46.4 percent, still above the 43 percent floor. In Q3 Verification Services grew 9% to $603.2 million and margin was 44.1 percent, with Workforce Solutions mortgage revenue flat."
+   },
+   {
+    "thesis": "T3: At $185.68 the shares price in faster growth than history supports, so the stock needs re-acceleration to earn its cost of capital.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "strengthened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Q1 revenue growth of 14% and FY2026 reported growth guidance of 10.0 to 12.0 percent supported the re-acceleration case. In Q3 the company cut the FY2026 reported revenue midpoint to $6.661 billion, which is about 9.7 percent growth on FY2025 revenue of $6,074.5 million (illustrative), and guided FY2026 reported growth to 9.4 to 9.9 percent with Q4 at 3.5 to 5.4 percent. Consensus FY2027 EPS fell 6.3 percent in 90 days to $9.46, and the FY2027 low estimate of $8.97 is just under the $9.00 invalidation level. The reverse DCF still needs 12.4 percent growth against 9.7 percent FY2026 consensus."
+   },
+   {
+    "thesis": "T4: Debt due within twelve months is refinanced without strain, so the liquidity squeeze does not force cuts to buybacks or dividends.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "The current ratio was 0.61x in Q1, 0.60x in Q2 and 1.09x in Q3, against 0.74x a year earlier. Cash and short-term investments were $183.4 million, $170.1 million and $192.9 million. Buybacks were $260 million, $300 million and $92 million, all above the $66-67 million quarterly dividend, so the buyback invalidation test was not met. Net debt was $5,013.8 million at Q3 against $4,624.1 million a year earlier, so the refinancing signpost stays open until the FY2026 annual filing."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "USIS operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 20.2,
+     "Q2 FY2026": 22.5,
+     "Q3 FY2026": 24.3
+    },
+    "good": "up"
+   },
+   {
+    "name": "Workforce Solutions operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 45.3,
+     "Q2 FY2026": 44.9,
+     "Q3 FY2026": 44.1
+    },
+    "good": "up"
+   },
+   {
+    "name": "Diluted EPS attributable to Equifax",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 1.42,
+     "Q2 FY2026": 1.54,
+     "Q3 FY2026": 1.79
+    },
+    "good": "up"
+   },
+   {
+    "name": "Reported revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 1648.9,
+     "Q2 FY2026": 1700.1,
+     "Q3 FY2026": 1692.5
+    },
+    "good": "up"
+   },
+   {
+    "name": "Current ratio",
+    "unit": "x",
+    "values": {
+     "Q1 FY2026": 0.61,
+     "Q2 FY2026": 0.6,
+     "Q3 FY2026": 1.09
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "ab24044c5ea3cde7e1f051f981d52083",
+  "id": "EFX_earnings_2026-11-26_ab2404",
+  "pdf": "reports/archive/EFX/EFX_earnings_2026-11-26_ab2404/EFX_multi_quarter_update.pdf",
+  "args": "reports/archive/EFX/EFX_earnings_2026-11-26_ab2404/EFX_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "MA",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 184,
+  "fc_total": 184,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Mastercard's first three FY2026 quarters: net revenue up 14-16% each quarter, but value-added services growth slipped below the 20% signpost in Q3.",
+  "theses": [
+   {
+    "thesis": "T1: Value-added services will keep outgrowing the payment network, so blended revenue growth stays at or above 13% in FY2026.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Reported VAS growth was 22% in Q1 (signpost met, but 18% currency-neutral), 20% in Q2 and 19% in Q3, so the Q3 signpost was missed. Blended reported net revenue growth was 16%, 14% and 14%, and 15% year to date, above the 13% and 12% thresholds. The Q1 status is carried from the thesis log, which recorded it as weakened."
+   },
+   {
+    "thesis": "T2: Operating leverage persists: operating margin stays at or above 57% in FY2026 as adjusted opex grows slower than revenue.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "GAAP operating margin was 58.4%, 60.2% and 59.8%, all above 57%; adjusted opex grew 11%, 11% and 12% against revenue growth of 16%, 14% and 14%. Q2 is the strongest quarter, and Q3 was 0.4 points below Q2 on a GAAP basis. The Q2 strengthening is carried from the thesis log."
+   },
+   {
+    "thesis": "T3: Returns will lag the cost of capital unless revenue compounds near 13.5% a year, because the current price already assumes that growth.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "Nine-month reported revenue growth is 15%, and consensus FY2026 revenue is $37.4 billion (+14.0%) with EPS of $20.06. Consensus FY2027 revenue is $42.1 billion, above the $41.4 billion invalidation line. The share price rose to $659.97 from $646.59 at the 10-K, and the forward P/E is 32.9x, so the price still assumes the growth. The reverse DCF implied growth is 13.8%, above the 13.5% in the baseline (illustrative)."
+   },
+   {
+    "thesis": "T4: Regulatory action on interchange and switching is the main threat to growth, and tightening in a major market would push growth below consensus.",
+    "status": "intact",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "intact",
+     "Q3 FY2026": "intact"
+    },
+    "evidence": "The three filings and releases report no new interchange or switching rule adopted in a major market, and no Regulation II court outcome. Litigation charges were $0, $82 million and $74 million in the three quarters, $156 million for nine months, against $330 million a year earlier, so the FY2026 litigation invalidation threshold of $504 million is on track to be met. Charges were settlements with opted-out US merchants and ATM surcharge complaints, not new rules."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Net revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 8398,
+     "Q2 FY2026": 9277,
+     "Q3 FY2026": 9807
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted operating expenses",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 3289,
+     "Q2 FY2026": 3608,
+     "Q3 FY2026": 3872
+    },
+    "good": "down"
+   },
+   {
+    "name": "GAAP operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 58.4,
+     "Q2 FY2026": 60.2,
+     "Q3 FY2026": 59.8
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted operating margin",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 60.8,
+     "Q2 FY2026": 61.1,
+     "Q3 FY2026": 60.5
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.6,
+     "Q2 FY2026": 5.04,
+     "Q3 FY2026": 5.31
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "690710ea969eca37ca35132042188ad3",
+  "id": "MA_earnings_2026-11-26_690710",
+  "pdf": "reports/archive/MA/MA_earnings_2026-11-26_690710/MA_multi_quarter_update.pdf",
+  "args": "reports/archive/MA/MA_earnings_2026-11-26_690710/MA_multi_quarter_update_build_args.json"
+ },
+ {
+  "ticker": "MCO",
+  "kind": "earnings",
+  "fy": "2025",
+  "date": "2026-11-26",
+  "fc_matched": 146,
+  "fc_total": 146,
+  "title": "Earnings Review bis Q3 FY2026",
+  "quarters": [
+   "Q1 FY2026",
+   "Q2 FY2026",
+   "Q3 FY2026"
+  ],
+  "headline": "Q2 issuance surge lifted MCO's margin and EPS; Q3 revenue grew only 1%, operating margin fell 90 bps, and total debt rose above $7.35bn.",
+  "theses": [
+   {
+    "thesis": "T1: Operating leverage keeps margins expanding, because operating and SG&A cost growth stays well below revenue growth.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Q2 operating margin rose 480 bps to 47.9% with operating and SG&A costs up 5% against revenue up 15%. Q3 margin fell 90 bps to 44.8% as operating and SG&A costs rose 2% against revenue up 1%, and restructuring rose 29% to $27 million. The Q3 result is the first quarter where cost growth outpaced revenue growth, and the 43.4% signpost cannot be checked until the FY2026 10-K."
+   },
+   {
+    "thesis": "T2: The share price assumes growth well above consensus, so at consensus growth the implied return falls short of the cost of capital.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "Q2 revenue growth of 15% was the strongest quarter, which the logged Q2 status already treats as weakening the thesis. Q3 growth slowed to 1%, below the 9% signpost, which supports the thesis that growth at the current price is not sustained. Consensus FY2026 growth is 6.5% and the reverse DCF implies 18.1% per year."
+   },
+   {
+    "thesis": "T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.",
+    "status": "weakened",
+    "statuses": {
+     "Q1 FY2026": "weakened",
+     "Q2 FY2026": "weakened",
+     "Q3 FY2026": "weakened"
+    },
+    "evidence": "Total debt was $7,492 million at 30 September 2026, above the $7,351 million FY2025 level and the $7.35 billion signpost. Net cash moved to -$5,871 million from -$5,104 million a year earlier, and cash fell to $1,621 million from $2,259 million. Shares outstanding fell 3.3% y/y. Buyback and dividend dollars for FY2026 are not in the data, so the payout test cannot be confirmed. The 10-Q cites lower interest income from higher repurchases."
+   },
+   {
+    "thesis": "T4: Debt-issuance cyclicality will show up in MIS earnings within a year, so the stock is exposed to a weaker issuance cycle.",
+    "status": "strengthened",
+    "statuses": {
+     "Q1 FY2026": "intact",
+     "Q2 FY2026": "strengthened",
+     "Q3 FY2026": "strengthened"
+    },
+    "evidence": "MIS external revenue grew 8% in Q1, 25% in Q2 and fell 1% in Q3. The Q2 surge runs against the thesis's near-term prediction, but the logged Q2 status is kept because the issuance-driven swing in Q3 confirms the cyclicality the thesis describes. The Q3 10-Q cites lower leveraged finance issuance and market volatility as the cause. A full-year MIS decline is not yet visible, so the FY2026 CFG test remains open until the 10-K."
+   }
+  ],
+  "kpis": [
+   {
+    "name": "Total revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 2079,
+     "Q2 FY2026": 2185,
+     "Q3 FY2026": 2023
+    },
+    "good": "up"
+   },
+   {
+    "name": "Operating margin (GAAP)",
+    "unit": "%",
+    "values": {
+     "Q1 FY2026": 44.3,
+     "Q2 FY2026": 47.9,
+     "Q3 FY2026": 44.8
+    },
+    "good": "up"
+   },
+   {
+    "name": "MIS external revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 1153,
+     "Q2 FY2026": 1260,
+     "Q3 FY2026": 1087
+    },
+    "good": "up"
+   },
+   {
+    "name": "MA external revenue",
+    "unit": "USD mn",
+    "values": {
+     "Q1 FY2026": 926,
+     "Q2 FY2026": 925,
+     "Q3 FY2026": 936
+    },
+    "good": "up"
+   },
+   {
+    "name": "Adjusted diluted EPS",
+    "unit": "USD",
+    "values": {
+     "Q1 FY2026": 4.33,
+     "Q2 FY2026": 4.68,
+     "Q3 FY2026": 4.14
+    },
+    "good": "up"
+   }
+  ],
+  "md5": "3cf9f5bdac2967bf0102f9dd4aa86dcb",
+  "id": "MCO_earnings_2026-11-26_3cf9f5",
+  "pdf": "reports/archive/MCO/MCO_earnings_2026-11-26_3cf9f5/MCO_multi_quarter_update.pdf",
+  "args": "reports/archive/MCO/MCO_earnings_2026-11-26_3cf9f5/MCO_multi_quarter_update_build_args.json"
+ }
+]

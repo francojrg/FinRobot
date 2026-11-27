@@ -1,0 +1,318 @@
+Company names (use exactly these names): AMZN = Amazon.com, Inc.; MSFT = Microsoft Corporation; GOOGL = Alphabet Inc.; WMT = Walmart Inc.
+
+
+Revenue:
+AMZN: 2022    513983
+2023    574785
+2024    637959
+2025    716924
+Name: Revenue, dtype: object
+MSFT: 2023    211915
+2024    245122
+2025    281724
+2026    331839
+Name: Revenue, dtype: object
+GOOGL: 2022    282836
+2023    307394
+2024    350018
+2025    402836
+Name: Revenue, dtype: object
+WMT: 2023    611289
+2024    648125
+2025    680985
+2026    713163
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+AMZN: 2022      n/a
+2023    11.8%
+2024    11.0%
+2025    12.4%
+Name: Revenue Growth, dtype: object
+MSFT: 2023      n/a
+2024    15.7%
+2025    14.9%
+2026    17.8%
+Name: Revenue Growth, dtype: object
+GOOGL: 2022      n/a
+2023     8.7%
+2024    13.9%
+2025    15.1%
+Name: Revenue Growth, dtype: object
+WMT: 2023     n/a
+2024    6.0%
+2025    5.1%
+2026    4.7%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+AMZN: 2022    225152
+2023    270046
+2024    311671
+2025    360510
+Name: Gross Profit, dtype: object
+MSFT: 2023    146052
+2024    171008
+2025    193893
+2026    225465
+Name: Gross Profit, dtype: object
+GOOGL: 2022    156633
+2023    174062
+2024    203712
+2025    240301
+Name: Gross Profit, dtype: object
+WMT: 2023    147568
+2024    157983
+2025    169232
+2026    177768
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+AMZN: 2022    43.8%
+2023    47.0%
+2024    48.9%
+2025    50.3%
+Name: Gross Margin, dtype: object
+MSFT: 2023    68.9%
+2024    69.8%
+2025    68.8%
+2026    67.9%
+Name: Gross Margin, dtype: object
+GOOGL: 2022    55.4%
+2023    56.6%
+2024    58.2%
+2025    59.7%
+Name: Gross Margin, dtype: object
+WMT: 2023    24.1%
+2024    24.4%
+2025    24.9%
+2026    24.9%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+AMZN: 2022     38352
+2023     89402
+2024    123815
+2025    165341
+Name: EBITDA, dtype: object
+MSFT: 2023    105140
+2024    131680
+2025    155445
+2026    207519
+Name: EBITDA, dtype: object
+GOOGL: 2022     85160
+2023     97971
+2024    135394
+2025    180698
+Name: EBITDA, dtype: object
+WMT: 2023    30089
+2024    36384
+2025    42010
+2026    46471
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+AMZN: 2022     7.5%
+2023    15.6%
+2024    19.4%
+2025    23.1%
+Name: EBITDA Margin, dtype: object
+MSFT: 2023    49.6%
+2024    53.7%
+2025    55.2%
+2026    62.5%
+Name: EBITDA Margin, dtype: object
+GOOGL: 2022    30.1%
+2023    31.9%
+2024    38.7%
+2025    44.9%
+Name: EBITDA Margin, dtype: object
+WMT: 2023    4.9%
+2024    5.6%
+2025    6.2%
+2026    6.5%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+AMZN: 2022    -16893
+2023     32217
+2024     32878
+2025      7695
+Name: FCF, dtype: object
+MSFT: 2023    59475
+2024    74071
+2025    71611
+2026    66987
+Name: FCF, dtype: object
+GOOGL: 2022    60010
+2023    69495
+2024    72764
+2025    73266
+Name: FCF, dtype: object
+WMT: 2023    11984
+2024    15120
+2025    12660
+2026    14923
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+AMZN: 2022     n/m
+2023    1.06
+2024    0.55
+2025     0.1
+Name: FCF Conversion, dtype: object
+MSFT: 2023    0.82
+2024    0.84
+2025     0.7
+2026     0.5
+Name: FCF Conversion, dtype: object
+GOOGL: 2022     1.0
+2023    0.94
+2024    0.73
+2025    0.55
+Name: FCF Conversion, dtype: object
+WMT: 2023    1.03
+2024    0.97
+2025    0.65
+2026    0.68
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+AMZN: 2022    -1.2%
+2023    12.7%
+2024    18.1%
+2025    16.8%
+Name: ROIC, dtype: object
+MSFT: 2023    29.2%
+2024    28.3%
+2025    26.8%
+2026    28.2%
+Name: ROIC, dtype: object
+GOOGL: 2022    22.4%
+2023    25.1%
+2024    29.9%
+2025    28.7%
+Name: ROIC, dtype: object
+WMT: 2023    11.0%
+2024    14.7%
+2025    17.1%
+2026    16.9%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+AMZN: 2022    24.68
+2023    18.34
+2024    19.19
+2025    15.38
+Name: EV/EBITDA, dtype: object
+MSFT: 2023    24.31
+2024     25.6
+2025    23.98
+2026    13.53
+Name: EV/EBITDA, dtype: object
+GOOGL: 2022     13.4
+2023     17.8
+2024    17.07
+2025     21.1
+Name: EV/EBITDA, dtype: object
+WMT: 2023    14.58
+2024    13.61
+2025    19.96
+2026    21.64
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+AMZN: 2022    1.84
+2023    2.85
+2024    3.72
+2025    3.55
+Name: EV/Sales, dtype: object
+MSFT: 2023    12.06
+2024    13.75
+2025    13.23
+2026     8.46
+Name: EV/Sales, dtype: object
+GOOGL: 2022    4.04
+2023    5.67
+2024     6.6
+2025    9.46
+Name: EV/Sales, dtype: object
+WMT: 2023    0.72
+2024    0.76
+2025    1.23
+2026    1.41
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+AMZN: 2022      n/m
+2023    52.39
+2024    39.67
+2025    32.19
+Name: PE Ratio, dtype: object
+MSFT: 2023    35.18
+2024    37.88
+2025    36.47
+2026    20.78
+Name: PE Ratio, dtype: object
+GOOGL: 2022    19.35
+2023    24.08
+2024    23.54
+2025    28.95
+Name: PE Ratio, dtype: object
+WMT: 2023    33.69
+2024    28.79
+2025    40.73
+2026    43.64
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+AMZN: 2022    5.89
+2023    7.81
+2024    8.13
+2025    6.03
+Name: PB Ratio, dtype: object
+MSFT: 2023    12.27
+2024    12.38
+2025    10.77
+2026     6.26
+Name: PB Ratio, dtype: object
+GOOGL: 2022    4.43
+2023    6.14
+2024    7.11
+2025    9.11
+Name: PB Ratio, dtype: object
+WMT: 2023    5.06
+2024    5.29
+2025    8.65
+2026    9.53
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for AMZN and ['MSFT', 'GOOGL', 'WMT'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

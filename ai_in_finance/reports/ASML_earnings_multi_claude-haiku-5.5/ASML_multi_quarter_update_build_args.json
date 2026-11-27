@@ -1,0 +1,122 @@
+{
+  "ticker_symbol": "ASML",
+  "fyear": "2025",
+  "save_dir": "../reports/ASML_earnings_multi_claude-haiku-5.5",
+  "headline": "Through Q3 FY2026, ASML raised full-year sales guidance to €44–45bn and beat EPS consensus each quarter, while receivables and cash conversion lagged.",
+  "summary": "ASML's first three quarters of FY2026 ran ahead of the annual report's outlook. Net sales were €8.8bn, €9.3bn and €11.7bn in Q1, Q2 and Q3 [1]. Management raised full-year guidance twice, from €34–39bn in the baseline to €36–40bn in April and to €44–45bn in October, with gross margin around 56% [1][4]. Gross margin (US GAAP) was 53.0%, 54.0% and 57.5%, above the baseline's gross-margin floor in every quarter [1][4]. EPS beat consensus in all three quarters, by 8.0%, 9.1% and 9.9% [3]. The weak points are cash conversion and receivables: H1 FY2026 operating cash flow was negative on the EU-IFRS statutory basis, and days sales outstanding rose from 34 at year-end 2025 to 72 in Q3, against 65 a year earlier [1][3]. Consensus FY2026 revenue of €44.5bn sits inside the new guidance [3]. The reverse DCF still implies 20.6% annual revenue growth for ten years, against a 15.6% historical CAGR and a 10.6% implied return below the 11.5% WACC [2][3]. Status: T1 and T2 strengthened, T3 and T4 intact.",
+  "results_commentary": "Q1 FY2026 (net sales €8.8bn, gross margin 53.0%) was the first quarter after the annual report and was within guidance. Gross margin was at the top of the 51–53% range [1]. EPS of €7.15 beat consensus by 8.0% [3]. Two problems showed up at once. Operating cash flow was weak: the free cash flow margin was -29.7% for the quarter [3], and H1 FY2026 operating cash flow was -€481.5m on the EU-IFRS statutory basis, against +€1,287.4m in H1 FY2025 [1]. Days sales outstanding rose from 34 at year-end 2025 to 46 in Q1 [3]. Cash and short-term investments fell to €8.4bn from €13.3bn, partly because of €1.1bn of buybacks in the quarter [1]. Q1 year-on-year revenue growth is not in the releases we have.\n\nQ2 FY2026 (net sales €9.3bn, gross margin 54.0%) held. Gross margin came in above the 51–52% guidance [1], and EPS of €7.58 beat consensus by 9.1% [3]. H1 FY2026 net sales rose 17.2% to €18.1bn on the statutory basis, and service and field option sales rose 28.1% to €5.2bn, driven by the installed base and demand for productivity upgrades [1]. Lithography system units in H1 were 170, against 153 a year earlier [1]. The margin view needs a caveat. On the EU-IFRS basis, H1 gross margin fell to 50.9% from 53.3%, mainly from higher amortisation of capitalised development costs, while R&D rose to €2.5bn from €1.8bn [1]. The baseline's gross-margin floor is set on US GAAP quarterly margins, which stayed above it. Days sales outstanding rose to 71 [3].\n\nQ3 FY2026 (net sales €11.7bn, +55.2% year on year [3]) accelerated. Gross margin was 57.5%, against 51.6% a year earlier [1][3]. Installed base management sales reached €3.3bn, above guidance, and new system units rose to 113 from 86 in Q2 [1]. Diluted EPS was €12.93 against €5.48 [3], and it beat consensus by 9.9% [3]. Opex fell to 13.1% of revenue from 18.8% [3]. The shortfall remains receivables: days sales outstanding were 72, against 65 a year earlier [3]. Net cash recovered to €10.8bn after €4.1bn of buybacks in the quarter, so the cash recovery came from the quarter's earnings and a fall in total debt to €2.0bn from €4.4bn at year-end 2025, not from lower receivables [1][2][3]. The result that would prove the thesis wrong would be a further rise in receivables without matching revenue growth in Q4 FY2026.",
+  "thesis_check": [
+    {
+      "thesis": "T1: EUV and service growth can sustain revenue expansion above 15% a year as AI capacity spending continues.",
+      "signpost": "Q4 2026 results show full-year 2026 net sales within or above the €34–39bn guidance, with service growing above 20% [1]. Invalidated if 2026 net sales fall below €34bn or EUV system sales decline y/y in any 2026 quarter.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Guidance for FY2026 net sales was raised to €36–40bn in April and to €44–45bn in October [1][4]. H1 FY2026 service and field option sales rose 28.1% [1], above the 20% signpost. The Q4 test is not yet due, and EUV system sales are not disclosed separately in the releases, so the EUV invalidation test cannot be run from these sources."
+    },
+    {
+      "thesis": "T2: Margins can stay near 50%+ gross as mix shifts to EUV and service, supporting earnings growth.",
+      "signpost": "Gross margin holds above the baseline floor in each 2026 quarterly report, with EPS beating consensus as it has in Q1 to Q3 2026 [3]. Invalidated if gross margin falls below that floor in any 2026 quarter, or EPS misses consensus two quarters in a row.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Gross margin was 53.0%, 54.0% and 57.5% in Q1 to Q3 [1], and Q3 was 57.5% against 51.6% a year earlier [3]. EPS beat consensus by 8.0%, 9.1% and 9.9% [3]. On the EU-IFRS basis, H1 gross margin was 50.9%, below the 53.3% of H1 2025, because of capitalised development amortisation [1]; this basis is not the one the signpost uses."
+    },
+    {
+      "thesis": "T3: Customer concentration is a material risk that could cut revenue faster than the cycle would otherwise imply.",
+      "signpost": "Largest-customer share is reported in the FY2026 20-F, with a decline below 20% alongside rising unit shipments [1]. Invalidated if the largest customer's share falls below 20% in the FY2026 20-F with unit shipments rising.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The largest-customer share is not reported in the 2026 quarterly releases, so the signpost cannot be tested before the FY2026 20-F [1][4]. Unit shipments rose: H1 FY2026 lithography units were 170 against 153 [1]. Management said customers are placing orders for 2029 and 2030 and that 2027 and 2028 supply will not fully meet demand [1], which supports volume but does not change the concentration exposure."
+    },
+    {
+      "thesis": "T4: The current price is fully valued: the shares need growth that history has not delivered for a decade.",
+      "signpost": "Consensus FY2027 revenue (€57.4bn, as stated in EUR by the data source) is cut by more than 10% in a 2027 quarterly update, or the share price falls below the implied value [3]. Invalidated if consensus and sustained orders lift the 10-year growth needed to justify the price below 15%.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Consensus FY2027 revenue has not been cut: it is €57.4bn, and FY2027 EPS estimates rose 10.5% over 90 days [3]. The valuation inputs are a single snapshot dated 26 November 2026, so they apply to all three quarters. The reverse DCF implies 20.6% annual revenue growth for ten years, up from 20.1% in the baseline, and a 10.6% implied return against an 11.5% WACC [2][3]. Consensus was raised, so the required growth did not fall; the thesis is not triggered."
+    }
+  ],
+  "risk_update": "Concentration risk is unchanged: the 2026 quarterly releases do not update the largest-customer share, which will be reported in the FY2026 20-F [1][4]. Management's Q3 statement that 2027 and 2028 supply will not fully meet customer demand [1] means the risk is now a capacity constraint as well as concentration. ASML plans a 30% increase in 2026 low-NA EUV and DUV immersion capacity in 2027, and is investigating a further 30% in 2028 [1]. The Q3 release says the 2026 guidance bandwidth covers ongoing export-control discussions [1]. The baseline noted that the export-control suspension runs until 10 November 2026 [4]. No source in this update confirms what happened after that date. The H1 FY2026 statutory report says no new risk factors were added [1]. Working capital risk is new in the figures: days sales outstanding rose from 34 to 72 [3], and H1 operating cash flow was negative [1]. Cost risk is up: R&D and SG&A are guided to about €1.2bn and €0.4bn for Q4 FY2026 [1].",
+  "outlook": "Management guides Q4 FY2026 net sales to €14.2–15.2bn and gross margin to about 57%, and FY2026 net sales to €44–45bn with gross margin around 56% [1]. Consensus FY2026 revenue is €44.5bn and FY2027 is €57.4bn, with FY2027 EPS estimates up 10.5% over 90 days and no downward revisions in the last 30 days [3]. Consensus data is dated after the 10-K, and FY2027 revenue estimates range from €43.6bn to €61.6bn [3]. Watch for: the Q4 FY2026 print against the €14.2–15.2bn range; days sales outstanding after 72 in Q3 [3]; the FY2026 20-F largest-customer share; the status of export controls after 10 November 2026; and whether the 2028 capacity expansion beyond 30% is confirmed [1].",
+  "company_kpis": [
+    {
+      "name": "Total net sales",
+      "unit": "EUR mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 8767,
+        "Q2 FY2026": 9326,
+        "Q3 FY2026": 11662
+      },
+      "prior_values": {},
+      "source": "[1] earnings releases; year-ago quarter values not in the releases"
+    },
+    {
+      "name": "Gross margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 53,
+        "Q2 FY2026": 54,
+        "Q3 FY2026": 57.5
+      },
+      "prior_values": {
+        "Q3 FY2026": 51.6
+      },
+      "source": "[1] earnings releases (US GAAP); prior-year Q3 from [3] scorecard"
+    },
+    {
+      "name": "Installed Base Management sales",
+      "unit": "EUR mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2488,
+        "Q2 FY2026": 2762,
+        "Q3 FY2026": 3289
+      },
+      "prior_values": {},
+      "source": "[1] earnings releases; year-ago quarter values not in the releases"
+    },
+    {
+      "name": "New lithography systems sold",
+      "unit": "count",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 67,
+        "Q2 FY2026": 86,
+        "Q3 FY2026": 113
+      },
+      "prior_values": {},
+      "source": "[1] earnings releases; H1 FY2026 total 153 new vs 140 in H1 FY2025 per statutory report"
+    },
+    {
+      "name": "Days sales outstanding",
+      "unit": "days",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 46,
+        "Q2 FY2026": 71,
+        "Q3 FY2026": 72
+      },
+      "prior_values": {
+        "Q3 FY2026": 65
+      },
+      "source": "[3] multi-quarter scorecard (Yahoo Finance)"
+    }
+  ]
+}

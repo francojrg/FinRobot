@@ -1,0 +1,598 @@
+[33mUser_Proxy[0m (to Expert_Investor):
+
+
+With the tools you've been provided, write an annual report based on MA's 2025 10-k report, format it into a pdf.
+Pay attention to the followings:
+- Explicitly explain your working plan before you kick off.
+- Use tools one by one for clarity.
+- All your file operations should be done in "../reports/MA_2025_claude-haiku-5.5_eval_nosc".
+- Before the competitor analysis, call get_peer_candidates. Pass extra_tickers with US-listed companies that have a similar business model (e.g. listed competitors named in the 10-K). Choose the 3 most comparable peers from the returned list, business model first, size second; state briefly why.
+- Use the analysis tools (income statement, balance sheet, cash flow, segments, business highlights,
+  company description, risk assessment, competitors) and base the report on their ANALYSIS RESULT outputs.
+- Each of the five sections should be roughly 350-450 words, split into 2-4 paragraphs.
+- Call get_consensus_and_liquidity once for MA and 2025. Use its figures for valuation and funding
+  (consensus growth and EPS, forward EV/Sales, cash runway, dilution, reverse DCF and implied return, estimate
+  revisions, earnings surprises, quality scores) and say that they are dated
+  after the 10-K. In the investment summary, compare the growth implied by the reverse DCF with consensus and
+  historical growth: what does the current valuation require?
+- Write an investment summary of 130-180 words for page 1.
+- Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations). Phrase them as your
+  investment view, not as plain facts: each states a claim and the main reason (e.g. "Margin expansion should
+  continue as launch volumes scale: gross margin rose to 34.4% [1]"). Do not repeat the summary's first sentences.
+- Write 3-4 investment_theses that match the takeaways, each with: thesis (the view, a claim that can turn out
+  wrong), evidence (figures with citation), signpost (a measurable KPI or dated event that will confirm it, e.g.
+  "Neutron first launch by Q4 2026" or "Subscription ARR growth above 30%") and invalidation (what would prove it
+  wrong). The earnings reviewer will check these signposts after each quarter.
+- Cite sources inline as [1] 10-K, [2] Yahoo Finance financials/prices, [3] analyst consensus, [4] peer financials.
+- When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
+  revenues for the last two fiscal years as stated in the 10-K (USD millions), key_takeaways as a list and
+  investment_theses as a list of objects.
+- Do not generate the pdf until all of this is fulfilled.
+- If build_annual_report returns a SELF-CHECK list, revise the texts once as instructed and rebuild.
+
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+**Working plan**
+
+1. Locate the MA FY2025 10-K filing (get_sec_report).
+2. Run the analysis tools one at a time, saving outputs to `../reports/MA_2025_claude-haiku-5.5_eval_nosc`: company description, business highlights, income statement, segments, balance sheet, cash flow, risk factors.
+3. Call get_peer_candidates with US-listed peers that compete in similar business models (e.g., Visa, PayPal, Fiserv, Global Payments), then pick the three most comparable by business model, then size.
+4. Run get_competitors_analysis on those three peers.
+5. Call get_consensus_and_liquidity once for MA, FY2025, for valuation and funding.
+6. Pull the chart inputs (share performance, P/E and FCF yield), then key data for the filing date.
+7. Draft the five sections (350–450 words each, 2–4 paragraphs), the 130–180 word investment summary, 3–4 takeaways, and 3–4 theses with signposts and invalidation points.
+8. Call build_annual_report once, then revise if a SELF-CHECK list appears.
+
+Starting with step 1.
+[32m***** Suggested tool call (toolu_01MwUNg9BiVWazbkbngRvcXY): get_sec_report *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025"}
+[32m********************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_sec_report...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01MwUNg9BiVWazbkbngRvcXY) *****[0m
+Link: https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm
+Filing Date: 2026-02-11
+Fiscal Period End: 2025-12-31
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_0185q1Yj6karJdidcvEy9NwU): analyze_company_description *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/company_description.txt"}
+[32m*********************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_company_description...[0m
+Sec Api initialized
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_0185q1Yj6karJdidcvEy9NwU) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/company_description.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/company_description_analysis.txt):
+
+**Company Overview**
+
+Founded in 2001, Mastercard Incorporated is a technology company in the global payments industry. It was incorporated in Delaware in May 2001, and its principal operating subsidiary, Mastercard International, was formed in 1966. The company operates a four-party payments network that switches (authorizes, clears and settles) transactions in more than 150 currencies and more than 220 countries and territories. It does not issue cards, extend credit, or set the rates that issuers charge account holders or acquirers charge merchants.
+
+**Core Strengths and Products**
+
+Net revenue was $32.8 billion in 2025, up 16% from $28.2 billion in 2024. The payment network produced $19.5 billion (up 12%), and value-added services and solutions produced $13.3 billion (up 23%). The company cites its global network, its franchise model (including a settlement guarantee backed by its credit standing), multi-rail capabilities, brands, data and AI, and local presence as its competitive advantages.
+
+**Market Position, Geography and Customers**
+
+The filing does not quantify market share. It states that some competitors, including Visa, American Express, JCB, China UnionPay and Discover, have more share in certain jurisdictions. U.S. Mastercard-branded GDV grew 6% in 2025, compared with 10% for the rest of the world (U.S. dollar basis). No country other than the United States generated more than 10% of net revenue. The five largest customers generated about $6.9 billion, or 21%, of net revenue in 2025. The filing does not name them.
+
+**Industry Trends, Opportunities and Challenges**
+
+Opportunities include cash displacement, tokenization (about 40% of transactions in 2025), agentic commerce and stablecoin settlement. Challenges include government-backed real-time systems such as Brazil's PIX, FedNow and India's UPI, central bank digital currencies, interchange caps in the U.S. and New Zealand, and conflicting U.S. court rulings on the Regulation II cap.
+
+**Strategic Initiatives**
+
+In 2025 the company launched Mastercard Agent Pay, Threat Intelligence (with Recorded Future), Commerce Media and Merchant Cloud. It also became naming partner of the McLaren Formula 1 Team from the 2026 season. Acquisitions added 1 percentage point to 2025 net revenue growth. The company returned $17.6 billion to stockholders, including $11.7 billion of repurchases.
+
+---
+
+**Summary**
+
+Mastercard grew 2025 net revenue 16% to $32.8 billion, with value-added services growing 23%. Its growth now depends on diversifying beyond the payment network, which grew 12%. Risks include government-backed payment systems, regulatory interchange caps, and litigation charges of $504 million. The filing gives no market share figure, and the five largest customers provide 21% of revenue. Adjusted operating expenses rose 14%. The company's ability to sustain value-added growth while managing regulation and cost is the key test to monitor.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_0154BEzCQvGY1YWTWFkynTL1): analyze_business_highlights *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/business_highlights.txt"}
+[32m*********************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_business_highlights...[0m
+Sec Api initialized
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_0154BEzCQvGY1YWTWFkynTL1) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/business_highlights.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/business_highlights_analysis.txt):
+
+**Payment network:** Net revenue rose 12% to $19,476 million in 2025, from $17,335 million in 2024, on both an as-reported and currency-neutral basis. The growth came mainly from domestic and cross-border dollar volume and a higher number of switched transactions, while rebates and incentives paid to customers rose 16% to $20,522 million, faster than the network revenue they offset.
+
+**Value-added services and solutions:** Net revenue grew 23% to $13,315 million in 2025, from $10,832 million in 2024, or 21% on a currency-neutral basis. Acquisitions contributed 3 percentage points of that growth, and the remaining increase came from growth in underlying key drivers, security and digital and authentication solutions, consumer acquisition and engagement services, pricing and business and market insights.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_019AXPMf9fmH4Rz7VZrgCz9z): analyze_income_stmt *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/income_statement.txt"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_income_stmt...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_019AXPMf9fmH4Rz7VZrgCz9z) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/income_statement.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/income_statement_analysis.txt):
+
+Net revenue rose 16% to $32.8 billion and diluted EPS rose 19% to $16.52, but the effective tax rate climbed to 19.4%. **Revenue mix:** Value-added services and solutions grew 23% to $13.3 billion, including 3 points from acquisitions, while the payment network grew 12% to $19.5 billion, led by cross-border assessments up 18%. **Cost control:** Adjusted operating expenses rose 14%, below revenue growth, but depreciation and amortization jumped 27%. **Margins:** Calculated from the income statement, gross margin rose to 77.9% from 76.3% and operating margin to 57.6% from 55.3%, while net margin slipped to 45.6% from 45.7% under the higher tax rate. **Earnings per share:** Diluted EPS outpaced net income (19% versus 16%) as diluted shares fell 2% to 906 million. **Benchmarks:** The materials contain no peer or industry data, so comparisons cover only 2024 and 2023.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_0177wpv19zCbhP9PH9PEAbuZ): analyze_segment_stmt *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/segment_statement.txt"}
+[32m**************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_segment_stmt...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_0177wpv19zCbhP9PH9PEAbuZ) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/segment_statement.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/segment_statement_analysis.txt):
+
+**Note on scope:** The resources do not report separate segment profit, market share, or named strategic partners. The MD&A splits net revenue into two components, which I analyze below. Company net income rose 16% to $14,968 million in 2025 (2024: $12,874 million), while the effective tax rate rose to 19.4% from 15.6%, primarily due to the Singapore net tax effect and the Pillar 2 Rules.
+
+**Payment Network**
+
+Net revenue rose 12% to $19,476 million in 2025 from $17,335 million, driven by 9% GDV growth and 18% cross-border volume growth (USD basis). Rebates and incentives to customers reached $20,522 million, up 16%, which offsets gross volume gains. Segment-level costs and profit are not disclosed.
+
+**Value-Added Services and Solutions**
+
+Net revenue rose 23% to $13,315 million from $10,832 million; acquisitions contributed 3 points and currency-neutral growth was 21%. Growth came from security, digital and authentication, consumer acquisition, pricing and business insights. Personnel costs for strategic initiatives drove G&A higher, and capitalized software amortization lifted D&A 27%. Segment profit is not disclosed.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_015kcovTrmPKQAJZmKK8q5TR): analyze_balance_sheet *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/balance_sheet.txt"}
+[32m***************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_balance_sheet...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_015kcovTrmPKQAJZmKK8q5TR) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/balance_sheet.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/balance_sheet_analysis.txt):
+
+At December 31, 2025, Mastercard's current ratio was 1.04x (current assets of $23.6 billion against current liabilities of $22.8 billion), up slightly from 1.03x in 2024 but well below 1.17x in 2023. Working capital fell to $0.8 billion from $2.7 billion in 2023. Total debt rose to $19.0 billion from $18.2 billion, and debt to stockholders' equity of $7.7 billion is 2.5x, compared with 2.8x in 2024 and 2.3x in 2023. Equity rose from $6.5 billion as retained earnings grew $12.1 billion, but $11.7 billion of 2025 buybacks went to treasury stock, which reached $83.2 billion. Tangible book value remains negative at $7.4 billion because goodwill and intangibles total $15.1 billion. Net debt fell to $8.4 billion from $9.8 billion, supported by $17.6 billion of operating cash flow. A sustained fall in operating cash flow, or further debt growth without matching earnings, would weaken this assessment.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01RoBD6c8J63h7FzQN9JS87N): analyze_cash_flow *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/cash_flow.txt"}
+[32m***********************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_cash_flow...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01RoBD6c8J63h7FzQN9JS87N) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/cash_flow.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/cash_flow_analysis.txt):
+
+Operating cash flow reached $17.6 billion in 2025, up $2.9 billion from $14.8 billion in 2024, mainly on higher net income, although the working-capital drag widened to $1.4 billion from $1.0 billion. Investing outflows fell to $1.4 billion from $3.4 billion because 2024 included $2.5 billion of acquisitions; capex was $1.2 billion. Financing outflows rose to $14.2 billion from $10.8 billion as debt proceeds fell to $1.2 billion from $4.0 billion, while buybacks took $11.7 billion and dividends $2.8 billion. Those distributions, $14.5 billion (illustrative: about 82% of operating cash flow), were funded internally. Cash, equivalents and investments rose to $10.9 billion, with $8.0 billion of undrawn credit against $19.0 billion of debt. Liquidity is adequate, but buybacks absorb most free cash, leaving little margin if litigation payments rise.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01PjqghL5xT4VNaQqfZbKYxv): get_risk_assessment *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/risk_assessment.txt"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_risk_assessment...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01PjqghL5xT4VNaQqfZbKYxv) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/risk_assessment.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/risk_assessment_analysis.txt):
+
+# Mastercard: Top Three Risks From the 2025 Form 10-K Risk Factors
+
+The three risks that the filing's risk factors describe as most likely to affect results are regulatory pressure on the four-party model and network fees, competitive and pricing pressure combined with customer concentration, and information security together with privacy and AI regulation. The provided resources contain no industry comparison data, no cyclicality measures, and no interchange, fee, or loss-rate figures, so the analysis below relies on the filing's own descriptions. Where a number is quantified, it is cited. The only company-level quantities in the risk factors are that approximately 71% of 2025 revenue came from outside the U.S., that a significant portion of revenue is concentrated among the five largest customers (without a percentage), and that Mastercard Foundation holds more than 5% of general voting power.
+
+## Risk 1: Regulation of Interchange, Network Fees, Surcharging and Switching
+
+**Industry vertical risk.** The filing describes this as a regulatory risk specific to Mastercard's position rather than a generic sector risk. Regulators in several jurisdictions have designated parts of the business as "systemically important payment systems," as "specified service providers," or as "critical infrastructure," and the filing notes that any new rule "is magnified by the potential it has to be replicated in, or conflict with, other jurisdictions." The filing does not compare this exposure with other industries, so a relative ranking cannot be drawn from the text. What the text does establish is that the risk operates on three layers at once: interchange (which Mastercard does not earn but which shapes merchant and issuer behavior), network fees (which Mastercard does earn and which regulators have begun to examine), and the right to restrict merchant surcharging, which has already been changed in the U.S. and Canada.
+
+**Cyclicality.** The filing does not tie this risk to the economic cycle. Regulatory action is described as driven by policy and litigation rather than by spending conditions. The one cyclical link is indirect: the filing states that if interchange is too high, merchants may route transactions away from the network, and if it is too low, issuers may withdraw benefits, which would reduce volume regardless of the economic environment.
+
+**Risk quantification.** The filing enumerates the specific exposures without assigning amounts:
+
+- Interchange: "we are devoting substantial resources" to defending the right to set interchange rates in regulatory proceedings, litigation and legislation, and regulatory proceedings "in some cases has resulted" in fines and civil damages "the amount of which could be material." No amounts are given.
+- Surcharging: U.S. and Canadian merchants may now surcharge credit cards (subject to limits), and the filing warns that broad adoption could reduce transaction volumes. The timing and extent are not quantified.
+- Switching restrictions: the filing says governments have implemented or may implement requirements to route domestic payments through domestic providers, and that "regional groups of countries are considering" limits on regional switching. Because Mastercard switches "substantially all cross-border transactions" on its cards, cross-border restrictions would affect a large part of the revenue base, though the filing does not state the share of revenue that would be affected.
+- Brazil: the filing says Brazil now requires payment system operators to extend their responsibility for the financial and settlement integrity of payments to merchants. This is a new cost-bearing obligation that is not quantified.
+
+Against this, the one hard number in the regulatory discussion is the 71% of 2025 revenue generated outside the U.S. (illustratively, that leaves roughly 29% from the U.S.). Every market in that 71% is subject to some version of the regulatory risks above, so the share indicates how much of the business faces the sovereignty and switching measures, not how much will be affected.
+
+**Downside protections.** The filing does not present regulation as a protection. Two structural features limit the damage, though neither is described as a mitigant. First, Mastercard does not issue cards, extend credit, or set the interchange rates or merchant discount rates charged to account holders and merchants, so direct consumer-credit regulation falls mainly on issuers and acquirers. Second, the filing states that Mastercard operates a four-party system with a network fee structure, and that the outcome of interchange litigation "could have a more positive or negative impact on us relative to our competitors," which means the company is not assured the same treatment as three-party rivals. The protection is therefore partial and depends on the outcome of individual proceedings.
+
+## Risk 2: Competitive and Pricing Pressure, Disintermediation and Customer Concentration
+
+**Industry vertical risk.** The filing describes the global payments industry as "highly competitive" and lists competitors in general-purpose networks, domestic and local networks, ACH and real-time account-based systems, digital wallets, fintechs, government-backed digital public infrastructure, and digital currencies. It notes that some competitors "operate three-party payments systems with direct connections to both merchants and consumers, potentially providing competitive advantages," and that some "benefit from lower costs" because they rely on technology. Compared with a traditional bank or lender, the filing's description suggests that the risk comes from the number of competing rails rather than from balance-sheet or credit exposure, but the filing does not provide a comparative ranking.
+
+**Cyclicality.** The filing links pricing and customer behavior to economic conditions. It says customers may mitigate their economic exposure by "limiting the issuance of new Mastercard products and requesting greater incentive or greater cost stability," and that consumers and businesses may reduce spending. Cross-border revenue, which the filing says "fluctuates with the levels and destinations of cross-border travel," is the most clearly cyclical revenue stream discussed. Illustratively, a downturn that reduces both customer issuance and cross-border travel would hit volume and pricing at the same time, and the filing indicates that customers could use that moment to press for larger incentives.
+
+**Risk quantification.** The main quantified exposure is customer concentration. The filing states that "a significant portion of our revenue is concentrated among our five largest customers" but does not give the percentage. The filing also notes that "we earn substantial revenue from customers with nearly-exclusive relationships with our competitors," which means part of the largest-customer revenue could move toward competitors. Other pressures are described qualitatively: incentives and pricing discounts that "we may have to increase" to meet customer demand, large merchants that can "negotiate incentives from us," and real-time account-based schemes with "increasingly lower or subsidized P2M pricing." The filing states that customer consolidation "could result in the substantial loss of business," and that one or more customers "could seek to merge with, or acquire, one of our competitors."
+
+**Downside protections.** The filing's own statements limit the protection that contracts offer. It says many customer relationships are not exclusive, that customers "can reassess their future commitments to us subject to the terms of our contracts," and that business agreements "may not ultimately reduce the risk" of customers moving to competitors. Diversification is present but partial: the 71% non-U.S. revenue mix spreads exposure across geographies, yet the five-customer concentration works in the opposite direction. The filing also describes a network with "exclusive or nearly-exclusive" relationships on the issuing side, which provides some stability in those accounts, but states that these relationships "may make it difficult or cost-prohibitive" to grow with other customers. Government regulation is not presented as a protection against competitive pricing pressure; the filing lists regulation as one of the sources of pressure.
+
+## Risk 3: Information Security, Fraud, Account Data Compromise and Data/AI Regulation
+
+**Industry vertical risk.** The filing states that information security risks "have significantly increased" and that because of Mastercard's "position in the payments value chain, we believe that we are likely to continue to be a target." This is a risk shared across financial technology companies, as the filing itself notes ("We, like other financial technology organizations, routinely are subject to cyber-threats"). Mastercard's specific exposure arises from its switching role, which the filing describes as a central point through which "millions of Mastercard, Visa, Discover, American Express and other types of account holders" transact. Its data-regulation exposure also goes beyond the payments sector, because Recorded Future and AI-based products bring in additional regimes.
+
+**Cyclicality.** The filing does not link cyber risk to the economic cycle. It does note that fraud and attacks have grown with the hybrid workforce and with AI, both of which are structural rather than cyclical developments. Cyclicality could enter indirectly, because the filing says the cumulative effect of multiple compromise events "could increase the impact of the fraud," and reduced consumer confidence after a breach could reduce spending.
+
+**Risk quantification.** The filing states that "to date, we have not experienced any material impact relating to cyber-attacks or other information security breaches," which is the company's own historical record. No loss amounts or incident counts are given. The exposures are enumerated: breach notification obligations that may require "parallel notifications to data protection authorities, cyber authorities and/or law-enforcement, often requiring different thresholds, reporting deadlines and formats"; potential damage claims from account data compromises; regulatory penalties; and costs to repair systems. The filing also states that "insurance coverage may not be adequate" and that the company "cannot be sure that our existing insurance coverage will continue to be available on acceptable terms or at all." Two elements raise the risk level above a generic one: the first is the geopolitical exposure created by the listing of Recorded Future as "undesirable" or "unreliable" in some jurisdictions, and the second is the acquisition-related exposure, since the filing notes that "targets that we acquire have had... data practices that do not initially conform" to company standards.
+
+**Downside protections.** The filing describes several controls: "an enterprise resiliency program," security solutions "designed to prevent, detect and respond to fraud and cyber-attacks," and "controls, processes and practices" for systems and data, along with insurance coverage. The filing also notes that "most of the lawsuits resulting from account data breaches do not involve direct claims against us and while we have releases from many issuers and acquirers." However, the filing is explicit that these protections cannot be assumed to be sufficient: "there can be no assurance that such security solutions will perform as expected," and insurance "may not be adequate." The protections reduce exposure but do not remove it.
+
+## Overall Assessment
+
+The three risks share a common structure. Each depends on decisions made by parties other than Mastercard: central banks and legislatures set interchange and switching rules, customers decide where to route volume and how much incentive to demand, and threat actors decide when and how to attack. The filing describes Mastercard as a network that does not issue cards, extend consumer credit, or set most consumer and merchant prices. That structure limits the company's direct credit exposure, but it also means that the company's revenue depends on the continued success of issuers and acquirers whose relationships with it are, in the filing's words, "not exclusive."
+
+The regulatory risk is the least quantified and possibly the most consequential, because the filing names the same mechanisms in several places (interchange, network fees, surcharging, switching, data localization) and states that each could "materially and adversely" affect results. The competitive risk is more concentrated: the five-customer figure is the single largest identifiable point of dependence, and the filing's statement that a loss of business from any one of those customers "could have a material adverse impact" makes the concentration the sharpest quantitative exposure in the risk factors, even though its size is not disclosed. The information security risk is the most operational, and its history (no material impact to date) is favorable but is not presented by the company as a forecast.
+
+Several items would change this assessment. A disclosed share of revenue from the five largest customers, or a decline in that share, would clarify the competitive exposure. Results from the Note 19 proceedings (which the filing cross-references but which was not provided here) would show whether interchange and litigation outcomes have produced fines or damages. Continued U.S. and Canadian surcharging adoption, or a reduction in cross-border volume after a travel or geopolitical disruption, would show whether the cyclical link the filing describes is material in practice. A material security incident, or an insurance denial, would test the statement that no material impact has occurred to date. Each of these is a specific, observable test rather than a general concern, and the filing provides the framework for measuring them, though not the figures needed to complete the measurement from this text alone.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01Ab6qYbzFbtHztm1sGWGrEH): get_peer_candidates *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "extra_tickers": ["V","PYPL","FI","GPN","AXP","FIS"]}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_peer_candidates...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01Ab6qYbzFbtHztm1sGWGrEH) *****[0m
+ticker | name | industry | country | market cap (USD bn) | revenue (USD bn) | revenue growth | revenue vs company | business
+MA | Mastercard Incorporated (company under analysis) | Credit Services | United States | 563.2 | 36.3 | 14% | 1.0x | Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and internationally. The company offers products and services for account...
+PYPL | PayPal Holdings, Inc. | Credit Services | United States | 46.8 | 34.3 | 2% | 0.9x | PayPal Holdings, Inc. operates a technology platform that enables digital payments for merchants and consumers worldwide. The company operates a two-sided network at scale that connects merchants and...
+V | Visa Inc. | Credit Services | United States | 776.3 | 45.9 | 13% | 1.3x | Visa Inc. operates as a payments technology company in the United States and internationally. It operates VisaNet, a transaction processing network that enables authorization, clearing, and settlement of...
+XYZ | Block, Inc. | Software - Infrastructure | United States | 45.4 | 25.6 | 10% | 0.7x | Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally. It operates through two segments: Square...
+AXP | American Express Company | Credit Services | United States | 208.4 | 72.9 | 11% | 2.0x | American Express Company, together with its subsidiaries, operates as an integrated payments company in the United States, Europe, the Middle East and Africa, the Asia Pacific, Australia, New...
+FIS | Fidelity National Information Services, Inc. | Information Technology Services | United States | 14.1 | 12.9 | 27% | 0.4x | Fidelity National Information Services, Inc. provides solutions to financial institutions, businesses, and developers worldwide. The company operates through Banking Solutions, Capital Market Solutions, and Corporate and Other segments....
+GPN | Global Payments Inc. | Specialty Business Services | United States | 25.4 | 11.5 | 64% | 0.3x | Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. It offers authorization, settlement and funding,...
+TOST | Toast, Inc. | Software - Infrastructure | United States | 19.9 | 7.2 | 21% | 0.2x | Toast, Inc. operates a cloud-based digital technology platform for the restaurant industry in the United States, Ireland, India, and internationally. It offers a platform of software-as-a-service for restaurant...
+CPAY | Corpay, Inc. | Software - Infrastructure | United States | 28.4 | 5.2 | 18% | 0.1x | Corpay, Inc. operates as a payments company that helps businesses and consumers to manage and pay their expenses. It operates through Corporate Payments, Vehicle Payments, Lodging Payments, and...
+AFRM | Affirm Holdings, Inc. | Credit Services | United States | 20.2 | 4.6 | 35% | 0.1x | Affirm Holdings, Inc. operates payment network in the United States, Canada, and internationally. Its platform offers pay-over-time solutions at checkout for both consumers and merchants. The company's commerce...
+CHYM | Chime Financial, Inc. | Software - Application | United States | 12.7 | 2.6 | 32% | 0.1x | Chime Financial, Inc., a financial technology company, provides digital consumer banking and payment solutions in the United States and internationally. The company offers various products, such as spending,...
+JKHY | Jack Henry & Associates, Inc. | Information Technology Services | United States | 12.4 | 2.6 | 9% | 0.1x | Jack Henry & Associates, Inc. operates as a financial technology company that connects people and financial institutions through technology solutions and payment processing services in the United States....
+FISV | Fiserv, Inc. (no revenue data, avoid) | n/a | n/a | 31.1 | n/a | n/a | n/a | n/a...
+FI | n/a (no revenue data, avoid) | n/a | n/a | n/a | n/a | n/a | n/a | n/a...
+
+Finnhub groups companies by industry, so very large conglomerates can appear. Choose the 3 most comparable peers by business model first and size second (see 'revenue vs company'). Prefer companies with revenue data. Use exactly these ticker symbols and names; do not add companies that are not in this list.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+Peer choice: **Visa (V)** is the closest business model, a network-based payments processor with the same switching and scheme economics. **American Express (AXP)** is the next closest on scale (2.0x MA's revenue) and also runs a card network with issuing. **PayPal (PYPL)** is the closest in size among the digital-payments names (0.9x) and competes for checkout volume. Global Payments and Block were skipped because their revenue growth figures look distorted by acquisitions or are less comparable in model.
+[32m***** Suggested tool call (toolu_019pLLNy39357fx8GsNE65dz): get_competitors_analysis *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "competitors": ["V","AXP","PYPL"], "fyear": "2025", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/competitors_analysis.txt"}
+[32m******************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_competitors_analysis...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_019pLLNy39357fx8GsNE65dz) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/MA_2025_claude-haiku-5.5_eval_nosc/competitors_analysis.txt; also saved to ../reports/MA_2025_claude-haiku-5.5_eval_nosc/competitors_analysis_analysis.txt):
+
+# Mastercard (MA): Financial Metrics Against Visa, American Express and PayPal, Fiscal 2022 to 2025
+
+Mastercard grew revenue faster than any peer in the years where comparisons are available, expanded its EBITDA margin to 62.3% in fiscal 2025, and lifted ROIC to 58.2%. Its gross margin and EBITDA margin still trail Visa, and its EV/EBITDA multiple of 25.38 in fiscal 2025 is about level with Visa's 25.58. The resource gives the results but not the drivers, so the explanations below describe what the numbers show and name what the 10-K would need to confirm. The resource does not state currency or units, and it does not define FCF Conversion or ROIC, so those figures are used as given. The fiscal year ends differ across companies, and the resource does not give those dates, so same-label comparisons are approximate.
+
+## Revenue and Revenue Growth
+
+Mastercard revenue rose from 22,237 in fiscal 2022 to 25,098 in fiscal 2023, 28,167 in fiscal 2024 and 32,791 in fiscal 2025. Growth was 12.9% in fiscal 2023, 12.2% in fiscal 2024 and 16.4% in fiscal 2025. The growth rate in fiscal 2024 was the lowest of the three reported years, and fiscal 2025 is the fastest year in the series, so the trend is an acceleration after a short dip rather than a steady path. Over fiscal 2022 to 2025, revenue compounded at roughly 13.8% a year (illustrative, calculated from the endpoints).
+
+Against peers, fiscal 2023 is the one year in which Mastercard did not lead. American Express grew 14.5% that year against Mastercard's 12.9%, and PayPal grew 8.2%. Visa's fiscal 2023 growth is not in the resource. In fiscal 2024, Mastercard's 12.2% was ahead of Visa (10.0%), American Express (9.0%) and PayPal (6.8%). In fiscal 2025 the gap widened: Mastercard 16.4%, Visa 11.3%, American Express 9.5%, PayPal 4.3%. Visa's fiscal 2026 growth of 14.8% is the only figure for that year, and it is below Mastercard's fiscal 2025 rate, but the two years are not the same period.
+
+Scale is the other side of this. Mastercard's fiscal 2025 revenue of 32,791 is well below Visa's 40,000 for the same label, and Visa's round figure should be checked against the filing because the resource does not say whether it is an actual or an estimate. Mastercard's growth rate is higher, but it is applied to a smaller base.
+
+## EBITDA Margin
+
+The problem in this metric is the gap to Visa, which has been present in every year the two companies share. Mastercard's margin was 59.8% in fiscal 2023 against Visa's 69.3%, 59.6% in fiscal 2024 against 71.2%, and 62.3% in fiscal 2025 against 65.0%. Mastercard's margin slipped 0.2 points in fiscal 2024 even as revenue grew 12.2%, which means EBITDA grew more slowly than revenue that year (16,797 against 15,013, up 11.9%, which is illustrative).
+
+In fiscal 2025 the gap narrowed to 2.7 points because Visa's margin fell 6.2 points from 71.2% to 65.0%, while Mastercard's rose 2.7 points. The resource does not explain Visa's decline. Mastercard's 2025 margin is its highest in the series and is above PayPal's 23.2% by a wide margin, although PayPal's EBITDA margin is not comparable in business mix. American Express has no EBITDA data in the resource, so it cannot be ranked on this metric.
+
+What would prove the view wrong: if Mastercard's fiscal 2026 margin falls back below 60%, or if Visa's fiscal 2026 margin of 65.9% is confirmed and Mastercard cannot hold the 2025 level, the improvement would be shown to be a one-year event.
+
+## Gross Margin
+
+Mastercard's gross margin was 76.3% in fiscal 2022, 76.0% in fiscal 2023, 76.3% in fiscal 2024 and 77.9% in fiscal 2025. The fiscal 2023 dip of 0.3 points is small, and gross profit still rose each year, from 16,974 to 25,540. The 1.6-point gain in fiscal 2025 is the largest single-year move in the series.
+
+Visa's gross margin was 79.9% in fiscal 2023, 80.4% in fiscal 2024 and 80.4% in fiscal 2025, and the resource lists 80.4% again for fiscal 2026. Mastercard trailed by 3.9 points in fiscal 2023, 4.1 points in fiscal 2024 and 2.5 points in fiscal 2025. The gap was widest in fiscal 2024 and narrowed in fiscal 2025, which is the same year Mastercard's EBITDA margin rose. PayPal's gross margin of 46.0% to 50.1% over the period is far below both networks. American Express has no gross margin in the resource.
+
+## ROIC
+
+Mastercard's ROIC rose in each year: 50.8% in fiscal 2022, 51.6% in fiscal 2023, 54.3% in fiscal 2024 and 58.2% in fiscal 2025. The fiscal 2025 figure is 7.4 points above fiscal 2022. The series shows steady improvement with no reversal.
+
+Against Visa, Mastercard's ROIC was 20.6 points higher in fiscal 2023 (51.6% against 31.0%), 19.9 points higher in fiscal 2024 (54.3% against 34.4%) and 25.2 points higher in fiscal 2025 (58.2% against 33.0%). Visa's fiscal 2026 figure of 41.9% is a 8.9-point rise from its fiscal 2025 level, which narrows the gap for that year but does not close it. PayPal's ROIC rose from 8.6% in fiscal 2022 to 18.5% in fiscal 2025, which is still far below Mastercard. The resource does not define how ROIC is calculated, so the size of these gaps depends on the definition used by the data provider.
+
+## FCF Conversion
+
+Mastercard's FCF Conversion was 1.02 in fiscal 2022, 0.97 in fiscal 2023, 1.06 in fiscal 2024 and 1.10 in fiscal 2025. Free cash flow grew from 10,098 to 16,433 over the period, which is faster than the 13.8% illustrative revenue rate. The fiscal 2023 reading below 1.0 is the weakest point in the series.
+
+Visa's conversion was 1.14, 0.95, 1.08 and 0.94 for fiscal 2023 to 2026. Mastercard was above Visa in fiscal 2024 (1.06 against 0.95) and fiscal 2025 (1.10 against 1.08), and below it in fiscal 2023 (0.97 against 1.14). American Express recorded 2.56 in fiscal 2022 and 2.03 in fiscal 2023, but fell to 1.20 in fiscal 2024 and 1.48 in fiscal 2025, and its free cash flow dropped from 19,224 to 12,139 before partially recovering. PayPal's conversion moved between 0.99 and 2.11. Taken together, Mastercard's cash conversion is consistent rather than high, and it is not clearly ahead of Visa over the full period.
+
+## EV/EBITDA
+
+Mastercard's EV/EBITDA was 26.21 in fiscal 2022, 27.01 in fiscal 2023, 29.22 in fiscal 2024 and 25.38 in fiscal 2025. The multiple peaked in fiscal 2024 and fell in fiscal 2025.
+
+Peer comparisons by year: in fiscal 2022 Mastercard's 26.21 compares with PayPal's 16.75 (Visa has no figure that year). In fiscal 2023 it was 27.01 against Visa's 20.76 and PayPal's 9.73. In fiscal 2024 it was 29.22 against Visa's 21.54 and PayPal's 13.05. In fiscal 2025 it was 25.38 against Visa's 25.58 and PayPal's 7.23. American Express's EV/EBITDA is not meaningful (n/m) in every year. Mastercard therefore traded at a premium to Visa in fiscal 2023 and 2024 and at parity in fiscal 2025.
+
+The fiscal 2025 decline is worth reading closely. Holding enterprise value constant, the change in EBITDA alone would have cut the multiple by about 18% (illustrative: EBITDA rose 21.7%, from 16,797 to 20,443). The actual multiple fell by about 13%, which implies that enterprise value rose by roughly 6% in the same period (illustrative, derived from the multiples and EBITDA in the table). In other words, earnings growth explains most of the multiple's decline, and the market added a little value on top.
+
+## Conclusion
+
+Mastercard's fiscal 2022 to 2025 record shows a company growing revenue at high rates, expanding its margins, lifting ROIC every year and converting more than 100% of EBITDA into free cash flow in three of four years. Its weak points are a gross margin and EBITDA margin that remain below Visa, a fiscal 2023 cash conversion below 1.0, and a dependence on a single strong year (fiscal 2025) to show the margin gains. The resource does not identify the causes of any of these movements, so the 10-K's management discussion should be checked before attributing them.
+
+The valuation is the harder part. At 25.38 times EBITDA, Mastercard trades at the same multiple as Visa, whose margins are higher but whose growth in fiscal 2025 was lower. On the figures in the resource, the fiscal 2025 results justify a multiple in this range: ROIC above 50% and rising revenue growth of 16.4% support a premium. They do not clearly justify the 29.22 multiple of fiscal 2024, which was set before the fiscal 2025 earnings were reported. The current multiple is therefore supported by the latest year's results but would be exposed if the growth and margin improvements did not persist.
+
+The view would be wrong if any of the following occurred: Mastercard's revenue growth falls back toward the 9% to 11% range that American Express and Visa reported in fiscal 2024 and 2025; its EBITDA margin fails to stay above 60%; or its ROIC declines from the 58.2% level in fiscal 2025. Any of these would weaken the case for a multiple at parity with Visa.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_018j9LFfXz4oQk66pJpnxpwL): get_consensus_and_liquidity *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "fyear": "2025"}
+[32m*********************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_consensus_and_liquidity...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_018j9LFfXz4oQk66pJpnxpwL) *****[0m
+CONSENSUS ESTIMATES (Yahoo Finance, retrieved 2026-11-24, i.e. after the 10-K filing; cite as [3]):
+- FY2026E: revenue $37,372.3 million (range $37,051.0 million to $37,545.0 million, 37 analysts), growth +14.0%; EPS $20.06 (range $19.91 to $20.40); forward P/E 32.2x; EV/Sales 15.2x
+- FY2027E: revenue $42,086.2 million (range $41,390.4 million to $42,799.0 million, 36 analysts), growth +12.6%; EPS $23.16 (range $22.56 to $23.80); forward P/E 27.9x; EV/Sales 13.5x
+- Forward multiples use the current share price of $646.59 and the current enterprise value. EPS methodology: normalized.
+
+LIQUIDITY AND FUNDING (Yahoo Finance balance sheet and cash flow; cite as [2]):
+- FY2025 (10-K): cash and short-term investments $10,898.0 million, total debt $19,000.0 million, net cash -$8,102.0 million, free cash flow $16,433.0 million, cash runway at that burn self-funded, current ratio 1.0x, shares outstanding 894.0 million, change in share count y/y -2.1%
+- Latest quarter (2026-09-30): cash and short-term investments $10,464.0 million, total debt $23,938.0 million, net cash -$13,474.0 million, TTM free cash flow $15,430.0 million, cash runway at that burn self-funded, current ratio 1.0x, shares outstanding 873.0 million, change in share count y/y -3.0%
+
+REVERSE DCF (own calculation from Yahoo Finance data [2][3]; current enterprise value, i.e. after the 10-K):
+- The current enterprise value of $567,076.0 million implies revenue growth of 13.5% per year for 10 years (FY2025 revenue $32,791.0 million -> about $116,303.6 million in FY2035), assuming the free cash flow margin moves from 50.1% to 45.0% by year 10, a WACC of 8.8% (10y US Treasury (^TNX) 4.9% + beta 0.77 x 5.0% equity risk premium) and 2.5% terminal growth.
+- For comparison: historical 3-year revenue CAGR 13.8%. Compare the implied growth with the consensus growth above and with the historical growth. This is a simplified, illustrative model, not a price target.
+- Implied return (IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 6.9% per year (-1.9 percentage points vs the WACC).
+
+ESTIMATE REVISIONS AND EARNINGS SURPRISES (Yahoo Finance, retrieved today; cite as [3]):
+- EPS consensus current fiscal year: $20.06 today, $19.94 30 days ago, $19.92 90 days ago, change vs 90 days ago +0.7%; analysts raising/cutting in last 30 days: 29/3
+- EPS consensus next fiscal year: $23.16 today, $23.07 30 days ago, $23.03 90 days ago, change vs 90 days ago +0.6%; analysts raising/cutting in last 30 days: 25/5
+- Quarter ending 2026-09-30: EPS $5.31 vs estimate $5.17 (surprise +2.7%)
+- Quarter ending 2026-06-30: EPS $5.04 vs estimate $4.78 (surprise +5.5%)
+- Quarter ending 2026-03-31: EPS $4.60 vs estimate $4.41 (surprise +4.2%)
+- Quarter ending 2025-12-31: EPS $4.76 vs estimate $4.24 (surprise +12.3%)
+
+FINANCIAL QUALITY SCORES (own calculation from Yahoo Finance statements; cite as [2]):
+- Piotroski F-Score: 9 of 9 available criteria
+- Altman Z-Score: 11.28 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)
+- Beneish M-Score: -2.55 (below -1.78: no statistical warning sign)
+
+Note: the latest-quarter column and all consensus figures are dated after the 10-K. Say so when you use them.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The filing-based analysis is complete. Next I'll pull the share performance chart, then the valuation chart, one at a time.
+[32m***** Suggested tool call (toolu_01QD6D1pTFYhJyacQNpLMjSn): get_share_performance *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "filing_date": "2026-02-11", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/share_performance.png"}
+[32m***************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_share_performance...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01QD6D1pTFYhJyacQNpLMjSn) *****[0m
+3-year stock performance chart saved to <img ../reports/MA_2025_claude-haiku-5.5_eval_nosc/share_performance.png>
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01ARZRJHz24Jie1LV9PaTgnb): get_pe_eps_performance *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "filing_date": "2026-02-11", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/pe_eps_performance.png"}
+[32m****************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_pe_eps_performance...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01ARZRJHz24Jie1LV9PaTgnb) *****[0m
+valuation chart (P/E (trailing, annual EPS), FCF yield) saved to <img ../reports/MA_2025_claude-haiku-5.5_eval_nosc/pe_eps_performance.png>
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01AijjbXPsbQrpz9d3mmDaBC): get_key_data *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "filing_date": "2026-02-11"}
+[32m******************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_key_data...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01AijjbXPsbQrpz9d3mmDaBC) *****[0m
+{'Rating': 'buy', 'Target Price': '720.69 (range 550.00 - 800.00), current consensus as of 2026-11-24, not as of 2026-02-11', '6m avg daily vol (USDmn)': '3.01', 'Closing Price (USD)': '537.74', 'Market Cap (USDmn)': '480509.50', '52 Week Price Range (USD)': '460.65 - 597.14', 'BVPS (USD)': '8.65'}
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+Analysis is complete: the 10-K tools, peer selection, competitor analysis, consensus data, and charts are all done. I'm now generating the PDF.
+[32m***** Suggested tool call (toolu_01RGeXTSbftTwc3EjwZyCe9n): build_annual_report *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/MA_2025_annual_report.pdf", "filing_date": "2026-02-11", "share_performance_image_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/share_performance.png", "pe_eps_performance_image_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/pe_eps_performance.png", "peer_tickers": ["V","AXP","PYPL"], "segment_data": "[{\"segment\": \"Payment Network\", \"prior_revenue\": 17335, \"current_revenue\": 19476}, {\"segment\": \"Value-Added Services and Solutions\", \"prior_revenue\": 10832, \"current_revenue\": 13315}]", "investment_summary": "Mastercard's FY2025 10-K shows accelerating momentum: net revenue rose 16% to $32.8 billion and diluted EPS rose 19% to $16.52 [1]. Value-added services, up 23%, are driving the mix shift, while the payment network grew 12% [1].\n\nCash generation is strong, with free cash flow of $16.4 billion and net debt down to $8.4 billion [1][2]. The balance sheet is tight, however, with a 1.04x current ratio and negative tangible book value [1].\n\nValuation is the constraint. At the current $646.59 price, the forward P/E is 32.2x on consensus FY2026 EPS of $20.06 [3]. The reverse DCF implies 13.5% annual revenue growth for ten years, close to the 13.8% three-year history and 14.0% FY2026 consensus [3]. That implies a 6.9% return against an 8.8% WACC, so the price requires growth to persist. Main risks are interchange regulation and customer concentration, with five customers providing 21% of revenue [1]. Consensus figures are dated after the 10-K.", "key_takeaways": ["Value-added services should keep driving the mix shift, since they grew 23% against 12% for the payment network [1].","Operating leverage should persist: operating margin rose to 57.6% as adjusted opex grew 14%, below revenue growth [1].","Valuation already requires near-consensus growth, as the reverse DCF implies 13.5% annual revenue growth against 14.0% FY2026 consensus [3].","Regulation of interchange and switching is the main threat, with 71% of revenue outside the US and five customers at 21% of revenue [1]."], "investment_theses": [{"thesis":"Value-added services will keep outgrowing the payment network, so blended revenue growth stays at or above 13% in FY2026.","evidence":"VAS revenue rose 23% to $13.3 billion versus 12% for the payment network at $19.5 billion [1]. Consensus FY2026 revenue growth is 14.0% to $37.4 billion [3].","signpost":"VAS net revenue growth at or above 20% in each remaining 2026 quarterly filing, with FY2026 results due early 2027.","invalidation":"VAS growth below 15% in two consecutive quarters, or FY2026 reported revenue growth below 12%."},{"thesis":"Operating leverage persists: operating margin stays at or above 57% in FY2026 as adjusted opex grows slower than revenue.","evidence":"Operating margin rose to 57.6% from 55.3%, and adjusted opex rose 14% against 16% revenue growth [1]. Mastercard beat quarterly EPS consensus in each of the four quarters after the 10-K, by 2.7% to 12.3% [3].","signpost":"Quarterly operating margin at or above 57% and adjusted opex growth below revenue growth in each 2026 10-Q, with FY2026 results in early 2027.","invalidation":"FY2026 operating margin below 55%, or adjusted opex growth above revenue growth in two consecutive quarters."},{"thesis":"Returns will lag the cost of capital unless revenue compounds near 13.5% a year, because the current price already assumes that growth.","evidence":"The reverse DCF implies 13.5% growth for ten years and a 6.9% implied return against an 8.8% WACC [2][3]. The forward P/E is 32.2x on FY2026 consensus EPS of $20.06 [3].","signpost":"FY2026 reported revenue growth of at least 13.5% and FY2026 EPS of at least $20.00, confirmed in the FY2026 10-K in early 2027.","invalidation":"FY2026 revenue growth below 12%, or consensus FY2027 revenue cut below $41.4 billion, the current low end of the range [3]."},{"thesis":"Regulatory action on interchange and switching is the main threat to growth, and tightening in a major market would push growth below consensus.","evidence":"About 71% of 2025 revenue came from outside the US [1]. The filing cites Brazil's new settlement obligations, cross-border switching limits under consideration, and conflicting US court rulings on the Regulation II cap, with litigation charges of $504 million [1].","signpost":"A new interchange or cross-border switching rule adopted in a major market, or the 2026 US Regulation II court outcome, reported in quarterly filings.","invalidation":"No material new rule in 2026, with FY2026 litigation charges below $504 million and growth in line with consensus."}], "business_overview": "Mastercard Incorporated is a technology company in the global payments industry. It was incorporated in Delaware in 2001, and its principal operating subsidiary, Mastercard International, was formed in 1966 [1]. The company runs a four-party network that authorizes, clears and settles transactions in more than 150 currencies and more than 220 countries and territories. It does not issue cards, extend credit, or set the rates charged to account holders or merchants, so revenue comes from network fees and services rather than lending [1]. The company cites its global network, franchise model with a settlement guarantee backed by its credit standing, multi-rail capabilities, brands, data and AI, and local presence as its advantages [1].\n\nNet revenue grew 16% to $32.8 billion in 2025 from $28.2 billion, and the two revenue streams behaved differently [1]. The payment network produced $19.5 billion, up 12%, driven by domestic and cross-border dollar volume and more switched transactions, while rebates and incentives paid to customers rose 16% to $20.5 billion [1]. Value-added services and solutions produced $13.3 billion, up 23% (21% currency-neutral), with acquisitions contributing 3 points and growth from security, digital and authentication, consumer acquisition, pricing and business insights [1]. Services now make up about 41% of net revenue, up from about 38% in 2024 (calculated from reported figures) [1].\n\nStrategically, 2025 saw the launch of Mastercard Agent Pay, Threat Intelligence with Recorded Future, Commerce Media and Merchant Cloud, and the company became naming partner of the McLaren Formula 1 Team from the 2026 season [1]. Tokenization covered about 40% of transactions, and cash displacement, agentic commerce and stablecoin settlement are cited as growth avenues [1]. Acquisitions added 1 percentage point to 2025 net revenue growth, and the company returned $17.6 billion to stockholders, including $11.7 billion of repurchases [1].", "market_position": "Mastercard's exposure is predominantly international. About 71% of 2025 revenue came from outside the United States, and no country other than the US generated more than 10% of net revenue [1]. U.S. Mastercard-branded gross dollar volume grew 6% in 2025, compared with 10% for the rest of the world on a U.S. dollar basis, so growth is shifting abroad [1]. The filing does not quantify global market share. It names Visa, American Express, JCB, China UnionPay and Discover as holding more share in certain jurisdictions, so the company is a scaled leader in some markets and a contested player in others [1]. On that basis we classify Mastercard as a scaled network leader rather than a challenger, with the caveat that share is not disclosed.\n\nCustomer concentration is material. The five largest customers generated about $6.9 billion, or 21% of 2025 net revenue, but the filing does not name them [1]. The filing also says the company earns substantial revenue from customers with nearly exclusive relationships with competitors, which limits how far any one customer can be locked in [1]. Real-time account-based systems such as Brazil's PIX, FedNow and India's UPI, along with central bank digital currencies, compete for transaction volume [1].\n\nMarket perception is positive. At the filing date the stock closed at $537.74, with a 52-week range of $460.65 to $597.14 and a market capitalization of about $480.5 billion [2]. The current consensus price of $646.59 is about 20% above that close [2][3]. The consensus rating is Buy with a target price of $720.69 (range $550 to $800), about 11% above the current price, and these figures are dated after the 10-K [3]."
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01RGeXTSbftTwc3EjwZyCe9n) *****[0m
+Error: Expecting ',' delimiter: line 1 column 8380 (char 8379)
+ The argument must be in JSON format.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The previous build call failed to parse, and it was also missing three required sections (operating results, risk assessment, competitors analysis). I'll rewrite all five sections at 350–450 words each, trim the investment summary to 130–180 words, and retry with valid JSON.
+[32m***** Suggested tool call (toolu_013ykSFuzsoxS7ADEo4hrt2c): build_annual_report *****[0m
+Arguments: 
+{"ticker_symbol": "MA", "save_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/MA_2025_annual_report.pdf", "filing_date": "2026-02-11", "share_performance_image_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/share_performance.png", "pe_eps_performance_image_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/pe_eps_performance.png", "peer_tickers": ["V","AXP","PYPL"], "segment_data": "[{\"segment\": \"Payment Network\", \"prior_revenue\": 17335, \"current_revenue\": 19476}, {\"segment\": \"Value-Added Services and Solutions\", \"prior_revenue\": 10832, \"current_revenue\": 13315}]", "investment_summary": "Mastercard's FY2025 10-K shows accelerating momentum: net revenue rose 16% to $32.8 billion and diluted EPS rose 19% to $16.52 [1]. Value-added services, up 23%, are driving the mix shift [1].\\n\\nCash generation is strong, with free cash flow of $16.4 billion and net debt down to $8.4 billion [1][2]. The balance sheet is tighter, with a 1.04x current ratio and negative tangible book value [1].\\n\\nValuation is the constraint. At the current $646.59 share price, the forward P/E is 32.2x on consensus FY2026 EPS of $20.06 [3]. The reverse DCF implies 13.5% annual revenue growth for ten years, close to the 13.8% three-year history and 14.0% FY2026 consensus [3]. That implies a 6.9% return against an 8.8% WACC, so the price requires growth to persist. The main risks are interchange regulation and customer concentration, with five customers providing 21% of revenue [1]. Consensus figures are dated after the 10-K.", "key_takeaways": ["Value-added services should keep driving the mix shift, since they grew 23% against 12% for the payment network [1].","Operating leverage should persist: operating margin rose to 57.6% as adjusted opex grew 14%, below revenue growth [1].","Valuation already requires near-consensus growth, as the reverse DCF implies 13.5% annual revenue growth against 14.0% FY2026 consensus [3].","Regulation of interchange and switching is the main threat, with 71% of revenue outside the US and five customers at 21% of revenue [1]."], "investment_theses": [{"thesis":"Value-added services will keep outgrowing the payment network, so blended revenue growth stays at or above 13% in FY2026.","evidence":"VAS revenue rose 23% to $13.3 billion versus 12% for the payment network at $19.5 billion [1]. Consensus FY2026 revenue growth is 14.0% to $37.4 billion [3].","signpost":"VAS net revenue growth at or above 20% in each 2026 quarterly filing, with FY2026 results due early 2027.","invalidation":"VAS growth below 15% in two consecutive quarters, or FY2026 reported revenue growth below 12%."},{"thesis":"Operating leverage persists: operating margin stays at or above 57% in FY2026 as adjusted opex grows slower than revenue.","evidence":"Operating margin rose to 57.6% from 55.3%, and adjusted opex rose 14% against 16% revenue growth [1]. Mastercard beat EPS consensus in each of the last four reported quarters, by 2.7% to 12.3% [3].","signpost":"Quarterly operating margin at or above 57% and adjusted opex growth below revenue growth in each 2026 10-Q, with FY2026 results in early 2027.","invalidation":"FY2026 operating margin below 55%, or adjusted opex growth above revenue growth in two consecutive quarters."},{"thesis":"Returns will lag the cost of capital unless revenue compounds near 13.5% a year, because the current price already assumes that growth.","evidence":"The reverse DCF implies 13.5% growth for ten years and a 6.9% implied return against an 8.8% WACC [2][3]. The forward P/E is 32.2x on FY2026 consensus EPS of $20.06 [3].","signpost":"FY2026 reported revenue growth of at least 13.5% and FY2026 EPS of at least $20.00, confirmed in the FY2026 10-K in early 2027.","invalidation":"FY2026 revenue growth below 12%, or consensus FY2027 revenue cut below $41.4 billion, the current low end of the range [3]."},{"thesis":"Regulatory action on interchange and switching is the main threat to growth, and tightening in a major market would push growth below consensus.","evidence":"About 71% of 2025 revenue came from outside the US [1]. The filing cites Brazil's new settlement obligations, cross-border switching limits under consideration, and conflicting US court rulings on the Regulation II cap, with litigation charges of $504 million [1].","signpost":"A new interchange or cross-border switching rule adopted in a major market, or the Regulation II court outcome, reported in quarterly filings.","invalidation":"No material new rule in 2026, with FY2026 litigation charges below $504 million and growth in line with consensus."}], "business_overview": "Mastercard Incorporated is a technology company in the global payments industry. Its principal operating subsidiary, Mastercard International, was formed in 1966, and the parent was incorporated in Delaware in 2001 [1]. The company operates a four-party payments network that authorizes, clears and settles transactions in more than 150 currencies and more than 220 countries and territories [1]. It does not issue cards, extend credit, or set the rates that issuers charge account holders or acquirers charge merchants, so its revenue comes from network activity and services rather than from lending [1]. Management cites its global network, a franchise model that includes a settlement guarantee backed by its credit standing, multi-rail capabilities, brands, data and AI, and local presence as its competitive advantages [1].\\n\\nNet revenue grew 16% to $32.8 billion in 2025, from $28.2 billion in 2024, and the two revenue streams behaved differently [1]. The payment network produced $19.5 billion, up 12% from $17.3 billion, driven by domestic and cross-border dollar volume and a higher number of switched transactions [1]. Rebates and incentives paid to customers rose 16% to $20.5 billion, faster than the network revenue they offset, a cost the company must keep managing [1]. Value-added services and solutions produced $13.3 billion, up 23% from $10.8 billion, or 21% on a currency-neutral basis. Acquisitions contributed 3 percentage points, and the rest came from security, digital and authentication solutions, consumer acquisition and engagement services, pricing, and business and market insights [1]. Services now make up about 41% of net revenue, against about 38% a year earlier, a calculation from reported figures [1].\\n\\nStrategically, 2025 brought the launch of Mastercard Agent Pay, Threat Intelligence with Recorded Future, Commerce Media and Merchant Cloud, and the company became naming partner of the McLaren Formula 1 Team from the 2026 season [1]. The filing points to tokenization, which covered about 40% of 2025 transactions, along with cash displacement, agentic commerce and stablecoin settlement as growth avenues [1]. Acquisitions added 1 percentage point to 2025 net revenue growth. The company returned $17.6 billion to stockholders, including $11.7 billion of repurchases, and funded those returns with operating cash flow of $17.6 billion rather than new equity [1]. The settlement guarantee is backed by the company's credit standing, which is central to its franchise model [1].", "market_position": "Mastercard's exposure is predominantly international. About 71% of 2025 revenue came from outside the United States, and no country other than the US generated more than 10% of net revenue [1]. U.S. Mastercard-branded gross dollar volume grew 6% in 2025, compared with 10% for the rest of the world on a U.S. dollar basis, so growth is shifting abroad [1]. The filing does not quantify global market share. It names Visa, American Express, JCB, China UnionPay and Discover as holding more share in certain jurisdictions, which places the company as a scaled leader in some markets and a contested player in others [1]. On the basis of disclosed scale and footprint, we classify Mastercard as a scaled network leader rather than a challenger, with the caveat that share is not disclosed [1].\\n\\nCustomer concentration is material. The five largest customers generated about $6.9 billion, or 21% of 2025 net revenue, but the filing does not name them [1]. The filing also says the company earns substantial revenue from customers with nearly exclusive relationships with competitors, so part of that revenue could shift without any change in the network itself [1]. Customers can reassess future commitments, subject to contract terms, so the relationships are less locked in than the scale suggests [1]. Consolidation among customers is a stated concern, since it could result in the substantial loss of business [1].\\n\\nCompetition is broad. The filing describes rival rails including domestic and local networks, ACH and real-time account-based systems such as Brazil's PIX, FedNow and India's UPI, digital wallets, fintechs and central bank digital currencies [1]. Some competitors operate three-party systems with direct connections to merchants and consumers, which the filing identifies as a potential advantage [1]. Mastercard's response is to widen its offer beyond the network into services that do not depend solely on card volume [1].\\n\\nMarket perception is positive. At the filing date the stock closed at $537.74, with a 52-week range of $460.65 to $597.14 and a market capitalization of about $480.5 billion [2]. Consensus carries a Buy rating and a $720.69 target price (range $550 to $800), about 34% above that close. These consensus figures are dated after the 10-K [3].", "operating_results": "Net revenue rose 16% to $32.8 billion in 2025, and net income rose 16% to $15.0 billion from $12.9 billion [1]. Diluted EPS rose 19% to $16.52, faster than net income, because diluted shares fell 2% to 906 million under the buyback program [1].\\n\\nGross margin rose to 77.9% from 76.3%, and operating margin rose to 57.6% from 55.3% [1]. Adjusted operating expenses rose 14%, below revenue growth, which accounts for most of the margin gain [1]. Depreciation and amortization, however, rose 27%, largely from capitalized software amortization, and personnel costs for strategic initiatives pushed general and administrative expense higher [1]. The effective tax rate climbed to 19.4% from 15.6%, mainly from the Singapore net tax effect and Pillar 2 rules, so the net margin slipped to 45.6% from 45.7% [1].\\n\\nBy revenue stream, the payment network delivered $19.5 billion, up 12%, and value-added services delivered $13.3 billion, up 23%. Segment profit is not disclosed, so margin by segment cannot be measured from the filing [1]. Revenue growth accelerated from 12.2% in 2024 to 16.4% in 2025, based on reported figures [1]. Because the tax rate rose and D&A grew faster than revenue, the headline margin gain is narrower than the operating line suggests [1]. Operating results support the investment case, but the quality of the margin improvement depends on sustaining cost discipline as amortization builds [1].", "risk_assessment": "The filing's risk factors point to three exposures that matter most. The first is regulation of the four-party model. Regulators in several jurisdictions have designated parts of the business as systemically important or critical infrastructure, and rules on interchange, network fees, surcharging and switching can be replicated or conflict across jurisdictions [1]. Surcharging is now permitted for credit cards in the US and Canada, and the filing warns that broad adoption could reduce transaction volume [1]. Brazil has extended payment system operators' responsibility for settlement integrity to merchants, a new cost that is not quantified [1]. The filing does not put a number on the financial effect of these measures, so the exposure cannot be sized from the filing alone [1].\\n\\nThe second is competitive pressure combined with customer concentration. The five largest customers provided 21% of 2025 revenue, and the filing states that the loss of business from any of them could have a material adverse effect [1]. It also notes that some customers could seek to merge with or acquire a competitor, and that real-time account-based schemes are offering increasingly lower or subsidized P2M pricing [1]. Cross-border revenue, which fluctuates with travel levels, is the most cyclical line [1]. The third is information security. The filing says the company is likely to remain a target and reports no material impact from cyber-attacks to date, but it also says insurance may not be adequate [1]. Acquisitions add risk, since acquired targets may have data practices that do not initially conform to company standards [1].\\n\\nMarket-based risk is also worth noting. Consensus expects FY2026 revenue growth of 14.0%, and the stock trades at a 32.2x forward P/E on FY2026 consensus EPS, so any slowdown in growth would weigh heavily on the share price [3]. Net debt is modest at $8.4 billion, but total debt rose to $19.0 billion and the current ratio is 1.04x, leaving little buffer if litigation payments rise [1][2]. The company's 2025 litigation charges totaled $504 million [1]. Consensus figures are dated after the 10-K [3].", "competitors_analysis": "Peers were chosen on business model first and scale second. Visa is the closest model, a network-based payments processor with the same switching and scheme economics [2]. American Express runs its own network and issuing business at 2.0x Mastercard's revenue scale, and PayPal is the closest in size among digital payments at 0.9x, competing for checkout volume [2]. Global Payments and Block were ranked lower because their business mix is less similar to Mastercard's [2]. The fiscal year ends differ by company and the source gives no exact dates, so the comparisons below are approximate [2].\\n\\nMastercard grew revenue faster than all three peers in fiscal 2025, at 16.4% against Visa's 11.3%, American Express's 9.5% and PayPal's 4.3% [2]. Its EBITDA margin rose to 62.3% in fiscal 2025, but Visa's was higher at 65.0% in the same year, and Visa's gross margin of 80.4% sat above Mastercard's 77.9% [2]. Mastercard's ROIC of 58.2% in fiscal 2025 was well ahead of Visa's 33.0% and PayPal's 18.5% [2]. The source does not define ROIC, so the size of that gap depends on the data provider's definition [2].\\n\\nOn valuation, Mastercard's EV/EBITDA of 25.4x in fiscal 2025 was at parity with Visa's 25.6x and well above PayPal's 7.2x [2]. The premium is supported by higher ROIC and faster growth, but it leaves Mastercard exposed if growth slows toward the 9% to 11% range reported by American Express and Visa in fiscal 2024 and 2025 [2]. Mastercard's FCF conversion of 1.10 was slightly above Visa's 1.08 in fiscal 2025, but both are close to 1.0, so cash conversion does not separate them clearly [2]. Consensus rates the stock Buy, and these consensus figures are dated after the 10-K [3].", "share_performance_image_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/share_performance.png", "pe_eps_performance_image_path": "../reports/MA_2025_claude-haiku-5.5_eval_nosc/pe_eps_performance.png"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION build_annual_report...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_013ykSFuzsoxS7ADEo4hrt2c) *****[0m
+Annual report generated successfully. Fact check: 143 of 151 figures found in the sources, 0 name/ticker mismatch(es). Details in the appendix of the PDF.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The annual report is generated at `../reports/MA_2025_claude-haiku-5.5_eval_nosc/MA_2025_annual_report.pdf`. The build's fact check matched 143 of 151 figures to the sources, but I have not yet reviewed the 8 that did not match, so the report is not fully verified.
+
+**What was done**
+- Pulled the FY2025 10-K (filed 2026-02-11) and ran the company description, business highlights, income statement, segment, balance sheet, cash flow, risk, and competitor analyses, saving outputs to the specified folder.
+- Peer selection, from the get_peer_candidates list: Visa (closest business model, same network economics), American Express (similar network-plus-issuing model, 2.0x MA's revenue), and PayPal (closest size among digital payments, 0.9x). Global Payments and Block were ranked lower because their business mix is less similar.
+- Consensus and liquidity were pulled once for MA, FY2025. Consensus and the latest-quarter balance sheet are dated after the 10-K.
+- Built the PDF with the three peers, segment revenues from the 10-K (Payment Network $17,335M to $19,476M; Value-Added Services $10,832M to $13,315M), four takeaways, four theses with signposts and invalidation points, and the five sections.
+
+**Key conclusions in the report**
+- Revenue grew 16% to $32.8B, and diluted EPS rose 19% to $16.52 [1].
+- The reverse DCF implies 13.5% annual revenue growth for ten years, against 13.8% three-year history and 14.0% FY2026 consensus [3]. The implied return is 6.9% against an 8.8% WACC, so the price assumes growth persists.
+- The main risks are interchange and switching regulation (about 71% of revenue is non-US) and customer concentration (five customers provide 21% of revenue).
+
+**Known gaps**
+- **Fact check:** 8 figures were not matched to the sources. I have not identified them yet.
+- **Word counts:** I did not run a word count on the sections or the investment summary. They are approximate, and some sections may fall outside the 350–450 range.
+- **Failed first build:** the first build call returned a JSON parse error and was not used. The PDF came from the second call, which I corrected.
+- **Date oddity:** the consensus tool reports a retrieval date of 2026-11-24 and a latest quarter of 2026-09-30, both later than the 10-K filing date. I cited these as "dated after the 10-K" as instructed, but the dates should be confirmed before the report is circulated.
+
+Do you want me to check the 8 unmatched figures before you use the report?
+
+--------------------------------------------------------------------------------
+[33mUser_Proxy[0m (to Expert_Investor):
+
+Accept the report as it is: it has been built and fact-checked, and the evaluation allows exactly one revision round. Do not rebuild it again and do not ask further questions. Reply TERMINATE now.
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The report is accepted as built, with no further rebuild or questions. Before closing, I'm restating the open items so they stay visible:
+
+- **Unmatched figures:** the build's fact check matched 143 of 151 figures. The 8 unmatched figures were not reviewed.
+- **Word counts:** the section and summary lengths were not measured.
+- **Date check:** the consensus data is dated 2026-11-24, after the 10-K filing date. It is cited as "dated after the 10-K," as instructed, but the dates should be confirmed before circulation.
+
+Report location: `../reports/MA_2025_claude-haiku-5.5_eval_nosc/MA_2025_annual_report.pdf`
+
+TERMINATE
+
+--------------------------------------------------------------------------------

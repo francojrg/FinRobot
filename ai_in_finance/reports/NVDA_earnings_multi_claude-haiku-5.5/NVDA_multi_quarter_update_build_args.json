@@ -1,0 +1,119 @@
+{
+  "ticker_symbol": "NVDA",
+  "fyear": "2026",
+  "save_dir": "../reports/NVDA_earnings_multi_claude-haiku-5.5",
+  "headline": "NVIDIA's first two quarters of FY2027 show revenue growth of 85% or more and gross margin near 75%, while net cash fell from $68.2 billion to $24.1 billion.",
+  "summary": "Revenue growth accelerated after the FY2026 annual report: +85% year over year to $81.6 billion in Q1 FY2027 [2], and +105.9% in Q2 FY2027 [3]. Gross margin was 74.9% in Q1 and 75.0% in Q2, above the 72% recovery signpost [2][3]. Three of the four theses are intact or stronger. The exception is the cash thesis: net cash stayed positive but fell to $24.1 billion in Q2 from $68.2 billion in Q1, as extended customer payment terms and total debt of $38.4 billion, against $11.0 billion at year-end, reduced the cushion [2][3]. Consensus, dated after the 10-K, expects FY2027 EPS of $9.67 and FY2028 EPS of $16.61, with FY2028 raised 27.7% over 90 days [3]. The reverse DCF still implies 26.2% annual revenue growth for ten years at a 15% WACC [3]. The earnings releases for these quarters contained no exhibit 99 text, so figures come from the 10-Qs and Yahoo Finance data [1][2][3]. The Q2 Data Center revenue figure was not retrieved, so the T1 Q2 status is not confirmed against its signpost.",
+  "results_commentary": "Q1 FY2027 (quarter ended late April 2026) had the strongest top line in the set. Revenue was $81.6 billion, up 85% from $44.1 billion a year earlier and up 20% sequentially [2]. Data Center revenue was $75.2 billion, up 92% year over year, driven by the ramp of Blackwell 300 products and by InfiniBand, Spectrum-X and NVLink demand [2]. Hyperscale revenue rose 115% to $37.9 billion, and AI Clouds, Industrial and Enterprise rose 74% to $37.4 billion, so the non-hyperscale share widened [2]. The shortfall was China: Data Center Hopper shipments were zero, against $4.6 billion a year earlier [2]. Edge Computing grew 29% to $6.4 billion, but slower consumer PC demand, tempered by higher memory and systems prices, held back that segment [2]. Gross margin rose to 74.9% from 60.5%, mainly because the year-ago quarter carried the $4.5 billion H20 charge [2]. Net income of $58.3 billion exceeded operating income of $53.5 billion, so diluted EPS of $2.39 (against $0.76 a year earlier) includes non-operating income that the retrieved MD&A does not itemise. Yahoo's normalised Q1 EPS was $1.87 against a $1.77 estimate [2][3].\n\nQ2 FY2027 (quarter ended late July 2026) held the growth and widened the margins, but cash conversion weakened. Revenue growth was 105.9% year over year [3]. The Q2 revenue level and the Data Center split are not in the retrieved MD&A excerpt, so the Data Center signpost cannot be checked for this quarter. Gross margin was 75.0% against 72.4% a year earlier, operating margin 66.2% against 60.8%, and opex fell to 8.7% of revenue from 11.6% [3]. Normalised EPS of $2.22 beat the $2.09 estimate by 6.2% [3]. The deterioration is in cash. Free cash flow margin fell to 22.2% from 28.8%, net cash to $24.1 billion from $43.4 billion a year earlier, and days sales outstanding rose to 60 from 54 [3]. The 10-Q attributes the timing effect to extended payment terms under large multi-quarter agreements with investment-grade customers [2]. Total debt reached $38.4 billion, against $11.0 billion at year-end [3].\n\nSupply is the other side of the trade. Supply and capacity commitments rose to $279 billion at July 26, 2026 from $119 billion a quarter earlier, and the 10-Q reports current supply constraints while Vera Rubin began production shipments in the third quarter [2]. Margins held at the first-quarter level, so the Q2 pressure is on cash and commitments, not on pricing.",
+  "thesis_check": [
+    {
+      "thesis": "T1: Data center demand keeps NVIDIA's growth well above peers through fiscal 2027.",
+      "signpost": "Data Center revenue growth above 50% year over year in each FY2027 quarter reported, and Rubin production shipments starting in the second half of FY2027 [1][3].",
+      "statuses": {
+        "Q1 FY2027": "strengthened",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q1 FY2027 Data Center revenue was $75.2 billion, up 92% year over year; hyperscale revenue rose 115% and AI Clouds, Industrial and Enterprise rose 74% [2]. For Q2 FY2027, total revenue grew 105.9% [3], but the Data Center revenue figure was not in the retrieved 10-Q text, so the signpost is not confirmed for Q2 and the intact status is provisional. The Q2 10-Q says Vera Rubin began production shipments in the third quarter of FY2027, inside the second half, but it also reports current supply constraints [2]."
+    },
+    {
+      "thesis": "T2: Gross margin recovers above 72% as Blackwell yields mature and the H20 charge does not recur.",
+      "signpost": "Quarterly gross margin back above 72% by the end of FY2027 (January 2027) [1].",
+      "statuses": {
+        "Q1 FY2027": "strengthened",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Gross margin was 74.9% in Q1 FY2027 against 60.5% a year earlier, and 75.0% in Q2 FY2027 against 72.4% [2][3]. The Q1 gain came from lower inventory provisions after the prior year's $4.5 billion charge [2]. Q2 is held at intact rather than strengthened because supply and capacity commitments rose to $279 billion from $119 billion, which raises the risk of future purchase-obligation charges named in the invalidation test [2]."
+    },
+    {
+      "thesis": "T3: The stock is priced for a steep growth fade, so returns depend on consensus EPS being delivered.",
+      "signpost": "FY2027 EPS at or above the $9.67 consensus, and the FY2028 EPS estimate holding above $16 through the FY2027 year-end [3].",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Q1 FY2027 normalised EPS of $1.87 beat the $1.77 estimate by 5.5%, and Q2 FY2027 normalised EPS of $2.22 beat $2.09 by 6.2% [3]. As of 25 November 2026, FY2027 consensus EPS was $9.67, up 6.8% over 90 days, and FY2028 EPS was $16.61, up 27.7% over 90 days, with seven upward and no downward revisions in the last 30 days [3]. The reverse DCF implies 26.2% growth, below the annual report's invalidation level of growth above 30% [4][3]. Consensus is dated after the 10-K and is not a quarter-end figure."
+    },
+    {
+      "thesis": "T4: Free cash flow and net cash can absorb the China and customer shocks without strain.",
+      "signpost": "Net cash stays positive in each FY2027 quarter, and any H200 revenue is disclosed in the first half of FY2027 [1][2].",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Net cash was $68.2 billion at Q1 FY2027 and $24.1 billion at Q2 FY2027, still positive but down from $43.4 billion a year earlier [3]. Free cash flow margin fell to 22.2% from 28.8%, DSO rose to 60 days from 54, and total debt reached $38.4 billion [3]. The 10-Q says no H200 revenue has been generated under the licensing program, and the retrieved Q2 text does not disclose any H200 revenue [2]. The invalidation test (net cash below zero) has not been triggered."
+    }
+  ],
+  "risk_update": "Materialised: China. Data Center Hopper shipments to China were zero in Q1 FY2027, against $4.6 billion a year earlier. The H200 licences have produced no revenue to date, and H200 shipments face a 25% US tariff on import [2]. Customer financing also materialised in cash flow: DSO rose to 60 days from 54, and free cash flow margin fell to 22.2% from 28.8% in Q2 [2][3]. Eased: inventory provisions. Gross margin of 74.9% and 75.0% shows no repeat of the H20 charge [2][3]. New: commitments and guarantees. Supply and capacity commitments reached $279 billion from $119 billion one quarter earlier. The SB Energy guarantee is capped at $105 billion and is tied to OpenAI leases, AI cloud commitments total $36 billion, equity investments are $99 billion, and memoranda of understanding cover more than $500 billion of third-party financing. The 10-Q says the MOUs may not lead to definitive agreements [2]. Antitrust scrutiny widened: regulators in the EU, US, UK, China and South Korea have sent information requests, and the French authority is questioning whether gaming and data center GPUs are separate categories [2].",
+  "outlook": "The retrieved data contain no company guidance for Q3 FY2027, because the earnings 8-K filings had no exhibit 99 text [1]. Consensus, dated 25 November 2026, expects FY2027 revenue of $423.7 billion (range $412.4 billion to $431.7 billion) and EPS of $9.67 (range $9.39 to $10.52), with FY2027 EPS up 6.8% over 90 days [3]. FY2028 EPS is $16.61 (range $12.27 to $18.79), up 27.7% over 90 days, so the $16 signpost depends on a few high estimates [3]. Yahoo also lists a Q3 FY2027 EPS of $2.68 against a $2.47 estimate, but no release or 10-Q for that quarter was retrieved, so it is not in the scorecard [3]. Watch: whether Data Center growth stays above 50%, Rubin volume after the Q3 start, any H200 revenue disclosure, and whether net cash stabilises below $24.1 billion. A further fall in net cash, or DSO rising again, would weaken T4.",
+  "company_kpis": [
+    {
+      "name": "Gross margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 74.9,
+        "Q2 FY2027": 75
+      },
+      "prior_values": {
+        "Q1 FY2027": 60.5,
+        "Q2 FY2027": 72.4
+      },
+      "source": "Q1: 10-Q [2]; Q2: Yahoo Finance scorecard [3]"
+    },
+    {
+      "name": "Data Center revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 75246
+      },
+      "prior_values": {
+        "Q1 FY2027": 39112
+      },
+      "source": "10-Q for quarter ended April 26, 2026 [2]; Q2 Data Center revenue not in retrieved text"
+    },
+    {
+      "name": "Net cash",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 68224,
+        "Q2 FY2027": 24118
+      },
+      "prior_values": {
+        "Q2 FY2027": 43393
+      },
+      "source": "Yahoo Finance balance sheet [3]; year-ago Q1 not available"
+    },
+    {
+      "name": "Days sales outstanding",
+      "unit": "days",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2027": 45,
+        "Q2 FY2027": 60
+      },
+      "prior_values": {
+        "Q2 FY2027": 54
+      },
+      "source": "Yahoo Finance [3]; year-ago Q1 not available"
+    },
+    {
+      "name": "Free cash flow margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 59.5,
+        "Q2 FY2027": 22.2
+      },
+      "prior_values": {
+        "Q2 FY2027": 28.8
+      },
+      "source": "Yahoo Finance scorecard [3]; year-ago Q1 not available"
+    }
+  ]
+}

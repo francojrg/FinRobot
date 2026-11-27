@@ -1,0 +1,138 @@
+{
+  "ticker_symbol": "TMO",
+  "fyear": "2025",
+  "save_dir": "../reports/TMO_earnings_multi_claude-haiku-5.5",
+  "headline": "Organic growth rose from 1% in Q1 to 6% in Q3 FY2026 and EPS beat consensus each quarter, but debt of $41.4 billion is still above the baseline.",
+  "summary": "Through Q3 FY2026, nine-month revenue rose 9% to $35.1 billion, with 4% organic growth [1][2]. Organic growth accelerated each quarter, from 1% in Q1 to 5% in Q2 and 6% in Q3, after Q1 was held back by muted academic and government demand in the U.S. and China [1][2]. Adjusted EPS grew 6%, 13% and 15% and beat consensus each quarter, by 3.8%, 5.5% and 4.3% [1][3]. Free cash flow rose in each quarter, to $825 million, $1.68 billion and $2.12 billion, against $373 million, $1.11 billion and $1.84 billion a year earlier [1]. Two theses strengthened: cash generation (T1) and the Analytical Instruments margin (T2), which reached 26.9% in Q3 from 20.7% in Q1 [1][2]. Part of the Q3 margin gain came from tariff refunds that the 10-Q does not size, so it may not repeat [2]. Leverage is the weak point. Total debt was $41.4 billion at Q3 against $39.4 billion at FY2025, and Q3 interest expense rose 20% year on year [1][2][3][4]. At $697.63 per share the reverse DCF still needs 16.4% annual revenue growth [3]. The FY2026 guidance figures are not in the source data, so this update does not assess them.",
+  "results_commentary": "Q1 FY2026 was the weakest quarter. Revenue rose 6% to $11.01 billion, but organic growth was 1%: acquisitions added 3 points, mainly Clario, closed on March 24, and currency added 2 points [1][2]. Academic and government demand fell in the U.S. and China, diagnostics and healthcare declined, and one fewer selling day weighed on the quarter [2]. The Analytical Instruments segment margin fell to 20.7% from 23.2%, which the 10-Q attributes to tariffs and related currency effects, unfavourable mix and lower volume [2]. Adjusted operating margin slipped to 21.8% from 21.9%, as productivity gains only partly offset mix and strategic investment [1][2]. Adjusted EPS rose 6% to $5.44, the slowest quarter, though still $0.20 above the $5.24 consensus [1][3]. Free cash flow of $825 million, up from $373 million, was the one clear bright spot [1].\n\nQ2 FY2026 was the turning point. Revenue grew 10% to $11.99 billion, with organic growth of 5%, and adjusted EPS rose 13% to $6.03 against a $5.71 estimate [1][3]. Adjusted operating margin rose 0.9 points to 22.8%, which the 10-Q credits to strong productivity, partly offset by mix [2]. Life Sciences Solutions revenue grew 13%, mostly from bioproduction, and its margin rose to 37.0% [2]. Analytical Instruments margin recovered to 23.0% from 18.8%, on revenue up about 7% (illustrative, from segment revenue of $1,847 million against $1,728 million) [1][2]. Free cash flow rose to $1.68 billion from $1.11 billion [1].\n\nQ3 FY2026 was the strongest quarter on most measures. Revenue rose 9% to $12.14 billion, with organic growth of 6%, and adjusted EPS rose 15% to $6.68 against a $6.40 estimate [1][3]. Adjusted operating margin reached 24.5%, up 1.2 points, and Analytical Instruments margin reached 26.9% from 22.6% [1][2]. The 10-Q credits very strong productivity, including tariff refunds realised, but does not quantify the refunds [2]. GAAP EPS grew only 9%, because the tax provision rose to $352 million from $207 million and acquisition amortisation rose to $519 million from $435 million [1]. Life Sciences Solutions growth slowed to 5% from 13% in Q2, as bioproduction added $79 million in Q3 against $196 million in Q2 [1][2]. Free cash flow reached $2.12 billion, up from $1.84 billion [1].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Free cash flow recovers in 2026 as the 2025 tax-payment timing reverses, lifting cash generation back above $7 billion.",
+      "signpost": "FY2026 10-K showing free cash flow above $7.0 billion (filed around February 2027) [1]. Invalidation: FY2026 FCF below $6.3 billion or operating cash flow below $7.82 billion.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Quarterly free cash flow was $825 million, $1.68 billion and $2.12 billion in Q1-Q3, against $373 million, $1.11 billion and $1.84 billion a year earlier [1]. Trailing twelve-month FCF reached $7.60 billion at Q3 [3], already above the $7.0 billion signpost. The releases and 10-Qs do not break out tax payments, so the tax-timing mechanism cannot be confirmed; the FY2026 10-K remains the test."
+    },
+    {
+      "thesis": "T2: Analytical Instruments margin recovers toward 26% as tariff and mix pressure eases, lifting group segment income.",
+      "signpost": "FY2026 10-K showing Analytical Instruments segment margin at or above 25% (filed around February 2027). Invalidation: margin below 23% in the FY2026 10-K, or a further tariff-driven margin decline [1].",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Segment margin was 20.7% in Q1 (23.2% a year earlier), 23.0% in Q2 (18.8%) and 26.9% in Q3 (22.6%) [1][2]. Q3 clears the 25% signpost, but the 10-Q credits tariff refunds for part of the group's Q3 productivity gain without sizing them, so Q3 may not repeat [2]. The FY2026 10-K is the test."
+    },
+    {
+      "thesis": "T3: Consensus revenue growth of 7.7% in 2026 is delivered and EPS estimates keep rising, but the current valuation needs far more growth than that.",
+      "signpost": "Q1 2027 results (around April 2027) showing revenue growth of at least 7% and an EPS beat versus consensus [3]. Invalidation: 2026 revenue growth below 5%, or a cut in the current-year EPS consensus below $25.28 [3].",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Reported revenue grew 6%, 10% and 9% in Q1-Q3, and organic growth was 1%, 5% and 6% [1][2]. Adjusted EPS beat consensus by 3.8%, 5.5% and 4.3% [1][3]. The current-year EPS consensus rose from $25.12 to $25.28 over 90 days (+0.6%), with 23 analysts raising and 1 cutting in 30 days [3]. The reverse DCF implies 16.4% a year at the current enterprise value, against 16.3% in the annual report [3][4]. The Q1 2027 signpost has not been reported."
+    },
+    {
+      "thesis": "T4: Leverage is manageable: debt-funded acquisitions and buybacks are supported by strong liquidity, but only if returns on capital recover above 9.5%.",
+      "signpost": "FY2026 10-K showing total debt at or below $39.4 billion and ROIC above 9.5% [1]. Invalidation: total debt above $41.4 billion without matching earnings growth, or ROIC at or below 8.7% [1][4].",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Total debt was $39.4 billion at FY2025 [4] and $41.4 billion at Q3 [2][3]. Q1 and Q2 were higher still, at about $43.2 billion and $42.5 billion (illustrative, derived as cash plus net debt) [2][3]. Q3 sits just below the $41.4 billion invalidation level and debt is still 5% above the $39.4 billion signpost. Q3 interest expense rose to $417 million from $347 million [1]. No 2026 ROIC figure is in the sources; the last reported ROIC was 8.7% for 2025 [4]. Q3 stays at intact as logged, but the status is borderline until ROIC is reported."
+    }
+  ],
+  "risk_update": "Three risks from the annual report have moved since the filing. Demand from academic and government customers, which the filing flagged as budget-sensitive, weakened in Q1 (organic growth 1%, with declines in the U.S. and China) and was flat in Q3 [2]. China turned from a drag in Q1 to very strong growth in Q3 [2]. Tariffs hit the Analytical Instruments margin in Q1 (down 2.5 points) and later turned into a benefit through refunds in Q3, which the 10-Q does not size, so the benefit is not yet established as recurring [2]. Leverage risk has not eased: debt peaked at about $43.2 billion at Q1 (derived, illustrative) and was $41.4 billion at Q3, and quarterly interest expense rose 20% in Q3 [1][2][3]. New in the period: the Clario acquisition (Q1) adds integration and goodwill exposure, and the microbiology divestiture (completed in Q3) produced a held-for-sale loss that offset part of a gain [2]. The sources do not quantify goodwill after Clario.",
+  "outlook": "The Q2 and Q3 releases say updated 2026 guidance was given on the earnings calls, but the guidance figures are not in the source data, so this update does not restate them. Consensus, dated after the 10-K, expects FY2026 revenue of $48.0 billion (+7.7%) and EPS of $25.28, and FY2027 EPS of $27.77 [3]. Nine-month reported revenue is $35.1 billion [2], so the full-year consensus leaves the fourth quarter to deliver the rest. Watch four items: whether Q3 Analytical Instruments margin holds without tariff refunds, whether total debt falls below $41.4 billion at year-end, whether the FY2026 10-K reports ROIC above 8.7%, and whether Life Sciences Solutions growth returns toward its first-half pace after the Q3 slowdown to 5% [1][2].",
+  "company_kpis": [
+    {
+      "name": "Revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 11005,
+        "Q2 FY2026": 11994,
+        "Q3 FY2026": 12137
+      },
+      "prior_values": {
+        "Q1 FY2026": 10364,
+        "Q2 FY2026": 10855,
+        "Q3 FY2026": 11122
+      },
+      "source": "Earnings releases [1] (income statement)"
+    },
+    {
+      "name": "Adjusted operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 21.8,
+        "Q2 FY2026": 22.8,
+        "Q3 FY2026": 24.5
+      },
+      "prior_values": {
+        "Q1 FY2026": 21.9,
+        "Q2 FY2026": 21.9,
+        "Q3 FY2026": 23.3
+      },
+      "source": "Earnings releases [1] (non-GAAP reconciliation)"
+    },
+    {
+      "name": "Analytical Instruments segment margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 20.7,
+        "Q2 FY2026": 23,
+        "Q3 FY2026": 26.9
+      },
+      "prior_values": {
+        "Q1 FY2026": 23.2,
+        "Q2 FY2026": 18.8,
+        "Q3 FY2026": 22.6
+      },
+      "source": "Earnings releases [1] and 10-Q segment results [2]"
+    },
+    {
+      "name": "Adjusted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 5.44,
+        "Q2 FY2026": 6.03,
+        "Q3 FY2026": 6.68
+      },
+      "prior_values": {
+        "Q1 FY2026": 5.15,
+        "Q2 FY2026": 5.36,
+        "Q3 FY2026": 5.79
+      },
+      "source": "Earnings releases [1]"
+    },
+    {
+      "name": "Free cash flow",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 825,
+        "Q2 FY2026": 1678,
+        "Q3 FY2026": 2115
+      },
+      "prior_values": {
+        "Q1 FY2026": 373,
+        "Q2 FY2026": 1105,
+        "Q3 FY2026": 1840
+      },
+      "source": "Earnings releases [1] (company non-GAAP reconciliation)"
+    }
+  ]
+}

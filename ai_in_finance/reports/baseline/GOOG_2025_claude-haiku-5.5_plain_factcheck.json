@@ -1,0 +1,1015 @@
+{
+  "total_claims": 54,
+  "matched": 35,
+  "match_rate": 0.648,
+  "by_kind": {
+    "plain": {
+      "total": 8,
+      "matched": 6
+    },
+    "money": {
+      "total": 21,
+      "matched": 10
+    },
+    "pct": {
+      "total": 25,
+      "matched": 19
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 26,
+    "[2] Yahoo Finance": 8,
+    "[2][3] Liquidity and consensus": 1,
+    "[4] Peer data": 0
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...2026 with strong fundamentals. Revenue grew roughly 15% to about $400 billion, operating margin held near 32–33%, and diluted...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...roughly 15% to about $400 billion, operating margin held near 32–33%, and diluted earnings per share rose at a...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "87%",
+      "value": 87.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Play, Pixel, and Google One). Services accounts for roughly 85–87% of revenue. - **Google Cloud** provides...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "85",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Google Play, Pixel, and Google One). Services accounts for roughly 85–87% of revenue. - **Google Cloud** provides...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...performance (FY2025, approximate):**  - **Revenue:** ~$400 billion, up ~15% year over year, with growth...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$130 billion",
+      "value": 130.0,
+      "unit": "billion",
+      "money_mn": 130000.0,
+      "decimals": 0,
+      "context": "...with growth accelerating through the year. - **Operating income:** ~$130 billion, with operating margin of roughly 32–33%, stable...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$130 billion",
+      "value": 130.0,
+      "unit": "billion",
+      "money_mn": 130000.0,
+      "decimals": 0,
+      "context": "...depreciation from AI infrastructure investment. - **Net income:** ~$130 billion or more, supported by investment gains and a...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$10.50",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...charge that weighed on certain quarters. - **Diluted EPS:** roughly $10.50, up from $8.04 in FY2024, aided by operating...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$150 billion",
+      "value": 150.0,
+      "unit": "billion",
+      "money_mn": 150000.0,
+      "decimals": 0,
+      "context": "...and share repurchases. - **Operating cash flow:** comfortably above $150 billion. - **Capital expenditures:** approximately $90...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$220",
+      "value": 220.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...neration.  **Segment performance:**  - **Google Search and other:** ~$220+ billion, growing low-to-mid teens. Management...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$58",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Music/Premium) and Google One storage plans. - **Google Cloud:** ~$58–60 billion, growing above 30%, the...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income:** ~$130 billion, with operating margin of roughly 32–33%, stable to slightly higher than FY2024 despite...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "90%",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...holds a dominant position in global search, with a share of roughly 90% of general search queries on a worldwide basis,...",
+      "section": "Market Position",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "700",
+      "value": 700.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Search and to grow its consumer AI app, which surpassed roughly 700 million monthly active users during 2025.  In...",
+      "section": "Market Position",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$400B",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...(FY2025) | Amazon (FY2025) | |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$282B",
+      "value": 282.0,
+      "unit": "billion",
+      "money_mn": 282000.0,
+      "decimals": 0,
+      "context": "...| Amazon (FY2025) | |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$700B",
+      "value": 700.0,
+      "unit": "billion",
+      "money_mn": 700000.0,
+      "decimals": 0,
+      "context": "...| |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...~20% | | Capex intensity | ~22% of revenue | ~30%+ of revenue | ~35%+ of revenue | Very high (AI-driven)...",
+      "section": "Competitors Analysis",
+      "source": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "plain",
+      "text": "1,200",
+      "value": 1200.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and compare the company with two or three peers. Write about 1,200 words in English. -->",
+      "section": "Intro",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...million from 2024 to 2025, primarily driven by an increase in advertising and promotional activities of $1.2 billion, partially offset by a decrease in employee compensation expenses of $214 million."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...2026 with strong fundamentals. Revenue grew roughly 15% to about $400 billion, operating margin held near 32–33%, and diluted...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$100 billion",
+      "value": 100.0,
+      "unit": "billion",
+      "money_mn": 100000.0,
+      "decimals": 0,
+      "context": "...growing faster than the core, and the company generates well over $100 billion in annual operating cash flow. The main debate...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15 % Operating margin 32 % 32 % 0 % Other income (expense), net $ 7,425 $ 29,787 $ 22,362 301 % Net income $ 100,118 $ 132,170 $ 32,052 32 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Alphabet enters 2026 with strong fundamentals. Revenue grew roughly 15% to about $400 billion, operating margin held...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...roughly 15% to about $400 billion, operating margin held near 32–33%, and diluted earnings per share rose at a...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "32",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew roughly 15% to about $400 billion, operating margin held near 32–33%, and diluted earnings per share rose at a...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "32."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "87%",
+      "value": 87.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Play, Pixel, and Google One). Services accounts for roughly 85–87% of revenue. - **Google Cloud** provides...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "85",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Google Play, Pixel, and Google One). Services accounts for roughly 85–87% of revenue. - **Google Cloud** provides...",
+      "section": "Business Overview",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$400 billion",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...performance (FY2025, approximate):**  - **Revenue:** ~$400 billion, up ~15% year over year, with growth...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$130 billion",
+      "value": 130.0,
+      "unit": "billion",
+      "money_mn": 130000.0,
+      "decimals": 0,
+      "context": "...with growth accelerating through the year. - **Operating income:** ~$130 billion, with operating margin of roughly 32–33%, stable...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$130 billion",
+      "value": 130.0,
+      "unit": "billion",
+      "money_mn": 130000.0,
+      "decimals": 0,
+      "context": "...depreciation from AI infrastructure investment. - **Net income:** ~$130 billion or more, supported by investment gains and a...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$10.50",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...charge that weighed on certain quarters. - **Diluted EPS:** roughly $10.50, up from $8.04 in FY2024, aided by operating...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$8.04",
+      "value": 8.04,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...on certain quarters. - **Diluted EPS:** roughly $10.50, up from $8.04 in FY2024, aided by operating leverage and share...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 8.04 $ 10.81 $ 2.77 34 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$150 billion",
+      "value": 150.0,
+      "unit": "billion",
+      "money_mn": 150000.0,
+      "decimals": 0,
+      "context": "...and share repurchases. - **Operating cash flow:** comfortably above $150 billion. - **Capital expenditures:** approximately $90...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$90 billion",
+      "value": 90.0,
+      "unit": "billion",
+      "money_mn": 90000.0,
+      "decimals": 0,
+      "context": "...above $150 billion. - **Capital expenditures:** approximately $90 billion, up sharply from $52.5 billion in FY2024,...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "89,769,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$52.5 billion",
+      "value": 52.5,
+      "unit": "billion",
+      "money_mn": 52500.0,
+      "decimals": 1,
+      "context": "...expenditures:** approximately $90 billion, up sharply from $52.5 billion in FY2024, reflecting data center and AI chip...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "During the years ended December 31, 2024 and 2025, we spent $52.5 billion and $91.4 billion on capital expenditures, respectively. In 2026, we expect to significantly increase ,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$70 billion",
+      "value": 70.0,
+      "unit": "billion",
+      "money_mn": 70000.0,
+      "decimals": 0,
+      "context": "...data center and AI chip investment. - **Free cash flow:** roughly $70 billion or more after capex, still substantial but down...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "In April 2024, the company's Board of Directors authorized a $70.0 billion share repurchase program for its Class A and Class C shares. In April 2025, the company's Board of Directors..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$220",
+      "value": 220.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...neration.  **Segment performance:**  - **Google Search and other:** ~$220+ billion, growing low-to-mid teens. Management...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$40",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...ones, without degrading monetization. - **YouTube ads:** ~$40+ billion, growing around 10%, supported by...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$50 billion",
+      "value": 50.0,
+      "unit": "billion",
+      "money_mn": 50000.0,
+      "decimals": 0,
+      "context": "...connected TV viewing. - **Subscriptions, platforms and devices:** ~$50 billion, growing at a double-digit rate, led by YouTube...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "50,175,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$58",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Music/Premium) and Google One storage plans. - **Google Cloud:** ~$58–60 billion, growing above 30%, the...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$2 billion",
+      "value": 2.0,
+      "unit": "billion",
+      "money_mn": 2000.0,
+      "decimals": 0,
+      "context": "...a key forward indicator. - **Other Bets:** revenue under $2 billion, with operating losses of several billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...31, 2025, we had senior unsecured notes outstanding with a total carrying value of $48.5 billion, of which $2.0 billion was short-term. The associated short-term and long-term future interest payments were $1.8 billion and $35.7..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(FY2025, approximate):**  - **Revenue:** ~$400 billion, up ~15% year over year, with growth accelerating through...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income:** ~$130 billion, with operating margin of roughly 32–33%, stable to slightly higher than FY2024 despite...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...monetization. - **YouTube ads:** ~$40+ billion, growing around 10%, supported by Shorts monetization and connected...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...storage plans. - **Google Cloud:** ~$58–60 billion, growing above 30%, the fastest-growing major segment. Operating...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "30.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...major segment. Operating margin expanded into the low-20% range, up from roughly 11% a year earlier, as...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.3% from 2024 to 2025, primarily due to a revenue mix shift from Google Network properties to Google Search &..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Operating margin expanded into the low-20% range, up from roughly 11% a year earlier, as scale and AI demand improved...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "32",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income:** ~$130 billion, with operating margin of roughly 32–33%, stable to slightly higher than FY2024...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "32."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "60",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and Google One storage plans. - **Google Cloud:** ~$58–60 billion, growing above 30%, the fastest-growing...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 TAC $ 54,900 $ 59,926 Other cost of revenues 91,406 102,609 Total cost of revenues $ 146,306 $ 162,535 Total cost of revenues as a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "90%",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...holds a dominant position in global search, with a share of roughly 90% of general search queries on a worldwide basis,...",
+      "section": "Market Position",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "700",
+      "value": 700.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Search and to grow its consumer AI app, which surpassed roughly 700 million monthly active users during 2025.  In...",
+      "section": "Market Position",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$90 billion",
+      "value": 90.0,
+      "unit": "billion",
+      "money_mn": 90000.0,
+      "decimals": 0,
+      "context": "...does not keep pace. 3. **Capital intensity:** Capex approaching $90 billion increases depreciation and raises the risk of...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "89,769,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$400B",
+      "value": 400.0,
+      "unit": "billion",
+      "money_mn": 400000.0,
+      "decimals": 0,
+      "context": "...(FY2025) | Amazon (FY2025) | |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$282B",
+      "value": 282.0,
+      "unit": "billion",
+      "money_mn": 282000.0,
+      "decimals": 0,
+      "context": "...| Amazon (FY2025) | |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$200B",
+      "value": 200.0,
+      "unit": "billion",
+      "money_mn": 200000.0,
+      "decimals": 0,
+      "context": "...(FY2025) | |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...products and features to help our users, partners, customers, and communities and have invested more than $200 billion in research and development in the last five years in support of these efforts."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$700B",
+      "value": 700.0,
+      "unit": "billion",
+      "money_mn": 700000.0,
+      "decimals": 0,
+      "context": "...| |---|---|---|---|---| | Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ |...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue | ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$400B | ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$282B | ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.3% from 2024 to 2025, primarily due to a revenue mix shift from Google Network properties to Google Search &..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "45%",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud ~34% |...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "44.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud ~34% | Azure...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...102,609 Total cost of revenues $ 146,306 $ 162,535 Total cost of revenues as a percentage of revenues 42 % 40 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud ~34% | Azure ~39% | N/A...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34%",
+      "value": 34.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud ~34% | Azure ~39% | N/A | AWS ~20% | | Capex...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 8.04 $ 10.81 $ 2.77 34 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...~32–33% | ~45% | ~40% | ~11% | | Cloud growth | Cloud ~34% | Azure ~39% | N/A | AWS ~20% | | Capex intensity | ~22% of...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "38.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...~40% | ~11% | | Cloud growth | Cloud ~34% | Azure ~39% | N/A | AWS ~20% | | Capex intensity | ~22% of revenue | ~30%+ of...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.3% from 2024 to 2025, primarily due to a revenue mix shift from Google Network properties to Google Search &..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| Cloud ~34% | Azure ~39% | N/A | AWS ~20% | | Capex intensity | ~22% of revenue | ~30%+ of revenue | ~35%+ of revenue...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 % Operating margin 32 % 32 % 0 % Other income (expense),..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...~39% | N/A | AWS ~20% | | Capex intensity | ~22% of revenue | ~30%+ of revenue | ~35%+ of revenue | Very high...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "30.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...~20% | | Capex intensity | ~22% of revenue | ~30%+ of revenue | ~35%+ of revenue | Very high (AI-driven)...",
+      "section": "Competitors Analysis",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...| ~$200B | ~$700B+ | | Revenue growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and hardware. This potential is reflected in our latest generation of devices, such as the new Pixel 10 series and the Pixel Watch 4. Creating products and services that people rely on every day is a journey that..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "32",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth | ~15% | ~15% | ~20%+ | ~10–12% | | Operating margin | ~32–33% | ~45% | ~40% | ~11% | | Cloud growth |...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "32."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...secondary growth, and Cloud with custom TPUs could sustain above-30% growth with improving margins. At current...",
+      "section": "Investment Theses",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "30.1%"
+      }
+    }
+  ],
+  "ticker": "GOOG",
+  "fyear": "2025",
+  "filing_date": "2026-02-05",
+  "source_file": "C:\\Users\\franc\\dev\\FinRobot\\ai_in_finance\\reports\\baseline\\GOOG_2025_claude-haiku-5.5_plain.md",
+  "peer_tickers": [],
+  "n_tenk_files": 3,
+  "kind": "baseline"
+}

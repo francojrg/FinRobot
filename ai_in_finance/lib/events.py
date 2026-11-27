@@ -77,8 +77,10 @@ def news_announcements(tickers, days=30):
     return sorted(out, key=lambda x: x["date"], reverse=True)
 
 
-def events(tickers, max_age_hours=6, refresh=False):
-    """{"upcoming": [...], "announced": [...], "updated": ...} fuer die Positionen."""
+def events(tickers, max_age_hours=6, refresh=False, cache_path=None):
+    """{"upcoming": [...], "announced": [...], "updated": ...} fuer die Positionen.
+    cache_path: eigene Cache-Datei (z. B. Watchlist), damit sich Home und Watchlist nicht gegenseitig verdraengen."""
+    CACHE = Path(cache_path) if cache_path else globals()["CACHE"]
     tickers = sorted({t.upper() for t in tickers})
     if CACHE.exists() and not refresh:
         try:

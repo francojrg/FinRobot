@@ -1,0 +1,3736 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 173,
+  "context_match_rate": 0.961,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "32%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...42% a year earlier  . Two items held the quarter back. R&D rose 32% to $2,965 million, mainly on higher stock-based...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "32 %",
+        "snippet": "Earnings per common share - diluted $ 1.50 $ 1.14 +32 % $ 2.05 $ 1.60 +28 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "93%",
+      "value": 93.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...notes repurchased  . The Q4 guide is $34.8 billion of revenue (+93%) and a 66% non-GAAP operating margin  , down...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "93%",
+        "snippet": "...billion,” said Amie Thuener, CFO of Broadcom Inc. “Q4 consolidated revenue growth is forecasted to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "88%",
+      "value": 88.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Nine-month semiconductor revenue of $48,363 million is up about 88% on $25,786 million (illustrative, summed from...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "88 %",
+        "snippet": "Net income $ 9,310 $ 4,965 +88 % $ 12,074 $ 7,787 +55 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2 analysts raising and none cutting in the last 30 days  . It sits 1.7% above the $19 floor, and the analyst range runs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "- Quarter ending 2026-04-30: EPS $2.44 vs estimate $2.40 (surprise +1.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "93%",
+      "value": 93.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Management guides Q4 FY2026 revenue to about $34.8 billion (+93%) and non-GAAP operating margin to about 66%  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "93%",
+        "snippet": "...billion,” said Amie Thuener, CFO of Broadcom Inc. “Q4 consolidated revenue growth is forecasted to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a..."
+      }
+    }
+  ],
+  "total_claims": 180,
+  "matched": 178,
+  "match_rate": 0.989,
+  "by_kind": {
+    "money": {
+      "total": 79,
+      "matched": 77,
+      "context_matched": 77
+    },
+    "pct": {
+      "total": 88,
+      "matched": 88,
+      "context_matched": 83
+    },
+    "plain": {
+      "total": 10,
+      "matched": 10,
+      "context_matched": 10
+    },
+    "multiple": {
+      "total": 3,
+      "matched": 3,
+      "context_matched": 3
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 121,
+    "[2] Forms 10-Q": 20,
+    "[3] Yahoo Finance": 34,
+    "[4] Annual report and thesis log": 3
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$48,363 million",
+      "value": 48363.0,
+      "unit": "million",
+      "money_mn": 48363.0,
+      "decimals": 0,
+      "context": "...Q1, 79% in Q2 and 127% in Q3  . Nine-month semiconductor revenue of $48,363 million is up about 88% on $25,786 million...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$25,786 million",
+      "value": 25786.0,
+      "unit": "million",
+      "money_mn": 25786.0,
+      "decimals": 0,
+      "context": "...semiconductor revenue of $48,363 million is up about 88% on $25,786 million (illustrative, summed from  ). Consensus FY2026...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$106 billion",
+      "value": 106.0,
+      "unit": "billion",
+      "money_mn": 106000.0,
+      "decimals": 0,
+      "context": "...held at about 68-70%, and FY2026 consensus revenue stayed near $106 billion.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Semiconductor revenue grew 52%, 79% and 127% in Q1-Q3 FY2026, gross margin held...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "52 %",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "79%",
+      "value": 79.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Semiconductor revenue grew 52%, 79% and 127% in Q1-Q3 FY2026, gross margin held at...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "79 %",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "127%",
+      "value": 127.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Semiconductor revenue grew 52%, 79% and 127% in Q1-Q3 FY2026, gross margin held at about...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "127 %",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...52%, 79% and 127% in Q1-Q3 FY2026, gross margin held at about 68-70%, and FY2026 consensus revenue stayed near $106...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.5%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "68",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 52%, 79% and 127% in Q1-Q3 FY2026, gross margin held at about 68-70%, and FY2026 consensus revenue stayed near...",
+      "section": "Headline",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "68",
+        "snippet": "6,154 4,771 32 32 Gross margin 13,157 10,145 68 68 Research and development 2,965 2,253 15 15 Selling, general and administrative 1,019 949 5 7 Amortization..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19,311 million",
+      "value": 19311.0,
+      "unit": "million",
+      "money_mn": 19311.0,
+      "decimals": 0,
+      "context": "...the last quarter as stated in the Q3 release) delivered revenue of $19,311 million, $22,187 million and $29,591 million, up 29%,...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19,311 million",
+        "snippet": "• Revenue of $19,311 million for the first quarter, up 29 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22,187 million",
+      "value": 22187.0,
+      "unit": "million",
+      "money_mn": 22187.0,
+      "decimals": 0,
+      "context": "...as stated in the Q3 release) delivered revenue of $19,311 million, $22,187 million and $29,591 million, up 29%, 48% and 86% year on...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "22,187 million",
+        "snippet": "• Revenue of $22,187 million for the second quarter, up 48 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29,591 million",
+      "value": 29591.0,
+      "unit": "million",
+      "money_mn": 29591.0,
+      "decimals": 0,
+      "context": "...release) delivered revenue of $19,311 million, $22,187 million and $29,591 million, up 29%, 48% and 86% year on year  ....",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29,591",
+        "snippet": "Net revenue $ 29,591 $ 15,952 +86 % $ 29,591 $ 15,952 +86 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.7 billion",
+      "value": 16.7,
+      "unit": "billion",
+      "money_mn": 16700.0,
+      "decimals": 1,
+      "context": "...grew 52%, 79% and 127%, and AI semiconductor revenue reached $16.7 billion in Q3, up 221%  . GAAP gross margin stayed...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "16.7 billion",
+        "snippet": "...for our custom AI accelerators and networking continues to be very strong. Q3 AI semiconductor revenue of $16.7 billion grew 221% year-over-year, and 54% quarter-over-quarter,” said Hock Tan, President and CEO of Broadcom Inc...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$105,978 million",
+      "value": 105978.0,
+      "unit": "million",
+      "money_mn": 105978.0,
+      "decimals": 0,
+      "context": "...signpost cannot be measured directly  . Consensus FY2026 revenue of $105,978 million   matches the annual baseline of $105,981...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$105,981 million",
+      "value": 105981.0,
+      "unit": "million",
+      "money_mn": 105981.0,
+      "decimals": 0,
+      "context": "...FY2026 revenue of $105,978 million   matches the annual baseline of $105,981 million  . Net debt fell from $48,958 million at FY2025...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$48,958 million",
+      "value": 48958.0,
+      "unit": "million",
+      "money_mn": 48958.0,
+      "decimals": 0,
+      "context": "...the annual baseline of $105,981 million  . Net debt fell from $48,958 million at FY2025 year end to $35,444 million at the Q3...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "48,958.0)",
+        "snippet": "- Net cash (debt): FY2025 (48,958.0); Q1 FY2026 (51,883.0) (year-ago n/a, n/a); Q2 FY2026 (45,279.0) (year-ago n/a, n/a); Q3 FY2026 (35,444.0)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$35,444 million",
+      "value": 35444.0,
+      "unit": "million",
+      "money_mn": 35444.0,
+      "decimals": 0,
+      "context": "...million  . Net debt fell from $48,958 million at FY2025 year end to $35,444 million at the Q3 balance sheet date  . All four theses...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "35,444.0)",
+        "snippet": "...(48,958.0); Q1 FY2026 (51,883.0) (year-ago n/a, n/a); Q2 FY2026 (45,279.0) (year-ago n/a, n/a); Q3 FY2026 (35,444.0) (year-ago (53,511.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29 billion",
+      "value": 29.0,
+      "unit": "billion",
+      "money_mn": 29000.0,
+      "decimals": 0,
+      "context": "...AI XPV platform carries a backstop with maximum exposure of about $29 billion  . Thesis statuses carry forward from the...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29.4 billion",
+        "snippet": "• Third quarter fiscal year 2026 revenue guidance of approximately $29.4 billion, an increase of 84 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue of $19,311 million, $22,187 million and $29,591 million, up 29%, 48% and 86% year on year  . Semiconductor...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "29.0%",
+        "snippet": "...27.0%; Q1 FY2026 23.3% (year-ago n/a, n/a); Q2 FY2026 20.5% (year-ago n/a, n/a); Q3 FY2026 14.9% (year-ago 29.0%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of $19,311 million, $22,187 million and $29,591 million, up 29%, 48% and 86% year on year  . Semiconductor revenue...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "48%",
+        "snippet": "“Q2 consolidated revenue grew 48% year-over-year to a record $22.2 billion. Adjusted EBITDA increased 52% year-over-year to a record $15.2..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "86%",
+      "value": 86.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million, $22,187 million and $29,591 million, up 29%, 48% and 86% year on year  . Semiconductor revenue grew 52%,...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "86%",
+        "snippet": "...in Q3. We delivered non-GAAP operating income growth of 92% year-over-year, as consolidated revenue grew 86% year-over-year to $29.6 billion,” said Amie Thuener, CFO of Broadcom Inc. “Q4 consolidated revenue growth is..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 29%, 48% and 86% year on year  . Semiconductor revenue grew 52%, 79% and 127%, and AI semiconductor revenue...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "52 %",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "79%",
+      "value": 79.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 29%, 48% and 86% year on year  . Semiconductor revenue grew 52%, 79% and 127%, and AI semiconductor revenue reached...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "79 %",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "127%",
+      "value": 127.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...48% and 86% year on year  . Semiconductor revenue grew 52%, 79% and 127%, and AI semiconductor revenue reached $16.7...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "127 %",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "221%",
+      "value": 221.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...127%, and AI semiconductor revenue reached $16.7 billion in Q3, up 221%  . GAAP gross margin stayed between 68% and 70%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "221%",
+        "snippet": "...accelerators and networking continues to be very strong. Q3 AI semiconductor revenue of $16.7 billion grew 221% year-over-year, and 54% quarter-over-quarter,” said Hock Tan, President and CEO of Broadcom Inc. “In Q4 the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$16.7 billion in Q3, up 221%  . GAAP gross margin stayed between 68% and 70% in every quarter  , above the 66%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "67.8%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion in Q3, up 221%  . GAAP gross margin stayed between 68% and 70% in every quarter  , above the 66% signpost....",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.5%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66%",
+      "value": 66.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin stayed between 68% and 70% in every quarter  , above the 66% signpost. Infrastructure software grew 1%, 9%...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "66%",
+        "snippet": "...to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a year ago.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarter  , above the 66% signpost. Infrastructure software grew 1%, 9% and 29%, but the releases reviewed do not...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software",
+          "infrastructure"
+        ],
+        "hl": "1 %",
+        "snippet": "Infrastructure software 6,796 35 6,704 45 +1 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarter  , above the 66% signpost. Infrastructure software grew 1%, 9% and 29%, but the releases reviewed do not give...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software",
+          "infrastructure"
+        ],
+        "hl": "9 %",
+        "snippet": "Infrastructure software 7,178 32 6,596 44 +9 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "..., above the 66% signpost. Infrastructure software grew 1%, 9% and 29%, but the releases reviewed do not give software...",
+      "section": "Summary",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software",
+          "infrastructure"
+        ],
+        "hl": "29 %",
+        "snippet": "Infrastructure software 8,752 30 6,786 43 +29 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19,311 million",
+      "value": 19311.0,
+      "unit": "million",
+      "money_mn": 19311.0,
+      "decimals": 0,
+      "context": "...was the first quarter after the annual report. Revenue rose 29% to $19,311 million  . Semiconductor revenue grew 52% to $12,515...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19,311 million",
+        "snippet": "• Revenue of $19,311 million for the first quarter, up 29 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12,515 million",
+      "value": 12515.0,
+      "unit": "million",
+      "money_mn": 12515.0,
+      "decimals": 0,
+      "context": "...rose 29% to $19,311 million  . Semiconductor revenue grew 52% to $12,515 million, driven by custom AI accelerators and AI...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,515",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,796 million",
+      "value": 6796.0,
+      "unit": "million",
+      "money_mn": 6796.0,
+      "decimals": 0,
+      "context": "...networking, while infrastructure software was almost flat, up 1% to $6,796 million  . GAAP operating margin was 44% against 42% a...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,796",
+        "snippet": "Infrastructure software 6,796 35 6,704 45 +1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,965 million",
+      "value": 2965.0,
+      "unit": "million",
+      "money_mn": 2965.0,
+      "decimals": 0,
+      "context": "...a year earlier  . Two items held the quarter back. R&D rose 32% to $2,965 million, mainly on higher stock-based compensation, and...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2,965",
+        "snippet": "6,154 4,771 32 32 Gross margin 13,157 10,145 68 68 Research and development 2,965 2,253 15 15 Selling, general and administrative 1,019 949 5 7 Amortization of acquisition-related intangible..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,755 million",
+      "value": 1755.0,
+      "unit": "million",
+      "money_mn": 1755.0,
+      "decimals": 0,
+      "context": "...and software revenue barely grew  . The      also shows $1,755 million of upfront license revenue inside products...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "1,755 million",
+        "snippet": "In the fiscal quarter ended February 1, 2026, we included upfront license revenue of $1,755 million within products revenue, and the related costs, which were immaterial, in cost of products sold. To conform..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22,187 million",
+      "value": 22187.0,
+      "unit": "million",
+      "money_mn": 22187.0,
+      "decimals": 0,
+      "context": "....  Q2 FY2026 (ended May 3, 2026) accelerated. Revenue rose 48% to $22,187 million, and semiconductor revenue rose 79% to $15,009...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "22,187 million",
+        "snippet": "• Revenue of $22,187 million for the second quarter, up 48 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15,009 million",
+      "value": 15009.0,
+      "unit": "million",
+      "money_mn": 15009.0,
+      "decimals": 0,
+      "context": "...rose 48% to $22,187 million, and semiconductor revenue rose 79% to $15,009 million  . AI semiconductor revenue was $10.8 billion,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "15,009",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.8 billion",
+      "value": 10.8,
+      "unit": "billion",
+      "money_mn": 10800.0,
+      "decimals": 1,
+      "context": "...revenue rose 79% to $15,009 million  . AI semiconductor revenue was $10.8 billion, up 143%  . Software growth improved to 9% to...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10.8 billion",
+        "snippet": "...growth in AI semiconductor revenue and strong operating leverage. Q2 semiconductor revenue from AI of $10.8 billion grew 143% year-over-year, above our forecast, driven by increasing demand for custom AI accelerators and AI..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,178 million",
+      "value": 7178.0,
+      "unit": "million",
+      "money_mn": 7178.0,
+      "decimals": 0,
+      "context": "...was $10.8 billion, up 143%  . Software growth improved to 9% to $7,178 million  . GAAP operating margin reached 49% against 39%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "7,178",
+        "snippet": "Infrastructure software 7,178 32 6,596 44 +9 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10,262 million",
+      "value": 10262.0,
+      "unit": "million",
+      "money_mn": 10262.0,
+      "decimals": 0,
+      "context": "...GAAP operating margin reached 49% against 39%  . Free cash flow was $10,262 million, up 60%  . Two items weakened. The top five end...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10,262 million",
+        "snippet": "...of $10,493 million for the second quarter, less capital expenditures of $231 million, resulted in $10,262 million of free cash flow, or 46 percent of revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$600 million",
+      "value": 600.0,
+      "unit": "million",
+      "money_mn": 600.0,
+      "decimals": 0,
+      "context": "...at the quarter end, up from 4,722 million a year earlier  , despite $600 million of Q2 repurchases  .  Q3 FY2026 (ended August 2,...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "600 million",
+        "snippet": "• We repurchased $600 million of common stock."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29,591 million",
+      "value": 29591.0,
+      "unit": "million",
+      "money_mn": 29591.0,
+      "decimals": 0,
+      "context": "...August 2, 2026) was the strongest quarter. Revenue rose 86% to $29,591 million, and semiconductor revenue rose 127% to $20,839...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29,591",
+        "snippet": "Net revenue $ 29,591 $ 15,952 +86 % $ 29,591 $ 15,952 +86 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20,839 million",
+      "value": 20839.0,
+      "unit": "million",
+      "money_mn": 20839.0,
+      "decimals": 0,
+      "context": "...rose 86% to $29,591 million, and semiconductor revenue rose 127% to $20,839 million  . Software revenue grew 29% to $8,752 million,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20,839",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8,752 million",
+      "value": 8752.0,
+      "unit": "million",
+      "money_mn": 8752.0,
+      "decimals": 0,
+      "context": "...rose 127% to $20,839 million  . Software revenue grew 29% to $8,752 million, but the release does not give the driver of...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,752",
+        "snippet": "Infrastructure software 8,752 30 6,786 43 +29 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15,955 million",
+      "value": 15955.0,
+      "unit": "million",
+      "money_mn": 15955.0,
+      "decimals": 0,
+      "context": "...up 82% of revenue against 70%  . GAAP operating income rose 171% to $15,955 million  . Days sales outstanding rose to 42 from 37  ,...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "15,955",
+        "snippet": "Operating income $ 15,955 $ 5,887 +171 % $ 20,095 $ 10,455 +92 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5,641 million",
+      "value": 5641.0,
+      "unit": "million",
+      "money_mn": 5641.0,
+      "decimals": 0,
+      "context": ".... Days sales outstanding rose to 42 from 37  , and the      shows $5,641 million of senior notes repurchased  . The Q4 guide is...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "5,641 million",
+        "snippet": "• We repurchased $5,641 million of our senior notes."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.8 billion",
+      "value": 34.8,
+      "unit": "billion",
+      "money_mn": 34800.0,
+      "decimals": 1,
+      "context": "...shows $5,641 million of senior notes repurchased  . The Q4 guide is $34.8 billion of revenue (+93%) and a 66% non-GAAP operating...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.8 billion",
+        "snippet": "• Fourth quarter fiscal year 2026 revenue guidance of approximately $34.8 billion, an increase of 93 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20.1 billion",
+      "value": 20.1,
+      "unit": "billion",
+      "money_mn": 20100.0,
+      "decimals": 1,
+      "context": "...68% in Q3 on an illustrative basis (non-GAAP operating income of $20.1 billion over $29.6 billion)  . The release does not give...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20.1 billion",
+        "snippet": "• GAAP operating income of $16.0 billion for the third quarter; Non-GAAP operating income of $20.1 billion for the third quarter"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.6 billion",
+      "value": 29.6,
+      "unit": "billion",
+      "money_mn": 29600.0,
+      "decimals": 1,
+      "context": "...illustrative basis (non-GAAP operating income of $20.1 billion over $29.6 billion)  . The release does not give the reason. The...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29.6 billion",
+        "snippet": "• Revenue of $29.6 billion for the third quarter, up 86 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2026) was the first quarter after the annual report. Revenue rose 29% to $19,311 million  . Semiconductor revenue grew...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "29.0%",
+        "snippet": "...27.0%; Q1 FY2026 23.3% (year-ago n/a, n/a); Q2 FY2026 20.5% (year-ago n/a, n/a); Q3 FY2026 14.9% (year-ago 29.0%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 29% to $19,311 million  . Semiconductor revenue grew 52% to $12,515 million, driven by custom AI...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "52 %",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...AI networking, while infrastructure software was almost flat, up 1% to $6,796 million  . GAAP operating margin was...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software",
+          "infrastructure"
+        ],
+        "hl": "1 %",
+        "snippet": "Infrastructure software 6,796 35 6,704 45 +1 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44%",
+      "value": 44.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...almost flat, up 1% to $6,796 million  . GAAP operating margin was 44% against 42% a year earlier  . Two items held the...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "44 %",
+        "snippet": "103 172 1 1 Total operating expenses 4,594 3,885 24 26 Operating income $ 8,563 $ 6,260 44 % 42 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 1% to $6,796 million  . GAAP operating margin was 44% against 42% a year earlier  . Two items held the quarter...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "42 %",
+        "snippet": "103 172 1 1 Total operating expenses 4,594 3,885 24 26 Operating income $ 8,563 $ 6,260 44 % 42 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...42% a year earlier  . Two items held the quarter back. R&D rose 32% to $2,965 million, mainly on higher stock-based...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "32 %",
+        "snippet": "Earnings per common share - diluted $ 1.50 $ 1.14 +32 % $ 2.05 $ 1.60 +28 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...evenly  .  Q2 FY2026 (ended May 3, 2026) accelerated. Revenue rose 48% to $22,187 million, and semiconductor revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "48 %",
+        "snippet": "...software 7,178 6,596 582 9 % 13,974 13,300 674 5 % Total net revenue $ 22,187 $ 15,004 $ 7,183 48 % $ 41,498 $ 29,920 $ 11,578 39 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "79%",
+      "value": 79.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 48% to $22,187 million, and semiconductor revenue rose 79% to $15,009 million  . AI semiconductor revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "79 %",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "143%",
+      "value": 143.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15,009 million  . AI semiconductor revenue was $10.8 billion, up 143%  . Software growth improved to 9% to $7,178...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "143%",
+        "snippet": "...semiconductor revenue and strong operating leverage. Q2 semiconductor revenue from AI of $10.8 billion grew 143% year-over-year, above our forecast, driven by increasing demand for custom AI accelerators and AI..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue was $10.8 billion, up 143%  . Software growth improved to 9% to $7,178 million  . GAAP operating margin...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software"
+        ],
+        "hl": "9 %",
+        "snippet": "Infrastructure software 7,178 32 6,596 44 +9 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "49%",
+      "value": 49.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...improved to 9% to $7,178 million  . GAAP operating margin reached 49% against 39%  . Free cash flow was $10,262...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "49 %",
+        "snippet": "71 86 — 1 Total operating expenses 4,627 4,368 20 29 Operating income $ 10,788 $ 5,829 49 % 39 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...9% to $7,178 million  . GAAP operating margin reached 49% against 39%  . Free cash flow was $10,262 million, up 60%  ....",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "operating"
+        ],
+        "hl": "39 %",
+        "snippet": "71 86 — 1 Total operating expenses 4,627 4,368 20 29 Operating income $ 10,788 $ 5,829 49 % 39 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60%",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reached 49% against 39%  . Free cash flow was $10,262 million, up 60%  . Two items weakened. The top five end...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "free",
+          "cashflow"
+        ],
+        "hl": "60 %",
+        "snippet": "Cash flow from operations $ 10,493 $ 6,555 +60 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45%",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Two items weakened. The top five end customers accounted for about 45% of revenue, against 40% a year earlier, and the...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "accounted",
+          "customer"
+        ],
+        "hl": "45%",
+        "snippet": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 45% of our net revenue for each of the fiscal quarter and two fiscal quarters ended May 3, 2026 and 40% of our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...top five end customers accounted for about 45% of revenue, against 40% a year earlier, and the single distributor...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "accounted",
+          "customer"
+        ],
+        "hl": "40%",
+        "snippet": "...aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively. We..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a year earlier, and the single distributor customer accounted for 42% against 29%  . Diluted share count was 4,758...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "distributor",
+          "accounted",
+          "customer"
+        ],
+        "hl": "42%",
+        "snippet": "...our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 42% and 29% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the single distributor customer accounted for 42% against 29%  . Diluted share count was 4,758 million at the...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "distributor",
+          "accounted",
+          "customer"
+        ],
+        "hl": "29%",
+        "snippet": "...revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 42% and 29% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "86%",
+      "value": 86.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(ended August 2, 2026) was the strongest quarter. Revenue rose 86% to $29,591 million, and semiconductor revenue...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "85.5%",
+        "snippet": "...growth y/y: FY2025 23.9%; Q1 FY2026 n/a (year-ago n/a, n/a); Q2 FY2026 n/a (year-ago n/a, n/a); Q3 FY2026 85.5% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "127%",
+      "value": 127.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 86% to $29,591 million, and semiconductor revenue rose 127% to $20,839 million  . Software revenue grew 29%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "127 %",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue rose 127% to $20,839 million  . Software revenue grew 29% to $8,752 million, but the release does not give...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software"
+        ],
+        "hl": "29 %",
+        "snippet": "Infrastructure software 8,752 30 6,786 43 +29 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69%",
+      "value": 69.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...does not give the driver of that step-up  . GAAP gross margin was 69% against 67% a year earlier, even though products...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "product"
+        ],
+        "hl": "69 %",
+        "snippet": "$ 16,892 $ 10,309 76 % 69 % Subscriptions and services"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the driver of that step-up  . GAAP gross margin was 69% against 67% a year earlier, even though products made up 82%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "67%",
+        "snippet": "...revenue growth to increase 84% year-over-year to $29.4 billion, with non-GAAP operating margin stable at 67% reflecting our strong operating leverage.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...was 69% against 67% a year earlier, even though products made up 82% of revenue against 70%  . GAAP operating income...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "product"
+        ],
+        "hl": "82 %",
+        "snippet": "$ 24,279 $ 11,173 82 % 70 % Subscriptions and services"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a year earlier, even though products made up 82% of revenue against 70%  . GAAP operating income rose 171% to $15,955...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "product"
+        ],
+        "hl": "70 %",
+        "snippet": "$ 24,279 $ 11,173 82 % 70 % Subscriptions and services"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "171%",
+      "value": 171.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...made up 82% of revenue against 70%  . GAAP operating income rose 171% to $15,955 million  . Days sales outstanding...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "income"
+        ],
+        "hl": "171 %",
+        "snippet": "Operating income $ 15,955 $ 5,887 +171 % $ 20,095 $ 10,455 +92 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "93%",
+      "value": 93.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...notes repurchased  . The Q4 guide is $34.8 billion of revenue (+93%) and a 66% non-GAAP operating margin  , down...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "93%",
+        "snippet": "...billion,” said Amie Thuener, CFO of Broadcom Inc. “Q4 consolidated revenue growth is forecasted to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66%",
+      "value": 66.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... The Q4 guide is $34.8 billion of revenue (+93%) and a 66% non-GAAP operating margin  , down from about 68%...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "non-gaap",
+          "operating"
+        ],
+        "hl": "66%",
+        "snippet": "...to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a year ago.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(+93%) and a 66% non-GAAP operating margin  , down from about 68% in Q3 on an illustrative basis (non-GAAP...",
+      "section": "Results and drivers",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "67.8%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4,758",
+      "value": 4758.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...customer accounted for 42% against 29%  . Diluted share count was 4,758 million at the quarter end, up from 4,722...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "4,758.0",
+        "snippet": "- Share count: FY2025 4,741.0; Q1 FY2026 4,736.0 (year-ago n/a, n/a); Q2 FY2026 4,758.0 (year-ago n/a, n/a); Q3 FY2026 4,774.0 (year-ago 4,722.0, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4,722",
+      "value": 4722.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Diluted share count was 4,758 million at the quarter end, up from 4,722 million a year earlier  , despite $600 million...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count"
+        ],
+        "hl": "4,722.0",
+        "snippet": "...Q1 FY2026 4,736.0 (year-ago n/a, n/a); Q2 FY2026 4,758.0 (year-ago n/a, n/a); Q3 FY2026 4,774.0 (year-ago 4,722.0, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "42",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 171% to $15,955 million  . Days sales outstanding rose to 42 from 37  , and the      shows $5,641 million of...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "revenue"
+        ],
+        "hl": "42",
+        "snippet": "...sales outstanding: FY2025 41; Q1 FY2026 40 (year-ago n/a, n/a); Q2 FY2026 44 (year-ago n/a, n/a); Q3 FY2026 42 (year-ago 37, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "37",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...171% to $15,955 million  . Days sales outstanding rose to 42 from 37  , and the      shows $5,641 million of senior...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding"
+        ],
+        "hl": "37",
+        "snippet": "...FY2025 41; Q1 FY2026 40 (year-ago n/a, n/a); Q2 FY2026 44 (year-ago n/a, n/a); Q3 FY2026 42 (year-ago 37, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$106 billion",
+      "value": 106.0,
+      "unit": "billion",
+      "money_mn": 106000.0,
+      "decimals": 0,
+      "context": "...growing fast enough to support consensus FY2026 revenue of about $106 billion. Semiconductor revenue grew 52% in Q1, 79% in Q2...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$48,363 million",
+      "value": 48363.0,
+      "unit": "million",
+      "money_mn": 48363.0,
+      "decimals": 0,
+      "context": "...Q1, 79% in Q2 and 127% in Q3  . Nine-month semiconductor revenue of $48,363 million is up about 88% on $25,786 million...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$25,786 million",
+      "value": 25786.0,
+      "unit": "million",
+      "money_mn": 25786.0,
+      "decimals": 0,
+      "context": "...semiconductor revenue of $48,363 million is up about 88% on $25,786 million (illustrative, summed from  ). Consensus FY2026...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$105,978 million",
+      "value": 105978.0,
+      "unit": "million",
+      "money_mn": 105978.0,
+      "decimals": 0,
+      "context": "...million (illustrative, summed from  ). Consensus FY2026 revenue is $105,978 million  , against $105,981 million in the annual...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$105,981 million",
+      "value": 105981.0,
+      "unit": "million",
+      "money_mn": 105981.0,
+      "decimals": 0,
+      "context": "...from  ). Consensus FY2026 revenue is $105,978 million  , against $105,981 million in the annual baseline  . The Q4 guide of $34.8...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.8 billion",
+      "value": 34.8,
+      "unit": "billion",
+      "money_mn": 34800.0,
+      "decimals": 1,
+      "context": "..., against $105,981 million in the annual baseline  . The Q4 guide of $34.8 billion implies a full year near $105.9 billion...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.8 billion",
+        "snippet": "• Fourth quarter fiscal year 2026 revenue guidance of approximately $34.8 billion, an increase of 93 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$105.9 billion",
+      "value": 105.9,
+      "unit": "billion",
+      "money_mn": 105900.0,
+      "decimals": 1,
+      "context": "...baseline  . The Q4 guide of $34.8 billion implies a full year near $105.9 billion (illustrative: $71,089 million nine-month...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$71,089 million",
+      "value": 71089.0,
+      "unit": "million",
+      "money_mn": 71089.0,
+      "decimals": 0,
+      "context": "...billion implies a full year near $105.9 billion (illustrative: $71,089 million nine-month revenue plus the guide  ). T2:...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "71,089",
+        "snippet": "71,089 45,872 100 100 Cost of revenue: Cost of products sold"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.33",
+      "value": 19.33,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...rather than requiring a higher growth rate. FY2027 EPS consensus is $19.33  , down 1.0% over 90 days, with 2 analysts...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.3 billion",
+        "snippet": "“Consolidated revenue grew 29% year-over-year to a record $19.3 billion. Adjusted EBITDA increased 30% year-over-year to a record $13.1 billion, representing 68% of revenue. In Q2..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and none cutting in the last 30 days  . It sits 1.7% above the $19 floor, and the analyst range runs from $17.47 to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.3 billion",
+        "snippet": "“Consolidated revenue grew 29% year-over-year to a record $19.3 billion. Adjusted EBITDA increased 30% year-over-year to a record $13.1 billion, representing 68% of revenue. In Q2..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.47",
+      "value": 17.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... It sits 1.7% above the $19 floor, and the analyst range runs from $17.47 to $22.44  . FY2026 EPS consensus is $11.65...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "17.47",
+        "snippet": "...million (range $163,082.9 million to $199,924.0 million, 49 analysts), growth +64.9%; EPS $19.33 (range $17.47 to $22.44); forward P/E 15.6x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.44",
+      "value": 22.44,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...1.7% above the $19 floor, and the analyst range runs from $17.47 to $22.44  . FY2026 EPS consensus is $11.65 against $11.62...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "22.44)",
+        "snippet": "...(range $163,082.9 million to $199,924.0 million, 49 analysts), growth +64.9%; EPS $19.33 (range $17.47 to $22.44); forward P/E 15.6x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.65",
+      "value": 11.65,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...analyst range runs from $17.47 to $22.44  . FY2026 EPS consensus is $11.65 against $11.62 90 days earlier  . At $300.86 the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "11.65",
+        "snippet": "...$105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to $12.38); forward P/E 25.8x; EV/Sales 13.9x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.62",
+      "value": 11.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...from $17.47 to $22.44  . FY2026 EPS consensus is $11.65 against $11.62 90 days earlier  . At $300.86 the forward P/E is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "11.62",
+        "snippet": "- EPS consensus current fiscal year: $11.65 today, $11.66 30 days ago, $11.62 90 days ago, change vs 90 days ago +0.3%; analysts raising/cutting in last 30 days: 1/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$300.86",
+      "value": 300.86,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2026 EPS consensus is $11.65 against $11.62 90 days earlier  . At $300.86 the forward P/E is 25.8x on FY2026  , well below...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "300.86",
+        "snippet": "- Forward multiples use the current share price of $300.86 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026 revenue of about $106 billion. Semiconductor revenue grew 52% in Q1, 79% in Q2 and 127% in Q3  . Nine-month...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "52 %",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "79%",
+      "value": 79.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of about $106 billion. Semiconductor revenue grew 52% in Q1, 79% in Q2 and 127% in Q3  . Nine-month semiconductor...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "79 %",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "127%",
+      "value": 127.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$106 billion. Semiconductor revenue grew 52% in Q1, 79% in Q2 and 127% in Q3  . Nine-month semiconductor revenue of...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "semiconductor"
+        ],
+        "hl": "127 %",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "88%",
+      "value": 88.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Nine-month semiconductor revenue of $48,363 million is up about 88% on $25,786 million (illustrative, summed from...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "88 %",
+        "snippet": "Net income $ 9,310 $ 4,965 +88 % $ 12,074 $ 7,787 +55 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...as the subscription transition continues. Software revenue grew 1% in Q1, 9% in Q2 and 29% in Q3  . The releases...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software"
+        ],
+        "hl": "1 %",
+        "snippet": "Infrastructure software 6,796 35 6,704 45 +1 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...subscription transition continues. Software revenue grew 1% in Q1, 9% in Q2 and 29% in Q3  . The releases reviewed do...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software"
+        ],
+        "hl": "9 %",
+        "snippet": "Infrastructure software 7,178 32 6,596 44 +9 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...transition continues. Software revenue grew 1% in Q1, 9% in Q2 and 29% in Q3  . The releases reviewed do not disclose...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "software"
+        ],
+        "hl": "29 %",
+        "snippet": "Infrastructure software 8,752 30 6,786 43 +29 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reviewed do not disclose software segment operating income, so the 25% signpost cannot yet be tested  . The Q3...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "signpost",
+          "software",
+          "operating",
+          "income"
+        ],
+        "hl": "25%",
+        "snippet": "...margin as the subscription transition continues.\", \"signpost\": \"Software operating income growth of at least 25% in the fiscal 2026 10-K, due by early December 2026. Invalidation: software operating income growth below..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is available in the fiscal 2026       . T3: Gross margin holds near 68% even as AI rack sales grow, so the margin...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "67.8%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68.1%",
+      "value": 68.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...sales grow, so the margin expansion lasts. GAAP gross margin was 68.1% in Q1, 69.5% in Q2 and 69.1% in Q3 (computed...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "68.1%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69.5%",
+      "value": 69.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...so the margin expansion lasts. GAAP gross margin was 68.1% in Q1, 69.5% in Q2 and 69.1% in Q3 (computed from gross...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.5%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69.1%",
+      "value": 69.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...expansion lasts. GAAP gross margin was 68.1% in Q1, 69.5% in Q2 and 69.1% in Q3 (computed from gross margin dollars and...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.1%",
+        "snippet": "...margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66%",
+      "value": 66.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from gross margin dollars and revenue in  ), each above the 66% signpost and far above the 63% invalidation...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "66%",
+        "snippet": "...to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a year ago.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63%",
+      "value": 63.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and revenue in  ), each above the 66% signpost and far above the 63% invalidation level. In Q3, products reached 82%...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "invalidation",
+          "level"
+        ],
+        "hl": "63%",
+        "snippet": "...gross margin of at least 66% in each fiscal 2026 quarter. Invalidation: quarterly gross margin below 63%, the fiscal 2024 level.\", \"statuses\": {\"Q1 FY2026\": \"intact\", \"Q2 FY2026\": \"strengthened\", \"Q3 FY2026\":..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and far above the 63% invalidation level. In Q3, products reached 82% of revenue against 70% a year earlier and gross...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "product"
+        ],
+        "hl": "82 %",
+        "snippet": "$ 24,279 $ 11,173 82 % 70 % Subscriptions and services"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...invalidation level. In Q3, products reached 82% of revenue against 70% a year earlier and gross margin still rose to...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "product"
+        ],
+        "hl": "70 %",
+        "snippet": "$ 24,279 $ 11,173 82 % 70 % Subscriptions and services"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69.1%",
+      "value": 69.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue against 70% a year earlier and gross margin still rose to 69.1% from 67.1%  , which tests the compression the...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.1%",
+        "snippet": "...margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67.1%",
+      "value": 67.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...70% a year earlier and gross margin still rose to 69.1% from 67.1%  , which tests the compression the annual filing...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "67%",
+        "snippet": "...revenue growth to increase 84% year-over-year to $29.4 billion, with non-GAAP operating margin stable at 67% reflecting our strong operating leverage.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.0%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a higher growth rate. FY2027 EPS consensus is $19.33  , down 1.0% over 90 days, with 2 analysts raising and none...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "raising",
+          "analyst",
+          "days"
+        ],
+        "hl": "1.0%",
+        "snippet": "...EPS consensus next fiscal year: $19.33 today, $19.40 30 days ago, $19.52 90 days ago, change vs 90 days ago -1.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2 analysts raising and none cutting in the last 30 days  . It sits 1.7% above the $19 floor, and the analyst range runs...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "- Quarter ending 2026-04-30: EPS $2.44 vs estimate $2.40 (surprise +1.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.3%",
+      "value": 1.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...invalidation level. All four last quarters beat EPS estimates by 1.3% to 4.4%  .",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "1.2%",
+        "snippet": "...at that burn self-funded, current ratio 1.7x, shares outstanding 4,741.0 million, change in share count y/y +1.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.4%",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...level. All four last quarters beat EPS estimates by 1.3% to 4.4%  .",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "4.4%",
+        "snippet": "- Quarter ending 2025-10-31: EPS $1.95 vs estimate $1.87 (surprise +4.4%)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "25.8x",
+      "value": 25.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against $11.62 90 days earlier  . At $300.86 the forward P/E is 25.8x on FY2026  , well below the 40x invalidation...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "25.8",
+        "snippet": "...million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to $12.38); forward P/E 25.8x; EV/Sales 13.9x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "40x",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... At $300.86 the forward P/E is 25.8x on FY2026  , well below the 40x invalidation level. All four last quarters beat...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "40",
+        "snippet": "...FY2027 EPS consensus cut by more than the level set in the annual report, or the stock trades above 40x forward earnings without an earnings upgrade.\", \"statuses\": {\"Q1 FY2026\": \"intact\", \"Q2 FY2026\": \"intact\",..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth rate. FY2027 EPS consensus is $19.33  , down 1.0% over 90 days, with 2 analysts raising and none cutting...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "raising",
+          "analyst",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $11.65 today, $11.66 30 days ago, $11.62 90 days ago, change vs 90 days ago +0.3%; analysts raising/cutting in last 30 days: 1/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2027 EPS consensus is $19.33  , down 1.0% over 90 days, with 2 analysts raising and none cutting in the last 30...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "raising",
+          "analyst",
+          "days",
+          "pershare"
+        ],
+        "hl": "2",
+        "snippet": "...30 days ago, $19.52 90 days ago, change vs 90 days ago -1.0%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...over 90 days, with 2 analysts raising and none cutting in the last 30 days  . It sits 1.7% above the $19 floor, and...",
+      "section": "Thesis check",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "cutting",
+          "raising",
+          "analyst",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "...today, $11.66 30 days ago, $11.62 90 days ago, change vs 90 days ago +0.3%; analysts raising/cutting in last 30 days: 1/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$17.47 to $22.44  . FY2026 EPS consensus is $11.65 against $11.62 90 days earlier  . At $300.86 the forward P/E is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $11.65 today, $11.66 30 days ago, $11.62 90 days ago, change vs 90 days ago +0.3%; analysts raising/cutting in last 30 days: 1/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$35 billion",
+      "value": 35.0,
+      "unit": "billion",
+      "money_mn": 35000.0,
+      "decimals": 0,
+      "context": "...AI XPV platform. In June 2026 Broadcom launched it with an initial $35 billion tranche led by a financial partner, and it...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.8 billion",
+        "snippet": "• Fourth quarter fiscal year 2026 revenue guidance of approximately $34.8 billion, an increase of 93 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29 billion",
+      "value": 29.0,
+      "unit": "billion",
+      "money_mn": 29000.0,
+      "decimals": 0,
+      "context": "...by a financial partner, and it carries a backstop of up to about $29 billion undiscounted, with no amounts paid  . In a...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "29.4 billion",
+        "snippet": "• Third quarter fiscal year 2026 revenue guidance of approximately $29.4 billion, an increase of 84 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59,419 million",
+      "value": 59419.0,
+      "unit": "million",
+      "money_mn": 59419.0,
+      "decimals": 0,
+      "context": "...to financing is a risk to demand  . Eased risks: total debt fell to $59,419 million at Q3 from $65,136 million at FY2025 year end,...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "59,419.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $23,975.0 million, total debt $59,419.0 million, net cash -$35,444.0 million, TTM free cash flow $39,403.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$65,136 million",
+      "value": 65136.0,
+      "unit": "million",
+      "money_mn": 65136.0,
+      "decimals": 0,
+      "context": ".... Eased risks: total debt fell to $59,419 million at Q3 from $65,136 million at FY2025 year end, and net cash debt improved...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "65,136.0 million",
+        "snippet": "- FY2025 (10-K): cash and short-term investments $16,178.0 million, total debt $65,136.0 million, net cash -$48,958.0 million, free cash flow $26,914.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$35,444 million",
+      "value": 35444.0,
+      "unit": "million",
+      "money_mn": 35444.0,
+      "decimals": 0,
+      "context": "...$65,136 million at FY2025 year end, and net cash debt improved to $35,444 million  . Margin risk has not materialised so far,...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "35,444.0)",
+        "snippet": "...(48,958.0); Q1 FY2026 (51,883.0) (year-ago n/a, n/a); Q2 FY2026 (45,279.0) (year-ago n/a, n/a); Q3 FY2026 (35,444.0) (year-ago (53,511.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk has materialised. The top five end customers were about 50% of revenue in Q1 and 45% in Q2, against 40% a...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "customer"
+        ],
+        "hl": "50%",
+        "snippet": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45%",
+      "value": 45.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...The top five end customers were about 50% of revenue in Q1 and 45% in Q2, against 40% a year earlier, and one...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "customer"
+        ],
+        "hl": "45%",
+        "snippet": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 45% of our net revenue for each of the fiscal quarter and two fiscal quarters ended May 3, 2026 and 40% of our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...customers were about 50% of revenue in Q1 and 45% in Q2, against 40% a year earlier, and one distributor customer was...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "customer"
+        ],
+        "hl": "40%",
+        "snippet": "...aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively. We..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "42%",
+      "value": 42.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in Q2, against 40% a year earlier, and one distributor customer was 42% against 29%  . A new risk is the AI XPV...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "distributor",
+          "customer"
+        ],
+        "hl": "42%",
+        "snippet": "...our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 42% and 29% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...40% a year earlier, and one distributor customer was 42% against 29%  . A new risk is the AI XPV platform. In June...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "distributor",
+          "customer"
+        ],
+        "hl": "29%",
+        "snippet": "...revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 42% and 29% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... In a customer default, the backstop liability is the gap between 85% of the outstanding lease amount and the value of...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "liability",
+          "outstanding",
+          "between",
+          "amount"
+        ],
+        "hl": "85%",
+        "snippet": "...the event of a lease default by the customer, our Backstop liability will be equal to any difference between 85% of the outstanding amounts owed on the lease Backstop and the value of the AI racks received upon sale of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk has not materialised so far, since GAAP gross margin held at 68-70%  . Not updated from the releases: the global...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.5%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "68",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risk has not materialised so far, since GAAP gross margin held at 68-70%  . Not updated from the releases: the global...",
+      "section": "Risk update",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "gaap"
+        ],
+        "hl": "68",
+        "snippet": "• Adjusted EBITDA of $13,128 million for the first quarter, or 68 percent of revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.8 billion",
+      "value": 34.8,
+      "unit": "billion",
+      "money_mn": 34800.0,
+      "decimals": 1,
+      "context": "Management guides Q4 FY2026 revenue to about $34.8 billion (+93%) and non-GAAP operating margin to about...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "34.8 billion",
+        "snippet": "• Fourth quarter fiscal year 2026 revenue guidance of approximately $34.8 billion, an increase of 93 percent from the prior year period"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$105,978 million",
+      "value": 105978.0,
+      "unit": "million",
+      "money_mn": 105978.0,
+      "decimals": 0,
+      "context": "...operating margin to about 66%  . Consensus FY2026 revenue of $105,978 million   is consistent with the year to date plus that...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "105,978.1 million",
+        "snippet": "- FY2026E: revenue $105,978.1 million (range $105,797.2 million to $106,680.5 million, 44 analysts), growth +65.9%; EPS $11.65 (range $11.35 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$174,745 million",
+      "value": 174745.0,
+      "unit": "million",
+      "money_mn": 174745.0,
+      "decimals": 0,
+      "context": "...with the year to date plus that guide. FY2027 consensus is $174,745 million of revenue (+64.9%) and $19.33 of EPS, at 15.6x...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "174,745.2 million",
+        "snippet": "- FY2027E: revenue $174,745.2 million (range $163,082.9 million to $199,924.0 million, 49 analysts), growth +64.9%; EPS $19.33 (range $17.47 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19.33",
+      "value": 19.33,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...guide. FY2027 consensus is $174,745 million of revenue (+64.9%) and $19.33 of EPS, at 15.6x forward earnings  . The reverse...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.3 billion",
+        "snippet": "“Consolidated revenue grew 29% year-over-year to a record $19.3 billion. Adjusted EBITDA increased 30% year-over-year to a record $13.1 billion, representing 68% of revenue. In Q2..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...lease payments slip; and FY2027 EPS consensus against the $19 floor. This view is wrong if FY2027 EPS...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.3 billion",
+        "snippet": "“Consolidated revenue grew 29% year-over-year to a record $19.3 billion. Adjusted EBITDA increased 30% year-over-year to a record $13.1 billion, representing 68% of revenue. In Q2..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$19",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$19 floor. This view is wrong if FY2027 EPS consensus falls below $19 or if semiconductor growth drops below 20% in...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "19.3 billion",
+        "snippet": "“Consolidated revenue grew 29% year-over-year to a record $19.3 billion. Adjusted EBITDA increased 30% year-over-year to a record $13.1 billion, representing 68% of revenue. In Q2..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "93%",
+      "value": 93.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Management guides Q4 FY2026 revenue to about $34.8 billion (+93%) and non-GAAP operating margin to about 66%  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "93%",
+        "snippet": "...billion,” said Amie Thuener, CFO of Broadcom Inc. “Q4 consolidated revenue growth is forecasted to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66%",
+      "value": 66.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...about $34.8 billion (+93%) and non-GAAP operating margin to about 66%  . Consensus FY2026 revenue of $105,978 million...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "non-gaap",
+          "operating"
+        ],
+        "hl": "66%",
+        "snippet": "...to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a year ago.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "64.9%",
+      "value": 64.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...plus that guide. FY2027 consensus is $174,745 million of revenue (+64.9%) and $19.33 of EPS, at 15.6x forward earnings  ....",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue",
+          "pershare"
+        ],
+        "hl": "64.9%",
+        "snippet": "- FY2027E: revenue $174,745.2 million (range $163,082.9 million to $199,924.0 million, 49 analysts), growth +64.9%; EPS $19.33 (range $17.47 to $22.44); forward P/E 15.6x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.6%",
+      "value": 26.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$19.33 of EPS, at 15.6x forward earnings  . The reverse DCF implies 26.6% annual revenue growth for ten years at the...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "26.6%",
+        "snippet": "- The current enterprise value of $1,471,638.3 million implies revenue growth of 26.6% per year for 10 years (FY2025 revenue $63,887.0 million -> about $678,324.6 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in December 2026, where the software operating income signpost (25%) and the semiconductor signpost (40%) are...",
+      "section": "Outlook",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "signpost",
+          "software",
+          "operating",
+          "income"
+        ],
+        "hl": "25%",
+        "snippet": "...margin as the subscription transition continues.\", \"signpost\": \"Software operating income growth of at least 25% in the fiscal 2026 10-K, due by early December 2026. Invalidation: software operating income growth below..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating income signpost (25%) and the semiconductor signpost (40%) are tested; Q4 gross margin against the 66%...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "context_words": [
+          "income",
+          "operating"
+        ],
+        "hl": "40 %",
+        "snippet": "174 258 — 1 Total operating expenses 9,221 8,253 22 28 Operating income $ 19,351 $ 12,089 47 % 40 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66%",
+      "value": 66.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...signpost (40%) are tested; Q4 gross margin against the 66% floor; top-five customer share, which was not...",
+      "section": "Outlook",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "66%",
+        "snippet": "...to increase 93% year-over-year to $34.8 billion, and we expect to maintain our non-GAAP operating margin at 66%, flat from a year ago.”"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...consensus falls below $19 or if semiconductor growth drops below 20% in any quarter.",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "below"
+        ],
+        "hl": "20%",
+        "snippet": "...40% year on year in the fiscal 2026 10-K, due by early December 2026. Interim invalidation: growth below 20% in any fiscal 2026 quarter, or a cut in FY2026 consensus revenue beyond the level set in the annual..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "15.6x",
+      "value": 15.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is $174,745 million of revenue (+64.9%) and $19.33 of EPS, at 15.6x forward earnings  . The reverse DCF implies...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "forward",
+          "revenue",
+          "pershare"
+        ],
+        "hl": "15.6",
+        "snippet": "...million to $199,924.0 million, 49 analysts), growth +64.9%; EPS $19.33 (range $17.47 to $22.44); forward P/E 15.6x; EV/Sales 8.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12515.0 million",
+      "value": 12515.0,
+      "unit": "million",
+      "money_mn": 12515.0,
+      "decimals": 1,
+      "context": "Semiconductor solutions revenue: $12515.0 million vs $8212.0 million, $15009.0 million vs $8408.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "12,515",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8212.0 million",
+      "value": 8212.0,
+      "unit": "million",
+      "money_mn": 8212.0,
+      "decimals": 1,
+      "context": "Semiconductor solutions revenue: $12515.0 million vs $8212.0 million, $15009.0 million vs $8408.0 million, $20839.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,212",
+        "snippet": "Semiconductor solutions $ 12,515 65 % $ 8,212 55 % +52 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15009.0 million",
+      "value": 15009.0,
+      "unit": "million",
+      "money_mn": 15009.0,
+      "decimals": 1,
+      "context": "Semiconductor solutions revenue: $12515.0 million vs $8212.0 million, $15009.0 million vs $8408.0 million, $20839.0 million vs $9166.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "15,009",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8408.0 million",
+      "value": 8408.0,
+      "unit": "million",
+      "money_mn": 8408.0,
+      "decimals": 1,
+      "context": "...revenue: $12515.0 million vs $8212.0 million, $15009.0 million vs $8408.0 million, $20839.0 million vs $9166.0 million....",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,408",
+        "snippet": "Semiconductor solutions $ 15,009 68 % $ 8,408 56 % +79 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$20839.0 million",
+      "value": 20839.0,
+      "unit": "million",
+      "money_mn": 20839.0,
+      "decimals": 1,
+      "context": "...million vs $8212.0 million, $15009.0 million vs $8408.0 million, $20839.0 million vs $9166.0 million. Infrastructure software...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "20,839",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9166.0 million",
+      "value": 9166.0,
+      "unit": "million",
+      "money_mn": 9166.0,
+      "decimals": 1,
+      "context": "...million, $15009.0 million vs $8408.0 million, $20839.0 million vs $9166.0 million. Infrastructure software revenue: $6796.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "9,166",
+        "snippet": "Semiconductor solutions $ 20,839 70 % $ 9,166 57 % +127 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6796.0 million",
+      "value": 6796.0,
+      "unit": "million",
+      "money_mn": 6796.0,
+      "decimals": 1,
+      "context": "...million vs $9166.0 million. Infrastructure software revenue: $6796.0 million vs $6704.0 million, $7178.0 million vs $6596.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,796",
+        "snippet": "Infrastructure software 6,796 35 6,704 45 +1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6704.0 million",
+      "value": 6704.0,
+      "unit": "million",
+      "money_mn": 6704.0,
+      "decimals": 1,
+      "context": "...million. Infrastructure software revenue: $6796.0 million vs $6704.0 million, $7178.0 million vs $6596.0 million, $8752.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,704",
+        "snippet": "Infrastructure software 6,796 35 6,704 45 +1 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7178.0 million",
+      "value": 7178.0,
+      "unit": "million",
+      "money_mn": 7178.0,
+      "decimals": 1,
+      "context": "...software revenue: $6796.0 million vs $6704.0 million, $7178.0 million vs $6596.0 million, $8752.0 million vs $6786.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "7,178",
+        "snippet": "Infrastructure software 7,178 32 6,596 44 +9 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6596.0 million",
+      "value": 6596.0,
+      "unit": "million",
+      "money_mn": 6596.0,
+      "decimals": 1,
+      "context": "...revenue: $6796.0 million vs $6704.0 million, $7178.0 million vs $6596.0 million, $8752.0 million vs $6786.0 million. GAAP gross...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,596",
+        "snippet": "Infrastructure software 7,178 32 6,596 44 +9 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8752.0 million",
+      "value": 8752.0,
+      "unit": "million",
+      "money_mn": 8752.0,
+      "decimals": 1,
+      "context": "...million vs $6704.0 million, $7178.0 million vs $6596.0 million, $8752.0 million vs $6786.0 million. GAAP gross margin: 68.1% vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,752",
+        "snippet": "Infrastructure software 8,752 30 6,786 43 +29 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6786.0 million",
+      "value": 6786.0,
+      "unit": "million",
+      "money_mn": 6786.0,
+      "decimals": 1,
+      "context": "...million, $7178.0 million vs $6596.0 million, $8752.0 million vs $6786.0 million. GAAP gross margin: 68.1% vs 68.0%, 69.5% vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,786",
+        "snippet": "Infrastructure software 8,752 30 6,786 43 +29 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8010.0 million",
+      "value": 8010.0,
+      "unit": "million",
+      "money_mn": 8010.0,
+      "decimals": 1,
+      "context": "...68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow: $8010.0 million vs $6013.0 million, $10262.0 million vs $6411.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "8,010 million",
+        "snippet": "...operations of $8,260 million for the first quarter, less capital expenditures of $250 million, resulted in $8,010 million of free cash flow, or 41 percent of revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6013.0 million",
+      "value": 6013.0,
+      "unit": "million",
+      "money_mn": 6013.0,
+      "decimals": 1,
+      "context": "...69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow: $8010.0 million vs $6013.0 million, $10262.0 million vs $6411.0 million, $13665.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,013",
+        "snippet": "Free cash flow $ 8,010 $ 6,013 +33 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10262.0 million",
+      "value": 10262.0,
+      "unit": "million",
+      "money_mn": 10262.0,
+      "decimals": 1,
+      "context": "...69.1% vs 67.1%. Free cash flow: $8010.0 million vs $6013.0 million, $10262.0 million vs $6411.0 million, $13665.0 million vs $7024.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "10,262 million",
+        "snippet": "...of $10,493 million for the second quarter, less capital expenditures of $231 million, resulted in $10,262 million of free cash flow, or 46 percent of revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6411.0 million",
+      "value": 6411.0,
+      "unit": "million",
+      "money_mn": 6411.0,
+      "decimals": 1,
+      "context": "...cash flow: $8010.0 million vs $6013.0 million, $10262.0 million vs $6411.0 million, $13665.0 million vs $7024.0 million. GAAP...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "6,411",
+        "snippet": "Free cash flow $ 10,262 $ 6,411 +60 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13665.0 million",
+      "value": 13665.0,
+      "unit": "million",
+      "money_mn": 13665.0,
+      "decimals": 1,
+      "context": "...million vs $6013.0 million, $10262.0 million vs $6411.0 million, $13665.0 million vs $7024.0 million. GAAP diluted EPS: $1.5 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "13,665",
+        "snippet": "Free cash flow $ 13,665 $ 7,024 +95 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7024.0 million",
+      "value": 7024.0,
+      "unit": "million",
+      "money_mn": 7024.0,
+      "decimals": 1,
+      "context": "...million, $10262.0 million vs $6411.0 million, $13665.0 million vs $7024.0 million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "7,024",
+        "snippet": "Free cash flow $ 13,665 $ 7,024 +95 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.5",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, $13665.0 million vs $7024.0 million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs $1.03, $2.68 vs $0.85.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.50",
+        "snippet": "• GAAP diluted EPS of $1.50 for the first quarter; Non-GAAP diluted EPS of $2.05 for the first quarter"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.14",
+      "value": 1.14,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$13665.0 million vs $7024.0 million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs $1.03, $2.68 vs $0.85.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.14",
+        "snippet": "Earnings per common share - diluted $ 1.50 $ 1.14 +32 % $ 2.05 $ 1.60 +28 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.91",
+      "value": 1.91,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million vs $7024.0 million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs $1.03, $2.68 vs $0.85.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.91",
+        "snippet": "• GAAP diluted EPS of $1.91 for the second quarter; Non-GAAP diluted EPS of $2.44 for the second quarter"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.03",
+      "value": 1.03,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...vs $7024.0 million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs $1.03, $2.68 vs $0.85.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "1.03",
+        "snippet": "Earnings per common share - diluted $ 1.91 $ 1.03 +85 % $ 2.44 $ 1.58 +54 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.68",
+      "value": 2.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$7024.0 million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs $1.03, $2.68 vs $0.85.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "2.68",
+        "snippet": "• GAAP diluted EPS of $2.68 for the third quarter; Non-GAAP diluted EPS of $3.32 for the third quarter"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.85",
+      "value": 0.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million. GAAP diluted EPS: $1.5 vs $1.14, $1.91 vs $1.03, $2.68 vs $0.85.",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "hl": "0.85",
+        "snippet": "Earnings per common share - diluted $ 2.68 $ 0.85 +215 % $ 3.32 $ 1.69 +96 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68.1%",
+      "value": 68.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, $8752.0 million vs $6786.0 million. GAAP gross margin: 68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "68.1%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68.0%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$8752.0 million vs $6786.0 million. GAAP gross margin: 68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow:...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "68.1%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69.5%",
+      "value": 69.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million vs $6786.0 million. GAAP gross margin: 68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow:...",
+      "section": "Company KPIs",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.5%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68.0%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...vs $6786.0 million. GAAP gross margin: 68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow: $8010.0 million...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "68.1%",
+        "snippet": "- Gross margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69.1%",
+      "value": 69.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$6786.0 million. GAAP gross margin: 68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow: $8010.0 million vs...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "69.1%",
+        "snippet": "...margin: FY2025 67.8%; Q1 FY2026 68.1% (year-ago n/a, n/a); Q2 FY2026 69.5% (year-ago n/a, n/a); Q3 FY2026 69.1% (year-ago 67.1%, better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67.1%",
+      "value": 67.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...GAAP gross margin: 68.1% vs 68.0%, 69.5% vs 68.0%, 69.1% vs 67.1%. Free cash flow: $8010.0 million vs $6013.0...",
+      "section": "Company KPIs",
+      "source": "[1] Earnings releases",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] Earnings releases",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "67%",
+        "snippet": "...revenue growth to increase 84% year-over-year to $29.4 billion, with non-GAAP operating margin stable at 67% reflecting our strong operating leverage.”"
+      }
+    }
+  ],
+  "build_round": 1
+}

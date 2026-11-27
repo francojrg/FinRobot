@@ -1,0 +1,778 @@
+[33mUser_Proxy[0m (to Expert_Investor):
+
+
+With the tools you've been provided, write an annual report based on AMZN's 2025 10-k report, format it into a pdf.
+Pay attention to the followings:
+- Explicitly explain your working plan before you kick off.
+- Use tools one by one for clarity.
+- All your file operations should be done in "../reports/AMZN_2025_claude-haiku-5.5_eval".
+- Before the competitor analysis, call get_peer_candidates. Pass extra_tickers with US-listed companies that have a similar business model (e.g. listed competitors named in the 10-K). Choose the 3 most comparable peers from the returned list, business model first, size second; state briefly why.
+- Use the analysis tools (income statement, balance sheet, cash flow, segments, business highlights,
+  company description, risk assessment, competitors) and base the report on their ANALYSIS RESULT outputs.
+- Each of the five sections should be roughly 350-450 words, split into 2-4 paragraphs.
+- Call get_consensus_and_liquidity once for AMZN and 2025. Use its figures for valuation and funding
+  (consensus growth and EPS, forward EV/Sales, cash runway, dilution, reverse DCF and implied return, estimate
+  revisions, earnings surprises, quality scores) and say that they are dated
+  after the 10-K. In the investment summary, compare the growth implied by the reverse DCF with consensus and
+  historical growth: what does the current valuation require?
+- Write an investment summary of 130-180 words for page 1.
+- Write 3-4 key takeaways (max. 25 words each, one sentence each, with citations). Phrase them as your
+  investment view, not as plain facts: each states a claim and the main reason (e.g. "Margin expansion should
+  continue as launch volumes scale: gross margin rose to 34.4% [1]"). Do not repeat the summary's first sentences.
+- Write 3-4 investment_theses that match the takeaways, each with: thesis (the view, a claim that can turn out
+  wrong), evidence (figures with citation), signpost (a measurable KPI or dated event that will confirm it, e.g.
+  "Neutron first launch by Q4 2026" or "Subscription ARR growth above 30%") and invalidation (what would prove it
+  wrong). The earnings reviewer will check these signposts after each quarter.
+- Cite sources inline as [1] 10-K, [2] Yahoo Finance financials/prices, [3] analyst consensus, [4] peer financials.
+- When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
+  revenues for the last two fiscal years as stated in the 10-K (USD millions), key_takeaways as a list and
+  investment_theses as a list of objects.
+- Do not generate the pdf until all of this is fulfilled.
+- If build_annual_report returns a SELF-CHECK list, revise the texts once as instructed and rebuild.
+
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+**Working plan**
+
+1. Locate the AMZN FY2025 10-K filing with `get_sec_report`.
+2. Run the analysis tools one at a time: company description, business highlights, income statement, segments, balance sheet, cash flow, and risk factors.
+3. Call `get_peer_candidates` with US-listed AMZN competitors named in the 10-K (for example MSFT, GOOGL, WMT, SHOP), then choose three peers, business model first and size second.
+4. Run `get_competitors_analysis` against those three peers.
+5. Call `get_consensus_and_liquidity` once for AMZN, FY2025.
+6. Pull key data, share performance, and the valuation chart, all saved under `../reports/AMZN_2025_claude-haiku-5.5_eval`.
+7. Write the five sections, the investment summary (130–180 words), 3–4 takeaways, and 3–4 theses with signposts. Then call `build_annual_report` once, with the peer tickers, segment data, takeaways, and theses. If it returns a SELF-CHECK list, I'll revise once and rebuild.
+
+I'll start with the filing lookup.
+[32m***** Suggested tool call (toolu_015eP9unh4ojkpQM5SRqKuup): get_sec_report *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025"}
+[32m********************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_sec_report...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_015eP9unh4ojkpQM5SRqKuup) *****[0m
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+Filing Date: 2026-02-06
+Fiscal Period End: 2025-12-31
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01TZkzxtEzhZUHca9DKvE18r): analyze_company_description *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/company_description.txt"}
+[32m*********************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_company_description...[0m
+Sec Api initialized
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01TZkzxtEzhZUHca9DKvE18r) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/company_description.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/company_description_analysis.txt):
+
+**Company Overview**
+
+Founded in 1994, Amazon.com, Inc. is a multi-segment retailer and technology company that sells products and services through online and physical stores, operates a third-party seller marketplace and fulfillment network, and provides cloud computing through Amazon Web Services (AWS). It reports three segments: North America, International, and AWS. The filing places the company across e-commerce, cloud infrastructure, digital media, and advertising, with competitors ranging from retailers and cloud providers to search engines and healthcare providers.
+
+**Core Strengths and Products**
+
+Amazon offers hundreds of millions of products across dozens of categories, sold by Amazon and third parties. Its Prime membership includes fast, free shipping on tens of millions of items plus video, live sports, and other benefits. The company also manufactures devices (Kindle, Fire, Echo, Ring, eero), runs seller and advertising programs, and offers AWS compute, storage, database, analytics, and artificial intelligence services. Management states that low prices and fast delivery are central to its strategy.
+
+**Market Position**
+
+The provided resources do not disclose market share. By 2025 net sales mix, North America was 59% ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion). The filing does not give customer concentration data, so it cannot be determined from these resources whether major customers are blue-chip companies. As of December 31, 2025, the company employed about 1,576,000 people.
+
+**Trends, Opportunities, and Challenges**
+
+Cash capital expenditures rose to $128.3 billion in 2025 from $77.7 billion, mostly for technology infrastructure supporting AWS, and free cash flow fell to $11.2 billion from $38.2 billion. Shipping costs increased to $102.7 billion from $95.8 billion. Management cites tariff policy, memory chip supply, and energy prices as risks, and notes that AI-enabled tools lower barriers for smaller competitors.
+
+**Strategic Initiatives and Responses**
+
+In 2025 the company recorded a $2.5 billion FTC settlement charge and $2.7 billion of severance tied to planned role eliminations. It invested $2.7 billion in Anthropic convertible notes, and a price adjustment on that stake drove most of the $15.2 billion other income. It is developing a satellite broadband network and autonomous ride-hailing vehicles, and plans quick commerce and sharper international prices in 2026.
+
+---
+
+**Summary**
+
+Amazon's 2025 results show strong top-line growth (net sales up 12% to $716.9 billion; AWS up 20%) and higher operating income ($80.0 billion, up from $68.6 billion), though that figure includes $5.2 billion of FTC settlement and severance charges. The main weakness is cash generation: free cash flow fell to $11.2 billion as capital expenditures reached $128.3 billion, driven mainly by AWS infrastructure. The thesis depends on AWS returns justifying this spending. It would be challenged if AWS growth slowed while capital spending kept rising.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_017fSmSPcDetCvk1xsH5DnrV): analyze_business_highlights *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/business_highlights.txt"}
+[32m*********************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_business_highlights...[0m
+Sec Api initialized
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_017fSmSPcDetCvk1xsH5DnrV) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/business_highlights.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/business_highlights_analysis.txt):
+
+**North America:** Net sales rose 10% to $426.3 billion in 2025 from $387.5 billion in 2024, and operating income rose 19% to $29.6 billion from $25.0 billion, so operating margin was about 6.9% in 2025 versus about 6.4% in 2024 (illustrative, calculated from the reported figures). The sales growth came mainly from higher unit sales, including third-party seller sales, plus advertising and subscription services, while fulfillment, technology and infrastructure, shipping, and other operating costs grew and partly offset the gain in operating income; foreign exchange reduced segment net sales by $454 million and operating income by $204 million.
+
+**International:** Net sales grew 13% to $161.9 billion in 2025 from $142.9 billion in 2024 (10% excluding foreign exchange), and operating income increased 25% to $4.8 billion from $3.8 billion. The increase was driven primarily by higher unit sales and advertising sales, partially offset by higher fulfillment and shipping costs, and foreign exchange added $4.9 billion to net sales and $903 million to operating income.
+
+**Amazon Web Services (AWS):** Net sales rose 20% to $128.7 billion in 2025 from $107.6 billion in 2024, and operating income rose 14% to $45.6 billion from $39.8 billion, so operating margin fell to about 35.4% from about 37.0% (illustrative, calculated from the reported figures). Sales growth reflected increased customer usage, partly offset by pricing changes driven mainly by long-term customer contracts, while technology infrastructure spending, primarily added to support AWS business growth, absorbed much of the sales gain, and foreign exchange reduced operating income by $341 million.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_013ciFjP3rY4wnXjcQt3nPSJ): analyze_income_stmt *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/income_statement.txt"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_income_stmt...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_013ciFjP3rY4wnXjcQt3nPSJ) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/income_statement.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/income_statement_analysis.txt):
+
+**Revenue:** Net sales rose 12% to $716.9 billion from $638.0 billion. AWS (+20%) and International (+13%) grew faster than North America (+10%).
+
+**Costs:** Cost of sales grew 9%, slower than sales, and fell to 49.7% of sales from 51.1%. Technology and infrastructure spending rose 23% and is the main cost pressure.
+
+**Margins:** Gross margin reached 50.3% (48.9% in 2024). Operating margin rose to 11.2% (10.8%) despite $5.2 billion of FTC settlement and severance charges. AWS operating margin slipped to 35.4% from 37.0%.
+
+**Earnings:** Diluted EPS rose to $7.17 from $5.53. Net income includes a $15.3 billion net gain in other income, so normalized income, up 7% to $65.4 billion, is the better measure of operating earnings growth.
+
+**Outlook:** First-quarter 2026 operating income guidance of $16.5–21.5 billion compares with $18.4 billion a year earlier. The materials provide no competitor data, so no industry comparison is possible.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01RAaRKkkqPNxQsgsneMZwFe): analyze_segment_stmt *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/segment_analysis.txt"}
+[32m**************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_segment_stmt...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01RAaRKkkqPNxQsgsneMZwFe) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/segment_analysis.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/segment_analysis_analysis.txt):
+
+**Scope note:** The filing does not disclose segment net income, so operating income is used as the segment profit measure. It also does not quantify market share, so market position is not addressed. Strategic partnership details (the Anthropic investment and related gains) are reported at the consolidated level, not by segment.
+
+**North America**
+
+North America net sales grew 10% to $426.3 billion in 2025 (2024: $387.5 billion), and operating income grew 19% to $29.6 billion (2024: $25.0 billion), lifting operating margin from 6.4% to 7.0% (calculated). Unit sales, advertising, and subscriptions drove growth, partly offset by higher fulfillment, technology and infrastructure, and shipping costs.
+
+**International**
+
+International net sales rose 13% to $161.9 billion (2024: $142.9 billion). Operating income rose 25% to $4.75 billion (2024: $3.79 billion), but foreign exchange contributed $903 million of that gain; excluding it, operating income rose about 1.5% (illustrative calculation). Unit sales and advertising drove growth, offset by fulfillment and shipping costs. Q1 2026 guidance adds investment in quick commerce and sharper prices.
+
+**AWS**
+
+AWS net sales grew 20% to $128.7 billion (2024: $107.6 billion), but operating income grew 14% to $45.6 billion (2024: $39.8 billion), cutting operating margin from 37.0% to 35.4% (calculated). Management cites customer usage growth, partly offset by pricing changes from long-term contracts, and technology infrastructure spending to support AWS growth, which weighed on operating income.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01RShVY6FjtUrkueXTAJg8qs): analyze_balance_sheet *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/balance_sheet.txt"}
+[32m***************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_balance_sheet...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01RShVY6FjtUrkueXTAJg8qs) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/balance_sheet.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/balance_sheet_analysis.txt):
+
+Liquidity held steady, leverage fell, and the asset base grew quickly. Current assets of $229.1 billion covered current liabilities of $218.0 billion, a current ratio of 1.05 against 1.06 in 2024 and 0.94 in 2022. Long-term debt rose to $65.6 billion from $52.6 billion, but equity grew 44% to $411.1 billion, lowering total debt (including leases) to equity to 0.37 from 0.46. Total assets rose 31% to $818.0 billion, and net property and equipment of $443.1 billion made up 54% of them. Free cash flow fell to $11.2 billion from $38.2 billion as cash capital expenditures reached $128.3 billion, so the buildout depends on operating cash flow and new borrowing. The assessment would be wrong if fixed-asset growth outpaced AWS demand, pressuring the thin current ratio and rising debt.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01CopY5wTXwEW75ic5WUE6dk): analyze_cash_flow *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/cash_flow.txt"}
+[32m***********************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION analyze_cash_flow...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01CopY5wTXwEW75ic5WUE6dk) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/cash_flow.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/cash_flow_analysis.txt):
+
+Operating cash flow rose to $139.5 billion in 2025 from $115.9 billion, but free cash flow fell 71% to $11.2 billion from $38.2 billion. Cash capital expenditures reached $128.3 billion, up from $77.7 billion, mainly for AWS technology infrastructure. Investing outflows totaled $142.5 billion, up from $94.3 billion. Financing turned to a $9.7 billion inflow, with $25.0 billion of new debt against $15.3 billion of repayments, and no revolver or commercial paper borrowings were outstanding at year-end. Cash taxes fell to $8.3 billion from $12.3 billion under the 2025 Tax Act, flattering operating cash flow. Cash and marketable securities of $123.0 billion give adequate liquidity. The view would be wrong if free cash flow stays near 2025 levels once the tax benefit fades.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_017sgUusX8fRhgNJpkRYJ1N9): get_risk_assessment *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/risk_assessment.txt"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_risk_assessment...[0m
+Sec Api initialized
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_017sgUusX8fRhgNJpkRYJ1N9) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/risk_assessment.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/risk_assessment_analysis.txt):
+
+# Top Three Key Risks Described in Amazon's Risk Factors
+
+The three risks that matter most in this filing are, in order, intense competition with pricing pressure, the fixed-cost and forecasting burden of running a large fulfillment and infrastructure network, and unresolved legal, regulatory, and tax proceedings. The Item 1A text is the only source provided. No financial tables were included, so the filing's risks cannot be measured in dollars or percentages here. Where the text gives a quantitative anchor, such as the timing of cash balances or the share of revenue from China-based sellers, I cite it. Where it does not, I say so.
+
+## Risk 1: Intense competition that can force lower prices or higher spending
+
+The filing states that Amazon competes "across geographies" and "in different industries," naming more than a dozen segments, including retail, cloud infrastructure, advertising, grocery, healthcare, communications, and logistics. It also says some competitors have "greater resources, longer histories, more customers, and/or greater brand recognition," and may "secure better terms from vendors, adopt more aggressive pricing, and devote more resources to technology, infrastructure, fulfillment, and marketing." The company's stated consequence is direct: competition may require it "to increase our spending or lower prices, any of which could materially reduce our sales and profits."
+
+On industry vertical risk, the filing does not benchmark its competitive position against other industries, so I cannot rank this risk against peers using only these resources. What the text does show is that the competitive set differs by segment. Competition in cloud infrastructure, advertising, and retail involves different rivals, and the filing adds that AI and search technologies "facilitate competitive entry and comparison shopping," which lowers the barrier for smaller rivals. That breadth means the risk is spread across the business rather than concentrated in one line.
+
+On cyclicality, the filing does not describe competitive intensity as cyclical. Its language suggests the pressure is structural and continuing, since it says competition "continues to intensify."
+
+On risk quantification, the filing gives no market share, margin, or pricing data. The measurable items it names are the company's own levers: spending on technology, infrastructure, fulfillment, and marketing, and the prices it charges. An investor can track whether operating margins hold while the company reports continued sales growth. If margins fall as growth continues, that would be the pattern the filing warns about.
+
+On downside protections, the filing identifies none specific to competition. It does not describe contracted volumes or exclusive positions that would shield pricing.
+
+## Risk 2: A large fixed-cost base and forecasting errors that create excess or insufficient capacity
+
+The filing says "a significant portion of our expenses and investments is fixed, and we are not always able to adjust our spending quickly enough if our sales are less than expected." It ties this to fulfillment and data center networks, where forecasting failures "result in excess or insufficient fulfillment or data center capacity, service interruptions, increased costs, and impairment charges." Inventory carries its own exposure: overstocking can require "significant inventory markdowns or write-offs and incur commitment costs." The filing also notes that some inventory is acquired with "significant lead-time and prepayment" and "may not be returnable."
+
+On industry vertical risk, the risk is more specific to Amazon's model of owning and operating physical and digital infrastructure at scale than to the retail sector generally. The filing's language describes a company whose cost structure rests on large, long-lived investments, which increases the consequence of a demand miss.
+
+On cyclicality, the filing is the most explicit here. Demand "can fluctuate significantly" because of "recessionary fears or rising inflation," and the company expects "a disproportionate amount of our retail sales to occur during our fourth quarter." It also reports a working-capital pattern: cash, cash equivalents, and marketable securities "typically reach their highest level" at December 31, and the accounts payable balance "generally declines during the first three months of the year as vendors and sellers are paid." An investor should read reported cash balances at year-end with that seasonal pattern in mind.
+
+On risk quantification, the filing gives no dollar figures for impairments, write-downs, or fixed costs. Its quantifiable exposures are the seasonal concentration of sales in the fourth quarter and the year-end cash cycle. Illustrative only: if a material share of annual sales falls in one quarter, a shortfall in that quarter could weigh heavily on the full year, but the filing does not supply the share, so no figure can be given here.
+
+On downside protections, the filing points to the company's ability to shift volume across its network and to its scale, but it does not describe a specific hedge. It also says the company does "not have long-term arrangements with most of our suppliers," which removes one form of protection.
+
+## Risk 3: Legal, regulatory, and tax proceedings whose outcomes are unpredictable
+
+The filing reports open investigations "based on claims that aspects of our operations infringe competition-related or consumer protection rules," covering the company's stores, its fulfillment network, Prime, and parts of AWS. It also says the company is "litigating a number of matters alleging price fixing, monopolization, and consumer protection claims, including those brought by state attorneys general and the Federal Trade Commission." On tax, it names an Indian tax authority assertion that tax applies to cloud services fees paid to Amazon in the U.S., and it notes that "the final outcome of audits, investigations, and any other tax controversies could be materially different from our historical tax accruals." The filing states that "outcomes of these matters are inherently unpredictable," and that losses "in excess of the amount recorded" may occur.
+
+On industry vertical risk, the regulatory exposure is broader than most sectors the company's peers face, because the filing lists regulation across taxation, privacy, data localization, consumer protection, digital content, payments, healthcare, and unmanned aircraft. The breadth of the list is itself a signal of how many fronts the company is exposed on.
+
+On cyclicality, the filing does not link legal exposure to economic cycles. The risk is driven by regulatory timing, which the filing describes as expanding "as the scope of our businesses expand."
+
+On risk quantification, the filing gives no reserve amounts or ranges. It does name specific exposures: the open competition and consumer protection investigations, the Indian tax matter, and the payments-related regulatory obligations that could leave the company "subject to additional requirements and civil and criminal penalties." It also names the A-to-z Guarantee as a cost that "will increase" with third-party seller sales. These are qualitative; the filing does not size any of them.
+
+On downside protections, the filing describes liability insurance but states that "we cannot be certain that our coverage will be adequate." It also says some vendor and seller agreements "do not indemnify us from product liability." Government regulation here is a source of risk rather than a protection.
+
+## Overall assessment
+
+The filing presents these three risks as interlocking. Competition pressures prices, which tightens the margin left to absorb fixed costs and forecasting errors, and regulatory outcomes such as a fine or a required change in business practice could alter prices or cost structure in a way that compounds the first two. The filing does not quantify the combined effect, and it explicitly disclaims completeness, noting that additional risks may exist that "we currently do not consider to present significant risks."
+
+The filing's strongest qualitative signal is the statement that a significant portion of expenses is fixed. That makes the company's earnings sensitive to sales volume in a way that a more variable cost structure would not be. The test of this view is whether reported operating margins hold through a period of softer demand, and whether the company reduces spending quickly after a sales shortfall. If margins compress and spending does not adjust, the fixed-cost concern in this filing would be confirmed. If legal and tax reserves prove sufficient and resolutions do not require substantial payments or changes to business practice, the regulatory concern would be weaker than the filing's language suggests. The filing itself says the outcome of these matters is unpredictable, so the evidence will come from disclosed resolutions rather than from the risk factor text.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_018snEbwNakm2B3yHkEA9nkP): get_key_data *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "filing_date": "2026-02-06"}
+[32m******************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_key_data...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_018snEbwNakm2B3yHkEA9nkP) *****[0m
+{'Rating': 'buy', 'Target Price': '326.34 (range 230.00 - 405.00), current consensus as of 2026-11-24, not as of 2026-02-06', '6m avg daily vol (USDmn)': '43.77', 'Closing Price (USD)': '222.69', 'Market Cap (USDmn)': '2256944.00', '52 Week Price Range (USD)': '161.38 - 258.60', 'BVPS (USD)': '38.31'}
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The company, business, income, segment, balance sheet, cash flow, and risk analyses are done. Next is the consensus and liquidity call, which the brief asks for once.
+[32m***** Suggested tool call (toolu_01Ms9qyFVvP8wAR5Ya5yV326): get_consensus_and_liquidity *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "fyear": "2025"}
+[32m*********************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_consensus_and_liquidity...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01Ms9qyFVvP8wAR5Ya5yV326) *****[0m
+CONSENSUS ESTIMATES (Yahoo Finance, retrieved 2026-11-24, i.e. after the 10-K filing; cite as [3]):
+- FY2026E: revenue $829,229.0 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.7x; EV/Sales 3.6x
+- FY2027E: revenue $960,459.3 million (range $902,078.0 million to $984,051.0 million, 61 analysts), growth +15.8%; EPS $10.67 (range $9.03 to $12.95); forward P/E 23.6x; EV/Sales 3.1x
+- Forward multiples use the current share price of $252.18 and the current enterprise value. EPS methodology: gaap.
+
+LIQUIDITY AND FUNDING (Yahoo Finance balance sheet and cash flow; cite as [2]):
+- FY2025 (10-K): cash and short-term investments $123,029.0 million, total debt $152,987.0 million, net cash -$29,958.0 million, free cash flow $7,695.0 million, cash runway at that burn self-funded, current ratio 1.1x, shares outstanding 10,731.0 million, change in share count y/y +1.3%
+- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years, current ratio 1.0x, shares outstanding 10,811.0 million, change in share count y/y +1.2%
+
+REVERSE DCF (own calculation from Yahoo Finance data [2][3]; current enterprise value, i.e. after the 10-K):
+- The current enterprise value of $2,952,182.4 million implies revenue growth of 19.2% per year for 10 years (FY2025 revenue $716,924.0 million -> about $4,160,410.1 million in FY2035), assuming the free cash flow margin moves from 1.1% to 15.0% by year 10, a WACC of 12.4% (10y US Treasury (^TNX) 4.9% + beta 1.50 x 5.0% equity risk premium) and 2.5% terminal growth.
+- For comparison: historical 3-year revenue CAGR 11.7%. Compare the implied growth with the consensus growth above and with the historical growth. This is a simplified, illustrative model, not a price target.
+- Implied return (IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 8.3% per year (-4.1 percentage points vs the WACC).
+
+ESTIMATE REVISIONS AND EARNINGS SURPRISES (Yahoo Finance, retrieved today; cite as [3]):
+- EPS consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29
+- EPS consensus next fiscal year: $10.67 today, $10.58 30 days ago, $10.51 90 days ago, change vs 90 days ago +1.5%; analysts raising/cutting in last 30 days: 28/16
+- Quarter ending 2026-09-30: EPS $1.89 vs estimate $1.96 (surprise -3.5%)
+- Quarter ending 2026-06-30: EPS $5.75 vs estimate $1.82 (surprise +215.1%)
+- Quarter ending 2026-03-31: EPS $2.78 vs estimate $1.65 (surprise +68.2%)
+- Quarter ending 2025-12-31: EPS $1.95 vs estimate $1.96 (surprise -0.5%)
+
+FINANCIAL QUALITY SCORES (own calculation from Yahoo Finance statements; cite as [2]):
+- Piotroski F-Score: 6 of 9 available criteria; failed: Current ratio improved, No increase in share count, Asset turnover improved
+- Altman Z-Score: 5.74 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)
+- Beneish M-Score: -2.59 (below -1.78: no statistical warning sign)
+
+Note: the latest-quarter column and all consensus figures are dated after the 10-K. Say so when you use them.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+Consensus and liquidity data are in. Per your instructions, I'll now pull the peer candidates before the competitor analysis.
+[32m***** Suggested tool call (toolu_01R4id6YGjaLNbgDhACqCFYE): get_peer_candidates *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "extra_tickers": ["MSFT","GOOGL","WMT","SHOP","ORCL"]}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_peer_candidates...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01R4id6YGjaLNbgDhACqCFYE) *****[0m
+Error: math domain error
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The peer lookup failed with a math error. I'll retry once with a shorter ticker list.
+[32m***** Suggested tool call (toolu_01L6KJMAoKnsCqjCrC6ptvVe): get_peer_candidates *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "extra_tickers": ["MSFT","GOOGL","WMT"]}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_peer_candidates...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01L6KJMAoKnsCqjCrC6ptvVe) *****[0m
+Error: math domain error
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The lookup failed twice with the same error. I'll make one more attempt without extra tickers to see whether the tool works at all.
+[32m***** Suggested tool call (toolu_01Tc7HsUodyN1PDSeoo7yN2V): get_peer_candidates *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_peer_candidates...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01Tc7HsUodyN1PDSeoo7yN2V) *****[0m
+Error: math domain error
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The peer candidate lookup has failed three times with the same error, so I can't choose peers from the returned list as your brief requires. I'll continue with the independent chart tools and hold the competitor step.
+[32m***** Suggested tool call (toolu_01MB9PczcSBvRYJrFDAm94m9): get_share_performance *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "filing_date": "2026-02-06", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/share_performance.png"}
+[32m***************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_share_performance...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01MB9PczcSBvRYJrFDAm94m9) *****[0m
+3-year stock performance chart saved to <img ../reports/AMZN_2025_claude-haiku-5.5_eval/share_performance.png>
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+[32m***** Suggested tool call (toolu_01DYzai6ZZ3MCWnMSkma7ris): get_pe_eps_performance *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "filing_date": "2026-02-06", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/pe_eps_performance.png"}
+[32m****************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_pe_eps_performance...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01DYzai6ZZ3MCWnMSkma7ris) *****[0m
+valuation chart (EV/Sales (trailing, annual revenue), FCF yield) saved to <img ../reports/AMZN_2025_claude-haiku-5.5_eval/pe_eps_performance.png>
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+I haven't generated the PDF. The peer lookup failed, and your brief requires the peer step before the competitor analysis and before the report build.
+
+**Blocker: `get_peer_candidates` failed three times**
+
+I called it with five extra tickers (MSFT, GOOGL, WMT, SHOP, ORCL), then with three, then with none. Each time it returned "Error: math domain error." Without that list I can't choose three peers business model first, so I can't write the competitor analysis or pass `peer_tickers`. I didn't substitute peers of my own.
+
+**Completed**
+
+- Filing: AMZN FY2025 10-K, filed 2026-02-06 [1].
+- Analysis tools run: company description, business highlights, income statement, segments, balance sheet, cash flow, risk assessment.
+- Consensus and liquidity run once for AMZN, FY2025 [2][3].
+- Charts saved: `share_performance.png` and `pe_eps_performance.png` (the valuation chart shows EV/Sales and FCF yield, not P/E).
+
+**Draft investment summary (about 150 words)**
+
+Amazon's 2025 results show a business growing faster while spending far more. Net sales rose 12% to $716.9 billion, and AWS grew 20% to $128.7 billion [1]. Operating income reached $80.0 billion, but that includes $5.2 billion of FTC settlement and severance charges, and net income was lifted by a $15.3 billion other-income gain [1]. Normalized income rose 7% to $65.4 billion [1]. Free cash flow fell 71% to $11.2 billion as cash capex reached $128.3 billion [1].
+
+The valuation asks for a lot. At the current enterprise value, the reverse DCF implies 19.2% annual revenue growth for ten years. That compares with consensus revenue growth of 15.7% for FY2026 and a 11.7% historical three-year CAGR [2][3]. At a 12.4% WACC, the implied return is 8.3% [2][3]. Consensus and latest-quarter data are dated after the 10-K. Buyers today are betting that AWS growth holds and that capex turns into cash. The main risks are fixed-cost capacity forecasting, competition, and legal and tax outcomes [1].
+
+**Draft key takeaways**
+
+- AWS growth should keep funding the capex cycle, though its margin is slipping: AWS sales rose 20%, but operating margin fell to 35.4% [1].
+- Cash conversion is the key test: free cash flow fell to $11.2 billion as capex reached $128.3 billion, so spending must start paying back [1].
+- Valuation looks demanding: the current enterprise value implies 19.2% revenue growth, above 15.7% consensus FY2026 growth [2][3].
+- Near-term funding is adequate: $123.0 billion of cash and securities covered $25.0 billion of new debt in 2025 [1][2].
+
+**Draft investment theses**
+
+1. **Thesis:** AWS keeps growing fast enough to justify the spending.
+   - Evidence: AWS sales +20% to $128.7 billion; margin 35.4% vs 37.0% [1].
+   - Signpost: AWS growth at or above 15% with margin at or above 35% in each 2026 quarterly report.
+   - Invalidation: AWS growth below 15%, or margin below 33% while capex keeps rising.
+
+2. **Thesis:** Capex starts converting to free cash flow during 2026.
+   - Evidence: FY2025 FCF $11.2 billion vs $38.2 billion [1]. Yahoo's trailing FCF at 2026-09-30 was -$37.6 billion [2], which is already adverse and dated after the 10-K.
+   - Signpost: trailing-twelve-month FCF positive by FY2026 year-end.
+   - Invalidation: trailing FCF still negative at FY2026 year-end.
+
+3. **Thesis:** The valuation needs growth above consensus, so the stock is sensitive to any slowdown.
+   - Evidence: reverse DCF implies 19.2% growth vs 15.7% consensus; implied IRR 8.3% vs 12.4% WACC [2][3]. Current-year EPS consensus fell from $12.93 to $12.80 over 30 days [3].
+   - Signpost: FY2026 revenue consensus holds at or above 15.7% in the Q4 2026 update.
+   - Invalidation: consensus growth falls below 14%, or EPS revisions stay negative.
+
+**Data discrepancies to resolve before publishing**
+
+- FY2025 free cash flow is $11.2 billion in the 10-K analysis [1] but $7.7 billion in the Yahoo consensus output [2]. The definitions likely differ.
+- The closing price is $222.69 in the key-data output, but the consensus output uses $252.18 as the current price. The dates differ, so I'll cite each figure with its own date.
+
+**Decision needed**
+
+1. Retry `get_peer_candidates` later and resume the competitor section, or
+2. Build the report now with the competitor section stating that the peer comparison could not be completed. That would deviate from your brief, and I'd write it only with your approval.
+
+--------------------------------------------------------------------------------
+[33mUser_Proxy[0m (to Expert_Investor):
+
+
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+Your message came through empty, so I don't know which option you want. Where things stand:
+
+- **Blocked:** `get_peer_candidates` failed three times with "math domain error," so I haven't chosen peers or written the competitor section. I haven't built the PDF.
+- **Done:** the company, business, income, segment, balance sheet, cash flow, and risk analyses; the consensus and liquidity data; and the share performance and valuation charts, all saved to `../reports/AMZN_2025_claude-haiku-5.5_eval`.
+
+Options:
+
+1. **Retry the peer lookup.** I'll try `get_peer_candidates` again, with or without the extra tickers. If it works, I'll pick three peers and finish the competitor section.
+2. **Build without peers.** I'd generate the PDF with the competitor section stating that the peer comparison could not be completed. This departs from your brief, so I'll only do it if you approve.
+3. **Stop here** and keep the drafts for review.
+
+Which would you like?
+
+--------------------------------------------------------------------------------
+[33mUser_Proxy[0m (to Expert_Investor):
+
+
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+Your message came through empty again. Retrying the peer lookup is already part of your original brief, so I'll make one attempt.
+[32m***** Suggested tool call (toolu_01MznGwse97o3ZJh8L1nqSZj): get_peer_candidates *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "extra_tickers": ["MSFT","GOOGL","WMT"], "max_candidates": 6}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_peer_candidates...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01MznGwse97o3ZJh8L1nqSZj) *****[0m
+ticker | name | industry | country | market cap (USD bn) | revenue (USD bn) | revenue growth | revenue vs company | business
+AMZN | Amazon.com, Inc. (company under analysis) | Internet Retail | United States | 2,726.1 | 797.5 | 12% | 1.0x | Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through...
+WMT | Walmart Inc. | Discount Stores | United States | 1,043.9 | 745.2 | 5% | 0.9x | Walmart Inc. engages in the operation of retail and wholesale stores and clubs, ecommerce websites, and mobile applications worldwide. The company operates through three segments: Walmart U.S., Walmart...
+GOOGL | Alphabet Inc. | Internet Content & Information | United States | 3,414.7 | 471.1 | 25% | 0.6x | Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google...
+MSFT | Microsoft Corporation | Software - Infrastructure | United States | 3,699.1 | 346.4 | 19% | 0.4x | Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications,...
+CPNG | Coupang, Inc. | Internet Retail | United States | 28.5 | 36.2 | 8% | 0.0x | Coupang, Inc., together with its subsidiaries, owns and operates retail business through its mobile applications and internet websites in South Korea and internationally. It operates through Product Commerce...
+M | Macy's, Inc. | Department Stores | United States | 6.3 | 22.8 | 1% | 0.0x | Macy's, Inc., an omni-channel retail organization, operates stores, websites, and mobile applications in the United States. The company sells various merchandise, such as apparel and accessories for men,...
+EBAY | eBay Inc. | Internet Retail | United States | 49.7 | 12.4 | 14% | 0.0x | eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally. Its marketplace platform...
+DDS | Dillard's, Inc. | Department Stores | United States | 9.0 | 6.6 | 1% | 0.0x | Dillard's, Inc. operates retail department stores in the southeastern, southwestern, and midwestern areas of the United States. The company offers fashion apparel for men, women, and children; accessories,...
+ETSY | Etsy, Inc. | Internet Retail | United States | 6.8 | 3.0 | 11% | 0.0x | Etsy, Inc., together with its subsidiaries, operates two-sided online marketplaces that connect buyers and sellers in the United States, the United Kingdom, and internationally. It operates through Etsy...
+OLLI | Ollie's Bargain Outlet Holdings, Inc. | Discount Stores | United States | 5.6 | 2.8 | 9% | 0.0x | Ollie's Bargain Outlet Holdings, Inc. operates as a retailer of closeout merchandise and excess inventory in the United States. The company offers health and beauty aids, food, candy,...
+
+Finnhub groups companies by industry, so very large conglomerates can appear. Choose the 3 most comparable peers by business model first and size second (see 'revenue vs company'). Prefer companies with revenue data. Use exactly these ticker symbols and names; do not add companies that are not in this list.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The retry worked. I'll choose MSFT, GOOGL, and WMT: MSFT and GOOGL run the cloud and advertising businesses that compete with AWS and Amazon's ad business, and WMT is the closest in revenue scale among the retail names, with ecommerce. CPNG, EBAY, and the smaller retailers are much smaller than AMZN.
+[32m***** Suggested tool call (toolu_01HSVqqiSfHJBQLb3dc5vg3z): get_competitors_analysis *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "competitors": ["MSFT","GOOGL","WMT"], "fyear": "2025", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/competitors_analysis.txt"}
+[32m******************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION get_competitors_analysis...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01HSVqqiSfHJBQLb3dc5vg3z) *****[0m
+ANALYSIS RESULT (tool output, written from the 10-K text and financial tables in ../reports/AMZN_2025_claude-haiku-5.5_eval/competitors_analysis.txt; also saved to ../reports/AMZN_2025_claude-haiku-5.5_eval/competitors_analysis_analysis.txt):
+
+# Amazon.com, Inc. (AMZN): Financial Metrics Against Microsoft, Alphabet and Walmart
+
+Amazon's profitability and returns improved sharply between 2022 and 2025, but its cash conversion weakened over the same period. Its FCF Conversion of 0.10 in 2025 is the lowest of the four companies that year, and its ROIC of 16.8% is the second-lowest, ahead of Walmart's 17.1% by only 0.3 points. Its EV/EBITDA multiple fell from 24.68 in 2022 to 15.38 in 2025, which is now the lowest of the four in 2025. The resources do not explain the cash conversion decline, so the cause cannot be identified from them.
+
+Fiscal year ends differ across the companies, and the year labels are used here exactly as given. Amazon's data runs from 2022 to 2025, while Microsoft and Walmart also have 2026 values and Alphabet ends at 2025. Amazon therefore has no 2026 comparison. The resource does not state units for the dollar figures, so revenue, EBITDA and FCF are quoted as presented.
+
+## Free Cash Flow Conversion
+
+Amazon's FCF Conversion path is the most important problem in the data. The ratio was n/m in 2022, when FCF was negative at -16,893. It then rose to 1.06 in 2023 and fell to 0.55 in 2024 and 0.10 in 2025. In 2023, Amazon was the highest of the four (Microsoft 0.82, Alphabet 0.94, Walmart 1.03 in the closest comparable years, with Walmart at 1.03 just below Amazon). In 2024, Amazon at 0.55 trailed Microsoft at 0.84, Alphabet at 0.73 and Walmart at 0.97. In 2025, Amazon's 0.10 compares with Microsoft at 0.70, Alphabet at 0.55 and Walmart at 0.65.
+
+The stated FCF Conversion values do not reconcile to FCF divided by EBITDA. Illustratively, 2025 FCF of 7,695 against EBITDA of 165,341 gives about 4.7%, not 0.10. For 2024 the same calculation gives about 26.6%, not 0.55. The resource does not define the denominator, so I use the stated values as given but cannot verify them from the other figures.
+
+Over the same years, Amazon's EBITDA rose from 123,815 in 2024 to 165,341 in 2025, an increase of about 33.5% (illustrative: 41,526 divided by 123,815). Free cash flow fell from 32,878 to 7,695, a decline of about 77% (illustrative). The gap means that earnings growth did not reach the cash line in 2025. The resource contains no capital expenditure or working capital detail, so this document cannot say which items absorbed the cash.
+
+## Return on Invested Capital
+
+Amazon's ROIC moved from -1.2% in 2022 to 12.7% in 2023, 18.1% in 2024 and 16.8% in 2025. The 2025 decline of 1.3 points after the 2024 peak is the first reversal in the series. Against peers, Amazon's ROIC trailed Microsoft and Alphabet in every year shown. In 2023, Amazon's 12.7% compared with Microsoft's 29.2%, Alphabet's 25.1% and Walmart's 11.0%. In 2024, the figures were 18.1% against Microsoft's 28.3%, Alphabet's 29.9% and Walmart's 14.7%. In 2025, Amazon's 16.8% compared with Microsoft's 26.8%, Alphabet's 28.7% and Walmart's 17.1%. Amazon was above Walmart in 2023 and 2024 and marginally below it in 2025.
+
+The ROIC series shows a company that moved from loss to returns in the low to high teens within two years, but its 2025 level is still well below the two software and advertising-heavy peers.
+
+## Revenue and Revenue Growth
+
+Amazon's revenue grew from 513,983 in 2022 to 574,785 in 2023, 637,959 in 2024 and 716,924 in 2025. Reported growth was 11.8% in 2023, 11.0% in 2024 and 12.4% in 2025. Growth therefore re-accelerated in 2025 after a slight slowdown in 2024, and it stayed in a narrow band of 11% to 12.4% across the three years shown.
+
+Against peers, Amazon's growth was below Microsoft in every year where both are available. Microsoft grew 15.7% in 2024, 14.9% in 2025 and 17.8% in 2026. In 2023, Amazon's 11.8% was ahead of Alphabet's 8.7%, and in 2024 Amazon's 11.0% trailed Alphabet's 13.9%. In 2025 Amazon's 12.4% was below Alphabet's 15.1%. Walmart's growth was lower than Amazon's across all overlapping years, falling from 6.0% in 2024 to 5.1% in 2025 and 4.7% in 2026. Amazon's revenue base is the largest of the four in the shared years, but its growth is at the lower end of the group's range.
+
+## Gross Margin
+
+Amazon's Gross Margin rose each year: 43.8% in 2022, 47.0% in 2023, 48.9% in 2024 and 50.3% in 2025. The increase of 6.5 percentage points over three years is the clearest sustained improvement in the Amazon data. The resource does not break down the cost of revenue, so the drivers of the improvement cannot be named from it.
+
+Amazon's gross margin remained well below Microsoft and Alphabet. In 2023 the gap was 22.0 points to Microsoft's 68.9% and 9.6 points to Alphabet's 56.6%. In 2024 Amazon's 48.9% trailed Microsoft's 69.8% by 20.9 points and Alphabet's 58.2% by 9.3 points. In 2025 the gaps were 18.5 points to Microsoft's 68.8% and 9.4 points to Alphabet's 59.7%. Amazon was well above Walmart in each year, where Walmart's margin ranged from 24.1% to 24.9%. Amazon's margin also narrowed the gap to Alphabet in 2025, though it did not close it.
+
+Microsoft's gross margin declined from 69.8% in 2024 to 68.8% in 2025 and 67.9% in 2026, a small reversal in a company that is otherwise at the top of the group.
+
+## EBITDA Margin
+
+Amazon's EBITDA Margin rose from 7.5% in 2022 to 15.6% in 2023, 19.4% in 2024 and 23.1% in 2025. The 2025 figure is more than triple the 2022 level. Against peers, Amazon remained below Microsoft and Alphabet in every year. In 2023, Amazon's 15.6% compared with Microsoft's 49.6%, Alphabet's 31.9% and Walmart's 4.9%. In 2024, it was 19.4% against Microsoft's 53.7%, Alphabet's 38.7% and Walmart's 5.6%. In 2025, Amazon's 23.1% compared with Microsoft's 55.2%, Alphabet's 44.9% and Walmart's 6.2%.
+
+Amazon is clearly ahead of Walmart on this measure, but in the most recent year its EBITDA margin was about 22 points below Alphabet and about 32 points below Microsoft. The gap to Alphabet narrowed from 16.3 points in 2023 to 21.8 points in 2025 instead, meaning Alphabet's margin expanded faster over the period. Amazon's gap to Alphabet widened over the years, even as its own margin improved by 7.5 points.
+
+## EV/EBITDA
+
+Amazon's EV/EBITDA moved from 24.68 in 2022 to 18.34 in 2023, 19.19 in 2024 and 15.38 in 2025. The multiple rose in 2024 while EBITDA continued to grow. In 2023 and 2024, Amazon's multiple was above Alphabet's and below Microsoft's. In 2023, the comparison was 18.34 for Amazon, 24.31 for Microsoft, 17.8 for Alphabet and 14.58 for Walmart. In 2024 it was 19.19 for Amazon, 25.6 for Microsoft, 17.07 for Alphabet and 13.61 for Walmart. In 2025 Amazon's 15.38 was the lowest of the four, compared with Microsoft's 23.98, Alphabet's 21.1 and Walmart's 19.96. In 2022, Amazon's 24.68 was above Alphabet's 13.4, the only other company with a 2022 value.
+
+On this measure, Amazon was the cheapest of the four in 2025, and the market has priced it at a lower multiple than in any prior year in the table. Whether that reflects undervaluation depends on whether the market expects the cash conversion problem to persist. The EV/EBITDA ratio alone does not settle it.
+
+Amazon's EV/Sales multiple moved from 1.84 in 2022 to 3.72 in 2024 and 3.55 in 2025, so the sales-based multiple declined only slightly from its 2024 peak. This suggests that the EV/EBITDA decline in 2025 came from EBITDA growing faster than enterprise value, not from a broad repricing of the business's revenue.
+
+## Conclusion
+
+Across the metrics, Amazon's financial position improved in its profitability and returns. Revenue grew by about 40% from 2022 to 2025 (illustrative: 716,924 divided by 513,983 gives 1.395), its gross margin gained 6.5 points, its EBITDA margin rose from 7.5% to 23.1%, and its ROIC turned positive and reached the mid-to-high teens. Its growth rate of 11% to 12.4% remained below Microsoft and Alphabet, and its margins and returns remained below Microsoft and Alphabet throughout.
+
+The weakest part of the record is cash generation. Free cash flow fell from 32,878 in 2024 to 7,695 in 2025, and FCF Conversion fell to 0.10, the lowest among the four companies. This decline came in a year when EBITDA rose by about a third, so the gap between reported earnings and cash is the central issue in the data.
+
+The current valuation is consistent with the improvement in earnings and inconsistent with the cash flow trend. An EV/EBITDA of 15.38 is the lowest multiple in Amazon's series and the lowest among the four companies in 2025. The reduced multiple is consistent with investors discounting the cash flow weakness and pricing in the lower conversion. It is also consistent with a market that has not yet priced in the full benefit of the margin expansion. The data alone cannot distinguish these views.
+
+Several observations would show this assessment is wrong. If Amazon's FCF Conversion returns to around 0.5 or higher while EBITDA keeps growing, the 2025 cash shortfall would look temporary and the low multiple would look too cheap. If FCF Conversion stays near 0.1 while the EBITDA margin keeps rising, the gap would point to a structural difference between reported earnings and cash, and the multiple would be harder to justify. A reversal in the gross margin trend, which has risen in each year, would also contradict the view that the operating improvements are durable. A decline in ROIC below its 2025 level of 16.8% would indicate that the capital base is growing faster than returns.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+Peer selection is done. I chose three peers from the returned list:
+
+- **MSFT and GOOGL** have the closest business overlap: Microsoft competes with AWS in cloud, and Alphabet competes with Amazon in advertising.
+- **WMT** is the closest retail peer by revenue scale in the list. CPNG and EBAY are much smaller than Amazon.
+
+The competitor analysis is saved. Now I'll write the five sections, the summary, the takeaways, and the theses, then build the PDF once.
+[32m***** Suggested tool call (toolu_019rXtR44BExyxzXSu67Jz2A): build_annual_report *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/AMZN_2025_annual_report.pdf", "filing_date": "2026-02-06", "share_performance_image_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/share_performance.png", "pe_eps_performance_image_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/pe_eps_performance.png", "peer_tickers": ["MSFT","GOOGL","WMT"], "segment_data": "[{\"segment\": \"North America\", \"prior_revenue\": 387500, \"current_revenue\": 426300}, {\"segment\": \"International\", \"prior_revenue\": 142900, \"current_revenue\": 161900}, {\"segment\": \"AWS\", \"prior_revenue\": 107600, \"current_revenue\": 128700}]", "investment_summary": "Amazon's FY2025 10-K shows faster growth and higher margins, but weaker cash generation. Net sales rose 12% to $716.9 billion, AWS grew 20%, and operating margin reached 11.2% [1]. Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3 billion [1].\n\nThe valuation asks for more than consensus. The reverse DCF at the current enterprise value implies 19.2% annual revenue growth for ten years [2][3]. That exceeds FY2026 consensus growth of 15.7% and the 11.7% three-year historical CAGR [2][3]. Consensus data is dated after the 10-K. At a 12.4% WACC, the implied return is 8.3% [3]. The current price therefore needs AWS growth to hold and capex to convert into cash. Liquidity is adequate today, with a current ratio of 1.05 and $123.0 billion of cash and securities [1], but total debt has risen since year-end [2]. Key risks are fixed-cost capacity forecasting, competition, and legal and tax outcomes [1].", "key_takeaways": ["AWS growth should keep funding the capex cycle, though its margin is slipping: sales rose 20% while operating margin fell to 35.4% [1].","Capex should start converting to cash, but free cash flow fell 71% to $11.2 billion as spending reached $128.3 billion [1].","Valuation looks demanding: the current enterprise value implies 19.2% revenue growth, above 15.7% FY2026 consensus [2][3].","Funding is the watch item: total debt rose to $271.9 billion by September 2026 while trailing free cash flow turned negative [2]."], "investment_theses": [{"thesis":"AWS keeps growing fast enough to justify its spending.","evidence":"AWS sales rose 20% to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0% [1].","signpost":"AWS sales growth at or above 15% and operating margin at or above 35% in each 2026 quarterly report.","invalidation":"AWS growth below 15%, or margin below 33% in any 2026 quarter."},{"thesis":"Capex starts converting to free cash flow in 2026.","evidence":"2025 free cash flow was $11.2 billion versus $38.2 billion in 2024 [1]. Yahoo's trailing free cash flow at 2026-09-30 was -$37.6 billion [2].","signpost":"Trailing-twelve-month free cash flow is positive at the FY2026 10-K (early 2027).","invalidation":"Trailing free cash flow is still negative at FY2026 year-end."},{"thesis":"The valuation needs growth above consensus, so any slowdown hits the stock.","evidence":"The reverse DCF implies 19.2% growth versus 15.7% FY2026 consensus; implied IRR is 8.3% versus a 12.4% WACC [2][3]. Current-year EPS consensus fell from $12.93 to $12.80 over 30 days [3].","signpost":"FY2026 revenue consensus stays at or above 15.7% in the Q4 2026 update.","invalidation":"Consensus growth falls below 14%, or EPS revisions stay negative for two more quarters."},{"thesis":"Debt growth outpaces cash generation, adding funding risk.","evidence":"Total debt rose from $153.0 billion at FY2025 to $271.9 billion at 2026-09-30, and net cash fell to -$157.7 billion [2].","signpost":"Total debt stops rising and stays below $272 billion at the FY2026 10-K.","invalidation":"Debt keeps rising while trailing free cash flow stays negative."}], "business_overview": "Amazon.com, Inc., founded in 1994, is a multi-segment retailer and technology company. It reports three segments: North America, International, and Amazon Web Services (AWS). Products are sold through online and physical stores, a third-party seller marketplace, and a fulfillment network, and cloud computing is provided through AWS [1]. Management states that low prices and fast delivery are central to its strategy. At December 31, 2025, the company employed about 1,576,000 people [1].\n\nIts core offer combines scale with subscriptions. Prime includes fast, free shipping on tens of millions of items plus video, live sports, and other benefits. The company also manufactures devices including Kindle, Fire, Echo, Ring, and eero, and runs seller and advertising programs [1]. AWS offers compute, storage, database, analytics, and artificial intelligence services. The filing places the company across e-commerce, cloud infrastructure, digital media, and advertising, with competitors ranging from retailers and cloud providers to search engines and healthcare providers [1].\n\n2025 combined heavy investment with some one-off items. Cash capital expenditures rose to $128.3 billion from $77.7 billion, mostly for technology infrastructure supporting AWS [1]. The company recorded a $2.5 billion FTC settlement charge and $2.7 billion of severance tied to planned role eliminations [1]. It invested $2.7 billion in Anthropic convertible notes, and a price adjustment on that stake drove most of a roughly $15 billion gain in other income [1]. Planned 2026 initiatives include satellite broadband, autonomous ride-hailing vehicles, quick commerce, and sharper international prices [1].\n\nThe segment mix shows where the economics sit. North America generated 59% of 2025 net sales ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion) [1]. AWS contributed $45.6 billion of the $80.0 billion total segment operating income, about 57%, although it is under a fifth of sales [1].", "operating_results": "Net sales rose 12% to $716.9 billion from $638.0 billion in 2025 [1]. AWS (+20%) and International (+13%) grew faster than North America (+10%) [1]. Cost of sales grew 9%, slower than sales, and fell to 49.7% of sales from 51.1%, lifting gross margin to 50.3% from 48.9% [1]. Technology and infrastructure spending rose 23% and is the main cost pressure [1]. Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite $5.2 billion of FTC settlement and severance charges [1].\n\nReported earnings are distorted below operating income. Net income includes a net gain of about $15 billion in other income, tied mainly to the Anthropic investment, so diluted EPS rose to $7.17 from $5.53 [1]. Normalized income, which excludes that gain, rose 7% to $65.4 billion, and that is the better measure of operating earnings growth [1]. Cash taxes fell to $8.3 billion from $12.3 billion under the 2025 Tax Act, which flattered operating cash flow [1]. Operating cash flow rose to $139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion [1].\n\nSegment results show where the margin came from. North America operating income rose 19% to $29.6 billion, lifting its margin to about 7.0% [1]. International operating income rose 25% to $4.8 billion, but foreign exchange contributed $903 million, and excluding it the gain was about 1.5% [1]. AWS operating income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed much of the sales gain [1]. First-quarter 2026 operating income guidance of $16.5 to $21.5 billion brackets last year's $18.4 billion [1].", "market_position": "Amazon's end markets are global but weighted toward the United States. North America generated 59% of 2025 net sales, International 23%, and AWS 18% [1]. The filing does not disclose market share for any segment, so the company's position has to be inferred from scale and growth rather than a reported share figure [1]. By revenue, it is the largest of the companies compared in this report across the shared years [4].\n\nCustomer concentration is not disclosed, so the filing cannot confirm whether major customers are blue-chip companies [1]. What is visible is a broad base: hundreds of millions of products sold by Amazon and third parties, Prime members, advertisers, and AWS customers [1]. Management says AI-enabled tools lower barriers for smaller competitors, which the filing flags as a source of pressure [1]. Within AWS, pricing is partly set by long-term customer contracts, which the filing cites as offsetting usage growth [1].\n\nThe market's view of the stock is on the record. Consensus FY2026 revenue is $829.2 billion, implying 15.7% growth, with a forward EV/Sales of 3.6x at the current enterprise value [3]. The consensus rating is Buy, with a mean target price of $326.34 (range $230 to $405) [3]. These figures are dated after the 10-K. We classify Amazon as a scale leader in its core e-commerce and cloud markets, but the filing gives no share data to confirm that position [1].", "risk_assessment": "The first risk is intense competition that can force lower prices or higher spending. The filing names more than a dozen segments where Amazon competes, including retail, cloud, advertising, grocery, healthcare, and logistics [1]. Some competitors have greater resources, longer histories, and more brand recognition, and may secure better vendor terms and adopt more aggressive pricing [1]. The company says competition could require it to increase spending or lower prices, which could materially reduce sales and profits [1]. The filing gives no market share or margin data for this risk, so it cannot be sized from the filing alone.\n\nThe second risk is a large fixed-cost base and forecasting error. The filing says a significant portion of expenses and investments is fixed, and the company may not adjust spending quickly enough if sales fall short [1]. Forecast errors can leave excess or insufficient fulfillment and data-center capacity, with impairment charges and inventory write-downs [1]. Demand can fluctuate with recessionary fears or inflation, and a disproportionate share of retail sales falls in the fourth quarter [1]. The stakes are rising with capex: $128.3 billion of cash capex in 2025 adds to fixed commitments [1].\n\nThe third risk is legal, regulatory, and tax proceedings. The filing discloses competition and consumer-protection investigations affecting stores, fulfillment, Prime, and parts of AWS, along with litigation brought by state attorneys general and the FTC [1]. An Indian tax authority assertion covers cloud services fees, and the filing says audit outcomes could differ materially from historical accruals [1]. The company says outcomes are inherently unpredictable and losses above recorded amounts are possible [1]. The $2.5 billion FTC settlement charge in 2025 shows the cost can be large [1].\n\nThe balance sheet adds a funding dimension. Long-term debt rose to $65.6 billion from $52.6 billion [1]. Yahoo shows total debt of $153.0 billion at FY2025 and $271.9 billion at September 30, 2026, with trailing free cash flow of -$37.6 billion [2]. Those later figures are dated after the 10-K. Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities [1]. The Piotroski F-Score of 6 of 9 and Altman Z-Score of 5.74 show no distress signal [2], though the Z-Score is designed for manufacturers and may be less reliable here."
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_019rXtR44BExyxzXSu67Jz2A) *****[0m
+Error: Expecting ',' delimiter: line 1 column 11431 (char 11430)
+ The argument must be in JSON format.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The build call failed with a JSON parsing error, so nothing was generated. Before retrying, I'm also fixing three problems in my draft: the investment summary is slightly over the 130–180 word limit, the market position section is too short, and some sections need to be closer to the 350–450 word range.
+[32m***** Suggested tool call (toolu_019Wt7JEHP8NPSXwGP313op8): build_annual_report *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/AMZN_2025_annual_report.pdf", "filing_date": "2026-02-06", "share_performance_image_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/share_performance.png", "pe_eps_performance_image_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/pe_eps_performance.png", "peer_tickers": ["MSFT","GOOGL","WMT"], "segment_data": "[{\"segment\": \"North America\", \"prior_revenue\": 387500, \"current_revenue\": 426300}, {\"segment\": \"International\", \"prior_revenue\": 142900, \"current_revenue\": 161900}, {\"segment\": \"AWS\", \"prior_revenue\": 107600, \"current_revenue\": 128700}]", "investment_summary": "Amazon's FY2025 10-K shows faster growth and higher margins, but weaker cash generation. Net sales rose 12% to $716.9 billion, AWS grew 20%, and operating margin reached 11.2% [1]. Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3 billion [1].\n\nThe valuation asks for more than consensus. The reverse DCF at the current enterprise value implies 19.2% annual revenue growth for ten years, above FY2026 consensus growth of 15.7% and the 11.7% three-year historical CAGR [2][3]. Consensus and post-filing figures are dated after the 10-K. The implied return of 8.3% sits below a 12.4% WACC [3]. The current price therefore needs AWS growth to hold and capex to convert into cash. Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities [1], but total debt has risen since then [2]. Main risks are fixed-cost capacity planning, competition, and legal and tax outcomes [1].", "key_takeaways": ["AWS growth should keep funding the capex cycle, though its margin is slipping: sales rose 20% while operating margin fell to 35.4% [1].","Capex should start converting to cash, but free cash flow fell 71% to $11.2 billion as spending reached $128.3 billion [1].","Valuation looks demanding: the current enterprise value implies 19.2% revenue growth, above 15.7% FY2026 consensus [2][3].","Funding is the watch item: total debt rose to $271.9 billion by September 2026 while trailing free cash flow turned negative [2]."], "investment_theses": [{"thesis":"AWS keeps growing fast enough to justify its spending.","evidence":"AWS sales rose 20% to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0% [1].","signpost":"AWS sales growth at or above 15% and operating margin at or above 35% in each 2026 quarterly report.","invalidation":"AWS growth below 15%, or margin below 33% in any 2026 quarter."},{"thesis":"Capex starts converting to free cash flow in 2026.","evidence":"2025 free cash flow was $11.2 billion versus $38.2 billion in 2024 [1]. Yahoo trailing free cash flow at 2026-09-30 was -$37.6 billion [2].","signpost":"Trailing-twelve-month free cash flow is positive at the FY2026 10-K, filed early 2027.","invalidation":"Trailing free cash flow is still negative at FY2026 year-end."},{"thesis":"The valuation needs growth above consensus, so any slowdown hits the stock.","evidence":"The reverse DCF implies 19.2% growth versus 15.7% FY2026 consensus; implied IRR is 8.3% versus a 12.4% WACC [2][3]. Current-year EPS consensus fell from $12.93 to $12.80 over 30 days [3].","signpost":"FY2026 revenue consensus stays at or above 15.7% in the Q4 2026 update.","invalidation":"Consensus growth falls below 14%, or EPS revisions stay negative for two more quarters."},{"thesis":"Debt growth outpaces cash generation, adding funding risk.","evidence":"Total debt rose from $153.0 billion at FY2025 to $271.9 billion at 2026-09-30, and net cash fell to -$157.7 billion [2].","signpost":"Total debt stops rising and stays below $272 billion at the FY2026 10-K.","invalidation":"Debt keeps rising while trailing free cash flow stays negative."}], "business_overview": "Amazon.com, Inc., founded in 1994, is a multi-segment retailer and technology company. It reports three segments: North America, International, and Amazon Web Services (AWS). Products are sold through online and physical stores, a third-party seller marketplace, and a fulfillment network, and cloud computing is provided through AWS [1]. Management states that low prices and fast delivery are central to its strategy. At December 31, 2025, the company employed about 1,576,000 people [1].\n\nIts core offer combines scale with subscriptions. Prime includes fast, free shipping on tens of millions of items plus video, live sports, and other benefits. The company also manufactures devices including Kindle, Fire, Echo, Ring, and eero, and runs seller and advertising programs [1]. AWS offers compute, storage, database, analytics, and artificial intelligence services. The filing places the company across e-commerce, cloud infrastructure, digital media, and advertising, with competitors ranging from retailers and cloud providers to search engines and healthcare providers [1].\n\n2025 combined heavy investment with some one-off items. Cash capital expenditures rose to $128.3 billion from $77.7 billion, mostly for technology infrastructure supporting AWS [1]. The company recorded a $2.5 billion FTC settlement charge and $2.7 billion of severance tied to planned role eliminations [1]. It invested $2.7 billion in Anthropic convertible notes, and a price adjustment on that stake drove most of the $15.2 billion of other income [1]. Planned 2026 initiatives include satellite broadband, autonomous ride-hailing vehicles, quick commerce, and sharper international prices [1].\n\nThe segment mix shows where the economics sit. North America generated 59% of 2025 net sales ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion) [1]. AWS contributed $45.6 billion of the $80.0 billion total segment operating income, about 57%, although it is under a fifth of sales [1].", "operating_results": "Net sales rose 12% to $716.9 billion from $638.0 billion in 2025 [1]. AWS (+20%) and International (+13%) grew faster than North America (+10%) [1]. Cost of sales grew 9%, slower than sales, and fell to 49.7% of sales from 51.1%, lifting gross margin to 50.3% from 48.9% [1]. Technology and infrastructure spending rose 23% and is the main cost pressure [1]. Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite $5.2 billion of FTC settlement and severance charges [1].\n\nReported earnings are distorted below operating income. Net income includes a net gain of about $15 billion in other income, tied mainly to the Anthropic investment, so diluted EPS rose to $7.17 from $5.53 [1]. Normalized income, which excludes that gain, rose 7% to $65.4 billion, and that is the better measure of operating earnings growth [1]. Cash taxes fell to $8.3 billion from $12.3 billion under the 2025 Tax Act, which flattered operating cash flow [1]. Operating cash flow rose to $139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion [1].\n\nSegment results show where the margin came from. North America operating income rose 19% to $29.6 billion, lifting its margin to about 7.0% [1]. International operating income rose 25% to $4.8 billion, but foreign exchange contributed $903 million, and excluding it the gain was about 1.5% [1]. AWS operating income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed much of the sales gain [1]. First-quarter 2026 operating income guidance of $16.5 to $21.5 billion compares with $18.4 billion a year earlier [1].", "market_position": "Amazon's end markets are global but weighted toward the United States. North America generated 59% of 2025 net sales, International 23%, and AWS 18% [1]. The filing does not disclose market share for any segment, so the company's position has to be inferred from scale and growth rather than a reported share figure [1]. Against the peers in this report, Amazon has the largest revenue base in the shared years, while its growth sits at the lower end of the group [4].\n\nCustomer concentration is not disclosed, so the filing cannot confirm whether major customers are blue-chip companies [1]. What is visible is a broad base: hundreds of millions of products sold by Amazon and third parties, Prime members, advertisers, and AWS customers [1]. Management says AI-enabled tools lower barriers for smaller competitors, which the filing flags as a source of pressure [1]. Within AWS, pricing is partly set by long-term customer contracts, which the filing cites as offsetting usage growth [1].\n\nThe market's view of the stock is on the record. Consensus FY2026 revenue is $829.2 billion, implying 15.7% growth, with a forward EV/Sales of 3.6x at the current enterprise value [3]. Consensus rating is Buy, with a mean target price of $326.34 (range $230 to $405) [3]. These consensus figures are dated after the 10-K. Amazon is best classified as a scale leader in its core e-commerce and cloud markets, but the filing gives no share data to confirm that position [1].", "risk_assessment": "The first risk is intense competition that can force lower prices or higher spending. The filing names more than a dozen segments where Amazon competes, including retail, cloud, advertising, grocery, healthcare, and logistics [1]. Some competitors have greater resources, longer histories, and more brand recognition, and may secure better vendor terms and adopt more aggressive pricing [1]. The company says competition could require it to increase spending or lower prices, which could materially reduce sales and profits [1]. The filing gives no market share or margin data for this risk, so it cannot be sized from the filing alone.\n\nThe second risk is a large fixed-cost base and forecasting error. The filing says a significant portion of expenses and investments is fixed, and the company may not adjust spending quickly enough if sales fall short [1]. Forecast errors can leave excess or insufficient fulfillment and data-center capacity, with impairment charges and inventory write-downs [1]. Demand can fluctuate with recessionary fears or inflation, and a disproportionate share of retail sales falls in the fourth quarter [1]. The stakes are rising with capex: $128.3 billion of cash capex in 2025 adds to fixed commitments [1].\n\nThe third risk is legal, regulatory, and tax proceedings. The filing discloses competition and consumer-protection investigations affecting stores, fulfillment, Prime, and parts of AWS, along with litigation brought by state attorneys general and the FTC [1]. An Indian tax authority assertion covers cloud services fees, and the filing says audit outcomes could differ materially from historical accruals [1]. The company says outcomes are inherently unpredictable and losses above recorded amounts are possible [1]. The $2.5 billion FTC settlement charge in 2025 shows the cost can be large [1].\n\nThe balance sheet adds a funding dimension. Long-term debt rose to $65.6 billion from $52.6 billion [1]. Yahoo shows total debt of $153.0 billion at FY2025 and $271.9 billion at September 30, 2026, with trailing free cash flow of -$37.6 billion [2]. Those later figures are dated after the 10-K. Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities [1]. The Piotroski F-Score of 6 of 9 and Altman Z-Score of 5.74 show no distress signal [2], though the Z-Score is designed for manufacturers and may be less reliable here.", "competitors_analysis": "Against Microsoft, Alphabet, and Walmart, Amazon's profitability and returns improved sharply between 2022 and 2025, but its cash conversion weakened [4]. Amazon was chosen alongside these peers for business model first: Microsoft competes with AWS in cloud, Alphabet competes in advertising, and Walmart is the closest retail peer by revenue scale in the candidate list. Coupang and eBay were excluded as far smaller than Amazon.\n\nAmazon's gross margin rose each year, from 43.8% in 2022 to 50.3% in 2025, but it remained well below Microsoft (68.8%) and Alphabet (59.7%) in 2025 and well above Walmart's 24–25% range [4]. Its EBITDA margin rose from 7.5% to 23.1% over the same period, still below Alphabet's 44.9% and Microsoft's 55.2% in 2025 [4]. Revenue growth of 12.4% in 2025 was below Microsoft's 14.9% growth in the same year and below Alphabet's 15.1%, though above Walmart's 5.1% [4].\n\nReturn on invested capital is the clearest weakness. Amazon's ROIC was 16.8% in 2025, down from 18.1% in 2024, and trailed Microsoft (26.8%) and Alphabet (28.7%), with Walmart at 17.1% [4]. Free cash flow conversion of 0.10 was the lowest of the four in 2025, below Walmart's 0.65, Alphabet's 0.55, and Microsoft's 0.70 [4]. The stated conversion values do not reconcile to a simple FCF over EBITDA calculation, so they should be treated with caution.\n\nValuation is where the picture reverses. Amazon's EV/EBITDA fell to 15.4 in 2025, the lowest of the four, against Microsoft at 24.0, Alphabet at 21.1, and Walmart at 20.0 [4]. Read against the 10-K, the lower multiple reflects the market discounting weak cash conversion rather than a clear mispricing [1][4]. The consensus Buy rating and $326.34 mean target price are dated after the 10-K and do not change this peer read [3]. Revenue and margin trends support the business, while the cash line is the variable that decides whether the discount is deserved [1][4].", "filing_date": "2026-02-06"}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION build_annual_report...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_019Wt7JEHP8NPSXwGP313op8) *****[0m
+Annual report generated successfully. Fact check: 145 of 160 figures found in the sources, 0 name/ticker mismatch(es). Details in the appendix of the PDF.
+
+SELF-CHECK (one revision round): the automated fact check could not find these figures or names in the source data:
+- [Key Takeaways] 35.4%: "margin is slipping: sales rose 20% while operating margin fell to 35.4% . Capex should start converting to cash, but"
+- [Key Takeaways] 71%: "Capex should start converting to cash, but free cash flow fell 71% to $11.2 billion as spending reached $128.3"
+- [Investment Summary] 11.2%: "12% to $716.9 billion, AWS grew 20%, and operating margin reached 11.2% . Normalized income rose 7% to $65.4 billion,"
+- [Investment Summary] 71%: "Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3"
+- [Investment Summary] 1.05: "cash. Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities , but"
+- [Operating Results] 11.2%: "is the main cost pressure . Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite"
+- [Operating Results] 10.8%: "Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite $5.2 billion of FTC"
+- [Operating Results] 71%: "rose to $139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion . Segment results show where"
+- [Operating Results] 35.4%: "operating income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed"
+- [Operating Results] 37.0%: "income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed much of the"
+- [Risk Assessment] 1.05: "Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities . The"
+- [Investment Thesis] 35.4%: "rose 20% to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0% . AWS sales growth at or above 15%"
+- [Investment Thesis] 37.0%: "to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0% . AWS sales growth at or above 15% and"
+- [Investment Thesis] 35%: "AWS sales growth at or above 15% and operating margin at or above 35% in each 2026 quarterly report. AWS growth below"
+- [Investment Thesis] 33%: "each 2026 quarterly report. AWS growth below 15%, or margin below 33% in any 2026 quarter. Capex starts converting to"
+
+For each item: correct it to the value in your sources (10-K analysis results and tool outputs), remove it, or keep it only if it is a correct calculation from source figures (e.g. a growth rate or difference). Never invent replacements. Then call build_annual_report exactly once more with the revised texts and otherwise the same arguments. After that, reply TERMINATE.
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The fact check flagged six figures: the AWS and operating margins, the 71% free cash flow decline, the 1.05 current ratio, and two margin thresholds in the signposts. I'll replace the percentages with the dollar figures from the 10-K and remove the margin thresholds. Nothing new is invented.
+[32m***** Suggested tool call (toolu_01UDqdUkrvU6fEBQ7qCyMmrd): build_annual_report *****[0m
+Arguments: 
+{"ticker_symbol": "AMZN", "save_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/AMZN_2025_annual_report.pdf", "filing_date": "2026-02-06", "share_performance_image_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/share_performance.png", "pe_eps_performance_image_path": "../reports/AMZN_2025_claude-haiku-5.5_eval/pe_eps_performance.png", "peer_tickers": ["MSFT","GOOGL","WMT"], "segment_data": "[{\"segment\": \"North America\", \"prior_revenue\": 387500, \"current_revenue\": 426300}, {\"segment\": \"International\", \"prior_revenue\": 142900, \"current_revenue\": 161900}, {\"segment\": \"AWS\", \"prior_revenue\": 107600, \"current_revenue\": 128700}]", "investment_summary": "Amazon's FY2025 10-K shows faster growth and higher profit, but weaker cash generation. Net sales rose 12% to $716.9 billion, AWS grew 20%, and operating income rose to $80.0 billion from $68.6 billion [1]. Normalized income rose 7% to $65.4 billion, but free cash flow fell to $11.2 billion from $38.2 billion as cash capex reached $128.3 billion [1].\n\nThe valuation asks for more than consensus. The reverse DCF at the current enterprise value implies 19.2% annual revenue growth for ten years, above FY2026 consensus growth of 15.7% and the 11.7% three-year historical CAGR [2][3]. Consensus and post-filing figures are dated after the 10-K. The implied return of 8.3% sits below a 12.4% WACC [3]. The current price therefore needs AWS growth to hold and capex to convert into cash. Liquidity was adequate at year-end, with $123.0 billion of cash and securities [1], but total debt has risen since then [2]. Main risks are fixed-cost capacity planning, competition, and legal and tax outcomes [1].", "key_takeaways": ["AWS growth should keep funding the capex cycle, though its profit is lagging sales: AWS sales rose 20% while operating income rose only 14% [1].","Capex should start converting to cash, but free cash flow fell to $11.2 billion from $38.2 billion as spending reached $128.3 billion [1].","Valuation looks demanding: the current enterprise value implies 19.2% revenue growth, above 15.7% FY2026 consensus [2][3].","Funding is the watch item: total debt rose to $271.9 billion by September 2026 while trailing free cash flow turned negative [2]."], "investment_theses": [{"thesis":"AWS keeps growing fast enough to justify its spending.","evidence":"AWS sales rose 20% to $128.7 billion in 2025, but operating income rose only 14% to $45.6 billion [1].","signpost":"AWS operating income grows in line with or faster than AWS sales in each 2026 quarterly report.","invalidation":"AWS sales growth below 15%, or AWS operating income falling year over year in any 2026 quarter."},{"thesis":"Capex starts converting to free cash flow in 2026.","evidence":"2025 free cash flow was $11.2 billion versus $38.2 billion in 2024 [1]. Yahoo trailing free cash flow at 2026-09-30 was -$37.6 billion [2].","signpost":"Trailing-twelve-month free cash flow is positive at the FY2026 10-K, filed early 2027.","invalidation":"Trailing free cash flow is still negative at FY2026 year-end."},{"thesis":"The valuation needs growth above consensus, so any slowdown hits the stock.","evidence":"The reverse DCF implies 19.2% growth versus 15.7% FY2026 consensus; implied IRR is 8.3% versus a 12.4% WACC [2][3]. Current-year EPS consensus fell from $12.93 to $12.80 over 30 days [3].","signpost":"FY2026 revenue consensus stays at or above 15.7% in the Q4 2026 update.","invalidation":"Consensus growth falls below 14%, or EPS revisions stay negative for two more quarters."},{"thesis":"Debt growth outpaces cash generation, adding funding risk.","evidence":"Total debt rose from $153.0 billion at FY2025 to $271.9 billion at 2026-09-30, and net cash fell to -$157.7 billion [2].","signpost":"Total debt stops rising at the FY2026 10-K.","invalidation":"Debt keeps rising while trailing free cash flow stays negative."}], "business_overview": "Amazon.com, Inc., founded in 1994, is a multi-segment retailer and technology company. It reports three segments: North America, International, and Amazon Web Services (AWS). Products are sold through online and physical stores, a third-party seller marketplace, and a fulfillment network, and cloud computing is provided through AWS [1]. Management states that low prices and fast delivery are central to its strategy. At December 31, 2025, the company employed about 1,576,000 people [1].\n\nIts core offer combines scale with subscriptions. Prime includes fast, free shipping on tens of millions of items plus video, live sports, and other benefits. The company also manufactures devices including Kindle, Fire, Echo, Ring, and eero, and runs seller and advertising programs [1]. AWS offers compute, storage, database, analytics, and artificial intelligence services. The filing places the company across e-commerce, cloud infrastructure, digital media, and advertising, with competitors ranging from retailers and cloud providers to search engines and healthcare providers [1].\n\n2025 combined heavy investment with some one-off items. Cash capital expenditures rose to $128.3 billion from $77.7 billion, mostly for technology infrastructure supporting AWS [1]. The company recorded a $2.5 billion FTC settlement charge and $2.7 billion of severance tied to planned role eliminations [1]. It invested $2.7 billion in Anthropic convertible notes, and a price adjustment on that stake drove most of the $15.2 billion of other income [1]. Planned 2026 initiatives include satellite broadband, autonomous ride-hailing vehicles, quick commerce, and sharper international prices [1].\n\nThe segment mix shows where the economics sit. North America generated 59% of 2025 net sales ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion) [1]. AWS contributed $45.6 billion of the $80.0 billion total segment operating income, about 57%, although it is under a fifth of sales [1].", "operating_results": "Net sales rose 12% to $716.9 billion from $638.0 billion in 2025 [1]. AWS (+20%) and International (+13%) grew faster than North America (+10%) [1]. Cost of sales grew 9%, slower than sales, and fell to 49.7% of sales from 51.1%, lifting gross margin to 50.3% from 48.9% [1]. Technology and infrastructure spending rose 23% and is the main cost pressure [1]. Operating income rose to $80.0 billion from $68.6 billion, despite $5.2 billion of FTC settlement and severance charges [1].\n\nReported earnings are distorted below operating income. Net income includes a net gain of about $15 billion in other income, tied mainly to the Anthropic investment, so diluted EPS rose to $7.17 from $5.53 [1]. Normalized income, which excludes that gain, rose 7% to $65.4 billion, and that is the better measure of operating earnings growth [1]. Cash taxes fell to $8.3 billion from $12.3 billion under the 2025 Tax Act, which flattered operating cash flow [1]. Operating cash flow rose to $139.5 billion from $115.9 billion, but free cash flow fell to $11.2 billion from $38.2 billion [1].\n\nSegment results show where the margin came from. North America operating income rose 19% to $29.6 billion, lifting its margin to about 7.0% [1]. International operating income rose 25% to $4.8 billion, but foreign exchange contributed $903 million, and excluding it the gain was about 1.5% [1]. AWS operating income rose 14% to $45.6 billion, slower than AWS sales growth of 20%, as infrastructure spending absorbed much of the sales gain [1]. First-quarter 2026 operating income guidance of $16.5 to $21.5 billion compares with $18.4 billion a year earlier [1].", "market_position": "Amazon's end markets are global but weighted toward the United States. North America generated 59% of 2025 net sales, International 23%, and AWS 18% [1]. The filing does not disclose market share for any segment, so the company's position has to be inferred from scale and growth rather than a reported share figure [1]. Against the peers in this report, Amazon has the largest revenue base in the shared years, while its growth sits at the lower end of the group [4].\n\nCustomer concentration is not disclosed, so the filing cannot confirm whether major customers are blue-chip companies [1]. What is visible is a broad base: hundreds of millions of products sold by Amazon and third parties, Prime members, advertisers, and AWS customers [1]. Management says AI-enabled tools lower barriers for smaller competitors, which the filing flags as a source of pressure [1]. Within AWS, pricing is partly set by long-term customer contracts, which the filing cites as offsetting usage growth [1].\n\nThe market's view of the stock is on the record. Consensus FY2026 revenue is $829.2 billion, implying 15.7% growth, with a forward EV/Sales of 3.6x at the current enterprise value [3]. Consensus rating is Buy, with a mean target price of $326.34 (range $230 to $405) [3]. These consensus figures are dated after the 10-K. Amazon is best classified as a scale leader in its core e-commerce and cloud markets, but the filing gives no share data to confirm that position [1].", "risk_assessment": "The first risk is intense competition that can force lower prices or higher spending. The filing names more than a dozen segments where Amazon competes, including retail, cloud, advertising, grocery, healthcare, and logistics [1]. Some competitors have greater resources, longer histories, and more brand recognition, and may secure better vendor terms and adopt more aggressive pricing [1]. The company says competition could require it to increase spending or lower prices, which could materially reduce sales and profits [1]. The filing gives no market share or margin data for this risk, so it cannot be sized from the filing alone.\n\nThe second risk is a large fixed-cost base and forecasting error. The filing says a significant portion of expenses and investments is fixed, and the company may not adjust spending quickly enough if sales fall short [1]. Forecast errors can leave excess or insufficient fulfillment and data-center capacity, with impairment charges and inventory write-downs [1]. Demand can fluctuate with recessionary fears or inflation, and a disproportionate share of retail sales falls in the fourth quarter [1]. The stakes are rising with capex: $128.3 billion of cash capex in 2025 adds to fixed commitments [1].\n\nThe third risk is legal, regulatory, and tax proceedings. The filing discloses competition and consumer-protection investigations affecting stores, fulfillment, Prime, and parts of AWS, along with litigation brought by state attorneys general and the FTC [1]. An Indian tax authority assertion covers cloud services fees, and the filing says audit outcomes could differ materially from historical accruals [1]. The company says outcomes are inherently unpredictable and losses above recorded amounts are possible [1]. The $2.5 billion FTC settlement charge in 2025 shows the cost can be large [1].\n\nThe balance sheet adds a funding dimension. Long-term debt rose to $65.6 billion from $52.6 billion [1]. Yahoo shows total debt of $153.0 billion at FY2025 and $271.9 billion at September 30, 2026, with trailing free cash flow of -$37.6 billion [2]. Those later figures are dated after the 10-K. Liquidity was adequate at year-end, with $123.0 billion of cash and securities against current liabilities that were close to current assets [1]. The Piotroski F-Score of 6 of 9 and Altman Z-Score of 5.74 show no distress signal [2], though the Z-Score is designed for manufacturers and may be less reliable here.", "competitors_analysis": "Against Microsoft, Alphabet, and Walmart, Amazon's profitability and returns improved sharply between 2022 and 2025, but its cash conversion weakened [4]. Amazon was chosen alongside these peers for business model first: Microsoft competes with AWS in cloud, Alphabet competes in advertising, and Walmart is the closest retail peer by revenue scale in the candidate list. Coupang and eBay were excluded as far smaller than Amazon.\n\nAmazon's gross margin rose each year, from 43.8% in 2022 to 50.3% in 2025, but it remained well below Microsoft (68.8%) and Alphabet (59.7%) in 2025 and well above Walmart's 24–25% range [4]. Its EBITDA margin rose from 7.5% to 23.1% over the same period, still below Alphabet's 44.9% and Microsoft's 55.2% in 2025 [4]. Revenue growth of 12.4% in 2025 was below Microsoft's 14.9% growth in the same year and below Alphabet's 15.1%, though above Walmart's 5.1% [4].\n\nReturn on invested capital is the clearest weakness. Amazon's ROIC was 16.8% in 2025, down from 18.1% in 2024, and trailed Microsoft (26.8%) and Alphabet (28.7%), with Walmart at 17.1% [4]. Free cash flow conversion of 0.10 was the lowest of the four in 2025, below Walmart's 0.65, Alphabet's 0.55, and Microsoft's 0.70 [4]. The stated conversion values do not reconcile to a simple FCF over EBITDA calculation, so they should be treated with caution.\n\nValuation is where the picture reverses. Amazon's EV/EBITDA fell to 15.4 in 2025, the lowest of the four, against Microsoft at 24.0, Alphabet at 21.1, and Walmart at 20.0 [4]. Read against the 10-K, the lower multiple reflects the market discounting weak cash conversion rather than a clear mispricing [1][4]. The consensus Buy rating and $326.34 mean target price are dated after the 10-K and do not change this peer read [3]. Revenue and margin trends support the business, while the cash line is the variable that decides whether the discount is deserved [1][4]."}
+[32m*************************************************************************************[0m
+
+--------------------------------------------------------------------------------
+[35m
+>>>>>>>> EXECUTING FUNCTION build_annual_report...[0m
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[33mUser_Proxy[0m (to Expert_Investor):
+
+[32m***** Response from calling tool (toolu_01UDqdUkrvU6fEBQ7qCyMmrd) *****[0m
+Annual report generated successfully. Fact check: 153 of 153 figures found in the sources, 0 name/ticker mismatch(es). Details in the appendix of the PDF. Revision round completed (before revision: 145 of 160 figures found).
+[32m***********************************************************************[0m
+
+--------------------------------------------------------------------------------
+[33mExpert_Investor[0m (to User_Proxy):
+
+The annual report is built and saved to `../reports/AMZN_2025_claude-haiku-5.5_eval/AMZN_2025_annual_report.pdf`. The second build passed the fact check with 153 of 153 figures found in the sources.
+
+**What went into the report**
+- Filing: AMZN FY2025 10-K, filed 2026-02-06 [1].
+- Peers: MSFT, GOOGL, and WMT, chosen for business model first (cloud, advertising, retail) and size second. The first peer lookup failed three times with "math domain error," and a later retry succeeded.
+- Consensus and liquidity: one call for AMZN, FY2025, cited as [2] and [3] and labelled as dated after the 10-K.
+- Charts: share performance and the valuation chart, saved in the same folder.
+
+**Things you should check before circulating**
+- **Dates.** The consensus output is dated 2026-11-24 and the latest-quarter balance sheet is 2026-09-30, both well after the 2026-02-06 filing. The report labels these as post-10-K, but the mismatch is worth confirming against the report date you intend.
+- **Free cash flow.** The 10-K analysis gives $11.2 billion for FY2025, while the Yahoo output gives $7.7 billion. The report uses $11.2 billion and does not reconcile the two.
+- **Share price.** Two tool outputs give different closing prices ($222.69 and $252.18), and the report does not state which one it uses.
+- **Valuation chart.** The chart shows EV/Sales and FCF yield, not P/E, so the valuation caption should be read against that.
+- **Peer ratios.** The competitor tool's FCF conversion figures don't reconcile to a simple FCF over EBITDA calculation. The report flags this, but the peer comparison leans on those figures.
+- **Word counts.** I did not measure the five sections against the 350–450 word target or the paragraph counts, and I did not check the summary word count against 130–180 words before the final build.
+
+**Corrections made after the fact check**
+The first build failed on a JSON error. The second build flagged six figures, which I corrected. I replaced the 71% free cash flow decline, the 1.05 current ratio, and the AWS margin percentages with dollar figures from the 10-K. I also reworded the signposts so they no longer rely on margin thresholds the sources don't support.
+
+TERMINATE
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,150 @@
+{
+  "ticker_symbol": "AMZN",
+  "fyear": "2025",
+  "save_dir": "../reports/AMZN_earnings_multi_claude-haiku-5.5",
+  "headline": "AWS growth accelerated to 39% in Q3 FY2026, but trailing free cash flow turned to a $42.4bn outflow as AI capex rose.",
+  "summary": "Through Q3 FY2026 (ended September 30, 2026), operating income was $23.9bn, $27.5bn and $28.1bn in Q1, Q2 and Q3, against $18.4bn, $19.2bn and $17.4bn a year earlier [1]. AWS sales grew 28%, 37% and 39%, and AWS operating income rose to $14.2bn, $16.6bn and $17.8bn [1]. Reported net income is not a clean guide: Anthropic-related gains were $16.8bn pre-tax in Q1, and Q2 included $53.4bn of non-operating other income, mainly from Anthropic [1]. Cash flow weakened. Trailing free cash flow moved from a $1.2bn inflow at Q1 to a $42.4bn outflow at Q3, as cash capex reached $75.9bn in Q3 against $34.2bn a year earlier [1][2]. Total debt was $271.9bn at September 30, against $153.0bn at year-end, and net cash was -$157.7bn [2][3]. AWS compounding (T1) strengthened and the valuation exposure (T3) is intact. The free-cash-flow recovery (T2) is weakened. Legal costs (T4) show no new reserves in the filings reviewed [2][4]. Consensus FY2026 EPS is $12.80, a 19.9x forward P/E [3].",
+  "results_commentary": "Q1 FY2026 net sales rose 17% to $181.5bn (15% excluding FX), and operating income rose to $23.9bn from $18.4bn [1]. AWS drove the quarter: sales rose 28% to $37.6bn and operating income rose to $14.2bn from $11.5bn [1]. Net income of $30.3bn ($2.78 per diluted share) included $16.8bn of pre-tax Anthropic gains, so the EPS beat against a $1.65 estimate reflects investment marks rather than operations [1][3]. Q2 FY2026 net sales rose 20% to $200.6bn, and operating income rose to $27.5bn from $19.2bn [1]. AWS sales grew 37% to $42.2bn, the fastest growth in 18 quarters, and AWS operating income rose to $16.6bn from $10.2bn [1]. Part of the Q2 retail growth reflects Prime Day moving into June for most large countries [1]. Q2 EPS of $5.75 included $53.4bn of non-operating income, mainly from Anthropic [1][3]. Cash flow began to deteriorate: Q2 cash capex was $53.1bn against $31.4bn a year earlier [2].\n\nQ3 FY2026 is where profit and cash flow diverged. Net sales rose 12% to $201.9bn, and management said the Prime Day shift cut about 400 basis points from Q3 growth, so the underlying rate was nearer 16% (illustrative) [1]. North America slowed to 6% and International to 5%, or 8% excluding FX [1]. Operating income still rose to $28.1bn from $17.4bn, and the 13.9% operating margin was described as Amazon's highest ever [1]. AWS sales grew 39% to $46.0bn, and AWS operating income rose to $17.8bn from $11.4bn [1]. Diluted EPS fell to $1.89 from $1.95, because the year-ago quarter included $9.5bn of Anthropic gains; EPS missed the $1.96 estimate by 3.5% [1][3]. Operating profit grew while reported EPS fell, so the reported earnings line depends on the timing of investment marks.\n\nCash flow is the weakest line. Trailing free cash flow fell from a $1.2bn inflow at Q1 to a $7.6bn outflow at Q2 and a $42.4bn outflow at Q3, driven by $94.8bn more net property and equipment purchases than a year earlier [1]. Nine-month cash capex was $172.2bn against $89.9bn [2]. Management expects cash capex to \"meaningfully increase in 2027\" [2]. Operating cash flow was positive at $113.8bn for nine months, but financing inflows of $111.8bn covered the gap, and total debt rose to $271.9bn [2][3]. Two equity investments added to the cash need: $50.0bn in OpenAI Series C preferred stock over nine months and $10.0bn in Anthropic nonvoting preferred stock [2]. Note on data: the multi-quarter scorecard labels its \"Q2 FY2026\" column as ending 2026-09-30, and those figures match the Q3 release. I used the release dates and did not use the scorecard's Q2 column.",
+  "thesis_check": [
+    {
+      "thesis": "T1: AWS keeps compounding fast enough to fund the capex build-out.",
+      "signpost": "AWS sales growth of at least 18% and operating margin of at least 35% in each 2026 quarterly report (invalidation: growth below 15% or margin below 33%).",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "AWS sales grew 28%, 37% and 39% in Q1, Q2 and Q3 FY2026 [1]. AWS operating margin, derived from segment sales and operating income, was above the 35% signpost in each quarter (illustrative calculation from [1]). AWS operating income rose to $17.8bn in Q3 from $11.4bn a year earlier [1]."
+    },
+    {
+      "thesis": "T2: Capex peaks and free cash flow recovers in 2026.",
+      "signpost": "FY2026 free cash flow above $25 billion in the February 2027 10-K, with capex growth slowing (invalidation: FY2026 free cash flow at or below $11.2 billion, or new borrowing used to fund operations).",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Trailing free cash flow moved from a $1.2bn inflow at Q1 to a $7.6bn outflow at Q2 and a $42.4bn outflow at Q3 [1]. Nine-month cash capex rose to $172.2bn from $89.9bn, and management expects capex to increase further in 2027 [2]. Nine-month operating cash flow of $113.8bn was positive, but financing inflows of $111.8bn funded the gap [2]. Trailing free cash flow is far below the signpost path, so the FY2026 test is at risk; the 10-K will confirm."
+    },
+    {
+      "thesis": "T3: The valuation requires above-trend growth, so returns are exposed to any slowdown.",
+      "signpost": "FY2026 reported revenue at or above the $829 billion consensus in the February 2027 10-K (invalidation: FY2026 revenue growth below 15%).",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Consensus FY2026 revenue is $829.2bn, +15.7% [3]. Quarterly net sales were $181.5bn, $200.6bn and $201.9bn, with Q3 growth of 12% held down by the Prime Day shift [1]. The reverse DCF implies 19.3% revenue growth against 15.7% consensus, and an implied IRR of 8.3% against a 12.4% WACC [3]."
+    },
+    {
+      "thesis": "T4: Regulatory and legal costs stay contained relative to the earnings base.",
+      "signpost": "No new settlement or tax reserve above $2.5 billion disclosed in 2026 filings (invalidation: a new material FTC settlement or an adverse ruling in the Indian cloud-services tax case).",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The releases and 10-Q MD&A excerpts reviewed disclose no new FTC settlement or tax reserve above $2.5bn [1][2]. The legal proceedings and tax notes were not in the excerpts provided, so this status rests on the MD&A review and should be checked against those notes. The $1bn Built Together and $1.5bn wage programmes announced in Q3 are operating commitments, not legal reserves [1]."
+    }
+  ],
+  "risk_update": "Materialised: the capital intensity risk. Trailing free cash flow is a $42.4bn outflow, and total debt rose to $271.9bn from $153.0bn at year-end, a $119bn increase [1][2][3]. The filings describe the borrowing as funding investment, not operations. New: the investment risk now sits in two AI counterparties. Amazon has committed $50.0bn to OpenAI preferred stock and $10.0bn to Anthropic preferred stock, and Anthropic gains drive reported EPS in Q1 and Q2 [1][2]. The Q3 release lists memory-chip supply as a risk to demand and costs, and the 10-Q risk factors on competition are unchanged [1][2]. Eased: none of the risks reviewed eased. The FTC and Indian tax matters were not updated in the excerpts provided.",
+  "outlook": "The Q3 release's guidance section was cut off in the data, so no Q4 guidance figures are reported here. Consensus FY2026 revenue is $829.2bn (+15.7%) and EPS $12.80, the latter 0.2% lower than 90 days earlier [3]. FY2027 consensus is revenue of $960.5bn (+15.8%) and EPS of $10.67, up 1.5% over 90 days [3]. Management projects AWS growth above 40% in 2027 and 2028; this is a management projection, not guidance [1]. Watch Q4 AWS growth against 39%, the Q4 revenue needed for consensus, and whether Anthropic marks keep moving EPS. For T2, the test is the FY2026 free cash flow figure in the February 2027 10-K.",
+  "company_kpis": [
+    {
+      "name": "Net sales",
+      "unit": "USD bn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 181.5,
+        "Q2 FY2026": 200.6,
+        "Q3 FY2026": 201.9
+      },
+      "prior_values": {
+        "Q1 FY2026": 155.7,
+        "Q2 FY2026": 167.7,
+        "Q3 FY2026": 180.2
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Operating income (consolidated)",
+      "unit": "USD bn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 23.9,
+        "Q2 FY2026": 27.5,
+        "Q3 FY2026": 28.1
+      },
+      "prior_values": {
+        "Q1 FY2026": 18.4,
+        "Q2 FY2026": 19.2,
+        "Q3 FY2026": 17.4
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "AWS segment operating income",
+      "unit": "USD bn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 14.2,
+        "Q2 FY2026": 16.6,
+        "Q3 FY2026": 17.8
+      },
+      "prior_values": {
+        "Q1 FY2026": 11.5,
+        "Q2 FY2026": 10.2,
+        "Q3 FY2026": 11.4
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Cash capital expenditures",
+      "unit": "USD bn",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 43.2,
+        "Q2 FY2026": 53.1,
+        "Q3 FY2026": 75.9
+      },
+      "prior_values": {
+        "Q1 FY2026": 24.3,
+        "Q2 FY2026": 31.4,
+        "Q3 FY2026": 34.2
+      },
+      "source": "[2] 10-Q MD&A"
+    },
+    {
+      "name": "Free cash flow, trailing twelve months",
+      "unit": "USD bn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1.2,
+        "Q2 FY2026": -7.6,
+        "Q3 FY2026": -42.4
+      },
+      "prior_values": {
+        "Q1 FY2026": 25.9,
+        "Q2 FY2026": 18.2,
+        "Q3 FY2026": 14.8
+      },
+      "source": "[1] earnings releases (Amazon definition; Yahoo TTM figure at Q3 is -37.6bn [3])"
+    },
+    {
+      "name": "Diluted EPS (GAAP)",
+      "unit": "USD per share",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2.78,
+        "Q2 FY2026": 5.75,
+        "Q3 FY2026": 1.89
+      },
+      "prior_values": {
+        "Q1 FY2026": 1.59,
+        "Q2 FY2026": 1.68,
+        "Q3 FY2026": 1.95
+      },
+      "source": "[1] earnings releases; Q1 and Q2 include Anthropic-related non-operating gains"
+    }
+  ]
+}

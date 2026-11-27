@@ -1,0 +1,138 @@
+{
+  "ticker_symbol": "ADBE",
+  "fyear": "2025",
+  "save_dir": "../reports/ADBE_earnings_multi_claude-haiku-5.5",
+  "headline": "Revenue growth held at 12-13% and FY2026 targets were raised, but subscription costs outran revenue in Q2 and Q3, breaking the margin thesis.",
+  "summary": "Adobe's first three fiscal 2026 quarters (ended Feb, May and Aug 2026) grew revenue 12%, 13% and 13% year on year, and the Q2 and Q3 releases raised full-year revenue and non-GAAP EPS targets [1]. Total ARR was $27.50 billion at Q3, up 11.2%, but Q2 and Q3 include Semrush, which added about $480 million of ARR in Q2 [1][2]. Subscription cost of revenue rose faster than subscription revenue in Q2 ($586 million vs $505 million a year earlier) and Q3 ($633 million vs $510 million), and Q3 gross margin was 88.7% against 89.3% [1][3]. Under the pre-set rule, two consecutive quarters of this kind break thesis T2. Non-GAAP EPS beat consensus in every quarter, by 0.7% to 3.2%, and FY2026 EPS consensus is $24.47 [3]. Operating cash flow was $2.96 billion, $2.17 billion and $2.52 billion, so reaching $10 billion for the year needs about $2.35 billion in Q4 (illustrative) [1]. The current ratio stayed below 1.0x and net cash was -$1.12 billion at Q3 [2][3]. The CEO transition (Q1) and CFO departure (Q2) add execution risk. At $232.83 the shares trade at 9.5x forward EPS [3].",
+  "results_commentary": "Q1 FY2026 (ended Feb 2026) was the cleanest quarter. Revenue was $6.40 billion, up 12% from $5.71 billion, and subscription revenue rose to $6.20 billion from $5.48 billion [1]. Subscription cost of revenue was $540 million against $490 million, growing more slowly than subscription revenue, and gross margin was 89.6% [1][3]. Total ARR reached $26.06 billion, up 10.9%, just short of the 11% signpost. Creative Cloud Pro, Acrobat and Adobe Experience Platform grew, partly offset by Adobe Stock [2]. Non-GAAP EPS was $6.06 against $5.87 consensus [1][3]. Operating cash flow was $2.96 billion against $2.48 billion a year earlier [1].\n\nQ2 FY2026 (ended May 2026) is where the cost pattern turned. Revenue was $6.62 billion, up 13%, and subscription revenue rose to $6.42 billion from $5.64 billion. Subscription cost of revenue rose to $586 million from $505 million, which is 16.0% growth against 13.7% for subscription revenue (computed from [1]). Gross margin fell to 89.2%. GAAP operating income was $2.24 billion against $2.11 billion, but G&A rose to $546 million from $377 million and sales and marketing to $1.88 billion from $1.63 billion [1]. GAAP results carried a $70 million goodwill impairment on the Publishing & Advertising unit ($0.17 per share) and a $30 million loss contingency [1]. Semrush closed in April and added about $480 million of ARR. Reported ARR growth was 12.5%; excluding Semrush, our illustrative estimate is about 10.5% [1][2]. Management raised FY2026 revenue and non-GAAP EPS targets. Acquisitions used $1.56 billion of cash, and net cash moved to -$1.44 billion [1][3]. The CFO's departure was announced, effective June 15.\n\nQ3 FY2026 (ended Aug 2026) shows the cost pressure continuing. Revenue was $6.76 billion, up 13%. Subscription cost of revenue rose to $633 million from $510 million, which is 24.1% growth against 13.7% for subscription revenue (computed from [1]), so the gap widened. Gross margin fell to 88.7% from 89.3% [3]. GAAP operating income was $2.35 billion against $2.17 billion, and the GAAP operating margin was 34.8% against 36.3% [1][3]. ARR was $27.50 billion, up 11.2%, including Semrush. The 10-Q attributes growth to Creative Cloud flagship apps, Acrobat and Adobe Experience Manager [2]. Non-GAAP EPS was $6.13 against $6.09 consensus, the smallest beat this year at 0.7% [3]. GAAP diluted EPS rose to $4.62 from $4.18, helped by a diluted share count of 395 million against 424 million [1]. The filings do not quantify the cost drivers. The risk factors name AI computing costs as a margin pressure. That is the likely cause, but the filings do not confirm it [2].",
+  "thesis_check": [
+    {
+      "thesis": "T1: ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of 11.9% is achievable.",
+      "signpost": "Total ARR growth at or above 11% in each fiscal 2026 quarterly report.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Reported ARR growth was 10.9% in Q1 (below the 11% signpost, above the 10% invalidation line), 12.5% in Q2 and 11.2% in Q3 [2]. Q2 and Q3 include Semrush, which added about $480 million of ARR in Q2; excluding it, our illustrative Q2 estimate is about 10.5% [1][2]. The company's own FY2026 ending ARR growth target is 10.2%, below the signpost [1]. FY2026 revenue consensus of $26.61 billion sits inside the raised target of $26.58-26.63 billion, so no revenue cut occurred [1][3]."
+    },
+    {
+      "thesis": "T2: Margins hold as AI hosting and inference costs grow, because pricing and mix offset the cost increase.",
+      "signpost": "Gross margin at or above 89% in each fiscal 2026 quarterly report.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "broken"
+      },
+      "current_status": "broken",
+      "evidence": "Gross margin was 89.6% in Q1, 89.2% in Q2 and 88.7% in Q3 [1][3]. Subscription cost of revenue rose 16.0% in Q2 and 24.1% in Q3 (computed from [1]), against subscription revenue growth of 13.7% in each quarter (computed from [1]). Subscription cost growth exceeded revenue growth in two consecutive quarters, which meets the pre-set invalidation rule. The Q3 gross margin of 88.7% is still above the 88% line [1][3]."
+    },
+    {
+      "thesis": "T3: The shares are undervalued because the current price implies far less growth than consensus expects.",
+      "signpost": "EPS consensus for fiscal 2026 holds at or above $24.47, with another quarterly EPS beat in the next reported quarter.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Non-GAAP EPS beat consensus by 3.2% in Q1 ($6.06 vs $5.87), 2.5% in Q2 ($5.96 vs $5.81) and 0.7% in Q3 ($6.13 vs $6.09) [3]. FY2026 EPS consensus is $24.47, unchanged over 30 days and up 0.6% over 90 days, so there is no headroom above the signpost level [3]. Management raised the FY2026 non-GAAP EPS target in Q2 and again in Q3, to $24.45-24.50 [1]. The reverse DCF implies about zero growth at a $91.8 billion enterprise value, and the forward P/E is 9.5x [2][3]."
+    },
+    {
+      "thesis": "T4: Funding is adequate despite buybacks, because free cash flow covers most of the capital return and debt is manageable.",
+      "signpost": "Operating cash flow of at least $10 billion for fiscal 2026, with the current ratio at or above 1.0x by the fiscal 2026 year-end.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Operating cash flow was $2.96 billion in Q1, $2.17 billion in Q2 and $2.52 billion in Q3 [1]; the sum of $7.65 billion leaves about $2.35 billion for Q4 to reach $10 billion (illustrative). The current ratio was 0.91x, 0.75x and 0.77x, below the 1.0x signpost [2][3]. Net cash was +$234 million at Q1, then -$1.44 billion at Q2 and -$1.12 billion at Q3 [2][3]. Repurchases of $2.48 billion, $2.11 billion and $2.23 billion totalled about $6.82 billion, and operating cash flow less capex of about $7.5 billion (illustrative) still covered them, so the invalidation condition is not met [1]."
+    }
+  ],
+  "risk_update": "Three risks materialised since the annual report. First, AI competition and AI computing costs reached the margin: subscription cost of revenue outgrew subscription revenue in Q2 and Q3 [1]. Second, ARR growth now depends on acquisitions: reported growth in Q2 and Q3 includes Semrush, and excluding it our illustrative Q2 estimate is about 10.5% [1][2]. Third, management and balance sheet risk increased. The CEO transition was announced in Q1 and the CFO departure in Q2, with Steve Day as interim CFO from June 15, 2026 [1]. After the Semrush closing, net cash fell to -$1.44 billion in Q2 and the current ratio to 0.75x [2][3]. The Q2 GAAP results include a $70 million goodwill impairment on the Publishing & Advertising unit [1]. The 10-Q risk factors still cite AI regulation, including the EU AI Act phased through 2030 [2]. One risk eased: the diluted share count fell to 395 million from 424 million year on year in Q3, through buybacks [1].",
+  "outlook": "Management's Q4 FY2026 targets are revenue of $6.80-6.85 billion and non-GAAP EPS of $6.30-6.35 [1]. Updated FY2026 targets are revenue of $26.576-26.626 billion, non-GAAP EPS of $24.45-24.50, and ending ARR growth of 10.2% [1]. FY2026 consensus revenue of $26.61 billion and EPS of $24.47 sit inside these ranges, with EPS unchanged over 30 days [3]. FY2027 consensus is revenue of $29.04 billion (+9.1%) and EPS of $27.41, with an EPS range of $22.67-29.19 [3]. Consensus FY2027 revenue growth is below the 11% signpost in T1. Items to watch: Q4 subscription cost growth against subscription revenue growth (the T2 invalidation test is already met, so Q4 confirms or reverses it), operating cash flow of about $2.35 billion needed in Q4 to reach $10 billion for the year (T4), the choice of permanent CEO and CFO, and whether ARR growth excluding Semrush holds above 10%.",
+  "company_kpis": [
+    {
+      "name": "Subscription revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 6198,
+        "Q2 FY2026": 6416,
+        "Q3 FY2026": 6582
+      },
+      "prior_values": {
+        "Q1 FY2026": 5483,
+        "Q2 FY2026": 5641,
+        "Q3 FY2026": 5791
+      },
+      "source": "[1] earnings releases, Condensed Consolidated Statements of Income"
+    },
+    {
+      "name": "Subscription cost of revenue",
+      "unit": "USD mn",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 540,
+        "Q2 FY2026": 586,
+        "Q3 FY2026": 633
+      },
+      "prior_values": {
+        "Q1 FY2026": 490,
+        "Q2 FY2026": 505,
+        "Q3 FY2026": 510
+      },
+      "source": "[1] earnings releases, Condensed Consolidated Statements of Income"
+    },
+    {
+      "name": "GAAP operating income",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2418,
+        "Q2 FY2026": 2238,
+        "Q3 FY2026": 2354
+      },
+      "prior_values": {
+        "Q1 FY2026": 2163,
+        "Q2 FY2026": 2109,
+        "Q3 FY2026": 2173
+      },
+      "source": "[1] earnings releases, Condensed Consolidated Statements of Income"
+    },
+    {
+      "name": "Operating cash flow",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2958,
+        "Q2 FY2026": 2165,
+        "Q3 FY2026": 2523
+      },
+      "prior_values": {
+        "Q1 FY2026": 2482,
+        "Q2 FY2026": 2191,
+        "Q3 FY2026": 2198
+      },
+      "source": "[1] earnings releases, Condensed Consolidated Statements of Cash Flows"
+    },
+    {
+      "name": "Diluted EPS (GAAP)",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 4.6,
+        "Q2 FY2026": 4.25,
+        "Q3 FY2026": 4.62
+      },
+      "prior_values": {
+        "Q1 FY2026": 4.14,
+        "Q2 FY2026": 3.94,
+        "Q3 FY2026": 4.18
+      },
+      "source": "[1] earnings releases, Condensed Consolidated Statements of Income"
+    }
+  ]
+}

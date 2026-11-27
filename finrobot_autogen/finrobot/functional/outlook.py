@@ -83,6 +83,51 @@ def _label_current_fy(t, rev):
     return None
 
 
+def _consensus_to_reporting_currency(t, info, out, fy0, ev):
+    """Auslaendische Emittenten (ADR): Einheit der Umsatzschaetzungen pruefen. Passen sie zum letzten Ist-Umsatz in
+    der Berichtswaehrung (Normalfall, z. B. TSMC in TWD, ASML in EUR), bleiben sie; passen sie nur umgerechnet aus
+    der Handelswaehrung, wird umgerechnet; sonst werden sie weggelassen. Wachstum wird selbst berechnet. Die
+    Waehrung der EPS-Schaetzungen gibt Yahoo nicht an, daher ohne Waehrungszeichen."""
+    fx = _fx_to_fin(info)
+    trd, fin = info.get("currency"), info.get("financialCurrency")
+    inc = _get(t, "income_stmt")
+    last_rev = None
+    if inc is not None and not inc.empty and "Total Revenue" in inc.index:
+        cols = [c for c in inc.columns if pd.Timestamp(c).year == fy0 - 1] or [max(inc.columns)]
+        last_rev = _row(inc, ["Total Revenue"], cols[0])
+    ys = out["years"]
+    r0 = next((y["rev"] for y in ys if y["rev"]), None)
+    ok = lambda ratio: 0.5 < ratio < 2.5
+    factor = None
+    if r0 and last_rev and fx:
+        raw, conv = ok(r0 * 1e6 / last_rev), ok(r0 * 1e6 * fx / last_rev)
+        # Yahoo liefert meist die Berichtswaehrung (TSMC: TWD, ASML: EUR); nur wenn das nicht zum Ist passt, die
+        # Handelswaehrung annehmen und umrechnen
+        factor = 1.0 if raw else (fx if conv else None)
+    for y in ys:
+        if factor is None:
+            for k in ("rev", "rev_low", "rev_high", "growth", "ev_sales"):
+                y[k] = None
+            continue
+        for k in ("rev", "rev_low", "rev_high"):
+            y[k] = None if y[k] is None else y[k] * factor
+        y["ev_sales"] = ev / (y["rev"] * 1e6) if ev and y["rev"] else None
+    if factor is not None and ys:
+        prev = last_rev / 1e6 if last_rev else None
+        for y in ys:
+            y["growth"] = y["rev"] / prev - 1 if y["rev"] and prev else None
+            prev = y["rev"]
+    out["rev_currency"], out["eps_currency"] = fin, trd
+    out["eps_comparable"] = False
+    out["currency_note"] = (
+        f"reporting currency {fin}, shares quoted in {trd}. Revenue estimates "
+        + ("converted to " + fin + " at the current exchange rate and growth recomputed against the last reported "
+           "revenue" if factor not in (None, 1.0) else ("already in " + fin if factor == 1.0 else
+                                                       "omitted (unit could not be matched to reported revenue)"))
+        + "; EPS estimates are per traded share/ADR and Yahoo does not state their currency, so do not compare them "
+        f"with reported EPS in {fin} and do not attach a currency symbol to them.")
+
+
 def get_consensus(symbol, last_fy=None):
     """
     Konsens fuer das laufende und das naechste Geschaeftsjahr.
@@ -108,8 +153,12 @@ def get_consensus(symbol, last_fy=None):
     except Exception:
         info = {}
     price = _num(info.get("currentPrice")) or _num(info.get("regularMarketPrice"))
-    ev = _num(info.get("enterpriseValue"))
+    foreign = _fx_to_fin(info) != 1.0
+    ev = ev_in_reporting_currency(t, info) if foreign else _num(info.get("enterpriseValue"))
     out["price"] = price
+    if foreign:
+        out["currency_note"] = (f"reporting currency {info.get('financialCurrency')}, quote in {info.get('currency')}; "
+                                "EV converted, forward P/E only if consistent with Yahoo's forward P/E")
     if eps is not None and "methodology" in eps.columns:
         out["methodology"] = str(eps["methodology"].dropna().iloc[0]) if eps["methodology"].notna().any() else None
     for k, fy in (("0y", fy0), ("+1y", fy0 + 1)):
@@ -124,13 +173,50 @@ def get_consensus(symbol, last_fy=None):
              "eps_n": _cell(eps, k, "numberOfAnalysts")}
         y["pe"] = price / e if price and e and e > 0 else None
         y["ev_sales"] = ev / r if ev and r and r > 0 else None
+        if foreign:                                   # KGV nur, wenn es zu Yahoos Forward-KGV passt (ADR-Verhaeltnis)
+            fpe = _num(info.get("forwardPE"))
+            if y["pe"] and (not fpe or abs(y["pe"] / fpe - 1) > 0.5):
+                y["pe"] = None
         out["years"].append(y)
+    if foreign:
+        _consensus_to_reporting_currency(t, info, out, fy0, ev)
     # Wachstum des +1y-Jahres gegen 0y, falls Yahoo keins liefert
     if len(out["years"]) == 2 and out["years"][1]["growth"] is None and out["years"][0]["rev"] and out["years"][1]["rev"]:
         out["years"][1]["growth"] = out["years"][1]["rev"] / out["years"][0]["rev"] - 1
     if not out["years"]:
         out["error"] = "no annual consensus estimates available on Yahoo Finance"
     return out
+
+
+# --------------------------------------------------------------- Waehrung (20-F-Emittenten)
+def _fx_to_fin(info):
+    """Faktor Handelswaehrung -> Berichtswaehrung (1.0 bei gleicher Waehrung, None wenn kein Kurs).
+    Beispiel ASML: ADR in USD, Abschluss in EUR -> Faktor = EUR je USD."""
+    trd, fin = info.get("currency"), info.get("financialCurrency")
+    if not trd or not fin or trd == fin:
+        return 1.0
+    try:
+        from ..data_source.fmp_utils import fx_series
+        fx = fx_series(fin, trd, start=(pd.Timestamp.today() - pd.Timedelta(days=14)).strftime("%Y-%m-%d"))
+        return 1.0 / float(fx.iloc[-1]) if len(fx) else None
+    except Exception:
+        return None
+
+
+def ev_in_reporting_currency(t, info):
+    """Unternehmenswert in Berichtswaehrung: Boersenwert (umgerechnet) + Schulden - Kasse aus der letzten Bilanz.
+    Gleiche Waehrung: Yahoo-Wert wie bisher."""
+    fx = _fx_to_fin(info)
+    if fx == 1.0:
+        return _num(info.get("enterpriseValue"))
+    mc = _num(info.get("marketCap"))
+    bs = _get(t, "balance_sheet")
+    if fx is None or mc is None or bs is None or bs.empty:
+        return None
+    c = max(bs.columns)
+    debt = _row(bs, ["Total Debt"], c) or 0.0
+    cash = _row(bs, ["Cash Cash Equivalents And Short Term Investments", "Cash And Cash Equivalents"], c) or 0.0
+    return mc * fx + debt - cash
 
 
 # --------------------------------------------------------------- Liquiditaet
@@ -265,7 +351,7 @@ def reverse_dcf(symbol, fy=None):
     c = pick[-1]
     rev0 = _num(inc.loc["Total Revenue", c])
     fcf = _fcf(cf, c) if cf is not None and c in cf.columns else None
-    ev = _num(info.get("enterpriseValue"))
+    ev = ev_in_reporting_currency(t, info)
     if ev is None or ev <= 0 or fcf is None:
         out["error"] = "enterprise value or free cash flow not available"
         return out
@@ -459,7 +545,8 @@ def quality_scores(symbol, fy=None):
     re_ = v(bs, ["Retained Earnings"], c)
     ebit = v(inc, ["EBIT", "Operating Income"], c)
     tl = v(bs, ["Total Liabilities Net Minority Interest", "Total Liabilities"], c)
-    mve = _num(info.get("marketCap"))
+    fx_ = _fx_to_fin(info)
+    mve = _num(info.get("marketCap")) * fx_ if _num(info.get("marketCap")) and fx_ else None
     parts = [wc, re_, ebit, mve, tl, rev1, ta1]
     if all(x is not None for x in parts) and ta1 and tl:
         z = 1.2 * wc / ta1 + 1.4 * re_ / ta1 + 3.3 * ebit / ta1 + 0.6 * mve / tl + 1.0 * rev1 / ta1
@@ -515,14 +602,25 @@ def fmt_pct(v, sign=True):
     return "n/a" if v is None else (f"{v * 100:+.1f}%" if sign else f"{v * 100:.1f}%")
 
 
-def _money(v):
+CUR_SYM = {"USD": "$", "EUR": "\u20ac", "TWD": "NT$", "GBP": "\u00a3", "JPY": "\u00a5", "CAD": "C$", "CHF": "CHF ",
+           "DKK": "DKK ", "SEK": "SEK ", "NOK": "NOK ", "AUD": "A$", "HKD": "HK$", "CNY": "CNY ", "KRW": "KRW ",
+           "INR": "INR ", "BRL": "R$"}
+
+
+def _sym(cur):
+    return CUR_SYM.get(cur or "USD", f"{cur} ")
+
+
+def _money(v, cur="USD"):
     if v is None:
         return "n/a"
-    return f"-${abs(v):,.1f} million" if v < 0 else f"${v:,.1f} million"
+    s_ = _sym(cur)
+    return f"-{s_}{abs(v):,.1f} million" if v < 0 else f"{s_}{v:,.1f} million"
 
 
-def _usd(v):
-    return "n/a" if v is None else (f"-${abs(v):.2f}" if v < 0 else f"${v:.2f}")
+def _usd(v, cur="USD"):
+    s_ = "" if cur is None else _sym(cur)
+    return "n/a" if v is None else (f"-{s_}{abs(v):.2f}" if v < 0 else f"{s_}{v:.2f}")
 
 
 def _x(v, empty="n/a"):
@@ -538,6 +636,12 @@ def outlook_text(symbol, fyear):
     today = date.today().isoformat()
     lines = []
     try:
+        info_ = _ticker(symbol).info or {}
+    except Exception:
+        info_ = {}
+    fin, trd = info_.get("financialCurrency") or "USD", info_.get("currency") or "USD"
+    eps_cur = trd if fin == trd else None             # ADR: Waehrung der EPS-Schaetzungen unklar
+    try:
         con = get_consensus(symbol, last_fy=int(fyear))
     except Exception as e:
         con = {"years": [], "error": f"error: {e}"}
@@ -546,16 +650,18 @@ def outlook_text(symbol, fyear):
         lines.append(f"- not available: {con['error']}. Do not state any estimates.")
     for y in con["years"]:
         n = f", {int(y['rev_n'])} analysts" if y["rev_n"] else ""
-        rng = f" (range {_money(y['rev_low'])} to {_money(y['rev_high'])}{n})" if y["rev_low"] is not None else ""
-        eps = _usd(y["eps"])
-        erng = (f" (range {_usd(y['eps_low'])} to {_usd(y['eps_high'])})"
+        rng = f" (range {_money(y['rev_low'], fin)} to {_money(y['rev_high'], fin)}{n})" if y["rev_low"] is not None else ""
+        eps = _usd(y["eps"], eps_cur)
+        erng = (f" (range {_usd(y['eps_low'], eps_cur)} to {_usd(y['eps_high'], eps_cur)})"
                 if y["eps_low"] is not None and y["eps_high"] is not None else "")
         lines.append(
-            f"- FY{y['fy']}E: revenue {_money(y['rev'])}{rng}, growth {fmt_pct(y['growth'])}; EPS {eps}{erng}; "
+            f"- FY{y['fy']}E: revenue {_money(y['rev'], fin)}{rng}, growth {fmt_pct(y['growth'])}; EPS {eps}{erng}; "
             f"forward P/E {_x(y['pe'], 'n/m')}; EV/Sales {_x(y['ev_sales'])}")
     if con.get("price"):
-        lines.append(f"- Forward multiples use the current share price of ${con['price']:.2f} and the current "
+        lines.append(f"- Forward multiples use the current share price of {_usd(con['price'], trd)} and the current "
                      f"enterprise value. EPS methodology: {con.get('methodology') or 'Yahoo default'}.")
+    if con.get("currency_note"):
+        lines.append(f"- Currency: {con['currency_note']}")
     try:
         liq = get_liquidity(symbol, fy=int(fyear))
     except Exception as e:
@@ -567,8 +673,8 @@ def outlook_text(symbol, fyear):
     for label, d in liq["columns"]:
         fcf_label = "TTM free cash flow" if label.startswith("Latest") else "free cash flow"
         lines.append(
-            f"- {label}: cash and short-term investments {_money(d['cash'])}, total debt {_money(d['debt'])}, "
-            f"net cash {_money(d['net_cash'])}, {fcf_label} {_money(d['fcf'])}, "
+            f"- {label}: cash and short-term investments {_money(d['cash'], fin)}, total debt {_money(d['debt'], fin)}, "
+            f"net cash {_money(d['net_cash'], fin)}, {fcf_label} {_money(d['fcf'], fin)}, "
             f"cash runway at that burn {fmt_runway(d['runway'])}, current ratio "
             f"{_x(d['current_ratio'])}, shares outstanding {_shares(d['shares'])}, change in share count y/y "
             f"{fmt_pct(d['share_change'])}")
@@ -582,9 +688,9 @@ def outlook_text(symbol, fyear):
         lines.append(f"- not available: {r['error']}")
     else:
         lines.append(
-            f"- The current enterprise value of {_money(r['ev'])} implies revenue growth of {fmt_g(r['implied_g'])} per year "
-            f"for {r['years']} years (FY{r['fy']} revenue {_money(r['rev0'])}"
-            + (f" -> about {_money(r['rev_end'])} in FY{r['fy'] + r['years']}" if r["rev_end"] else "") + "), "
+            f"- The current enterprise value of {_money(r['ev'], fin)} implies revenue growth of {fmt_g(r['implied_g'])} per year "
+            f"for {r['years']} years (FY{r['fy']} revenue {_money(r['rev0'], fin)}"
+            + (f" -> about {_money(r['rev_end'], fin)} in FY{r['fy'] + r['years']}" if r["rev_end"] else "") + "), "
             f"assuming the free cash flow margin moves from {fmt_pct(r['m0'], sign=False)} to {fmt_pct(r['m_target'], sign=False)} "
             f"by year {r['years']}, a WACC of {fmt_pct(r['wacc'], sign=False)} ({r['rf_src']} {fmt_pct(r['rf'], sign=False)} + beta "
             f"{r['beta']:.2f} x 5.0% equity risk premium) and {fmt_pct(r['tg'], sign=False)} terminal growth.")
@@ -610,12 +716,12 @@ def outlook_text(symbol, fyear):
         lines.append(f"- not available: {mo['error']}")
     for tr_ in mo["trend"]:
         ch = "" if not tr_["d90"] else f", change vs 90 days ago {((tr_['current'] - tr_['d90']) / abs(tr_['d90'])) * 100:+.1f}%"
-        lines.append(f"- EPS consensus {tr_['period']}: {_usd(tr_['current'])} today, {_usd(tr_['d30'])} 30 days ago, "
-                     f"{_usd(tr_['d90'])} 90 days ago{ch}; analysts raising/cutting in last 30 days: "
+        lines.append(f"- EPS consensus {tr_['period']}: {_usd(tr_['current'], eps_cur)} today, {_usd(tr_['d30'], eps_cur)} 30 days ago, "
+                     f"{_usd(tr_['d90'], eps_cur)} 90 days ago{ch}; analysts raising/cutting in last 30 days: "
                      f"{int(tr_['up30'] or 0)}/{int(tr_['down30'] or 0)}")
     for su_ in mo["surprises"]:
         sp_ = "n/a" if su_["surprise"] is None else f"{su_['surprise'] * 100:+.1f}%"
-        lines.append(f"- Quarter ending {su_['quarter']}: EPS {_usd(su_['actual'])} vs estimate {_usd(su_['estimate'])} "
+        lines.append(f"- Quarter ending {su_['quarter']}: EPS {_usd(su_['actual'], eps_cur)} vs estimate {_usd(su_['estimate'], eps_cur)} "
                      f"(surprise {sp_})")
     lines.append("")
     lines.append("FINANCIAL QUALITY SCORES (own calculation from Yahoo Finance statements; cite as [2]):")

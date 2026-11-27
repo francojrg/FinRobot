@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/ASML_earnings_multi_claude-haiku-5.5\\ASML_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: EUV and service growth can sustain revenue expansion above 15% a year as AI capacity spending continues.",
+        "signpost": "Q4 2026 results show full-year 2026 net sales within or above the €34–39bn guidance, with service growing above 20% [1]. Invalidated if 2026 net sales fall below €34bn or EUV system sales decline y/y in any 2026 quarter.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Margins can stay near 50%+ gross as mix shifts to EUV and service, supporting earnings growth.",
+        "signpost": "Gross margin holds above the baseline floor in each 2026 quarterly report, with EPS beating consensus as it has in Q1 to Q3 2026 [3]. Invalidated if gross margin falls below that floor in any 2026 quarter, or EPS misses consensus two quarters in a row.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Customer concentration is a material risk that could cut revenue faster than the cycle would otherwise imply.",
+        "signpost": "Largest-customer share is reported in the FY2026 20-F, with a decline below 20% alongside rising unit shipments [1]. Invalidated if the largest customer's share falls below 20% in the FY2026 20-F with unit shipments rising.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: The current price is fully valued: the shares need growth that history has not delivered for a decade.",
+        "signpost": "Consensus FY2027 revenue (€57.4bn, as stated in EUR by the data source) is cut by more than 10% in a 2027 quarterly update, or the share price falls below the implied value [3]. Invalidated if consensus and sustained orders lift the 10-year growth needed to justify the price below 15%.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

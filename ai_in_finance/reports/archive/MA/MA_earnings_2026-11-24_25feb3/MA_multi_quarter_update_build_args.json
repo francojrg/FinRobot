@@ -1,0 +1,111 @@
+{
+  "ticker_symbol": "MA",
+  "fyear": "2025",
+  "save_dir": "../reports/MA_earnings_multi_claude-haiku-5.5",
+  "headline": "Three FY2026 quarters: revenue growth held at 14-16% and EPS beat consensus again, but cross-border growth slowed and net debt rose to $13.5 billion.",
+  "summary": "Mastercard's first three FY2026 quarters show steady top-line growth and rising leverage. Net revenue grew 16% in Q1, 14% in Q2 and 14% in Q3 (12%, 12% and 14% currency-neutral) [1]. Adjusted diluted EPS was $4.60, $5.04 and $5.31, each above consensus; the Q3 beat was 2.7% [1][3]. Value-added services and solutions grew 22%, 20% and 19%, against 12%, 10% and 11% for the payment network [1]. Cross-border volume growth slowed from 13% to 12% to 11% [1]. Net cash moved from -$8.1 billion at year end to -$13.5 billion at September 30, the latest quarter and after the 10-K. Nine-month buybacks ($11.9 billion) and dividends ($2.3 billion) exceeded nine-month operating cash flow ($11.9 billion) [2][3]. T1 is intact since Q2 after a weakened Q1 gross margin reading; T2 and T3 are intact in all three quarters [4]. FY2026 consensus revenue of $37.4 billion requires about 12% growth in Q4 (illustrative) [3].",
+  "results_commentary": "Q1 FY2026 was the weakest quarter on margins. Yahoo gross margin was 75.7%, below the 76.3% level that invalidates T1 [3][4]. Reported operating expenses rose 13% to $3.5 billion, including a $202 million restructuring charge. Adjusted operating expenses rose 11% (9% currency-neutral), mainly on higher general and administrative costs [1][2]. Payment network rebates and incentives rose 23%, and network net revenue grew 12% (8% currency-neutral), so growth in the core network lagged value-added services at 22% [1]. The releases do not explain the Q1 gross margin reading. Q2 FY2026 showed the same pressure in a milder form. Cross-border volume growth slowed to 12%, rebates rose 22%, and adjusted operating expenses grew 11% [1]. Revenue still grew 14% (12% currency-neutral), and adjusted operating margin rose to 61.1% from 59.9% a year earlier [1]. Gross margin improved to 79.0% [3]. Litigation charges were $82 million, mainly merchant opt-out settlements and an ATM surcharge provision [2].\n\nQ3 FY2026 had the strongest currency-neutral growth of the three quarters. Net revenue grew 14% both as reported and currency-neutral, against 12% currency-neutral in Q1 and Q2, so currency stopped being a drag [1]. Value-added services grew 19%, and the payment network grew 11% [1]. Adjusted diluted EPS was $5.31, up 21% from $4.38, and beat the $5.17 consensus by 2.7% [1][3]. Gross margin was 79.3% against 78.0% a year earlier [3]. Three figures weakened: cross-border growth fell to 11%, the lowest of the three quarters; adjusted operating expenses grew 12% currency-neutral; and the Yahoo free cash flow margin was 48.5% against 61.7% a year earlier [1][3]. The filings do not state the cause of the free cash flow drop. Net cash was -$13.5 billion against -$8.3 billion a year earlier [3].\n\nYear to date, net revenue rose 15% (13% currency-neutral) to $27.5 billion, adjusted operating margin rose 1.1 points to 60.8%, and adjusted diluted EPS rose 22% to $14.94 [1]. Diluted shares fell to 876 million in Q3 from 905 million a year earlier, so EPS grew faster than net income (22% against 18%) [2]. The revenue trend is steady and margins are rising. The weaker parts are cash conversion and the balance sheet, not the income statement.",
+  "thesis_check": [
+    {
+      "thesis": "T1: Value-added services keep outgrowing the payment network, lifting Mastercard's margins and mix.",
+      "signpost": "VAS net revenue growth at or above 15% excluding acquisitions in each 2026 quarterly report, with gross margin holding at or above 77.9% (Q2 2026 onward). Invalidated if VAS growth falls below network growth or gross margin drops below 76.3%.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q1 FY2026: VAS grew 22% (18% currency-neutral) against 12% for the network, but Yahoo gross margin of 75.7% was below the 76.3% floor [1][3]. Q2 FY2026: VAS grew 20% (18% currency-neutral) against 10% for the network, gross margin 79.0% [1][3]. Q3 FY2026: VAS grew 19% against 11% for the network, gross margin 79.3% against 78.0% a year earlier; the release notes only a minimal acquisition effect on VAS [1][2][3]."
+    },
+    {
+      "thesis": "T2: Earnings momentum continues, so consensus EPS estimates are achievable.",
+      "signpost": "FY2026 reported EPS at or above $20.06 in the February 2027 10-K, and the next quarterly EPS beat continues. Invalidated by a quarterly EPS miss or a 90-day consensus cut above 5%.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Adjusted EPS beat consensus in Q1 ($4.60 vs $4.41, +4.2%), Q2 ($5.04 vs $4.78, +5.5%) and Q3 ($5.31 vs $5.17, +2.7%) [1][3]. FY2026 consensus EPS rose 0.7% over 90 days to $20.06, with 29 raising and 3 cutting [3]. Nine-month adjusted EPS was $14.94 against a $20.06 full-year consensus, so the remaining quarter must carry the gap [1][3]."
+    },
+    {
+      "thesis": "T3: At the current price, the stock returns less than its cost of capital unless revenue growth beats consensus for years.",
+      "signpost": "FY2026 revenue at or above the $37.4 billion consensus, with growth holding near 14% in the February 2027 10-K, and the stock price holding near $635. Invalidated by FY2026 revenue growth below 12%, or a sustained price decline that lifts the implied return above the 8.8% WACC.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Nine-month net revenue grew 15% reported (13% currency-neutral) to $27.5 billion [1]. Consensus FY2026 revenue of $37.4 billion implies Q4 revenue of $9.9 billion, about 12% above Q4 2025 (illustrative) [1][3]. At the $647.28 price in the consensus data (dated after the Q3 release), the reverse DCF implied return is 6.9%, below the 8.8% WACC [2][3]."
+    }
+  ],
+  "risk_update": "Materialised: litigation and settlement costs continued. Special-item litigation charges were $156 million in nine months 2026 against $330 million a year earlier, mainly merchant opt-out settlements and an ATM surcharge provision [2]. Restructuring added a $202 million charge in Q1 [1]. Cross-border growth has slowed for three quarters (13%, 12%, 11%), and the filing names cross-border as the most cyclical revenue stream [1][4]. Rising: rebates and incentives grew 18% to 23% in each quarter, a growing claim on network revenue [1]. Total debt rose from $19.0 billion at year end to $23.9 billion at the latest quarter, after the 10-K, and net cash fell to -$13.5 billion [2][3]. Eased: Q3 currency-neutral growth matched reported growth at 14%, so currency was a smaller factor [1]. The 10-Q risk section refers to the 10-K and lists no new factors [2]. The BVNK acquisition, described as planned in Q1, adds integration risk; the releases give no quantified impact [1].",
+  "outlook": "The releases in the data give no numeric FY2026 guidance. Consensus, retrieved after the Q3 release, is revenue of $37.37 billion (+14.0%) and EPS of $20.06, up 0.7% over 90 days; FY2027 EPS is $23.16 [3]. Nine-month revenue of $27.48 billion implies Q4 revenue of $9.89 billion, about 12.3% above Q4 2025 (illustrative) [1][3]. What to watch: cross-border growth (11% in Q3), rebate growth relative to network revenue, adjusted operating expense growth (12% currency-neutral in Q3), and net cash against the debt-funded buyback pace. A Q4 gross margin below 76.3% would breach T1's invalidation level.",
+  "company_kpis": [
+    {
+      "name": "Net revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 8398,
+        "Q2 FY2026": 9277,
+        "Q3 FY2026": 9807
+      },
+      "prior_values": {
+        "Q1 FY2026": 7250,
+        "Q2 FY2026": 8133,
+        "Q3 FY2026": 8602
+      },
+      "source": "Earnings releases [1] and 10-Q income statements [2]"
+    },
+    {
+      "name": "Adjusted operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 60.8,
+        "Q2 FY2026": 61.1,
+        "Q3 FY2026": 60.5
+      },
+      "prior_values": {
+        "Q1 FY2026": 59.3,
+        "Q2 FY2026": 59.9,
+        "Q3 FY2026": 59.8
+      },
+      "source": "Earnings releases [1] and 10-Q non-GAAP tables [2]"
+    },
+    {
+      "name": "Adjusted diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 4.6,
+        "Q2 FY2026": 5.04,
+        "Q3 FY2026": 5.31
+      },
+      "prior_values": {
+        "Q1 FY2026": 3.73,
+        "Q2 FY2026": 4.15,
+        "Q3 FY2026": 4.38
+      },
+      "source": "Earnings releases [1] and 10-Q non-GAAP tables [2]"
+    },
+    {
+      "name": "Diluted weighted-average shares",
+      "unit": "count mn",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2026": 893,
+        "Q2 FY2026": 883,
+        "Q3 FY2026": 876
+      },
+      "prior_values": {
+        "Q1 FY2026": 914,
+        "Q2 FY2026": 909,
+        "Q3 FY2026": 905
+      },
+      "source": "10-Q income statements [2]"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+OK   01_komma_prozent.csv               weights: AAPL=40, MSFT=35, SAP.DE=25
+OK   02_semikolon_deutsch.csv           weights: AAPL=40.5, MSFT=35.25, SAP.DE=24.25
+OK   03_anteile.csv                     weights: AAPL=0.5, MSFT=0.3, NVDA=0.2
+OK   04_summe_ungleich_100.csv          weights: AAPL=30, MSFT=30, NVDA=30 | Hinweise: Gewichte summieren sich auf 90 – sie werden auf 100 % skaliert
+OK   05_stueck_deutsche_spalten.csv     shares: AAPL=10, NVDA=1200
+OK   06_kleinschreibung.csv             weights: AAPL=50, BRK-B=50
+OK   07_doppelt.csv                     shares: AAPL=10, MSFT=3 | Hinweise: AAPL kommt mehrfach vor – zusammengefasst
+OK   08_excel_bom_prozentzeichen.csv    weights: AAPL=40, SIE.DE=60
+OK   09_excel_ansi.csv                  weights: AAPL=40, SIE.DE=60
+OK   10_leere_zeilen.csv                weights: AAPL=50, MSFT=50
+OK   11_gemischt.csv                    weights: MSFT=30, NVDA=20 | Hinweise: Ohne Gewicht übersprungen: AAPL; Gewichte summieren sich auf 50 – sie werden auf 100 % skaliert
+OK   12_negativ_null.csv                weights: AAPL=60, AMZN=40 | Hinweise: Zeile 3: MSFT mit 0 – übersprungen; Zeile 4: NVDA mit -5 – übersprungen
+OK   13_tabulator.csv                   weights: AAPL=50, MSFT=50
+OK   14_keine_zahl.csv                  weights: AAPL=50, NVDA=50 | Hinweise: Zeile 3: 'viel' ist keine Zahl (weight) – ignoriert; Ohne Gewicht übersprungen: MSFT
+OK   15_falsche_spalten.csv             Fehlermeldung: Format nicht erkannt. Erwartet wird eine Datei mit Ticker und Gewicht oder Stückzahl (z. B. ticker,weight) oder ein Transaktions-Export mit Datum und Buchungsart. Erkannte Spalten: Name, Wert
+OK   16_isin.csv                        weights: AAPL=50, MSFT=50
+OK   17_leer.csv                        Fehlermeldung: Die Datei ist leer oder keine lesbare CSV-Datei.
+OK   18_nur_kopfzeile.csv               Fehlermeldung: Die Datei enthält keine Positionen.
+OK   19_transaktionen.csv               transactions: AAPL=6, MSFT=5
+
+19 von 19 Faellen wie erwartet.

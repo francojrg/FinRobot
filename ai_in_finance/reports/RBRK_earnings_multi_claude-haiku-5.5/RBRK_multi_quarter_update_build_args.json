@@ -1,0 +1,129 @@
+{
+  "ticker_symbol": "RBRK",
+  "fyear": "2026",
+  "save_dir": "../reports/RBRK_earnings_multi_claude-haiku-5.5",
+  "headline": "Rubrik's first two quarters of FY2027 show revenue up 38% and operating losses narrowing, but Q2 gross margin and free cash flow margin slipped.",
+  "summary": "Rubrik's first two quarters of fiscal 2027 (ended July 31, 2026) kept growth high while operating losses narrowed. Six-month revenue rose to $814.3 million from $588.3 million, and Q2 revenue grew 37.9% [2][3]. Q2 operating margin improved to -16.8% from -30.5% a year earlier [3]. Two measures weakened: Q2 gross margin fell to 78.4% from 79.5%, below the 80% signpost, and free cash flow margin fell to 15.4% from 18.6% [3]. Net cash held near $598 million [3][2]. Reaching the $1.69 billion FY2027 consensus requires second-half revenue of $876.9 million, against $814.3 million in the first half, so the consensus path looks conservative relative to reported growth [2][3][4]. Verdicts: growth durability intact; operating leverage and cash conversion weakened in Q2; valuation intact but dependent on sustained growth. Subscription ARR was not in the retrieved filings, so that signpost is checked only through revenue growth. The earnings releases were unavailable, so no guidance changes could be verified.",
+  "results_commentary": "Q1 FY2027 (ended April 30, 2026) showed the best margin profile of the two quarters. Gross margin was 80.5%, operating margin improved to -13.6% against -26.2% for fiscal 2026, and free cash flow margin was 19.0% [3]. EPS was -$0.21 and net margin -10.8% [3]. Year-ago Q1 figures were not available in the scorecard, so Q1 cannot be compared y/y. The 10-Q said sales cycles had lengthened because of cost-conscious IT budgets and server chip shortages, and that Subscription Credit benefits would \"significantly decline sequentially\" [2]. Rubrik also started offering Resilience Guardian as a term-based subscription program in the quarter [2].\n\nQ2 FY2027 (ended July 31, 2026) shows operating leverage still working while gross margin and cash conversion softened. Revenue grew 37.9% y/y, and six-month revenue rose to $814.3 million from $588.3 million [2][3]. Operating margin improved to -16.8% from -30.5%, and opex fell to 95.3% of revenue from 110.0% [3]. EPS was -$0.30 against -$0.49 a year earlier [3]. However, gross margin fell to 78.4% from 79.5%, below the 80% level in the signpost, and free cash flow margin fell to 15.4% from 18.6% [3]. Days sales outstanding improved to 57 from 64, and net cash was $598.1 million against $382.0 million a year earlier [3]. The current ratio fell to 1.64x from 1.82x [3].\n\nAcross the two quarters, the trend is mixed. Opex discipline and narrowing losses accelerated, which supports the operating leverage thesis. Gross margin and free cash flow margin deteriorated in Q2, and the 10-Q's wording on sales cycles softened from \"lengthening\" in Q1 to \"could fluctuate\" in Q2 [2]. Share count rose 5.0% y/y to 207.2 million, down from the 6.6% change at fiscal year-end but still well above low single digits [3][4]. Consensus has moved up: Q2 EPS of $0.20 beat the $0.04 estimate, and FY2027 EPS consensus is $0.50, up 60% in 90 days [3]. Reaching the $1.69 billion consensus needs only $876.9 million of second-half revenue, against $814.3 million in the first half, so the market expects a sharp slowdown [2][3][4].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Subscription growth stays strong through fiscal 2027, supporting consensus revenue growth of about 28%.",
+      "signpost": "Subscription ARR growth at or above the signpost threshold in each quarterly report through the Q4 FY2027 report. Subscription ARR was not in the retrieved filings; revenue growth is used as a proxy.",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Q2 revenue grew 37.9% y/y and six-month revenue rose to $814.3 million from $588.3 million [2][3], well above the signpost threshold, although this is a revenue proxy and not Subscription ARR. The 10-Q says Subscription Credit benefits will keep declining, which is a watch item [2]."
+    },
+    {
+      "thesis": "T2: Cash generation is durable, not only a function of upfront billing timing.",
+      "signpost": "Trailing-twelve-month free cash flow at or above the latest $286.2 million [2], with deferred revenue growth slowing.",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Q1 free cash flow margin was 19.0%, but Q2 fell to 15.4% from 18.6% a year earlier [3]. TTM free cash flow is $286.2 million, exactly at the signpost level [2], and the deferred revenue trend was not in the retrieved sources, so durability cannot be confirmed."
+    },
+    {
+      "thesis": "T3: The current valuation requires growth to stay near 29% for a decade; if growth fades to consensus, returns fall below the cost of capital.",
+      "signpost": "FY2027 revenue tracking at or above the $1.69 billion consensus, and FY2028 consensus growth holding above 21.7% in the next consensus update.",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "H1 FY2027 revenue of $814.3 million [2] leaves $876.9 million needed in H2 to reach $1,691.2 million [3], which is achievable at current run-rates [2][3][4]. FY2028 consensus growth is 21.7% [3], exactly at the signpost level, with no cut in the last 30 days. Implied return is 5.5% against a 10.3% WACC [3]."
+    },
+    {
+      "thesis": "T4: Operating leverage narrows losses as gross margin holds near 80% and operating expenses keep falling.",
+      "signpost": "GAAP operating margin improving from -26% in FY2026 toward break-even in FY2027, with gross margin at or above 80% of FY2026 levels.",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Operating margin improved to -13.6% in Q1 and -16.8% in Q2 from -30.5% a year earlier, with opex at 95.3% of revenue vs 110.0% [3]. Gross margin was 80.5% in Q1 but fell to 78.4% in Q2 from 79.5%, below the 80% level in the signpost [3]. Gross margin remains well above the fiscal 2025 invalidation level."
+    },
+    {
+      "thesis": "Balance sheet and dilution (from thesis log): net cash and liquidity fund growth without eroding per-share value.",
+      "signpost": "Net cash stays near $600 million; share count growth slows toward low single digits; current ratio stays above 1.5x.",
+      "statuses": {
+        "Q1 FY2027": "intact",
+        "Q2 FY2027": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Net cash was $602.7 million in Q1 and $598.1 million in Q2 [3], and the current ratio was 1.64x [3]. Share count rose 5.0% y/y to 207.2 million, down from the 6.6% change at fiscal year-end but not in the low single digits [3][4]."
+    }
+  ],
+  "risk_update": "Risks that eased: the first-half figures show no sign of a revenue slowdown, and Q2 operating costs fell as a share of revenue [2][3]. Losses narrowed, and consensus EPS revisions were all upward in the last 30 days [3]. Risks that materialised or grew: Q2 gross margin fell below 80% and free cash flow margin fell 3.2 points y/y [3]. The 10-Q says the Subscription Credit tailwind will keep declining [2]. The Q1 10-Q noted lengthening sales cycles and chip shortages that raise server prices, and this language was softer in the Q2 10-Q [2]. Share count dilution (+5.0%) and the current ratio (1.64x, down from 1.82x) also weighed on the balance-sheet picture [3]. The existing risks from the annual report remain: channel concentration, the $1.15 billion of 2030 convertible notes, and high stock-based compensation [4]. New risk: RAC became commercially available only in February 2026, so its contribution to ARR is unproven [2].",
+  "outlook": "No guidance changes could be verified, because the earnings releases for both quarters returned no exhibit 99 document [1]. Consensus as of 2026-11-23 is FY2027 revenue of $1,691.2 million (+28.5%) and EPS of $0.50, with 20 analyst upward revisions and no downward revisions in the last 30 days [3]. FY2028 consensus is revenue of $2,058.5 million (+21.7%) and EPS of $0.78 [3]. Watch for: whether gross margin recovers to 80% or above in Q3; whether free cash flow margin stabilises after the Q2 drop; whether Subscription ARR growth stays above the signpost threshold, which needs disclosure; and whether FY2028 consensus growth holds at or above 21.7%. The shares trade at 12.7x forward EV/Sales for FY2027 [3].",
+  "company_kpis": [
+    {
+      "name": "Gross margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 80.5,
+        "Q2 FY2027": 78.4
+      },
+      "prior_values": {
+        "Q2 FY2027": 79.5
+      },
+      "source": "Yahoo Finance scorecard [3]"
+    },
+    {
+      "name": "Operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": -13.6,
+        "Q2 FY2027": -16.8
+      },
+      "prior_values": {
+        "Q2 FY2027": -30.5
+      },
+      "source": "Yahoo Finance scorecard [3]"
+    },
+    {
+      "name": "Free cash flow margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 19,
+        "Q2 FY2027": 15.4
+      },
+      "prior_values": {
+        "Q2 FY2027": 18.6
+      },
+      "source": "Yahoo Finance scorecard [3]"
+    },
+    {
+      "name": "Net cash",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2027": 602.7,
+        "Q2 FY2027": 598.1
+      },
+      "prior_values": {
+        "Q2 FY2027": 382
+      },
+      "source": "Yahoo Finance scorecard [3]"
+    },
+    {
+      "name": "Share count",
+      "unit": "mn",
+      "good_direction": "down",
+      "values": {
+        "Q1 FY2027": 205.8,
+        "Q2 FY2027": 207.2
+      },
+      "prior_values": {
+        "Q2 FY2027": 197.4
+      },
+      "source": "Yahoo Finance scorecard [3]"
+    }
+  ]
+}

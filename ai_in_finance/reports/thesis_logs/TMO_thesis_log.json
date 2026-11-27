@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2026-11-24",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/TMO_earnings_multi_claude-haiku-5.5\\TMO_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Free cash flow recovers in 2026, lifting cash generation back above $7 billion.",
+        "signpost": "FY2026 10-K showing free cash flow above $7.0 billion (filed around February 2027) [1]. Invalidation: FY2026 free cash flow below $6.3 billion or operating cash flow below $7.82 billion.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Analytical Instruments margin recovers toward 26% as tariff and mix pressure eases.",
+        "signpost": "FY2026 10-K showing Analytical Instruments segment margin at or above 25% (filed around February 2027). Invalidation: margin below 23% in the FY2026 10-K or a further tariff-driven decline [1].",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Consensus revenue growth of 7.7% in 2026 is delivered and EPS estimates keep rising, but the valuation needs far more growth.",
+        "signpost": "Q1 2027 results (around April 2027) showing revenue growth of at least 7% and an EPS beat versus consensus [3]. Invalidation: 2026 revenue growth below 5% or a cut in the current-year EPS consensus below $25.28 [3].",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T4: Leverage is manageable, supported by liquidity, but only if returns on capital recover above the 9.5% threshold.",
+        "signpost": "FY2026 10-K showing total debt at or below $39.4 billion and ROIC above 9.5% [4]. Invalidation: total debt above $41.4 billion without matching earnings growth, or ROIC at or below 8.7% [4].",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/TMO_earnings_multi_claude-haiku-5.5\\TMO_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Free cash flow recovers in 2026 as the 2025 tax-payment timing reverses, lifting cash generation back above $7 billion.",
+        "signpost": "FY2026 10-K showing free cash flow above $7.0 billion (filed around February 2027) [1]. Invalidation: FY2026 FCF below $6.3 billion or operating cash flow below $7.82 billion.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T2: Analytical Instruments margin recovers toward 26% as tariff and mix pressure eases, lifting group segment income.",
+        "signpost": "FY2026 10-K showing Analytical Instruments segment margin at or above 25% (filed around February 2027). Invalidation: margin below 23% in the FY2026 10-K, or a further tariff-driven margin decline [1].",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Consensus revenue growth of 7.7% in 2026 is delivered and EPS estimates keep rising, but the current valuation needs far more growth than that.",
+        "signpost": "Q1 2027 results (around April 2027) showing revenue growth of at least 7% and an EPS beat versus consensus [3]. Invalidation: 2026 revenue growth below 5%, or a cut in the current-year EPS consensus below $25.28 [3].",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T4: Leverage is manageable: debt-funded acquisitions and buybacks are supported by strong liquidity, but only if returns on capital recover above 9.5%.",
+        "signpost": "FY2026 10-K showing total debt at or below $39.4 billion and ROIC above 9.5% [1]. Invalidation: total debt above $41.4 billion without matching earnings growth, or ROIC at or below 8.7% [1][4].",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4124 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 168,
+  "context_match_rate": 0.884,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...if consensus holds: forward P/E is 9.5x and the implied IRR is 17.1%  . Aggressive buybacks leave working capital...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus expects fiscal 2026 revenue of $26.61 billion (+11.9%) and EPS of $24.47, both dated after the...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 22,904 $ 20,521 $ 18,284 12 % % Percentage of total revenue 96 % % 95 % % 94 % % Product 325 386 460 (16) % % Percentage of total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...years at an 11.8% WACC  . That is well below consensus growth of 11.9% for fiscal 2026 and the 10.5% three-year...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 22,904 $ 20,521 $ 18,284 12 % % Percentage of total revenue 96 % % 95 % % 94 % % Product 325 386 460 (16) % % Percentage of total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...price in AI-disruption risk. If consensus holds, the implied IRR is 17.1% and the forward P/E is 9.5x  .  The main risks...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...if ARR growth holds near 11%. The thesis fails if it falls below 10%.",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10) %",
+        "snippet": "...Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income was $8.71 billion, about 36.6% of revenue  . Net income rose 28% to $7.13 billion, and diluted EPS rose 35% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "28%",
+        "snippet": "• Net income of $7.13 billion during fiscal 2025 increased by $1.57 billion, or 28%, compared to fiscal 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...tax-deductible  . Excluding that fee, operating expenses rose about 10%, which is the more useful run-rate  .  Cost...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10) %",
+        "snippet": "...Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$169 million  . Cash generation improved: operating cash flow rose 25% to $10.03 billion, and free cash flow reached...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25%",
+        "snippet": "• Cash flows from operations of $10.03 billion during fiscal 2025 increased by $1.98 billion, or 25%, compared to fiscal 2024. Fiscal 2024 cash flows from operations were adversely impacted by payment of the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...estimates in each of the last four reported quarters, by between 0.7% and 3.2%  . Adobe's 41.3% EBITDA margin led its...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.2%",
+      "value": 3.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in each of the last four reported quarters, by between 0.7% and 3.2%  . Adobe's 41.3% EBITDA margin led its peer...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3.25%",
+        "snippet": "...was primarily due to payments for our common stock repurchases and repayment of our 1.90% 2025 Notes and 3.25% 2025 Notes. These uses of cash were offset in part by proceeds from the issuance of senior notes. See the..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $2.03 billion, with hosting and data-centre costs contributing 8 points as AI inference became a larger cost  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8K",
+        "snippet": "...Our customers can import and combine various types of media, from video shot on a mobile device to 8K to virtual reality, and then edit in its native format without transcoding. Automated tools and workflows..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.3%",
+      "value": 25.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 41.3% compares with 31.3% at Intuit, 29.4% at Salesforce and 25.3% at Autodesk  . Its ROIC of 41.4% compares with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ADSK EBITDA Margin 2025: 25.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "79.6%",
+      "value": 79.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...89.3% was second only to Autodesk's 90.6%, and well above Intuit's 79.6% and Salesforce's 77.2%  . Revenue growth of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTU Gross Margin 2025: 79.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "77.2%",
+      "value": 77.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to Autodesk's 90.6%, and well above Intuit's 79.6% and Salesforce's 77.2%  . Revenue growth of 10.5% was below Intuit's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM Gross Margin 2025: 77.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...below Intuit's 15.6% and Autodesk's 11.5%, and above Salesforce's 8.7%  . Adobe's growth is slower than the fastest...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM Revenue Growth 2025: 8.7%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.1x",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the closest product overlap, because its revenue is only about 0.1x Adobe's.  Adobe leads the group on...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ADSK Tax Rate For Calcs 2023-01-31: 0 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "37.85",
+      "value": 37.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 13.59 was the lowest of the four, against 43.63 at Autodesk, 37.85 at Intuit and 29.73 at Salesforce  . The...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTU EV/EBITDA 2025: 37.85"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "29.73",
+      "value": 29.73,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...lowest of the four, against 43.63 at Autodesk, 37.85 at Intuit and 29.73 at Salesforce  . The multiple fell from 28.4 in...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM EV/EBITDA 2025: 29.73"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...11% in each fiscal 2026 quarterly report. Total ARR growth below 10% in any fiscal 2026 quarter, or a cut to fiscal...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10) %",
+        "snippet": "...Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...enterprise value  ; forward P/E is 9.5x and the implied IRR is 17.1%  . EPS consensus for fiscal 2026 holds at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    }
+  ],
+  "total_claims": 190,
+  "matched": 188,
+  "match_rate": 0.989,
+  "by_kind": {
+    "money": {
+      "total": 89,
+      "matched": 89,
+      "context_matched": 89
+    },
+    "pct": {
+      "total": 82,
+      "matched": 80,
+      "context_matched": 64
+    },
+    "multiple": {
+      "total": 8,
+      "matched": 8,
+      "context_matched": 7
+    },
+    "plain": {
+      "total": 11,
+      "matched": 11,
+      "context_matched": 8
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 109,
+    "[2] Yahoo Finance": 42,
+    "[2][3] Liquidity and consensus": 20,
+    "[4] Peer data": 17
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "36.6%",
+      "value": 36.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to 89.3% from 89.0%. Operating income was $8.71 billion, about 36.6% of revenue  . Net income rose 28% to $7.13...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Net income rose 28% to $7.13 billion, and diluted EPS rose 35% to $16.70  . Both growth rates are flattered by...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$25.20 billion",
+      "value": 25.2,
+      "unit": "billion",
+      "money_mn": 25200.0,
+      "decimals": 2,
+      "context": "...consensus revenue expansion on track, since Total ARR rose 11.5% to $25.20 billion  . Profitability should hold despite AI costs:...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25.20 billion",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.71 billion",
+      "value": 8.71,
+      "unit": "billion",
+      "money_mn": 8710.0,
+      "decimals": 2,
+      "context": ".... Profitability should hold despite AI costs: operating income of $8.71 billion and free cash flow of $9.85 billion, though...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Operating Income As Reported 2025-11-30: 8,706,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.85 billion",
+      "value": 9.85,
+      "unit": "billion",
+      "money_mn": 9850.0,
+      "decimals": 2,
+      "context": "...AI costs: operating income of $8.71 billion and free cash flow of $9.85 billion, though subscription costs rose 13%  . The...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-11-30: 9,852,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$(37) million",
+      "value": 37.0,
+      "unit": "million",
+      "money_mn": 37.0,
+      "decimals": 0,
+      "context": "...is 17.1%  . Aggressive buybacks leave working capital negative at $(37) million, so a growth miss would tighten funding quickly...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "37)",
+        "snippet": "...29, 2024 Cash and cash equivalents $ 5,431 $ 7,613 Short-term investments $ 1,164 $ 273 Working capital $ (37) $ 711 Stockholders’ equity $ 11,623 $ 14,105"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...keep consensus revenue expansion on track, since Total ARR rose 11.5% to $25.20 billion  . Profitability should hold...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and free cash flow of $9.85 billion, though subscription costs rose 13%  . The shares look undervalued if consensus...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 2,027 $ 1,799 $ 1,822 13 % % Percentage of total revenue 9 % % 8 % % 9 % % Product 23 25 29 (8) % % Percentage of total revenue * * *..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...if consensus holds: forward P/E is 9.5x and the implied IRR is 17.1%  . Aggressive buybacks leave working capital...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "9.5x",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The shares look undervalued if consensus holds: forward P/E is 9.5x and the implied IRR is 17.1%  . Aggressive...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "9.5",
+        "snippet": "...million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.77 billion",
+      "value": 23.77,
+      "unit": "billion",
+      "money_mn": 23770.0,
+      "decimals": 2,
+      "context": "Adobe's fiscal 2025 showed durable momentum: revenue rose 10.5% to $23.77 billion, operating income reached $8.71 billion, and...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23,769",
+        "snippet": "...% Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.71 billion",
+      "value": 8.71,
+      "unit": "billion",
+      "money_mn": 8710.0,
+      "decimals": 2,
+      "context": "...revenue rose 10.5% to $23.77 billion, operating income reached $8.71 billion, and free cash flow hit $9.85 billion  . Total...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Operating Income As Reported 2025-11-30: 8,706,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.85 billion",
+      "value": 9.85,
+      "unit": "billion",
+      "money_mn": 9850.0,
+      "decimals": 2,
+      "context": "...operating income reached $8.71 billion, and free cash flow hit $9.85 billion  . Total ARR grew 11.5% to $25.20 billion  ....",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-11-30: 9,852,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.20 billion",
+      "value": 25.2,
+      "unit": "billion",
+      "money_mn": 25200.0,
+      "decimals": 2,
+      "context": "...and free cash flow hit $9.85 billion  . Total ARR grew 11.5% to $25.20 billion  . Consensus expects fiscal 2026 revenue of...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25.20 billion",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.61 billion",
+      "value": 26.61,
+      "unit": "billion",
+      "money_mn": 26610.0,
+      "decimals": 2,
+      "context": "...11.5% to $25.20 billion  . Consensus expects fiscal 2026 revenue of $26.61 billion (+11.9%) and EPS of $24.47, both dated after the...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "26,607.2 million",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.47",
+      "value": 24.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...expects fiscal 2026 revenue of $26.61 billion (+11.9%) and EPS of $24.47, both dated after the       .  At $232.83, the...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "24.47",
+        "snippet": "...revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$232.83",
+      "value": 232.83,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...(+11.9%) and EPS of $24.47, both dated after the       .  At $232.83, the reverse DCF implies roughly zero revenue...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "232.83",
+        "snippet": "- Forward multiples use the current share price of $232.83 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.28 billion",
+      "value": 11.28,
+      "unit": "billion",
+      "money_mn": 11280.0,
+      "decimals": 2,
+      "context": "...(subscription cost of revenue rose 13%), and thin liquidity after $11.28 billion of buybacks, with working capital of $(37)...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11.28 billion",
+        "snippet": "...we entered into stock repurchase arrangements with large financial institutions and made payments totaling $11.28 billion to repurchase shares."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$(37) million",
+      "value": 37.0,
+      "unit": "million",
+      "money_mn": 37.0,
+      "decimals": 0,
+      "context": "...liquidity after $11.28 billion of buybacks, with working capital of $(37) million  . We see the shares as undervalued if ARR...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "37)",
+        "snippet": "...29, 2024 Cash and cash equivalents $ 5,431 $ 7,613 Short-term investments $ 1,164 $ 273 Working capital $ (37) $ 711 Stockholders’ equity $ 11,623 $ 14,105"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Adobe's fiscal 2025 showed durable momentum: revenue rose 10.5% to $23.77 billion, operating income reached...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion, and free cash flow hit $9.85 billion  . Total ARR grew 11.5% to $25.20 billion  . Consensus expects fiscal...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus expects fiscal 2026 revenue of $26.61 billion (+11.9%) and EPS of $24.47, both dated after the...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 22,904 $ 20,521 $ 18,284 12 % % Percentage of total revenue 96 % % 95 % % 94 % % Product 325 386 460 (16) % % Percentage of total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.8%",
+      "value": 11.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reverse DCF implies roughly zero revenue growth for ten years at an 11.8% WACC  . That is well below consensus growth of...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.8%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 41.4% to 41.4% by year 10, a WACC of 11.8% (10y US Treasury (^TNX) 4.8% + beta 1.38 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...years at an 11.8% WACC  . That is well below consensus growth of 11.9% for fiscal 2026 and the 10.5% three-year...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 22,904 $ 20,521 $ 18,284 12 % % Percentage of total revenue 96 % % 95 % % 94 % % Product 325 386 460 (16) % % Percentage of total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is well below consensus growth of 11.9% for fiscal 2026 and the 10.5% three-year historical CAGR  . The current price...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "10.5%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 10.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...price in AI-disruption risk. If consensus holds, the implied IRR is 17.1% and the forward P/E is 9.5x  .  The main risks...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...hosting and inference costs (subscription cost of revenue rose 13%), and thin liquidity after $11.28 billion of...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 2,027 $ 1,799 $ 1,822 13 % % Percentage of total revenue 9 % % 8 % % 9 % % Product 23 25 29 (8) % % Percentage of total revenue * * *..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... We see the shares as undervalued if ARR growth holds near 11%. The thesis fails if it falls below 10%.",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...if ARR growth holds near 11%. The thesis fails if it falls below 10%.",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10) %",
+        "snippet": "...Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "9.5x",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...If consensus holds, the implied IRR is 17.1% and the forward P/E is 9.5x  .  The main risks are AI-native competition,...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "9.5",
+        "snippet": "...million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.77 billion",
+      "value": 23.77,
+      "unit": "billion",
+      "money_mn": 23770.0,
+      "decimals": 2,
+      "context": "...fiscal 2025, which ended on 28 November 2025, revenue rose 10.5% to $23.77 billion and subscriptions made up 96% of the total  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23,769",
+        "snippet": "...% Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.65 billion",
+      "value": 17.65,
+      "unit": "billion",
+      "money_mn": 17650.0,
+      "decimals": 2,
+      "context": "...subscriptions made up 96% of the total  . Digital Media generated $17.65 billion, or 74% of revenue, and Digital Experience...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17.65 billion",
+        "snippet": "...in driving growth in ARR has positively affected our revenue growth. Digital Media segment revenue grew to $17.65 billion in fiscal 2025, up from $15.86 billion in fiscal 2024, representing 11% year-over-year growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.86 billion",
+      "value": 5.86,
+      "unit": "billion",
+      "money_mn": 5860.0,
+      "decimals": 2,
+      "context": "...$17.65 billion, or 74% of revenue, and Digital Experience generated $5.86 billion, or 25%  . Total Adobe ARR reached $25.20...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.86 billion",
+        "snippet": "Digital Experience revenue was $5.86 billion in fiscal 2025, up from $5.37 billion in fiscal 2024, representing 9% year-over-year growth. Subscription..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.20 billion",
+      "value": 25.2,
+      "unit": "billion",
+      "money_mn": 25200.0,
+      "decimals": 2,
+      "context": "...generated $5.86 billion, or 25%  . Total Adobe ARR reached $25.20 billion, up 11.5%, which gives recurring revenue high...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25.20 billion",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.39 billion",
+      "value": 17.39,
+      "unit": "billion",
+      "money_mn": 17390.0,
+      "decimals": 2,
+      "context": "...workflows  . Subscription revenue grew 12% in Digital Media to $17.39 billion and 11% in Digital Experience to $5.41 billion...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17,389",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Digital Media $ 17,389 $ 15,547 $ 13,838 12 % % Digital Experience 5,409 4,864 4,331 11 % % Publishing and Advertising 106 110 115..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.41 billion",
+      "value": 5.41,
+      "unit": "billion",
+      "money_mn": 5410.0,
+      "decimals": 2,
+      "context": "...in Digital Media to $17.39 billion and 11% in Digital Experience to $5.41 billion  . The fastest customer group was Business...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.41 billion",
+        "snippet": "...up from $5.37 billion in fiscal 2024, representing 9% year-over-year growth. Subscription revenue grew to $5.41 billion in fiscal 2025, up from $4.86 billion in fiscal 2024, representing 11% year-over-year growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.50 billion",
+      "value": 6.5,
+      "unit": "billion",
+      "money_mn": 6500.0,
+      "decimals": 2,
+      "context": "...Professionals & Consumers, whose subscription revenue rose 15% to $6.50 billion on Acrobat  .  Management is reshaping the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,495",
+        "snippet": "6,495 5,662 4,744 15 % % 19 % % Total Digital Media and Digital Experience subscription revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.9 billion",
+      "value": 1.9,
+      "unit": "billion",
+      "money_mn": 1900.0,
+      "decimals": 1,
+      "context": "...launched in August 2025, and Adobe agreed to buy Semrush for about $1.9 billion in cash, with closing expected in the first half...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.9 billion",
+        "snippet": "...to acquire Semrush Holdings, Inc., a publicly held brand visibility platform company, for approximately $1.9 billion of cash consideration. The transaction is subject to regulatory approvals and customary closing conditions..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.28 billion",
+      "value": 11.28,
+      "unit": "billion",
+      "money_mn": 11280.0,
+      "decimals": 2,
+      "context": "...into one reportable segment  . Capital returns were heavy, with $11.28 billion of buybacks in fiscal 2025 and $2.0 billion of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11.28 billion",
+        "snippet": "...we entered into stock repurchase arrangements with large financial institutions and made payments totaling $11.28 billion to repurchase shares."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.0 billion",
+      "value": 2.0,
+      "unit": "billion",
+      "money_mn": 2000.0,
+      "decimals": 1,
+      "context": "...were heavy, with $11.28 billion of buybacks in fiscal 2025 and $2.0 billion of senior notes issued in January 2025  . The...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2B",
+        "snippet": "...their first-party customer data to activate in real-time their customer and account profiles that allow for B2B and B2C marketers to deliver timely, relevant experiences across channels. Real-Time Customer Data Platform..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$304.44",
+      "value": 304.44,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of senior notes issued in January 2025  . The shares closed at $304.44 on the filing date, inside a 52-week range of...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "304.44",
+        "snippet": "304.44"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$302.47",
+      "value": 302.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...closed at $304.44 on the filing date, inside a 52-week range of $302.47 to $465.70  . A later consensus target of...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "302.47",
+        "snippet": "302.47 - 465.70"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$465.70",
+      "value": 465.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...at $304.44 on the filing date, inside a 52-week range of $302.47 to $465.70  . A later consensus target of $266.91 (range...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "465.70",
+        "snippet": "302.47 - 465.70"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$266.91",
+      "value": 266.91,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...52-week range of $302.47 to $465.70  . A later consensus target of $266.91 (range $140 to $373) was set after the       .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "266.91",
+        "snippet": "266.91 (range 140.00 - 373.00), current consensus as of 2026-11-26, not as of 2026-01-15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$140",
+      "value": 140.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of $302.47 to $465.70  . A later consensus target of $266.91 (range $140 to $373) was set after the       .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "140.00",
+        "snippet": "266.91 (range 140.00 - 373.00), current consensus as of 2026-11-26, not as of 2026-01-15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$373)",
+      "value": 373.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $465.70  . A later consensus target of $266.91 (range $140 to $373) was set after the       .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "373.00)",
+        "snippet": "266.91 (range 140.00 - 373.00), current consensus as of 2026-11-26, not as of 2026-01-15"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... In fiscal 2025, which ended on 28 November 2025, revenue rose 10.5% to $23.77 billion and subscriptions made up 96%...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "96%",
+      "value": 96.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue rose 10.5% to $23.77 billion and subscriptions made up 96% of the total  . Digital Media generated $17.65...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "96 %",
+        "snippet": "...2025 2024 2023 % Change 2025-2024 Subscription $ 22,904 $ 20,521 $ 18,284 12 % % Percentage of total revenue 96 % % 95 % % 94 % % Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 96% of the total  . Digital Media generated $17.65 billion, or 74% of revenue, and Digital Experience generated...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "experience",
+          "media",
+          "digital"
+        ],
+        "hl": "74 %",
+        "snippet": "...2024 2023 % Change 2025-2024 Digital Media $ 17,649 $ 15,864 $ 14,216 11 % % Percentage of total revenue 74 % % 74 % % 73 % % Digital Experience 5,864 5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...74% of revenue, and Digital Experience generated $5.86 billion, or 25%  . Total Adobe ARR reached $25.20 billion, up...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "experience",
+          "digital"
+        ],
+        "hl": "25 %",
+        "snippet": "...total revenue 74 % % 74 % % 73 % % Digital Experience 5,864 5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 % % Publishing and Advertising 256 275 300 (7) % % Percentage of total revenue 1 % % 1 % % 2 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$5.86 billion, or 25%  . Total Adobe ARR reached $25.20 billion, up 11.5%, which gives recurring revenue high visibility...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr",
+          "adobe"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...for eligible enterprise workflows  . Subscription revenue grew 12% in Digital Media to $17.39 billion and 11% in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription",
+          "media",
+          "digital"
+        ],
+        "hl": "12 %",
+        "snippet": "$ 22,798 $ 20,411 $ 18,169 12 % % 12 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue grew 12% in Digital Media to $17.39 billion and 11% in Digital Experience to $5.41 billion  . The...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "experience",
+          "media",
+          "digital"
+        ],
+        "hl": "11 %",
+        "snippet": "...2023 % Change 2025-2024 Digital Media $ 17,389 $ 15,547 $ 13,838 12 % % Digital Experience 5,409 4,864 4,331 11 % % Publishing and Advertising 106 110 115 (4) % % Total subscription revenue $ 22,904 $ 20,521 $ 18,284 12 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Business Professionals & Consumers, whose subscription revenue rose 15% to $6.50 billion on Acrobat  .  Management is...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "consumer",
+          "professional"
+        ],
+        "hl": "15 %",
+        "snippet": "6,495 5,662 4,744 15 % % 19 % % Total Digital Media and Digital Experience subscription revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.12 billion",
+      "value": 14.12,
+      "unit": "billion",
+      "money_mn": 14120.0,
+      "decimals": 2,
+      "context": "...mainly to the Americas, which generated 59% of fiscal 2025 revenue ($14.12 billion, up 10%). EMEA contributed 27% ($6.29 billion,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "14,120",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Americas $ 14,120 $ 12,891 $ 11,654 10 % % Percentage of total revenue 59 % % 60 % % 60 % % EMEA 6,289 5,554 4,881 13 % %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.29 billion",
+      "value": 6.29,
+      "unit": "billion",
+      "money_mn": 6290.0,
+      "decimals": 2,
+      "context": "...fiscal 2025 revenue ($14.12 billion, up 10%). EMEA contributed 27% ($6.29 billion, up 13%), and APAC 14% ($3.36 billion, up 10%)...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,289",
+        "snippet": "...2025-2024 Americas $ 14,120 $ 12,891 $ 11,654 10 % % Percentage of total revenue 59 % % 60 % % 60 % % EMEA 6,289 5,554 4,881 13 % % Percentage of total revenue 27 % % 26 % % 25 % % APAC 3,360 3,060 2,874 10 % %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.36 billion",
+      "value": 3.36,
+      "unit": "billion",
+      "money_mn": 3360.0,
+      "decimals": 2,
+      "context": "...10%). EMEA contributed 27% ($6.29 billion, up 13%), and APAC 14% ($3.36 billion, up 10%)  . The filing does not disclose market...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,360",
+        "snippet": "...59 % % 60 % % 60 % % EMEA 6,289 5,554 4,881 13 % % Percentage of total revenue 27 % % 26 % % 25 % % APAC 3,360 3,060 2,874 10 % % Percentage of total revenue 14 % % 14 % % 15 % % Total revenue $ 23,769 $ 21,505 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.30 billion",
+      "value": 16.3,
+      "unit": "billion",
+      "money_mn": 16300.0,
+      "decimals": 2,
+      "context": "...and customer base. Creative and Marketing professionals generated $16.30 billion of subscription revenue, up 11%, and Business...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16,303",
+        "snippet": "$ 16,303 $ 14,749 $ 13,425 11 % % 10 % %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.50 billion",
+      "value": 6.5,
+      "unit": "billion",
+      "money_mn": 6500.0,
+      "decimals": 2,
+      "context": "...revenue, up 11%, and Business Professionals and Consumers generated $6.50 billion, up 15%  . The filing does not name major...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,495",
+        "snippet": "6,495 5,662 4,744 15 % % 19 % % Total Digital Media and Digital Experience subscription revenue"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.20 billion",
+      "value": 25.2,
+      "unit": "billion",
+      "money_mn": 25200.0,
+      "decimals": 2,
+      "context": "...the fastest-growing business and consumer line  . Total ARR of $25.20 billion, up 11.5%, shows the installed base is still...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25.20 billion",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$125.6 billion",
+      "value": 125.6,
+      "unit": "billion",
+      "money_mn": 125600.0,
+      "decimals": 1,
+      "context": "...notes limited barriers to entry  . Market capitalisation was about $125.6 billion at the filing date, on a closing price of...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "125589.17",
+        "snippet": "125589.17"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$304.44",
+      "value": 304.44,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was about $125.6 billion at the filing date, on a closing price of $304.44 inside a 52-week range of $302.47 to $465.70  ....",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "304.44",
+        "snippet": "304.44"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$302.47",
+      "value": 302.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...date, on a closing price of $304.44 inside a 52-week range of $302.47 to $465.70  . The consensus rating is Hold, with...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "302.47",
+        "snippet": "302.47 - 465.70"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$465.70",
+      "value": 465.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...on a closing price of $304.44 inside a 52-week range of $302.47 to $465.70  . The consensus rating is Hold, with a target of...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "465.70",
+        "snippet": "302.47 - 465.70"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$266.91",
+      "value": 266.91,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to $465.70  . The consensus rating is Hold, with a target of $266.91 set after the filing  . Within the peer group,...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "266.91",
+        "snippet": "266.91 (range 140.00 - 373.00), current consensus as of 2026-11-26, not as of 2026-01-15"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59%",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Adobe sells mainly to the Americas, which generated 59% of fiscal 2025 revenue ($14.12 billion, up 10%)....",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "america"
+        ],
+        "hl": "59 %",
+        "snippet": "...2025 2024 2023 % Change 2025-2024 Americas $ 14,120 $ 12,891 $ 11,654 10 % % Percentage of total revenue 59 % % 60 % % 60 % % EMEA 6,289 5,554 4,881 13 % % Percentage of total revenue 27 % % 26 % % 25 % % APAC..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...which generated 59% of fiscal 2025 revenue ($14.12 billion, up 10%). EMEA contributed 27% ($6.29 billion, up 13%),...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2023: 10.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27%",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of fiscal 2025 revenue ($14.12 billion, up 10%). EMEA contributed 27% ($6.29 billion, up 13%), and APAC 14% ($3.36...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "emea",
+          "apac"
+        ],
+        "hl": "27 %",
+        "snippet": "...Percentage of total revenue 59 % % 60 % % 60 % % EMEA 6,289 5,554 4,881 13 % % Percentage of total revenue 27 % % 26 % % 25 % % APAC 3,360 3,060 2,874 10 % % Percentage of total revenue 14 % % 14 % % 15 % % Total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...($14.12 billion, up 10%). EMEA contributed 27% ($6.29 billion, up 13%), and APAC 14% ($3.36 billion, up 10%)  . The...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "emea"
+        ],
+        "hl": "13 %",
+        "snippet": "...$ 14,120 $ 12,891 $ 11,654 10 % % Percentage of total revenue 59 % % 60 % % 60 % % EMEA 6,289 5,554 4,881 13 % % Percentage of total revenue 27 % % 26 % % 25 % % APAC 3,360 3,060 2,874 10 % % Percentage of total..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 10%). EMEA contributed 27% ($6.29 billion, up 13%), and APAC 14% ($3.36 billion, up 10%)  . The filing does not...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "apac"
+        ],
+        "hl": "14 %",
+        "snippet": "...Percentage of total revenue 27 % % 26 % % 25 % % APAC 3,360 3,060 2,874 10 % % Percentage of total revenue 14 % % 14 % % 15 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...27% ($6.29 billion, up 13%), and APAC 14% ($3.36 billion, up 10%)  . The filing does not disclose market share,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "apac"
+        ],
+        "hl": "10 %",
+        "snippet": "...% EMEA 6,289 5,554 4,881 13 % % Percentage of total revenue 27 % % 26 % % 25 % % APAC 3,360 3,060 2,874 10 % % Percentage of total revenue 14 % % 14 % % 15 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...professionals generated $16.30 billion of subscription revenue, up 11%, and Business Professionals and Consumers...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "professional"
+        ],
+        "hl": "11 %",
+        "snippet": "$ 16,303 $ 14,749 $ 13,425 11 % % 10 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Business Professionals and Consumers generated $6.50 billion, up 15%  . The filing does not name major customers or...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "consumer",
+          "professional"
+        ],
+        "hl": "15 %",
+        "snippet": "6,495 5,662 4,744 15 % % 19 % % Total Digital Media and Digital Experience subscription revenue"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...business and consumer line  . Total ARR of $25.20 billion, up 11.5%, shows the installed base is still expanding  ....",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.77 billion",
+      "value": 23.77,
+      "unit": "billion",
+      "money_mn": 23770.0,
+      "decimals": 2,
+      "context": "...was a strong year for Adobe's profit line. Revenue rose 10.5% to $23.77 billion, and subscriptions made up 96% of the total  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23,769",
+        "snippet": "...% Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.79 billion",
+      "value": 1.79,
+      "unit": "billion",
+      "money_mn": 1790.0,
+      "decimals": 2,
+      "context": "...and subscriptions made up 96% of the total  . Digital Media added $1.79 billion to reach $17.65 billion, while Digital...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.79 billion",
+        "snippet": "• Digital Media revenue of $17.65 billion during fiscal 2025 increased by $1.79 billion, or 11%, compared to fiscal 2024."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.65 billion",
+      "value": 17.65,
+      "unit": "billion",
+      "money_mn": 17650.0,
+      "decimals": 2,
+      "context": "...up 96% of the total  . Digital Media added $1.79 billion to reach $17.65 billion, while Digital Experience grew 9% to $5.86...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17.65 billion",
+        "snippet": "...in driving growth in ARR has positively affected our revenue growth. Digital Media segment revenue grew to $17.65 billion in fiscal 2025, up from $15.86 billion in fiscal 2024, representing 11% year-over-year growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.86 billion",
+      "value": 5.86,
+      "unit": "billion",
+      "money_mn": 5860.0,
+      "decimals": 2,
+      "context": "...to reach $17.65 billion, while Digital Experience grew 9% to $5.86 billion  . Publishing and Advertising fell 7% to $256...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.86 billion",
+        "snippet": "Digital Experience revenue was $5.86 billion in fiscal 2025, up from $5.37 billion in fiscal 2024, representing 9% year-over-year growth. Subscription..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$256 million",
+      "value": 256.0,
+      "unit": "million",
+      "money_mn": 256.0,
+      "decimals": 0,
+      "context": "...grew 9% to $5.86 billion  . Publishing and Advertising fell 7% to $256 million, the only segment that shrank  . Gross margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "256",
+        "snippet": "...5,864 5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 % % Publishing and Advertising 256 275 300 (7) % % Percentage of total revenue 1 % % 1 % % 2 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.71 billion",
+      "value": 8.71,
+      "unit": "billion",
+      "money_mn": 8710.0,
+      "decimals": 2,
+      "context": ".... Gross margin widened to 89.3% from 89.0%. Operating income was $8.71 billion, about 36.6% of revenue  . Net income rose 28%...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Operating Income As Reported 2025-11-30: 8,706,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.13 billion",
+      "value": 7.13,
+      "unit": "billion",
+      "money_mn": 7130.0,
+      "decimals": 2,
+      "context": "...was $8.71 billion, about 36.6% of revenue  . Net income rose 28% to $7.13 billion, and diluted EPS rose 35% to $16.70  . Both...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7.13 billion",
+        "snippet": "• Net income of $7.13 billion during fiscal 2025 increased by $1.57 billion, or 28%, compared to fiscal 2024."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.70",
+      "value": 16.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Net income rose 28% to $7.13 billion, and diluted EPS rose 35% to $16.70  . Both growth rates are flattered by fiscal...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2025-11-30: 17 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.00 billion",
+      "value": 1.0,
+      "unit": "billion",
+      "money_mn": 1000.0,
+      "decimals": 2,
+      "context": ".... Both growth rates are flattered by fiscal 2024, which included a $1.00 billion Figma termination fee that was not...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1 billion",
+        "snippet": "...compared to fiscal 2024. Fiscal 2024 cash flows from operations were adversely impacted by payment of the $1 billion Figma termination fee."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.49 billion",
+      "value": 6.49,
+      "unit": "billion",
+      "money_mn": 6490.0,
+      "decimals": 2,
+      "context": "....  Cost growth was uneven. Sales and marketing rose 13% to $6.49 billion, mainly on advertising, and research and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,488",
+        "snippet": "...$ 4,294 $ 3,944 $ 3,473 9 % % Percentage of total revenue 18 % % 18 % % 18 % % Sales and marketing 6,488 5,764 5,351 13 % % Percentage of total revenue 27 % % 27 % % 28 % % General and administrative 1,573 1,529..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.29 billion",
+      "value": 4.29,
+      "unit": "billion",
+      "money_mn": 4290.0,
+      "decimals": 2,
+      "context": "...mainly on advertising, and research and development rose 9% to $4.29 billion, mainly on compensation  . Subscription cost of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,294",
+        "snippet": "2025 2024 2023 % Change 2025-2024 Research and development $ 4,294 $ 3,944 $ 3,473 9 % % Percentage of total revenue 18 % % 18 % % 18 % % Sales and marketing 6,488 5,764..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.03 billion",
+      "value": 2.03,
+      "unit": "billion",
+      "money_mn": 2029.9999999999998,
+      "decimals": 2,
+      "context": "...mainly on compensation  . Subscription cost of revenue rose 13% to $2.03 billion, with hosting and data-centre costs contributing...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2030",
+        "snippet": "...obligations under the EU AI Act have gone into effect and will continue to be implemented in phases through 2030, and other jurisdictions have passed or are considering similarly focused legislation. Some of our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$263 million",
+      "value": 263.0,
+      "unit": "million",
+      "money_mn": 263.0,
+      "decimals": 0,
+      "context": "...tax rate fell to 18% from 20%, while interest expense rose to $263 million from $169 million  . Cash generation improved:...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "263)",
+        "snippet": "2025 2024 2023 % Change 2025-2024 Interest expense $ (263) $ (169) $ (113) 56 % % Investment gains (losses), net 43 48 16 ** Other income (expense), net 248 311 246..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$169 million",
+      "value": 169.0,
+      "unit": "million",
+      "money_mn": 169.0,
+      "decimals": 0,
+      "context": "...to 18% from 20%, while interest expense rose to $263 million from $169 million  . Cash generation improved: operating cash flow...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "169",
+        "snippet": "— 1,000 — ** Percentage of total revenue * 5 % % * Amortization of intangibles 157 169 168 (7) % % Percentage of total revenue 1 % % 1 % % 1 % % Total operating expenses $ 12,512 $ 12,406 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.03 billion",
+      "value": 10.03,
+      "unit": "billion",
+      "money_mn": 10030.0,
+      "decimals": 2,
+      "context": ".... Cash generation improved: operating cash flow rose 25% to $10.03 billion, and free cash flow reached $9.85 billion after...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10.03 billion",
+        "snippet": "• Cash flows from operations of $10.03 billion during fiscal 2025 increased by $1.98 billion, or 25%, compared to fiscal 2024. Fiscal 2024 cash flows from..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.85 billion",
+      "value": 9.85,
+      "unit": "billion",
+      "money_mn": 9850.0,
+      "decimals": 2,
+      "context": "...cash flow rose 25% to $10.03 billion, and free cash flow reached $9.85 billion after $179 million of capital expenditure  ....",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-11-30: 9,852,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$179 million",
+      "value": 179.0,
+      "unit": "million",
+      "money_mn": 179.0,
+      "decimals": 0,
+      "context": "...to $10.03 billion, and free cash flow reached $9.85 billion after $179 million of capital expenditure  . Buybacks of $11.28...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Capital Expenditure 2025-11-30: -179,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.28 billion",
+      "value": 11.28,
+      "unit": "billion",
+      "money_mn": 11280.0,
+      "decimals": 2,
+      "context": "...billion after $179 million of capital expenditure  . Buybacks of $11.28 billion exceeded free cash flow by about $1.4 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11.28 billion",
+        "snippet": "...we entered into stock repurchase arrangements with large financial institutions and made payments totaling $11.28 billion to repurchase shares."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.4 billion",
+      "value": 1.4,
+      "unit": "billion",
+      "money_mn": 1400.0,
+      "decimals": 1,
+      "context": ".... Buybacks of $11.28 billion exceeded free cash flow by about $1.4 billion, and $1.5 billion of debt was repaid  .  The...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,413",
+        "snippet": "...5,764 5,351 13 % % Percentage of total revenue 27 % % 27 % % 28 % % General and administrative 1,573 1,529 1,413 3 % % Percentage of total revenue 7 % % 7 % % 7 % %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.5 billion",
+      "value": 1.5,
+      "unit": "billion",
+      "money_mn": 1500.0,
+      "decimals": 1,
+      "context": "...$11.28 billion exceeded free cash flow by about $1.4 billion, and $1.5 billion of debt was repaid  .  The trend against...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.5 billion",
+        "snippet": "...notes outstanding and a $3 billion commercial paper program with no amounts outstanding. We also had a $1.5 billion senior unsecured revolving credit agreement, which was undrawn. This debt or future additional indebtedness..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.61 billion",
+      "value": 26.61,
+      "unit": "billion",
+      "money_mn": 26610.0,
+      "decimals": 2,
+      "context": "...against consensus is supportive. Fiscal 2026 revenue is expected at $26.61 billion, up 11.9%, with EPS of $24.47  , dated after the...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "26,607.2 million",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.47",
+      "value": 24.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...2026 revenue is expected at $26.61 billion, up 11.9%, with EPS of $24.47  , dated after the     . EPS beat estimates in...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "24.47",
+        "snippet": "...revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$53 million",
+      "value": 53.0,
+      "unit": "million",
+      "money_mn": 53.0,
+      "decimals": 0,
+      "context": "...margin led its peer group in fiscal 2025  . Net cash moved from -$53 million at fiscal year-end to -$1.12 billion in the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "53",
+        "snippet": "53 Chief Legal Officer and Executive Vice President, Legal and Government Relations"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.12 billion",
+      "value": 1.12,
+      "unit": "billion",
+      "money_mn": 1120.0,
+      "decimals": 2,
+      "context": "...2025  . Net cash moved from -$53 million at fiscal year-end to -$1.12 billion in the latest quarter, so the capital return is...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1,123.0 million",
+        "snippet": "...(2026-08-31): cash and short-term investments $5,639.0 million, total debt $6,762.0 million, net cash -$1,123.0 million, TTM free cash flow $10,592.0 million, cash runway at that burn self-funded, current ratio 0.8x, shares..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Fiscal 2025 was a strong year for Adobe's profit line. Revenue rose 10.5% to $23.77 billion, and subscriptions made up 96%...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "96%",
+      "value": 96.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 10.5% to $23.77 billion, and subscriptions made up 96% of the total  . Digital Media added $1.79...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "96 %",
+        "snippet": "...2025 2024 2023 % Change 2025-2024 Subscription $ 22,904 $ 20,521 $ 18,284 12 % % Percentage of total revenue 96 % % 95 % % 94 % % Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion to reach $17.65 billion, while Digital Experience grew 9% to $5.86 billion  . Publishing and Advertising...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "experience",
+          "digital"
+        ],
+        "hl": "9 %",
+        "snippet": "...$ 14,216 11 % % Percentage of total revenue 74 % % 74 % % 73 % % Digital Experience 5,864 5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 % % Publishing and Advertising 256 275 300 (7) % %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 9% to $5.86 billion  . Publishing and Advertising fell 7% to $256 million, the only segment that shrank  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "publishing",
+          "advertising"
+        ],
+        "hl": "7) %",
+        "snippet": "...5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 % % Publishing and Advertising 256 275 300 (7) % % Percentage of total revenue 1 % % 1 % % 2 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.3%",
+      "value": 89.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million, the only segment that shrank  . Gross margin widened to 89.3% from 89.0%. Operating income was $8.71 billion,...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 89.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.0%",
+      "value": 89.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the only segment that shrank  . Gross margin widened to 89.3% from 89.0%. Operating income was $8.71 billion, about 36.6%...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 89.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36.6%",
+      "value": 36.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to 89.3% from 89.0%. Operating income was $8.71 billion, about 36.6% of revenue  . Net income rose 28% to $7.13...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "28%",
+      "value": 28.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income was $8.71 billion, about 36.6% of revenue  . Net income rose 28% to $7.13 billion, and diluted EPS rose 35% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "28%",
+        "snippet": "• Net income of $7.13 billion during fiscal 2025 increased by $1.57 billion, or 28%, compared to fiscal 2024."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Net income rose 28% to $7.13 billion, and diluted EPS rose 35% to $16.70  . Both growth rates are flattered by...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...tax-deductible  . Excluding that fee, operating expenses rose about 10%, which is the more useful run-rate  .  Cost...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10) %",
+        "snippet": "...Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...run-rate  .  Cost growth was uneven. Sales and marketing rose 13% to $6.49 billion, mainly on advertising, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "marketing"
+        ],
+        "hl": "13 %",
+        "snippet": "...3,944 $ 3,473 9 % % Percentage of total revenue 18 % % 18 % % 18 % % Sales and marketing 6,488 5,764 5,351 13 % % Percentage of total revenue 27 % % 27 % % 28 % % General and administrative 1,573 1,529 1,413 3 % %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion, mainly on advertising, and research and development rose 9% to $4.29 billion, mainly on compensation  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "research",
+          "development"
+        ],
+        "hl": "9 %",
+        "snippet": "2025 2024 2023 % Change 2025-2024 Research and development $ 4,294 $ 3,944 $ 3,473 9 % % Percentage of total revenue 18 % % 18 % % 18 % % Sales and marketing 6,488 5,764 5,351 13 % % Percentage..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...mainly on compensation  . Subscription cost of revenue rose 13% to $2.03 billion, with hosting and data-centre...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 2,027 $ 1,799 $ 1,822 13 % % Percentage of total revenue 9 % % 8 % % 9 % % Product 23 25 29 (8) % % Percentage of total revenue * * *..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...AI inference became a larger cost  . The effective tax rate fell to 18% from 20%, while interest expense rose to $263...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "rate",
+          "effective",
+          "tax"
+        ],
+        "hl": "18 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...became a larger cost  . The effective tax rate fell to 18% from 20%, while interest expense rose to $263 million...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "rate",
+          "effective",
+          "tax"
+        ],
+        "hl": "20 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$169 million  . Cash generation improved: operating cash flow rose 25% to $10.03 billion, and free cash flow reached...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25%",
+        "snippet": "• Cash flows from operations of $10.03 billion during fiscal 2025 increased by $1.98 billion, or 25%, compared to fiscal 2024. Fiscal 2024 cash flows from operations were adversely impacted by payment of the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...supportive. Fiscal 2026 revenue is expected at $26.61 billion, up 11.9%, with EPS of $24.47  , dated after the     . EPS...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.9%",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.7%",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...estimates in each of the last four reported quarters, by between 0.7% and 3.2%  . Adobe's 41.3% EBITDA margin led its...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "0.7%",
+        "snippet": "- Quarter ending 2026-08-31: EPS $6.13 vs estimate $6.09 (surprise +0.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3.2%",
+      "value": 3.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in each of the last four reported quarters, by between 0.7% and 3.2%  . Adobe's 41.3% EBITDA margin led its peer...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3.25%",
+        "snippet": "...was primarily due to payments for our common stock repurchases and repayment of our 1.90% 2025 Notes and 3.25% 2025 Notes. These uses of cash were offset in part by proceeds from the issuance of senior notes. See the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.3%",
+      "value": 41.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...last four reported quarters, by between 0.7% and 3.2%  . Adobe's 41.3% EBITDA margin led its peer group in fiscal 2025...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 41.3%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $2.03 billion, with hosting and data-centre costs contributing 8 points as AI inference became a larger cost  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8K",
+        "snippet": "...Our customers can import and combine various types of media, from video shot on a mobile device to 8K to virtual reality, and then edit in its native format without transcoding. Automated tools and workflows..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.5 billion",
+      "value": 1.5,
+      "unit": "billion",
+      "money_mn": 1500.0,
+      "decimals": 1,
+      "context": "...outside the United States  . Liquidity is a partial cushion, with a $1.5 billion undrawn revolver and no commercial paper...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.5 billion",
+        "snippet": "...notes outstanding and a $3 billion commercial paper program with no amounts outstanding. We also had a $1.5 billion senior unsecured revolving credit agreement, which was undrawn. This debt or future additional indebtedness..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$(37) million",
+      "value": 37.0,
+      "unit": "million",
+      "money_mn": 37.0,
+      "decimals": 0,
+      "context": ".... Funding is tighter than it looks, though. Working capital was $(37) million, the current ratio was 1.0x, and tangible book...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "37)",
+        "snippet": "...29, 2024 Cash and cash equivalents $ 5,431 $ 7,613 Short-term investments $ 1,164 $ 273 Working capital $ (37) $ 711 Stockholders’ equity $ 11,623 $ 14,105"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.73 billion",
+      "value": 1.73,
+      "unit": "billion",
+      "money_mn": 1730.0,
+      "decimals": 2,
+      "context": "...million, the current ratio was 1.0x, and tangible book value was -$1.73 billion after buybacks  . Latest-quarter cash of $5.64...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Tangible Book Value 2025-11-30: -1,729,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.64 billion",
+      "value": 5.64,
+      "unit": "billion",
+      "money_mn": 5640.0,
+      "decimals": 2,
+      "context": "...value was -$1.73 billion after buybacks  . Latest-quarter cash of $5.64 billion sat below total debt of $6.76 billion, and the...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "5,639.0 million",
+        "snippet": "- Latest quarter (2026-08-31): cash and short-term investments $5,639.0 million, total debt $6,762.0 million, net cash -$1,123.0 million, TTM free cash flow $10,592.0 million, cash runway..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.76 billion",
+      "value": 6.76,
+      "unit": "billion",
+      "money_mn": 6760.0,
+      "decimals": 2,
+      "context": ".... Latest-quarter cash of $5.64 billion sat below total debt of $6.76 billion, and the current ratio fell to 0.8x  . The...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Selling General And Administration 2023-11-30: 6,764,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.9 billion",
+      "value": 1.9,
+      "unit": "billion",
+      "money_mn": 1900.0,
+      "decimals": 1,
+      "context": "...the current ratio fell to 0.8x  . The Semrush cash outlay of about $1.9 billion will reduce that buffer further  . Financial...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.9 billion",
+        "snippet": "...to acquire Semrush Holdings, Inc., a publicly held brand visibility platform company, for approximately $1.9 billion of cash consideration. The transaction is subject to regulatory approvals and customary closing conditions..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...AI inference and hosting pushed subscription cost of revenue up 13%  .  The second risk is cybersecurity. Adobe's...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 2,027 $ 1,799 $ 1,822 13 % % Percentage of total revenue 9 % % 8 % % 9 % % Product 23 25 29 (8) % % Percentage of total revenue * * *..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.0x",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...though. Working capital was $(37) million, the current ratio was 1.0x, and tangible book value was -$1.73 billion...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "1.0",
+        "snippet": "...cash -$53.0 million, free cash flow $9,852.0 million, cash runway at that burn self-funded, current ratio 1.0x, shares outstanding 413.0 million, change in share count y/y -6.3%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.8x",
+      "value": 0.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...below total debt of $6.76 billion, and the current ratio fell to 0.8x  . The Semrush cash outlay of about $1.9 billion...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.8",
+        "snippet": "...-$1,123.0 million, TTM free cash flow $10,592.0 million, cash runway at that burn self-funded, current ratio 0.8x, shares outstanding 391.0 million, change in share count y/y -6.9%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Financial quality scores are reassuring, with a Piotroski score of 7 of 9, an Altman Z-score of 7.01, and a Beneish...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "altman",
+          "z-score"
+        ],
+        "hl": "7.01",
+        "snippet": "- Altman Z-Score: 7.01 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quality scores are reassuring, with a Piotroski score of 7 of 9, an Altman Z-score of 7.01, and a Beneish...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 7 of 9 available criteria; failed: Leverage (long-term debt / assets) lower, Current ratio improved"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.01",
+      "value": 7.01,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...reassuring, with a Piotroski score of 7 of 9, an Altman Z-score of 7.01, and a Beneish M-score of -2.85 that shows no...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "altman",
+          "z-score"
+        ],
+        "hl": "7.01",
+        "snippet": "- Altman Z-Score: 7.01 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2.85",
+      "value": 2.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 7 of 9, an Altman Z-score of 7.01, and a Beneish M-score of -2.85 that shows no manipulation warning  .",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "m-score",
+          "beneish",
+          "warning"
+        ],
+        "hl": "2.85",
+        "snippet": "- Beneish M-Score: -2.85 (below -1.78: no statistical warning sign)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$37.9 billion",
+      "value": 37.9,
+      "unit": "billion",
+      "money_mn": 37900.0,
+      "decimals": 1,
+      "context": "...and it is the largest of the peers, with fiscal 2025 revenue of $37.9 billion against Adobe's $23.8 billion  . Intuit (INTU)...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM Revenue 2025: 37895"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.8 billion",
+      "value": 23.8,
+      "unit": "billion",
+      "money_mn": 23800.0,
+      "decimals": 1,
+      "context": "...peers, with fiscal 2025 revenue of $37.9 billion against Adobe's $23.8 billion  . Intuit (INTU) is a similar-scale, mostly...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23,769",
+        "snippet": "...% Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.8 billion",
+      "value": 18.8,
+      "unit": "billion",
+      "money_mn": 18800.0,
+      "decimals": 1,
+      "context": "...company selling to professionals and consumers, with revenue of $18.8 billion  . Figma was excluded despite the closest...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTU Revenue 2025: 18831"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.3%",
+      "value": 41.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...leads the group on profitability. Its fiscal 2025 EBITDA margin of 41.3% compares with 31.3% at Intuit, 29.4% at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 41.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.3%",
+      "value": 31.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...profitability. Its fiscal 2025 EBITDA margin of 41.3% compares with 31.3% at Intuit, 29.4% at Salesforce and 25.3% at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "INTU EBITDA Margin 2025: 31.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.4%",
+      "value": 29.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fiscal 2025 EBITDA margin of 41.3% compares with 31.3% at Intuit, 29.4% at Salesforce and 25.3% at Autodesk  . Its ROIC...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "CRM EBITDA Margin 2025: 29.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.3%",
+      "value": 25.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 41.3% compares with 31.3% at Intuit, 29.4% at Salesforce and 25.3% at Autodesk  . Its ROIC of 41.4% compares with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ADSK EBITDA Margin 2025: 25.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.4%",
+      "value": 41.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at Intuit, 29.4% at Salesforce and 25.3% at Autodesk  . Its ROIC of 41.4% compares with 22.4% at Autodesk, 15.8% at Intuit...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2025: 41.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.4%",
+      "value": 22.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Salesforce and 25.3% at Autodesk  . Its ROIC of 41.4% compares with 22.4% at Autodesk, 15.8% at Intuit and 9.2% at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ADSK ROIC 2025: 22.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.8%",
+      "value": 15.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at Autodesk  . Its ROIC of 41.4% compares with 22.4% at Autodesk, 15.8% at Intuit and 9.2% at Salesforce  . Gross margin...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "INTU ROIC 2025: 15.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.2%",
+      "value": 9.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ROIC of 41.4% compares with 22.4% at Autodesk, 15.8% at Intuit and 9.2% at Salesforce  . Gross margin of 89.3% was...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "CRM ROIC 2025: 9.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.3%",
+      "value": 89.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Autodesk, 15.8% at Intuit and 9.2% at Salesforce  . Gross margin of 89.3% was second only to Autodesk's 90.6%, and well...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 89.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "90.6%",
+      "value": 90.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Salesforce  . Gross margin of 89.3% was second only to Autodesk's 90.6%, and well above Intuit's 79.6% and Salesforce's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "ADSK Gross Margin 2024: 90.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "79.6%",
+      "value": 79.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...89.3% was second only to Autodesk's 90.6%, and well above Intuit's 79.6% and Salesforce's 77.2%  . Revenue growth of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTU Gross Margin 2025: 79.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "77.2%",
+      "value": 77.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to Autodesk's 90.6%, and well above Intuit's 79.6% and Salesforce's 77.2%  . Revenue growth of 10.5% was below Intuit's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM Gross Margin 2025: 77.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...above Intuit's 79.6% and Salesforce's 77.2%  . Revenue growth of 10.5% was below Intuit's 15.6% and Autodesk's 11.5%,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 10.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.6%",
+      "value": 15.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Salesforce's 77.2%  . Revenue growth of 10.5% was below Intuit's 15.6% and Autodesk's 11.5%, and above Salesforce's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "INTU Revenue Growth 2025: 15.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Revenue growth of 10.5% was below Intuit's 15.6% and Autodesk's 11.5%, and above Salesforce's 8.7%  . Adobe's growth...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "ADSK Revenue Growth 2025: 11.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.7%",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...below Intuit's 15.6% and Autodesk's 11.5%, and above Salesforce's 8.7%  . Adobe's growth is slower than the fastest...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM Revenue Growth 2025: 8.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... The multiple fell from 28.4 in fiscal 2024 while EBITDA rose 23%, which points to a lower valuation rather than...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "ADSK EBITDA Margin 2023: 23.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.8%",
+      "value": 28.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...are anomalous and were not relied on  . Adobe's ROIC rose from 28.8% to 41.4% in one year, which needs checking...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2024: 28.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41.4%",
+      "value": 41.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...anomalous and were not relied on  . Adobe's ROIC rose from 28.8% to 41.4% in one year, which needs checking against the...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2025: 41.4%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.1x",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the closest product overlap, because its revenue is only about 0.1x Adobe's.  Adobe leads the group on...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ADSK Tax Rate For Calcs 2023-01-31: 0 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "13.59",
+      "value": 13.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...than Autodesk's or Intuit's  .  On valuation, Adobe's EV/EBITDA of 13.59 was the lowest of the four, against 43.63 at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 13.59"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "43.63",
+      "value": 43.63,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Adobe's EV/EBITDA of 13.59 was the lowest of the four, against 43.63 at Autodesk, 37.85 at Intuit and 29.73 at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "ADSK EV/EBITDA 2025: 43.63"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "37.85",
+      "value": 37.85,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 13.59 was the lowest of the four, against 43.63 at Autodesk, 37.85 at Intuit and 29.73 at Salesforce  . The...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTU EV/EBITDA 2025: 37.85"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "29.73",
+      "value": 29.73,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...lowest of the four, against 43.63 at Autodesk, 37.85 at Intuit and 29.73 at Salesforce  . The multiple fell from 28.4 in...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "CRM EV/EBITDA 2025: 29.73"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "28.4",
+      "value": 28.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...37.85 at Intuit and 29.73 at Salesforce  . The multiple fell from 28.4 in fiscal 2024 while EBITDA rose 23%, which...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2024: 28.4"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.38",
+      "value": 1.38,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...against the invested capital base  . Adobe's FCF conversion of 1.38 was in line with peers but not a leader  . The...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "FCF Conversion 2025: 1.38"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$25.20 billion",
+      "value": 25.2,
+      "unit": "billion",
+      "money_mn": 25200.0,
+      "decimals": 2,
+      "context": "...2026 revenue growth of 11.9% is achievable. Total ARR rose 11.5% to $25.20 billion in fiscal 2025  ; consensus expects fiscal 2026...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25.20 billion",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.61 billion",
+      "value": 26.61,
+      "unit": "billion",
+      "money_mn": 26610.0,
+      "decimals": 2,
+      "context": "...billion in fiscal 2025  ; consensus expects fiscal 2026 revenue of $26.61 billion, up 11.9%  . Total ARR growth at or above 11% in...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "26,607.2 million",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.71 billion",
+      "value": 8.71,
+      "unit": "billion",
+      "money_mn": 8710.0,
+      "decimals": 2,
+      "context": "...pricing and mix offset the cost increase. Operating income of $8.71 billion and gross margin of 89.3% in fiscal 2025  ;...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Operating Income As Reported 2025-11-30: 8,706,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.03 billion",
+      "value": 2.03,
+      "unit": "billion",
+      "money_mn": 2029.9999999999998,
+      "decimals": 2,
+      "context": "...in fiscal 2025  ; subscription cost of revenue still rose 13% to $2.03 billion  . Gross margin at or above 89% in each fiscal...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2030",
+        "snippet": "...obligations under the EU AI Act have gone into effect and will continue to be implemented in phases through 2030, and other jurisdictions have passed or are considering similarly focused legislation. Some of our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$91.8 billion",
+      "value": 91.8,
+      "unit": "billion",
+      "money_mn": 91800.0,
+      "decimals": 1,
+      "context": "...The reverse DCF implies about zero revenue growth for ten years at $91.8 billion enterprise value  ; forward P/E is 9.5x and the...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "91,762.4 million",
+        "snippet": "- The current enterprise value of $91,762.4 million implies revenue growth of -0.0% per year for 10 years (FY2025 revenue $23,769.0 million -> about $23,653.5..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.47",
+      "value": 24.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...IRR is 17.1%  . EPS consensus for fiscal 2026 holds at or above $24.47, with another quarterly EPS beat in the next...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "24.47",
+        "snippet": "...revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.85 billion",
+      "value": 9.85,
+      "unit": "billion",
+      "money_mn": 9850.0,
+      "decimals": 2,
+      "context": "...of the capital return and debt is manageable. Free cash flow was $9.85 billion, against $11.28 billion of buybacks  ; net cash...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-11-30: 9,852,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.28 billion",
+      "value": 11.28,
+      "unit": "billion",
+      "money_mn": 11280.0,
+      "decimals": 2,
+      "context": "...and debt is manageable. Free cash flow was $9.85 billion, against $11.28 billion of buybacks  ; net cash fell to -$1.12 billion...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11.28 billion",
+        "snippet": "...we entered into stock repurchase arrangements with large financial institutions and made payments totaling $11.28 billion to repurchase shares."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$1.12 billion",
+      "value": 1.12,
+      "unit": "billion",
+      "money_mn": 1120.0,
+      "decimals": 2,
+      "context": "...billion, against $11.28 billion of buybacks  ; net cash fell to -$1.12 billion in the latest quarter and the current ratio to...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1,123.0 million",
+        "snippet": "...(2026-08-31): cash and short-term investments $5,639.0 million, total debt $6,762.0 million, net cash -$1,123.0 million, TTM free cash flow $10,592.0 million, cash runway at that burn self-funded, current ratio 0.8x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10 billion",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 0,
+      "context": "...and the current ratio to 0.8x  . Operating cash flow of at least $10 billion for fiscal 2026, with the current ratio at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10.03 billion",
+        "snippet": "• Cash flows from operations of $10.03 billion during fiscal 2025 increased by $1.98 billion, or 25%, compared to fiscal 2024. Fiscal 2024 cash flows from..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of 11.9% is achievable. Total ARR rose 11.5% to $25.20...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.9%",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.5%",
+      "value": 11.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fiscal 2026 revenue growth of 11.9% is achievable. Total ARR rose 11.5% to $25.20 billion in fiscal 2025  ; consensus...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.9%",
+      "value": 11.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2025  ; consensus expects fiscal 2026 revenue of $26.61 billion, up 11.9%  . Total ARR growth at or above 11% in each...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "11.9%",
+        "snippet": "- FY2026E: revenue $26,607.2 million (range $26,540.0 million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue of $26.61 billion, up 11.9%  . Total ARR growth at or above 11% in each fiscal 2026 quarterly report. Total ARR...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "arr"
+        ],
+        "hl": "11.5%",
+        "snippet": "Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth. Revaluing our ending ARR for fiscal 2025 using currency rates determined at the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...11% in each fiscal 2026 quarterly report. Total ARR growth below 10% in any fiscal 2026 quarter, or a cut to fiscal...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10) %",
+        "snippet": "...Product 325 386 460 (16) % % Percentage of total revenue 2 % % 2 % % 2 % % Services and other 540 598 665 (10) % % Percentage of total revenue 2 % % 3 % % 4 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89.3%",
+      "value": 89.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...increase. Operating income of $8.71 billion and gross margin of 89.3% in fiscal 2025  ; subscription cost of revenue...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 89.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 89.3% in fiscal 2025  ; subscription cost of revenue still rose 13% to $2.03 billion  . Gross margin at or above 89%...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "subscription"
+        ],
+        "hl": "13 %",
+        "snippet": "(dollars in millions) 2025 2024 2023 % Change 2025-2024 Subscription $ 2,027 $ 1,799 $ 1,822 13 % % Percentage of total revenue 9 % % 8 % % 9 % % Product 23 25 29 (8) % % Percentage of total revenue * * *..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "89%",
+      "value": 89.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue still rose 13% to $2.03 billion  . Gross margin at or above 89% in each fiscal 2026 quarterly report. Gross...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 89.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "88%",
+      "value": 88.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...above 89% in each fiscal 2026 quarterly report. Gross margin below 88%, or subscription cost growth above revenue...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2022: 87.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...enterprise value  ; forward P/E is 9.5x and the implied IRR is 17.1%  . EPS consensus for fiscal 2026 holds at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17 %",
+        "snippet": "$ 1,604 $ 1,371 $ 1,371 17 % % Effective tax rate 18 % % 20 % % 20 % %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reported quarter. EPS consensus for fiscal 2026 is cut by more than 3%, or the company misses EPS estimates. Funding is...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "consensu"
+        ],
+        "hl": "2.5%",
+        "snippet": "...(IRR): buying at the current enterprise value and assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 17.1% per year (+5.3 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "9.5x",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for ten years at $91.8 billion enterprise value  ; forward P/E is 9.5x and the implied IRR is 17.1%  . EPS consensus...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "9.5",
+        "snippet": "...million to $26,712.0 million, 35 analysts), growth +11.9%; EPS $24.47 (range $24.10 to $24.60); forward P/E 9.5x; EV/Sales 3.4x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.8x",
+      "value": 0.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to -$1.12 billion in the latest quarter and the current ratio to 0.8x  . Operating cash flow of at least $10 billion...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "0.8",
+        "snippet": "...-$1,123.0 million, TTM free cash flow $10,592.0 million, cash runway at that burn self-funded, current ratio 0.8x, shares outstanding 391.0 million, change in share count y/y -6.9%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.0x",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$10 billion for fiscal 2026, with the current ratio at or above 1.0x by the fiscal 2026 year-end. Net debt rises...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "1.0",
+        "snippet": "...cash -$53.0 million, free cash flow $9,852.0 million, cash runway at that burn self-funded, current ratio 1.0x, shares outstanding 413.0 million, change in share count y/y -6.3%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17650.0 million",
+      "value": 17650.0,
+      "unit": "million",
+      "money_mn": 17650.0,
+      "decimals": 1,
+      "context": "Digital Media: $17650.0 million, prior $15860.0 million; Digital Experience:...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17.65 billion",
+        "snippet": "...in driving growth in ARR has positively affected our revenue growth. Digital Media segment revenue grew to $17.65 billion in fiscal 2025, up from $15.86 billion in fiscal 2024, representing 11% year-over-year growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15860.0 million",
+      "value": 15860.0,
+      "unit": "million",
+      "money_mn": 15860.0,
+      "decimals": 1,
+      "context": "Digital Media: $17650.0 million, prior $15860.0 million; Digital Experience: $5860.0 million, prior...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "15.86 billion",
+        "snippet": "...affected our revenue growth. Digital Media segment revenue grew to $17.65 billion in fiscal 2025, up from $15.86 billion in fiscal 2024, representing 11% year-over-year growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5860.0 million",
+      "value": 5860.0,
+      "unit": "million",
+      "money_mn": 5860.0,
+      "decimals": 1,
+      "context": "...$17650.0 million, prior $15860.0 million; Digital Experience: $5860.0 million, prior $5370.0 million; Publishing and...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.86 billion",
+        "snippet": "Digital Experience revenue was $5.86 billion in fiscal 2025, up from $5.37 billion in fiscal 2024, representing 9% year-over-year growth. Subscription..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5370.0 million",
+      "value": 5370.0,
+      "unit": "million",
+      "money_mn": 5370.0,
+      "decimals": 1,
+      "context": "...prior $15860.0 million; Digital Experience: $5860.0 million, prior $5370.0 million; Publishing and Advertising: $256.0 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.37 billion",
+        "snippet": "Digital Experience revenue was $5.86 billion in fiscal 2025, up from $5.37 billion in fiscal 2024, representing 9% year-over-year growth. Subscription revenue grew to $5.41 billion in fiscal..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$256.0 million",
+      "value": 256.0,
+      "unit": "million",
+      "money_mn": 256.0,
+      "decimals": 1,
+      "context": "...$5860.0 million, prior $5370.0 million; Publishing and Advertising: $256.0 million, prior $275.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "256",
+        "snippet": "...5,864 5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 % % Publishing and Advertising 256 275 300 (7) % % Percentage of total revenue 1 % % 1 % % 2 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$275.0 million",
+      "value": 275.0,
+      "unit": "million",
+      "money_mn": 275.0,
+      "decimals": 1,
+      "context": "...$5370.0 million; Publishing and Advertising: $256.0 million, prior $275.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "275",
+        "snippet": "...5,864 5,366 4,893 9 % % Percentage of total revenue 25 % % 25 % % 25 % % Publishing and Advertising 256 275 300 (7) % % Percentage of total revenue 1 % % 1 % % 2 % % Total revenue $ 23,769 $ 21,505 $ 19,409 11 % %..."
+      }
+    }
+  ],
+  "peer_tickers": [
+    "ADSK",
+    "CRM",
+    "INTU"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 187,
+    "matched": 180,
+    "match_rate": 0.963,
+    "name_issues": 0
+  }
+}

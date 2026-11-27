@@ -37,6 +37,8 @@ from finrobot.agents.workflow import MultiAssistant, MultiAssistantWithLeader
 from . import news_tools
 from .outlook_tools import get_consensus_and_liquidity
 from .tenk_search import make_tenk_search
+from .style import STYLE_RULES
+from . import agent_settings as _AS  # Prompts/Parameter aus der App (research/agent_settings.json)
 
 FR = Path(__file__).resolve().parents[2] / "finrobot_autogen"
 WITH_LEADER = {"Market Sentiment Analysts": True, "Risk Assessment Analysts": True, "Fundamental Analysts": True}
@@ -123,9 +125,9 @@ def build_committee(llm_config, ticker, fyear, max_auto_reply=20):
     return main, groups, user_proxy
 
 
-def committee_task(ticker, fyear, today=None):
+def committee_task(ticker, fyear, today=None, context=None):
     today = today or date.today().isoformat()
-    return dedent(f"""
+    task = dedent(f"""
         Subject: Evaluate Investment Potential and Determine 6-Month Target Price for {ticker}
 
         Task Description:
@@ -166,14 +168,20 @@ def committee_task(ticker, fyear, today=None):
         Integrate the findings, give the 6-month target price, a recommendation (buy / hold / sell) with rationale,
         and end with a line "TARGET PRICE: <number>" and a line "RECOMMENDATION: <buy|hold|sell>".
     """).strip()
+    task += "\n\n" + STYLE_RULES + " In the final report, state the variant view, the main bear case and what " \
+        "would change the recommendation."
+    task += _AS.extra("committee.extra")
+    if context:  # Pipeline: Thesen, Thesen-Status und News-Signale der anderen Agenten
+        task += "\n\n" + str(context).strip()
+    return task
 
 
-def run_committee(llm_config, ticker, fyear, out_dir, max_auto_reply=20, max_turns=30):
+def run_committee(llm_config, ticker, fyear, out_dir, max_auto_reply=20, max_turns=30, context=None):
     """Startet das Komitee und speichert Abschlussbericht und Verlauf als Markdown."""
     ticker = ticker.upper()
     os.makedirs(out_dir, exist_ok=True)
     main, groups, user_proxy = build_committee(llm_config, ticker, fyear, max_auto_reply)
-    task = committee_task(ticker, fyear)
+    task = committee_task(ticker, fyear, context=context)
     result = user_proxy.initiate_chat(main.representative, message=task, cache=None, max_turns=max_turns)
     history = user_proxy.chat_messages.get(main.representative, [])
     own = [m for m in main.representative.chat_messages.get(user_proxy, []) if m.get("role") == "assistant"]

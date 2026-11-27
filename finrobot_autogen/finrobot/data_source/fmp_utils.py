@@ -51,30 +51,38 @@ def _ticker_to_cik() -> dict:
     return {v["ticker"].upper(): int(v["cik_str"]) for v in r.json().values()}
 
 
+ANNUAL_FORMS = ("10-K", "20-F", "40-F")      # 20-F/40-F: auslaendische Emittenten (z. B. ASML, TSMC)
+
+
+@lru_cache(maxsize=64)
+def _submissions(cik: int) -> dict:
+    """EDGAR-Einreichungsliste eines Emittenten (je Lauf einmal abgerufen)."""
+    r = requests.get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", headers=_sec_headers(), timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+
 def _find_10k(ticker_symbol: str, fyear: str) -> dict:
-    """Sucht ein 10-K in EDGAR. fyear = Geschaeftsjahr (Periodenende) oder 'latest'."""
+    """Sucht den Jahresbericht in EDGAR: 10-K oder, bei auslaendischen Emittenten, 20-F/40-F.
+    fyear = Geschaeftsjahr (Periodenende) oder 'latest'. Rueckgabe enthaelt 'form'."""
     cik = _ticker_to_cik().get(ticker_symbol.upper())
     if cik is None:
         raise ValueError(
             f"Ticker '{ticker_symbol}' ist bei der SEC nicht registriert. "
             "Nicht-US-Firmen ohne SEC-Berichte (z. B. Euronext-Werte) haben kein 10-K."
         )
-    r = requests.get(
-        f"https://data.sec.gov/submissions/CIK{cik:010d}.json", headers=_sec_headers(), timeout=30
-    )
-    r.raise_for_status()
-    rec = r.json()["filings"]["recent"]
+    rec = _submissions(cik)["filings"]["recent"]
     filings = [
         {"form": f, "filing_date": d, "report_date": rd, "accession": a, "doc": p}
         for f, d, rd, a, p in zip(
             rec["form"], rec["filingDate"], rec["reportDate"],
             rec["accessionNumber"], rec["primaryDocument"],
         )
-        if f in ("10-K", "10-K/A")
+        if f.replace("/A", "") in ANNUAL_FORMS and rd
     ]
-    originals = [f for f in filings if f["form"] == "10-K"] or filings
+    originals = [f for f in filings if f["form"] in ANNUAL_FORMS] or filings
     if not originals:
-        raise ValueError(f"Keine 10-K-Einreichung fuer {ticker_symbol} in EDGAR gefunden.")
+        raise ValueError(f"Kein Jahresbericht (10-K/20-F) fuer {ticker_symbol} in EDGAR gefunden.")
     if str(fyear).lower() == "latest":
         hit = originals[0]
     else:
@@ -140,9 +148,11 @@ def _fmt_pct(v):
     return NA if v is None else "{}%".format(round(v * 100, 1))
 
 
-def metrics_from_frames(inc, bs, cf, prices, years: int = 4) -> pd.DataFrame:
+def metrics_from_frames(inc, bs, cf, prices, years: int = 4, conv=None) -> pd.DataFrame:
     """Berechnet die Kennzahlen-Tabelle aus Jahresabschluessen (Spalten = Stichtage).
-    Getrennt von den Downloads, damit sie ohne Internet testbar ist."""
+    Getrennt von den Downloads, damit sie ohne Internet testbar ist.
+    conv(datum): Faktor, der Kurs x Aktienzahl in den Boersenwert in Berichtswaehrung umrechnet (ADR-Verhaeltnis,
+    Wechselkurs; z. B. TSMC: ADR in USD, Abschluss in TWD). None = gleiche Waehrung, 1 Aktie je Kurs."""
     # Geschaeftsjahre ohne Umsatz (Yahoo liefert teils leere Spalten) werden verworfen
     inc = inc[[c for c in inc.columns if _val(inc, "Total Revenue", c) is not None]]
     cols = sorted(inc.columns, reverse=True)[:years]
@@ -170,6 +180,9 @@ def metrics_from_frames(inc, bs, cf, prices, years: int = 4) -> pd.DataFrame:
             fcf = None if ocf is None or capex is None else ocf + capex
         price = _price_on_or_before(prices, c)
         mcap = None if price is None or shares is None else price * shares
+        k = conv(c) if conv is not None and mcap is not None else None
+        if conv is not None and mcap is not None:      # Fremdwaehrung: ohne Umrechnung keine Multiples
+            mcap = mcap * k if k is not None else None
         ev = None if mcap is None else mcap + debt - cash
         nopat = None if ebit is None else ebit * (1 - (tax or 0.0))
 
@@ -185,11 +198,53 @@ def metrics_from_frames(inc, bs, cf, prices, years: int = 4) -> pd.DataFrame:
             "ROIC": _fmt_pct(_div(nopat, invested)),
             "EV/EBITDA": _fmt_ratio(_div(ev, ebitda), positive_only=True) if (ebitda or 0) > 0 else "n/m",
             "EV/Sales": _fmt_ratio(_div(ev, rev), positive_only=True),
-            "PE Ratio": _fmt_ratio(_div(price, eps), positive_only=True) if (eps or 0) > 0 else "n/m",
+            "PE Ratio": (_fmt_ratio(_div(mcap, ni), positive_only=True) if (ni or 0) > 0 else "n/m") if conv is not None
+            else (_fmt_ratio(_div(price, eps), positive_only=True) if (eps or 0) > 0 else "n/m"),
             "PB Ratio": _fmt_ratio(_div(mcap, equity), positive_only=True) if (equity or 0) > 0 else "n/m",
         }
     df = pd.DataFrame(out)
     return df.sort_index(axis=1)
+
+
+def fx_series(from_cur: str, to_cur: str, start=None) -> pd.Series:
+    """Wechselkurs to_cur je 1 from_cur (Yahoo, z. B. EURUSD=X), taeglich; leer bei Fehler."""
+    if not from_cur or not to_cur or from_cur == to_cur:
+        return pd.Series(dtype=float)
+    try:
+        h = yf.Ticker(f"{from_cur}{to_cur}=X").history(start=start or "2015-01-01", auto_adjust=False)
+        return h["Close"].dropna() if not h.empty else pd.Series(dtype=float)
+    except Exception:
+        return pd.Series(dtype=float)
+
+
+def market_conv(t, inc, bs, prices):
+    """Umrechnung Kurs x Aktienzahl -> Boersenwert in Berichtswaehrung, oder None wenn nicht noetig.
+    ADR-Verhaeltnis aus Yahoo-Boersenwert / (letzter Kurs x Aktienzahl), Waehrung aus financialCurrency."""
+    try:
+        info = t.info or {}
+    except Exception:
+        info = {}
+    trd, fin = info.get("currency") or "USD", info.get("financialCurrency") or info.get("currency") or "USD"
+    if fin == trd:                                   # gleiche Waehrung: unveraendert wie bisher (Kurs / EPS)
+        return None
+    k_adr = 1.0
+    try:
+        last_c = max(bs.columns)
+        shares = _first(bs, ["Ordinary Shares Number", "Share Issued"], last_c)
+        mc = info.get("marketCap")
+        if shares and mc and len(prices):
+            k_adr = float(mc) / (float(prices.iloc[-1]) * shares)   # Yahoo-Boersenwert / (ADR-Kurs x Aktien)
+    except Exception:
+        pass
+    fx = fx_series(fin, trd, start=(min(inc.columns) - pd.Timedelta(days=10)).strftime("%Y-%m-%d"))
+
+    def conv(date):
+        rate = _price_on_or_before(fx, date) if len(fx) else None
+        if rate is None:
+            return None                              # ohne Wechselkurs keine sinnvolle Umrechnung
+        return k_adr / rate
+    conv.info = {"trading_currency": trd, "financial_currency": fin, "adr_factor": round(k_adr, 4)}
+    return conv
 
 
 def _load_frames(ticker_symbol: str):
@@ -225,11 +280,11 @@ class FMPUtils:
             "fiscal year of the 10-K report (period end), should be 'yyyy' or 'latest'. Default to 'latest'",
         ] = "latest",
     ) -> str:
-        """Get the url and filing date of the 10-K report for a given stock and fiscal year from SEC EDGAR"""
+        """Get the url and filing date of the annual report (10-K, or 20-F for foreign issuers) for a given stock and fiscal year from SEC EDGAR"""
         hit = _find_10k(ticker_symbol, fyear)
         return (
             f"Link: {hit['url']}\nFiling Date: {hit['filing_date']}\n"
-            f"Fiscal Period End: {hit['report_date']}"
+            f"Fiscal Period End: {hit['report_date']}\nForm: {hit['form']}"
         )
 
     def get_historical_market_cap(
@@ -272,7 +327,9 @@ class FMPUtils:
         years: Annotated[int, "number of the years to search from, default to 4"] = 4,
     ) -> pd.DataFrame:
         """Get the financial metrics for a given stock for the last 'years' fiscal years (Yahoo Finance; usually max. 4 years)"""
-        return metrics_from_frames(*_load_frames(ticker_symbol), years=years)
+        inc, bs, cf, prices = _load_frames(ticker_symbol)
+        conv = market_conv(yf.Ticker(ticker_symbol), inc, bs, prices)
+        return metrics_from_frames(inc, bs, cf, prices, years=years, conv=conv)
 
     def get_competitor_financial_metrics(
         ticker_symbol: Annotated[str, "ticker symbol"],

@@ -1,0 +1,4073 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 154,
+  "context_match_rate": 0.851,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...demanding: the enterprise value implies 18.1% annual growth versus 6.5% consensus, so upside needs acceleration  ....",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "6.5%",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 28.9x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...needs acceleration  . Deleveraging should persist, but payouts near 94% of free cash flow leave little room for further...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AI-driven competition  . Shareholder payouts absorbed about 94% of free cash flow  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54%",
+      "value": 54.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in more than 40 countries  . U.S. revenue was $4,171 million, or 54% of the total, and EMEA contributed $2,376...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SPGI EBITDA Margin 2022: 53.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cannot be measured. The geographic mix is more visible: about 39% of 2025 revenue was non-U.S. dollar, and EMEA is...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "39%",
+        "snippet": "Moody’s maintains a presence in more than 40 countries. In 2025, approximately 39% of the Company’s revenue and approximately 38% of the Company's expenses were denominated in functional..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.0%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin reached 43.4% from 40.6%, and net margin reached 31.9% from 29.0%  .\\n\\nDiluted EPS rose 21% to $13.67  . The...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "MSCI ROIC 2022: 28.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...value is negative at -$4.18 billion  . The filing attributes about 94% of these balances to MA, so any impairment would...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 8.9% was second behind MSCI at 9.7%, and ahead of SPGI at 7.9% and MORN at 7.5%  . Its EBITDA margin of 50.4%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8%",
+        "snippet": "— Organic constant currency revenue (1) growth was 7%, and ARR (2) grew 8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.5%",
+      "value": 7.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...second behind MSCI at 9.7%, and ahead of SPGI at 7.9% and MORN at 7.5%  . Its EBITDA margin of 50.4% was level with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "MORN Revenue Growth 2025: 7.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.7%",
+      "value": 29.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...with SPGI at 50.2%, well below MSCI at 61.3%, and far above MORN at 29.7%  . Its gross margin of 74.4% trails only MSCI,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "MORN EBITDA Margin 2025: 29.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.4%",
+      "value": 11.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to MSCI at 38.7%, and well ahead of MORN at 17.6% and SPGI at 11.4%  . Its EV/EBITDA of 24.59x sits near MSCI at...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "11.3%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 33.4% to 33.4% by year 10, a WACC of 11.3% (10y US Treasury (^TNX) 4.8% + beta 1.30 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "20.74x",
+      "value": 20.74,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 24.59x sits near MSCI at 24.97x and above the peer median of 20.74x  . Consensus rates the stock Buy with a $553.67...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SPGI EV/EBITDA 2025: 20.74"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "29.0x",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rates the stock Buy with a $553.67 target, and forward P/E is 29.0x on FY2026 EPS, both dated after the       . Cash...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29",
+        "snippet": "MOODY'S 2025 10-K 29"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.3",
+      "value": 3.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin of 74.4% trails only MSCI, which sits near 82%, and stays 3.3 to 4.6 points above SPGI in every year  .\\n\\nOn...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,295",
+        "snippet": "MA external revenue $ 3,599 $ 3,295 9 % — sustained demand for insurance and KYC offerings; and"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 74.4% trails only MSCI, which sits near 82%, and stays 3.3 to 4.6 points above SPGI in every year  .\\n\\nOn returns...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,572",
+        "snippet": "...2,989 (6) % Non-U.S. 4,981 5,156 (3) % Total 7,803 8,145 (4) % MIS U.S. 1,556 1,571 (1) % Non-U.S. 4,572 4,186 9 % Total 6,128 5,757 6 % MSS U.S. 665 696 (4) % Non-U.S. 1,480 1,240 19 % Total 2,145 1,936..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth and a 12.2% historical three-year CAGR  . The implied IRR is 6.1% against an 11.3% WACC  . Consensus data is dated...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6) %",
+        "snippet": "% MA U.S. 2,822 2,989 (6) % Non-U.S. 4,981 5,156 (3) % Total 7,803 8,145 (4) % MIS U.S. 1,556 1,571 (1) % Non-U.S. 4,572 4,186 9..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...justify the implied path. Deleveraging continues, but payouts near 94% of free cash flow will limit further debt...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of $1.71 billion and dividends of $701 million absorbed about 94% of $2.58 billion free cash flow  . FY2026 total...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a 2.5% miss  . Corporate Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5 %",
+        "snippet": "...States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718 7,088 9 % Expenses: Operating 1,973 1,945 (1 %) SG&A 1,803..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.17x",
+      "value": 2.17,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$7.35 billion from $7.75 billion, and debt to equity to 1.81x from 2.17x  . Buybacks of $1.71 billion and dividends of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,174",
+        "snippet": "...Change Favorable (Unfavorable) 2025 2024 Revenue: United States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718 7,088 9..."
+      }
+    }
+  ],
+  "total_claims": 181,
+  "matched": 174,
+  "match_rate": 0.961,
+  "by_kind": {
+    "pct": {
+      "total": 97,
+      "matched": 91,
+      "context_matched": 76
+    },
+    "money": {
+      "total": 64,
+      "matched": 64,
+      "context_matched": 64
+    },
+    "plain": {
+      "total": 14,
+      "matched": 13,
+      "context_matched": 11
+    },
+    "multiple": {
+      "total": 6,
+      "matched": 6,
+      "context_matched": 3
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 130,
+    "[2] Yahoo Finance": 18,
+    "[2][3] Liquidity and consensus": 15,
+    "[4] Peer data": 11
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "25.6%",
+      "value": 25.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue each grew 9%  . Cost of revenue rose only 1%, cutting it to 25.6% of revenue from 27.4%, which lifted gross margin...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.4%",
+      "value": 27.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Cost of revenue rose only 1%, cutting it to 25.6% of revenue from 27.4%, which lifted gross margin to 74.4% from 72.6%...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "31.9%",
+      "value": 31.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Operating margin reached 43.4% from 40.6%, and net margin reached 31.9% from 29.0%  .\\n\\nDiluted EPS rose 21% to $13.67...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "21.3%",
+      "value": 21.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS rose 21% to $13.67  . The effective tax rate fell to 21.3% from 23.7% because of a 2025 tax benefit,...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "0.66",
+      "value": 0.66,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...flow of $2,575 million divided by EBITDA of $3,891 million gives 0.66, so the definition must be confirmed  . Returns...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "25.6%",
+      "value": 25.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 40.6%, gross margin to 74.4%, and cost of revenue fell to 25.6% of revenue from 27.4%, while operating and SG&A...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.4%",
+      "value": 27.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin to 74.4%, and cost of revenue fell to 25.6% of revenue from 27.4%, while operating and SG&A grew only 3% against...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...as cost growth stays below revenue growth: operating margin reached 43.4% from 40.6%  . The current price looks demanding:...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "43.4%",
+        "snippet": "Operating margin 43.4%, up 280 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.6%",
+      "value": 40.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...stays below revenue growth: operating margin reached 43.4% from 40.6%  . The current price looks demanding: the...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "40.6 %",
+        "snippet": "Operating Margin 43.4 % 40.6 % 280BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.1%",
+      "value": 18.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The current price looks demanding: the enterprise value implies 18.1% annual growth versus 6.5% consensus, so upside...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "value",
+          "enterprise"
+        ],
+        "hl": "18.1%",
+        "snippet": "- The current enterprise value of $89,835.7 million implies revenue growth of 18.1% per year for 10 years (FY2025 revenue $7,718.0 million -> about $40,639.9 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...demanding: the enterprise value implies 18.1% annual growth versus 6.5% consensus, so upside needs acceleration  ....",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "6.5%",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 28.9x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...needs acceleration  . Deleveraging should persist, but payouts near 94% of free cash flow leave little room for further...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.67",
+      "value": 13.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in 2025, lifting operating margin to 43.4% and diluted EPS 21% to $13.67  . Free cash flow reached $2.58 billion, and...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13.67",
+        "snippet": "Diluted EPS $ 13.67 $ 11.26 21 % — increase reflects the aforementioned revenue growth and margin expansion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.58 billion",
+      "value": 2.58,
+      "unit": "billion",
+      "money_mn": 2580.0,
+      "decimals": 2,
+      "context": "...to 43.4% and diluted EPS 21% to $13.67  . Free cash flow reached $2.58 billion, and total debt fell to $7.35 billion...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,575",
+        "snippet": "$ 2,575 $ 2,521 $ 54"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": ".... Free cash flow reached $2.58 billion, and total debt fell to $7.35 billion  .\\n\\nConsensus rates the stock Buy, with a...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 7,351,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$553.67",
+      "value": 553.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...fell to $7.35 billion  .\\n\\nConsensus rates the stock Buy, with a $553.67 target and FY2026 EPS of $16.76  . These figures...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "553",
+        "snippet": "...at 7 World Trade Center at 250 Greenwich Street, New York, NY 10007 and its telephone number is (212) 553-0300."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.76",
+      "value": 16.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...rates the stock Buy, with a $553.67 target and FY2026 EPS of $16.76  . These figures are dated           , after the...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "16.76",
+        "snippet": "...revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 28.9x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Moody's combined 9% revenue growth with margin expansion in 2025,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "expansion",
+          "margin"
+        ],
+        "hl": "9%",
+        "snippet": "Operating margin and Adjusted Operating Margin (1) expansion reflects the 9% increase in revenue, partially offset by growth of 3% in operating and SG&A expenses."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth with margin expansion in 2025, lifting operating margin to 43.4% and diluted EPS 21% to $13.67  . Free cash flow...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "43.4%",
+        "snippet": "Operating margin 43.4%, up 280 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in 2025, lifting operating margin to 43.4% and diluted EPS 21% to $13.67  . Free cash flow reached $2.58...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "21 %",
+        "snippet": "Diluted EPS $ 13.67 $ 11.26 21 % — increase reflects the aforementioned revenue growth and margin expansion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "..., after the     . Consensus expects FY2026 revenue growth of only 6.5%  . The reverse DCF implies 18.1% annual growth...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "6.5%",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 28.9x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.1%",
+      "value": 18.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...FY2026 revenue growth of only 6.5%  . The reverse DCF implies 18.1% annual growth for ten years, against a 12.2%...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply"
+        ],
+        "hl": "18.1%",
+        "snippet": "- The current enterprise value of $89,835.7 million implies revenue growth of 18.1% per year for 10 years (FY2025 revenue $7,718.0 million -> about $40,639.9 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.2%",
+      "value": 12.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reverse DCF implies 18.1% annual growth for ten years, against a 12.2% historical three-year CAGR  . On that path the...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "12.2%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.2%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...historical three-year CAGR  . On that path the implied return is 6.1%, below an 11.3% WACC. The current valuation...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "6.1%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 6.1% per year (-5.2 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.3%",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...CAGR  . On that path the implied return is 6.1%, below an 11.3% WACC. The current valuation therefore requires...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.3%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 33.4% to 33.4% by year 10, a WACC of 11.3% (10y US Treasury (^TNX) 4.8% + beta 1.30 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AI-driven competition  . Shareholder payouts absorbed about 94% of free cash flow  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,599 million",
+      "value": 3599.0,
+      "unit": "million",
+      "money_mn": 3599.0,
+      "decimals": 0,
+      "context": "...two segments: Moody's Analytics (MA), with external revenue of $3,599 million, and Moody's Investors Service (MIS), with...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,599",
+        "snippet": "MA external revenue $ 3,599 $ 3,295 9 % — sustained demand for insurance and KYC offerings; and"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,119 million",
+      "value": 4119.0,
+      "unit": "million",
+      "money_mn": 4119.0,
+      "decimals": 0,
+      "context": "...of $3,599 million, and Moody's Investors Service (MIS), with $4,119 million  . Total 2025 revenue was $7,718 million, up 9%...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,119",
+        "snippet": "MIS external revenue $ 4,119 $ 3,793 9 % — strong investor demand and tight credit spreads supported revenue growth in all ratings LOBs"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,718 million",
+      "value": 7718.0,
+      "unit": "million",
+      "money_mn": 7718.0,
+      "decimals": 0,
+      "context": "...Service (MIS), with $4,119 million  . Total 2025 revenue was $7,718 million, up 9% from $7,088 million, and the company...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7,718",
+        "snippet": "Moody's total revenue $ 7,718 $ 7,088 9 % — reflects strong revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,088 million",
+      "value": 7088.0,
+      "unit": "million",
+      "money_mn": 7088.0,
+      "decimals": 0,
+      "context": "...$4,119 million  . Total 2025 revenue was $7,718 million, up 9% from $7,088 million, and the company employs about 16,000 people in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7,088",
+        "snippet": "Moody's total revenue $ 7,718 $ 7,088 9 % — reflects strong revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,171 million",
+      "value": 4171.0,
+      "unit": "million",
+      "money_mn": 4171.0,
+      "decimals": 0,
+      "context": "...about 16,000 people in more than 40 countries  . U.S. revenue was $4,171 million, or 54% of the total, and EMEA contributed...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,171",
+        "snippet": "...Year Ended December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: United States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,376 million",
+      "value": 2376.0,
+      "unit": "million",
+      "money_mn": 2376.0,
+      "decimals": 0,
+      "context": "...was $4,171 million, or 54% of the total, and EMEA contributed $2,376 million  .\\n\\nMA growth is led by Decision Solutions,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,376",
+        "snippet": "...31, % Change Favorable (Unfavorable) 2025 2024 Revenue: United States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,692 million",
+      "value": 1692.0,
+      "unit": "million",
+      "money_mn": 1692.0,
+      "decimals": 0,
+      "context": "...growth is led by Decision Solutions, where revenue rose 12% to $1,692 million. Insurance grew 15% to $685 million and KYC grew...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,692",
+        "snippet": "...Year Ended December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: Decision Solutions (DS) $ 1,692 $ 1,516 12 % Research and Insights (R&I) 995 926 7 % Data and Information (D&I) 912 853 7 % Total..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$685 million",
+      "value": 685.0,
+      "unit": "million",
+      "money_mn": 685.0,
+      "decimals": 0,
+      "context": "...where revenue rose 12% to $1,692 million. Insurance grew 15% to $685 million and KYC grew 19% to $438 million  . Banking grew...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "685",
+        "snippet": "$ 685 $ 598 $ 87 15% FX impact (2) — (2) Inorganic revenue from acquisitions (40) — (40)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$438 million",
+      "value": 438.0,
+      "unit": "million",
+      "money_mn": 438.0,
+      "decimals": 0,
+      "context": "...million. Insurance grew 15% to $685 million and KYC grew 19% to $438 million  . Banking grew only 3% to $569 million, because...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "438",
+        "snippet": "$ 438 $ 367 $ 71 19% FX impact (9) — (9)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$569 million",
+      "value": 569.0,
+      "unit": "million",
+      "money_mn": 569.0,
+      "decimals": 0,
+      "context": "...million and KYC grew 19% to $438 million  . Banking grew only 3% to $569 million, because transaction revenue fell 18% as MA...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "569",
+        "snippet": "$ 569 $ 551 $ 18 3% FX impact (2) — (2) Inorganic revenue from acquisitions (9) — (9) Divestitures — (5) 5"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$995 million",
+      "value": 995.0,
+      "unit": "million",
+      "money_mn": 995.0,
+      "decimals": 0,
+      "context": "...cloud-hosted subscriptions  . Research and Insights grew 7% to $995 million, and Data and Information grew 7% to $912...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "995",
+        "snippet": "...(Unfavorable) 2025 2024 Revenue: Decision Solutions (DS) $ 1,692 $ 1,516 12 % Research and Insights (R&I) 995 926 7 % Data and Information (D&I) 912 853 7 % Total external revenue 3,599 3,295 9 % Intersegment..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$912 million",
+      "value": 912.0,
+      "unit": "million",
+      "money_mn": 912.0,
+      "decimals": 0,
+      "context": "...grew 7% to $995 million, and Data and Information grew 7% to $912 million  . Total MA annual recurring revenue (ARR)...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "912",
+        "snippet": "...Solutions (DS) $ 1,692 $ 1,516 12 % Research and Insights (R&I) 995 926 7 % Data and Information (D&I) 912 853 7 % Total external revenue 3,599 3,295 9 % Intersegment revenue 12 13 (8 %) Total MA Revenue 3,611..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,498 million",
+      "value": 3498.0,
+      "unit": "million",
+      "money_mn": 3498.0,
+      "decimals": 0,
+      "context": "...to $912 million  . Total MA annual recurring revenue (ARR) reached $3,498 million, up 8% at year-end  .\\n\\nMIS is driven by debt...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,498",
+        "snippet": "1,002 932 70 8% Data and Information 917 859 58 7% Total MA ARR $ 3,498 $ 3,233 $ 265 8%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,132 million",
+      "value": 2132.0,
+      "unit": "million",
+      "money_mn": 2132.0,
+      "decimals": 0,
+      "context": "...driven by debt issuance. Corporate Finance (CFG) revenue rose 9% to $2,132 million, helped by $144 million of transaction revenue...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,132",
+        "snippet": "...Year Ended December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: Corporate finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$144 million",
+      "value": 144.0,
+      "unit": "million",
+      "money_mn": 144.0,
+      "decimals": 0,
+      "context": "...Finance (CFG) revenue rose 9% to $2,132 million, helped by $144 million of transaction revenue from higher...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "144 million",
+        "snippet": "Transaction revenue increased $144 million compared to the prior year, which primarily reflected:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$635 million",
+      "value": 635.0,
+      "unit": "million",
+      "money_mn": 635.0,
+      "decimals": 0,
+      "context": "...issuance  . Public, Project and Infrastructure Finance grew 13% to $635 million, the fastest MIS line, while Structured Finance...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "635",
+        "snippet": "...558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and infrastructure finance (PPIF) 635 564 13 % Total ratings revenue 4,084 3,759 9 % MIS Other 35 34 3 % Total external revenue 4,119 3,793..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$558 million",
+      "value": 558.0,
+      "unit": "million",
+      "money_mn": 558.0,
+      "decimals": 0,
+      "context": "...million, the fastest MIS line, while Structured Finance grew 8% to $558 million and Financial Institutions grew 4% to $759...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "558",
+        "snippet": "...(Unfavorable) 2025 2024 Revenue: Corporate finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and infrastructure finance (PPIF) 635..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$759 million",
+      "value": 759.0,
+      "unit": "million",
+      "money_mn": 759.0,
+      "decimals": 0,
+      "context": "...grew 8% to $558 million and Financial Institutions grew 4% to $759 million  . The MIS adjusted operating margin reached...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "759",
+        "snippet": "...finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and infrastructure finance (PPIF) 635 564 13 % Total ratings revenue 4,084 3,759..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23 million",
+      "value": 23.0,
+      "unit": "million",
+      "money_mn": 23.0,
+      "decimals": 0,
+      "context": "...and ICR Chile, and the sale of MA Learning Solutions for a $23 million gain  . A $108 million restructuring program ran...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23",
+        "snippet": "MOODY'S 2025 10-K 23"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$108 million",
+      "value": 108.0,
+      "unit": "million",
+      "money_mn": 108.0,
+      "decimals": 0,
+      "context": "...and the sale of MA Learning Solutions for a $23 million gain  . A $108 million restructuring program ran in 2025, and in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "108",
+        "snippet": "Restructuring $ 108 $ 59 (83 %) — relates to the Company's restructuring programs, more fully discussed in Note 9 to the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.0 billion",
+      "value": 4.0,
+      "unit": "billion",
+      "money_mn": 4000.0,
+      "decimals": 1,
+      "context": "...program ran in 2025, and in October 2025 the board authorized $4.0 billion of share repurchases  . Management points to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.0 billion",
+        "snippet": "On October 21, 2025 the Board authorized $4.0 billion in share repurchase authority. At December 31, 2025, the Company had approximately $4.0 billion of remaining..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...with $4,119 million  . Total 2025 revenue was $7,718 million, up 9% from $7,088 million, and the company employs...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 8.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54%",
+      "value": 54.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in more than 40 countries  . U.S. revenue was $4,171 million, or 54% of the total, and EMEA contributed $2,376...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SPGI EBITDA Margin 2022: 53.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "....\\n\\nMA growth is led by Decision Solutions, where revenue rose 12% to $1,692 million. Insurance grew 15% to $685...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "decision",
+          "solution"
+        ],
+        "hl": "12 %",
+        "snippet": "...December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: Decision Solutions (DS) $ 1,692 $ 1,516 12 % Research and Insights (R&I) 995 926 7 % Data and Information (D&I) 912 853 7 % Total external revenue..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Solutions, where revenue rose 12% to $1,692 million. Insurance grew 15% to $685 million and KYC grew 19% to $438 million...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "insurance",
+          "kyc"
+        ],
+        "hl": "15%",
+        "snippet": "...31, 2024 Change Growth MA ARR Banking $ 494 $ 458 $ 36 8% Insurance 649 604 45 7% KYC 436 380 56 15%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $1,692 million. Insurance grew 15% to $685 million and KYC grew 19% to $438 million  . Banking grew only 3% to $569...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "kyc"
+        ],
+        "hl": "19%",
+        "snippet": "– KYC revenue grew 19%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$685 million and KYC grew 19% to $438 million  . Banking grew only 3% to $569 million, because transaction revenue...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "banking"
+        ],
+        "hl": "3%",
+        "snippet": "– Banking revenue grew 3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew only 3% to $569 million, because transaction revenue fell 18% as MA moved toward cloud-hosted subscriptions  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "transaction"
+        ],
+        "hl": "18%",
+        "snippet": "– a decline in transaction revenue of 18%, reflecting MA's continued strategic shift to cloud-hosted subscription-based solutions"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...toward cloud-hosted subscriptions  . Research and Insights grew 7% to $995 million, and Data and Information grew...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "insight",
+          "research",
+          "data",
+          "information"
+        ],
+        "hl": "7 %",
+        "snippet": "...2025 2024 Revenue: Decision Solutions (DS) $ 1,692 $ 1,516 12 % Research and Insights (R&I) 995 926 7 % Data and Information (D&I) 912 853 7 % Total external revenue 3,599 3,295 9 % Intersegment revenue 12..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and Insights grew 7% to $995 million, and Data and Information grew 7% to $912 million  . Total MA annual recurring...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "insight",
+          "data",
+          "information"
+        ],
+        "hl": "7 %",
+        "snippet": "...2025 2024 Revenue: Decision Solutions (DS) $ 1,692 $ 1,516 12 % Research and Insights (R&I) 995 926 7 % Data and Information (D&I) 912 853 7 % Total external revenue 3,599 3,295 9 % Intersegment revenue 12..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Total MA annual recurring revenue (ARR) reached $3,498 million, up 8% at year-end  .\\n\\nMIS is driven by debt...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "driven",
+          "recurring"
+        ],
+        "hl": "8%",
+        "snippet": "Global DS revenue increased 12% driven by growth in both the U.S. (18%) and internationally (8%). DS recurring revenue grew 15%. Organic constant currency revenue (1) and organic constant currency..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is driven by debt issuance. Corporate Finance (CFG) revenue rose 9% to $2,132 million, helped by $144 million of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "corporate",
+          "cfg",
+          "finance"
+        ],
+        "hl": "9 %",
+        "snippet": "...December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: Corporate finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...issuance  . Public, Project and Infrastructure Finance grew 13% to $635 million, the fastest MIS line, while...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "public",
+          "project",
+          "infrastructure",
+          "finance",
+          "mis"
+        ],
+        "hl": "13 %",
+        "snippet": "...8 % Financial institutions (FIG) 759 727 4 % Public, project and infrastructure finance (PPIF) 635 564 13 % Total ratings revenue 4,084 3,759 9 % MIS Other 35 34 3 % Total external revenue 4,119 3,793 9 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$635 million, the fastest MIS line, while Structured Finance grew 8% to $558 million and Financial Institutions grew...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "institution",
+          "structured",
+          "finance",
+          "financial"
+        ],
+        "hl": "8 %",
+        "snippet": "...2025 2024 Revenue: Corporate finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and infrastructure finance (PPIF) 635 564 13 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Finance grew 8% to $558 million and Financial Institutions grew 4% to $759 million  . The MIS adjusted operating...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "institution",
+          "finance",
+          "financial"
+        ],
+        "hl": "4 %",
+        "snippet": "...(CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and infrastructure finance (PPIF) 635 564 13 % Total ratings revenue 4,084 3,759 9 % MIS..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63.6%",
+      "value": 63.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...4% to $759 million  . The MIS adjusted operating margin reached 63.6%  .\\n\\nRecent initiatives include the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "mis",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "63.6%",
+        "snippet": "MIS: Adjusted Operating Margin of 63.6% ⇑ 350BPS"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "16,000",
+      "value": 16000.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million, up 9% from $7,088 million, and the company employs about 16,000 people in more than 40 countries  . U.S. revenue...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "country"
+        ],
+        "hl": "16,000",
+        "snippet": "...debt markets. With a rich history of experience in global markets and a diverse workforce of approximately 16,000 across more than 40 countries, Moody's gives customers the comprehensive perspective needed to act with..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "40",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million, and the company employs about 16,000 people in more than 40 countries  . U.S. revenue was $4,171 million, or...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "country"
+        ],
+        "hl": "40",
+        "snippet": "...history of experience in global markets and a diverse workforce of approximately 16,000 across more than 40 countries, Moody's gives customers the comprehensive perspective needed to act with confidence and thrive in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,376 million",
+      "value": 2376.0,
+      "unit": "million",
+      "money_mn": 2376.0,
+      "decimals": 0,
+      "context": "...non-U.S. dollar, and EMEA is the largest international region at $2,376 million  . This provides some diversification but also...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,376",
+        "snippet": "...31, % Change Favorable (Unfavorable) 2025 2024 Revenue: United States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63.6%",
+      "value": 63.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rather than a challenger: its MIS adjusted operating margin of 63.6% and group adjusted margin of 51.1% are high, and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "mis",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "63.6%",
+        "snippet": "MIS: Adjusted Operating Margin of 63.6% ⇑ 350BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "51.1%",
+      "value": 51.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...MIS adjusted operating margin of 63.6% and group adjusted margin of 51.1% are high, and the filing cites its brand as a...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "51.1%",
+        "snippet": "Adjusted Operating Margin 51.1%, up 300 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cannot be measured. The geographic mix is more visible: about 39% of 2025 revenue was non-U.S. dollar, and EMEA is...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "39%",
+        "snippet": "Moody’s maintains a presence in more than 40 countries. In 2025, approximately 39% of the Company’s revenue and approximately 38% of the Company's expenses were denominated in functional..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,718 million",
+      "value": 7718.0,
+      "unit": "million",
+      "money_mn": 7718.0,
+      "decimals": 0,
+      "context": "Revenue rose 9% to $7,718 million, and organic constant-currency growth was 7%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7,718",
+        "snippet": "Moody's total revenue $ 7,718 $ 7,088 9 % — reflects strong revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$108 million",
+      "value": 108.0,
+      "unit": "million",
+      "money_mn": 108.0,
+      "decimals": 0,
+      "context": "...and SG&A expense grew 3%, but restructuring charges rose 83% to $108 million  . Operating margin reached 43.4% from 40.6%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "108",
+        "snippet": "Restructuring $ 108 $ 59 (83 %) — relates to the Company's restructuring programs, more fully discussed in Note 9 to the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.67",
+      "value": 13.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...net margin reached 31.9% from 29.0%  .\\n\\nDiluted EPS rose 21% to $13.67  . The effective tax rate fell to 21.3% from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13.67",
+        "snippet": "Diluted EPS $ 13.67 $ 11.26 21 % — increase reflects the aforementioned revenue growth and margin expansion"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$221 million",
+      "value": 221.0,
+      "unit": "million",
+      "money_mn": 221.0,
+      "decimals": 0,
+      "context": "...23.7% because of a 2025 tax benefit, although management says a $221 million net non-operating expense offsets that benefit,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "221)",
+        "snippet": "Total non-operating (expense) income, net $ (221) $ (176) (26 %) — a net expense reflecting the release of an indemnification asset and tax-related interest..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.94",
+      "value": 14.94,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS is unaffected  . On an adjusted basis, diluted EPS rose 20% to $14.94 and adjusted operating margin expanded 300 basis...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "14.94",
+        "snippet": "$ 14.94 $ 12.47 20 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$63 million",
+      "value": 63.0,
+      "unit": "million",
+      "money_mn": 63.0,
+      "decimals": 0,
+      "context": "...expanded 300 basis points to 51.1%  . Operating cash flow rose $63 million to $2.90 billion and free cash flow rose $54...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "63",
+        "snippet": "...$ Change Favorable/ (unfavorable) 2025 2024 Net cash provided by operating activities $ 2,901 $ 2,838 $ 63 Net cash provided by (used in) investing activities $ 2 $ (1,056) $ 1,058 Net cash used in financing..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.90 billion",
+      "value": 2.9,
+      "unit": "billion",
+      "money_mn": 2900.0,
+      "decimals": 2,
+      "context": "...basis points to 51.1%  . Operating cash flow rose $63 million to $2.90 billion and free cash flow rose $54 million to $2.58...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,901",
+        "snippet": "...Ended December 31, $ Change Favorable/ (unfavorable) 2025 2024 Net cash provided by operating activities $ 2,901 $ 2,838 $ 63 Net cash provided by (used in) investing activities $ 2 $ (1,056) $ 1,058 Net cash used in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$54 million",
+      "value": 54.0,
+      "unit": "million",
+      "money_mn": 54.0,
+      "decimals": 0,
+      "context": "...cash flow rose $63 million to $2.90 billion and free cash flow rose $54 million to $2.58 billion, held back by $212 million of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "54",
+        "snippet": "54 MOODY'S 2025 10-K"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.58 billion",
+      "value": 2.58,
+      "unit": "billion",
+      "money_mn": 2580.0,
+      "decimals": 2,
+      "context": "...$63 million to $2.90 billion and free cash flow rose $54 million to $2.58 billion, held back by $212 million of higher tax...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,575",
+        "snippet": "$ 2,575 $ 2,521 $ 54"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$212 million",
+      "value": 212.0,
+      "unit": "million",
+      "money_mn": 212.0,
+      "decimals": 0,
+      "context": "...and free cash flow rose $54 million to $2.58 billion, held back by $212 million of higher tax payments  .\\n\\nSegment profit...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "212)",
+        "snippet": "...are located at 7 World Trade Center at 250 Greenwich Street, New York, NY 10007 and its telephone number is (212) 553-0300."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,196 million",
+      "value": 1196.0,
+      "unit": "million",
+      "money_mn": 1196.0,
+      "decimals": 0,
+      "context": "...shows the same pattern. MA adjusted operating income rose 18% to $1,196 million, with margin up 240 basis points to 33.1%, even...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,196",
+        "snippet": "...198 193 (3 %) Total operating and SG&A expense 2,415 2,294 (5 %) Adjusted Operating Income $ 1,196 $ 1,014 18 % Adjusted Operating Margin 33.1 % 30.7 % Depreciation and amortization 393 353 (11 %)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$77 million",
+      "value": 77.0,
+      "unit": "million",
+      "money_mn": 77.0,
+      "decimals": 0,
+      "context": "...basis points to 33.1%, even though MA restructuring charges rose to $77 million  . MIS adjusted operating income rose 15% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "77",
+        "snippet": "...18 % Adjusted Operating Margin 33.1 % 30.7 % Depreciation and amortization 393 353 (11 %) Restructuring 77 42 (83 %) Charges related to asset abandonment"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,746 million",
+      "value": 2746.0,
+      "unit": "million",
+      "money_mn": 2746.0,
+      "decimals": 0,
+      "context": "...rose to $77 million  . MIS adjusted operating income rose 15% to $2,746 million, with margin up 350 basis points to 63.6%, as...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,746",
+        "snippet": "...(intersegment) 12 13 8 % Total operating and SG&A expense 1,571 1,592 1 % Adjusted Operating Income $ 2,746 $ 2,394 15 % Adjusted Operating Margin 63.6 % 60.1 % Depreciation and amortization 87 78 (12 %)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5,468 million",
+      "value": 5468.0,
+      "unit": "million",
+      "money_mn": 5468.0,
+      "decimals": 0,
+      "context": ".... Over 2022 to 2025 revenue compounded at roughly 12% a year, from $5,468 million to $7,718 million  . Growth is still largely...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Revenue 2022-12-31: 5,468,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,718 million",
+      "value": 7718.0,
+      "unit": "million",
+      "money_mn": 7718.0,
+      "decimals": 0,
+      "context": "...revenue compounded at roughly 12% a year, from $5,468 million to $7,718 million  . Growth is still largely driven by pricing,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7,718",
+        "snippet": "Moody's total revenue $ 7,718 $ 7,088 9 % — reflects strong revenue growth in both segments"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue rose 9% to $7,718 million, and organic constant-currency...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "organic"
+        ],
+        "hl": "9%",
+        "snippet": "– Organic constant currency revenue (1) and organic constant currency recurring revenue (1) growth was 8% and 9%, respectively"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 9% to $7,718 million, and organic constant-currency growth was 7%  . MA and MIS external revenue each grew 9%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "organic"
+        ],
+        "hl": "7%",
+        "snippet": "— Organic constant currency revenue (1) growth was 7%, and ARR (2) grew 8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth was 7%  . MA and MIS external revenue each grew 9%  . Cost of revenue rose only 1%, cutting it to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "external",
+          "mis"
+        ],
+        "hl": "9 %",
+        "snippet": "MIS external revenue $ 4,119 $ 3,793 9 % — strong investor demand and tight credit spreads supported revenue growth in all ratings LOBs"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and MIS external revenue each grew 9%  . Cost of revenue rose only 1%, cutting it to 25.6% of revenue from 27.4%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cutting"
+        ],
+        "hl": "1.3%",
+        "snippet": "...consensus current fiscal year: $16.76 today, $16.80 30 days ago, $16.97 90 days ago, change vs 90 days ago -1.3%; analysts raising/cutting in last 30 days: 1/23"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.6%",
+      "value": 25.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue each grew 9%  . Cost of revenue rose only 1%, cutting it to 25.6% of revenue from 27.4%, which lifted gross margin...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.4%",
+      "value": 27.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Cost of revenue rose only 1%, cutting it to 25.6% of revenue from 27.4%, which lifted gross margin to 74.4% from 72.6%...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "74.4%",
+      "value": 74.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...it to 25.6% of revenue from 27.4%, which lifted gross margin to 74.4% from 72.6%  . Operating and SG&A expense grew...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 74.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.6%",
+      "value": 72.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of revenue from 27.4%, which lifted gross margin to 74.4% from 72.6%  . Operating and SG&A expense grew 3%, but...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2024: 72.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...gross margin to 74.4% from 72.6%  . Operating and SG&A expense grew 3%, but restructuring charges rose 83% to $108...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "expense",
+          "sg&a",
+          "operating"
+        ],
+        "hl": "3 %",
+        "snippet": "423 410 (3 %) Total Operating and SG&A (external)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "83%",
+      "value": 83.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Operating and SG&A expense grew 3%, but restructuring charges rose 83% to $108 million  . Operating margin reached...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "charg",
+          "restructuring",
+          "sg&a",
+          "operating"
+        ],
+        "hl": "83 %",
+        "snippet": "...1,945 (1 %) SG&A 1,803 1,735 (4 %) Depreciation and amortization 480 431 (11 %) Restructuring 108 59 (83 %) Charges related to asset abandonment"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...charges rose 83% to $108 million  . Operating margin reached 43.4% from 40.6%, and net margin reached 31.9% from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "43.4%",
+        "snippet": "Operating margin 43.4%, up 280 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.6%",
+      "value": 40.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 83% to $108 million  . Operating margin reached 43.4% from 40.6%, and net margin reached 31.9% from 29.0%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "40.6 %",
+        "snippet": "Operating Margin 43.4 % 40.6 % 280BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.9%",
+      "value": 31.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Operating margin reached 43.4% from 40.6%, and net margin reached 31.9% from 29.0%  .\\n\\nDiluted EPS rose 21% to $13.67...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "29.0%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin reached 43.4% from 40.6%, and net margin reached 31.9% from 29.0%  .\\n\\nDiluted EPS rose 21% to $13.67  . The...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "MSCI ROIC 2022: 28.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and net margin reached 31.9% from 29.0%  .\\n\\nDiluted EPS rose 21% to $13.67  . The effective tax rate fell to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "21 %",
+        "snippet": "Diluted EPS $ 13.67 $ 11.26 21 % — increase reflects the aforementioned revenue growth and margin expansion"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.3%",
+      "value": 21.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS rose 21% to $13.67  . The effective tax rate fell to 21.3% from 23.7% because of a 2025 tax benefit,...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "23.7%",
+      "value": 23.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS rose 21% to $13.67  . The effective tax rate fell to 21.3% from 23.7% because of a 2025 tax benefit, although...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "tax"
+        ],
+        "hl": "23.7 %",
+        "snippet": "51.1 % 48.1 % 300BPS ETR 21.3 % 23.7 % 240BPS — Primarily reflects tax benefits recognized in 2025 pursuant to the lapse of a statute of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...so EPS is unaffected  . On an adjusted basis, diluted EPS rose 20% to $14.94 and adjusted operating margin expanded...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "margin",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "20 %",
+        "snippet": "$ 14.94 $ 12.47 20 % Operating margin 43.4 % 40.6 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "51.1%",
+      "value": 51.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$14.94 and adjusted operating margin expanded 300 basis points to 51.1%  . Operating cash flow rose $63 million to $2.90...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "51.1%",
+        "snippet": "Adjusted Operating Margin 51.1%, up 300 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...profit shows the same pattern. MA adjusted operating income rose 18% to $1,196 million, with margin up 240 basis...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted",
+          "income",
+          "operating"
+        ],
+        "hl": "18 %",
+        "snippet": "...193 (3 %) Total operating and SG&A expense 2,415 2,294 (5 %) Adjusted Operating Income $ 1,196 $ 1,014 18 % Adjusted Operating Margin 33.1 % 30.7 % Depreciation and amortization 393 353 (11 %) Restructuring 77..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33.1%",
+      "value": 33.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 18% to $1,196 million, with margin up 240 basis points to 33.1%, even though MA restructuring charges rose to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "33.1%",
+        "snippet": "MA: Adjusted Operating Margin 33.1% ⇑ 240BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...charges rose to $77 million  . MIS adjusted operating income rose 15% to $2,746 million, with margin up 350 basis...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted",
+          "income",
+          "operating"
+        ],
+        "hl": "15 %",
+        "snippet": "...12 13 8 % Total operating and SG&A expense 1,571 1,592 1 % Adjusted Operating Income $ 2,746 $ 2,394 15 % Adjusted Operating Margin 63.6 % 60.1 % Depreciation and amortization 87 78 (12 %) Restructuring 31 17..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63.6%",
+      "value": 63.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 15% to $2,746 million, with margin up 350 basis points to 63.6%, as operating and SG&A expense fell 1%  . Over...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "63.6%",
+        "snippet": "MIS: Adjusted Operating Margin of 63.6% ⇑ 350BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 350 basis points to 63.6%, as operating and SG&A expense fell 1%  . Over 2022 to 2025 revenue compounded at...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "expense",
+          "sg&a",
+          "operating"
+        ],
+        "hl": "1 %",
+        "snippet": "...1,579 1 % Operating and SG&A (intersegment) 12 13 8 % Total operating and SG&A expense 1,571 1,592 1 % Adjusted Operating Income $ 2,746 $ 2,394 15 % Adjusted Operating Margin 63.6 % 60.1 % Depreciation and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...expense fell 1%  . Over 2022 to 2025 revenue compounded at roughly 12% a year, from $5,468 million to $7,718 million  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "SPGI Revenue Growth 2023: 11.8%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "300",
+      "value": 300.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS rose 20% to $14.94 and adjusted operating margin expanded 300 basis points to 51.1%  . Operating cash flow...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "300",
+        "snippet": "51.1 % 48.1 % 300BPS ETR 21.3 % 23.7 % 240BPS — Primarily reflects tax benefits recognized in 2025 pursuant to the lapse of..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "240",
+      "value": 240.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating income rose 18% to $1,196 million, with margin up 240 basis points to 33.1%, even though MA...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "240",
+        "snippet": "MA: Adjusted Operating Margin 33.1% ⇑ 240BPS"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "350",
+      "value": 350.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating income rose 15% to $2,746 million, with margin up 350 basis points to 63.6%, as operating and SG&A...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "350",
+        "snippet": "MIS: Adjusted Operating Margin of 63.6% ⇑ 350BPS"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,368 million",
+      "value": 6368.0,
+      "unit": "million",
+      "money_mn": 6368.0,
+      "decimals": 0,
+      "context": "....\\n\\nBalance-sheet risk sits in acquired intangibles. Goodwill of $6,368 million and intangibles of $1,866 million total $8,234...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,368 million",
+        "snippet": "At December 31, 2025, Moody’s had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,866 million",
+      "value": 1866.0,
+      "unit": "million",
+      "money_mn": 1866.0,
+      "decimals": 0,
+      "context": "...acquired intangibles. Goodwill of $6,368 million and intangibles of $1,866 million total $8,234 million, about 52% of assets, and...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,866 million",
+        "snippet": "At December 31, 2025, Moody’s had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8,234 million",
+      "value": 8234.0,
+      "unit": "million",
+      "money_mn": 8234.0,
+      "decimals": 0,
+      "context": "...Goodwill of $6,368 million and intangibles of $1,866 million total $8,234 million, about 52% of assets, and tangible book value is...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Goodwill And Other Intangible Assets 2025-12-31: 8,234,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$4.18 billion",
+      "value": 4.18,
+      "unit": "billion",
+      "money_mn": 4180.0,
+      "decimals": 2,
+      "context": "...about 52% of assets, and tangible book value is negative at -$4.18 billion  . The filing attributes about 94% of these...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,186",
+        "snippet": "...(6) % Non-U.S. 4,981 5,156 (3) % Total 7,803 8,145 (4) % MIS U.S. 1,556 1,571 (1) % Non-U.S. 4,572 4,186 9 % Total 6,128 5,757 6 % MSS U.S. 665 696 (4) % Non-U.S. 1,480 1,240 19 % Total 2,145 1,936 11 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and intangibles of $1,866 million total $8,234 million, about 52% of assets, and tangible book value is negative...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "asset"
+        ],
+        "hl": "52%",
+        "snippet": "...such, the Company is exposed to market risk from changes in FX rates. As of December 31, 2025, approximately 52% of Moody’s assets were located outside the U.S., making the Company susceptible to fluctuations in FX rates...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...value is negative at -$4.18 billion  . The filing attributes about 94% of these balances to MA, so any impairment would...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.26",
+      "value": 7.26,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...missed  . Quality scores from   are mixed: the Altman Z-score is 7.26, in the safe zone, though that model is designed...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "safe",
+          "z-score",
+          "zone",
+          "altman"
+        ],
+        "hl": "7.25",
+        "snippet": "- Altman Z-Score: 7.25 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...that model is designed for manufacturers. The Piotroski F-score is 7 of 8, and the one failed test is a leverage...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "failed",
+          "f-score"
+        ],
+        "hl": "7",
+        "snippet": "- Piotroski F-Score: 7 of 8 available criteria; failed: Leverage (long-term debt / assets) lower"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...model is designed for manufacturers. The Piotroski F-score is 7 of 8, and the one failed test is a leverage measure...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "leverage",
+          "piotroski",
+          "failed",
+          "f-score"
+        ],
+        "hl": "8",
+        "snippet": "- Piotroski F-Score: 7 of 8 available criteria; failed: Leverage (long-term debt / assets) lower"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.6 billion",
+      "value": 2.6,
+      "unit": "billion",
+      "money_mn": 2600.0,
+      "decimals": 1,
+      "context": "...a subscription data and research provider that is much smaller, at $2.6 billion of revenue  . FICO was excluded because its...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,575",
+        "snippet": "$ 2,575 $ 2,521 $ 54"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$553.67",
+      "value": 553.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the peer median of 20.74x  . Consensus rates the stock Buy with a $553.67 target, and forward P/E is 29.0x on FY2026 EPS,...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "553",
+        "snippet": "...at 7 World Trade Center at 250 Greenwich Street, New York, NY 10007 and its telephone number is (212) 553-0300."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,575 million",
+      "value": 2575.0,
+      "unit": "million",
+      "money_mn": 2575.0,
+      "decimals": 0,
+      "context": "...does not reconcile with reported numbers, since free cash flow of $2,575 million divided by EBITDA of $3,891 million gives 0.66,...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,575",
+        "snippet": "$ 2,575 $ 2,521 $ 54"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,891 million",
+      "value": 3891.0,
+      "unit": "million",
+      "money_mn": 3891.0,
+      "decimals": 0,
+      "context": "...since free cash flow of $2,575 million divided by EBITDA of $3,891 million gives 0.66, so the definition must be confirmed...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "EBITDA 2025-12-31: 3,891,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.9%",
+      "value": 8.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...model.\\n\\nOn growth and margins, Moody's 2025 revenue growth of 8.9% was second behind MSCI at 9.7%, and ahead of...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "9%",
+        "snippet": "Operating margin and Adjusted Operating Margin (1) expansion reflects the 9% increase in revenue, partially offset by growth of 3% in operating and SG&A expenses."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Moody's 2025 revenue growth of 8.9% was second behind MSCI at 9.7%, and ahead of SPGI at 7.9% and MORN at 7.5%  ....",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "MSCI Revenue Growth 2025: 9.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 8.9% was second behind MSCI at 9.7%, and ahead of SPGI at 7.9% and MORN at 7.5%  . Its EBITDA margin of 50.4%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "8%",
+        "snippet": "— Organic constant currency revenue (1) growth was 7%, and ARR (2) grew 8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.5%",
+      "value": 7.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...second behind MSCI at 9.7%, and ahead of SPGI at 7.9% and MORN at 7.5%  . Its EBITDA margin of 50.4% was level with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "MORN Revenue Growth 2025: 7.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.4%",
+      "value": 50.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and ahead of SPGI at 7.9% and MORN at 7.5%  . Its EBITDA margin of 50.4% was level with SPGI at 50.2%, well below MSCI at...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 50.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.2%",
+      "value": 50.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...MORN at 7.5%  . Its EBITDA margin of 50.4% was level with SPGI at 50.2%, well below MSCI at 61.3%, and far above MORN at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "SPGI EBITDA Margin 2025: 50.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "61.3%",
+      "value": 61.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin of 50.4% was level with SPGI at 50.2%, well below MSCI at 61.3%, and far above MORN at 29.7%  . Its gross margin...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "MSCI EBITDA Margin 2024: 61.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.7%",
+      "value": 29.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...with SPGI at 50.2%, well below MSCI at 61.3%, and far above MORN at 29.7%  . Its gross margin of 74.4% trails only MSCI,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "MORN EBITDA Margin 2025: 29.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74.4%",
+      "value": 74.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...MSCI at 61.3%, and far above MORN at 29.7%  . Its gross margin of 74.4% trails only MSCI, which sits near 82%, and stays...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 74.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Its gross margin of 74.4% trails only MSCI, which sits near 82%, and stays 3.3 to 4.6 points above SPGI in every...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "82 %",
+        "snippet": "...Operating Margin 63.6 % 60.1 % Depreciation and amortization 87 78 (12 %) Restructuring 31 17 (82 %)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.3%",
+      "value": 24.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...SPGI in every year  .\\n\\nOn returns and valuation, Moody's ROIC of 24.3% is second to MSCI at 38.7%, and well ahead of...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2025: 24.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "38.7%",
+      "value": 38.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...returns and valuation, Moody's ROIC of 24.3% is second to MSCI at 38.7%, and well ahead of MORN at 17.6% and SPGI at...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "MSCI ROIC 2025: 38.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.6%",
+      "value": 17.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ROIC of 24.3% is second to MSCI at 38.7%, and well ahead of MORN at 17.6% and SPGI at 11.4%  . Its EV/EBITDA of 24.59x...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "MORN ROIC 2024: 17.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.4%",
+      "value": 11.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to MSCI at 38.7%, and well ahead of MORN at 17.6% and SPGI at 11.4%  . Its EV/EBITDA of 24.59x sits near MSCI at...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "11.3%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 33.4% to 33.4% by year 10, a WACC of 11.3% (10y US Treasury (^TNX) 4.8% + beta 1.30 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "24.59x",
+      "value": 24.59,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...well ahead of MORN at 17.6% and SPGI at 11.4%  . Its EV/EBITDA of 24.59x sits near MSCI at 24.97x and above the peer...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 24.59"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "24.97x",
+      "value": 24.97,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and SPGI at 11.4%  . Its EV/EBITDA of 24.59x sits near MSCI at 24.97x and above the peer median of 20.74x  . Consensus...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "MSCI EV/EBITDA 2025: 24.97"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "20.74x",
+      "value": 20.74,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 24.59x sits near MSCI at 24.97x and above the peer median of 20.74x  . Consensus rates the stock Buy with a $553.67...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "SPGI EV/EBITDA 2025: 20.74"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "29.0x",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rates the stock Buy with a $553.67 target, and forward P/E is 29.0x on FY2026 EPS, both dated after the       . Cash...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29",
+        "snippet": "MOODY'S 2025 10-K 29"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.3",
+      "value": 3.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin of 74.4% trails only MSCI, which sits near 82%, and stays 3.3 to 4.6 points above SPGI in every year  .\\n\\nOn...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,295",
+        "snippet": "MA external revenue $ 3,599 $ 3,295 9 % — sustained demand for insurance and KYC offerings; and"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4.6",
+      "value": 4.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 74.4% trails only MSCI, which sits near 82%, and stays 3.3 to 4.6 points above SPGI in every year  .\\n\\nOn returns...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,572",
+        "snippet": "...2,989 (6) % Non-U.S. 4,981 5,156 (3) % Total 7,803 8,145 (4) % MIS U.S. 1,556 1,571 (1) % Non-U.S. 4,572 4,186 9 % Total 6,128 5,757 6 % MSS U.S. 665 696 (4) % Non-U.S. 1,480 1,240 19 % Total 2,145 1,936..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.05",
+      "value": 1.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Cash conversion is the weak point: the reported FCF conversion of 1.05 is the lowest in the group, against 1.18 to 1.22...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "FCF Conversion 2025: 1.05"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.18",
+      "value": 1.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...reported FCF conversion of 1.05 is the lowest in the group, against 1.18 to 1.22 for peers  . That figure does not...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "MORN FCF Conversion 2025: 1.18"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.22",
+      "value": 1.22,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FCF conversion of 1.05 is the lowest in the group, against 1.18 to 1.22 for peers  . That figure does not reconcile with...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "FCF Conversion 2024: 1.22"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.66",
+      "value": 0.66,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...flow of $2,575 million divided by EBITDA of $3,891 million gives 0.66, so the definition must be confirmed  . Returns...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...cash flow will limit further debt reduction. Total debt fell to $7.35 billion from $7.75 billion, and debt to equity to 1.81x...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 7,351,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.75 billion",
+      "value": 7.75,
+      "unit": "billion",
+      "money_mn": 7750.0,
+      "decimals": 2,
+      "context": "...limit further debt reduction. Total debt fell to $7.35 billion from $7.75 billion, and debt to equity to 1.81x from 2.17x  ....",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2024-12-31: 7,746,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.71 billion",
+      "value": 1.71,
+      "unit": "billion",
+      "money_mn": 1710.0,
+      "decimals": 2,
+      "context": "...billion, and debt to equity to 1.81x from 2.17x  . Buybacks of $1.71 billion and dividends of $701 million absorbed about 94%...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Repurchase Of Capital Stock 2025-12-31: -1,706,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$701 million",
+      "value": 701.0,
+      "unit": "million",
+      "money_mn": 701.0,
+      "decimals": 0,
+      "context": "...to 1.81x from 2.17x  . Buybacks of $1.71 billion and dividends of $701 million absorbed about 94% of $2.58 billion free cash...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "700 million",
+        "snippet": "– a $700 million repayment of notes payable in 2025;"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.58 billion",
+      "value": 2.58,
+      "unit": "billion",
+      "money_mn": 2580.0,
+      "decimals": 2,
+      "context": "...$1.71 billion and dividends of $701 million absorbed about 94% of $2.58 billion free cash flow  . FY2026 total debt below $7.35...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,575",
+        "snippet": "$ 2,575 $ 2,521 $ 54"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...94% of $2.58 billion free cash flow  . FY2026 total debt below $7.35 billion, with buybacks plus dividends at or below free...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 7,351,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.35 billion",
+      "value": 7.35,
+      "unit": "billion",
+      "money_mn": 7350.0,
+      "decimals": 2,
+      "context": "...below free cash flow, in the FY2026     . Total debt rising above $7.35 billion, or payouts exceeding free cash flow for a...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Debt 2025-12-31: 7,351,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$144 million",
+      "value": 144.0,
+      "unit": "million",
+      "money_mn": 144.0,
+      "decimals": 0,
+      "context": "...issuance volumes  . Corporate Finance transaction revenue added $144 million in 2025  . Diluted EPS for the quarter to...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "144 million",
+        "snippet": "Transaction revenue increased $144 million compared to the prior year, which primarily reflected:"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.14",
+      "value": 4.14,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in 2025  . Diluted EPS for the quarter to September 2026 was $4.14 against a $4.25 estimate, a 2.5% miss  ....",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "4.14",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.14 vs estimate $4.25 (surprise -2.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.25",
+      "value": 4.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Diluted EPS for the quarter to September 2026 was $4.14 against a $4.25 estimate, a 2.5% miss  . Corporate Finance (CFG)...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "4.25",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.14 vs estimate $4.25 (surprise -2.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth stays well below revenue growth. Operating margin rose to 43.4% from 40.6%, gross margin to 74.4%, and cost of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "43.4%",
+        "snippet": "Operating margin 43.4%, up 280 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.6%",
+      "value": 40.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...well below revenue growth. Operating margin rose to 43.4% from 40.6%, gross margin to 74.4%, and cost of revenue fell...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "40.6 %",
+        "snippet": "Operating Margin 43.4 % 40.6 % 280BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74.4%",
+      "value": 74.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth. Operating margin rose to 43.4% from 40.6%, gross margin to 74.4%, and cost of revenue fell to 25.6% of revenue...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 74.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.6%",
+      "value": 25.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 40.6%, gross margin to 74.4%, and cost of revenue fell to 25.6% of revenue from 27.4%, while operating and SG&A...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "27.4%",
+      "value": 27.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin to 74.4%, and cost of revenue fell to 25.6% of revenue from 27.4%, while operating and SG&A grew only 3% against...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 25.6% of revenue from 27.4%, while operating and SG&A grew only 3% against 9% revenue growth  . MIS adjusted...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "sg&a",
+          "operating"
+        ],
+        "hl": "3 %",
+        "snippet": "Total operating and SG&A expenses $ 3,776 $ 3,680 (3 %) — higher salaries and benefits reflecting an increase in headcount, including from acquisitions, and annual..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue from 27.4%, while operating and SG&A grew only 3% against 9% revenue growth  . MIS adjusted operating margin...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "sg&a",
+          "operating"
+        ],
+        "hl": "9 %",
+        "snippet": "...EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718 7,088 9 % Expenses: Operating 1,973 1,945 (1 %) SG&A 1,803 1,735 (4 %) Depreciation and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "63.6%",
+      "value": 63.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against 9% revenue growth  . MIS adjusted operating margin reached 63.6%  . FY2026 operating margin above 43.4% in the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "mis",
+          "adjusted",
+          "operating"
+        ],
+        "hl": "63.6%",
+        "snippet": "MIS: Adjusted Operating Margin of 63.6% ⇑ 350BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.4%",
+      "value": 43.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating margin reached 63.6%  . FY2026 operating margin above 43.4% in the FY2026      (filed about February 2027)....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "43.4%",
+        "snippet": "Operating margin 43.4%, up 280 BPS"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.6%",
+      "value": 40.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(filed about February 2027). FY2026 operating margin below 40.6%, or restructuring charges rising again without a...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "operating"
+        ],
+        "hl": "40.6 %",
+        "snippet": "Operating Margin 43.4 % 40.6 % 280BPS — Operating margin and Adjusted Operating Margin (1) expansion reflects revenue growth coupled with..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.1%",
+      "value": 18.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...return falls short of the cost of capital. The reverse DCF implies 18.1% annual revenue growth for ten years, against...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "18.1%",
+        "snippet": "- The current enterprise value of $89,835.7 million implies revenue growth of 18.1% per year for 10 years (FY2025 revenue $7,718.0 million -> about $40,639.9 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.5%",
+      "value": 6.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...DCF implies 18.1% annual revenue growth for ten years, against 6.5% FY2026 and 6.7% FY2027 consensus growth and a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "6.5%",
+        "snippet": "- FY2026E: revenue $8,218.3 million (range $8,177.0 million to $8,314.0 million, 21 analysts), growth +6.5%; EPS $16.76 (range $16.53 to $16.97); forward P/E 28.9x; EV/Sales 10.9x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.7%",
+      "value": 6.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...18.1% annual revenue growth for ten years, against 6.5% FY2026 and 6.7% FY2027 consensus growth and a 12.2% historical...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "6.7%",
+        "snippet": "- FY2027E: revenue $8,766.8 million (range $8,396.0 million to $8,859.0 million, 21 analysts), growth +6.7%; EPS $18.59 (range $17.08 to $19.07); forward P/E 26.0x; EV/Sales 10.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.2%",
+      "value": 12.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...years, against 6.5% FY2026 and 6.7% FY2027 consensus growth and a 12.2% historical three-year CAGR  . The implied IRR is...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "12.2%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.2%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth and a 12.2% historical three-year CAGR  . The implied IRR is 6.1% against an 11.3% WACC  . Consensus data is dated...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6) %",
+        "snippet": "% MA U.S. 2,822 2,989 (6) % Non-U.S. 4,981 5,156 (3) % Total 7,803 8,145 (4) % MIS U.S. 1,556 1,571 (1) % Non-U.S. 4,572 4,186 9..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.3%",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...historical three-year CAGR  . The implied IRR is 6.1% against an 11.3% WACC  . Consensus data is dated           ,...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.3%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 33.4% to 33.4% by year 10, a WACC of 11.3% (10y US Treasury (^TNX) 4.8% + beta 1.30 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...dated           , after the     . FY2026 revenue growth of at least 9%, matching the FY2025 pace, reported in the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 8.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in the FY2026      (about February 2027). FY2026 revenue growth of 12% or more, which would show growth can outpace...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12.2%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.2%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...justify the implied path. Deleveraging continues, but payouts near 94% of free cash flow will limit further debt...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "94%",
+      "value": 94.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of $1.71 billion and dividends of $701 million absorbed about 94% of $2.58 billion free cash flow  . FY2026 total...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "94%",
+        "snippet": "...had $6,368 million of goodwill and $1,866 million of intangible assets on its balance sheet. Approximately 94% of the goodwill and intangible assets reside in the MA business and are allocated to the MA reporting unit...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2.5%",
+      "value": 2.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the quarter to September 2026 was $4.14 against a $4.25 estimate, a 2.5% miss  . Corporate Finance (CFG) revenue growth...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "estimate"
+        ],
+        "hl": "2.5%",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.14 vs estimate $4.25 (surprise -2.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a 2.5% miss  . Corporate Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5 %",
+        "snippet": "...States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718 7,088 9 % Expenses: Operating 1,973 1,945 (1 %) SG&A 1,803..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the FY2026     . CFG...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "cfg",
+          "finance"
+        ],
+        "hl": "9 %",
+        "snippet": "...December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: Corporate finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reported in the FY2026     . CFG revenue growth stays at or above 9% in FY2026 even if debt issuance volumes are flat.",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "cfg"
+        ],
+        "hl": "9 %",
+        "snippet": "...December 31, % Change Favorable (Unfavorable) 2025 2024 Revenue: Corporate finance (CFG) $ 2,132 $ 1,950 9 % Structured finance (SFG) 558 518 8 % Financial institutions (FIG) 759 727 4 % Public, project and..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.81x",
+      "value": 1.81,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...fell to $7.35 billion from $7.75 billion, and debt to equity to 1.81x from 2.17x  . Buybacks of $1.71 billion and...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "debt"
+        ],
+        "hl": "1.81",
+        "snippet": "- Altman Z-Score: 7.25 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "2.17x",
+      "value": 2.17,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$7.35 billion from $7.75 billion, and debt to equity to 1.81x from 2.17x  . Buybacks of $1.71 billion and dividends of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,174",
+        "snippet": "...Change Favorable (Unfavorable) 2025 2024 Revenue: United States $ 4,171 $ 3,836 9 % Non-U.S.: EMEA 2,376 2,174 9 % Asia-Pacific 699 629 11 % Americas 472 449 5 % Total Non-U.S. 3,547 3,252 9 % Total 7,718 7,088 9..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3599.0 million",
+      "value": 3599.0,
+      "unit": "million",
+      "money_mn": 3599.0,
+      "decimals": 1,
+      "context": "Moody's Analytics (external revenue): $3599.0 million, prior $3295.0 million; Moody's Investors...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,599",
+        "snippet": "MA external revenue $ 3,599 $ 3,295 9 % — sustained demand for insurance and KYC offerings; and"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3295.0 million",
+      "value": 3295.0,
+      "unit": "million",
+      "money_mn": 3295.0,
+      "decimals": 1,
+      "context": "Moody's Analytics (external revenue): $3599.0 million, prior $3295.0 million; Moody's Investors Service (external revenue):...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,295",
+        "snippet": "MA external revenue $ 3,599 $ 3,295 9 % — sustained demand for insurance and KYC offerings; and"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4119.0 million",
+      "value": 4119.0,
+      "unit": "million",
+      "money_mn": 4119.0,
+      "decimals": 1,
+      "context": "...$3295.0 million; Moody's Investors Service (external revenue): $4119.0 million, prior $3793.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4,119",
+        "snippet": "MIS external revenue $ 4,119 $ 3,793 9 % — strong investor demand and tight credit spreads supported revenue growth in all ratings LOBs"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3793.0 million",
+      "value": 3793.0,
+      "unit": "million",
+      "money_mn": 3793.0,
+      "decimals": 1,
+      "context": "...Investors Service (external revenue): $4119.0 million, prior $3793.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,793",
+        "snippet": "MIS external revenue $ 4,119 $ 3,793 9 % — strong investor demand and tight credit spreads supported revenue growth in all ratings LOBs"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "SPGI",
+    "MSCI",
+    "MORN"
+  ],
+  "build_round": 1,
+  "self_correct": true
+}

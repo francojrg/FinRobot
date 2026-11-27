@@ -1,0 +1,4299 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 144,
+  "context_match_rate": 0.8,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...support the 18.6x forward P/E, but the implied return of about 11% only matches the cost of capital  . Customer...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "18.6x",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...net cash of NT$2.06 trillion  . Rising estimates support the 18.6x forward P/E, but the implied return of about 11%...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.6%",
+      "value": 46.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...18.9% three-year historical CAGR, but far below consensus growth of 46.6% for FY2026 and 37.9% for FY2027  . The price...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.5%",
+        "snippet": "46.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.9%",
+      "value": 37.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...CAGR, but far below consensus growth of 46.6% for FY2026 and 37.9% for FY2027  . The price therefore needs growth...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "38%",
+        "snippet": "...to 2023 , which was mainly due to an increase in orders from North America of NT$561,111 million, or a 38%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...expects much faster growth in the next two years. The implied 11.1% return barely exceeds the 11.0% cost of capital...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.0%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the next two years. The implied 11.1% return barely exceeds the 11.0% cost of capital  . The main risks are customer...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18.6",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026  .\\n\\nValuation is the open question. The shares trade on 18.6 times FY2026 consensus EPS  . The reverse DCF...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.3%",
+      "value": 16.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...17 million 12-inch equivalent wafers in 2025, and shipments rose 16.3% to 15.0 million from 12.9 million in 2024  . The...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ASX Gross Margin 2024: 16.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "51%",
+      "value": 51.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...became the largest platform at 58% of net revenue, up from 51%, with revenue of NT$2,192,931 million, up 48%  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "51%",
+        "snippet": "51%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...net revenue, up from 51%, with revenue of NT$2,192,931 million, up 48%  . Smartphone revenue grew 11% to NT$1,110,816...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "48%",
+        "snippet": "million, or a 48% year-over-year increase, and from Smartphone of NT$ 105,686 million, or a 11% year-over-year increase."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue grew 11% to NT$1,110,816 million, but its share fell to 29% from 35%. IoT and automotive each held 5% of net...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29%",
+        "snippet": "29%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 11% to NT$1,110,816 million, but its share fell to 29% from 35%. IoT and automotive each held 5% of net revenue,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "35%",
+        "snippet": "35%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but its share fell to 29% from 35%. IoT and automotive each held 5% of net revenue, and digital consumer electronics...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5%",
+        "snippet": "5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...began volume production in December 2024, and ESMC in Dresden, 70% owned by the company, is the European project  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "70%",
+        "snippet": "70%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12.9",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...wafers in 2025, and shipments rose 16.3% to 15.0 million from 12.9 million in 2024  . The company presents scale in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12,910",
+        "snippet": "12,910 —"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...concentrated by customer headquarters: North America accounted for 75% of 2025 net revenue, Asia Pacific 9%, China 9%,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "75%",
+        "snippet": "75%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 2025 net revenue, Asia Pacific 9%, China 9%, Japan 4% and EMEA 3%  . The filing describes customers as many of the...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "3%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18.6",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...opinion rather than the filing itself. The consensus forward P/E of 18.6 times is the relevant valuation anchor  .",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.3%",
+      "value": 16.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...31.6% to NT$3,809,054 million in 2025, led by wafer shipments up 16.3% and by advanced nodes at 74% of wafer revenue  ....",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ASX Gross Margin 2024: 16.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.8%",
+      "value": 50.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...despite a stronger NT dollar  . Operating margin widened to 50.8% from 45.7%, and net income attributable to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50.8%",
+        "snippet": "50.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.5%",
+      "value": 46.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...50.8% from 45.7%, and net income attributable to shareholders rose 46.5% to NT$1,697,604 million, a net margin of 44.6%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.5%",
+        "snippet": "46.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.6%",
+      "value": 44.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to shareholders rose 46.5% to NT$1,697,604 million, a net margin of 44.6% against 40.0%  . Diluted EPS reached NT$327.35,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "44.6%",
+        "snippet": "44.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.7%",
+      "value": 20.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at roughly 0.3 percentage points of operating margin  . R&D rose 20.7% to NT$246,427 million for 10-, 14- and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "20.7%",
+        "snippet": "20.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.0%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 39.6% to NT$346,530 million, an effective rate of about 17.0%  . Operating cash flow reached NT$2,274,976...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17%",
+        "snippet": "2025 accounted for 11% , 12% , and 17% of our net revenue in the respective year. A more concentrated customer base may"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.6%",
+      "value": 46.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...continue. FY2026 revenue is estimated at about NT$5.58 trillion (+46.6%) and FY2027 at about NT$7.70 trillion (+37.9%),...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.5%",
+        "snippet": "46.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.9%",
+      "value": 37.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...NT$5.58 trillion (+46.6%) and FY2027 at about NT$7.70 trillion (+37.9%), with EPS of US$17.50 and US$23.39 per ADR  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "38%",
+        "snippet": "...to 2023 , which was mainly due to an increase in orders from North America of NT$561,111 million, or a 38%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beat quarterly EPS consensus in each of the last four quarters, by 1.7% to 10.9%  . Net cash reached NT$3.03 trillion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "(1.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS consensus in each of the last four quarters, by 1.7% to 10.9%  . Net cash reached NT$3.03 trillion and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.3",
+      "value": 0.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the filing puts each 1% depreciation of the US dollar at roughly 0.3 percentage points of operating margin  . R&D...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.3",
+        "snippet": "approximately 0.3 percentage point decrease in our operating margin based on our 2025 results."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15.77",
+      "value": 15.77,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...The financial buffers are strong, though. The Altman Z-Score is 15.77, the Piotroski F-Score 9 of 9 and the Beneish...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Gain Loss On Sale Of Business 2023-12-31: -15,800,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.0%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell at each peer over 2022 to 2025, while TSMC's rose slightly to 72.0%  . Free cash flow conversion is not compared,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 72.0%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.2",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and is the closest in size among the candidates, at about 0.2 times TSMC's revenue  . GlobalFoundries (GFS) is...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.18",
+        "snippet": "nanometer processes to 0.13-, 0.18-, 0.25- and 0.35-micron. This extension offers a routinely scheduled multi-project wafer"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.5",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the highest in the peer set, against a 2025 peer median of about 8.5  . EBITDA grew 72.1% over the period while the...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "GFS EV/EBITDA 2025: 8.49"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18.6",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a large margin shift  . On forward figures, consensus puts TSMC at 18.6 times FY2026 EPS  . The peer data does not...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...TSMC beating quarterly EPS in each of the last four quarters by 1.7% to 10.9%  . FY2027 EPS consensus holding at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "(1.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beating quarterly EPS in each of the last four quarters by 1.7% to 10.9%  . FY2027 EPS consensus holding at or above...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    }
+  ],
+  "total_claims": 180,
+  "matched": 180,
+  "match_rate": 1.0,
+  "by_kind": {
+    "money": {
+      "total": 59,
+      "matched": 59,
+      "context_matched": 59
+    },
+    "pct": {
+      "total": 89,
+      "matched": 89,
+      "context_matched": 62
+    },
+    "multiple": {
+      "total": 1,
+      "matched": 1,
+      "context_matched": 0
+    },
+    "plain": {
+      "total": 31,
+      "matched": 31,
+      "context_matched": 23
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 139,
+    "[2] Yahoo Finance": 19,
+    "[2][3] Liquidity and consensus": 18,
+    "[4] Peer data": 4
+  },
+  "unmatched": [],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "NT$992 billion",
+      "value": 992.0,
+      "unit": "billion",
+      "money_mn": 992000.0,
+      "decimals": 0,
+      "context": "...revenue  . Self-funded expansion looks durable: free cash flow of NT$992 billion covered dividends about twice, leaving net cash...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 992378"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$2.06 trillion",
+      "value": 2.06,
+      "unit": "trillion",
+      "money_mn": 2060000.0,
+      "decimals": 2,
+      "context": "...NT$992 billion covered dividends about twice, leaving net cash of NT$2.06 trillion  . Rising estimates support the 18.6x forward...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "2,063,485.4 million",
+        "snippet": "...(10-K): cash and short-term investments $3,128,068.1 million, total debt $1,064,582.7 million, net cash $2,063,485.4 million, free cash flow $992,378.4 million, cash runway at that burn self-funded, current ratio 2.5x, shares..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60%",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AI-led HPC demand should keep margins near 60%, since gross margin rose to 59.9% and HPC is now...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.9%",
+      "value": 59.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...HPC demand should keep margins near 60%, since gross margin rose to 59.9% and HPC is now 58% of revenue  . Self-funded...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "revenue"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58%",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margins near 60%, since gross margin rose to 59.9% and HPC is now 58% of revenue  . Self-funded expansion looks...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "58%",
+        "snippet": "58% in 2023 ."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...support the 18.6x forward P/E, but the implied return of about 11% only matches the cost of capital  . Customer...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...concentration is the main risk: the ten largest customers took 78% of 2025 revenue, so one large customer's...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "customer",
+          "revenue"
+        ],
+        "hl": "78%",
+        "snippet": "approximately, 70% , 76% and 78% of our net revenue in the respective year. Our largest customer in 2023 , 2024 and 2025"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "18.6x",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...net cash of NT$2.06 trillion  . Rising estimates support the 18.6x forward P/E, but the implied return of about 11%...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$3,809,054 million",
+      "value": 3809054.0,
+      "unit": "million",
+      "money_mn": 3809054.0,
+      "decimals": 0,
+      "context": "TSMC's 2025 results show strong momentum. Revenue rose 31.6% to NT$3,809,054 million and net income 46.5% to NT$1,697,604 million,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,809,054",
+        "snippet": "3,809,054 100%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1,697,604 million",
+      "value": 1697604.0,
+      "unit": "million",
+      "money_mn": 1697604.0,
+      "decimals": 0,
+      "context": "...Revenue rose 31.6% to NT$3,809,054 million and net income 46.5% to NT$1,697,604 million, with gross margin at 59.9%, driven by HPC, now...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,697,604 million",
+        "snippet": "NT$ 3,809,054 million (US$ 121,423 million) and NT$ 1,697,604 million (US$ 54,116 million) in 2025 , respectively. Please"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$992,378 million",
+      "value": 992378.0,
+      "unit": "million",
+      "money_mn": 992378.0,
+      "decimals": 0,
+      "context": "...at 59.9%, driven by HPC, now 58% of revenue  . Free cash flow of NT$992,378 million covered dividends about twice, and net cash...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 992378"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$3.03 trillion",
+      "value": 3.03,
+      "unit": "trillion",
+      "money_mn": 3030000.0,
+      "decimals": 2,
+      "context": "...million covered dividends about twice, and net cash reached NT$3.03 trillion by September 2026  .\\n\\nValuation is the open...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3,028,664.4 million",
+        "snippet": "...cash and short-term investments $4,094,652.8 million, total debt $1,065,988.4 million, net cash $3,028,664.4 million, TTM free cash flow $1,457,584.3 million, cash runway at that burn self-funded, current ratio 2.6x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$52",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... The main risks are customer concentration, export controls and the US$52–56 billion 2026 capex plan  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "52 billion",
+        "snippet": "capital expenditures in 2026 are expected to be between US$52 billion and US$56 billion, which, depending on market"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.6%",
+      "value": 31.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "TSMC's 2025 results show strong momentum. Revenue rose 31.6% to NT$3,809,054 million and net income 46.5% to...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "net"
+        ],
+        "hl": "31.6%",
+        "snippet": "Our net revenue in 2025 increased by 31.6% from 2024 , which was mainly attributed to an increase in ASP due to a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.5%",
+      "value": 46.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...momentum. Revenue rose 31.6% to NT$3,809,054 million and net income 46.5% to NT$1,697,604 million, with gross margin at...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "46.6%",
+        "snippet": "...revenue $5,582,137.4 million (range $5,157,000.0 million to $5,728,468.1 million, 40 analysts), growth +46.6%; EPS $17.50 (range $17.18 to $17.95); forward P/E 18.7x; EV/Sales 9.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.9%",
+      "value": 59.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and net income 46.5% to NT$1,697,604 million, with gross margin at 59.9%, driven by HPC, now 58% of revenue  . Free cash...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "revenue",
+          "net"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58%",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million, with gross margin at 59.9%, driven by HPC, now 58% of revenue  . Free cash flow of NT$992,378...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "58%",
+        "snippet": "58% in 2023 ."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23.6%",
+      "value": 23.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...trade on 18.6 times FY2026 consensus EPS  . The reverse DCF implies 23.6% annual revenue growth for ten years. That is...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "23.7%",
+        "snippet": "- The current enterprise value of $54,397,170.6 million implies revenue growth of 23.7% per year for 10 years (FY2025 revenue $3,809,054.3 million -> about $31,981,150.6 million in FY2035),..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.9%",
+      "value": 18.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...23.6% annual revenue growth for ten years. That is above the 18.9% three-year historical CAGR, but far below...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "18.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 18.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.6%",
+      "value": 46.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...18.9% three-year historical CAGR, but far below consensus growth of 46.6% for FY2026 and 37.9% for FY2027  . The price...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.5%",
+        "snippet": "46.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.9%",
+      "value": 37.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...CAGR, but far below consensus growth of 46.6% for FY2026 and 37.9% for FY2027  . The price therefore needs growth...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "38%",
+        "snippet": "...to 2023 , which was mainly due to an increase in orders from North America of NT$561,111 million, or a 38%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...expects much faster growth in the next two years. The implied 11.1% return barely exceeds the 11.0% cost of capital...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.0%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the next two years. The implied 11.1% return barely exceeds the 11.0% cost of capital  . The main risks are customer...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18.6",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026  .\\n\\nValuation is the open question. The shares trade on 18.6 times FY2026 consensus EPS  . The reverse DCF...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "56",
+      "value": 56.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risks are customer concentration, export controls and the US$52–56 billion 2026 capex plan  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "united"
+        ],
+        "hl": "56 billion",
+        "snippet": "capital expenditures in 2026 are expected to be between US$52 billion and US$56 billion, which, depending on market"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$2,192,931 million",
+      "value": 2192931.0,
+      "unit": "million",
+      "money_mn": 2192931.0,
+      "decimals": 0,
+      "context": "...platform at 58% of net revenue, up from 51%, with revenue of NT$2,192,931 million, up 48%  . Smartphone revenue grew 11% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,192,931",
+        "snippet": "2,192,931 58%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1,110,816 million",
+      "value": 1110816.0,
+      "unit": "million",
+      "money_mn": 1110816.0,
+      "decimals": 0,
+      "context": "...of NT$2,192,931 million, up 48%  . Smartphone revenue grew 11% to NT$1,110,816 million, but its share fell to 29% from 35%. IoT and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,110,816",
+        "snippet": "1,110,816 29%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$6.6 billion",
+      "value": 6.6,
+      "unit": "billion",
+      "money_mn": 6600.0,
+      "decimals": 1,
+      "context": "...under construction, supported by direct CHIPS Act funding of up to US$6.6 billion  . JASM in Japan began volume production in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6.6 billion",
+        "snippet": "award TSMC Arizona up to US$6.6 billion in direct funding related to TSMC Arizona’s semiconductor manufacturing"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$52",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...listed cost pressures  . Capital expenditure guidance for 2026 is US$52–56 billion, against NT$1,272,411 million spent...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "52 billion",
+        "snippet": "capital expenditures in 2026 are expected to be between US$52 billion and US$56 billion, which, depending on market"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1,272,411 million",
+      "value": 1272411.0,
+      "unit": "million",
+      "money_mn": 1272411.0,
+      "decimals": 0,
+      "context": ".... Capital expenditure guidance for 2026 is US$52–56 billion, against NT$1,272,411 million spent in 2025  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,272,411\nmillion",
+        "snippet": "Our capital expenditures in 2023 , 2024 and 2025 were NT$ 949,817 million, NT$ 956,007 million and NT$ 1,272,411 million (US$ 40,895 million, translated from a weighted average exchange rate of NT$ 31.11 to US$1.00),..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.3%",
+      "value": 16.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...17 million 12-inch equivalent wafers in 2025, and shipments rose 16.3% to 15.0 million from 12.9 million in 2024  . The...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ASX Gross Margin 2024: 16.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...no separate revenue for packaging and testing, which make up about 14% of net revenue, so their growth cannot be...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "14%",
+        "snippet": "In 2025 , the 3-nanometer, 5-nanometer and 7-nanometer revenues represented 24% , 36% and 14% of total wafer"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...main differentiator. Technologies at 7 nanometers and below made up 74% of 2025 wafer revenue, up from 69% in 2024, and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "below",
+          "wafer",
+          "revenue",
+          "technology",
+          "nanometer"
+        ],
+        "hl": "74%",
+        "snippet": "revenue, respectively. Advanced technologies (7-nanometer and below) accounted for 74% of total wafer revenue, up from"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "69%",
+      "value": 69.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...7 nanometers and below made up 74% of 2025 wafer revenue, up from 69% in 2024, and 3-nanometer rose to 24% of wafer...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "below",
+          "wafer",
+          "revenue",
+          "nanometer"
+        ],
+        "hl": "69%",
+        "snippet": "revenue, respectively. Advanced technologies (7-nanometer and below) accounted for 69% of total wafer revenue, up from"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 2025 wafer revenue, up from 69% in 2024, and 3-nanometer rose to 24% of wafer revenue from 18%  . The 2-nanometer...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "wafer",
+          "revenue",
+          "nanometer"
+        ],
+        "hl": "24%",
+        "snippet": "In 2025 , the 3-nanometer, 5-nanometer and 7-nanometer revenues represented 24% , 36% and 14% of total wafer"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from 69% in 2024, and 3-nanometer rose to 24% of wafer revenue from 18%  . The 2-nanometer technology entered volume...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "wafer",
+          "revenue",
+          "nanometer"
+        ],
+        "hl": "18%",
+        "snippet": "In 2024 , the 3-nanometer, 5-nanometer and 7-nanometer revenues represented 18% , 34% and 17% of total wafer"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58%",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year  . High Performance Computing became the largest platform at 58% of net revenue, up from 51%, with revenue of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "computing",
+          "high",
+          "performance"
+        ],
+        "hl": "58%",
+        "snippet": "million, or a 58% year-over-year increase, and from Smartphone of NT$ 190,216 million, or a 23% year-over-year increase."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "51%",
+      "value": 51.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...became the largest platform at 58% of net revenue, up from 51%, with revenue of NT$2,192,931 million, up 48%  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "51%",
+        "snippet": "51%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...net revenue, up from 51%, with revenue of NT$2,192,931 million, up 48%  . Smartphone revenue grew 11% to NT$1,110,816...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "48%",
+        "snippet": "million, or a 48% year-over-year increase, and from Smartphone of NT$ 105,686 million, or a 11% year-over-year increase."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue of NT$2,192,931 million, up 48%  . Smartphone revenue grew 11% to NT$1,110,816 million, but its share fell to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "smartphone"
+        ],
+        "hl": "11%",
+        "snippet": "million, or a 48% year-over-year increase, and from Smartphone of NT$ 105,686 million, or a 11% year-over-year increase."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue grew 11% to NT$1,110,816 million, but its share fell to 29% from 35%. IoT and automotive each held 5% of net...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "29%",
+        "snippet": "29%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 11% to NT$1,110,816 million, but its share fell to 29% from 35%. IoT and automotive each held 5% of net revenue,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "35%",
+        "snippet": "35%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but its share fell to 29% from 35%. IoT and automotive each held 5% of net revenue, and digital consumer electronics...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5%",
+        "snippet": "5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...each held 5% of net revenue, and digital consumer electronics 1%  . AI and server demand now sets the pace of the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "GFS Revenue Growth 2025: 0.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...began volume production in December 2024, and ESMC in Dresden, 70% owned by the company, is the European project  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "70%",
+        "snippet": "70%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1987",
+      "value": 1987.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Taiwan Semiconductor Manufacturing Company, founded in 1987, is a dedicated foundry that manufactures chips...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "founded",
+          "manufacturing",
+          "semiconductor"
+        ],
+        "hl": "1987",
+        "snippet": "Limited). We were founded in 1987 as a joint venture among the R.O.C. government and other private investors and were"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "17",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and packaging, and testing services  . Annual capacity exceeded 17 million 12-inch equivalent wafers in 2025, and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "exceeded",
+          "annual",
+          "capacity",
+          "equivalent",
+          "wafer",
+          "inch"
+        ],
+        "hl": "17 million",
+        "snippet": "In 2025 , our annual capacity (in 12-inch equivalent wafers) exceeded 17 million wafers, compared to approximately"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and testing services  . Annual capacity exceeded 17 million 12-inch equivalent wafers in 2025, and shipments...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "exceeded",
+          "annual",
+          "capacity",
+          "equivalent",
+          "wafer",
+          "inch"
+        ],
+        "hl": "12",
+        "snippet": "In 2025 , our annual capacity (in 12-inch equivalent wafers) exceeded 17 million wafers, compared to approximately"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15.0",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...12-inch equivalent wafers in 2025, and shipments rose 16.3% to 15.0 million from 12.9 million in 2024  . The company...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "equivalent",
+          "wafer",
+          "inch"
+        ],
+        "hl": "15 million",
+        "snippet": "offset by an appreciation of the NT dollar against the U.S. dollar. We shipped approximately 15 million 12-inch equivalent"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "12.9",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...wafers in 2025, and shipments rose 16.3% to 15.0 million from 12.9 million in 2024  . The company presents scale in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12,910",
+        "snippet": "12,910 —"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "....\\n\\nAdvanced nodes are the main differentiator. Technologies at 7 nanometers and below made up 74% of 2025 wafer...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "below",
+          "wafer",
+          "technology",
+          "nanometer"
+        ],
+        "hl": "7",
+        "snippet": "revenue, respectively. Advanced technologies (7-nanometer and below) accounted for 74% of total wafer revenue, up from"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below made up 74% of 2025 wafer revenue, up from 69% in 2024, and 3-nanometer rose to 24% of wafer revenue from 18%...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "wafer",
+          "revenue",
+          "nanometer"
+        ],
+        "hl": "3",
+        "snippet": "3-nanometer"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2024, and 3-nanometer rose to 24% of wafer revenue from 18%  . The 2-nanometer technology entered volume production...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "wafer",
+          "revenue",
+          "nanometer"
+        ],
+        "hl": "2025",
+        "snippet": "In 2025 , the 3-nanometer, 5-nanometer and 7-nanometer revenues represented 24% , 36% and 14% of total wafer"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "16",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...centre on capacity outside Taiwan and on next-generation nodes. The 16-angstrom technology is expected in risk...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "expected",
+          "risk"
+        ],
+        "hl": "16",
+        "snippet": "16 The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026 ,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "56",
+      "value": 56.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cost pressures  . Capital expenditure guidance for 2026 is US$52–56 billion, against NT$1,272,411 million spent in...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "united"
+        ],
+        "hl": "56 billion",
+        "snippet": "capital expenditures in 2026 are expected to be between US$52 billion and US$56 billion, which, depending on market"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$143.33",
+      "value": 143.33,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...sentiment is strongly positive. The 52-week share price range was US$143.33 to US$387.17  . The consensus rating is Buy,...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "143.33",
+        "snippet": "143.33 - 387.17"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$387.17",
+      "value": 387.17,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...strongly positive. The 52-week share price range was US$143.33 to US$387.17  . The consensus rating is Buy, with a mean...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "387.17",
+        "snippet": "143.33 - 387.17"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$586.69",
+      "value": 586.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... The consensus rating is Buy, with a mean target price of US$586.69 in a range of US$440 to US$1,000  . Those...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "586.69",
+        "snippet": "586.69 (range 440.00 - 1000.00), current consensus as of 2026-11-25, not as of 2026-04-16"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$440",
+      "value": 440.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rating is Buy, with a mean target price of US$586.69 in a range of US$440 to US$1,000  . Those analyst figures were...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "440.00",
+        "snippet": "586.69 (range 440.00 - 1000.00), current consensus as of 2026-11-25, not as of 2026-04-16"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$1,000",
+      "value": 1000.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Buy, with a mean target price of US$586.69 in a range of US$440 to US$1,000  . Those analyst figures were retrieved on 25...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "1000.00)",
+        "snippet": "586.69 (range 440.00 - 1000.00), current consensus as of 2026-11-25, not as of 2026-04-16"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...concentrated by customer headquarters: North America accounted for 75% of 2025 net revenue, Asia Pacific 9%, China 9%,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "75%",
+        "snippet": "75%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...North America accounted for 75% of 2025 net revenue, Asia Pacific 9%, China 9%, Japan 4% and EMEA 3%  . The filing...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net"
+        ],
+        "hl": "8.5%",
+        "snippet": "representing 8.5% , 7.1% and 6.5% of our net revenue, respectively. We plan to continue significant investment in research"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...accounted for 75% of 2025 net revenue, Asia Pacific 9%, China 9%, Japan 4% and EMEA 3%  . The filing describes...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net"
+        ],
+        "hl": "8.5%",
+        "snippet": "representing 8.5% , 7.1% and 6.5% of our net revenue, respectively. We plan to continue significant investment in research"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...for 75% of 2025 net revenue, Asia Pacific 9%, China 9%, Japan 4% and EMEA 3%  . The filing describes customers as...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2023: -4.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of 2025 net revenue, Asia Pacific 9%, China 9%, Japan 4% and EMEA 3%  . The filing describes customers as many of the...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3%",
+        "snippet": "3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is the key feature: the ten largest customers accounted for 78% of 2025 net revenue, up from 70% in 2023, and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "accounted",
+          "customer",
+          "revenue",
+          "net"
+        ],
+        "hl": "78%",
+        "snippet": "approximately, 70% , 76% and 78% of our net revenue in the respective year. Our largest customer in 2023 , 2024 and 2025"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...largest customers accounted for 78% of 2025 net revenue, up from 70% in 2023, and the largest single customer for...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "accounted",
+          "customer",
+          "net"
+        ],
+        "hl": "70%",
+        "snippet": "approximately, 70% , 76% and 78% of our net revenue in the respective year. Our largest customer in 2023 , 2024 and 2025"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue, up from 70% in 2023, and the largest single customer for 19%, down from 25% in 2023  .\\n\\nThe filing gives no...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "customer",
+          "revenue"
+        ],
+        "hl": "19%",
+        "snippet": "accounted for 25% , 22% and 19% of our net revenue in the respective year. Our second largest customer in 2023 , 2024 and"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...70% in 2023, and the largest single customer for 19%, down from 25% in 2023  .\\n\\nThe filing gives no market share...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "customer"
+        ],
+        "hl": "25%",
+        "snippet": "accounted for 25% , 22% and 19% of our net revenue in the respective year. Our second largest customer in 2023 , 2024 and"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18.6",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...opinion rather than the filing itself. The consensus forward P/E of 18.6 times is the relevant valuation anchor  .",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$3,809,054 million",
+      "value": 3809054.0,
+      "unit": "million",
+      "money_mn": 3809054.0,
+      "decimals": 0,
+      "context": "Net revenue rose 31.6% to NT$3,809,054 million in 2025, led by wafer shipments up 16.3% and by...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3,809,054",
+        "snippet": "3,809,054 100%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$2,281,294 million",
+      "value": 2281294.0,
+      "unit": "million",
+      "money_mn": 2281294.0,
+      "decimals": 0,
+      "context": "...so gross margin rose to 59.9% from 56.1% and gross profit reached NT$2,281,294 million, despite a stronger NT dollar  . Operating...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,281,294",
+        "snippet": "2,281,294 72,722"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1,697,604 million",
+      "value": 1697604.0,
+      "unit": "million",
+      "money_mn": 1697604.0,
+      "decimals": 0,
+      "context": "...45.7%, and net income attributable to shareholders rose 46.5% to NT$1,697,604 million, a net margin of 44.6% against 40.0%  . Diluted...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,697,604 million",
+        "snippet": "NT$ 3,809,054 million (US$ 121,423 million) and NT$ 1,697,604 million (US$ 54,116 million) in 2025 , respectively. Please"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$327.35",
+      "value": 327.35,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million, a net margin of 44.6% against 40.0%  . Diluted EPS reached NT$327.35, up from NT$226.25  .\\n\\nCurrency was the main...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2025-12-31: 327 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$226.25",
+      "value": 226.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 44.6% against 40.0%  . Diluted EPS reached NT$327.35, up from NT$226.25  .\\n\\nCurrency was the main headwind. The NT...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2024-12-31: 226 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$32.13",
+      "value": 32.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "....\\n\\nCurrency was the main headwind. The NT dollar strengthened from NT$32.13 to NT$31.11 per US dollar, reducing reported...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "32.13",
+        "snippet": "our revenue, with weighted average exchange rates of the NT dollar per U.S. dollar appreciating from NT$ 32.13 in 2024 to"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$31.11",
+      "value": 31.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...was the main headwind. The NT dollar strengthened from NT$32.13 to NT$31.11 per US dollar, reducing reported revenue, and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31.11",
+        "snippet": "million (US$ 40,895 million, translated from a weighted average exchange rate of NT$ 31.11 to US$1.00), respectively. Our"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$246,427 million",
+      "value": 246427.0,
+      "unit": "million",
+      "money_mn": 246427.0,
+      "decimals": 0,
+      "context": "...0.3 percentage points of operating margin  . R&D rose 20.7% to NT$246,427 million for 10-, 14- and 16-angstrom work, and income...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "246,427 million",
+        "snippet": "NT$ 204,182 million, and NT$ 246,427 million (US$ 7,855 million), respectively, on research and development,"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$346,530 million",
+      "value": 346530.0,
+      "unit": "million",
+      "money_mn": 346530.0,
+      "decimals": 0,
+      "context": "...10-, 14- and 16-angstrom work, and income tax expense rose 39.6% to NT$346,530 million, an effective rate of about 17.0%  . Operating...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "346,530)",
+        "snippet": "(346,530)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$2,274,976 million",
+      "value": 2274976.0,
+      "unit": "million",
+      "money_mn": 2274976.0,
+      "decimals": 0,
+      "context": "...an effective rate of about 17.0%  . Operating cash flow reached NT$2,274,976 million and capital expenditure NT$1,272,411 million,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,274,976\nmillion",
+        "snippet": "Our primary source of liquidity is cash flow from operations. Cash flow from operations for 2025 was NT$ 2,274,976 million (US$ 72,521 million), reflecting an increase of NT$ 448,799 million from 2024 ."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1,272,411 million",
+      "value": 1272411.0,
+      "unit": "million",
+      "money_mn": 1272411.0,
+      "decimals": 0,
+      "context": "...cash flow reached NT$2,274,976 million and capital expenditure NT$1,272,411 million, leaving free cash flow of NT$992,378 million,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,272,411\nmillion",
+        "snippet": "Our capital expenditures in 2023 , 2024 and 2025 were NT$ 949,817 million, NT$ 956,007 million and NT$ 1,272,411 million (US$ 40,895 million, translated from a weighted average exchange rate of NT$ 31.11 to US$1.00),..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$992,378 million",
+      "value": 992378.0,
+      "unit": "million",
+      "money_mn": 992378.0,
+      "decimals": 0,
+      "context": "...capital expenditure NT$1,272,411 million, leaving free cash flow of NT$992,378 million, which covered dividends of NT$466,779 million...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 992378"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$466,779 million",
+      "value": 466779.0,
+      "unit": "million",
+      "money_mn": 466779.0,
+      "decimals": 0,
+      "context": "...free cash flow of NT$992,378 million, which covered dividends of NT$466,779 million about twice  .\\n\\nConsensus expects growth to...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Cash Dividends Paid 2025-12-31: -466,779,200,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$5.58 trillion",
+      "value": 5.58,
+      "unit": "trillion",
+      "money_mn": 5580000.0,
+      "decimals": 2,
+      "context": "...expects growth to continue. FY2026 revenue is estimated at about NT$5.58 trillion (+46.6%) and FY2027 at about NT$7.70 trillion...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "5582137"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$7.70 trillion",
+      "value": 7.7,
+      "unit": "trillion",
+      "money_mn": 7700000.0,
+      "decimals": 2,
+      "context": "...is estimated at about NT$5.58 trillion (+46.6%) and FY2027 at about NT$7.70 trillion (+37.9%), with EPS of US$17.50 and US$23.39 per...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "7696021"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$17.50",
+      "value": 17.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...(+46.6%) and FY2027 at about NT$7.70 trillion (+37.9%), with EPS of US$17.50 and US$23.39 per ADR  . The data source labels...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "17.50",
+        "snippet": "...$5,582,137.4 million (range $5,157,000.0 million to $5,728,468.1 million, 40 analysts), growth +46.6%; EPS $17.50 (range $17.18 to $17.95); forward P/E 18.7x; EV/Sales 9.7x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$23.39",
+      "value": 23.39,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2027 at about NT$7.70 trillion (+37.9%), with EPS of US$17.50 and US$23.39 per ADR  . The data source labels these revenue...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "23.39",
+        "snippet": "...$7,696,020.7 million (range $6,879,000.0 million to $8,534,416.4 million, 41 analysts), growth +37.9%; EPS $23.39 (range $21.45 to $25.87); forward P/E 14.0x; EV/Sales 7.1x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$3.03 trillion",
+      "value": 3.03,
+      "unit": "trillion",
+      "money_mn": 3030000.0,
+      "decimals": 2,
+      "context": "...of the last four quarters, by 1.7% to 10.9%  . Net cash reached NT$3.03 trillion and trailing free cash flow NT$1.46 trillion at...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3,028,664.4 million",
+        "snippet": "...cash and short-term investments $4,094,652.8 million, total debt $1,065,988.4 million, net cash $3,028,664.4 million, TTM free cash flow $1,457,584.3 million, cash runway at that burn self-funded, current ratio 2.6x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1.46 trillion",
+      "value": 1.46,
+      "unit": "trillion",
+      "money_mn": 1460000.0,
+      "decimals": 2,
+      "context": ".... Net cash reached NT$3.03 trillion and trailing free cash flow NT$1.46 trillion at 30 September 2026  .",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1,457,584.3 million",
+        "snippet": "...$4,094,652.8 million, total debt $1,065,988.4 million, net cash $3,028,664.4 million, TTM free cash flow $1,457,584.3 million, cash runway at that burn self-funded, current ratio 2.6x, shares outstanding 25,932.4 million, change in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.6%",
+      "value": 31.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Net revenue rose 31.6% to NT$3,809,054 million in 2025, led by wafer...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "net"
+        ],
+        "hl": "31.6%",
+        "snippet": "Our net revenue in 2025 increased by 31.6% from 2024 , which was mainly attributed to an increase in ASP due to a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.3%",
+      "value": 16.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...31.6% to NT$3,809,054 million in 2025, led by wafer shipments up 16.3% and by advanced nodes at 74% of wafer revenue  ....",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "ASX Gross Margin 2024: 16.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in 2025, led by wafer shipments up 16.3% and by advanced nodes at 74% of wafer revenue  . Cost of revenue grew 20.3%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "advanced",
+          "wafer",
+          "revenue"
+        ],
+        "hl": "74%",
+        "snippet": "revenue, respectively. Advanced technologies (7-nanometer and below) accounted for 74% of total wafer revenue, up from"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.3%",
+      "value": 20.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...by advanced nodes at 74% of wafer revenue  . Cost of revenue grew 20.3%, slower than revenue, so gross margin rose to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "UMC Revenue Growth 2023: -20.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.9%",
+      "value": 59.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of revenue grew 20.3%, slower than revenue, so gross margin rose to 59.9% from 56.1% and gross profit reached NT$2,281,294...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "revenue"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "56.1%",
+      "value": 56.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...grew 20.3%, slower than revenue, so gross margin rose to 59.9% from 56.1% and gross profit reached NT$2,281,294 million,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "revenue"
+        ],
+        "hl": "56.1%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.8%",
+      "value": 50.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...despite a stronger NT dollar  . Operating margin widened to 50.8% from 45.7%, and net income attributable to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "50.8%",
+        "snippet": "50.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "45.7%",
+      "value": 45.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a stronger NT dollar  . Operating margin widened to 50.8% from 45.7%, and net income attributable to shareholders...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "UMC EBITDA Margin 2025: 45.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.5%",
+      "value": 46.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...50.8% from 45.7%, and net income attributable to shareholders rose 46.5% to NT$1,697,604 million, a net margin of 44.6%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.5%",
+        "snippet": "46.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.6%",
+      "value": 44.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to shareholders rose 46.5% to NT$1,697,604 million, a net margin of 44.6% against 40.0%  . Diluted EPS reached NT$327.35,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "44.6%",
+        "snippet": "44.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.0%",
+      "value": 40.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 46.5% to NT$1,697,604 million, a net margin of 44.6% against 40.0%  . Diluted EPS reached NT$327.35, up from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "GFS EBITDA Margin 2022: 40.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1%",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...per US dollar, reducing reported revenue, and the filing puts each 1% depreciation of the US dollar at roughly 0.3...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "depreciation"
+        ],
+        "hl": "1%",
+        "snippet": "expressed in NT dollars. For example, every 1% depreciation of the U.S. dollar against the NT dollar would result in an"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.7%",
+      "value": 20.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at roughly 0.3 percentage points of operating margin  . R&D rose 20.7% to NT$246,427 million for 10-, 14- and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "20.7%",
+        "snippet": "20.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39.6%",
+      "value": 39.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for 10-, 14- and 16-angstrom work, and income tax expense rose 39.6% to NT$346,530 million, an effective rate of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "tax"
+        ],
+        "hl": "39.6%",
+        "snippet": "Income tax expenses increased by NT$ 98,214 million in 2025 , or 39.6% , from 2024 . The increase was mainly"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.0%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 39.6% to NT$346,530 million, an effective rate of about 17.0%  . Operating cash flow reached NT$2,274,976...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17%",
+        "snippet": "2025 accounted for 11% , 12% , and 17% of our net revenue in the respective year. A more concentrated customer base may"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "46.6%",
+      "value": 46.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...continue. FY2026 revenue is estimated at about NT$5.58 trillion (+46.6%) and FY2027 at about NT$7.70 trillion (+37.9%),...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "46.5%",
+        "snippet": "46.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "37.9%",
+      "value": 37.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...NT$5.58 trillion (+46.6%) and FY2027 at about NT$7.70 trillion (+37.9%), with EPS of US$17.50 and US$23.39 per ADR  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "38%",
+        "snippet": "...to 2023 , which was mainly due to an increase in orders from North America of NT$561,111 million, or a 38%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.8%",
+      "value": 4.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026, after the filing. Estimates have risen: FY2026 EPS is up 4.8% over 90 days and FY2027 EPS 9.9%, and TSMC beat...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "4.8%",
+        "snippet": "...consensus current fiscal year: $17.50 today, $16.93 30 days ago, $16.70 90 days ago, change vs 90 days ago +4.8%; analysts raising/cutting in last 30 days: 9/2"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.9%",
+      "value": 9.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...have risen: FY2026 EPS is up 4.8% over 90 days and FY2027 EPS 9.9%, and TSMC beat quarterly EPS consensus in each...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "9.9%",
+        "snippet": "...EPS consensus next fiscal year: $23.39 today, $21.92 30 days ago, $21.28 90 days ago, change vs 90 days ago +9.9%; analysts raising/cutting in last 30 days: 10/2"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beat quarterly EPS consensus in each of the last four quarters, by 1.7% to 10.9%  . Net cash reached NT$3.03 trillion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "(1.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS consensus in each of the last four quarters, by 1.7% to 10.9%  . Net cash reached NT$3.03 trillion and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.3",
+      "value": 0.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the filing puts each 1% depreciation of the US dollar at roughly 0.3 percentage points of operating margin  . R&D...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.3",
+        "snippet": "approximately 0.3 percentage point decrease in our operating margin based on our 2025 results."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of operating margin  . R&D rose 20.7% to NT$246,427 million for 10-, 14- and 16-angstrom work, and income tax...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "angstrom"
+        ],
+        "hl": "10",
+        "snippet": "were mainly attributed to a higher level of research activities for 10-angstrom, 14-angstrom, and 16-angstrom process"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "14",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...operating margin  . R&D rose 20.7% to NT$246,427 million for 10-, 14- and 16-angstrom work, and income tax expense...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "angstrom"
+        ],
+        "hl": "14",
+        "snippet": "were mainly attributed to a higher level of research activities for 10-angstrom, 14-angstrom, and 16-angstrom process"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "16",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin  . R&D rose 20.7% to NT$246,427 million for 10-, 14- and 16-angstrom work, and income tax expense rose 39.6%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "angstrom"
+        ],
+        "hl": "16",
+        "snippet": "development of our 16-angstrom technology is on track, and its risk production is expected in 2026."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...after the filing. Estimates have risen: FY2026 EPS is up 4.8% over 90 days and FY2027 EPS 9.9%, and TSMC beat...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $17.50 today, $16.93 30 days ago, $16.70 90 days ago, change vs 90 days ago +4.8%; analysts raising/cutting in last 30 days: 9/2"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$3 billion",
+      "value": 3.0,
+      "unit": "billion",
+      "money_mn": 3000.0,
+      "decimals": 0,
+      "context": "...the third risk. The company recorded net earthquake losses of about NT$3 billion in the second quarter of 2024 and NT$5.3 billion...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3\nbillion",
+        "snippet": "...causing damage to our inventories, plant facilities, machinery and equipment. We recognized approximately NT$3 billion and NT$5.3 billion in losses from earthquakes, net of insurance claim, respectively, in the second quarter..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$5.3 billion",
+      "value": 5.3,
+      "unit": "billion",
+      "money_mn": 5300.0,
+      "decimals": 1,
+      "context": "...losses of about NT$3 billion in the second quarter of 2024 and NT$5.3 billion in the first quarter of 2025, after insurance  ....",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.3 billion",
+        "snippet": "billion and NT$5.3 billion in losses from earthquakes, net of insurance claim, respectively, in the second quarter of 2024"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$52",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...threshold  . The main funding test is the 2026 capex plan of US$52–56 billion, which would strain operating cash...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "52 billion",
+        "snippet": "capital expenditures in 2026 are expected to be between US$52 billion and US$56 billion, which, depending on market"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in a cyclical end market. The ten largest customers accounted for 70%, 76% and 78% of net revenue in 2023, 2024 and...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "ten",
+          "largest",
+          "accounted",
+          "customer",
+          "net"
+        ],
+        "hl": "70%",
+        "snippet": "approximately, 70% , 76% and 78% of our net revenue in the respective year. Our largest customer in 2023 , 2024 and 2025"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "76%",
+      "value": 76.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a cyclical end market. The ten largest customers accounted for 70%, 76% and 78% of net revenue in 2023, 2024 and 2025,...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "ten",
+          "largest",
+          "accounted",
+          "customer",
+          "net"
+        ],
+        "hl": "76%",
+        "snippet": "approximately, 70% , 76% and 78% of our net revenue in the respective year. Our largest customer in 2023 , 2024 and 2025"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...end market. The ten largest customers accounted for 70%, 76% and 78% of net revenue in 2023, 2024 and 2025, and the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "accounted",
+          "customer",
+          "revenue",
+          "net"
+        ],
+        "hl": "78%",
+        "snippet": "approximately, 70% , 76% and 78% of our net revenue in the respective year. Our largest customer in 2023 , 2024 and 2025"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a February 2026 court ruling against IEEPA-based tariffs, and a 25% Section 232 tariff on certain advanced computing...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "tariff"
+        ],
+        "hl": "25%",
+        "snippet": "Items, which concluded in December 2025. As a result, the U.S. issues a proclamation imposing a 25% ad valorem tariff on"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "232",
+      "value": 232.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2026 court ruling against IEEPA-based tariffs, and a 25% Section 232 tariff on certain advanced computing chips...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "section",
+          "tariff"
+        ],
+        "hl": "232",
+        "snippet": "tariffs . Also, in April 2025, the U.S. government initiated a Section 232 investigation related to imports of Semiconductor"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15.77",
+      "value": 15.77,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...The financial buffers are strong, though. The Altman Z-Score is 15.77, the Piotroski F-Score 9 of 9 and the Beneish...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Gain Loss On Sale Of Business 2023-12-31: -15,800,000 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...strong, though. The Altman Z-Score is 15.77, the Piotroski F-Score 9 of 9 and the Beneish M-Score -2.70, below the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "z-score",
+          "f-score",
+          "altman"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 9 of 9 available criteria"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...though. The Altman Z-Score is 15.77, the Piotroski F-Score 9 of 9 and the Beneish M-Score -2.70, below the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "z-score",
+          "f-score",
+          "altman"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 9 of 9 available criteria"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2.70",
+      "value": 2.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is 15.77, the Piotroski F-Score 9 of 9 and the Beneish M-Score -2.70, below the manipulation warning threshold  . The...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "warning",
+          "beneish",
+          "below",
+          "m-score"
+        ],
+        "hl": "2.70",
+        "snippet": "- Beneish M-Score: -2.70 (below -1.78: no statistical warning sign)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "56",
+      "value": 56.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...threshold  . The main funding test is the 2026 capex plan of US$52–56 billion, which would strain operating cash flow...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "united"
+        ],
+        "hl": "56 billion",
+        "snippet": "capital expenditures in 2026 are expected to be between US$52 billion and US$56 billion, which, depending on market"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.9%",
+      "value": 59.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....\\n\\nTSMC leads the group on profitability. Its 2025 gross margin of 59.9% compares with 29.0% at UMC, 24.9% at GFS and...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.0%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on profitability. Its 2025 gross margin of 59.9% compares with 29.0% at UMC, 24.9% at GFS and 17.7% at ASX  . Revenue...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "UMC Gross Margin 2025: 29.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.9%",
+      "value": 24.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Its 2025 gross margin of 59.9% compares with 29.0% at UMC, 24.9% at GFS and 17.7% at ASX  . Revenue growth of...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "GFS Gross Margin 2025: 24.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.7%",
+      "value": 17.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...gross margin of 59.9% compares with 29.0% at UMC, 24.9% at GFS and 17.7% at ASX  . Revenue growth of 31.6% compares with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "ASX Gross Margin 2025: 17.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.6%",
+      "value": 31.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...29.0% at UMC, 24.9% at GFS and 17.7% at ASX  . Revenue growth of 31.6% compares with 8.4% at ASX, 2.3% at UMC and 0.6%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "31.6%",
+        "snippet": "Our net revenue in 2025 increased by 31.6% from 2024 , which was mainly attributed to an increase in ASP due to a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.4%",
+      "value": 8.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...at GFS and 17.7% at ASX  . Revenue growth of 31.6% compares with 8.4% at ASX, 2.3% at UMC and 0.6% at GFS, and ROIC of...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "GFS ROIC 2023: 8.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2.3%",
+      "value": 2.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...17.7% at ASX  . Revenue growth of 31.6% compares with 8.4% at ASX, 2.3% at UMC and 0.6% at GFS, and ROIC of 26.7%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "UMC Revenue Growth 2025: 2.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "0.6%",
+      "value": 0.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Revenue growth of 31.6% compares with 8.4% at ASX, 2.3% at UMC and 0.6% at GFS, and ROIC of 26.7% compares with 9.9% at...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "GFS Revenue Growth 2025: 0.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.7%",
+      "value": 26.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...compares with 8.4% at ASX, 2.3% at UMC and 0.6% at GFS, and ROIC of 26.7% compares with 9.9% at UMC, 7.9% at ASX and 7.2%...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2022: 26.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.9%",
+      "value": 9.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ASX, 2.3% at UMC and 0.6% at GFS, and ROIC of 26.7% compares with 9.9% at UMC, 7.9% at ASX and 7.2% at GFS  . Peer...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "UMC ROIC 2025: 9.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.9%",
+      "value": 7.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...UMC and 0.6% at GFS, and ROIC of 26.7% compares with 9.9% at UMC, 7.9% at ASX and 7.2% at GFS  . Peer revenue in 2025...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ASX ROIC 2025: 7.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.2%",
+      "value": 7.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...GFS, and ROIC of 26.7% compares with 9.9% at UMC, 7.9% at ASX and 7.2% at GFS  . Peer revenue in 2025 was below 2022...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "GFS ROIC 2025: 7.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.0%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell at each peer over 2022 to 2025, while TSMC's rose slightly to 72.0%  . Free cash flow conversion is not compared,...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 72.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72.1%",
+      "value": 72.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...peer set, against a 2025 peer median of about 8.5  . EBITDA grew 72.1% over the period while the multiple more than...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 72.0%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.2",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and is the closest in size among the candidates, at about 0.2 times TSMC's revenue  . GlobalFoundries (GFS) is...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.18",
+        "snippet": "nanometer processes to 0.13-, 0.18-, 0.25- and 0.35-micron. This extension offers a routinely scheduled multi-project wafer"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.2",
+      "value": 7.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...tracks the operating gap. TSMC's trailing EV/EBITDA rose from 7.2 in 2022 to 17.3 in 2025, the highest in the peer...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2022: 7.15"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "17.3",
+      "value": 17.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating gap. TSMC's trailing EV/EBITDA rose from 7.2 in 2022 to 17.3 in 2025, the highest in the peer set, against a...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 17.34"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8.5",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the highest in the peer set, against a 2025 peer median of about 8.5  . EBITDA grew 72.1% over the period while the...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "GFS EV/EBITDA 2025: 8.49"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "18.6",
+      "value": 18.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a large margin shift  . On forward figures, consensus puts TSMC at 18.6 times FY2026 EPS  . The peer data does not...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "18.63"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$992,378 million",
+      "value": 992378.0,
+      "unit": "million",
+      "money_mn": 992378.0,
+      "decimals": 0,
+      "context": "...debt, so the balance sheet stays net-cash. 2025 free cash flow was NT$992,378 million against capex of NT$1,272,411 million; net cash...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 992378"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1,272,411 million",
+      "value": 1272411.0,
+      "unit": "million",
+      "money_mn": 1272411.0,
+      "decimals": 0,
+      "context": "...2025 free cash flow was NT$992,378 million against capex of NT$1,272,411 million; net cash was NT$3.03 trillion at 30 September...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,272,411\nmillion",
+        "snippet": "Our capital expenditures in 2023 , 2024 and 2025 were NT$ 949,817 million, NT$ 956,007 million and NT$ 1,272,411 million (US$ 40,895 million, translated from a weighted average exchange rate of NT$ 31.11 to US$1.00),..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$3.03 trillion",
+      "value": 3.03,
+      "unit": "trillion",
+      "money_mn": 3030000.0,
+      "decimals": 2,
+      "context": "...million against capex of NT$1,272,411 million; net cash was NT$3.03 trillion at 30 September 2026, with trailing free cash...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3,028,664.4 million",
+        "snippet": "...cash and short-term investments $4,094,652.8 million, total debt $1,065,988.4 million, net cash $3,028,664.4 million, TTM free cash flow $1,457,584.3 million, cash runway at that burn self-funded, current ratio 2.6x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1.46 trillion",
+      "value": 1.46,
+      "unit": "trillion",
+      "money_mn": 1460000.0,
+      "decimals": 2,
+      "context": "...trillion at 30 September 2026, with trailing free cash flow of NT$1.46 trillion  . Trailing free cash flow above about NT$1.3...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1,457,584.3 million",
+        "snippet": "...$4,094,652.8 million, total debt $1,065,988.4 million, net cash $3,028,664.4 million, TTM free cash flow $1,457,584.3 million, cash runway at that burn self-funded, current ratio 2.6x, shares outstanding 25,932.4 million, change in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1.3 trillion",
+      "value": 1.3,
+      "unit": "trillion",
+      "money_mn": 1300000.0,
+      "decimals": 1,
+      "context": "...flow of NT$1.46 trillion  . Trailing free cash flow above about NT$1.3 trillion, matching 2025 capex, in the Q4 2026 filing...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,296,797",
+        "snippet": "total of approximately 1,440,012 square meters, of which, approximately 1,296,797 square meters of land is leased by us"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$1.06 trillion",
+      "value": 1.06,
+      "unit": "trillion",
+      "money_mn": 1060000.0,
+      "decimals": 2,
+      "context": "...in the Q4 2026 filing (early 2027), with total debt flat near NT$1.06 trillion. Total debt rising materially to fund capex or...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Non Current Liabilities Net Minority Interest 2022-12-31: 1,060,063,100,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "NT$2 trillion",
+      "value": 2.0,
+      "unit": "trillion",
+      "money_mn": 2000000.0,
+      "decimals": 0,
+      "context": "...materially to fund capex or dividends, or net cash falling below NT$2 trillion  . Consensus earnings revisions keep rising, so...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,010,361",
+        "snippet": "2,010,361 64,085"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "US$23",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by 1.7% to 10.9%  . FY2027 EPS consensus holding at or above US$23 and at least one more quarterly EPS beat in the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23",
+        "snippet": "where Fab 23 and related offices are located. ESMC owns a parcel of land of approximately 513,557 square meters in the"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60%",
+      "value": 60.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Advanced-node and HPC mix keeps gross margin near 60% through 2026, so margin is not a cyclical...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.9%",
+      "value": 59.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is not a cyclical casualty of the capex cycle. Gross margin rose to 59.9% from 56.1%; 7nm-and-below reached 74% of wafer...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "59.9%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "56.1%",
+      "value": 56.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...casualty of the capex cycle. Gross margin rose to 59.9% from 56.1%; 7nm-and-below reached 74% of wafer revenue and...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "56.1%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cycle. Gross margin rose to 59.9% from 56.1%; 7nm-and-below reached 74% of wafer revenue and HPC 58% of net revenue  ....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "wafer",
+          "revenue"
+        ],
+        "hl": "74%",
+        "snippet": "revenue, respectively. Advanced technologies (7-nanometer and below) accounted for 74% of total wafer revenue, up from"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58%",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from 56.1%; 7nm-and-below reached 74% of wafer revenue and HPC 58% of net revenue  . Reported quarterly gross...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "wafer",
+          "revenue"
+        ],
+        "hl": "58%",
+        "snippet": "58% in 2023 ."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58%",
+      "value": 58.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...58% of net revenue  . Reported quarterly gross margin at or above 58% in each 2026 quarter, confirmed in Q4 2026...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "58%",
+        "snippet": "58% in 2023 ."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "56.1%",
+      "value": 56.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(early 2027). Gross margin falling back to the 2024 level of 56.1% or below, or 7nm-and-below share of wafer...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin"
+        ],
+        "hl": "56.1%",
+        "snippet": "In 2025 , our gross margin increased to 59.9% of net revenue from 56.1% in 2024 , mainly attributable to higher"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.8%",
+      "value": 4.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rather than rely only on rerating. FY2026 EPS consensus is up 4.8% and FY2027 up 9.9% over 90 days, with TSMC...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "4.8%",
+        "snippet": "...consensus current fiscal year: $17.50 today, $16.93 30 days ago, $16.70 90 days ago, change vs 90 days ago +4.8%; analysts raising/cutting in last 30 days: 9/2"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.9%",
+      "value": 9.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...only on rerating. FY2026 EPS consensus is up 4.8% and FY2027 up 9.9% over 90 days, with TSMC beating quarterly EPS in...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "9.9%",
+        "snippet": "...EPS consensus next fiscal year: $23.39 today, $21.92 30 days ago, $21.28 90 days ago, change vs 90 days ago +9.9%; analysts raising/cutting in last 30 days: 10/2"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.7%",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...TSMC beating quarterly EPS in each of the last four quarters by 1.7% to 10.9%  . FY2027 EPS consensus holding at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1.7%",
+        "snippet": "(1.7%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...beating quarterly EPS in each of the last four quarters by 1.7% to 10.9%  . FY2027 EPS consensus holding at or above...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11%",
+        "snippet": "11%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rerating. FY2026 EPS consensus is up 4.8% and FY2027 up 9.9% over 90 days, with TSMC beating quarterly EPS in each of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $17.50 today, $16.93 30 days ago, $16.70 90 days ago, change vs 90 days ago +4.8%; analysts raising/cutting in last 30 days: 9/2"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2027). A quarterly EPS miss, or more estimate cuts than raises over 30 days, which would show the growth path is...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "estimate",
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "- Quarter ending 2026-09-30: EPS $4.60 vs estimate $4.52 (surprise +1.7%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2192931.0 million",
+      "value": 2192931.0,
+      "unit": "million",
+      "money_mn": 2192931.0,
+      "decimals": 1,
+      "context": "High Performance Computing (NT$ millions): $2192931.0 million, prior $1476891.0 million; Smartphone (NT$...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,192,931",
+        "snippet": "2,192,931 58%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1476891.0 million",
+      "value": 1476891.0,
+      "unit": "million",
+      "money_mn": 1476891.0,
+      "decimals": 1,
+      "context": "High Performance Computing (NT$ millions): $2192931.0 million, prior $1476891.0 million; Smartphone (NT$ millions): $1110816.0 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,476,891",
+        "snippet": "1,476,891 51%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1110816.0 million",
+      "value": 1110816.0,
+      "unit": "million",
+      "money_mn": 1110816.0,
+      "decimals": 1,
+      "context": "...million, prior $1476891.0 million; Smartphone (NT$ millions): $1110816.0 million, prior $1005130.0 million; Internet of Things...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,110,816",
+        "snippet": "1,110,816 29%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1005130.0 million",
+      "value": 1005130.0,
+      "unit": "million",
+      "money_mn": 1005130.0,
+      "decimals": 1,
+      "context": "...million; Smartphone (NT$ millions): $1110816.0 million, prior $1005130.0 million; Internet of Things (NT$ millions): $191047.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,005,130",
+        "snippet": "1,005,130 35%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$191047.0 million",
+      "value": 191047.0,
+      "unit": "million",
+      "money_mn": 191047.0,
+      "decimals": 1,
+      "context": "...prior $1005130.0 million; Internet of Things (NT$ millions): $191047.0 million, prior $165516.0 million; Automotive (NT$...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "191,047",
+        "snippet": "191,047 5%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$165516.0 million",
+      "value": 165516.0,
+      "unit": "million",
+      "money_mn": 165516.0,
+      "decimals": 1,
+      "context": "...Internet of Things (NT$ millions): $191047.0 million, prior $165516.0 million; Automotive (NT$ millions): $186667.0 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "165,516",
+        "snippet": "165,516 6%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$186667.0 million",
+      "value": 186667.0,
+      "unit": "million",
+      "money_mn": 186667.0,
+      "decimals": 1,
+      "context": "...million, prior $165516.0 million; Automotive (NT$ millions): $186667.0 million, prior $139323.0 million; Digital Consumer...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "186,667",
+        "snippet": "186,667 5%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$139323.0 million",
+      "value": 139323.0,
+      "unit": "million",
+      "money_mn": 139323.0,
+      "decimals": 1,
+      "context": "...million; Automotive (NT$ millions): $186667.0 million, prior $139323.0 million; Digital Consumer Electronics (NT$ millions):...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "139,323",
+        "snippet": "139,323 5%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$47997.0 million",
+      "value": 47997.0,
+      "unit": "million",
+      "money_mn": 47997.0,
+      "decimals": 1,
+      "context": "...$139323.0 million; Digital Consumer Electronics (NT$ millions): $47997.0 million, prior $47961.0 million; Others (NT$ millions):...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "47,997",
+        "snippet": "47,997 1%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$47961.0 million",
+      "value": 47961.0,
+      "unit": "million",
+      "money_mn": 47961.0,
+      "decimals": 1,
+      "context": "...Consumer Electronics (NT$ millions): $47997.0 million, prior $47961.0 million; Others (NT$ millions): $79596.0 million, prior...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "47,961",
+        "snippet": "47,961 1%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$79596.0 million",
+      "value": 79596.0,
+      "unit": "million",
+      "money_mn": 79596.0,
+      "decimals": 1,
+      "context": "...$47997.0 million, prior $47961.0 million; Others (NT$ millions): $79596.0 million, prior $59487.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "79,596",
+        "snippet": "79,596 2%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59487.0 million",
+      "value": 59487.0,
+      "unit": "million",
+      "money_mn": 59487.0,
+      "decimals": 1,
+      "context": "...$47961.0 million; Others (NT$ millions): $79596.0 million, prior $59487.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "59,487",
+        "snippet": "59,487 2%"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "UMC",
+    "ASX",
+    "GFS"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 187,
+    "matched": 180,
+    "match_rate": 0.963,
+    "name_issues": 0
+  }
+}

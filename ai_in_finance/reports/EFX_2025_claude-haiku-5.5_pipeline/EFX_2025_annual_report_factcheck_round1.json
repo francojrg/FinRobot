@@ -1,0 +1,4827 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 162,
+  "context_match_rate": 0.775,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against a 5.8% historical three-year CAGR and consensus growth of 9.7% for 2026 and 6.1% for 2027  . The implied return...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...three-year CAGR and consensus growth of 9.7% for 2026 and 6.1% for 2027  . The implied return of 7.8% sits...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "Workforce Solutions revenue increased 6% in 2025 compared to 2024 due to an increase in both diversified markets and mortgage verticals within..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.8%",
+      "value": 7.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 9.7% for 2026 and 6.1% for 2027  . The implied return of 7.8% sits below the 11.2% WACC. The valuation...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 7.9%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "21.8x",
+      "value": 21.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against $180.8 million of cash  .  At $185.68, the stock trades at 21.8x FY2026 consensus EPS of $8.50  . The reverse DCF...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "21.8",
+        "snippet": "...million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43%",
+      "value": 43.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the company reports three segments: Workforce Solutions (43% of revenue), U.S. Information Solutions (USIS,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "43 %",
+        "snippet": "...operating revenue $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % % of consolidated revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34%",
+      "value": 34.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Solutions (43% of revenue), U.S. Information Solutions (USIS, 34%) and International (23%)  . The U.S. generated...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK ROIC 2024: 33.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "77%",
+      "value": 77.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Solutions (USIS, 34%) and International (23%)  . The U.S. generated 77% of revenue, with operations in 20 countries...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "77%",
+        "snippet": "As further described above, we operate in the U.S., which represented 77% of our revenue in 2025, and internationally in 20 countries. Our products and services span a wide variety..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a buy rating and a $205.10 target price, implying upside of about 10%  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10 %",
+        "snippet": "...$ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating revenue $ 6,074.5 $..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1913",
+      "value": 1913.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Equifax Inc., founded in 1913, is a global data, analytics and technology...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1913",
+        "snippet": "Equifax was originally incorporated under the laws of the State of Georgia in 1913, and its predecessor company dates back to 1899. As used herein, the terms Equifax, the Company, we, our and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.1%",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of TransUnion's 6.7% but well behind Verisk's 20.7% and Paychex's 19.1%  .  Growth is mid-pack. Equifax grew 6.9% in...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19%",
+        "snippet": "International revenue increased 10% in 2024 as compared to 2023. Local currency revenue increased 19% in 2024, driven by growth in Latin America from the BVS acquisition, completed in the third quarter of 2023,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...20.7% and Paychex's 19.1%  .  Growth is mid-pack. Equifax grew 6.9% in 2025, against TransUnion's 9.4%, Verisk's...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7%",
+        "snippet": "Revenue for 2025 increased 7% compared to 2024 due to revenue growth in all three business units. USIS revenue growth is primarily due to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.4%",
+      "value": 9.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is mid-pack. Equifax grew 6.9% in 2025, against TransUnion's 9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "TRU Revenue Growth 2025: 9.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.6%",
+      "value": 6.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Equifax grew 6.9% in 2025, against TransUnion's 9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares trade at...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK Revenue Growth 2025: 6.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.6%",
+      "value": 5.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2025, against TransUnion's 9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares trade at $185.68, about 33% below...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAYX Revenue Growth 2025: 5.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...6.6% and Paychex's 5.6%  . The shares trade at $185.68, about 33% below the 52-week high of $275.92 and 13% above...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "...revenue $ 2,078.5 $ 1,893.0 $ 1,720.4 $ 185.5 10 % $ 172.6 10 % % of consolidated revenue 34 % 33 % 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...trade at $185.68, about 33% below the 52-week high of $275.92 and 13% above the low of $164.02  . The market position...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12.9%",
+        "snippet": "International Operating Margin. Operating margin was 12.9% in 2025 compared to 13.4% in 2024. The decrease in margin is primarily due to higher people costs and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...currency drag  . Selling, general and administrative expense rose 11% to $1,614.2 million on higher incentive pay,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11 %",
+        "snippet": "...(0.8) 25 % 3.2 (50) % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 $ 56.2 9 % $ 58.8 11 % Diluted earnings per share: Net income attributable to Equifax $ 5.32 $ 4.84 $ 4.40 $ 0.48..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.6%",
+      "value": 20.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin fell to 18.0% from 18.3%, and remains well below the 20.6% reached in 2022  .  Below the operating line the...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK ROIC 2025: 20.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS rose 10% to $5.32, slightly faster than net income growth of 9%, as diluted shares fell to 124.1 million from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "9 %",
+        "snippet": "...revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...basis. Consensus expects FY2026 revenue of $6,666.1 million (+9.7%) and EPS of $8.50, and FY2027 revenue of...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(+9.7%) and EPS of $8.50, and FY2027 revenue of $7,072.9 million (+6.1%) and EPS of $9.46  . These consensus EPS figures...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "Workforce Solutions revenue increased 6% in 2025 compared to 2024 due to an increase in both diversified markets and mortgage verticals within..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.8%",
+      "value": 1.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS beat consensus in each of the last four quarters, by between 1.8% and 9.7%  . These consensus figures are dated...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1.8%",
+        "snippet": "- Quarter ending 2025-12-31: EPS $2.09 vs estimate $2.05 (surprise +1.8%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus in each of the last four quarters, by between 1.8% and 9.7%  . These consensus figures are dated after the...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is tied to interest rates  . International operations account for 23% of revenue, and the company generally does not...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23%",
+        "snippet": "Revenue from international clients, including end users and resellers, amounted to 23% of our total revenue in 2025, 24% of our total revenue in 2024 and 23% of our total revenue in 2023."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.04x",
+      "value": 1.04,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...against $180.8 million of cash  . Debt to equity rose to 1.11x from 1.04x  . Free cash flow of $1,134.3 million covered...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,042.1",
+        "snippet": "...$ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating margin 18.0 % 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.6%",
+      "value": 6.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 6.9% trails TransUnion's 9.4%, is roughly level with Verisk's 6.6%, and is ahead of Paychex's 5.6%  . On EV/EBITDA,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK Revenue Growth 2025: 6.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.6%",
+      "value": 5.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is roughly level with Verisk's 6.6%, and is ahead of Paychex's 5.6%  . On EV/EBITDA, Equifax trades at 16.92x,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAYX Revenue Growth 2025: 5.6%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "20.18x",
+      "value": 20.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Equifax trades at 16.92x, against TransUnion's 14.31x, Verisk's 20.18x and Paychex's 24.22x  . The premium to...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Allowance For Doubtful Accounts Receivable 2025-12-31: -20,200,000 USD"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "24.22x",
+      "value": 24.22,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...16.92x, against TransUnion's 14.31x, Verisk's 20.18x and Paychex's 24.22x  . The premium to TransUnion is hard to justify...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAYX EV/EBITDA 2025: 24.22"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.4",
+      "value": 3.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...model differs from Equifax's data-bureau model, and ADP is 3.4 times Equifax's revenue  .  Growth and valuation...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3.4",
+        "snippet": "...revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 7.8% per year (-3.4 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin at 22.9% versus 21.4%  . USIS operating margin at or above 22% in each quarterly report through Q1 2027. USIS...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22 %",
+        "snippet": "...(In millions) Consolidated provision for income taxes $ (230.6) $ (203.2) $ (166.2) $ (27.4) 13 % $ (37.0) 22 % Effective income tax rate 25.8 % 25.1 % 23.2 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.8%",
+      "value": 7.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against a 5.8% historical three-year CAGR, and an implied IRR of 7.8% against an 11.2% WACC  . Consensus growth is...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 7.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...an implied IRR of 7.8% against an 11.2% WACC  . Consensus growth is 9.7% for FY2026 and 6.1% for FY2027  . FY2026...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against an 11.2% WACC  . Consensus growth is 9.7% for FY2026 and 6.1% for FY2027  . FY2026 reported revenue growth of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "Workforce Solutions revenue increased 6% in 2025 compared to 2024 due to an increase in both diversified markets and mortgage verticals within..."
+      }
+    }
+  ],
+  "total_claims": 209,
+  "matched": 196,
+  "match_rate": 0.938,
+  "by_kind": {
+    "money": {
+      "total": 77,
+      "matched": 75,
+      "context_matched": 75
+    },
+    "pct": {
+      "total": 102,
+      "matched": 97,
+      "context_matched": 69
+    },
+    "multiple": {
+      "total": 13,
+      "matched": 8,
+      "context_matched": 4
+    },
+    "plain": {
+      "total": 17,
+      "matched": 16,
+      "context_matched": 14
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 131,
+    "[2] Yahoo Finance": 20,
+    "[2][3] Liquidity and consensus": 25,
+    "[4] Peer data": 20
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$1,160.2 million",
+      "value": 1160.2,
+      "unit": "million",
+      "money_mn": 1160.2,
+      "decimals": 1,
+      "context": "...after the     .  Free cash flow of $1,134.3 million fell short of $1,160.2 million of buybacks and dividends  . Four straight EPS...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "18.0%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million and diluted EPS 10% to $5.32  . Operating margin slipped to 18.0%, and the balance sheet is more stretched: a...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "0.61x",
+      "value": 0.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...margin slipped to 18.0%, and the balance sheet is more stretched: a 0.61x current ratio and $1,038.0 million of debt due...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$95 million",
+      "value": 95.0,
+      "unit": "million",
+      "money_mn": 95.0,
+      "decimals": 0,
+      "context": "...free cash flow of $1,134.3 million  . By our estimate, about $95 million of the operating cash gain came from...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "26.6%",
+      "value": 26.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...litigation and a class-action settlement accrual, lifting it to 26.6% of revenue from 25.5%  . Operating income grew...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "25.5%",
+      "value": 25.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...settlement accrual, lifting it to 26.6% of revenue from 25.5%  . Operating income grew 5%, slower than...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "18.0%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income grew 5%, slower than revenue, so operating margin fell to 18.0% from 18.3%, and remains well below the 20.6%...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...other expense fell $31.3 million, lifting net margin to 10.9% from 10.6%  . Diluted EPS rose 10% to $5.32, slightly...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "0.61x",
+      "value": 0.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "....  The balance sheet adds a funding risk. The current ratio fell to 0.61x from 0.75x, the working capital deficit widened...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "0.75x",
+      "value": 0.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...sheet adds a funding risk. The current ratio fell to 0.61x from 0.75x, the working capital deficit widened to $923.2...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "1.11x",
+      "value": 1.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million against $180.8 million of cash  . Debt to equity rose to 1.11x from 1.04x  . Free cash flow of $1,134.3 million...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "0.62",
+      "value": 0.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Equifax (1.72) does not reconcile with FCF divided by EBITDA (about 0.62) using the same table, so any claim of cash-flow...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "0.61x",
+      "value": 0.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...debt of $1,038.0 million compares with cash of $180.8 million and a 0.61x current ratio, while free cash flow of $1,134.3...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$1,038.0 million",
+      "value": 1038.0,
+      "unit": "million",
+      "money_mn": 1038.0,
+      "decimals": 1,
+      "context": "...and 5.8% historically  . Refinancing is the key balance sheet risk: $1,038.0 million of debt is due within a year against $180.8...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,038.0 million",
+        "snippet": "...and fixed rate debt with varying maturities for an aggregate principal amount of $5.1 billion, with $1,038.0 million payable within the next twelve months, as detailed further in Note 5 of the Notes to Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$180.8 million",
+      "value": 180.8,
+      "unit": "million",
+      "money_mn": 180.8,
+      "decimals": 1,
+      "context": "...sheet risk: $1,038.0 million of debt is due within a year against $180.8 million of cash  .",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "180.8 million",
+        "snippet": "...more fully described below, are our most significant sources of liquidity. At December 31, 2025, we had $180.8 million in cash and cash equivalents, as well as $0.7 billion available to borrow under our Revolver."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.9%",
+      "value": 22.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...should continue as mortgage pricing holds: operating margin rose to 22.9% from 21.4%  . Workforce Solutions should keep...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "22.9%",
+        "snippet": "U.S. Information Solutions Operating Margin. USIS operating margin increased to 22.9% in 2025 compared to 21.4% in 2024 due to the aforementioned increase in revenue, partially offset by an..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.4%",
+      "value": 21.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...as mortgage pricing holds: operating margin rose to 22.9% from 21.4%  . Workforce Solutions should keep anchoring...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "21.4 %",
+        "snippet": "...% 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 % 21.4 % 21.2 % 1.5 pts 0.2 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.2%",
+      "value": 44.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...keep anchoring profit despite the mortgage slowdown, because its 44.2% margin is the group's highest  . Shares look...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.2%",
+        "snippet": "Workforce Solutions Operating Margin. Operating margin increased to 44.2% in 2025 compared to 43.3% in 2024 and increased to 43.3% in 2024 compared to 41.9% in 2023. The increase in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...group's highest  . Shares look fully valued: the reverse DCF needs 12.4% annual revenue growth, against 9.7% consensus...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "12.4%",
+        "snippet": "- The current enterprise value of $26,882.8 million implies revenue growth of 12.4% per year for 10 years (FY2025 revenue $6,074.5 million -> about $19,580.1 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...valued: the reverse DCF needs 12.4% annual revenue growth, against 9.7% consensus for 2026 and 5.8% historically  ....",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.8%",
+      "value": 5.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...12.4% annual revenue growth, against 9.7% consensus for 2026 and 5.8% historically  . Refinancing is the key balance...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "5.8%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 5.8%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,074.5 million",
+      "value": 6074.5,
+      "unit": "million",
+      "money_mn": 6074.5,
+      "decimals": 1,
+      "context": "Equifax grew 2025 revenue 7% to $6,074.5 million and diluted EPS 10% to $5.32  . Operating margin...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,074.5",
+        "snippet": "...Twelve Months Ended December 31, 2025 2024 2023 (In millions, except per share data) Operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.32",
+      "value": 5.32,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...grew 2025 revenue 7% to $6,074.5 million and diluted EPS 10% to $5.32  . Operating margin slipped to 18.0%, and the...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.32",
+        "snippet": "...% 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $ 4.84 $ 4.40 Cash provided by operating activities $ 1,615.7 $ 1,324.5 $ 1,116.8 Capital expenditures* $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,038.0 million",
+      "value": 1038.0,
+      "unit": "million",
+      "money_mn": 1038.0,
+      "decimals": 1,
+      "context": "...and the balance sheet is more stretched: a 0.61x current ratio and $1,038.0 million of debt due within a year against $180.8 million...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,038.0 million",
+        "snippet": "...and fixed rate debt with varying maturities for an aggregate principal amount of $5.1 billion, with $1,038.0 million payable within the next twelve months, as detailed further in Note 5 of the Notes to Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$180.8 million",
+      "value": 180.8,
+      "unit": "million",
+      "money_mn": 180.8,
+      "decimals": 1,
+      "context": "...ratio and $1,038.0 million of debt due within a year against $180.8 million of cash  .  At $185.68, the stock trades at...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "180.8 million",
+        "snippet": "...more fully described below, are our most significant sources of liquidity. At December 31, 2025, we had $180.8 million in cash and cash equivalents, as well as $0.7 billion available to borrow under our Revolver."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$185.68",
+      "value": 185.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of debt due within a year against $180.8 million of cash  .  At $185.68, the stock trades at 21.8x FY2026 consensus EPS...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "185.5",
+        "snippet": "...$ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.50",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "....  At $185.68, the stock trades at 21.8x FY2026 consensus EPS of $8.50  . The reverse DCF is the demanding part: today's...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "8.50",
+        "snippet": "...revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,134.3 million",
+      "value": 1134.3,
+      "unit": "million",
+      "money_mn": 1134.3,
+      "decimals": 1,
+      "context": "...trend. Consensus data is dated after the     .  Free cash flow of $1,134.3 million fell short of $1,160.2 million of buybacks and...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 1,134,300,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,160.2 million",
+      "value": 1160.2,
+      "unit": "million",
+      "money_mn": 1160.2,
+      "decimals": 1,
+      "context": "...after the     .  Free cash flow of $1,134.3 million fell short of $1,160.2 million of buybacks and dividends  . Four straight EPS...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Equifax grew 2025 revenue 7% to $6,074.5 million and diluted EPS 10% to $5.32...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 6.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Equifax grew 2025 revenue 7% to $6,074.5 million and diluted EPS 10% to $5.32  . Operating margin slipped to 18.0%,...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "equifax",
+          "pershare"
+        ],
+        "hl": "10 %",
+        "snippet": "...per share: Net income attributable to Equifax $ 5.32 $ 4.84 $ 4.40 $ 0.48 10 % $ 0.44 10 % Weighted-average shares used in computing diluted earnings per share 124.1 124.9 123.9"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.0%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million and diluted EPS 10% to $5.32  . Operating margin slipped to 18.0%, and the balance sheet is more stretched: a...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...reverse DCF is the demanding part: today's enterprise value implies 12.4% annual revenue growth for ten years, against a...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "value",
+          "enterprise",
+          "revenue"
+        ],
+        "hl": "12.4%",
+        "snippet": "- The current enterprise value of $26,882.8 million implies revenue growth of 12.4% per year for 10 years (FY2025 revenue $6,074.5 million -> about $19,580.1 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.8%",
+      "value": 5.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...value implies 12.4% annual revenue growth for ten years, against a 5.8% historical three-year CAGR and consensus growth...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "5.8%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 5.8%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against a 5.8% historical three-year CAGR and consensus growth of 9.7% for 2026 and 6.1% for 2027  . The implied return...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...three-year CAGR and consensus growth of 9.7% for 2026 and 6.1% for 2027  . The implied return of 7.8% sits...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "Workforce Solutions revenue increased 6% in 2025 compared to 2024 due to an increase in both diversified markets and mortgage verticals within..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.8%",
+      "value": 7.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 9.7% for 2026 and 6.1% for 2027  . The implied return of 7.8% sits below the 11.2% WACC. The valuation...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 7.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...2026 and 6.1% for 2027  . The implied return of 7.8% sits below the 11.2% WACC. The valuation therefore requires sustained...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 18.7% to 18.7% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.27 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.3%",
+      "value": 6.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...straight EPS beats are encouraging, but next-year estimates fell 6.3% in 90 days  .",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "6.3%",
+        "snippet": "- EPS consensus next fiscal year: $9.46 today, $9.53 30 days ago, $10.10 90 days ago, change vs 90 days ago -6.3%; analysts raising/cutting in last 30 days: 2/17"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.61x",
+      "value": 0.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...margin slipped to 18.0%, and the balance sheet is more stretched: a 0.61x current ratio and $1,038.0 million of debt due...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "21.8x",
+      "value": 21.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against $180.8 million of cash  .  At $185.68, the stock trades at 21.8x FY2026 consensus EPS of $8.50  . The reverse DCF...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "21.8",
+        "snippet": "...million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS beats are encouraging, but next-year estimates fell 6.3% in 90 days  .",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $8.50 today, $8.50 30 days ago, $8.55 90 days ago, change vs 90 days ago -0.6%; analysts raising/cutting in last 30 days: 5/15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,074.5 million",
+      "value": 6074.5,
+      "unit": "million",
+      "money_mn": 6074.5,
+      "decimals": 1,
+      "context": "...business process outsourcing to employers  . Revenue reached $6,074.5 million in 2025, up 7% from $5,681.1 million, and the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,074.5",
+        "snippet": "...Twelve Months Ended December 31, 2025 2024 2023 (In millions, except per share data) Operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5,681.1 million",
+      "value": 5681.1,
+      "unit": "million",
+      "money_mn": 5681.1,
+      "decimals": 1,
+      "context": "...employers  . Revenue reached $6,074.5 million in 2025, up 7% from $5,681.1 million, and the company reports three segments:...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5,681.1",
+        "snippet": "...Ended December 31, 2025 2024 2023 (In millions, except per share data) Operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$927.4 million",
+      "value": 927.4,
+      "unit": "million",
+      "money_mn": 927.4,
+      "decimals": 1,
+      "context": "...learning to develop products, while capital was returned through $927.4 million of share repurchases and a quarterly dividend...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "927.4 million",
+        "snippet": "...of shares of common stock. We repurchased 4,006,173 shares of our common stock on the open market for $927.4 million, excluding brokerage commissions and excise taxes of $8.4 million, during the twelve months ended December..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.50",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million of share repurchases and a quarterly dividend raised to $0.50  .  Workforce Solutions is the profit anchor....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.50",
+        "snippet": "• On April 21, 2025, the Board of Directors approved an increase in our quarterly cash dividend to $0.50 per share beginning in the second quarter of 2025. We paid out $232.8 million, or $1.89 per share, in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,582.3 million",
+      "value": 2582.3,
+      "unit": "million",
+      "money_mn": 2582.3,
+      "decimals": 1,
+      "context": "....  Workforce Solutions is the profit anchor. Revenue rose 6% to $2,582.3 million and operating income rose 8% to $1,141.5...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,582.3",
+        "snippet": "...2025 vs. 2024 2024 vs. 2023 Operating Revenue 2025 2024 2023 $ % $ % (In millions) Workforce Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,141.5 million",
+      "value": 1141.5,
+      "unit": "million",
+      "money_mn": 1141.5,
+      "decimals": 1,
+      "context": "...Revenue rose 6% to $2,582.3 million and operating income rose 8% to $1,141.5 million, lifting operating margin to 44.2% from 43.3%  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,141.5",
+        "snippet": "...$ 148.5 6 % $ 118.0 5 % % of consolidated revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,179.8 million",
+      "value": 2179.8,
+      "unit": "million",
+      "money_mn": 2179.8,
+      "decimals": 1,
+      "context": "...than 4 million organizations  . Verification Services grew 8% to $2,179.8 million, while Employer Services fell 2% to $402.5...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,179.8",
+        "snippet": "...Solutions 2025 2024 2023 $ % $ % (In millions) Operating Revenue: Verification Services $ 2,179.8 $ 2,021.9 $ 1,846.2 $ 157.9 8 % $ 175.7 10 % Employer Services 402.5 411.9 469.6 (9.4) (2) % (57.7) (12)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$402.5 million",
+      "value": 402.5,
+      "unit": "million",
+      "money_mn": 402.5,
+      "decimals": 1,
+      "context": "...grew 8% to $2,179.8 million, while Employer Services fell 2% to $402.5 million on lower unemployment claims, ACA and I-9...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "402.5",
+        "snippet": "...Verification Services $ 2,179.8 $ 2,021.9 $ 1,846.2 $ 157.9 8 % $ 175.7 10 % Employer Services 402.5 411.9 469.6 (9.4) (2) % (57.7) (12) % Total operating revenue $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$74.1 million",
+      "value": 74.1,
+      "unit": "million",
+      "money_mn": 74.1,
+      "decimals": 1,
+      "context": "...I-9 revenue  . A Workforce Solutions business acquired in 2025 for $74.1 million net of cash acquired added to the segment...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "74.1)",
+        "snippet": "...provided by: 2025 2024 2023 2025 vs 2024 2024 vs 2023 (In millions) Acquisitions, net of cash acquired $ (74.1) $ — $ (283.8) $ (74.1) $ 283.8 Cash received from divestitures $ 1.2 $ — $ 6.9 $ 1.2 $ (6.9)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,078.5 million",
+      "value": 2078.5,
+      "unit": "million",
+      "money_mn": 2078.5,
+      "decimals": 1,
+      "context": "....  USIS is the fastest-growing segment. Revenue rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,078.5",
+        "snippet": "...Workforce Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$475.2 million",
+      "value": 475.2,
+      "unit": "million",
+      "money_mn": 475.2,
+      "decimals": 1,
+      "context": "...rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million, with margin improving to 22.9% from 21.4%  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "475.2",
+        "snippet": "...$ 1,720.4 $ 185.5 10 % $ 172.6 10 % % of consolidated revenue 34 % 33 % 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 % 21.4 % 21.2 % 1.5 pts 0.2 pts..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,821.4 million",
+      "value": 1821.4,
+      "unit": "million",
+      "money_mn": 1821.4,
+      "decimals": 1,
+      "context": "...to 22.9% from 21.4%  . Online Information Solutions grew 10% to $1,821.4 million, and Financial Marketing Services grew 6% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,821.4",
+        "snippet": "...2024 2024 vs. 2023 2025 2024 2023 $ % $ % (In millions) Operating revenue: Online Information Solutions $ 1,821.4 $ 1,650.6 $ 1,488.9 $ 170.8 10 % $ 161.7 11 % Financial Marketing Services 257.1 242.4 231.5 14.7 6 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$257.1 million",
+      "value": 257.1,
+      "unit": "million",
+      "money_mn": 257.1,
+      "decimals": 1,
+      "context": "...to $1,821.4 million, and Financial Marketing Services grew 6% to $257.1 million  . International revenue rose 4% to $1,413.7...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "257.1",
+        "snippet": "...Solutions $ 1,821.4 $ 1,650.6 $ 1,488.9 $ 170.8 10 % $ 161.7 11 % Financial Marketing Services 257.1 242.4 231.5 14.7 6 % 10.9 5 % Total operating revenue $ 2,078.5 $ 1,893.0 $ 1,720.4 $ 185.5 10 % $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,413.7 million",
+      "value": 1413.7,
+      "unit": "million",
+      "money_mn": 1413.7,
+      "decimals": 1,
+      "context": "...grew 6% to $257.1 million  . International revenue rose 4% to $1,413.7 million (6% in local currency), but operating margin...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,413.7",
+        "snippet": "...% $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$185.68",
+      "value": 185.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...from earlier technology spending  . At the current share price of $185.68, consensus carries a buy rating and a $205.10...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "185.5",
+        "snippet": "...$ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$205.10",
+      "value": 205.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...share price of $185.68, consensus carries a buy rating and a $205.10 target price, implying upside of about 10%  .",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "205.10",
+        "snippet": "205.10 (range 169.00 - 245.00), current consensus as of 2026-11-26, not as of 2026-02-19"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to employers  . Revenue reached $6,074.5 million in 2025, up 7% from $5,681.1 million, and the company reports...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 6.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43%",
+      "value": 43.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and the company reports three segments: Workforce Solutions (43% of revenue), U.S. Information Solutions (USIS,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "43 %",
+        "snippet": "...operating revenue $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % % of consolidated revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34%",
+      "value": 34.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Solutions (43% of revenue), U.S. Information Solutions (USIS, 34%) and International (23%)  . The U.S. generated...",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK ROIC 2024: 33.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue), U.S. Information Solutions (USIS, 34%) and International (23%)  . The U.S. generated 77% of revenue, with...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "usis",
+          "solution"
+        ],
+        "hl": "22.9%",
+        "snippet": "U.S. Information Solutions Operating Margin. USIS operating margin increased to 22.9% in 2025 compared to 21.4% in 2024 due to the aforementioned increase in revenue, partially offset by an..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "77%",
+      "value": 77.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Solutions (USIS, 34%) and International (23%)  . The U.S. generated 77% of revenue, with operations in 20 countries...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "77%",
+        "snippet": "As further described above, we operate in the U.S., which represented 77% of our revenue in 2025, and internationally in 20 countries. Our products and services span a wide variety..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $0.50  .  Workforce Solutions is the profit anchor. Revenue rose 6% to $2,582.3 million and operating income rose 8%...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "6.1%",
+        "snippet": "- FY2027E: revenue $7,072.9 million (range $6,854.0 million to $7,323.3 million, 18 analysts), growth +6.1%; EPS $9.46 (range $8.97 to $10.70); forward P/E 19.6x; EV/Sales 3.8x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 6% to $2,582.3 million and operating income rose 8% to $1,141.5 million, lifting operating margin to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "income"
+        ],
+        "hl": "8 %",
+        "snippet": "...except per share data) Operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating margin 18.0 % 18.3 % 17.7 % Net income..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.2%",
+      "value": 44.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 8% to $1,141.5 million, lifting operating margin to 44.2% from 43.3%  . Its core asset, The Work Number,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.2%",
+        "snippet": "Workforce Solutions Operating Margin. Operating margin increased to 44.2% in 2025 compared to 43.3% in 2024 and increased to 43.3% in 2024 compared to 41.9% in 2023. The increase in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.3%",
+      "value": 43.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 8% to $1,141.5 million, lifting operating margin to 44.2% from 43.3%  . Its core asset, The Work Number, held about...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "43.3 %",
+        "snippet": "...Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of more than 4 million organizations  . Verification Services grew 8% to $2,179.8 million, while Employer Services...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "verification",
+          "servic"
+        ],
+        "hl": "8%",
+        "snippet": "Verification Services. Revenue increased 8% in 2025 compared to 2024. The increase in revenue is principally due to growth in diversified markets..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Services grew 8% to $2,179.8 million, while Employer Services fell 2% to $402.5 million on lower unemployment claims,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "employer",
+          "servic"
+        ],
+        "hl": "2) %",
+        "snippet": "...$ 2,179.8 $ 2,021.9 $ 1,846.2 $ 157.9 8 % $ 175.7 10 % Employer Services 402.5 411.9 469.6 (9.4) (2) % (57.7) (12) % Total operating revenue $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % % of..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the segment  .  USIS is the fastest-growing segment. Revenue rose 10% to $2,078.5 million and operating income rose...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million, with margin improving to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "income"
+        ],
+        "hl": "18.3 %",
+        "snippet": "...revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating margin 18.0 % 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.9%",
+      "value": 22.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 18% to $475.2 million, with margin improving to 22.9% from 21.4%  . Online Information Solutions grew...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "22.9%",
+        "snippet": "U.S. Information Solutions Operating Margin. USIS operating margin increased to 22.9% in 2025 compared to 21.4% in 2024 due to the aforementioned increase in revenue, partially offset by an..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.4%",
+      "value": 21.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 18% to $475.2 million, with margin improving to 22.9% from 21.4%  . Online Information Solutions grew 10% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "21.4 %",
+        "snippet": "...% 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 % 21.4 % 21.2 % 1.5 pts 0.2 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...improving to 22.9% from 21.4%  . Online Information Solutions grew 10% to $1,821.4 million, and Financial Marketing...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "marketing",
+          "financial",
+          "information",
+          "solution"
+        ],
+        "hl": "10 %",
+        "snippet": "...231.5 14.7 6 % 10.9 5 % Total operating revenue $ 2,078.5 $ 1,893.0 $ 1,720.4 $ 185.5 10 % $ 172.6 10 % % of consolidated revenue 34 % 33 % 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...grew 10% to $1,821.4 million, and Financial Marketing Services grew 6% to $257.1 million  . International revenue rose...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "marketing",
+          "financial",
+          "servic"
+        ],
+        "hl": "6%",
+        "snippet": "Financial Marketing Services. Revenue increased 6% in 2025 compared to 2024 and increased 5% in 2024 compared to 2023. The increase in both periods is..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Services grew 6% to $257.1 million  . International revenue rose 4% to $1,413.7 million (6% in local currency), but...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "currency",
+          "local"
+        ],
+        "hl": "4%",
+        "snippet": "Europe. Local currency revenue increased 4% in 2025 as compared to 2024, primarily due to growth in the consumer credit reporting businesses in the U.K..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million  . International revenue rose 4% to $1,413.7 million (6% in local currency), but operating margin fell to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "currency",
+          "local"
+        ],
+        "hl": "6%",
+        "snippet": "International revenue increased 4% in 2025 as compared to 2024. Local currency revenue increased 6% in 2025, driven by local currency growth in Latin America, primarily from Argentina, Brazil and Paraguay, as..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.9%",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million (6% in local currency), but operating margin fell to 12.9% from 13.4% on higher people costs and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "12.9%",
+        "snippet": "International Operating Margin. Operating margin was 12.9% in 2025 compared to 13.4% in 2024. The decrease in margin is primarily due to higher people costs and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.4%",
+      "value": 13.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(6% in local currency), but operating margin fell to 12.9% from 13.4% on higher people costs and amortization of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "13.4 %",
+        "snippet": "...24 % 23 % Total operating income $ 182.5 $ 181.2 $ 167.8 $ 1.3 1 % $ 13.4 8 % Operating margin 12.9 % 13.4 % 13.7 % (0.5) pts (0.3) pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a buy rating and a $205.10 target price, implying upside of about 10%  .",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10 %",
+        "snippet": "...$ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating revenue $ 6,074.5 $..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1913",
+      "value": 1913.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Equifax Inc., founded in 1913, is a global data, analytics and technology...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1913",
+        "snippet": "Equifax was originally incorporated under the laws of the State of Georgia in 1913, and its predecessor company dates back to 1899. As used herein, the terms Equifax, the Company, we, our and..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "20",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(23%)  . The U.S. generated 77% of revenue, with operations in 20 countries outside the U.S.  . Strategic...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "country"
+        ],
+        "hl": "20",
+        "snippet": "...above, we operate in the U.S., which represented 77% of our revenue in 2025, and internationally in 20 countries. Our products and services span a wide variety of vertical markets including financial services,..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "209",
+      "value": 209.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 44.2% from 43.3%  . Its core asset, The Work Number, held about 209 million active and 813 million total employment...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "number",
+          "work",
+          "active",
+          "held"
+        ],
+        "hl": "209 million",
+        "snippet": "process is automated and not subject to human interpretation. The Work Number ® held about 209 million active and 813 million total (active and historic) employment records at December 31, 2025."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "813",
+      "value": 813.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Its core asset, The Work Number, held about 209 million active and 813 million total employment records at year-end,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "number",
+          "work",
+          "active",
+          "held"
+        ],
+        "hl": "813 million",
+        "snippet": "...is automated and not subject to human interpretation. The Work Number ® held about 209 million active and 813 million total (active and historic) employment records at December 31, 2025."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...records at year-end, drawn from payroll data of more than 4 million organizations  . Verification Services...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "payroll",
+          "organization",
+          "data"
+        ],
+        "hl": "4 million",
+        "snippet": "...and other customers of our Verification Services business unit. We rely on payroll data received from over 4 million organizations to provide up-to-date verifications. The updates occur as employers and other data..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fell 2% to $402.5 million on lower unemployment claims, ACA and I-9 revenue  . A Workforce Solutions business...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "aca",
+          "unemployment",
+          "claim"
+        ],
+        "hl": "9",
+        "snippet": "...Revenue decreased 2% in 2025 compared to 2024 primarily due to declines in unemployment claims, ACA and I-9 revenue, partially offset by increases in work opportunity tax credit and identity theft protection services."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,074 million",
+      "value": 6074.0,
+      "unit": "million",
+      "money_mn": 6074.0,
+      "decimals": 0,
+      "context": "...not translate into the highest margins. Equifax's 2025 revenue of $6,074 million is ahead of Paychex ($5,572 million), TransUnion...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,074.5",
+        "snippet": "...Twelve Months Ended December 31, 2025 2024 2023 (In millions, except per share data) Operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5,572 million",
+      "value": 5572.0,
+      "unit": "million",
+      "money_mn": 5572.0,
+      "decimals": 0,
+      "context": "...Equifax's 2025 revenue of $6,074 million is ahead of Paychex ($5,572 million), TransUnion ($4,576 million) and Verisk ($3,073...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Non Current Liabilities Net Minority Interest 2023-12-31: 5,573,500,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,576 million",
+      "value": 4576.0,
+      "unit": "million",
+      "money_mn": 4576.0,
+      "decimals": 0,
+      "context": "...of $6,074 million is ahead of Paychex ($5,572 million), TransUnion ($4,576 million) and Verisk ($3,073 million), but its EBITDA...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "TRU Revenue 2025: 4576"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,073 million",
+      "value": 3073.0,
+      "unit": "million",
+      "money_mn": 3073.0,
+      "decimals": 0,
+      "context": "...Paychex ($5,572 million), TransUnion ($4,576 million) and Verisk ($3,073 million), but its EBITDA margin of 30.2% trails...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK Revenue 2025: 3073"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$185.68",
+      "value": 185.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares trade at $185.68, about 33% below the 52-week high of $275.92 and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "185.5",
+        "snippet": "...$ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$275.92",
+      "value": 275.92,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... The shares trade at $185.68, about 33% below the 52-week high of $275.92 and 13% above the low of $164.02  . The market...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "275.92",
+        "snippet": "164.02 - 275.92"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$164.02",
+      "value": 164.02,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...33% below the 52-week high of $275.92 and 13% above the low of $164.02  . The market position is therefore strong in...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "163.7",
+        "snippet": "...5 % $ 183.6 8 % Consolidated selling, general and administrative expenses 1,614.2 1,450.5 1,385.7 163.7 11 % 64.8 5 % Consolidated depreciation and amortization expense 719.5 669.8 610.8 49.7 7 % 59.0 10..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "3%",
+      "value": 3.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and telecommunications, and the largest client accounts for about 3% of revenue  . The filing does not name customers...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "largest",
+          "client"
+        ],
+        "hl": "3%",
+        "snippet": "...directly. Our revenue streams are highly diversified with our largest client providing approximately 3% of total revenue. The following table summarizes the various end-user markets we serve:"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30.2%",
+      "value": 30.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million) and Verisk ($3,073 million), but its EBITDA margin of 30.2% trails TransUnion's 31.8%, and its gross margin...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2024: 30.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31.8%",
+      "value": 31.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million), but its EBITDA margin of 30.2% trails TransUnion's 31.8%, and its gross margin of 56.4% is the lowest of...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "TRU EBITDA Margin 2025: 31.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "56.4%",
+      "value": 56.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin of 30.2% trails TransUnion's 31.8%, and its gross margin of 56.4% is the lowest of the four  . Verisk and Paychex...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "Gross Margin 2025: 56.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54.3%",
+      "value": 54.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the four  . Verisk and Paychex earn far higher EBITDA margins, at 54.3% and 44.7% respectively  . Equifax's ROIC of 8.5%...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "VRSK EBITDA Margin 2025: 54.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.7%",
+      "value": 44.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Verisk and Paychex earn far higher EBITDA margins, at 54.3% and 44.7% respectively  . Equifax's ROIC of 8.5% is ahead...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "PAYX EBITDA Margin 2025: 44.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margins, at 54.3% and 44.7% respectively  . Equifax's ROIC of 8.5% is ahead of TransUnion's 6.7% but well behind...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2022: 8.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.7%",
+      "value": 6.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...respectively  . Equifax's ROIC of 8.5% is ahead of TransUnion's 6.7% but well behind Verisk's 20.7% and Paychex's...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "TRU ROIC 2025: 6.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.7%",
+      "value": 20.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ROIC of 8.5% is ahead of TransUnion's 6.7% but well behind Verisk's 20.7% and Paychex's 19.1%  .  Growth is mid-pack....",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "VRSK ROIC 2025: 20.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "19.1%",
+      "value": 19.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of TransUnion's 6.7% but well behind Verisk's 20.7% and Paychex's 19.1%  .  Growth is mid-pack. Equifax grew 6.9% in...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "19%",
+        "snippet": "International revenue increased 10% in 2024 as compared to 2023. Local currency revenue increased 19% in 2024, driven by growth in Latin America from the BVS acquisition, completed in the third quarter of 2023,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...20.7% and Paychex's 19.1%  .  Growth is mid-pack. Equifax grew 6.9% in 2025, against TransUnion's 9.4%, Verisk's...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "7%",
+        "snippet": "Revenue for 2025 increased 7% compared to 2024 due to revenue growth in all three business units. USIS revenue growth is primarily due to..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.4%",
+      "value": 9.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is mid-pack. Equifax grew 6.9% in 2025, against TransUnion's 9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "TRU Revenue Growth 2025: 9.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.6%",
+      "value": 6.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Equifax grew 6.9% in 2025, against TransUnion's 9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares trade at...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK Revenue Growth 2025: 6.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.6%",
+      "value": 5.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2025, against TransUnion's 9.4%, Verisk's 6.6% and Paychex's 5.6%  . The shares trade at $185.68, about 33% below...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAYX Revenue Growth 2025: 5.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...6.6% and Paychex's 5.6%  . The shares trade at $185.68, about 33% below the 52-week high of $275.92 and 13% above...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "33 %",
+        "snippet": "...revenue $ 2,078.5 $ 1,893.0 $ 1,720.4 $ 185.5 10 % $ 172.6 10 % % of consolidated revenue 34 % 33 % 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...trade at $185.68, about 33% below the 52-week high of $275.92 and 13% above the low of $164.02  . The market position...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "12.9%",
+        "snippet": "International Operating Margin. Operating margin was 12.9% in 2025 compared to 13.4% in 2024. The decrease in margin is primarily due to higher people costs and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6,074.5 million",
+      "value": 6074.5,
+      "unit": "million",
+      "money_mn": 6074.5,
+      "decimals": 1,
+      "context": "Revenue grew 7% to $6,074.5 million in 2025, after 8% growth in 2024, led by USIS...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,074.5",
+        "snippet": "...Twelve Months Ended December 31, 2025 2024 2023 (In millions, except per share data) Operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.7 million",
+      "value": 21.7,
+      "unit": "million",
+      "money_mn": 21.7,
+      "decimals": 1,
+      "context": "...led by USIS (+10%), while International grew 4% and absorbed a $21.7 million currency drag  . Selling, general and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "21.7 million",
+        "snippet": "...driven by growth in Europe and Latin America. The effect of foreign exchange rates decreased revenue by $21.7 million, or less than 1%, in 2025 compared to 2024."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,614.2 million",
+      "value": 1614.2,
+      "unit": "million",
+      "money_mn": 1614.2,
+      "decimals": 1,
+      "context": "...drag  . Selling, general and administrative expense rose 11% to $1,614.2 million on higher incentive pay, litigation and a...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,614.2",
+        "snippet": "...$ 2,518.7 $ 2,335.1 $ 126.9 5 % $ 183.6 8 % Consolidated selling, general and administrative expenses 1,614.2 1,450.5 1,385.7 163.7 11 % 64.8 5 % Consolidated depreciation and amortization expense 719.5 669.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$31.3 million",
+      "value": 31.3,
+      "unit": "million",
+      "money_mn": 31.3,
+      "decimals": 1,
+      "context": "...line the picture improved. Net interest and other expense fell $31.3 million, lifting net margin to 10.9% from 10.6%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31.3",
+        "snippet": "(200.3) (231.6) (215.7) 31.3 (14) % (15.9) 7 % Consolidated provision for income taxes (230.6) (203.2) (166.2) (27.4) 13 % (37.0) 22 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.32",
+      "value": 5.32,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...lifting net margin to 10.9% from 10.6%  . Diluted EPS rose 10% to $5.32, slightly faster than net income growth of 9%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.32",
+        "snippet": "...% 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $ 4.84 $ 4.40 Cash provided by operating activities $ 1,615.7 $ 1,324.5 $ 1,116.8 Capital expenditures* $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.65",
+      "value": 5.65,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...124.1 million from 124.9 million  . Diluted EPS is still below the $5.65 reported in 2022  . Cash generation was strong:...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Diluted EPS 2022-12-31: 6 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,615.7 million",
+      "value": 1615.7,
+      "unit": "million",
+      "money_mn": 1615.7,
+      "decimals": 1,
+      "context": "...in 2022  . Cash generation was strong: operating cash flow reached $1,615.7 million, up $291.2 million, and capital expenditure fell...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,615.7",
+        "snippet": "...$ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $ 4.84 $ 4.40 Cash provided by operating activities $ 1,615.7 $ 1,324.5 $ 1,116.8 Capital expenditures* $ (480.2) $ (495.9) $ (585.8)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$291.2 million",
+      "value": 291.2,
+      "unit": "million",
+      "money_mn": 291.2,
+      "decimals": 1,
+      "context": "...was strong: operating cash flow reached $1,615.7 million, up $291.2 million, and capital expenditure fell to $481.4 million,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "291.2",
+        "snippet": "...2024 2023 2025 vs 2024 2024 vs 2023 (In millions) Operating activities $ 1,615.7 $ 1,324.5 $ 1,116.8 $ 291.2 $ 207.7 Investing activities $ (554.3) $ (511.5) $ (878.2) $ (42.8) $ 366.7 Financing activities $ (1,059.7)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$481.4 million",
+      "value": 481.4,
+      "unit": "million",
+      "money_mn": 481.4,
+      "decimals": 1,
+      "context": "...million, up $291.2 million, and capital expenditure fell to $481.4 million, leaving free cash flow of $1,134.3 million  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "481.4)",
+        "snippet": "...31, Change Net cash used in: 2025 2024 2023 2025 vs 2024 2024 vs 2023 (In millions) Capital expenditures* $ (481.4) $ (511.5) $ (601.3) $ 30.1 $ 89.8"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,134.3 million",
+      "value": 1134.3,
+      "unit": "million",
+      "money_mn": 1134.3,
+      "decimals": 1,
+      "context": "...expenditure fell to $481.4 million, leaving free cash flow of $1,134.3 million  . By our estimate, about $95 million of the...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 1,134,300,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$95 million",
+      "value": 95.0,
+      "unit": "million",
+      "money_mn": 95.0,
+      "decimals": 0,
+      "context": "...free cash flow of $1,134.3 million  . By our estimate, about $95 million of the operating cash gain came from...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$6,666.1 million",
+      "value": 6666.1,
+      "unit": "million",
+      "money_mn": 6666.1,
+      "decimals": 1,
+      "context": "...growth on a normalized basis. Consensus expects FY2026 revenue of $6,666.1 million (+9.7%) and EPS of $8.50, and FY2027 revenue of...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "6,666.1 million",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.50",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...expects FY2026 revenue of $6,666.1 million (+9.7%) and EPS of $8.50, and FY2027 revenue of $7,072.9 million (+6.1%)...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "8.50",
+        "snippet": "...revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7,072.9 million",
+      "value": 7072.9,
+      "unit": "million",
+      "money_mn": 7072.9,
+      "decimals": 1,
+      "context": "...of $6,666.1 million (+9.7%) and EPS of $8.50, and FY2027 revenue of $7,072.9 million (+6.1%) and EPS of $9.46  . These consensus EPS...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "7,072.9 million",
+        "snippet": "- FY2027E: revenue $7,072.9 million (range $6,854.0 million to $7,323.3 million, 18 analysts), growth +6.1%; EPS $9.46 (range $8.97 to $10.70);..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.46",
+      "value": 9.46,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of $8.50, and FY2027 revenue of $7,072.9 million (+6.1%) and EPS of $9.46  . These consensus EPS figures are normalized and...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.46",
+        "snippet": "...revenue $7,072.9 million (range $6,854.0 million to $7,323.3 million, 18 analysts), growth +6.1%; EPS $9.46 (range $8.97 to $10.70); forward P/E 19.6x; EV/Sales 3.8x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.32",
+      "value": 5.32,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS figures are normalized and are not directly comparable with the $5.32 GAAP diluted EPS reported for 2025  . Next-year...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "5.32",
+        "snippet": "...% 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $ 4.84 $ 4.40 Cash provided by operating activities $ 1,615.7 $ 1,324.5 $ 1,116.8 Capital expenditures* $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 7% to $6,074.5 million in 2025, after 8% growth in...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 6.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue grew 7% to $6,074.5 million in 2025, after 8% growth in 2024, led by USIS (+10%), while...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 7.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $6,074.5 million in 2025, after 8% growth in 2024, led by USIS (+10%), while International grew 4% and absorbed a...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "international"
+        ],
+        "hl": "10 %",
+        "snippet": "...$ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating revenue $ 6,074.5 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...8% growth in 2024, led by USIS (+10%), while International grew 4% and absorbed a $21.7 million currency drag  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "currency"
+        ],
+        "hl": "4%",
+        "snippet": "Europe. Local currency revenue increased 4% in 2025 as compared to 2024, primarily due to growth in the consumer credit reporting businesses in the U.K..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...currency drag  . Selling, general and administrative expense rose 11% to $1,614.2 million on higher incentive pay,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11 %",
+        "snippet": "...(0.8) 25 % 3.2 (50) % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 $ 56.2 9 % $ 58.8 11 % Diluted earnings per share: Net income attributable to Equifax $ 5.32 $ 4.84 $ 4.40 $ 0.48..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.6%",
+      "value": 26.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...litigation and a class-action settlement accrual, lifting it to 26.6% of revenue from 25.5%  . Operating income grew...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "25.5%",
+      "value": 25.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...settlement accrual, lifting it to 26.6% of revenue from 25.5%  . Operating income grew 5%, slower than...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...lifting it to 26.6% of revenue from 25.5%  . Operating income grew 5%, slower than revenue, so operating margin fell...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "PAYX Revenue Growth 2024: 5.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.0%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income grew 5%, slower than revenue, so operating margin fell to 18.0% from 18.3%, and remains well below the 20.6%...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "18.3%",
+      "value": 18.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...5%, slower than revenue, so operating margin fell to 18.0% from 18.3%, and remains well below the 20.6% reached in...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "18.3 %",
+        "snippet": "...revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating margin 18.0 % 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20.6%",
+      "value": 20.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin fell to 18.0% from 18.3%, and remains well below the 20.6% reached in 2022  .  Below the operating line the...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK ROIC 2025: 20.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.9%",
+      "value": 10.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and other expense fell $31.3 million, lifting net margin to 10.9% from 10.6%  . Diluted EPS rose 10% to $5.32,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "11 %",
+        "snippet": "...consolidated revenue 34 % 33 % 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 % 21.4 % 21.2 % 1.5 pts 0.2 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.6%",
+      "value": 10.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...other expense fell $31.3 million, lifting net margin to 10.9% from 10.6%  . Diluted EPS rose 10% to $5.32, slightly...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million, lifting net margin to 10.9% from 10.6%  . Diluted EPS rose 10% to $5.32, slightly faster than net income growth...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "net",
+          "income"
+        ],
+        "hl": "10 %",
+        "snippet": "...per share: Net income attributable to Equifax $ 5.32 $ 4.84 $ 4.40 $ 0.48 10 % $ 0.44 10 % Weighted-average shares used in computing diluted earnings per share 124.1 124.9 123.9"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...EPS rose 10% to $5.32, slightly faster than net income growth of 9%, as diluted shares fell to 124.1 million from...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "9 %",
+        "snippet": "...revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...basis. Consensus expects FY2026 revenue of $6,666.1 million (+9.7%) and EPS of $8.50, and FY2027 revenue of...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(+9.7%) and EPS of $8.50, and FY2027 revenue of $7,072.9 million (+6.1%) and EPS of $9.46  . These consensus EPS figures...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "Workforce Solutions revenue increased 6% in 2025 compared to 2024 due to an increase in both diversified markets and mortgage verticals within..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.3%",
+      "value": 6.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...GAAP diluted EPS reported for 2025  . Next-year EPS consensus fell 6.3% over the past 90 days, an early sign that...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "6.3%",
+        "snippet": "- EPS consensus next fiscal year: $9.46 today, $9.53 30 days ago, $10.10 90 days ago, change vs 90 days ago -6.3%; analysts raising/cutting in last 30 days: 2/17"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.8%",
+      "value": 1.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS beat consensus in each of the last four quarters, by between 1.8% and 9.7%  . These consensus figures are dated...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "1.8%",
+        "snippet": "- Quarter ending 2025-12-31: EPS $2.09 vs estimate $2.05 (surprise +1.8%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus in each of the last four quarters, by between 1.8% and 9.7%  . These consensus figures are dated after the...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "124.1",
+      "value": 124.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...faster than net income growth of 9%, as diluted shares fell to 124.1 million from 124.9 million  . Diluted EPS is...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "income"
+        ],
+        "hl": "124.1",
+        "snippet": "...4.84 $ 4.40 $ 0.48 10 % $ 0.44 10 % Weighted-average shares used in computing diluted earnings per share 124.1 124.9 123.9"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "124.9",
+      "value": 124.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income growth of 9%, as diluted shares fell to 124.1 million from 124.9 million  . Diluted EPS is still below the $5.65...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "income"
+        ],
+        "hl": "124.9",
+        "snippet": "...$ 0.48 10 % $ 0.44 10 % Weighted-average shares used in computing diluted earnings per share 124.1 124.9 123.9"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...for 2025  . Next-year EPS consensus fell 6.3% over the past 90 days, an early sign that analysts see the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $8.50 today, $8.50 30 days ago, $8.55 90 days ago, change vs 90 days ago -0.6%; analysts raising/cutting in last 30 days: 5/15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.0 million",
+      "value": 1.0,
+      "unit": "million",
+      "money_mn": 1.0,
+      "decimals": 1,
+      "context": "...and hard to size. The CFPB can seek civil money penalties of up to $1.0 million per day for known violations, and GDPR fines can...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1",
+        "snippet": "ITEM 1. BUSINESS"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$923.2 million",
+      "value": 923.2,
+      "unit": "million",
+      "money_mn": 923.2,
+      "decimals": 1,
+      "context": "...fell to 0.61x from 0.75x, the working capital deficit widened to $923.2 million, and debt due within twelve months rose to...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Working Capital 2025-12-31: -923,200,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,038.0 million",
+      "value": 1038.0,
+      "unit": "million",
+      "money_mn": 1038.0,
+      "decimals": 1,
+      "context": "...to $923.2 million, and debt due within twelve months rose to $1,038.0 million against $180.8 million of cash  . Debt to equity...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,038.0 million",
+        "snippet": "...and fixed rate debt with varying maturities for an aggregate principal amount of $5.1 billion, with $1,038.0 million payable within the next twelve months, as detailed further in Note 5 of the Notes to Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$180.8 million",
+      "value": 180.8,
+      "unit": "million",
+      "money_mn": 180.8,
+      "decimals": 1,
+      "context": "...and debt due within twelve months rose to $1,038.0 million against $180.8 million of cash  . Debt to equity rose to 1.11x from...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "180.8 million",
+        "snippet": "...more fully described below, are our most significant sources of liquidity. At December 31, 2025, we had $180.8 million in cash and cash equivalents, as well as $0.7 billion available to borrow under our Revolver."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,134.3 million",
+      "value": 1134.3,
+      "unit": "million",
+      "money_mn": 1134.3,
+      "decimals": 1,
+      "context": ".... Debt to equity rose to 1.11x from 1.04x  . Free cash flow of $1,134.3 million covered the $232.8 million dividend, but total...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 1,134,300,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$232.8 million",
+      "value": 232.8,
+      "unit": "million",
+      "money_mn": 232.8,
+      "decimals": 1,
+      "context": "...1.11x from 1.04x  . Free cash flow of $1,134.3 million covered the $232.8 million dividend, but total buybacks and dividends of...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "232.8 million",
+        "snippet": "...in our quarterly cash dividend to $0.50 per share beginning in the second quarter of 2025. We paid out $232.8 million, or $1.89 per share, in dividends to our shareholders during 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.16 billion",
+      "value": 1.16,
+      "unit": "billion",
+      "money_mn": 1160.0,
+      "decimals": 2,
+      "context": "...$232.8 million dividend, but total buybacks and dividends of about $1.16 billion exceeded free cash flow and were partly funded...",
+      "section": "Risk Assessment",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "TRU Normalized EBITDA 2022-12-31: 1,156,600,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$474.7 million",
+      "value": 474.7,
+      "unit": "million",
+      "money_mn": 474.7,
+      "decimals": 1,
+      "context": "...$1.16 billion exceeded free cash flow and were partly funded by $474.7 million of commercial paper  . The Altman Z-score of...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "474.7",
+        "snippet": "...by (used in): 2025 2024 2023 2025 vs 2024 2024 vs 2023 (In millions) Net short-term borrowings (payments) $ 474.7 $ 91.2 $ (371.2) $ 383.5 $ 462.4 Payments on long-term debt $ (400.2) $ (1,445.6) $ (579.3) $ 1,045.4 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4%",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$1.0 million per day for known violations, and GDPR fines can reach 4% of annual worldwide turnover, although the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "fin",
+          "worldwide",
+          "annual"
+        ],
+        "hl": "4%",
+        "snippet": "...GDPR, which includes extensive regulations for certain security incidents, could result in fines of up to 4% of annual worldwide “turnover” (a measure similar to revenues in the U.S.). In addition, because many of our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is tied to interest rates  . International operations account for 23% of revenue, and the company generally does not...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23%",
+        "snippet": "Revenue from international clients, including end users and resellers, amounted to 23% of our total revenue in 2025, 24% of our total revenue in 2024 and 23% of our total revenue in 2023."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.61x",
+      "value": 0.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "....  The balance sheet adds a funding risk. The current ratio fell to 0.61x from 0.75x, the working capital deficit widened...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "0.75x",
+      "value": 0.75,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...sheet adds a funding risk. The current ratio fell to 0.61x from 0.75x, the working capital deficit widened to $923.2...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "1.11x",
+      "value": 1.11,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million against $180.8 million of cash  . Debt to equity rose to 1.11x from 1.04x  . Free cash flow of $1,134.3 million...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "1.04x",
+      "value": 1.04,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...against $180.8 million of cash  . Debt to equity rose to 1.11x from 1.04x  . Free cash flow of $1,134.3 million covered...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,042.1",
+        "snippet": "...$ 6,074.5 $ 5,681.1 $ 5,265.2 Operating revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating margin 18.0 % 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.32",
+      "value": 3.32,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...by $474.7 million of commercial paper  . The Altman Z-score of 3.32 sits in the safe zone, and the Beneish M-score...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "safe",
+          "altman",
+          "zone",
+          "z-score"
+        ],
+        "hl": "3.32",
+        "snippet": "- Altman Z-Score: 3.32 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2.84",
+      "value": 2.84,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Z-score of 3.32 sits in the safe zone, and the Beneish M-score of -2.84 shows no manipulation warning, although the...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "m-score",
+          "beneish",
+          "warning"
+        ],
+        "hl": "2.84",
+        "snippet": "- Beneish M-Score: -2.84 (below -1.78: no statistical warning sign)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "8",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and is less reliable for this business  . The Piotroski score of 8 of 9 failed only on the current ratio test  ....",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "failed"
+        ],
+        "hl": "8",
+        "snippet": "- Piotroski F-Score: 8 of 9 available criteria; failed: Current ratio improved"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is less reliable for this business  . The Piotroski score of 8 of 9 failed only on the current ratio test  . Asia...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "failed"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 8 of 9 available criteria; failed: Current ratio improved"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$133 million",
+      "value": 133.0,
+      "unit": "million",
+      "money_mn": 133.0,
+      "decimals": 0,
+      "context": "...ROIC of 8.5% beats TransUnion's 6.7%, and free cash flow rose from $133 million in 2022 to $1,134 million in 2025  . Consensus...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2022: 133"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,134 million",
+      "value": 1134.0,
+      "unit": "million",
+      "money_mn": 1134.0,
+      "decimals": 0,
+      "context": "...6.7%, and free cash flow rose from $133 million in 2022 to $1,134 million in 2025  . Consensus rates the stock a buy with...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "FCF 2025: 1134"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$205.10",
+      "value": 205.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to $1,134 million in 2025  . Consensus rates the stock a buy with a $205.10 target price  .  Two caveats matter. The...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "205.10",
+        "snippet": "205.10 (range 169.00 - 245.00), current consensus as of 2026-11-26, not as of 2026-02-19"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.9%",
+      "value": 6.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  Growth and valuation diverge. Equifax's 2025 revenue growth of 6.9% trails TransUnion's 9.4%, is roughly level with...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 6.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.4%",
+      "value": 9.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...diverge. Equifax's 2025 revenue growth of 6.9% trails TransUnion's 9.4%, is roughly level with Verisk's 6.6%, and is...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "TRU Revenue Growth 2025: 9.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.6%",
+      "value": 6.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 6.9% trails TransUnion's 9.4%, is roughly level with Verisk's 6.6%, and is ahead of Paychex's 5.6%  . On EV/EBITDA,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "VRSK Revenue Growth 2025: 6.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.6%",
+      "value": 5.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is roughly level with Verisk's 6.6%, and is ahead of Paychex's 5.6%  . On EV/EBITDA, Equifax trades at 16.92x,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAYX Revenue Growth 2025: 5.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.5%",
+      "value": 8.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth  . Equifax's advantage lies in returns and cash: ROIC of 8.5% beats TransUnion's 6.7%, and free cash flow rose...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "ROIC 2022: 8.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.7%",
+      "value": 6.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...advantage lies in returns and cash: ROIC of 8.5% beats TransUnion's 6.7%, and free cash flow rose from $133 million in...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "roic"
+        ],
+        "hl": null,
+        "snippet": "TRU ROIC 2025: 6.7%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.0x",
+      "value": 1.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Solutions payroll and HR business, and it is similar in size at 1.0x Equifax's revenue  . Verisk (VRSK) is a...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "solution"
+        ],
+        "hl": "1",
+        "snippet": "...organic and inorganic growth, and customer acceptance of our business solutions referenced above under “Item 1. Business” and below in “Item 7. Management’s Discussion and Analysis of Financial Condition and Results of..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.5x",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...company serving insurance clients and is the smallest of the set at 0.5x Equifax's revenue  . FICO and ADP were excluded:...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "equifax"
+        ],
+        "hl": "0.48",
+        "snippet": "...11 % Diluted earnings per share: Net income attributable to Equifax $ 5.32 $ 4.84 $ 4.40 $ 0.48 10 % $ 0.44 10 % Weighted-average shares used in computing diluted earnings per share 124.1 124.9 123.9..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "16.92x",
+      "value": 16.92,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and is ahead of Paychex's 5.6%  . On EV/EBITDA, Equifax trades at 16.92x, against TransUnion's 14.31x, Verisk's 20.18x...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 16.92"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "14.31x",
+      "value": 14.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... On EV/EBITDA, Equifax trades at 16.92x, against TransUnion's 14.31x, Verisk's 20.18x and Paychex's 24.22x  . The...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "TRU EV/EBITDA 2025: 14.31"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "20.18x",
+      "value": 20.18,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Equifax trades at 16.92x, against TransUnion's 14.31x, Verisk's 20.18x and Paychex's 24.22x  . The premium to...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Allowance For Doubtful Accounts Receivable 2025-12-31: -20,200,000 USD"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "24.22x",
+      "value": 24.22,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...16.92x, against TransUnion's 14.31x, Verisk's 20.18x and Paychex's 24.22x  . The premium to TransUnion is hard to justify...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "PAYX EV/EBITDA 2025: 24.22"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.4",
+      "value": 3.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...model differs from Equifax's data-bureau model, and ADP is 3.4 times Equifax's revenue  .  Growth and valuation...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3.4",
+        "snippet": "...revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 7.8% per year (-3.4 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.72",
+      "value": 1.72,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...caveats matter. The reported FCF conversion figure for Equifax (1.72) does not reconcile with FCF divided by EBITDA...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "FCF Conversion 2025: 1.72"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.62",
+      "value": 0.62,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Equifax (1.72) does not reconcile with FCF divided by EBITDA (about 0.62) using the same table, so any claim of cash-flow...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$2,078.5 million",
+      "value": 2078.5,
+      "unit": "million",
+      "money_mn": 2078.5,
+      "decimals": 1,
+      "context": "...offset lower credit inquiry volumes. USIS revenue rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million,...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,078.5",
+        "snippet": "...Workforce Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$475.2 million",
+      "value": 475.2,
+      "unit": "million",
+      "money_mn": 475.2,
+      "decimals": 1,
+      "context": "...rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million, with margin at 22.9% versus 21.4%  . USIS...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "475.2",
+        "snippet": "...$ 1,720.4 $ 185.5 10 % $ 172.6 10 % % of consolidated revenue 34 % 33 % 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 % 21.4 % 21.2 % 1.5 pts 0.2 pts..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,141.5 million",
+      "value": 1141.5,
+      "unit": "million",
+      "money_mn": 1141.5,
+      "decimals": 1,
+      "context": "...margin rose to 44.2% from 43.3%, operating income rose 8% to $1,141.5 million, and Verification Services grew 8% to $2,179.8...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,141.5",
+        "snippet": "...$ 148.5 6 % $ 118.0 5 % % of consolidated revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,179.8 million",
+      "value": 2179.8,
+      "unit": "million",
+      "money_mn": 2179.8,
+      "decimals": 1,
+      "context": "...rose 8% to $1,141.5 million, and Verification Services grew 8% to $2,179.8 million  . Verification Services revenue growth of at...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,179.8",
+        "snippet": "...Solutions 2025 2024 2023 $ % $ % (In millions) Operating Revenue: Verification Services $ 2,179.8 $ 2,021.9 $ 1,846.2 $ 157.9 8 % $ 175.7 10 % Employer Services 402.5 411.9 469.6 (9.4) (2) % (57.7) (12)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$185.68",
+      "value": 185.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...turns negative, or Workforce Solutions margin falls below 43%. At $185.68 the shares price in faster growth than history...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "185.5",
+        "snippet": "...$ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.00",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2026 revenue growth below 7%, or FY2027 EPS consensus cut below $9.00 in any quarter of 2027. Debt due within twelve...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "9",
+        "snippet": "...as well as providing our employer customers with services which include unemployment claims management, I-9 and onboarding services, Affordable Care Act (\"ACA\") compliance management, tax credits and incentives and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,038.0 million",
+      "value": 1038.0,
+      "unit": "million",
+      "money_mn": 1038.0,
+      "decimals": 1,
+      "context": "...does not force cuts to buybacks or dividends. Current debt of $1,038.0 million compares with cash of $180.8 million and a 0.61x...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,038.0 million",
+        "snippet": "...and fixed rate debt with varying maturities for an aggregate principal amount of $5.1 billion, with $1,038.0 million payable within the next twelve months, as detailed further in Note 5 of the Notes to Consolidated Financial..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$180.8 million",
+      "value": 180.8,
+      "unit": "million",
+      "money_mn": 180.8,
+      "decimals": 1,
+      "context": "...dividends. Current debt of $1,038.0 million compares with cash of $180.8 million and a 0.61x current ratio, while free cash flow...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "180.8 million",
+        "snippet": "...more fully described below, are our most significant sources of liquidity. At December 31, 2025, we had $180.8 million in cash and cash equivalents, as well as $0.7 billion available to borrow under our Revolver."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1,134.3 million",
+      "value": 1134.3,
+      "unit": "million",
+      "money_mn": 1134.3,
+      "decimals": 1,
+      "context": "...$180.8 million and a 0.61x current ratio, while free cash flow of $1,134.3 million covered the $232.8 million dividend but not the...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2025-12-31: 1,134,300,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$232.8 million",
+      "value": 232.8,
+      "unit": "million",
+      "money_mn": 232.8,
+      "decimals": 1,
+      "context": "...current ratio, while free cash flow of $1,134.3 million covered the $232.8 million dividend but not the full $1.16 billion of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "232.8 million",
+        "snippet": "...in our quarterly cash dividend to $0.50 per share beginning in the second quarter of 2025. We paid out $232.8 million, or $1.89 per share, in dividends to our shareholders during 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.16 billion",
+      "value": 1.16,
+      "unit": "billion",
+      "money_mn": 1160.0,
+      "decimals": 2,
+      "context": "...million covered the $232.8 million dividend but not the full $1.16 billion of buybacks and dividends  . The FY2026 annual...",
+      "section": "Investment Thesis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "TRU Normalized EBITDA 2022-12-31: 1,156,600,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth offset lower credit inquiry volumes. USIS revenue rose 10% to $2,078.5 million and operating income rose...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...USIS revenue rose 10% to $2,078.5 million and operating income rose 18% to $475.2 million, with margin at 22.9% versus...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "income"
+        ],
+        "hl": "18.3 %",
+        "snippet": "...revenue change 7 % 8 % 3 % Operating income $ 1,095.2 $ 1,042.1 $ 933.6 Operating margin 18.0 % 18.3 % 17.7 % Net income attributable to Equifax $ 660.3 $ 604.1 $ 545.3 Diluted earnings per share $ 5.32 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.9%",
+      "value": 22.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and operating income rose 18% to $475.2 million, with margin at 22.9% versus 21.4%  . USIS operating margin at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "22.9%",
+        "snippet": "U.S. Information Solutions Operating Margin. USIS operating margin increased to 22.9% in 2025 compared to 21.4% in 2024 due to the aforementioned increase in revenue, partially offset by an..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.4%",
+      "value": 21.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 18% to $475.2 million, with margin at 22.9% versus 21.4%  . USIS operating margin at or above 22% in each...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "income"
+        ],
+        "hl": "21.4 %",
+        "snippet": "...% 33 % Total operating income $ 475.2 $ 404.4 $ 365.0 $ 70.8 18 % $ 39.4 11 % Operating margin 22.9 % 21.4 % 21.2 % 1.5 pts 0.2 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin at 22.9% versus 21.4%  . USIS operating margin at or above 22% in each quarterly report through Q1 2027. USIS...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22 %",
+        "snippet": "...(In millions) Consolidated provision for income taxes $ (230.6) $ (203.2) $ (166.2) $ (27.4) 13 % $ (37.0) 22 % Effective income tax rate 25.8 % 25.1 % 23.2 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.4%",
+      "value": 21.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in each quarterly report through Q1 2027. USIS margin falls below 21.4% in any quarter through Q1 2027, or mortgage...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "usis",
+          "margin"
+        ],
+        "hl": "21.4%",
+        "snippet": "U.S. Information Solutions Operating Margin. USIS operating margin increased to 22.9% in 2025 compared to 21.4% in 2024 due to the aforementioned increase in revenue, partially offset by an increase in operating expenses..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.2%",
+      "value": 44.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...as U.S. mortgage activity falls in 2026. Segment margin rose to 44.2% from 43.3%, operating income rose 8% to $1,141.5...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.2%",
+        "snippet": "Workforce Solutions Operating Margin. Operating margin increased to 44.2% in 2025 compared to 43.3% in 2024 and increased to 43.3% in 2024 compared to 41.9% in 2023. The increase in..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.3%",
+      "value": 43.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...mortgage activity falls in 2026. Segment margin rose to 44.2% from 43.3%, operating income rose 8% to $1,141.5 million,...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "income"
+        ],
+        "hl": "43.3 %",
+        "snippet": "...Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Segment margin rose to 44.2% from 43.3%, operating income rose 8% to $1,141.5 million, and Verification Services...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "verification",
+          "servic"
+        ],
+        "hl": "8%",
+        "snippet": "Verification Services. Revenue increased 8% in 2025 compared to 2024. The increase in revenue is principally due to growth in diversified markets..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...income rose 8% to $1,141.5 million, and Verification Services grew 8% to $2,179.8 million  . Verification Services...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "verification",
+          "servic"
+        ],
+        "hl": "8%",
+        "snippet": "Verification Services. Revenue increased 8% in 2025 compared to 2024. The increase in revenue is principally due to growth in diversified markets..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million  . Verification Services revenue growth of at least 5% reported in the Q1 2027 quarterly report....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "verification",
+          "servic"
+        ],
+        "hl": "5 %",
+        "snippet": "...(9.4) (2) % (57.7) (12) % Total operating revenue $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % % of consolidated revenue 43 % 43 % 44 % Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43%",
+      "value": 43.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...growth turns negative, or Workforce Solutions margin falls below 43%. At $185.68 the shares price in faster growth...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "43.3 %",
+        "snippet": "...Total operating income $ 1,141.5 $ 1,053.3 $ 969.3 $ 88.2 8 % $ 84.0 9 % Operating margin 44.2 % 43.3 % 41.9 % 0.9 pts 1.4 pts"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to earn its cost of capital. The reverse DCF implies 12.4% annual revenue growth over ten years against a...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "12.4%",
+        "snippet": "- The current enterprise value of $26,882.8 million implies revenue growth of 12.4% per year for 10 years (FY2025 revenue $6,074.5 million -> about $19,580.1 million in FY2035), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.8%",
+      "value": 5.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...DCF implies 12.4% annual revenue growth over ten years against a 5.8% historical three-year CAGR, and an implied IRR...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "implied",
+          "cagr",
+          "historical",
+          "revenue"
+        ],
+        "hl": "5.8%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 5.8%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.8%",
+      "value": 7.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against a 5.8% historical three-year CAGR, and an implied IRR of 7.8% against an 11.2% WACC  . Consensus growth is...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2024: 7.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...historical three-year CAGR, and an implied IRR of 7.8% against an 11.2% WACC  . Consensus growth is 9.7% for FY2026 and...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.2%",
+        "snippet": "...million in FY2035), assuming the free cash flow margin moves from 18.7% to 18.7% by year 10, a WACC of 11.2% (10y US Treasury (^TNX) 4.8% + beta 1.27 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.7%",
+      "value": 9.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...an implied IRR of 7.8% against an 11.2% WACC  . Consensus growth is 9.7% for FY2026 and 6.1% for FY2027  . FY2026...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.7%",
+        "snippet": "- FY2026E: revenue $6,666.1 million (range $6,648.6 million to $6,702.0 million, 21 analysts), growth +9.7%; EPS $8.50 (range $8.37 to $8.71); forward P/E 21.8x; EV/Sales 4.0x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6.1%",
+      "value": 6.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against an 11.2% WACC  . Consensus growth is 9.7% for FY2026 and 6.1% for FY2027  . FY2026 reported revenue growth of...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6%",
+        "snippet": "Workforce Solutions revenue increased 6% in 2025 compared to 2024 due to an increase in both diversified markets and mortgage verticals within..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and 6.1% for FY2027  . FY2026 reported revenue growth of at least 9%, shown in the FY2026 annual filing expected...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "TRU Revenue Growth 2024: 9.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...filing expected around February 2027. FY2026 revenue growth below 7%, or FY2027 EPS consensus cut below $9.00 in any...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 6.9%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.61x",
+      "value": 0.61,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...debt of $1,038.0 million compares with cash of $180.8 million and a 0.61x current ratio, while free cash flow of $1,134.3...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$2582.3 million",
+      "value": 2582.3,
+      "unit": "million",
+      "money_mn": 2582.3,
+      "decimals": 1,
+      "context": "Workforce Solutions: $2582.3 million, prior $2433.8 million; U.S. Information...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,582.3",
+        "snippet": "...2025 vs. 2024 2024 vs. 2023 Operating Revenue 2025 2024 2023 $ % $ % (In millions) Workforce Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2433.8 million",
+      "value": 2433.8,
+      "unit": "million",
+      "money_mn": 2433.8,
+      "decimals": 1,
+      "context": "Workforce Solutions: $2582.3 million, prior $2433.8 million; U.S. Information Solutions (USIS): $2078.5...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,433.8",
+        "snippet": "...2024 2024 vs. 2023 Operating Revenue 2025 2024 2023 $ % $ % (In millions) Workforce Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2078.5 million",
+      "value": 2078.5,
+      "unit": "million",
+      "money_mn": 2078.5,
+      "decimals": 1,
+      "context": "...million, prior $2433.8 million; U.S. Information Solutions (USIS): $2078.5 million, prior $1893.0 million; International: $1413.7...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,078.5",
+        "snippet": "...Workforce Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1893.0 million",
+      "value": 1893.0,
+      "unit": "million",
+      "money_mn": 1893.0,
+      "decimals": 1,
+      "context": "...million; U.S. Information Solutions (USIS): $2078.5 million, prior $1893.0 million; International: $1413.7 million, prior $1354.3...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,893.0",
+        "snippet": "...Solutions $ 2,582.3 $ 2,433.8 $ 2,315.8 $ 148.5 6 % $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1413.7 million",
+      "value": 1413.7,
+      "unit": "million",
+      "money_mn": 1413.7,
+      "decimals": 1,
+      "context": "...(USIS): $2078.5 million, prior $1893.0 million; International: $1413.7 million, prior $1354.3 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,413.7",
+        "snippet": "...% $ 118.0 5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1354.3 million",
+      "value": 1354.3,
+      "unit": "million",
+      "money_mn": 1354.3,
+      "decimals": 1,
+      "context": "...prior $1893.0 million; International: $1413.7 million, prior $1354.3 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,354.3",
+        "snippet": "...5 % U.S. Information Solutions 2,078.5 1,893.0 1,720.4 185.5 10 % 172.6 10 % International 1,413.7 1,354.3 1,229.0 59.4 4 % 125.3 10 % Consolidated operating revenue $ 6,074.5 $ 5,681.1 $ 5,265.2 $ 393.4 7..."
+      }
+    }
+  ],
+  "peer_tickers": [
+    "TRU",
+    "PAYX",
+    "VRSK"
+  ],
+  "build_round": 1,
+  "self_correct": true
+}

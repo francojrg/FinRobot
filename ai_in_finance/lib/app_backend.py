@@ -16,13 +16,13 @@ ROOT = AIF.parent
 FR = ROOT / "finrobot_autogen"
 RUNS = AIF / "research" / "app_runs"
 UPLOADS = AIF / "portfolios" / "uploads"
-DEFAULT_STEPS = ["annual_report", "earnings_review", "forecast", "news", "portfolio", "brief"]   # ohne Committee
+DEFAULT_STEPS = ["annual_report", "quarter_review", "earnings_review", "forecast", "preview", "news", "portfolio", "brief"]   # ohne Committee
 # Erfahrungswerte aus den Pipeline-Protokollen (Claude Haiku 5.5): Minuten, USD je Lauf
-EST = {"annual_report": (6.0, 0.09), "earnings_review": (2.5, 0.035), "committee": (55.0, 1.30),
-       "forecast": (0.4, 0.006), "portfolio": (2.0, 0.01), "brief": (0.7, 0.015)}
+EST = {"annual_report": (6.0, 0.09), "quarter_review": (4.0, 0.10), "earnings_review": (2.5, 0.035), "committee": (55.0, 1.30),
+       "forecast": (0.4, 0.006), "preview": (0.4, 0.006), "portfolio": (2.0, 0.01), "brief": (0.7, 0.015)}
 NEWS_PER_TICKER = (0.8, 0.02)
-STEP_LABEL = {"annual_report": "Annual report", "earnings_review": "Earnings review", "committee": "Investment committee",
-              "forecast": "Weekly forecast", "news": "News digest", "portfolio": "Portfolio review",
+STEP_LABEL = {"annual_report": "Annual report", "quarter_review": "Quarter records", "earnings_review": "Earnings review", "committee": "Investment committee",
+              "forecast": "Weekly forecast", "preview": "Earnings preview", "news": "News digest", "portfolio": "Portfolio review",
               "brief": "Weekly brief", "skip": "no 10-K agents"}
 
 
@@ -37,7 +37,8 @@ def save_upload(name, data):
 
 def sample_files():
     """Dateien, die die App zur Auswahl anbietet: Musterdateien und eigene Uploads (keine Broker-Exporte)."""
-    out = [AIF / "portfolios" / f for f in ("sample_portfolio.csv", "sample_transactions.csv")
+    out = [AIF / "portfolios" / f for f in ("sample_transactions_vfc_filed.csv", "sample_transactions_vfc_quarter.csv", "sample_portfolio_vfc.csv",
+                                                    "sample_portfolio.csv", "sample_transactions.csv")
            if (AIF / "portfolios" / f).exists()]
     out += sorted(UPLOADS.glob("*.csv")) if UPLOADS.exists() else []
     return out
@@ -50,17 +51,64 @@ def _header(path):
     return [h.strip().lower() for h in first.split(sep)]
 
 
+def current_positions(tx):
+    """Heutiger Bestand aus Transaktionen: Kaeufe/Verkaeufe vor einem Aktiensplit auf heutige Stueckzahlen umgerechnet
+    (sonst z. B. AMZN nach dem 20:1-Split negativ), Rundungsreste verkaufter Titel (< 0,1 % der gekauften Stueck) als
+    geschlossen behandelt. Rueckgabe: (positionen, hinweise)."""
+    import pandas as pd
+    sg = {"buy": 1, "sell": -1, "deliver_in": 1, "deliver_out": -1, "transfer_in": 1, "transfer_out": -1}
+    t = tx[tx["type"].isin(sg)].copy()
+    t["key"] = t["ticker"].where(t["ticker"].astype(str) != "", t["isin"]) if "isin" in t else t["ticker"]
+    t["date"] = pd.to_datetime(t["date"])
+    issues = []
+    try:
+        import yfinance as yf
+        for k in t.loc[t["ticker"].astype(str) != "", "key"].unique():
+            sp = yf.Ticker(str(k)).splits
+            sp = sp[sp > 0]
+            for d, ratio in sp.items():
+                d = pd.Timestamp(d).tz_localize(None) if pd.Timestamp(d).tzinfo else pd.Timestamp(d)
+                m = (t["key"] == k) & (t["date"] < d)
+                t.loc[m, "shares"] = t.loc[m, "shares"].astype(float) * float(ratio)
+    except Exception as e:
+        issues.append(f"Stock splits not checked ({str(e)[:60]}) – share counts may be inaccurate")
+    t["q"] = t["type"].map(sg) * t["shares"].astype(float)
+    q = t.groupby("key")["q"].sum()
+    bought = t[t["q"] > 0].groupby("key")["q"].sum()
+    pos, neg = [], []
+    for k, v in q.items():
+        if not str(k):
+            continue
+        if v > max(1e-6, 0.001 * float(bought.get(k, 0.0))):
+            pos.append({"ticker": k, "shares": round(float(v), 4)})
+        elif v < -max(1e-6, 0.001 * float(bought.get(k, 0.0))):
+            neg.append(str(k))
+    if neg:
+        issues.append("More sold than bought (buys missing from the export?): " + ", ".join(neg[:8]))
+    return pos, issues
+
+
 def inspect_portfolio(path):
     """Erkennt Gewichte/Stueckzahlen oder Transaktions-Exporte. Rueckgabe: kind, positions, issues, Dateirollen."""
     path = Path(path)
-    head = _header(path)
-    is_simple = "ticker" in head and ("weight" in head or "shares" in head) and not ({"type", "date"} & set(head))
-    if is_simple:
-        from . import portfolio_engine as pe
-        pos = pe.load_portfolio(str(path))
+    from . import portfolio_engine as pe
+    from .transactions import SYNONYMS, _norm, _read_table
+    try:
+        header, _ = _read_table(path)
+    except Exception:
+        raise ValueError("The file is empty or not a readable CSV file.")
+    pc = pe.portfolio_columns(header)
+    hn = {_norm(c) for c in header}
+    tx_like = bool(hn & (set(SYNONYMS["date"]) | set(SYNONYMS["type"])))
+    if ("ticker" in pc or "isin" in pc) and ("weight" in pc or "shares" in pc) and not tx_like:
+        pos, issues = pe.read_portfolio(str(path))
         kind = "weights" if all("weight" in p for p in pos) else "shares"
-        return {"kind": kind, "positions": pos, "issues": [], "portfolio_file": str(path), "transaction_files": None,
+        return {"kind": kind, "positions": pos, "issues": issues, "portfolio_file": str(path), "transaction_files": None,
                 "tickers": [p["ticker"] for p in pos]}
+    if not tx_like:
+        raise ValueError("Format not recognised. Expected a file with ticker and weight or share count "
+                         "(e.g. ticker,weight) or a transaction export with date and booking type. Detected "
+                         "columns: " + ", ".join(h.strip() for h in header[:8]))
     from . import transactions as tr
     tx, issues = tr.read_all([str(path)])
     try:
@@ -69,12 +117,8 @@ def inspect_portfolio(path):
             issues = list(issues) + [f"ISIN without ticker: {', '.join(unresolved[:8])}"]
     except Exception as e:
         issues = list(issues) + [f"ticker lookup failed: {e}"]
-    sg = {"buy": 1, "sell": -1, "deliver_in": 1, "deliver_out": -1, "transfer_in": 1, "transfer_out": -1}
-    t = tx[tx["type"].isin(sg)].copy()
-    t["q"] = t["type"].map(sg) * t["shares"].astype(float)
-    key = t["ticker"].where(t["ticker"].astype(str) != "", t["isin"]) if "isin" in t else t["ticker"]
-    q = t.groupby(key)["q"].sum()
-    pos = [{"ticker": k, "shares": round(float(v), 4)} for k, v in q.items() if v > 1e-6 and str(k)]
+    pos, more = current_positions(tx)
+    issues = list(issues) + more
     return {"kind": "transactions", "positions": pos, "issues": [str(i) for i in issues], "portfolio_file": None,
             "transaction_files": [str(path)], "tickers": [p["ticker"] for p in pos], "n_bookings": int(len(tx))}
 
@@ -98,17 +142,42 @@ def make_plan(tickers, include_committee=False):
             minutes += m
             usd += u
     return {"steps": todo, "skipped": skipped, "committee_held": held, "minutes": round(minutes),
-            "usd": round(usd, 2), "tickers": list(tickers)}
+            "usd": round(usd, 2), "tickers": list(tickers), "no_prices": tickers_without_prices(tickers)}
+
+
+def tickers_without_prices(tickers):
+    """Ticker ohne Yahoo-Kurse der letzten zwei Wochen (Tippfehler, falsches Kuerzel, delistet).
+    Ein Abruf fuer alle Titel; None, wenn Yahoo nicht erreichbar ist (dann keine Warnung)."""
+    tickers = [t for t in tickers if t]
+    if not tickers:
+        return []
+    try:
+        import yfinance as yf
+        df = yf.download(tickers, period="14d", progress=False, auto_adjust=True, threads=True)
+        close = df["Close"] if "Close" in df else None
+        if close is None:
+            return None
+        if not hasattr(close, "columns"):
+            close = close.to_frame(tickers[0])
+        have = {c for c in close.columns if close[c].dropna().size}
+        if not have:
+            return None                                   # vermutlich keine Verbindung, nicht alle Ticker falsch
+        return [t for t in tickers if t not in have]
+    except Exception:
+        return None
 
 
 # =============================================================== Lauf
-def start_run(info, tickers, include_committee=False, model="anthropic/claude-haiku-5.5", max_steps=None):
-    """Startet scripts/run_app_pipeline.py als eigenen Prozess (laeuft weiter, auch wenn die Seite neu laedt)."""
+def start_run(info, tickers, include_committee=False, model="anthropic/claude-haiku-5.5", max_steps=None, steps=None,
+              label=None, extra=None):
+    """Startet scripts/run_app_pipeline.py als eigenen Prozess (laeuft weiter, auch wenn die Seite neu laedt).
+    steps: nur diese Schritte (z. B. ["annual_report", "earnings_review"] fuer eine einzelne Firma)."""
     RUNS.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     cfg = {"stamp": stamp, "tickers": list(tickers), "portfolio_file": info.get("portfolio_file"),
            "transaction_files": info.get("transaction_files"), "include_committee": include_committee,
-           "model": model, "max_steps": max_steps, "started": datetime.now().isoformat(timespec="seconds")}
+           "model": model, "max_steps": max_steps, "steps": list(steps) if steps else None, "label": label,
+           "started": datetime.now().isoformat(timespec="seconds"), **(extra or {})}
     cfg_p = RUNS / f"{stamp}.json"
     json.dump(cfg, open(cfg_p, "w", encoding="utf-8"), indent=2)
     log = open(RUNS / f"{stamp}.log", "w", encoding="utf-8")
@@ -154,6 +223,26 @@ def run_status(stamp):
     alive = done is None and _alive(cfg.get("pid"))
     return {"cfg": cfg, "done": done, "alive": alive, "steps": (run_log or {}).get("steps", []), "total": total,
             "tail": lines[-25:], "cost": (run_log or {}).get("cost_usd")}
+
+
+def stop_run(stamp):
+    """Laufenden Lauf abbrechen (Prozess samt Unterprozessen beenden); fertige Schritte bleiben erhalten."""
+    cfg = json.load(open(RUNS / f"{stamp}.json", encoding="utf-8"))
+    pid = cfg.get("pid")
+    if pid and _alive(pid):
+        if os.name == "nt":
+            subprocess.run(["taskkill", "/PID", str(pid), "/T", "/F"], capture_output=True)
+        else:
+            import signal
+            try:
+                os.kill(pid, signal.SIGTERM)
+            except OSError:
+                pass
+    done_p = RUNS / f"{stamp}_done.json"
+    if not done_p.exists():
+        json.dump({"ok": False, "finished": datetime.now().isoformat(timespec="seconds"),
+                   "error": "vom Nutzer abgebrochen", "pipeline_log": None}, open(done_p, "w", encoding="utf-8"), indent=2)
+    return True
 
 
 def _alive(pid):
@@ -246,6 +335,26 @@ def pipeline_runs(n=15):
 
 # =============================================================== Einstellungen (Schluessel bleiben lokal)
 KEY_FIELDS = ["SEC_USER_AGENT", "FINNHUB_API_KEY", "SEC_API_KEY", "FMP_API_KEY"]
+
+
+UI_FILE = AIF / "research" / "ui_settings.json"
+FONT_SCALES = {"Klein": 0.88, "Normal": 1.0, "Groß": 1.12, "Sehr groß": 1.25}
+
+
+def load_ui():
+    """Darstellung und persoenliche Angaben der App (lokal): Schriftgroesse, Interessen fuer die Lese-Auswahl."""
+    try:
+        d = json.load(open(UI_FILE, encoding="utf-8"))
+    except Exception:
+        d = {}
+    return {**d, "font": d.get("font") if d.get("font") in FONT_SCALES else "Normal", "interests": d.get("interests") or ""}
+
+
+def save_ui(**kw):
+    d = load_ui()
+    d.update({k: v for k, v in kw.items() if v is not None})
+    UI_FILE.parent.mkdir(parents=True, exist_ok=True)
+    json.dump(d, open(UI_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
 def load_settings():

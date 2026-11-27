@@ -1,0 +1,122 @@
+{
+  "ticker_symbol": "GOOG",
+  "fyear": "2025",
+  "save_dir": "../reports/GOOG_earnings_multi_claude-haiku-5.5",
+  "headline": "Google Cloud revenue more than doubled to $30.7bn at a 36% margin in Q3 FY2026, but free cash flow turned negative and Q3 EPS missed consensus by 10.5%.",
+  "summary": "Revenue growth accelerated in each of the three quarters since the FY2025 10-K, to 22%, 24% and 25% in Q1 to Q3 FY2026 [1]. Google Cloud revenue reached $30.7bn in Q3, up 103%, at a 36.2% operating margin [1]. Free cash flow did not keep pace. The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing twelve-month FCF was $19.7bn at 30 September 2026 [2][3], against $73.3bn for FY2025 [4]. Q3 EPS of $2.67 missed the consensus estimate of $2.98 by 10.5%, beyond the 5% threshold in the annual report [3][4]. Long-term debt rose to $125.1bn and the company raised $49.6bn of equity in June [1][2]. Thesis statuses follow the annual report numbering: Cloud margin (T1) is intact, free cash flow (T2) is broken, valuation (T3) is intact, and estimate delivery (T4) is weakened. Consensus and balance-sheet data post-date the 10-K.",
+  "results_commentary": "Revenue accelerated through the three quarters, while free cash flow and reported earnings weakened. Consolidated revenue grew 22% in Q1 FY2026, 24% in Q2 and 25% in Q3 [1]. Google Cloud revenue grew 63%, 82% and 103%, to $20.0bn, $24.8bn and $30.7bn [1]. Cloud operating income rose from $2.2bn in Q1 to $11.1bn in Q3 [1]. The Cloud operating margin was 32.9%, 35.6% and 36.2%, against 17.8%, 20.7% and 23.7% a year earlier (our calculation from segment data [1]). Cloud was 27% of Q3 operating income, against 12% a year earlier [1].\n\nGoogle Services slowed as it grew. Google Search & other revenue grew 19% in Q1, 17% in Q2 and 12% in Q3, to $63.4bn [1]. YouTube ads grew 11%, 13% and 9% [1]. Management said Q3 year-over-year query growth was the highest in five years [1]. The releases do not give a reason for the Search slowdown, so this update does not assign one.\n\nCash generation is the main weakness. Capex more than doubled in Q1 to $35.7bn from $17.2bn [1]. Q1 free cash flow was $10.1bn (operating cash flow of $45.8bn less capex, our calculation), against $19.0bn a year earlier. The FCF margin was -4.9% in Q2 and -7.1% in Q3, against +23.9% in Q3 FY2025 [3]. Trailing FCF fell to $19.7bn [2][3]. Funding came from debt and equity: long-term debt reached $125.1bn at Q3, from $46.5bn at year-end [1]. Notes raised $31.1bn, $20.3bn and $28.7bn across the three quarters, and the June equity issue netted $49.6bn [1]. Total debt was $141.9bn at Q3 [3].\n\nReported EPS fell as the top line grew. Q3 diluted EPS was $2.12, against $2.87, because other income swung from +$12.8bn to -$8.2bn, although operating income rose 30% to $40.6bn [1]. Against consensus, Q1 beat by 5.0% ($2.76 vs $2.63), Q2 missed by 2.1% ($2.85 vs $2.91) and Q3 missed by 10.5% ($2.67 vs $2.98) [3]. The Q3 comparison uses Yahoo's EPS basis, which differs from reported diluted EPS. The releases do not reconcile the consensus gap. R&D rose 36% to $20.6bn and Alphabet-level AI costs rose to $7.7bn from $4.5bn [1]. These are the fastest-growing cost lines, but the releases do not say whether they caused the miss.",
+  "thesis_check": [
+    {
+      "thesis": "T1: Google Cloud margin expansion persists as revenue scales, making Cloud the main profit driver. (Log label: Q1 to Q3 group margin path, Cloud signpost.)",
+      "signpost": "Google Cloud operating margin above 20% in each 2026 quarter and Cloud growth above 30% in the Q4 2026 report; invalidation below 15% in any 2026 quarter.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Cloud operating margin was 32.9%, 35.6% and 36.2% in Q1 to Q3 FY2026, above the 20% signpost, and Cloud revenue grew 63%, 82% and 103% [1][2]. Group operating margin was 31.8% in Q3, below the 32% level in the earlier log, so the group-level version of the thesis is weaker than the Cloud-level one [1][4]."
+    },
+    {
+      "thesis": "T2: Free cash flow stays under pressure through 2026 as capex rises, so funding rather than earnings limits the stock.",
+      "signpost": "Trailing twelve-month FCF in the FY2026 10-K below $50bn; FY2026 FCF at or above $73.3bn in the Q4 2026 results per the earlier log. Invalidation if trailing FCF exceeds $60bn with capex growth slowing.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "broken"
+      },
+      "current_status": "broken",
+      "evidence": "Q1 capex was $35.7bn, against $17.2bn a year earlier [1]. The FCF margin was -4.9% in Q2 and -7.1% in Q3, and trailing FCF was $19.7bn at Q3 [2][3]. Reaching the $73.3bn FY2025 level in FY2026 would need a strong Q4 from a negative nine-month run, so the earlier log status of broken stands. Funding came from $49.6bn of equity and $80bn of notes [1][2]."
+    },
+    {
+      "thesis": "T3: The current valuation requires growth above Alphabet's own history for a decade.",
+      "signpost": "FY2026 revenue growth of at least 24%, in line with consensus, reported in the FY2026 10-K; invalidation if FY2026 growth is below 18% or FY2027 consensus revenue is cut by more than 5% during 2026.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Revenue growth was 22%, 24% and 25% in Q1 to Q3 FY2026, and nine-month growth is 23.6% (our calculation from [1]). Consensus FY2026 growth is 24.0% [3]. The reverse DCF implies 20.9% ten-year growth against 12.5% historical, and the implied return of 9.0% is below the 11.0% WACC (illustrative) [3]. The signpost is on track, but the valuation has not changed."
+    },
+    {
+      "thesis": "T4: Near-term estimates hold up, but delivery risk is real.",
+      "signpost": "Quarterly EPS at or above consensus in the Q4 2026 report; invalidation if another 2026 quarter misses by more than 5% or FY2026 EPS consensus falls below $12.00.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Q1 beat by 5.0%, Q2 missed by 2.1% and Q3 missed by 10.5% [3]. The Q3 miss is beyond the 5% threshold. FY2026 EPS consensus is $13.09, up 11.9% over 90 days, but two analysts cut estimates and none raised them in the last 30 days [3]. The consensus level is above the $12.00 invalidation level [3]."
+    }
+  ],
+  "risk_update": "Several risks in the annual report materialised. Capital intensity rose: long-term debt was $125.1bn at Q3 against $46.5bn at year-end, and net PP&E rose to $372.8bn from $246.6bn [1][2]. Dilution is new: shares outstanding rose 1.8% year over year to 12,294 million [3], and a $40.0bn at-the-market programme was authorised, with $27.6bn unused at Q3 [1]. The 10-Q risk factors add contingent repurchase obligations for hardware sold below cost, backstops for third-party data centres and power infrastructure, and AI agent failure risks [2]. TPU system sales are a new revenue source, recognised from Q2 FY2026 with most revenue expected in 2027 [2]. The Cloud margin risk eased, as the margin stayed above 32% in each quarter. The regulatory risks (Search and ad-tech remedies) are not updated in the 10-Q extracts available to this review, so this update does not assess them.",
+  "outlook": "Consensus for FY2026 is revenue of $499.6bn, up 24.0%, and EPS of $13.09; FY2027 EPS is $15.29 [3]. These figures are dated 25 November 2026, after the 10-K. FY2026 EPS consensus rose 11.9% over 90 days, but the last 30 days show two cuts and no raises [3]. Forward P/E is 21.1x and EV/sales 6.6x [3]. Consensus implies Q4 FY2026 revenue of about $142bn, up about 25% on Q4 FY2025 (illustrative) [3][4]. We will watch three things: whether Q4 EPS meets consensus, whether FCF turns positive, and whether the trailing FCF figure moves toward the $50bn signpost in the FY2026 10-K. We would view the Cloud thesis as wrong if the Cloud margin fell below 20% in Q4.",
+  "company_kpis": [
+    {
+      "name": "Google Cloud revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 20028,
+        "Q2 FY2026": 24768,
+        "Q3 FY2026": 30709
+      },
+      "prior_values": {
+        "Q1 FY2026": 12260,
+        "Q2 FY2026": 13624,
+        "Q3 FY2026": 15157
+      },
+      "source": "[1] earnings releases, Q1 to Q3 FY2026 vs same quarter of FY2025"
+    },
+    {
+      "name": "Google Cloud operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 32.9,
+        "Q2 FY2026": 35.6,
+        "Q3 FY2026": 36.2
+      },
+      "prior_values": {
+        "Q1 FY2026": 17.8,
+        "Q2 FY2026": 20.7,
+        "Q3 FY2026": 23.7
+      },
+      "source": "[1] segment operating income divided by segment revenue (our calculation)"
+    },
+    {
+      "name": "Google Search & other revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 60399,
+        "Q2 FY2026": 63271,
+        "Q3 FY2026": 63350
+      },
+      "prior_values": {
+        "Q1 FY2026": 50702,
+        "Q2 FY2026": 54190,
+        "Q3 FY2026": 56567
+      },
+      "source": "[1] earnings releases, supplemental revenue table"
+    },
+    {
+      "name": "Diluted EPS (reported)",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 5.11,
+        "Q2 FY2026": 9.11,
+        "Q3 FY2026": 2.12
+      },
+      "prior_values": {
+        "Q1 FY2026": 2.81,
+        "Q2 FY2026": 2.31,
+        "Q3 FY2026": 2.87
+      },
+      "source": "[1] earnings releases; Q1 and Q2 include large equity-security gains in other income"
+    }
+  ]
+}

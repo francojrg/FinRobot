@@ -1,0 +1,318 @@
+Company names (use exactly these names): ADSK = Autodesk, Inc.; BSY = Bentley Systems, Incorporated; PTC = PTC Inc.; PCOR = Procore Technologies, Inc.
+
+
+Revenue:
+ADSK: 2023    5005
+2024    5497
+2025    6131
+2026    7206
+Name: Revenue, dtype: object
+BSY: 2022    1099
+2023    1228
+2024    1353
+2025    1502
+Name: Revenue, dtype: object
+PTC: 2023    2097
+2024    2298
+2025    2739
+2026    2733
+Name: Revenue, dtype: object
+PCOR: 2022     720
+2023     950
+2024    1152
+2025    1323
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+ADSK: 2023      n/a
+2024     9.8%
+2025    11.5%
+2026    17.5%
+Name: Revenue Growth, dtype: object
+BSY: 2022      n/a
+2023    11.8%
+2024    10.1%
+2025    11.0%
+Name: Revenue Growth, dtype: object
+PTC: 2023      n/a
+2024     9.6%
+2025    19.2%
+2026    -0.2%
+Name: Revenue Growth, dtype: object
+PCOR: 2022      n/a
+2023    31.9%
+2024    21.2%
+2025    14.8%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+ADSK: 2023    4525
+2024    4986
+2025    5553
+2026    6556
+Name: Gross Profit, dtype: object
+BSY: 2022     862
+2023     962
+2024    1095
+2025    1224
+Name: Gross Profit, dtype: object
+PTC: 2023    1656
+2024    1854
+2025    2294
+2026    2277
+Name: Gross Profit, dtype: object
+PCOR: 2022     572
+2023     776
+2024     946
+2025    1052
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+ADSK: 2023    90.4%
+2024    90.7%
+2025    90.6%
+2026    91.0%
+Name: Gross Margin, dtype: object
+BSY: 2022    78.4%
+2023    78.3%
+2024    80.9%
+2025    81.5%
+Name: Gross Margin, dtype: object
+PTC: 2023    79.0%
+2024    80.6%
+2025    83.8%
+2026    83.3%
+Name: Gross Margin, dtype: object
+PCOR: 2022    79.4%
+2023    81.6%
+2024    82.1%
+2025    79.5%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+ADSK: 2023    1167
+2024    1267
+2025    1549
+2026    1989
+Name: EBITDA, dtype: object
+BSY: 2022    305
+2023    297
+2024    382
+2025    432
+Name: EBITDA, dtype: object
+PTC: 2023     599
+2024     730
+2025    1133
+2026    1500
+Name: EBITDA, dtype: object
+PCOR: 2022    -221
+2023    -115
+2024     -13
+2025      18
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+ADSK: 2023    23.3%
+2024    23.0%
+2025    25.3%
+2026    27.6%
+Name: EBITDA Margin, dtype: object
+BSY: 2022    27.7%
+2023    24.2%
+2024    28.3%
+2025    28.8%
+Name: EBITDA Margin, dtype: object
+PTC: 2023    28.6%
+2024    31.8%
+2025    41.3%
+2026    54.9%
+Name: EBITDA Margin, dtype: object
+PCOR: 2022    -30.7%
+2023    -12.1%
+2024     -1.1%
+2025      1.3%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+ADSK: 2023    2025
+2024    1252
+2025    1505
+2026    2376
+Name: FCF, dtype: object
+BSY: 2022    256
+2023    392
+2024    421
+2025    520
+Name: FCF, dtype: object
+PTC: 2023    587
+2024    736
+2025    857
+2026    873
+Name: FCF, dtype: object
+PCOR: 2022    -37
+2023     47
+2024    128
+2025    217
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+ADSK: 2023    2.46
+2024    1.38
+2025    1.35
+2026    2.11
+Name: FCF Conversion, dtype: object
+BSY: 2022    1.46
+2023     1.2
+2024    1.79
+2025    1.87
+Name: FCF Conversion, dtype: object
+PTC: 2023    2.39
+2024    1.95
+2025    1.17
+2026    0.84
+Name: FCF Conversion, dtype: object
+PCOR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+ADSK: 2023    25.8%
+2024    21.7%
+2025    22.4%
+2026    22.7%
+Name: ROIC, dtype: object
+BSY: 2022     8.9%
+2023     6.9%
+2024    10.5%
+2025    11.9%
+Name: ROIC, dtype: object
+PTC: 2023     7.8%
+2024     9.5%
+2025    15.9%
+2026    21.8%
+Name: ROIC, dtype: object
+PCOR: 2022    -18.9%
+2023    -12.0%
+2024     -5.9%
+2025     -5.5%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+ADSK: 2023    40.26
+2024    43.43
+2025    43.63
+2026     27.2
+Name: EV/EBITDA, dtype: object
+BSY: 2022    40.78
+2023    57.16
+2024    40.44
+2025     29.4
+Name: EV/EBITDA, dtype: object
+PTC: 2023    30.78
+2024    32.02
+2025    22.47
+2026     11.2
+Name: EV/EBITDA, dtype: object
+PCOR: 2022       n/m
+2023       n/m
+2024       n/m
+2025    598.77
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+ADSK: 2023     9.39
+2024    10.01
+2025    11.02
+2026     7.51
+Name: EV/Sales, dtype: object
+BSY: 2022    11.31
+2023    13.81
+2024    11.43
+2025     8.46
+Name: EV/Sales, dtype: object
+PTC: 2023     8.79
+2024    10.17
+2025     9.29
+2026     6.15
+Name: EV/Sales, dtype: object
+PCOR: 2022     8.82
+2023    10.26
+2024     9.43
+2025     8.04
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+ADSK: 2023    56.92
+2024    60.58
+2025    60.81
+2026    48.35
+Name: PE Ratio, dtype: object
+BSY: 2022     67.2
+2023    52.18
+2024    64.86
+2025     44.9
+Name: PE Ratio, dtype: object
+PTC: 2023    68.78
+2024     57.9
+2025    33.39
+2026    15.71
+Name: PE Ratio, dtype: object
+PCOR: 2022    n/m
+2023    n/m
+2024    n/m
+2025    n/m
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+ADSK: 2023     40.4
+2024    29.27
+2025    25.42
+2026    17.61
+Name: PB Ratio, dtype: object
+BSY: 2022    18.65
+2023     17.5
+2024    13.55
+2025      9.7
+Name: PB Ratio, dtype: object
+PTC: 2023    6.29
+2024    6.75
+2025    6.34
+2026    4.47
+Name: PB Ratio, dtype: object
+PCOR: 2022    5.88
+2023    8.67
+2024    8.72
+2025    8.74
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for ADSK and ['BSY', 'PTC', 'PCOR'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

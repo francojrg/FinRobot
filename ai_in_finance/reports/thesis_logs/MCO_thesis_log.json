@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2026-11-25",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/MCO_earnings_multi_claude-haiku-5.5\\MCO_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Operating leverage keeps margins expanding, because operating and SG&A cost growth stays well below revenue growth.",
+        "signpost": "FY2026 operating margin above 43.4% in the FY2026 10-K (filed about February 2027). Invalidation: below 40.6%, or restructuring rising again without a matching margin gain.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T2: The share price assumes growth well above consensus, so at consensus growth the implied return falls short of the cost of capital.",
+        "signpost": "FY2026 revenue growth of at least 9% in the FY2026 10-K (about February 2027). Invalidation: FY2026 revenue growth of 12% or more.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.",
+        "signpost": "FY2026 total debt below $7.35 billion, with buybacks plus dividends at or below free cash flow, in the FY2026 10-K. Invalidation: total debt above $7.35 billion, or payouts above free cash flow for a second consecutive year.",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T4: Debt-issuance cyclicality will show up in MIS earnings within a year, so the stock is exposed to a weaker issuance cycle.",
+        "signpost": "Corporate Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the FY2026 10-K. Invalidation: CFG revenue growth at or above 9% in FY2026 even if debt issuance is flat. CFG is not reported separately in the 10-Q excerpts, so MIS external revenue is used as the proxy.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/MCO_earnings_multi_claude-haiku-5.5\\MCO_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: Operating leverage keeps margins expanding, because operating and SG&A cost growth stays well below revenue growth.",
+        "signpost": "FY2026 operating margin above 43.4% in the FY2026 10-K (filed about February 2027). Invalidation: below 40.6%, or restructuring rising again without a matching margin gain.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T2: The share price assumes growth well above consensus, so at consensus growth the implied return falls short of the cost of capital.",
+        "signpost": "FY2026 revenue growth of at least 9%, matching the FY2025 pace, reported in the FY2026 10-K (about February 2027). Invalidation: FY2026 revenue growth of 12% or more.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.",
+        "signpost": "FY2026 total debt below $7.35 billion, with buybacks plus dividends at or below free cash flow, in the FY2026 10-K. Invalidation: total debt rising above $7.35 billion, or payouts exceeding free cash flow for a second consecutive year.",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T4: Debt-issuance cyclicality will show up in MIS earnings within a year, so the stock is exposed to a weaker issuance cycle.",
+        "signpost": "Corporate Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the FY2026 10-K. Invalidation: CFG revenue growth at or above 9% in FY2026 even if debt issuance is flat. CFG is not reported separately in the 10-Qs, so MIS external revenue is the proxy.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "strengthened"
+        },
+        "current_status": "strengthened"
+      }
+    ]
+  }
+]

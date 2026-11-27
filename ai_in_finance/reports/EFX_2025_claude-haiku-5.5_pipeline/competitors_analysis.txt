@@ -1,0 +1,318 @@
+Company names (use exactly these names): EFX = Equifax Inc.; TRU = TransUnion; PAYX = Paychex, Inc.; VRSK = Verisk Analytics, Inc.
+
+
+Revenue:
+EFX: 2022    5122
+2023    5265
+2024    5681
+2025    6074
+Name: Revenue, dtype: object
+TRU: 2022    3710
+2023    3831
+2024    4184
+2025    4576
+Name: Revenue, dtype: object
+PAYX: 2023    5007
+2024    5278
+2025    5572
+2026    6512
+Name: Revenue, dtype: object
+VRSK: 2022    2497
+2023    2681
+2024    2882
+2025    3073
+Name: Revenue, dtype: object
+
+
+Revenue Growth:
+EFX: 2022     n/a
+2023    2.8%
+2024    7.9%
+2025    6.9%
+Name: Revenue Growth, dtype: object
+TRU: 2022     n/a
+2023    3.3%
+2024    9.2%
+2025    9.4%
+Name: Revenue Growth, dtype: object
+PAYX: 2023      n/a
+2024     5.4%
+2025     5.6%
+2026    16.9%
+Name: Revenue Growth, dtype: object
+VRSK: 2022     n/a
+2023    7.4%
+2024    7.5%
+2025    6.6%
+Name: Revenue Growth, dtype: object
+
+
+Gross Profit:
+EFX: 2022    2945
+2023    2930
+2024    3162
+2025    3429
+Name: Gross Profit, dtype: object
+TRU: 2022    2325
+2023    2314
+2024    2510
+2025    2704
+Name: Gross Profit, dtype: object
+PAYX: 2023    3554
+2024    3799
+2025    4031
+2026    4838
+Name: Gross Profit, dtype: object
+VRSK: 2022    1672
+2023    1805
+2024    1981
+2025    2147
+Name: Gross Profit, dtype: object
+
+
+Gross Margin:
+EFX: 2022    57.5%
+2023    55.7%
+2024    55.7%
+2025    56.4%
+Name: Gross Margin, dtype: object
+TRU: 2022    62.7%
+2023    60.4%
+2024    60.0%
+2025    59.1%
+Name: Gross Margin, dtype: object
+PAYX: 2023    71.0%
+2024    72.0%
+2025    72.4%
+2026    74.3%
+Name: Gross Margin, dtype: object
+VRSK: 2022    67.0%
+2023    67.3%
+2024    68.7%
+2025    69.9%
+Name: Gross Margin, dtype: object
+
+
+EBITDA:
+EFX: 2022    1681
+2023    1579
+2024    1720
+2025    1834
+Name: EBITDA, dtype: object
+TRU: 2022    1133
+2023     667
+2024    1204
+2025    1454
+Name: EBITDA, dtype: object
+PAYX: 2023    2262
+2024    2432
+2025    2491
+2026    3023
+Name: EBITDA, dtype: object
+VRSK: 2022    1741
+2023    1424
+2024    1659
+2025    1669
+Name: EBITDA, dtype: object
+
+
+EBITDA Margin:
+EFX: 2022    32.8%
+2023    30.0%
+2024    30.3%
+2025    30.2%
+Name: EBITDA Margin, dtype: object
+TRU: 2022    30.5%
+2023    17.4%
+2024    28.8%
+2025    31.8%
+Name: EBITDA Margin, dtype: object
+PAYX: 2023    45.2%
+2024    46.1%
+2025    44.7%
+2026    46.4%
+Name: EBITDA Margin, dtype: object
+VRSK: 2022    69.7%
+2023    53.1%
+2024    57.6%
+2025    54.3%
+Name: EBITDA Margin, dtype: object
+
+
+FCF:
+EFX: 2022     133
+2023     516
+2024     813
+2025    1134
+Name: FCF, dtype: object
+TRU: 2022     -1
+2023    335
+2024    517
+2025    662
+Name: FCF, dtype: object
+PAYX: 2023    1563
+2024    1736
+2025    1709
+2026    2322
+Name: FCF, dtype: object
+VRSK: 2022     784
+2023     831
+2024     920
+2025    1192
+Name: FCF, dtype: object
+
+
+FCF Conversion:
+EFX: 2022    0.19
+2023    0.95
+2024    1.35
+2025    1.72
+Name: FCF Conversion, dtype: object
+TRU: 2022    -0.0
+2023     n/m
+2024    1.82
+2025    1.45
+Name: FCF Conversion, dtype: object
+PAYX: 2023     1.0
+2024    1.03
+2025    1.03
+2026    1.32
+Name: FCF Conversion, dtype: object
+VRSK: 2022    0.82
+2023    1.35
+2024    0.96
+2025    1.31
+Name: FCF Conversion, dtype: object
+
+
+ROIC:
+EFX: 2022    8.6%
+2023    7.2%
+2024    7.9%
+2025    8.5%
+Name: ROIC, dtype: object
+TRU: 2022    4.3%
+2023    1.1%
+2024    5.4%
+2025    6.7%
+Name: ROIC, dtype: object
+PAYX: 2023    36.8%
+2024    37.2%
+2025    19.1%
+2026    23.7%
+Name: ROIC, dtype: object
+VRSK: 2022    21.1%
+2023    27.2%
+2024    33.6%
+2025    20.7%
+Name: ROIC, dtype: object
+
+
+EV/EBITDA:
+EFX: 2022    17.43
+2023    22.79
+2024    21.18
+2025    16.92
+Name: EV/EBITDA, dtype: object
+TRU: 2022    14.26
+2023    27.41
+2024    18.77
+2025    14.31
+Name: EV/EBITDA, dtype: object
+PAYX: 2023    16.57
+2024    17.55
+2025    24.22
+2026    12.57
+Name: EV/EBITDA, dtype: object
+VRSK: 2022    17.88
+2023     26.0
+2024    25.09
+2025    20.18
+Name: EV/EBITDA, dtype: object
+
+
+EV/Sales:
+EFX: 2022    5.72
+2023    6.83
+2024    6.41
+2025    5.11
+Name: EV/Sales, dtype: object
+TRU: 2022    4.35
+2023    4.77
+2024     5.4
+2025    4.55
+Name: EV/Sales, dtype: object
+PAYX: 2023     7.48
+2024     8.08
+2025    10.83
+2026     5.84
+Name: EV/Sales, dtype: object
+VRSK: 2022    12.47
+2023    13.81
+2024    14.45
+2025    10.96
+Name: EV/Sales, dtype: object
+
+
+PE Ratio:
+EFX: 2022     34.4
+2023     56.2
+2024    52.65
+2025    40.79
+Name: PE Ratio, dtype: object
+TRU: 2022    40.54
+2023      n/m
+2024    63.94
+2025    36.96
+Name: PE Ratio, dtype: object
+PAYX: 2023     24.4
+2024    25.73
+2025    34.48
+2026    19.83
+Name: PE Ratio, dtype: object
+VRSK: 2022     29.4
+2023    57.28
+2024    41.05
+2025    34.52
+Name: PE Ratio, dtype: object
+
+
+PB Ratio:
+EFX: 2022    6.02
+2023    6.72
+2024    6.59
+2025    5.67
+Name: PB Ratio, dtype: object
+TRU: 2022    2.62
+2023    3.32
+2024    4.28
+2025    3.72
+Name: PB Ratio, dtype: object
+PAYX: 2023    10.83
+2024    11.38
+2025    13.79
+2026     9.23
+Name: PB Ratio, dtype: object
+VRSK: 2022      15.6
+2023    110.42
+2024    386.36
+2025    100.19
+Name: PB Ratio, dtype: object
+
+
+Resource: Financial metrics for EFX and ['TRU', 'PAYX', 'VRSK'].
+
+Instruction: 
+Analyze the financial metrics for {company}/ticker_symbol and its competitors: {competitors} across multiple fiscal years (the year labels in the data are the fiscal years; note that fiscal year ends can differ between companies). Focus on the following metrics: EBITDA Margin, EV/EBITDA, FCF Conversion, Gross Margin, ROIC, Revenue, and Revenue Growth. 
+For each year: Year-over-Year Trends: Identify and discuss the trends for each metric from the earliest to the latest fiscal year for {company}, using the fiscal year labels exactly as given in the data. Highlight any significant improvements, declines, or stability in these metrics over time.
+Competitor Comparison: For each year, compare {company} against its {competitors} for each metric. Evaluate how {company} performs relative to its {competitors}, noting where it outperforms or lags behind.
+Metric-Specific Insights:
+
+EBITDA Margin: Discuss the profitability of {company} compared to its {competitors}, particularly in the most recent year.
+EV/EBITDA: Provide insights on the valuation and whether {company} is over or undervalued compared to its {competitors} in each year.
+FCF Conversion: Evaluate the cash flow efficiency of {company} relative to its {competitors} over time.
+Gross Margin: Analyze the cost efficiency and profitability in each year.
+ROIC: Discuss the return on invested capital and what it suggests about the company's efficiency in generating returns from its investments, especially focusing on recent trends.
+Revenue and Revenue Growth: Provide a comprehensive view of {company}’s revenue performance and growth trajectory, noting any significant changes or patterns.
+Conclusion: Summarize the overall financial health of {company} based on these metrics. Discuss how {company}’s performance over these years and across these metrics might justify or contradict its current market valuation (as reflected in the EV/EBITDA ratio).
+Avoid using any bullet points.

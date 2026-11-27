@@ -1,0 +1,4332 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 154,
+  "context_match_rate": 0.798,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...stock already prices in a sharp growth fade: the reverse DCF needs 26% ten-year growth while EPS estimates keep rising...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "26.2%",
+        "snippet": "- The current enterprise value of $3,686,007.3 million implies revenue growth of 26.2% per year for 10 years (FY2026 revenue $215,938.0 million -> about $2,218,691.4 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "114%",
+      "value": 114.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and free cash flow reached $96.7 billion  . Growth slowed from 114% in FY2025 and gross margin fell 3.9 points to...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 114.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57%",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...position is judged from these indicators.\\n\\nGraphics revenue rose 57% to $22.5 billion, with Professional...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "57 %",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the United States: customers headquartered outside the U.S. fell to 31% of fiscal 2026 revenue from 41%, and two direct...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31%",
+        "snippet": "...assembled, tested and packaged by third parties located outside of the United States, and we generated 31% of our revenue in fiscal year 2026 from sales outside the United States. The market in China, where our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71.3%",
+      "value": 71.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 57% to $130.1 billion, but its margin fell to 67.3% from 71.3% because of the H20 charge. Graphics operating...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "71.4%",
+        "snippet": "- FY2028E: revenue $726,015.7 million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 8.7x; EV/Sales 5.1x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "4.4x",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of $22.3 billion, and the current ratio fell to 3.9x from 4.4x  . Analysts' consensus of forward-looking EPS,...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC Diluted EPS 2024-12-31: -4 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-0.5%",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 114% compares with 34.3% for AMD, 23.9% for Broadcom and -0.5% for Intel  . Its return on invested capital of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC Revenue Growth 2025: -0.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "83.3%",
+      "value": 83.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Broadcom and -0.5% for Intel  . Its return on invested capital of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "ROIC 2025: 83.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.2%",
+      "value": 13.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Its return on invested capital of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13.3%",
+        "snippet": "...and 2025, respectively. Income tax as a percentage of income before income tax was an expense of 15.1% and 13.3% for fiscal years 2026 and 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.8%",
+      "value": 4.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on invested capital of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow of $60.9...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "4.8%",
+        "snippet": "...the free cash flow margin moves from 44.8% to 44.8% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.2%",
+      "value": 1.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow of $60.9 billion is about...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC ROIC 2025: 1.2%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.0x",
+      "value": 0.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...center networking  . Marvell has a similar model but is roughly 0.0x NVIDIA's size, so it was not used. On size, the...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Tax Effect Of Unusual Items 2026-01-31: 0 USD"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.1x",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...AMD, $89.1 billion for Broadcom and $59.9 billion for Intel, each 0.1x to 0.2x NVIDIA's revenue in that screen  .\\n\\nOn...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.1)",
+        "snippet": "...2.7 Total operating expenses 10.7 12.6 Operating income 60.4 62.4 Interest income 1.1 1.4 Interest expense (0.1) (0.2) Other income, net"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.2x",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion for Broadcom and $59.9 billion for Intel, each 0.1x to 0.2x NVIDIA's revenue in that screen  .\\n\\nOn FY2025...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.2)",
+        "snippet": "...operating expenses 10.7 12.6 Operating income 60.4 62.4 Interest income 1.1 1.4 Interest expense (0.1) (0.2) Other income, net"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "15.1x",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...FY2025, below AMD's 47.8x and Broadcom's 51.9x, and above Intel's 15.1x; it fell to 32.1x in FY2026  . On consensus,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC EV/EBITDA 2025: 15.09"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.3",
+      "value": 2.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...4.8% and Intel's 1.2%, and free cash flow of $60.9 billion is about 2.3 times Broadcom's $26.9 billion and about nine...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,300",
+        "snippet": "Year Ended Jan 25, 2026 Jan 26, 2025 $ Change ($ in millions) Interest income $ 2,300 $ 1,786 $ 514 Interest expense (259) (247) (12)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is $423.7 billion, up 96%  . Data Center revenue growth above 50% year over year in each FY2027 quarter reported,...",
+      "section": "Investment Thesis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "AMD Gross Margin 2025: 49.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...starting in the second half of FY2027  . Data Center growth below 25% year over year in any FY2027 quarter, or FY2027...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25%",
+        "snippet": "...shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year over year in any FY2027 quarter, or FY2027 revenue more than 10% below the $423.7 billion consensus  . Gross...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "...of our revenue from a limited number of indirect customers, and we estimate some individually representing 10% or more of our revenue. If end demand increases or our finished goods supply availability is concentrated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...above 72% by the end of FY2027 (January 2027)  . Gross margin below 70% in any FY2027 quarter, or new inventory...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "70%",
+        "snippet": "Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our new DGX Spark."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...90 days earlier, or the reverse DCF growth requirement rises above 30%  . Free cash flow and net cash can absorb the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "30%",
+        "snippet": "...and bylaws. Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock...."
+      }
+    }
+  ],
+  "total_claims": 193,
+  "matched": 175,
+  "match_rate": 0.907,
+  "by_kind": {
+    "money": {
+      "total": 77,
+      "matched": 73,
+      "context_matched": 73
+    },
+    "pct": {
+      "total": 87,
+      "matched": 73,
+      "context_matched": 58
+    },
+    "plain": {
+      "total": 15,
+      "matched": 15,
+      "context_matched": 14
+    },
+    "multiple": {
+      "total": 14,
+      "matched": 14,
+      "context_matched": 9
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 101,
+    "[2] Yahoo Finance": 29,
+    "[2][3] Liquidity and consensus": 27,
+    "[4] Peer data": 18
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risks are China export restrictions, a $4.5 billion H20 charge and 36% of revenue from two direct customers  . Net cash...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "90%",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Compute & Networking, which contributed $193.5 billion, or about 90% of revenue, and Graphics, which contributed...",
+      "section": "Business Overview",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$151.4 billion",
+      "value": 151.4,
+      "unit": "billion",
+      "money_mn": 151400.0,
+      "decimals": 1,
+      "context": "...$63.9 billion for Broadcom and $52.9 billion for Intel, combined $151.4 billion. NVIDIA's $130.5 billion FY2025 revenue is about...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and two direct customers accounted for 22% and 14% of revenue, or 36% combined (22% + 14%), mostly in Compute &...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "86%",
+      "value": 86.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$151.4 billion. NVIDIA's $130.5 billion FY2025 revenue is about 86% of that combined figure  . Analyst consensus,...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$17.4 billion",
+      "value": 17.4,
+      "unit": "billion",
+      "money_mn": 17400.0,
+      "decimals": 1,
+      "context": "...$96.7 billion against $60.9 billion  . Operating cash flow was $17.4 billion below net income because receivables absorbed...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "60.4%",
+      "value": 60.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion, slower than revenue, so operating margin eased only to 60.4% from 62.4%  .\\n\\nNet income grew 65% to $120.1...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "62.4%",
+      "value": 62.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...slower than revenue, so operating margin eased only to 60.4% from 62.4%  .\\n\\nNet income grew 65% to $120.1 billion and...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "67.3%",
+      "value": 67.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating income rose 57% to $130.1 billion, but its margin fell to 67.3% from 71.3% because of the H20 charge. Graphics...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "40.8%",
+      "value": 40.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating income rose 80% to $9.2 billion and its margin rose to 40.8% from 35.6%  .\\n\\nCash generation remained...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.6%",
+      "value": 35.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 80% to $9.2 billion and its margin rose to 40.8% from 35.6%  .\\n\\nCash generation remained strong. Operating...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15.4 billion and inventory $11.3 billion  . Total assets rose 85% to $206.8 billion, with receivables of $38.5...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and counterparty exposure. Two direct customers provided 36% of revenue, and most sales are on purchase...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$45.4 billion",
+      "value": 45.4,
+      "unit": "billion",
+      "money_mn": 45400.0,
+      "decimals": 1,
+      "context": "...size, so it was not used. On size, the peer screen shows revenue of $45.4 billion for AMD, $89.1 billion for Broadcom and $59.9...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$89.1 billion",
+      "value": 89.1,
+      "unit": "billion",
+      "money_mn": 89100.0,
+      "decimals": 1,
+      "context": "...On size, the peer screen shows revenue of $45.4 billion for AMD, $89.1 billion for Broadcom and $59.9 billion for Intel, each...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below the $423.7 billion consensus  . Gross margin recovers above 72% as Blackwell yields mature and the H20 charge...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2025 gross margin was 67.8%  . Quarterly gross margin back above 72% by the end of FY2027 (January 2027)  . Gross...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cash of $51.5 billion at year-end  ; two direct customers provide 36% of revenue and China is effectively closed  ....",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$38.4 billion",
+      "value": 38.4,
+      "unit": "billion",
+      "money_mn": 38400.0,
+      "decimals": 1,
+      "context": "...buybacks and a shrinking share count, but latest-quarter debt of $38.4 billion makes net cash a watch item  .",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Receivables 2026-01-31: 38,466,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2027 as Blackwell and networking ramp; Data Center revenue rose 68%  . Gross margin must recover from 71.1% to...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data",
+          "revenue"
+        ],
+        "hl": "68%",
+        "snippet": "Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71.1%",
+      "value": 71.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Data Center revenue rose 68%  . Gross margin must recover from 71.1% to justify the premium, because the 3.9-point...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "71.1 %",
+        "snippet": "...Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26%",
+      "value": 26.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...stock already prices in a sharp growth fade: the reverse DCF needs 26% ten-year growth while EPS estimates keep rising...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "26.2%",
+        "snippet": "- The current enterprise value of $3,686,007.3 million implies revenue growth of 26.2% per year for 10 years (FY2026 revenue $215,938.0 million -> about $2,218,691.4 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.9",
+      "value": 3.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin must recover from 71.1% to justify the premium, because the 3.9-point drop is the key test of pricing power  ....",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "3.9",
+        "snippet": "...Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$215.9 billion",
+      "value": 215.9,
+      "unit": "billion",
+      "money_mn": 215900.0,
+      "decimals": 1,
+      "context": "NVIDIA's FY2026      shows strong momentum: revenue rose 65% to $215.9 billion and free cash flow reached $96.7 billion  ....",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "215.9 billion",
+        "snippet": "Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$96.7 billion",
+      "value": 96.7,
+      "unit": "billion",
+      "money_mn": 96700.0,
+      "decimals": 1,
+      "context": "...revenue rose 65% to $215.9 billion and free cash flow reached $96.7 billion  . Growth slowed from 114% in FY2025 and gross...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 96,676,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$423.7 billion",
+      "value": 423.7,
+      "unit": "billion",
+      "money_mn": 423700.0,
+      "decimals": 1,
+      "context": "...71.1%  . Consensus, dated after the     , expects FY2027 revenue of $423.7 billion (+96%) and EPS of $9.67, with EPS estimates up...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "423665"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.67",
+      "value": 9.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "..., expects FY2027 revenue of $423.7 billion (+96%) and EPS of $9.67, with EPS estimates up about 7% over 90 days  ....",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.67",
+        "snippet": "...$423,664.7 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.69 trillion",
+      "value": 3.69,
+      "unit": "trillion",
+      "money_mn": 3690000.0,
+      "decimals": 2,
+      "context": "...EPS estimates up about 7% over 90 days  . At an enterprise value of $3.69 trillion, the reverse DCF implies 26.2% annual revenue...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "3,686,007.3 million",
+        "snippet": "- The current enterprise value of $3,686,007.3 million implies revenue growth of 26.2% per year for 10 years (FY2026 revenue $215,938.0 million -> about..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5 billion",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...and then a steep fade. Key risks are China export restrictions, a $4.5 billion H20 charge and 36% of revenue from two direct...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "...bandwidth, interconnect bandwidth, or combination thereof. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51.5 billion",
+      "value": 51.5,
+      "unit": "billion",
+      "money_mn": 51500.0,
+      "decimals": 1,
+      "context": "...charge and 36% of revenue from two direct customers  . Net cash of $51.5 billion at year-end supports funding  . We see a...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Capitalization 2024-01-31: 51,437,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "NVIDIA's FY2026      shows strong momentum: revenue rose 65% to $215.9 billion and free cash flow reached...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "65%",
+        "snippet": "...Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "114%",
+      "value": 114.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and free cash flow reached $96.7 billion  . Growth slowed from 114% in FY2025 and gross margin fell 3.9 points to...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 114.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71.1%",
+      "value": 71.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...slowed from 114% in FY2025 and gross margin fell 3.9 points to 71.1%  . Consensus, dated after the     , expects...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "71.1 %",
+        "snippet": "...Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "96%",
+      "value": 96.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...dated after the     , expects FY2027 revenue of $423.7 billion (+96%) and EPS of $9.67, with EPS estimates up about...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "96.2%",
+        "snippet": "- FY2027E: revenue $423,664.7 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$423.7 billion (+96%) and EPS of $9.67, with EPS estimates up about 7% over 90 days  . At an enterprise value of $3.69...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "6.8%",
+        "snippet": "...EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.05 90 days ago, change vs 90 days ago +6.8%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.2%",
+      "value": 26.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... At an enterprise value of $3.69 trillion, the reverse DCF implies 26.2% annual revenue growth for ten years at a 15%...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "value",
+          "enterprise",
+          "revenue"
+        ],
+        "hl": "26.2%",
+        "snippet": "- The current enterprise value of $3,686,007.3 million implies revenue growth of 26.2% per year for 10 years (FY2026 revenue $215,938.0 million -> about $2,218,691.4 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...reverse DCF implies 26.2% annual revenue growth for ten years at a 15% WACC  . That is below the 100% three-year...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "15.0%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 44.8% to 44.8% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "100%",
+      "value": 100.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue growth for ten years at a 15% WACC  . That is below the 100% three-year historical CAGR and far below...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "cagr",
+          "historical"
+        ],
+        "hl": "100.0%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 100.0%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...risks are China export restrictions, a $4.5 billion H20 charge and 36% of revenue from two direct customers  . Net cash...",
+      "section": "Investment Summary",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "3.9",
+      "value": 3.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion  . Growth slowed from 114% in FY2025 and gross margin fell 3.9 points to 71.1%  . Consensus, dated after the...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "3.9",
+        "snippet": "...Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(+96%) and EPS of $9.67, with EPS estimates up about 7% over 90 days  . At an enterprise value of $3.69...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.05 90 days ago, change vs 90 days ago +6.8%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$215.9 billion",
+      "value": 215.9,
+      "unit": "billion",
+      "money_mn": 215900.0,
+      "decimals": 1,
+      "context": ".... In fiscal 2026, which ended January 25, 2026, revenue rose 65% to $215.9 billion and net income rose 65% to $120.1 billion  . The...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "215.9 billion",
+        "snippet": "Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$120.1 billion",
+      "value": 120.1,
+      "unit": "billion",
+      "money_mn": 120100.0,
+      "decimals": 1,
+      "context": "...2026, revenue rose 65% to $215.9 billion and net income rose 65% to $120.1 billion  . The company reports two segments: Compute &...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "120,067",
+        "snippet": "...-3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$193.5 billion",
+      "value": 193.5,
+      "unit": "billion",
+      "money_mn": 193500.0,
+      "decimals": 1,
+      "context": "...reports two segments: Compute & Networking, which contributed $193.5 billion, or about 90% of revenue, and Graphics, which...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "193,479",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.5 billion",
+      "value": 22.5,
+      "unit": "billion",
+      "money_mn": 22500.0,
+      "decimals": 1,
+      "context": "...billion, or about 90% of revenue, and Graphics, which contributed $22.5 billion  .\\n\\nCompute & Networking is the engine of the...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22,459",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.5 billion",
+      "value": 22.5,
+      "unit": "billion",
+      "money_mn": 22500.0,
+      "decimals": 1,
+      "context": "...is judged from these indicators.\\n\\nGraphics revenue rose 57% to $22.5 billion, with Professional Visualization up 70% on...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22,459",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.5 billion",
+      "value": 17.5,
+      "unit": "billion",
+      "money_mn": 17500.0,
+      "decimals": 1,
+      "context": "...ASIC designers integrate their own chips  . The company invested $17.5 billion in private companies and infrastructure funds,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "17.5 billion",
+        "snippet": "• We invested $17.5 billion in private companies and infrastructure funds, primarily to support early‑stage startups. These investments..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.5 billion",
+      "value": 3.5,
+      "unit": "billion",
+      "money_mn": 3500.0,
+      "decimals": 1,
+      "context": "...billion in private companies and infrastructure funds, provided $3.5 billion of land, power and shell guarantees, and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3.5 billion",
+        "snippet": "...infrastructures, we enter into commercial arrangements, including guarantees with partners. We provided $3.5 billion in land, power, and shell guarantees to early‑stage companies, generally over multi‑year periods. If the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$40 billion",
+      "value": 40.0,
+      "unit": "billion",
+      "money_mn": 40000.0,
+      "decimals": 0,
+      "context": "...billion of land, power and shell guarantees, and repurchased about $40 billion of stock  . An investment and partnership...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "40.4 billion",
+        "snippet": "...without expiration. In fiscal year 2026, we repurchased 282 million shares of our common stock for $40.4 billion. As of January 25, 2026, we were authorized, subject to certain specifications, to repurchase up to $58.5..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... In fiscal 2026, which ended January 25, 2026, revenue rose 65% to $215.9 billion and net income rose 65% to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "income"
+        ],
+        "hl": "65%",
+        "snippet": "...$ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...25, 2026, revenue rose 65% to $215.9 billion and net income rose 65% to $120.1 billion  . The company reports two...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "net",
+          "income"
+        ],
+        "hl": "65%",
+        "snippet": "...$ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "90%",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Compute & Networking, which contributed $193.5 billion, or about 90% of revenue, and Graphics, which contributed...",
+      "section": "Business Overview",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Networking is the engine of the business. Data Center revenue rose 68%, compute revenue rose 59% on Blackwell demand,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data",
+          "revenue"
+        ],
+        "hl": "68%",
+        "snippet": "Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59%",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...of the business. Data Center revenue rose 68%, compute revenue rose 59% on Blackwell demand, and networking revenue rose...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "demand",
+          "center",
+          "data",
+          "revenue"
+        ],
+        "hl": "59%",
+        "snippet": "...driven by the major platform shifts – accelerated computing and AI. Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "142%",
+      "value": 142.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue rose 59% on Blackwell demand, and networking revenue rose 142% on NVLink systems for GB200 and GB300  . The...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "networking",
+          "revenue"
+        ],
+        "hl": "142%",
+        "snippet": "...grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "78%",
+      "value": 78.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million developers using CUDA and GPUs and networking powering over 78% of the TOP500 supercomputers as the main sources...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gpus",
+          "supercomputer",
+          "networking"
+        ],
+        "hl": "78%",
+        "snippet": "...science and from wind tunnel simulation to genomics. Including GPUs and networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57%",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...position is judged from these indicators.\\n\\nGraphics revenue rose 57% to $22.5 billion, with Professional...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "57 %",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 57% to $22.5 billion, with Professional Visualization up 70% on Blackwell and the DGX Spark launch, Gaming up...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "visualization",
+          "professional"
+        ],
+        "hl": "70%",
+        "snippet": "Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our new DGX Spark."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...up 70% on Blackwell and the DGX Spark launch, Gaming up 41% and Automotive up 39%  . Management expects...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "gaming"
+        ],
+        "hl": "41%",
+        "snippet": "Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to Gaming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "39%",
+      "value": 39.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Blackwell and the DGX Spark launch, Gaming up 41% and Automotive up 39%  . Management expects supply constraints to...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "automotive"
+        ],
+        "hl": "39%",
+        "snippet": "Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "7.5",
+      "value": 7.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on NVLink systems for GB200 and GB300  . The      cites more than 7.5 million developers using CUDA and GPUs and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "using",
+          "developer",
+          "cuda"
+        ],
+        "hl": "7.5 million",
+        "snippet": "...from virtually every major server maker and CSP, as well as on our own AI supercomputers. There are over 7.5 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "nt 10",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Some indirect customers are estimated to individually represent 10% or more of revenue  .\\n\\nChina is the largest...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10",
+        "snippet": "...networking, NVIDIA powers over 78% of the supercomputers on the global TOP500 list, including 9 of the top 10 systems on the Green500 list."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60 million",
+      "value": 60.0,
+      "unit": "million",
+      "money_mn": 60.0,
+      "decimals": 0,
+      "context": "...China's data center compute market at fiscal year-end, earned about $60 million of H20 revenue under licenses against the $4.5...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60 million",
+        "snippet": "...would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG officials expressed an expectation that the USG will receive 15% or..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5 billion",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...earned about $60 million of H20 revenue under licenses against the $4.5 billion charge, and has generated no H200 revenue to...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "...bandwidth, interconnect bandwidth, or combination thereof. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$34.6 billion",
+      "value": 34.6,
+      "unit": "billion",
+      "money_mn": 34600.0,
+      "decimals": 1,
+      "context": "...is given in the     . For scale, competitors' FY2025 revenues were $34.6 billion for AMD, $63.9 billion for Broadcom and $52.9...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "34,621",
+        "snippet": "...2026 Jan 26, 2025 (In millions) Cash and cash equivalents $ 10,605 $ 8,589 Marketable securities 51,951 34,621 Cash, cash equivalents, and marketable securities $ 62,556 $ 43,210"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$63.9 billion",
+      "value": 63.9,
+      "unit": "billion",
+      "money_mn": 63900.0,
+      "decimals": 1,
+      "context": "...For scale, competitors' FY2025 revenues were $34.6 billion for AMD, $63.9 billion for Broadcom and $52.9 billion for Intel,...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "AVGO Revenue 2025: 63887"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$52.9 billion",
+      "value": 52.9,
+      "unit": "billion",
+      "money_mn": 52900.0,
+      "decimals": 1,
+      "context": "...revenues were $34.6 billion for AMD, $63.9 billion for Broadcom and $52.9 billion for Intel, combined $151.4 billion. NVIDIA's...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC Total Expenses 2025-12-31: 52,876,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$151.4 billion",
+      "value": 151.4,
+      "unit": "billion",
+      "money_mn": 151400.0,
+      "decimals": 1,
+      "context": "...$63.9 billion for Broadcom and $52.9 billion for Intel, combined $151.4 billion. NVIDIA's $130.5 billion FY2025 revenue is about...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$130.5 billion",
+      "value": 130.5,
+      "unit": "billion",
+      "money_mn": 130500.0,
+      "decimals": 1,
+      "context": "...and $52.9 billion for Intel, combined $151.4 billion. NVIDIA's $130.5 billion FY2025 revenue is about 86% of that combined...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "130,497",
+        "snippet": "...Year Ended Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$244.71",
+      "value": 244.71,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...after the     , rates the stock Buy with an average target price of $244.71 (range $130 to $425)  . The stock closed at...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "244.71",
+        "snippet": "244.71 (range 130.00 - 425.00), current consensus as of 2026-11-25, not as of 2026-02-25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$130",
+      "value": 130.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "..., rates the stock Buy with an average target price of $244.71 (range $130 to $425)  . The stock closed at $192.40 with a...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "130.00",
+        "snippet": "244.71 (range 130.00 - 425.00), current consensus as of 2026-11-25, not as of 2026-02-25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$425)",
+      "value": 425.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...stock Buy with an average target price of $244.71 (range $130 to $425)  . The stock closed at $192.40 with a 52-week...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "425.00)",
+        "snippet": "244.71 (range 130.00 - 425.00), current consensus as of 2026-11-25, not as of 2026-02-25"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$192.40",
+      "value": 192.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...target price of $244.71 (range $130 to $425)  . The stock closed at $192.40 with a 52-week range of $86.40 to $211.68  ....",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "192.40",
+        "snippet": "192.40"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$86.40",
+      "value": 86.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to $425)  . The stock closed at $192.40 with a 52-week range of $86.40 to $211.68  . Consensus forward multiples in...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "86.40",
+        "snippet": "86.40 - 211.68"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$211.68",
+      "value": 211.68,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... The stock closed at $192.40 with a 52-week range of $86.40 to $211.68  . Consensus forward multiples in this report use...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": "211.68",
+        "snippet": "86.40 - 211.68"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$144.31",
+      "value": 144.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Consensus forward multiples in this report use a price of $144.31, so the price basis should be confirmed before...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "144.34",
+        "snippet": "- Forward multiples use the current share price of $144.34 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the United States: customers headquartered outside the U.S. fell to 31% of fiscal 2026 revenue from 41%, and two direct...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "31%",
+        "snippet": "...assembled, tested and packaged by third parties located outside of the United States, and we generated 31% of our revenue in fiscal year 2026 from sales outside the United States. The market in China, where our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...outside the U.S. fell to 31% of fiscal 2026 revenue from 41%, and two direct customers accounted for 22% and...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "accounted",
+          "revenue"
+        ],
+        "hl": "41%",
+        "snippet": "...location. Revenue from sales to customers headquartered outside of the United States accounted for 31% and 41% of total revenue for fiscal years 2026 and 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2026 revenue from 41%, and two direct customers accounted for 22% and 14% of revenue, or 36% combined (22% + 14%),...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "direct",
+          "customer",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "...of customers, and this trend may continue. For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...revenue from 41%, and two direct customers accounted for 22% and 14% of revenue, or 36% combined (22% + 14%), mostly...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "direct",
+          "customer",
+          "revenue"
+        ],
+        "hl": "14%",
+        "snippet": "...to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment. With several..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and two direct customers accounted for 22% and 14% of revenue, or 36% combined (22% + 14%), mostly in Compute &...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...customers accounted for 22% and 14% of revenue, or 36% combined (22% + 14%), mostly in Compute & Networking  . The...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "customer",
+          "revenue"
+        ],
+        "hl": "22%",
+        "snippet": "...of customers, and this trend may continue. For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...accounted for 22% and 14% of revenue, or 36% combined (22% + 14%), mostly in Compute & Networking  . The filing...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "AMD Revenue Growth 2024: 13.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...no H200 revenue to date. Any H200 shipped to the U.S. would face a 25% tariff on importation  . China's antitrust...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "importation",
+          "tariff"
+        ],
+        "hl": "25%",
+        "snippet": "...shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "86%",
+      "value": 86.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$151.4 billion. NVIDIA's $130.5 billion FY2025 revenue is about 86% of that combined figure  . Analyst consensus,...",
+      "section": "Market Position",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$215.9 billion",
+      "value": 215.9,
+      "unit": "billion",
+      "money_mn": 215900.0,
+      "decimals": 1,
+      "context": "Revenue rose 65% to $215.9 billion from $130.5 billion, with Compute & Networking...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "215.9 billion",
+        "snippet": "Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$130.5 billion",
+      "value": 130.5,
+      "unit": "billion",
+      "money_mn": 130500.0,
+      "decimals": 1,
+      "context": "Revenue rose 65% to $215.9 billion from $130.5 billion, with Compute & Networking up 67% and Graphics...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "130,497",
+        "snippet": "...Year Ended Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153.5 billion",
+      "value": 153.5,
+      "unit": "billion",
+      "money_mn": 153500.0,
+      "decimals": 1,
+      "context": "...up 67% and Graphics up 57%  . Gross profit grew about 57% to $153.5 billion, but gross margin fell 3.9 points to 71.1% from...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Gross Profit 2026-01-31: 153,463,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5 billion",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...from 75.0%, driven by the Hopper-to-Blackwell transition and a $4.5 billion H20 charge for excess inventory and purchase...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "...bandwidth, interconnect bandwidth, or combination thereof. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$23.1 billion",
+      "value": 23.1,
+      "unit": "billion",
+      "money_mn": 23100.0,
+      "decimals": 1,
+      "context": "...and purchase obligations  . Operating expenses rose 41% to $23.1 billion, slower than revenue, so operating margin eased...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "23,076",
+        "snippet": "...per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$120.1 billion",
+      "value": 120.1,
+      "unit": "billion",
+      "money_mn": 120100.0,
+      "decimals": 1,
+      "context": "...margin eased only to 60.4% from 62.4%  .\\n\\nNet income grew 65% to $120.1 billion and diluted EPS rose 67% to $4.90  . Other...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "120,067",
+        "snippet": "...-3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.90",
+      "value": 4.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...income grew 65% to $120.1 billion and diluted EPS rose 67% to $4.90  . Other income of $9.0 billion, against $1.0...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.90",
+        "snippet": "...income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.0 billion",
+      "value": 9.0,
+      "unit": "billion",
+      "money_mn": 9000.0,
+      "decimals": 1,
+      "context": "...$120.1 billion and diluted EPS rose 67% to $4.90  . Other income of $9.0 billion, against $1.0 billion a year earlier, helped,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "9,022",
+        "snippet": "9,022 1,034 7,988 Total other income, net"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.0 billion",
+      "value": 1.0,
+      "unit": "billion",
+      "money_mn": 1000.0,
+      "decimals": 1,
+      "context": "...EPS rose 67% to $4.90  . Other income of $9.0 billion, against $1.0 billion a year earlier, helped, while the effective tax...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "1,000",
+        "snippet": "Jan 25, 2026 (In millions) Due in one year $ 1,000 Due in one to five years 2,750 Due in five to ten years 1,250 Due in greater than ten years 3,500 Unamortized..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$130.1 billion",
+      "value": 130.1,
+      "unit": "billion",
+      "money_mn": 130100.0,
+      "decimals": 1,
+      "context": "...margin pressure: Compute & Networking operating income rose 57% to $130.1 billion, but its margin fell to 67.3% from 71.3% because...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "130,141",
+        "snippet": "$ 130,141 $ 82,875 $ 47,266 57 % Graphics 9,156 5,085 4,071 80 % Total $ 139,297 $ 87,960 $ 51,337 58 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.2 billion",
+      "value": 9.2,
+      "unit": "billion",
+      "money_mn": 9200.0,
+      "decimals": 1,
+      "context": "...because of the H20 charge. Graphics operating income rose 80% to $9.2 billion and its margin rose to 40.8% from 35.6%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "9,156",
+        "snippet": "$ 130,141 $ 82,875 $ 47,266 57 % Graphics 9,156 5,085 4,071 80 % Total $ 139,297 $ 87,960 $ 51,337 58 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$102.7 billion",
+      "value": 102.7,
+      "unit": "billion",
+      "money_mn": 102700.0,
+      "decimals": 1,
+      "context": "....\\n\\nCash generation remained strong. Operating cash flow rose to $102.7 billion from $64.1 billion, and free cash flow reached...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "102,718",
+        "snippet": "...Year Ended Jan 25, 2026 Jan 26, 2025 (In millions) Net cash provided by operating activities $ 102,718 $ 64,089 Net cash used in investing activities $ (52,228) $ (20,421) Net cash used in financing activities $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$64.1 billion",
+      "value": 64.1,
+      "unit": "billion",
+      "money_mn": 64099.99999999999,
+      "decimals": 1,
+      "context": "...remained strong. Operating cash flow rose to $102.7 billion from $64.1 billion, and free cash flow reached $96.7 billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "64,089",
+        "snippet": "...Year Ended Jan 25, 2026 Jan 26, 2025 (In millions) Net cash provided by operating activities $ 102,718 $ 64,089 Net cash used in investing activities $ (52,228) $ (20,421) Net cash used in financing activities $ (48,474)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$96.7 billion",
+      "value": 96.7,
+      "unit": "billion",
+      "money_mn": 96700.0,
+      "decimals": 1,
+      "context": "...to $102.7 billion from $64.1 billion, and free cash flow reached $96.7 billion against $60.9 billion  . Operating cash flow was...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 96,676,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.9 billion",
+      "value": 60.9,
+      "unit": "billion",
+      "money_mn": 60900.0,
+      "decimals": 1,
+      "context": "...$64.1 billion, and free cash flow reached $96.7 billion against $60.9 billion  . Operating cash flow was $17.4 billion below...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Revenue 2024-01-31: 60,922,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$17.4 billion",
+      "value": 17.4,
+      "unit": "billion",
+      "money_mn": 17400.0,
+      "decimals": 1,
+      "context": "...$96.7 billion against $60.9 billion  . Operating cash flow was $17.4 billion below net income because receivables absorbed...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$15.4 billion",
+      "value": 15.4,
+      "unit": "billion",
+      "money_mn": 15400.0,
+      "decimals": 1,
+      "context": "...was $17.4 billion below net income because receivables absorbed $15.4 billion and inventory $11.3 billion  . Total assets rose...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Change In Receivables 2026-01-31: -15,399,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.3 billion",
+      "value": 11.3,
+      "unit": "billion",
+      "money_mn": 11300.0,
+      "decimals": 1,
+      "context": "...net income because receivables absorbed $15.4 billion and inventory $11.3 billion  . Total assets rose 85% to $206.8 billion, with...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Change In Inventory 2026-01-31: -11,324,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$206.8 billion",
+      "value": 206.8,
+      "unit": "billion",
+      "money_mn": 206800.0,
+      "decimals": 1,
+      "context": "...billion and inventory $11.3 billion  . Total assets rose 85% to $206.8 billion, with receivables of $38.5 billion, inventory of...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Assets 2026-01-31: 206,803,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$38.5 billion",
+      "value": 38.5,
+      "unit": "billion",
+      "money_mn": 38500.0,
+      "decimals": 1,
+      "context": ".... Total assets rose 85% to $206.8 billion, with receivables of $38.5 billion, inventory of $21.4 billion and investments of...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Receivables 2026-01-31: 38,466,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.4 billion",
+      "value": 21.4,
+      "unit": "billion",
+      "money_mn": 21400.0,
+      "decimals": 1,
+      "context": "...to $206.8 billion, with receivables of $38.5 billion, inventory of $21.4 billion and investments of $22.3 billion, and the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "21.4 billion",
+        "snippet": "Income tax expense was $21.4 billion and $11.1 billion for fiscal years 2026 and 2025, respectively. Income tax as a percentage of income before..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.3 billion",
+      "value": 22.3,
+      "unit": "billion",
+      "money_mn": 22300.0,
+      "decimals": 1,
+      "context": "...of $38.5 billion, inventory of $21.4 billion and investments of $22.3 billion, and the current ratio fell to 3.9x from 4.4x  ....",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Investments And Advances 2026-01-31: 22,251,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue rose 65% to $215.9 billion from $130.5 billion, with...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "65%",
+        "snippet": "...Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $215.9 billion from $130.5 billion, with Compute & Networking up 67% and Graphics up 57%  . Gross profit grew about...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "compute",
+          "networking",
+          "graphic"
+        ],
+        "hl": "67 %",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57%",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$130.5 billion, with Compute & Networking up 67% and Graphics up 57%  . Gross profit grew about 57% to $153.5...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "compute",
+          "networking",
+          "graphic"
+        ],
+        "hl": "57 %",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57%",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...& Networking up 67% and Graphics up 57%  . Gross profit grew about 57% to $153.5 billion, but gross margin fell 3.9...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "networking",
+          "graphic"
+        ],
+        "hl": "57 %",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71.1%",
+      "value": 71.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...about 57% to $153.5 billion, but gross margin fell 3.9 points to 71.1% from 75.0%, driven by the Hopper-to-Blackwell...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "71.1 %",
+        "snippet": "...Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $153.5 billion, but gross margin fell 3.9 points to 71.1% from 75.0%, driven by the Hopper-to-Blackwell transition...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "75.0 %",
+        "snippet": "...2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...inventory and purchase obligations  . Operating expenses rose 41% to $23.1 billion, slower than revenue, so...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "expens",
+          "operating",
+          "revenue"
+        ],
+        "hl": "41%",
+        "snippet": "...$ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "60.4%",
+      "value": 60.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion, slower than revenue, so operating margin eased only to 60.4% from 62.4%  .\\n\\nNet income grew 65% to $120.1...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "62.4%",
+      "value": 62.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...slower than revenue, so operating margin eased only to 60.4% from 62.4%  .\\n\\nNet income grew 65% to $120.1 billion and...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "65%",
+      "value": 65.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin eased only to 60.4% from 62.4%  .\\n\\nNet income grew 65% to $120.1 billion and diluted EPS rose 67% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "pershare"
+        ],
+        "hl": "65%",
+        "snippet": "...Jan 25, 2026 Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67%",
+      "value": 67.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "....\\n\\nNet income grew 65% to $120.1 billion and diluted EPS rose 67% to $4.90  . Other income of $9.0 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "pershare",
+          "income"
+        ],
+        "hl": "67%",
+        "snippet": "...$ 130,387 $ 81,453 Up 60% Net income $ 120,067 $ 72,880 Up 65% Net income per diluted share $ 4.90 $ 2.94 Up 67%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.1%",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a year earlier, helped, while the effective tax rate rose to 15.1% from 13.3%  . Segment results show the margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "tax"
+        ],
+        "hl": "15.1%",
+        "snippet": "...years 2026 and 2025, respectively. Income tax as a percentage of income before income tax was an expense of 15.1% and 13.3% for fiscal years 2026 and 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.3%",
+      "value": 13.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...earlier, helped, while the effective tax rate rose to 15.1% from 13.3%  . Segment results show the margin pressure:...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "tax"
+        ],
+        "hl": "13.3%",
+        "snippet": "...and 2025, respectively. Income tax as a percentage of income before income tax was an expense of 15.1% and 13.3% for fiscal years 2026 and 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57%",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the margin pressure: Compute & Networking operating income rose 57% to $130.1 billion, but its margin fell to 67.3%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "compute",
+          "networking"
+        ],
+        "hl": "57 %",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67.3%",
+      "value": 67.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating income rose 57% to $130.1 billion, but its margin fell to 67.3% from 71.3% because of the H20 charge. Graphics...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "71.3%",
+      "value": 71.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 57% to $130.1 billion, but its margin fell to 67.3% from 71.3% because of the H20 charge. Graphics operating...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "71.4%",
+        "snippet": "- FY2028E: revenue $726,015.7 million (range $546,002.0 million to $778,471.0 million, 58 analysts), growth +71.4%; EPS $16.61 (range $12.27 to $18.79); forward P/E 8.7x; EV/Sales 5.1x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "80%",
+      "value": 80.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...71.3% because of the H20 charge. Graphics operating income rose 80% to $9.2 billion and its margin rose to 40.8%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "graphic"
+        ],
+        "hl": "80 %",
+        "snippet": "$ 130,141 $ 82,875 $ 47,266 57 % Graphics 9,156 5,085 4,071 80 % Total $ 139,297 $ 87,960 $ 51,337 58 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "40.8%",
+      "value": 40.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating income rose 80% to $9.2 billion and its margin rose to 40.8% from 35.6%  .\\n\\nCash generation remained...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.6%",
+      "value": 35.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 80% to $9.2 billion and its margin rose to 40.8% from 35.6%  .\\n\\nCash generation remained strong. Operating...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "85%",
+      "value": 85.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$15.4 billion and inventory $11.3 billion  . Total assets rose 85% to $206.8 billion, with receivables of $38.5...",
+      "section": "Operating Results",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "3.9x",
+      "value": 3.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and investments of $22.3 billion, and the current ratio fell to 3.9x from 4.4x  . Analysts' consensus of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "ratio"
+        ],
+        "hl": "3.9",
+        "snippet": "...$51,516.0 million, free cash flow $96,676.0 million, cash runway at that burn self-funded, current ratio 3.9x, shares outstanding 24,304.0 million, change in share count y/y -0.7%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "4.4x",
+      "value": 4.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of $22.3 billion, and the current ratio fell to 3.9x from 4.4x  . Analysts' consensus of forward-looking EPS,...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC Diluted EPS 2024-12-31: -4 USD"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "3.9",
+      "value": 3.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...profit grew about 57% to $153.5 billion, but gross margin fell 3.9 points to 71.1% from 75.0%, driven by the...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "3.9",
+        "snippet": "...Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5 billion",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...and discouraged purchases of NVIDIA's data center products  . The $4.5 billion H20 charge set against roughly $60 million of...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "...bandwidth, interconnect bandwidth, or combination thereof. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60 million",
+      "value": 60.0,
+      "unit": "million",
+      "money_mn": 60.0,
+      "decimals": 0,
+      "context": "...center products  . The $4.5 billion H20 charge set against roughly $60 million of licensed sales shows how little offset has...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60 million",
+        "snippet": "...would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG officials expressed an expectation that the USG will receive 15% or..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.5 billion",
+      "value": 3.5,
+      "unit": "billion",
+      "money_mn": 3500.0,
+      "decimals": 1,
+      "context": "...capacity purchase obligations and financial guarantees, including $3.5 billion of land, power and shell guarantees  . Insurance...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "3.5 billion",
+        "snippet": "...infrastructures, we enter into commercial arrangements, including guarantees with partners. We provided $3.5 billion in land, power, and shell guarantees to early‑stage companies, generally over multi‑year periods. If the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.0 billion",
+      "value": 11.0,
+      "unit": "billion",
+      "money_mn": 11000.0,
+      "decimals": 1,
+      "context": "...warning sign and not proof of manipulation  . Total debt was $11.0 billion at year-end but rose to $38.4 billion in the...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "11,000",
+        "snippet": "...we had approximately 42,000 employees in 38 countries; 31,000 were engaged in research and development and 11,000 were engaged in sales, marketing, operations, and administrative positions."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$38.4 billion",
+      "value": 38.4,
+      "unit": "billion",
+      "money_mn": 38400.0,
+      "decimals": 1,
+      "context": ".... Total debt was $11.0 billion at year-end but rose to $38.4 billion in the latest quarter, which is dated after the...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Receivables 2026-01-31: 38,466,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "142%",
+      "value": 142.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...on networking products, which would reach a segment that grew 142%  .\\n\\nThe third risk is customer concentration...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "networking"
+        ],
+        "hl": "142%",
+        "snippet": "...grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and counterparty exposure. Two direct customers provided 36% of revenue, and most sales are on purchase...",
+      "section": "Risk Assessment",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "12",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...filing says it has previously experienced lead times of more than 12 months  . Non-cancellable purchase orders...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "tim",
+          "lead"
+        ],
+        "hl": "12",
+        "snippet": "...be extended. We have previously experienced and may continue to experience extended lead times of more than 12 months. To secure future supply and capacity, we have paid premiums, provided deposits, and entered into..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "4",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...assured  . Quality screens add context: the Piotroski F-Score is 4 of 9, the Altman Z-Score is 47.05 in the safe...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "f-score"
+        ],
+        "hl": "4",
+        "snippet": "- Piotroski F-Score: 4 of 9 available criteria; failed: Return on assets improved, Operating cash flow > net income, Current ratio..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Quality screens add context: the Piotroski F-Score is 4 of 9, the Altman Z-Score is 47.05 in the safe zone,...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "piotroski",
+          "f-score"
+        ],
+        "hl": "9",
+        "snippet": "- Piotroski F-Score: 4 of 9 available criteria; failed: Return on assets improved, Operating cash flow > net income, Current ratio..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "47.05",
+      "value": 47.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...add context: the Piotroski F-Score is 4 of 9, the Altman Z-Score is 47.05 in the safe zone, and the Beneish M-Score of...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "safe",
+          "z-score",
+          "zone",
+          "altman"
+        ],
+        "hl": "47.09",
+        "snippet": "- Altman Z-Score: 47.09 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-1.13",
+      "value": 1.13,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Z-Score is 47.05 in the safe zone, and the Beneish M-Score of -1.13 sits above the -1.78 threshold, which is a...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "beneish",
+          "above",
+          "m-score"
+        ],
+        "hl": "1.13",
+        "snippet": "- Beneish M-Score: -1.13 (above -1.78: statistical warning sign for earnings manipulation; not proof)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-1.78",
+      "value": 1.78,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in the safe zone, and the Beneish M-Score of -1.13 sits above the -1.78 threshold, which is a statistical warning sign...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "above",
+          "m-score",
+          "warning",
+          "sign",
+          "statistical",
+          "beneish"
+        ],
+        "hl": "1.78",
+        "snippet": "- Beneish M-Score: -1.13 (above -1.78: statistical warning sign for earnings manipulation; not proof)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45.4 billion",
+      "value": 45.4,
+      "unit": "billion",
+      "money_mn": 45400.0,
+      "decimals": 1,
+      "context": "...size, so it was not used. On size, the peer screen shows revenue of $45.4 billion for AMD, $89.1 billion for Broadcom and $59.9...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$89.1 billion",
+      "value": 89.1,
+      "unit": "billion",
+      "money_mn": 89100.0,
+      "decimals": 1,
+      "context": "...On size, the peer screen shows revenue of $45.4 billion for AMD, $89.1 billion for Broadcom and $59.9 billion for Intel, each...",
+      "section": "Competitors Analysis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$59.9 billion",
+      "value": 59.9,
+      "unit": "billion",
+      "money_mn": 59900.0,
+      "decimals": 1,
+      "context": "...revenue of $45.4 billion for AMD, $89.1 billion for Broadcom and $59.9 billion for Intel, each 0.1x to 0.2x NVIDIA's revenue in...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "60.0 billion",
+        "snippet": "On August 26, 2025, our Board of Directors approved an additional $60.0 billion in share repurchase authorization, without expiration. In fiscal year 2026, we repurchased 282 million..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$60.9 billion",
+      "value": 60.9,
+      "unit": "billion",
+      "money_mn": 60900.0,
+      "decimals": 1,
+      "context": "...13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow of $60.9 billion is about 2.3 times Broadcom's $26.9 billion and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Revenue 2024-01-31: 60,922,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.9 billion",
+      "value": 26.9,
+      "unit": "billion",
+      "money_mn": 26900.0,
+      "decimals": 1,
+      "context": "...and free cash flow of $60.9 billion is about 2.3 times Broadcom's $26.9 billion and about nine times AMD's $6.7 billion; Intel's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "AVGO FCF 2025: 26914"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.7 billion",
+      "value": 6.7,
+      "unit": "billion",
+      "money_mn": 6700.0,
+      "decimals": 1,
+      "context": "...about 2.3 times Broadcom's $26.9 billion and about nine times AMD's $6.7 billion; Intel's free cash flow was negative at -$4.9...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "6,671",
+        "snippet": "...43 % Sales, general and administrative 4,579 3,491 1,088 31 % Total operating expenses $ 23,076 $ 16,405 $ 6,671 41 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$4.9 billion",
+      "value": 4.9,
+      "unit": "billion",
+      "money_mn": 4900.0,
+      "decimals": 1,
+      "context": "...times AMD's $6.7 billion; Intel's free cash flow was negative at -$4.9 billion  .\\n\\nValuation is more balanced. NVIDIA's...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": null,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "AVGO Research And Development 2022-10-31: 4,919,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in that screen  .\\n\\nOn FY2025 financials, NVIDIA's gross margin of 75.0% is well above Broadcom's 67.8%, AMD's 49.5% and...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "75.0 %",
+        "snippet": "...2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67.8%",
+      "value": 67.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...financials, NVIDIA's gross margin of 75.0% is well above Broadcom's 67.8%, AMD's 49.5% and Intel's 34.8%, and its EBITDA...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "AVGO Gross Margin 2025: 67.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "49.5%",
+      "value": 49.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...gross margin of 75.0% is well above Broadcom's 67.8%, AMD's 49.5% and Intel's 34.8%, and its EBITDA margin of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "AMD Gross Margin 2024: 49.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.8%",
+      "value": 34.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 75.0% is well above Broadcom's 67.8%, AMD's 49.5% and Intel's 34.8%, and its EBITDA margin of 66.0% compares with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": null,
+        "snippet": "INTC Gross Margin 2025: 34.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "66.0%",
+      "value": 66.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...67.8%, AMD's 49.5% and Intel's 34.8%, and its EBITDA margin of 66.0% compares with 54.3%, 21.0% and 27.2%  . NVIDIA's...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EBITDA Margin 2025: 66.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "54.3%",
+      "value": 54.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and Intel's 34.8%, and its EBITDA margin of 66.0% compares with 54.3%, 21.0% and 27.2%  . NVIDIA's revenue growth of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "AVGO EBITDA Margin 2025: 54.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.0%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Intel's 34.8%, and its EBITDA margin of 66.0% compares with 54.3%, 21.0% and 27.2%  . NVIDIA's revenue growth of 114%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "AMD EBITDA Margin 2025: 21.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.2%",
+      "value": 27.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and its EBITDA margin of 66.0% compares with 54.3%, 21.0% and 27.2%  . NVIDIA's revenue growth of 114% compares with...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "INTC EBITDA Margin 2025: 27.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "114%",
+      "value": 114.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...compares with 54.3%, 21.0% and 27.2%  . NVIDIA's revenue growth of 114% compares with 34.3% for AMD, 23.9% for Broadcom...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "Revenue Growth 2025: 114.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34.3%",
+      "value": 34.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...21.0% and 27.2%  . NVIDIA's revenue growth of 114% compares with 34.3% for AMD, 23.9% for Broadcom and -0.5% for Intel...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "AMD Revenue Growth 2025: 34.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23.9%",
+      "value": 23.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... NVIDIA's revenue growth of 114% compares with 34.3% for AMD, 23.9% for Broadcom and -0.5% for Intel  . Its return...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": null,
+        "snippet": "AVGO Revenue Growth 2025: 23.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "-0.5%",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 114% compares with 34.3% for AMD, 23.9% for Broadcom and -0.5% for Intel  . Its return on invested capital of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC Revenue Growth 2025: -0.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "83.3%",
+      "value": 83.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Broadcom and -0.5% for Intel  . Its return on invested capital of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "ROIC 2025: 83.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13.2%",
+      "value": 13.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Its return on invested capital of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "13.3%",
+        "snippet": "...and 2025, respectively. Income tax as a percentage of income before income tax was an expense of 15.1% and 13.3% for fiscal years 2026 and 2025, respectively."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.8%",
+      "value": 4.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on invested capital of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow of $60.9...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "4.8%",
+        "snippet": "...the free cash flow margin moves from 44.8% to 44.8% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.2%",
+      "value": 1.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of 83.3% is far above Broadcom's 13.2%, AMD's 4.8% and Intel's 1.2%, and free cash flow of $60.9 billion is about...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC ROIC 2025: 1.2%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.0x",
+      "value": 0.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...center networking  . Marvell has a similar model but is roughly 0.0x NVIDIA's size, so it was not used. On size, the...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Tax Effect Of Unusual Items 2026-01-31: 0 USD"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.1x",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...AMD, $89.1 billion for Broadcom and $59.9 billion for Intel, each 0.1x to 0.2x NVIDIA's revenue in that screen  .\\n\\nOn...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.1)",
+        "snippet": "...2.7 Total operating expenses 10.7 12.6 Operating income 60.4 62.4 Interest income 1.1 1.4 Interest expense (0.1) (0.2) Other income, net"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.2x",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion for Broadcom and $59.9 billion for Intel, each 0.1x to 0.2x NVIDIA's revenue in that screen  .\\n\\nOn FY2025...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "0.2)",
+        "snippet": "...operating expenses 10.7 12.6 Operating income 60.4 62.4 Interest income 1.1 1.4 Interest expense (0.1) (0.2) Other income, net"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "34.1x",
+      "value": 34.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...billion  .\\n\\nValuation is more balanced. NVIDIA's EV/EBITDA was 34.1x in FY2025, below AMD's 47.8x and Broadcom's...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "EV/EBITDA 2025: 34.14"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "47.8x",
+      "value": 47.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...more balanced. NVIDIA's EV/EBITDA was 34.1x in FY2025, below AMD's 47.8x and Broadcom's 51.9x, and above Intel's 15.1x;...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "AMD EV/EBITDA 2025: 47.75"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "51.9x",
+      "value": 51.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EV/EBITDA was 34.1x in FY2025, below AMD's 47.8x and Broadcom's 51.9x, and above Intel's 15.1x; it fell to 32.1x in...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "ebitda"
+        ],
+        "hl": null,
+        "snippet": "AVGO EV/EBITDA 2025: 51.89"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "15.1x",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...FY2025, below AMD's 47.8x and Broadcom's 51.9x, and above Intel's 15.1x; it fell to 32.1x in FY2026  . On consensus,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "INTC EV/EBITDA 2025: 15.09"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "32.1x",
+      "value": 32.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...47.8x and Broadcom's 51.9x, and above Intel's 15.1x; it fell to 32.1x in FY2026  . On consensus, NVIDIA's forward P/E...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "EV/EBITDA 2026: 32.14"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "14.9x",
+      "value": 14.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...it fell to 32.1x in FY2026  . On consensus, NVIDIA's forward P/E is 14.9x for FY2027 and 8.7x for FY2028  . The reported...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "14.9",
+        "snippet": "...million to $431,684.0 million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "8.7x",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... On consensus, NVIDIA's forward P/E is 14.9x for FY2027 and 8.7x for FY2028  . The reported FCF conversion of...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "8.7",
+        "snippet": "...million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "2.3",
+      "value": 2.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...4.8% and Intel's 1.2%, and free cash flow of $60.9 billion is about 2.3 times Broadcom's $26.9 billion and about nine...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "2,300",
+        "snippet": "Year Ended Jan 25, 2026 Jan 26, 2025 $ Change ($ in millions) Interest income $ 2,300 $ 1,786 $ 514 Interest expense (259) (247) (12)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.81",
+      "value": 0.81,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...for FY2027 and 8.7x for FY2028  . The reported FCF conversion of 0.81 in FY2026 is below AMD's and Broadcom's reported...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "conversion",
+          "cashflow"
+        ],
+        "hl": null,
+        "snippet": "FCF Conversion 2026: 0.81"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$423.7 billion",
+      "value": 423.7,
+      "unit": "billion",
+      "money_mn": 423700.0,
+      "decimals": 1,
+      "context": "...and networking rose 142% in FY2026  ; FY2027 consensus revenue is $423.7 billion, up 96%  . Data Center revenue growth above 50%...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "423665"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$423.7 billion",
+      "value": 423.7,
+      "unit": "billion",
+      "money_mn": 423700.0,
+      "decimals": 1,
+      "context": "...in any FY2027 quarter, or FY2027 revenue more than 10% below the $423.7 billion consensus  . Gross margin recovers above 72% as...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": null,
+        "snippet": "423665"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.5 billion",
+      "value": 4.5,
+      "unit": "billion",
+      "money_mn": 4500.0,
+      "decimals": 1,
+      "context": "...from 75.0% because of the Hopper-to-Blackwell transition and the $4.5 billion H20 charge  ; Broadcom's FY2025 gross margin was...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "4.5 billion",
+        "snippet": "...bandwidth, interconnect bandwidth, or combination thereof. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.67",
+      "value": 9.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...EPS estimates rose 27.7% over 90 days  . FY2027 EPS at or above the $9.67 consensus, and the FY2028 EPS estimate holding...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.67",
+        "snippet": "...$423,664.7 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16",
+      "value": 16.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the $9.67 consensus, and the FY2028 EPS estimate holding above $16 through the FY2027 year-end  . FY2027 EPS...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "16",
+        "snippet": "Our two operating segments are \"Compute & Networking\" and \"Graphics.\" Refer to Note 16 of the Notes to the Consolidated Financial Statements in Part IV, Item 15 of this Annual Report on Form 10-K..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.05",
+      "value": 9.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...through the FY2027 year-end  . FY2027 EPS consensus falls below the $9.05 level from 90 days earlier, or the reverse DCF...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "hl": "9.05",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.05 90 days ago, change vs 90 days ago +6.8%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$96.7 billion",
+      "value": 96.7,
+      "unit": "billion",
+      "money_mn": 96700.0,
+      "decimals": 1,
+      "context": "...the China and customer shocks without strain. Free cash flow of $96.7 billion and net cash of $51.5 billion at year-end  ; two...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Free Cash Flow 2026-01-31: 96,676,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$51.5 billion",
+      "value": 51.5,
+      "unit": "billion",
+      "money_mn": 51500.0,
+      "decimals": 1,
+      "context": "...without strain. Free cash flow of $96.7 billion and net cash of $51.5 billion at year-end  ; two direct customers provide 36%...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "Total Capitalization 2024-01-31: 51,437,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68%",
+      "value": 68.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...well above peers through fiscal 2027. Data Center revenue rose 68% and networking rose 142% in FY2026  ; FY2027...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data",
+          "revenue"
+        ],
+        "hl": "68%",
+        "snippet": "Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "142%",
+      "value": 142.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...fiscal 2027. Data Center revenue rose 68% and networking rose 142% in FY2026  ; FY2027 consensus revenue is $423.7...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "center",
+          "data",
+          "networking",
+          "revenue"
+        ],
+        "hl": "142%",
+        "snippet": "...grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "96%",
+      "value": 96.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...142% in FY2026  ; FY2027 consensus revenue is $423.7 billion, up 96%  . Data Center revenue growth above 50% year...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "96.2%",
+        "snippet": "- FY2027E: revenue $423,664.7 million (range $412,449.9 million to $431,684.0 million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50%",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is $423.7 billion, up 96%  . Data Center revenue growth above 50% year over year in each FY2027 quarter reported,...",
+      "section": "Investment Thesis",
+      "source": "[4] Peer data",
+      "context_ok": false,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "hl": null,
+        "snippet": "AMD Gross Margin 2025: 49.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...starting in the second half of FY2027  . Data Center growth below 25% year over year in any FY2027 quarter, or FY2027...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "25%",
+        "snippet": "...shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year over year in any FY2027 quarter, or FY2027 revenue more than 10% below the $423.7 billion consensus  . Gross...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "10%",
+        "snippet": "...of our revenue from a limited number of indirect customers, and we estimate some individually representing 10% or more of our revenue. If end demand increases or our finished goods supply availability is concentrated..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...below the $423.7 billion consensus  . Gross margin recovers above 72% as Blackwell yields mature and the H20 charge...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "71.1%",
+      "value": 71.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...mature and the H20 charge does not recur. Gross margin fell to 71.1% from 75.0% because of the Hopper-to-Blackwell...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "71.1 %",
+        "snippet": "...Jan 26, 2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "75.0%",
+      "value": 75.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and the H20 charge does not recur. Gross margin fell to 71.1% from 75.0% because of the Hopper-to-Blackwell transition...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": "75.0 %",
+        "snippet": "...2025 Change ($ in millions, except per share data) Revenue $ 215,938 $ 130,497 Up 65% Gross margin 71.1 % 75.0 % -3.9 pts Operating expenses $ 23,076 $ 16,405 Up 41% Operating income $ 130,387 $ 81,453 Up 60% Net income $..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "67.8%",
+      "value": 67.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the $4.5 billion H20 charge  ; Broadcom's FY2025 gross margin was 67.8%  . Quarterly gross margin back above 72% by the...",
+      "section": "Investment Thesis",
+      "source": "[4] Peer data",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "gross"
+        ],
+        "hl": null,
+        "snippet": "AVGO Gross Margin 2025: 67.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "72%",
+      "value": 72.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2025 gross margin was 67.8%  . Quarterly gross margin back above 72% by the end of FY2027 (January 2027)  . Gross...",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...above 72% by the end of FY2027 (January 2027)  . Gross margin below 70% in any FY2027 quarter, or new inventory...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "70%",
+        "snippet": "Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our new DGX Spark."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.2%",
+      "value": 26.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...depend on consensus EPS being delivered. The reverse DCF implies 26.2% growth for ten years at a 15% WACC  ; the...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "imply"
+        ],
+        "hl": "26.2%",
+        "snippet": "- The current enterprise value of $3,686,007.3 million implies revenue growth of 26.2% per year for 10 years (FY2026 revenue $215,938.0 million -> about $2,218,691.4 million in FY2036), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...delivered. The reverse DCF implies 26.2% growth for ten years at a 15% WACC  ; the forward P/E is 14.9x for FY2027 and...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "15.0%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 44.8% to 44.8% by year 10, a WACC of 15.0% (10y US Treasury (^TNX) 4.8% + beta 2.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.7%",
+      "value": 27.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...14.9x for FY2027 and 8.7x for FY2028, and FY2028 EPS estimates rose 27.7% over 90 days  . FY2027 EPS at or above the $9.67...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "27.7%",
+        "snippet": "...EPS consensus next fiscal year: $16.61 today, $15.91 30 days ago, $13.00 90 days ago, change vs 90 days ago +27.7%; analysts raising/cutting in last 30 days: 7/0"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "30%",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...90 days earlier, or the reverse DCF growth requirement rises above 30%  . Free cash flow and net cash can absorb the...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "context_ok": false,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "30%",
+        "snippet": "...and bylaws. Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock...."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cash of $51.5 billion at year-end  ; two direct customers provide 36% of revenue and China is effectively closed  ....",
+      "section": "Investment Thesis",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "multiple",
+      "text": "14.9x",
+      "value": 14.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...26.2% growth for ten years at a 15% WACC  ; the forward P/E is 14.9x for FY2027 and 8.7x for FY2028, and FY2028 EPS...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "14.9",
+        "snippet": "...million to $431,684.0 million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "8.7x",
+      "value": 8.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ten years at a 15% WACC  ; the forward P/E is 14.9x for FY2027 and 8.7x for FY2028, and FY2028 EPS estimates rose 27.7%...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "forward"
+        ],
+        "hl": "8.7",
+        "snippet": "...million, 52 analysts), growth +96.2%; EPS $9.67 (range $9.39 to $10.52); forward P/E 14.9x; EV/Sales 8.7x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and 8.7x for FY2028, and FY2028 EPS estimates rose 27.7% over 90 days  . FY2027 EPS at or above the $9.67...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.05 90 days ago, change vs 90 days ago +6.8%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...year-end  . FY2027 EPS consensus falls below the $9.05 level from 90 days earlier, or the reverse DCF growth...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "context_ok": true,
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "context_words": [
+          "consensu",
+          "days"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $9.67 today, $9.31 30 days ago, $9.05 90 days ago, change vs 90 days ago +6.8%; analysts raising/cutting in last 30 days: 2/0"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$193479.0 million",
+      "value": 193479.0,
+      "unit": "million",
+      "money_mn": 193479.0,
+      "decimals": 1,
+      "context": "Compute & Networking: $193479.0 million, prior $116193.0 million; Graphics: $22459.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "193,479",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$116193.0 million",
+      "value": 116193.0,
+      "unit": "million",
+      "money_mn": 116193.0,
+      "decimals": 1,
+      "context": "Compute & Networking: $193479.0 million, prior $116193.0 million; Graphics: $22459.0 million, prior $14304.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "116,193",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22459.0 million",
+      "value": 22459.0,
+      "unit": "million",
+      "money_mn": 22459.0,
+      "decimals": 1,
+      "context": "...& Networking: $193479.0 million, prior $116193.0 million; Graphics: $22459.0 million, prior $14304.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "22,459",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14304.0 million",
+      "value": 14304.0,
+      "unit": "million",
+      "money_mn": 14304.0,
+      "decimals": 1,
+      "context": "...million, prior $116193.0 million; Graphics: $22459.0 million, prior $14304.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "context_ok": null,
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "hl": "14,304",
+        "snippet": "$ 193,479 $ 116,193 $ 77,286 67 % Graphics 22,459 14,304 8,155 57 % Total $ 215,938 $ 130,497 $ 85,441 65 %"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "AMD",
+    "AVGO",
+    "INTC"
+  ],
+  "build_round": 2,
+  "self_correct": true,
+  "round1": {
+    "total_claims": 190,
+    "matched": 166,
+    "match_rate": 0.874,
+    "name_issues": 0
+  }
+}

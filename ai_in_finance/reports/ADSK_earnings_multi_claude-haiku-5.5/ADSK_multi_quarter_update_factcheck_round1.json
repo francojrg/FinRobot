@@ -1,0 +1,2213 @@
+{
+  "context_kinds": [
+    "pct",
+    "plain",
+    "multiple"
+  ],
+  "context_matched": 92,
+  "context_match_rate": 0.885,
+  "number_only": [
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell from 25.4% in Q1 to 24.0% in Q2, though it remained above the 17.8% of Q2 FY2026  . Gross margin was broadly stable,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "17.8%",
+        "snippet": "- Net margin: FY2026 15.6%; Q1 FY2027 25.4% (year-ago n/a, n/a); Q2 FY2027 24.0% (year-ago 17.8%, better); trend deteriorating"
+      }
+    }
+  ],
+  "total_claims": 104,
+  "matched": 93,
+  "match_rate": 0.894,
+  "by_kind": {
+    "money": {
+      "total": 44,
+      "matched": 36,
+      "context_matched": 36
+    },
+    "pct": {
+      "total": 48,
+      "matched": 45,
+      "context_matched": 44
+    },
+    "plain": {
+      "total": 12,
+      "matched": 12,
+      "context_matched": 12
+    }
+  },
+  "by_source": {
+    "[1] Earnings releases": 0,
+    "[2] Forms 10-Q": 7,
+    "[3] Yahoo Finance": 83,
+    "[4] Annual report and thesis log": 3
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$971M",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...16.1% revenue growth and a higher operating margin, but debt rose $971M and the valuation still implies a 9.5% return...",
+      "section": "Headline",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...million from $2,734 million at fiscal year-end, an increase of $971 million  . Net cash still improved, so the buyback test...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$8.2 billion",
+      "value": 8.2,
+      "unit": "billion",
+      "money_mn": 8200.0,
+      "decimals": 1,
+      "context": "...threshold; EPS rose 1.6% over 90 days  . The invalidation level of $8.2 billion is not reached. The consensus path implies a...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...from -$137 million to $450 million, but total debt also rose by $971 million to $3,705 million; the sources do not state the...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "T1: AECO growth keeps total revenue growth above 15% in FY2027. Q2 FY2027 revenue growth was 16.1%  ,...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...15% in FY2027. Q2 FY2027 revenue growth was 16.1%  , above the 15% signpost. AECO growth for either quarter is not...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...to 30 days in Q2 FY2027 from 27 a year earlier  . Total debt rose $971 million since fiscal year-end to $3,705 million, and the...",
+      "section": "Risk update",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$9.49",
+      "value": 9.49,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Illustrative only: the three reported normalized quarters sum to $9.49, so reaching $12.80 requires roughly $3.31 in...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$3.31",
+      "value": 3.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...quarters sum to $9.49, so reaching $12.80 requires roughly $3.31 in the fourth quarter  . Next to watch are Q3...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...Q4 revenue growth against the 15% test, AECO growth, the use of the $971 million of new debt, and whether EPS moves above $12.80.",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarter  . Next to watch are Q3 and Q4 revenue growth against the 15% test, AECO growth, the use of the $971 million...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$971M",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...16.1% revenue growth and a higher operating margin, but debt rose $971M and the valuation still implies a 9.5% return...",
+      "section": "Headline",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Two quarters after the     , Autodesk shows 16.1% revenue growth and a higher operating margin,...",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- Revenue growth y/y: FY2026 17.5%; Q1 FY2027 n/a (year-ago n/a, n/a); Q2 FY2027 16.1% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin, but debt rose $971M and the valuation still implies a 9.5% return below WACC.",
+      "section": "Headline",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.80 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 2,
+      "context": "...up from 25.5% a year earlier  . Trailing free cash flow reached $2.80 billion at 31 July 2026  . Net cash moved to $450...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,804.0 million",
+        "snippet": "...investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current ratio 0.9x, shares outstanding 209.0 million, change in share..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$450 million",
+      "value": 450.0,
+      "unit": "million",
+      "money_mn": 450.0,
+      "decimals": 0,
+      "context": "...flow reached $2.80 billion at 31 July 2026  . Net cash moved to $450 million from net debt of $137 million at fiscal year-end...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "450.0",
+        "snippet": "- Net cash (debt): FY2026 (137.0); Q1 FY2027 200.0 (year-ago n/a, n/a); Q2 FY2027 450.0 (year-ago (498.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$137 million",
+      "value": 137.0,
+      "unit": "million",
+      "money_mn": 137.0,
+      "decimals": 0,
+      "context": "...at 31 July 2026  . Net cash moved to $450 million from net debt of $137 million at fiscal year-end  . Q1 FY2027 revenue growth...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "137.0)",
+        "snippet": "- Net cash (debt): FY2026 (137.0); Q1 FY2027 200.0 (year-ago n/a, n/a); Q2 FY2027 450.0 (year-ago (498.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8,369.1 million",
+      "value": 8369.1,
+      "unit": "million",
+      "money_mn": 8369.1,
+      "decimals": 1,
+      "context": "...not be retrieved for any quarter  . Consensus FY2027 revenue of $8,369.1 million sits $0.9 million below the $8.37 billion...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.9 million",
+      "value": 0.9,
+      "unit": "million",
+      "money_mn": 0.9,
+      "decimals": 1,
+      "context": "...any quarter  . Consensus FY2027 revenue of $8,369.1 million sits $0.9 million below the $8.37 billion signpost, and EPS of...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "0.9",
+        "snippet": "...cash -$137.0 million, free cash flow $2,376.0 million, cash runway at that burn self-funded, current ratio 0.9x, shares outstanding 212.0 million, change in share count y/y -0.9%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.37 billion",
+      "value": 8.37,
+      "unit": "billion",
+      "money_mn": 8370.0,
+      "decimals": 2,
+      "context": "...FY2027 revenue of $8,369.1 million sits $0.9 million below the $8.37 billion signpost, and EPS of $12.80 equals rather than...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...sits $0.9 million below the $8.37 billion signpost, and EPS of $12.80 equals rather than exceeds the $12.80 threshold...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...billion signpost, and EPS of $12.80 equals rather than exceeds the $12.80 threshold  . The consensus path implies a 9.5%...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,705 million",
+      "value": 3705.0,
+      "unit": "million",
+      "money_mn": 3705.0,
+      "decimals": 0,
+      "context": "...path implies a 9.5% return, below the 11.1% WACC  . Debt rose to $3,705 million from $2,734 million at fiscal year-end, and the...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3,705.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,734 million",
+      "value": 2734.0,
+      "unit": "million",
+      "money_mn": 2734.0,
+      "decimals": 0,
+      "context": "...return, below the 11.1% WACC  . Debt rose to $3,705 million from $2,734 million at fiscal year-end, and the sources do not state...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,734.0 million",
+        "snippet": "- FY2026 (10-K): cash and short-term investments $2,597.0 million, total debt $2,734.0 million, net cash -$137.0 million, free cash flow $2,376.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Autodesk's two quarters since the FY2026      show revenue growth of 16.1% in Q2 FY2027   and a GAAP operating margin of...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- Revenue growth y/y: FY2026 17.5%; Q1 FY2027 n/a (year-ago n/a, n/a); Q2 FY2027 16.1% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth of 16.1% in Q2 FY2027   and a GAAP operating margin of 29.2%, up from 25.5% a year earlier  . Trailing free...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "29.2%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.5%",
+      "value": 25.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...16.1% in Q2 FY2027   and a GAAP operating margin of 29.2%, up from 25.5% a year earlier  . Trailing free cash flow...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "25.5%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...than exceeds the $12.80 threshold  . The consensus path implies a 9.5% return, below the 11.1% WACC  . Debt rose to...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...threshold  . The consensus path implies a 9.5% return, below the 11.1% WACC  . Debt rose to $3,705 million from $2,734...",
+      "section": "Summary",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 33.0% to 33.0% by year 10, a WACC of 11.1% (10y US Treasury (^TNX) 4.8% + beta 1.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.20",
+      "value": 3.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...quarter (ended 31 October 2026) has a      and a reported EPS of $3.20 against a $3.07 estimate  , but it is not in the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.20",
+        "snippet": "- Quarter ending 2026-10-31: EPS $3.20 vs estimate $3.07 (surprise +4.3%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.07",
+      "value": 3.07,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...31 October 2026) has a      and a reported EPS of $3.20 against a $3.07 estimate  , but it is not in the scorecard and...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3.07",
+        "snippet": "- Quarter ending 2026-10-31: EPS $3.20 vs estimate $3.07 (surprise +4.3%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.33",
+      "value": 2.33,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...with opex at 62.2% of revenue versus 65.5%  . GAAP diluted EPS was $2.33 against $1.46  . Cash and short-term investments...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2.33",
+        "snippet": "- Diluted EPS: FY2026 5.23; Q1 FY2027 2.32 (year-ago n/a, n/a); Q2 FY2027 2.33 (year-ago 1.46, better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.46",
+      "value": 1.46,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...62.2% of revenue versus 65.5%  . GAAP diluted EPS was $2.33 against $1.46  . Cash and short-term investments reached $4,155...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "1.46",
+        "snippet": "- Diluted EPS: FY2026 5.23; Q1 FY2027 2.32 (year-ago n/a, n/a); Q2 FY2027 2.33 (year-ago 1.46, better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4,155 million",
+      "value": 4155.0,
+      "unit": "million",
+      "money_mn": 4155.0,
+      "decimals": 0,
+      "context": "...was $2.33 against $1.46  . Cash and short-term investments reached $4,155 million against $2,236 million a year earlier, and the...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "4,155.0",
+        "snippet": "- Cash and short-term investments: FY2026 2,597.0; Q1 FY2027 2,924.0 (year-ago n/a, n/a); Q2 FY2027 4,155.0 (year-ago 2,236.0, better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,236 million",
+      "value": 2236.0,
+      "unit": "million",
+      "money_mn": 2236.0,
+      "decimals": 0,
+      "context": ".... Cash and short-term investments reached $4,155 million against $2,236 million a year earlier, and the share count fell to...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,236.0",
+        "snippet": "...short-term investments: FY2026 2,597.0; Q1 FY2027 2,924.0 (year-ago n/a, n/a); Q2 FY2027 4,155.0 (year-ago 2,236.0, better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3,705 million",
+      "value": 3705.0,
+      "unit": "million",
+      "money_mn": 3705.0,
+      "decimals": 0,
+      "context": "...213.0 million, a 1.9% reduction  . Total debt, however, rose to $3,705 million from $2,734 million at fiscal year-end, an...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3,705.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2,734 million",
+      "value": 2734.0,
+      "unit": "million",
+      "money_mn": 2734.0,
+      "decimals": 0,
+      "context": "...1.9% reduction  . Total debt, however, rose to $3,705 million from $2,734 million at fiscal year-end, an increase of $971 million...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,734.0 million",
+        "snippet": "- FY2026 (10-K): cash and short-term investments $2,597.0 million, total debt $2,734.0 million, net cash -$137.0 million, free cash flow $2,376.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...million from $2,734 million at fiscal year-end, an increase of $971 million  . Net cash still improved, so the buyback test...",
+      "section": "Results and drivers",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...results are not available to this update  . Q2 revenue growth of 16.1% is the only top-line figure in the data  . A...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- Revenue growth y/y: FY2026 17.5%; Q1 FY2027 n/a (year-ago n/a, n/a); Q2 FY2027 16.1% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.1%",
+      "value": 27.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...so the update does not attribute it. Free cash flow margin was 27.1% in Q2 against 25.2% a year earlier, but down...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "free",
+          "margin",
+          "cashflow"
+        ],
+        "hl": "27.1%",
+        "snippet": "- Free cash flow margin: FY2026 33.0%; Q1 FY2027 44.8% (year-ago n/a, n/a); Q2 FY2027 27.1% (year-ago 25.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.2%",
+      "value": 25.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...not attribute it. Free cash flow margin was 27.1% in Q2 against 25.2% a year earlier, but down from 44.8% in Q1  . Net...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cashflow"
+        ],
+        "hl": "25.2%",
+        "snippet": "- Free cash flow margin: FY2026 33.0%; Q1 FY2027 44.8% (year-ago n/a, n/a); Q2 FY2027 27.1% (year-ago 25.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 27.1% in Q2 against 25.2% a year earlier, but down from 44.8% in Q1  . Net margin fell from 25.4% in Q1 to...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "44.8%",
+        "snippet": "- Free cash flow margin: FY2026 33.0%; Q1 FY2027 44.8% (year-ago n/a, n/a); Q2 FY2027 27.1% (year-ago 25.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.4%",
+      "value": 25.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a year earlier, but down from 44.8% in Q1  . Net margin fell from 25.4% in Q1 to 24.0% in Q2, though it remained above...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "net",
+          "margin"
+        ],
+        "hl": "25.4%",
+        "snippet": "- Net margin: FY2026 15.6%; Q1 FY2027 25.4% (year-ago n/a, n/a); Q2 FY2027 24.0% (year-ago 17.8%, better); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.0%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...but down from 44.8% in Q1  . Net margin fell from 25.4% in Q1 to 24.0% in Q2, though it remained above the 17.8% of Q2...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "net",
+          "margin"
+        ],
+        "hl": "24.0%",
+        "snippet": "- Net margin: FY2026 15.6%; Q1 FY2027 25.4% (year-ago n/a, n/a); Q2 FY2027 24.0% (year-ago 17.8%, better); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell from 25.4% in Q1 to 24.0% in Q2, though it remained above the 17.8% of Q2 FY2026  . Gross margin was broadly stable,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": false,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "17.8%",
+        "snippet": "- Net margin: FY2026 15.6%; Q1 FY2027 25.4% (year-ago n/a, n/a); Q2 FY2027 24.0% (year-ago 17.8%, better); trend deteriorating"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "91.0%",
+      "value": 91.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...above the 17.8% of Q2 FY2026  . Gross margin was broadly stable, at 91.0% in Q1 and 91.4% in Q2 (91.0% a year earlier)...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "stable"
+        ],
+        "hl": "91.0%",
+        "snippet": "- Gross margin: FY2026 91.0%; Q1 FY2027 91.0% (year-ago n/a, n/a); Q2 FY2027 91.4% (year-ago 91.0%, stable); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "91.4%",
+      "value": 91.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of Q2 FY2026  . Gross margin was broadly stable, at 91.0% in Q1 and 91.4% in Q2 (91.0% a year earlier)  .  The gains are...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "stable"
+        ],
+        "hl": "91.4%",
+        "snippet": "- Gross margin: FY2026 91.0%; Q1 FY2027 91.0% (year-ago n/a, n/a); Q2 FY2027 91.4% (year-ago 91.0%, stable); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "91.0%",
+      "value": 91.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Gross margin was broadly stable, at 91.0% in Q1 and 91.4% in Q2 (91.0% a year earlier)  .  The gains are in...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "gross",
+          "margin",
+          "stable"
+        ],
+        "hl": "91.0%",
+        "snippet": "- Gross margin: FY2026 91.0%; Q1 FY2027 91.0% (year-ago n/a, n/a); Q2 FY2027 91.4% (year-ago 91.0%, stable); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in profitability and the balance sheet. The Q2 operating margin was 29.2% against 25.5% a year earlier, with opex at 62.2%...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "29.2%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.5%",
+      "value": 25.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and the balance sheet. The Q2 operating margin was 29.2% against 25.5% a year earlier, with opex at 62.2% of revenue...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "25.5%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "62.2%",
+      "value": 62.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin was 29.2% against 25.5% a year earlier, with opex at 62.2% of revenue versus 65.5%  . GAAP diluted EPS was...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "revenue"
+        ],
+        "hl": "62.2%",
+        "snippet": "- Opex in % of revenue: FY2026 66.1%; Q1 FY2027 61.4% (year-ago n/a, n/a); Q2 FY2027 62.2% (year-ago 65.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "65.5%",
+      "value": 65.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against 25.5% a year earlier, with opex at 62.2% of revenue versus 65.5%  . GAAP diluted EPS was $2.33 against $1.46  ....",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "65.5%",
+        "snippet": "- Opex in % of revenue: FY2026 66.1%; Q1 FY2027 61.4% (year-ago n/a, n/a); Q2 FY2027 62.2% (year-ago 65.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.9%",
+      "value": 1.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and the share count fell to 209.0 million from 213.0 million, a 1.9% reduction  . Total debt, however, rose to $3,705...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "1.9%",
+        "snippet": "...at that burn self-funded, current ratio 0.9x, shares outstanding 209.0 million, change in share count y/y -1.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "4.3%",
+      "value": 4.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Normalized EPS beat consensus in all four reported quarters, by 4.3% to 7.8%  . Those figures are normalized and...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "4.3%",
+        "snippet": "- Quarter ending 2026-10-31: EPS $3.20 vs estimate $3.07 (surprise +4.3%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.8%",
+      "value": 7.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS beat consensus in all four reported quarters, by 4.3% to 7.8%  . Those figures are normalized and differ from...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "7.8%",
+        "snippet": "- Quarter ending 2026-01-31: EPS $2.85 vs estimate $2.64 (surprise +7.8%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.9%",
+      "value": 24.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from the GAAP EPS above. The scorecard's FY2026 operating margin of 24.9% also differs from the 22% in the annual report,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "24.9%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...scorecard's FY2026 operating margin of 24.9% also differs from the 22% in the annual report, so the two bases are not...",
+      "section": "Results and drivers",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "22%",
+        "snippet": "...and AECO grew 22% to $3.58 billion [1]. Earnings quality needs to improve: GAAP operating margin stayed at 22% while restructuring and commissions absorbed the gains [1]. Valuation looks full: the consensus path implies..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...here.  The problems come first. Days sales outstanding rose to 30 days in Q2 from 27 days a year earlier and from...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "30",
+        "snippet": "- Days sales outstanding: FY2026 73; Q1 FY2027 27 (year-ago n/a, n/a); Q2 FY2027 30 (year-ago 27, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "27",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...come first. Days sales outstanding rose to 30 days in Q2 from 27 days a year earlier and from 27 days in Q1  ;...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "27",
+        "snippet": "- Days sales outstanding: FY2026 73; Q1 FY2027 27 (year-ago n/a, n/a); Q2 FY2027 30 (year-ago 27, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "27",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to 30 days in Q2 from 27 days a year earlier and from 27 days in Q1  ; the scorecard marks the trend as...",
+      "section": "Results and drivers",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "27",
+        "snippet": "- Days sales outstanding: FY2026 73; Q1 FY2027 27 (year-ago n/a, n/a); Q2 FY2027 30 (year-ago 27, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "209.0",
+      "value": 209.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...against $2,236 million a year earlier, and the share count fell to 209.0 million from 213.0 million, a 1.9% reduction  ....",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "209.0",
+        "snippet": "- Share count: FY2026 212.0; Q1 FY2027 211.1 (year-ago n/a, n/a); Q2 FY2027 209.0 (year-ago 213.0, better); trend improving"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "213.0",
+      "value": 213.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...a year earlier, and the share count fell to 209.0 million from 213.0 million, a 1.9% reduction  . Total debt,...",
+      "section": "Results and drivers",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "213.0",
+        "snippet": "- Share count: FY2026 212.0; Q1 FY2027 211.1 (year-ago n/a, n/a); Q2 FY2027 209.0 (year-ago 213.0, better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$216 million",
+      "value": 216.0,
+      "unit": "million",
+      "money_mn": 216.0,
+      "decimals": 0,
+      "context": "...margin rises above 22% in FY2027 as restructuring costs fall from $216 million. Q2 FY2027 operating margin was 29.2% against...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": null,
+        "snippet": "216,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8,369.1 million",
+      "value": 8369.1,
+      "unit": "million",
+      "money_mn": 8369.1,
+      "decimals": 1,
+      "context": "...capital unless growth beats consensus. FY2027 consensus revenue is $8,369.1 million, $0.9 million below the $8.37 billion signpost,...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.9 million",
+      "value": 0.9,
+      "unit": "million",
+      "money_mn": 0.9,
+      "decimals": 1,
+      "context": "...beats consensus. FY2027 consensus revenue is $8,369.1 million, $0.9 million below the $8.37 billion signpost, and EPS is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "0.9",
+        "snippet": "...cash -$137.0 million, free cash flow $2,376.0 million, cash runway at that burn self-funded, current ratio 0.9x, shares outstanding 212.0 million, change in share count y/y -0.9%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.37 billion",
+      "value": 8.37,
+      "unit": "billion",
+      "money_mn": 8370.0,
+      "decimals": 2,
+      "context": "...consensus revenue is $8,369.1 million, $0.9 million below the $8.37 billion signpost, and EPS is $12.80, equal to rather...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...million, $0.9 million below the $8.37 billion signpost, and EPS is $12.80, equal to rather than above the threshold; EPS...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.2 billion",
+      "value": 8.2,
+      "unit": "billion",
+      "money_mn": 8200.0,
+      "decimals": 1,
+      "context": "...threshold; EPS rose 1.6% over 90 days  . The invalidation level of $8.2 billion is not reached. The consensus path implies a...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$2.0 billion",
+      "value": 2.0,
+      "unit": "billion",
+      "money_mn": 2000.0,
+      "decimals": 1,
+      "context": "...keeps the valuation thesis intact  . T4: Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual...",
+      "section": "Thesis check",
+      "source": "[2] Forms 10-Q",
+      "context_ok": null,
+      "evidence": {
+        "source": "[2] Forms 10-Q",
+        "origin": null,
+        "hl": "2026",
+        "snippet": "...business strategies, including those discussed in “Strategy,” “Overview of the Three Months Ended April 30, 2026,” and in “Results of Operations-Overview.” Examples of such forward-looking statements may relate to items..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.80 billion",
+      "value": 2.8,
+      "unit": "billion",
+      "money_mn": 2800.0,
+      "decimals": 2,
+      "context": "...billings move to annual installments. Trailing free cash flow was $2.80 billion at 31 July 2026  , and the Q1 FCF margin was...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "2,804.0 million",
+        "snippet": "...investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current ratio 0.9x, shares outstanding 209.0 million, change in share..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$137 million",
+      "value": 137.0,
+      "unit": "million",
+      "money_mn": 137.0,
+      "decimals": 0,
+      "context": "...July 2026  , and the Q1 FCF margin was 44.8%  . Net cash rose from -$137 million to $450 million, but total debt also rose by...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "137.0)",
+        "snippet": "- Net cash (debt): FY2026 (137.0); Q1 FY2027 200.0 (year-ago n/a, n/a); Q2 FY2027 450.0 (year-ago (498.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$450 million",
+      "value": 450.0,
+      "unit": "million",
+      "money_mn": 450.0,
+      "decimals": 0,
+      "context": "...the Q1 FCF margin was 44.8%  . Net cash rose from -$137 million to $450 million, but total debt also rose by $971 million to...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "450.0",
+        "snippet": "- Net cash (debt): FY2026 (137.0); Q1 FY2027 200.0 (year-ago n/a, n/a); Q2 FY2027 450.0 (year-ago (498.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...from -$137 million to $450 million, but total debt also rose by $971 million to $3,705 million; the sources do not state the...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$3,705 million",
+      "value": 3705.0,
+      "unit": "million",
+      "money_mn": 3705.0,
+      "decimals": 0,
+      "context": "...to $450 million, but total debt also rose by $971 million to $3,705 million; the sources do not state the use of the new...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3,705.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "T1: AECO growth keeps total revenue growth above 15% in FY2027. Q2 FY2027 revenue growth was 16.1%  ,...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue growth above 15% in FY2027. Q2 FY2027 revenue growth was 16.1%  , above the 15% signpost. AECO growth for...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue"
+        ],
+        "hl": "16.1%",
+        "snippet": "- Revenue growth y/y: FY2026 17.5%; Q1 FY2027 n/a (year-ago n/a, n/a); Q2 FY2027 16.1% (year-ago n/a, n/a); trend n/a"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...15% in FY2027. Q2 FY2027 revenue growth was 16.1%  , above the 15% signpost. AECO growth for either quarter is not...",
+      "section": "Thesis check",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...AECO growth for either quarter is not in the data set  , so the 18% AECO test is unverified; Q1 revenue growth is...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "aeco"
+        ],
+        "hl": "18%",
+        "snippet": "Growth should stay strong as AECO scales: revenue rose 18% and AECO grew 22% to $3.58 billion [1]. Earnings quality needs to improve: GAAP operating margin stayed at..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...is carried from the baseline. T2: GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "gaap",
+          "restructuring",
+          "operating",
+          "margin"
+        ],
+        "hl": "22%",
+        "snippet": "...and AECO grew 22% to $3.58 billion [1]. Earnings quality needs to improve: GAAP operating margin stayed at 22% while restructuring and commissions absorbed the gains [1]. Valuation looks full: the consensus path implies..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29.2%",
+      "value": 29.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...costs fall from $216 million. Q2 FY2027 operating margin was 29.2% against 25.5% a year earlier  . Quarterly...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "29.2%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25.5%",
+      "value": 25.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from $216 million. Q2 FY2027 operating margin was 29.2% against 25.5% a year earlier  . Quarterly restructuring...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "operating",
+          "margin"
+        ],
+        "hl": "25.5%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.9%",
+      "value": 24.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...until the FY2027 annual report; the scorecard margin basis (FY2026 24.9%) differs from the 22% baseline  . T3: At the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "24.9%",
+        "snippet": "- Operating margin: FY2026 24.9%; Q1 FY2027 29.5% (year-ago n/a, n/a); Q2 FY2027 29.2% (year-ago 25.5%, better); trend stable"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...report; the scorecard margin basis (FY2026 24.9%) differs from the 22% baseline  . T3: At the current price, the stock...",
+      "section": "Thesis check",
+      "source": "[4] Annual report and thesis log",
+      "context_ok": true,
+      "evidence": {
+        "source": "[4] Annual report and thesis log",
+        "origin": null,
+        "context_words": [
+          "margin"
+        ],
+        "hl": "22%",
+        "snippet": "...and AECO grew 22% to $3.58 billion [1]. Earnings quality needs to improve: GAAP operating margin stayed at 22% while restructuring and commissions absorbed the gains [1]. Valuation looks full: the consensus path implies..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.6%",
+      "value": 1.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...EPS is $12.80, equal to rather than above the threshold; EPS rose 1.6% over 90 days  . The invalidation level of $8.2...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "1.6%",
+        "snippet": "...consensus current fiscal year: $12.80 today, $12.61 30 days ago, $12.60 90 days ago, change vs 90 days ago +1.6%; analysts raising/cutting in last 30 days: 17/15"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...level of $8.2 billion is not reached. The consensus path implies a 9.5% return against an 11.1% WACC, which keeps the...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "path"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is not reached. The consensus path implies a 9.5% return against an 11.1% WACC, which keeps the valuation thesis intact  ....",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 33.0% to 33.0% by year 10, a WACC of 11.1% (10y US Treasury (^TNX) 4.8% + beta 1.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.8%",
+      "value": 44.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...flow was $2.80 billion at 31 July 2026  , and the Q1 FCF margin was 44.8%  . Net cash rose from -$137 million to $450...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "margin",
+          "cashflow"
+        ],
+        "hl": "44.8%",
+        "snippet": "- Free cash flow margin: FY2026 33.0%; Q1 FY2027 44.8% (year-ago n/a, n/a); Q2 FY2027 27.1% (year-ago 25.2%, stable); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...equal to rather than above the threshold; EPS rose 1.6% over 90 days  . The invalidation level of $8.2 billion...",
+      "section": "Thesis check",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $12.80 today, $12.61 30 days ago, $12.60 90 days ago, change vs 90 days ago +1.6%; analysts raising/cutting in last 30 days: 17/15"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...to 30 days in Q2 FY2027 from 27 a year earlier  . Total debt rose $971 million since fiscal year-end to $3,705 million, and the...",
+      "section": "Risk update",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$3,705 million",
+      "value": 3705.0,
+      "unit": "million",
+      "money_mn": 3705.0,
+      "decimals": 0,
+      "context": "...earlier  . Total debt rose $971 million since fiscal year-end to $3,705 million, and the sources do not give the purpose  . The...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "3,705.0 million",
+        "snippet": "- Latest quarter (2026-07-31): cash and short-term investments $4,155.0 million, total debt $3,705.0 million, net cash $450.0 million, TTM free cash flow $2,804.0 million, cash runway at that burn self-funded, current..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$450 million",
+      "value": 450.0,
+      "unit": "million",
+      "money_mn": 450.0,
+      "decimals": 0,
+      "context": "...says acquisitions can cause  . Risks that eased: net cash moved to a $450 million surplus and the share count fell 1.9% year on...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "450.0",
+        "snippet": "- Net cash (debt): FY2026 (137.0); Q1 FY2027 200.0 (year-ago n/a, n/a); Q2 FY2027 450.0 (year-ago (498.0), better); trend improving"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.9%",
+      "value": 1.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...net cash moved to a $450 million surplus and the share count fell 1.9% year on year  . The      risk summary still...",
+      "section": "Risk update",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "count",
+          "pershare"
+        ],
+        "hl": "1.9%",
+        "snippet": "...at that burn self-funded, current ratio 0.9x, shares outstanding 209.0 million, change in share count y/y -1.9%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...materialised: collections slowed, as days sales outstanding rose to 30 days in Q2 FY2027 from 27 a year earlier  ....",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "30",
+        "snippet": "- Days sales outstanding: FY2026 73; Q1 FY2027 27 (year-ago n/a, n/a); Q2 FY2027 30 (year-ago 27, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "27",
+      "value": 27.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...slowed, as days sales outstanding rose to 30 days in Q2 FY2027 from 27 a year earlier  . Total debt rose $971 million...",
+      "section": "Risk update",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "outstanding",
+          "days",
+          "revenue"
+        ],
+        "hl": "27",
+        "snippet": "- Days sales outstanding: FY2026 73; Q1 FY2027 27 (year-ago n/a, n/a); Q2 FY2027 30 (year-ago 27, worse); trend deteriorating"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8,369.1 million",
+      "value": 8369.1,
+      "unit": "million",
+      "money_mn": 8369.1,
+      "decimals": 1,
+      "context": "Consensus expects FY2027 revenue of $8,369.1 million (+16.1%) and normalized EPS of $12.80, up 1.6%...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "8,369.1 million",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FY2027 revenue of $8,369.1 million (+16.1%) and normalized EPS of $12.80, up 1.6% over 90 days, with 17 upward and 15...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9,264.6 million",
+      "value": 9264.6,
+      "unit": "million",
+      "money_mn": 9264.6,
+      "decimals": 1,
+      "context": "...15 downward revisions in the last 30 days  . FY2028 consensus is $9,264.6 million (+10.7%) and EPS of $14.25  . The reverse DCF...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "9,264.6 million",
+        "snippet": "- FY2028E: revenue $9,264.6 million (range $9,026.5 million to $9,894.0 million, 34 analysts), growth +10.7%; EPS $14.25 (range $13.34 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$14.25",
+      "value": 14.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...30 days  . FY2028 consensus is $9,264.6 million (+10.7%) and EPS of $14.25  . The reverse DCF implies 11.3% annual revenue...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "14.25",
+        "snippet": "...revenue $9,264.6 million (range $9,026.5 million to $9,894.0 million, 34 analysts), growth +10.7%; EPS $14.25 (range $13.34 to $15.64); forward P/E 17.3x; EV/Sales 5.7x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$9.49",
+      "value": 9.49,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Illustrative only: the three reported normalized quarters sum to $9.49, so reaching $12.80 requires roughly $3.31 in...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the three reported normalized quarters sum to $9.49, so reaching $12.80 requires roughly $3.31 in the fourth quarter  ....",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.31",
+      "value": 3.31,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...quarters sum to $9.49, so reaching $12.80 requires roughly $3.31 in the fourth quarter  . Next to watch are Q3...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$971 million",
+      "value": 971.0,
+      "unit": "million",
+      "money_mn": 971.0,
+      "decimals": 0,
+      "context": "...Q4 revenue growth against the 15% test, AECO growth, the use of the $971 million of new debt, and whether EPS moves above $12.80.",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...use of the $971 million of new debt, and whether EPS moves above $12.80.",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": null,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "hl": "12.80",
+        "snippet": "...revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.1%",
+      "value": 16.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "Consensus expects FY2027 revenue of $8,369.1 million (+16.1%) and normalized EPS of $12.80, up 1.6% over 90...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "revenue",
+          "pershare"
+        ],
+        "hl": "16.1%",
+        "snippet": "- FY2027E: revenue $8,369.1 million (range $8,360.2 million to $8,375.5 million, 26 analysts), growth +16.1%; EPS $12.80 (range $12.58 to $14.64); forward P/E 19.3x; EV/Sales 6.3x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.6%",
+      "value": 1.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of $8,369.1 million (+16.1%) and normalized EPS of $12.80, up 1.6% over 90 days, with 17 upward and 15 downward...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "1.6%",
+        "snippet": "...consensus current fiscal year: $12.80 today, $12.61 30 days ago, $12.60 90 days ago, change vs 90 days ago +1.6%; analysts raising/cutting in last 30 days: 17/15"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.7%",
+      "value": 10.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the last 30 days  . FY2028 consensus is $9,264.6 million (+10.7%) and EPS of $14.25  . The reverse DCF implies...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "pershare"
+        ],
+        "hl": "10.7%",
+        "snippet": "- FY2028E: revenue $9,264.6 million (range $9,026.5 million to $9,894.0 million, 34 analysts), growth +10.7%; EPS $14.25 (range $13.34 to $15.64); forward P/E 17.3x; EV/Sales 5.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.3%",
+      "value": 11.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...million (+10.7%) and EPS of $14.25  . The reverse DCF implies 11.3% annual revenue growth against 12.9% historical,...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "imply",
+          "revenue"
+        ],
+        "hl": "11.3%",
+        "snippet": "- The current enterprise value of $52,991.3 million implies revenue growth of 11.3% per year for 10 years (FY2026 revenue $7,206.0 million -> about $21,005.1 million in FY2036), assuming the..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.9%",
+      "value": 12.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The reverse DCF implies 11.3% annual revenue growth against 12.9% historical, and the consensus path yields 9.5%...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "historical",
+          "revenue"
+        ],
+        "hl": "12.9%",
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.9%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.5%",
+      "value": 9.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth against 12.9% historical, and the consensus path yields 9.5% against an 11.1% WACC  . Illustrative only: the...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "yield",
+          "path"
+        ],
+        "hl": "9.5%",
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.5% per year (-1.6 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.1%",
+      "value": 11.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...12.9% historical, and the consensus path yields 9.5% against an 11.1% WACC  . Illustrative only: the three reported...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "wacc"
+        ],
+        "hl": "11.1%",
+        "snippet": "...million in FY2036), assuming the free cash flow margin moves from 33.0% to 33.0% by year 10, a WACC of 11.1% (10y US Treasury (^TNX) 4.8% + beta 1.25 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...quarter  . Next to watch are Q3 and Q4 revenue growth against the 15% test, AECO growth, the use of the $971 million...",
+      "section": "Outlook",
+      "source": null,
+      "context_ok": null
+    },
+    {
+      "kind": "plain",
+      "text": "90",
+      "value": 90.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...million (+16.1%) and normalized EPS of $12.80, up 1.6% over 90 days, with 17 upward and 15 downward revisions...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "90",
+        "snippet": "- EPS consensus current fiscal year: $12.80 today, $12.61 30 days ago, $12.60 90 days ago, change vs 90 days ago +1.6%; analysts raising/cutting in last 30 days: 17/15"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "17",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(+16.1%) and normalized EPS of $12.80, up 1.6% over 90 days, with 17 upward and 15 downward revisions in the last 30...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "17",
+        "snippet": "...30 days ago, $12.60 90 days ago, change vs 90 days ago +1.6%; analysts raising/cutting in last 30 days: 17/15"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...normalized EPS of $12.80, up 1.6% over 90 days, with 17 upward and 15 downward revisions in the last 30 days  . FY2028...",
+      "section": "Outlook",
+      "source": "[3] Yahoo Finance",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days",
+          "pershare"
+        ],
+        "hl": "15",
+        "snippet": "...30 days ago, $12.60 90 days ago, change vs 90 days ago +1.6%; analysts raising/cutting in last 30 days: 17/15 - EPS consensus next fiscal year: $14.25 today, $14.20 30 days ago, $14.23 90 days ago, change vs 90 days ago..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...over 90 days, with 17 upward and 15 downward revisions in the last 30 days  . FY2028 consensus is $9,264.6 million...",
+      "section": "Outlook",
+      "source": "[2] Forms 10-Q",
+      "context_ok": true,
+      "evidence": {
+        "source": "[3] Yahoo Finance",
+        "origin": null,
+        "context_words": [
+          "days"
+        ],
+        "hl": "30",
+        "snippet": "- Days sales outstanding: FY2026 73; Q1 FY2027 27 (year-ago n/a, n/a); Q2 FY2027 30 (year-ago 27, worse); trend deteriorating"
+      }
+    }
+  ],
+  "build_round": 1
+}

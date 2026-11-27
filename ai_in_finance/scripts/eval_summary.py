@@ -32,6 +32,8 @@ def main():
     rows, sample = [], []
     rnd = random.Random(42)
     for fc_path in sorted(glob.glob(str(AIF / "reports" / "**" / "*_factcheck.json"), recursive=True)):
+        if "archive" in Path(fc_path).parts:  # Archivkopien der App nicht doppelt zaehlen
+            continue
         if "prototypes" in fc_path or fc_path.endswith("_round1.json"):
             continue
         fc = json.load(open(fc_path, encoding="utf-8"))
@@ -81,7 +83,12 @@ def main():
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
-    with open(out_dir / "manual_review_sample.csv", "w", newline="", encoding="utf-8") as f:
+    sample_path = out_dir / "manual_review_sample.csv"
+    if sample_path.exists() and any(str(r.get("manual_correct", "")).strip() for r in
+                                    csv.DictReader(open(sample_path, encoding="utf-8"))):
+        sample_path = out_dir / "manual_review_sample_new.csv"      # bereits gelabelte Stichprobe nicht ueberschreiben
+        print(f"Hinweis: manual_review_sample.csv enthaelt Labels und bleibt unveraendert; neue Stichprobe: {sample_path}")
+    with open(sample_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["report", "group", "section", "figure", "matched_source", "context",
                                           "manual_correct"])
         w.writeheader()
@@ -91,7 +98,7 @@ def main():
         q = f"{r['match_rate'] * 100:.0f}%" if r.get("match_rate") is not None else "-"
         print(f"{r['report'][:55]:55} {r['type'][:22]:22} {str(r.get('model'))[:22]:22} {str(r.get('claims', '-')):>7} "
               f"{q:>6} {str(r.get('name_issues', '-')):>5} {str(r.get('seconds') or '-'):>6} {str(r.get('cost_usd') or '-'):>6}")
-    print(f"\nGespeichert: {out_dir / 'eval_results.csv'} und {out_dir / 'manual_review_sample.csv'}")
+    print(f"\nGespeichert: {out_dir / 'eval_results.csv'} und {sample_path}")
 
 
 def _rate(d):

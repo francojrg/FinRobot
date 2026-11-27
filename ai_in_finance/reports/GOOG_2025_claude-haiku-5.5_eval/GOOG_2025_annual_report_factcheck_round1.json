@@ -1,0 +1,3445 @@
+{
+  "total_claims": 209,
+  "matched": 199,
+  "match_rate": 0.952,
+  "by_kind": {
+    "money": {
+      "total": 96,
+      "matched": 94
+    },
+    "pct": {
+      "total": 94,
+      "matched": 86
+    },
+    "plain": {
+      "total": 15,
+      "matched": 15
+    },
+    "multiple": {
+      "total": 4,
+      "matched": 4
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 120,
+    "[2] Yahoo Finance": 29,
+    "[2][3] Liquidity and consensus": 34,
+    "[4] Peer data": 16
+  },
+  "unmatched": [
+    {
+      "kind": "money",
+      "text": "$3.34",
+      "value": 3.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...requires sustained acceleration. At the current enterprise value of $3.34 trillion, the reverse DCF needs 21.2% annual...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Free cash flow was flat at $73.3 billion as capital spending rose 74%, and total debt more than doubled  .  The...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$3.34",
+      "value": 3.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...uses a later share price of $276.71 and an enterprise value of $3.34 trillion, so the valuation analysis reflects...",
+      "section": "Market Position",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "32.8%",
+      "value": 32.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  Headline earnings overstate the core business. Net margin rose to 32.8% from 28.6%, helped by $24.1 billion of equity...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...flow shows the cost of the AI build-out. Operating cash flow rose 31% to $164.7 billion, but capital expenditure rose...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cash flow rose 31% to $164.7 billion, but capital expenditure rose 74% to $91.4 billion, so free cash flow was nearly...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...on $342.7 billion of revenue, an illustrative margin of about 41%  . Google Cloud's operating income of $13.9...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cost-per-click up 7%  . Google Services operating margin was about 41%  . Search and other revenue growth of at least...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...so free cash flow stays flat and debt keeps rising. Capex rose 74% to $91.4 billion, operating cash flow rose 31%...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rising. Capex rose 74% to $91.4 billion, operating cash flow rose 31% to $164.7 billion, and free cash flow was $73.3...",
+      "section": "Investment Thesis",
+      "source": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$73.3 billion",
+      "value": 73.3,
+      "unit": "billion",
+      "money_mn": 73300.0,
+      "decimals": 1,
+      "context": ".... Capex and debt are the main risk, as free cash flow stayed flat at $73.3 billion while total debt more than doubled  .",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "73,266,000,000 USD"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...group profitability, as Cloud operating margin reached about 24% from 14%  . Search should keep funding the AI...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...profitability, as Cloud operating margin reached about 24% from 14%  . Search should keep funding the AI build-out,...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and development expenses $ 49,326 $ 61,087 Research and development expenses as a percentage of revenues 14 % 15 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Search should keep funding the AI build-out, since paid clicks rose 6% and cost-per-click 7% in 2025  . The shares...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...the AI build-out, since paid clicks rose 6% and cost-per-click 7% in 2025  . The shares already price in...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.2%",
+      "value": 21.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... The shares already price in acceleration: the reverse DCF needs 21.2% revenue growth for ten years, against 12.5%...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $3,339,797.9 million implies revenue growth of 21.2% per year for 10 years (FY2025 revenue $402,836.0 million -> about $2,759,541.2 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the reverse DCF needs 21.2% revenue growth for ten years, against 12.5% historically  . Capex and debt are the main...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$402.8 billion",
+      "value": 402.8,
+      "unit": "billion",
+      "money_mn": 402800.0,
+      "decimals": 1,
+      "context": "Alphabet grew 2025 revenue 15% to $402.8 billion, and Google Cloud revenue rose 36% while its...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.9 billion",
+      "value": 13.9,
+      "unit": "billion",
+      "money_mn": 13900.0,
+      "decimals": 1,
+      "context": "...revenue rose 36% while its operating income more than doubled to $13.9 billion  . Normalized net income grew about 14%, well...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.1 billion",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...grew about 14%, well below the 34% headline EPS rise that included $24.1 billion of equity gains  . Free cash flow was flat at...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• OI&E of $29.8 billion for the year ended December 31, 2025 included net gains on equity securities of $24.1 billion, primarily related to unrealized gains on our non-marketable equity securities."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73.3 billion",
+      "value": 73.3,
+      "unit": "billion",
+      "money_mn": 73300.0,
+      "decimals": 1,
+      "context": "...$24.1 billion of equity gains  . Free cash flow was flat at $73.3 billion as capital spending rose 74%, and total debt...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "73,266,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.34",
+      "value": 3.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...requires sustained acceleration. At the current enterprise value of $3.34 trillion, the reverse DCF needs 21.2% annual...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Alphabet grew 2025 revenue 15% to $402.8 billion, and Google Cloud revenue rose...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2025 revenue 15% to $402.8 billion, and Google Cloud revenue rose 36% while its operating income more than doubled to...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...than doubled to $13.9 billion  . Normalized net income grew about 14%, well below the 34% headline EPS rise that...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and development expenses $ 49,326 $ 61,087 Research and development expenses as a percentage of revenues 14 % 15 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34%",
+      "value": 34.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion  . Normalized net income grew about 14%, well below the 34% headline EPS rise that included $24.1 billion of...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 8.04 $ 10.81 $ 2.77 34 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Free cash flow was flat at $73.3 billion as capital spending rose 74%, and total debt more than doubled  .  The...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "21.2%",
+      "value": 21.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...current enterprise value of $3.34 trillion, the reverse DCF needs 21.2% annual revenue growth for ten years, against a...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $3,339,797.9 million implies revenue growth of 21.2% per year for 10 years (FY2025 revenue $402,836.0 million -> about $2,759,541.2 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...DCF needs 21.2% annual revenue growth for ten years, against a 12.5% three-year historical CAGR and 24.0% consensus...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.0%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for ten years, against a 12.5% three-year historical CAGR and 24.0% consensus growth for 2026  . Consensus data is...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.0%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Consensus data is dated after the     . The implied return of 9.0% sits below the 11.0% WACC  .  Our view: the...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.0% per year (-2.1 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.0%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is dated after the     . The implied return of 9.0% sits below the 11.0% WACC  .  Our view: the shares price in a growth...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$402.8 billion",
+      "value": 402.8,
+      "unit": "billion",
+      "money_mn": 402800.0,
+      "decimals": 1,
+      "context": "...video, advertising, cloud and AI products generated revenues of $402.8 billion in 2025, up 15% from $350.0 billion in 2024  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$350.0 billion",
+      "value": 350.0,
+      "unit": "billion",
+      "money_mn": 350000.0,
+      "decimals": 1,
+      "context": "...products generated revenues of $402.8 billion in 2025, up 15% from $350.0 billion in 2024  . Advertising, which the filing says...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 $ Change % Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$342.7 billion",
+      "value": 342.7,
+      "unit": "billion",
+      "money_mn": 342700.0,
+      "decimals": 1,
+      "context": "...which includes Search, YouTube, Android and Chrome, produced $342.7 billion of revenue, up 12%, and $139.4 billion of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$139.4 billion",
+      "value": 139.4,
+      "unit": "billion",
+      "money_mn": 139400.0,
+      "decimals": 1,
+      "context": "...Android and Chrome, produced $342.7 billion of revenue, up 12%, and $139.4 billion of operating income  . Within it, Google Search...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.4 billion",
+      "value": 26.4,
+      "unit": "billion",
+      "money_mn": 26400.0,
+      "decimals": 1,
+      "context": "...of operating income  . Within it, Google Search and other grew $26.4 billion to $224.5 billion on higher query volume from...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Google Search & other revenues increased $26.4 billion from 2024 to 2025. The overall growth was driven by interrelated factors including increases in search..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$224.5 billion",
+      "value": 224.5,
+      "unit": "billion",
+      "money_mn": 224500.0,
+      "decimals": 1,
+      "context": "...income  . Within it, Google Search and other grew $26.4 billion to $224.5 billion on higher query volume from mobile usage,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 Google Search & other $ 198,084 $ 224,532 YouTube ads 36,147 40,367 Google Network 30,359 29,792 Google advertising 264,590 294,691 Google..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$58.7 billion",
+      "value": 58.7,
+      "unit": "billion",
+      "money_mn": 58700.0,
+      "decimals": 1,
+      "context": "...Cloud is the fastest-growing part of the group. Revenue rose 36% to $58.7 billion from $43.2 billion, and operating income more...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.2 billion",
+      "value": 43.2,
+      "unit": "billion",
+      "money_mn": 43200.0,
+      "decimals": 1,
+      "context": "...part of the group. Revenue rose 36% to $58.7 billion from $43.2 billion, and operating income more than doubled to $13.9...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.9 billion",
+      "value": 13.9,
+      "unit": "billion",
+      "money_mn": 13900.0,
+      "decimals": 1,
+      "context": "...from $43.2 billion, and operating income more than doubled to $13.9 billion from $6.1 billion, an illustrative margin of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.1 billion",
+      "value": 6.1,
+      "unit": "billion",
+      "money_mn": 6100.0,
+      "decimals": 1,
+      "context": "...and operating income more than doubled to $13.9 billion from $6.1 billion, an illustrative margin of about 24% against 14%...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Year Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.0 billion",
+      "value": 32.0,
+      "unit": "billion",
+      "money_mn": 32000.0,
+      "decimals": 1,
+      "context": "...in 2026 extend the platform: Wiz, a cloud security business, for $32.0 billion, and Intersect, a data center and energy...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• In 2025, we entered into definitive agreements to acquire Wiz, a leading cloud security platform, for $32.0 billion, and Intersect, a provider of data center and energy infrastructure solutions, for $4.8 billion in cash plus..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.8 billion",
+      "value": 4.8,
+      "unit": "billion",
+      "money_mn": 4800.0,
+      "decimals": 1,
+      "context": "...Intersect, a data center and energy infrastructure provider, for $4.8 billion plus assumed debt  .  Other Bets, which includes...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...for $32.0 billion, and Intersect, a provider of data center and energy infrastructure solutions, for $4.8 billion in cash plus the assumption of debt. Both acquisitions are expected to close in 2026, subject to customary..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.5 billion",
+      "value": 1.5,
+      "unit": "billion",
+      "money_mn": 1500.0,
+      "decimals": 1,
+      "context": "...plus assumed debt  .  Other Bets, which includes Waymo, generated $1.5 billion of revenue, but its operating loss widened by...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.1 billion",
+      "value": 3.1,
+      "unit": "billion",
+      "money_mn": 3100.0,
+      "decimals": 1,
+      "context": "...$1.5 billion of revenue, but its operating loss widened by $3.1 billion to $7.5 billion, mainly because of a $2.1...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Other Bets operating loss increased $3.1 billion from 2024 to 2025. The increase in operating loss was primarily driven by an increase in employee..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.5 billion",
+      "value": 7.5,
+      "unit": "billion",
+      "money_mn": 7500.0,
+      "decimals": 1,
+      "context": "...of revenue, but its operating loss widened by $3.1 billion to $7.5 billion, mainly because of a $2.1 billion...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Other Bets operating loss of $7.5 billion for the year ended December 31, 2025 included a $2.1 billion employee compensation charge recognized in the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.1 billion",
+      "value": 2.1,
+      "unit": "billion",
+      "money_mn": 2100.0,
+      "decimals": 1,
+      "context": "...loss widened by $3.1 billion to $7.5 billion, mainly because of a $2.1 billion valuation-based compensation charge for Waymo...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Other Bets operating loss of $7.5 billion for the year ended December 31, 2025 included a $2.1 billion employee compensation charge recognized in the fourth quarter for Waymo, primarily reflected in research and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.8 billion",
+      "value": 16.8,
+      "unit": "billion",
+      "money_mn": 16800.0,
+      "decimals": 1,
+      "context": "...AI research and development not allocated to the segments, added a $16.8 billion operating loss  . In February 2026, Waymo...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "(10,541) (16,760) Total income from operations $ 112,390 $ 129,039 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.0 billion",
+      "value": 16.0,
+      "unit": "billion",
+      "money_mn": 16000.0,
+      "decimals": 1,
+      "context": "...$16.8 billion operating loss  . In February 2026, Waymo announced a $16.0 billion funding round, the significant majority of which...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...expenses, based on estimated stock valuation. In February 2026, Waymo announced an investment round of $16.0 billion, the significant majority of which was funded by Alphabet."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$0.21",
+      "value": 0.21,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...shareholder-friendly: the quarterly dividend was raised 5% to $0.21, and $45.4 billion was spent on buybacks in 2025...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "In April 2025, the company's Board of Directors increased the quarterly cash dividend by 5% to $0.21 per share of outstanding Class A, Class B, and Class C shares."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45.4 billion",
+      "value": 45.4,
+      "unit": "billion",
+      "money_mn": 45400.0,
+      "decimals": 1,
+      "context": "...the quarterly dividend was raised 5% to $0.21, and $45.4 billion was spent on buybacks in 2025  . The business is...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Repurchases of Class A and Class C shares were $6.5 billion and $38.9 billion, respectively, totaling $45.4 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and AI products generated revenues of $402.8 billion in 2025, up 15% from $350.0 billion in 2024  . Advertising,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in 2024  . Advertising, which the filing says makes up more than 70% of revenues, remains the foundation of the group...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "We generated more than 70% of total revenues from online advertising in 2025. Many of our advertisers, companies that distribute our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...YouTube, Android and Chrome, produced $342.7 billion of revenue, up 12%, and $139.4 billion of operating income  ....",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Cloud is the fastest-growing part of the group. Revenue rose 36% to $58.7 billion from $43.2 billion, and...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $13.9 billion from $6.1 billion, an illustrative margin of about 24% against 14% a year earlier  . Growth came mainly...",
+      "section": "Business Overview",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $6.1 billion, an illustrative margin of about 24% against 14% a year earlier  . Growth came mainly from Google...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and development expenses $ 49,326 $ 61,087 Research and development expenses as a percentage of revenues 14 % 15 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...remained shareholder-friendly: the quarterly dividend was raised 5% to $0.21, and $45.4 billion was spent on...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...expenses $ 14,188 $ 21,482 General and administrative expenses as a percentage of revenues 4 % 5 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...including Ironwood, third-party GPUs and the Gemini models. All 15 of the company's half-billion-user products use...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...things done by embedding the power of generative AI and Gemini into our products and platforms. Today, all 15 of our half-billion-user products — including seven with two billion users — use our Gemini models. For our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$332.69",
+      "value": 332.69,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...cloud providers  .  At the filing date, the share price was $332.69, within a 52-week range of $141.99 to $349.47,...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "332.69"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$141.99",
+      "value": 141.99,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...filing date, the share price was $332.69, within a 52-week range of $141.99 to $349.47, and the market capitalisation was...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "141.99 - 349.47"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$349.47",
+      "value": 349.47,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the share price was $332.69, within a 52-week range of $141.99 to $349.47, and the market capitalisation was about $4.0...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "141.99 - 349.47"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.0",
+      "value": 4.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...of $141.99 to $349.47, and the market capitalisation was about $4.0 trillion  . The analyst consensus rating is Buy,...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "4."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$389",
+      "value": 389.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... The analyst consensus rating is Buy, with a mean target price of $389 (range $320 to $460) from about 50 analysts;...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "389.00 (range 320.00 - 460.00), current consensus as of 2026-11-24, not as of 2026-02-05"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$320",
+      "value": 320.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...consensus rating is Buy, with a mean target price of $389 (range $320 to $460) from about 50 analysts; these figures...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "389.00 (range 320.00 - 460.00), current consensus as of 2026-11-24, not as of 2026-02-05"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$460)",
+      "value": 460.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rating is Buy, with a mean target price of $389 (range $320 to $460) from about 50 analysts; these figures are dated...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "389.00 (range 320.00 - 460.00), current consensus as of 2026-11-24, not as of 2026-02-05"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$276.71",
+      "value": 276.71,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...after the       . Consensus valuation uses a later share price of $276.71 and an enterprise value of $3.34 trillion, so...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Forward multiples use the current share price of $276.82 and the current enterprise value. EPS methodology: normalized."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.34",
+      "value": 3.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...uses a later share price of $276.71 and an enterprise value of $3.34 trillion, so the valuation analysis reflects...",
+      "section": "Market Position",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$499.7 billion",
+      "value": 499.7,
+      "unit": "billion",
+      "money_mn": 499700.0,
+      "decimals": 1,
+      "context": "...analysis reflects that later price  . Consensus revenue for 2026 is $499.7 billion, up 24.0%  .  Against the peer set, Alphabet...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "499713"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$716.9 billion",
+      "value": 716.9,
+      "unit": "billion",
+      "money_mn": 716900.0,
+      "decimals": 1,
+      "context": "...peer set, Alphabet ranks second by 2025 revenue, behind Amazon's $716.9 billion and ahead of Microsoft's $281.7 billion and...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "716924"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$281.7 billion",
+      "value": 281.7,
+      "unit": "billion",
+      "money_mn": 281700.0,
+      "decimals": 1,
+      "context": "...revenue, behind Amazon's $716.9 billion and ahead of Microsoft's $281.7 billion and Meta's $201.0 billion  . Its share of...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "281724"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$201.0 billion",
+      "value": 201.0,
+      "unit": "billion",
+      "money_mn": 201000.0,
+      "decimals": 1,
+      "context": "...$716.9 billion and ahead of Microsoft's $281.7 billion and Meta's $201.0 billion  . Its share of advertising or cloud markets is...",
+      "section": "Market Position",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "200966"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$58.7 billion",
+      "value": 58.7,
+      "unit": "billion",
+      "money_mn": 58700.0,
+      "decimals": 1,
+      "context": "...challenger in cloud, where growth of 36% is set against a $58.7 billion revenue base  . Consensus expects revenue of...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$636.4 billion",
+      "value": 636.4,
+      "unit": "billion",
+      "money_mn": 636400.0,
+      "decimals": 1,
+      "context": "...a $58.7 billion revenue base  . Consensus expects revenue of $636.4 billion in FY2027, up 27.4%, although the analyst range...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "636424"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$545.1 billion",
+      "value": 545.1,
+      "unit": "billion",
+      "money_mn": 545100.0,
+      "decimals": 1,
+      "context": "...billion in FY2027, up 27.4%, although the analyst range runs from $545.1 billion to $697.1 billion, so the forecast is wide  .",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x;..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$697.1 billion",
+      "value": 697.1,
+      "unit": "billion",
+      "money_mn": 697100.0,
+      "decimals": 1,
+      "context": "...up 27.4%, although the analyst range runs from $545.1 billion to $697.1 billion, so the forecast is wide  .",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x; EV/Sales 5.2x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48%",
+      "value": 48.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rests on scale and distribution. Revenue by geography in 2025 was 48% United States, 29% EMEA, 17% APAC and 6% other...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 United States 49 % 48 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "29%",
+      "value": 29.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...distribution. Revenue by geography in 2025 was 48% United States, 29% EMEA, 17% APAC and 6% other Americas, so about...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "29 % 29 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17%",
+      "value": 17.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Revenue by geography in 2025 was 48% United States, 29% EMEA, 17% APAC and 6% other Americas, so about 52% of...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "16 % 17 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by geography in 2025 was 48% United States, 29% EMEA, 17% APAC and 6% other Americas, so about 52% of revenue came...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...United States, 29% EMEA, 17% APAC and 6% other Americas, so about 52% of revenue came from outside the US, and the US...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...income, and we plan to continue growing internationally. International revenues accounted for approximately 52% of consolidated revenues in 2025. In addition to risks described elsewhere in this section, our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "49%",
+      "value": 49.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...52% of revenue came from outside the US, and the US share fell from 49% in 2024  . The filing does not disclose market...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 United States 49 % 48 %"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.0%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...later price  . Consensus revenue for 2026 is $499.7 billion, up 24.0%  .  Against the peer set, Alphabet ranks second...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...terms, and as a fast-growing challenger in cloud, where growth of 36% is set against a $58.7 billion revenue base  ....",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "27.4%",
+      "value": 27.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...base  . Consensus expects revenue of $636.4 billion in FY2027, up 27.4%, although the analyst range runs from $545.1...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x; EV/Sales 5.2x"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "50",
+      "value": 50.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...with a mean target price of $389 (range $320 to $460) from about 50 analysts; these figures are dated after the...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2027E: revenue $636,424.1 million (range $545,052.0 million to $697,100.0 million, 50 analysts), growth +27.4%; EPS $15.29 (range $13.13 to $18.28); forward P/E 18.1x; EV/Sales 5.2x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$402.8 billion",
+      "value": 402.8,
+      "unit": "billion",
+      "money_mn": 402800.0,
+      "decimals": 1,
+      "context": "Revenue rose 15% to $402.8 billion in 2025, led by Google Cloud (up 36%) and Google...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$111.3 billion",
+      "value": 111.3,
+      "unit": "billion",
+      "money_mn": 111300.0,
+      "decimals": 1,
+      "context": ".... Cost of revenues grew 11%, but operating expenses rose 22% to $111.3 billion, as legal and other matters added $6.2 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Operating ex penses were $111.3 billion, an increase of 22% ye ar over year, primarily driven by increases in employee compensation expenses,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.2 billion",
+      "value": 6.2,
+      "unit": "billion",
+      "money_mn": 6200.0,
+      "decimals": 1,
+      "context": "...rose 22% to $111.3 billion, as legal and other matters added $6.2 billion, including a $3.5 billion European Commission...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...from 2024 to 2025, primarily driven by an increase in expenses related to legal and other matters of $6.2 billion, largely the result of the $3.5 billion EC fine accrued in the third quarter of 2025 and a $1.4 billion..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.5 billion",
+      "value": 3.5,
+      "unit": "billion",
+      "money_mn": 3500.0,
+      "decimals": 1,
+      "context": "...billion, as legal and other matters added $6.2 billion, including a $3.5 billion European Commission fine  . Operating income...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...by an increase in expenses related to legal and other matters of $6.2 billion, largely the result of the $3.5 billion EC fine accrued in the third quarter of 2025 and a $1.4 billion legal accrual made in the second quarter of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$129.0 billion",
+      "value": 129.0,
+      "unit": "billion",
+      "money_mn": 129000.0,
+      "decimals": 1,
+      "context": "...billion European Commission fine  . Operating income rose 15% to $129.0 billion, and operating margin held at 32.0%  . Gross...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 % Operating margin 32 % 32 % 0 % Other income (expense), net $ 7,425 $ 29,787 $ 22,362 301 % Net..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$24.1 billion",
+      "value": 24.1,
+      "unit": "billion",
+      "money_mn": 24100.0,
+      "decimals": 1,
+      "context": "...the core business. Net margin rose to 32.8% from 28.6%, helped by $24.1 billion of equity securities gains  . Diluted EPS rose...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• OI&E of $29.8 billion for the year ended December 31, 2025 included net gains on equity securities of $24.1 billion, primarily related to unrealized gains on our non-marketable equity securities."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.81",
+      "value": 10.81,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$24.1 billion of equity securities gains  . Diluted EPS rose 34% to $10.81, with about 2% fewer diluted shares  . Excluding...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 8.04 $ 10.81 $ 2.77 34 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$112.0 billion",
+      "value": 112.0,
+      "unit": "billion",
+      "money_mn": 112000.0,
+      "decimals": 1,
+      "context": "...gains, normalized net income grew about 14%, to an illustrative $112.0 billion from $98.2 billion  . Consensus FY2026 EPS of...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "112,003,984,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$98.2 billion",
+      "value": 98.2,
+      "unit": "billion",
+      "money_mn": 98200.0,
+      "decimals": 1,
+      "context": "...net income grew about 14%, to an illustrative $112.0 billion from $98.2 billion  . Consensus FY2026 EPS of $12.76 is on a...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "98,226,968,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.76",
+      "value": 12.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...$112.0 billion from $98.2 billion  . Consensus FY2026 EPS of $12.76 is on a normalized basis, so forecasts should be...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...$499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$164.7 billion",
+      "value": 164.7,
+      "unit": "billion",
+      "money_mn": 164700.0,
+      "decimals": 1,
+      "context": "...shows the cost of the AI build-out. Operating cash flow rose 31% to $164.7 billion, but capital expenditure rose 74% to $91.4...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Operating cash flow was $164.7 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$91.4 billion",
+      "value": 91.4,
+      "unit": "billion",
+      "money_mn": 91400.0,
+      "decimals": 1,
+      "context": "...rose 31% to $164.7 billion, but capital expenditure rose 74% to $91.4 billion, so free cash flow was nearly flat at $73.3...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Capital expenditures, which primarily reflected investments in technical infrastructure, were $91.4 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73.3 billion",
+      "value": 73.3,
+      "unit": "billion",
+      "money_mn": 73300.0,
+      "decimals": 1,
+      "context": "...rose 74% to $91.4 billion, so free cash flow was nearly flat at $73.3 billion versus $72.8 billion  . Buybacks fell to $45.4...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "73,266,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$72.8 billion",
+      "value": 72.8,
+      "unit": "billion",
+      "money_mn": 72800.0,
+      "decimals": 1,
+      "context": "...billion, so free cash flow was nearly flat at $73.3 billion versus $72.8 billion  . Buybacks fell to $45.4 billion from $62.2...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "72,764,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45.4 billion",
+      "value": 45.4,
+      "unit": "billion",
+      "money_mn": 45400.0,
+      "decimals": 1,
+      "context": "...flat at $73.3 billion versus $72.8 billion  . Buybacks fell to $45.4 billion from $62.2 billion, dividends rose to $10.0...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Repurchases of Class A and Class C shares were $6.5 billion and $38.9 billion, respectively, totaling $45.4 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$62.2 billion",
+      "value": 62.2,
+      "unit": "billion",
+      "money_mn": 62200.0,
+      "decimals": 1,
+      "context": "...billion versus $72.8 billion  . Buybacks fell to $45.4 billion from $62.2 billion, dividends rose to $10.0 billion, and net...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "62,222,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$10.0 billion",
+      "value": 10.0,
+      "unit": "billion",
+      "money_mn": 10000.0,
+      "decimals": 1,
+      "context": "...fell to $45.4 billion from $62.2 billion, dividends rose to $10.0 billion, and net borrowing of $32.1 billion helped fund...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "As of December 31, 2025, we had $10.0 billion of revolving credit facilities, $4.0 billion expiring in April 2026 and $6.0 billion expiring in April 2030..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$32.1 billion",
+      "value": 32.1,
+      "unit": "billion",
+      "money_mn": 32100.0,
+      "decimals": 1,
+      "context": "...billion, dividends rose to $10.0 billion, and net borrowing of $32.1 billion helped fund the gap  . Total debt more than...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...32 % 32 % 0 % Other income (expense), net $ 7,425 $ 29,787 $ 22,362 301 % Net income $ 100,118 $ 132,170 $ 32,052 32 %"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59.3 billion",
+      "value": 59.3,
+      "unit": "billion",
+      "money_mn": 59300.0,
+      "decimals": 1,
+      "context": "...billion helped fund the gap  . Total debt more than doubled to $59.3 billion, while cash and short-term securities reached...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59,296,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$126.8 billion",
+      "value": 126.8,
+      "unit": "billion",
+      "money_mn": 126800.0,
+      "decimals": 1,
+      "context": "...to $59.3 billion, while cash and short-term securities reached $126.8 billion  . Management expects significantly higher...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "As of December 31, 2025 , we had $126.8 billion in cash, cash equivalents, and short-term marketable securities. Ca sh equivalents and marketable securities..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$139.4 billion",
+      "value": 139.4,
+      "unit": "billion",
+      "money_mn": 139400.0,
+      "decimals": 1,
+      "context": "...is diverging. Google Services operating income rose 15% to $139.4 billion on $342.7 billion of revenue, an illustrative...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$342.7 billion",
+      "value": 342.7,
+      "unit": "billion",
+      "money_mn": 342700.0,
+      "decimals": 1,
+      "context": "...Google Services operating income rose 15% to $139.4 billion on $342.7 billion of revenue, an illustrative margin of about 41%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.9 billion",
+      "value": 13.9,
+      "unit": "billion",
+      "money_mn": 13900.0,
+      "decimals": 1,
+      "context": "...margin of about 41%  . Google Cloud's operating income of $13.9 billion, more than double the prior year's $6.1 billion,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$6.1 billion",
+      "value": 6.1,
+      "unit": "billion",
+      "money_mn": 6100.0,
+      "decimals": 1,
+      "context": "...income of $13.9 billion, more than double the prior year's $6.1 billion, is now a meaningful profit contributor...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Year Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.5 billion",
+      "value": 7.5,
+      "unit": "billion",
+      "money_mn": 7500.0,
+      "decimals": 1,
+      "context": "...alongside Services  . Other Bets' operating loss widened to $7.5 billion, and unallocated Alphabet-level AI research...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Other Bets operating loss of $7.5 billion for the year ended December 31, 2025 included a $2.1 billion employee compensation charge recognized in the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.8 billion",
+      "value": 16.8,
+      "unit": "billion",
+      "money_mn": 16800.0,
+      "decimals": 1,
+      "context": "...billion, and unallocated Alphabet-level AI research costs added a $16.8 billion operating loss  . Operating expenses growing...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "(10,541) (16,760) Total income from operations $ 112,390 $ 129,039 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue rose 15% to $402.8 billion in 2025, led by Google Cloud...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Revenue rose 15% to $402.8 billion in 2025, led by Google Cloud (up 36%) and Google Services (up 12%)  . Cost of...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...in 2025, led by Google Cloud (up 36%) and Google Services (up 12%)  . Cost of revenues grew 11%, but operating...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(up 36%) and Google Services (up 12%)  . Cost of revenues grew 11%, but operating expenses rose 22% to $111.3...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(up 12%)  . Cost of revenues grew 11%, but operating expenses rose 22% to $111.3 billion, as legal and other matters...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 % Operating margin 32 % 32 % 0 % Other income (expense),..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a $3.5 billion European Commission fine  . Operating income rose 15% to $129.0 billion, and operating margin held at...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.0%",
+      "value": 32.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 15% to $129.0 billion, and operating margin held at 32.0%  . Gross margin widened to 59.7% from 58.2%,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 % Operating margin 32 % 32 % 0 % Other income (expense), net $ 7,425 $ 29,787 $ 22,362 301 % Net income $ 100,118 $ 132,170 $ 32,052..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.7%",
+      "value": 59.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and operating margin held at 32.0%  . Gross margin widened to 59.7% from 58.2%, because cost of revenues grew more...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "58.2%",
+      "value": 58.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin held at 32.0%  . Gross margin widened to 59.7% from 58.2%, because cost of revenues grew more slowly than...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "58.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "32.8%",
+      "value": 32.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "....  Headline earnings overstate the core business. Net margin rose to 32.8% from 28.6%, helped by $24.1 billion of equity...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "28.6%",
+      "value": 28.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...earnings overstate the core business. Net margin rose to 32.8% from 28.6%, helped by $24.1 billion of equity securities...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "28.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "34%",
+      "value": 34.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...by $24.1 billion of equity securities gains  . Diluted EPS rose 34% to $10.81, with about 2% fewer diluted shares  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "$ 8.04 $ 10.81 $ 2.77 34 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "2%",
+      "value": 2.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...securities gains  . Diluted EPS rose 34% to $10.81, with about 2% fewer diluted shares  . Excluding those gains,...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-06-30: EPS $2.85 vs estimate $2.91 (surprise -2.1%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...shares  . Excluding those gains, normalized net income grew about 14%, to an illustrative $112.0 billion from $98.2...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and development expenses $ 49,326 $ 61,087 Research and development expenses as a percentage of revenues 14 % 15 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...flow shows the cost of the AI build-out. Operating cash flow rose 31% to $164.7 billion, but capital expenditure rose...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cash flow rose 31% to $164.7 billion, but capital expenditure rose 74% to $91.4 billion, so free cash flow was nearly...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...profitability is diverging. Google Services operating income rose 15% to $139.4 billion on $342.7 billion of revenue,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...on $342.7 billion of revenue, an illustrative margin of about 41%  . Google Cloud's operating income of $13.9...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "22%",
+      "value": 22.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...added a $16.8 billion operating loss  . Operating expenses growing 22%, faster than revenue, is the main margin...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 % Operating margin 32 % 32 % 0 % Other income (expense),..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$3.5 billion",
+      "value": 3.5,
+      "unit": "billion",
+      "money_mn": 3500.0,
+      "decimals": 1,
+      "context": "...and gives no aggregate dollar range for these outcomes  . The $3.5 billion EC fine already shows the cost of this exposure...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...by an increase in expenses related to legal and other matters of $6.2 billion, largely the result of the $3.5 billion EC fine accrued in the third quarter of 2025 and a $1.4 billion legal accrual made in the second quarter of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$91.4 billion",
+      "value": 91.4,
+      "unit": "billion",
+      "money_mn": 91400.0,
+      "decimals": 1,
+      "context": "...intensity and supply limits form the third risk. Capex reached $91.4 billion, and the filing expects significant further...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Capital expenditures, which primarily reflected investments in technical infrastructure, were $91.4 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$52.7 billion",
+      "value": 52.7,
+      "unit": "billion",
+      "money_mn": 52700.0,
+      "decimals": 1,
+      "context": "...of qualified suppliers  . Long-duration commitments, including $52.7 billion of data center lease payments not yet commenced...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...centers that have not yet commenced with short-term and long-term future lease payments of $5.8 billion and $52.7 billion, respectively. These leases will commence between 2026 and 2031 with non-cancelable lease terms primarily..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$149.1 billion",
+      "value": 149.1,
+      "unit": "billion",
+      "money_mn": 149100.0,
+      "decimals": 1,
+      "context": "...$52.7 billion of data center lease payments not yet commenced and $149.1 billion of purchase obligations, are fixed in advance,...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...technical infrastructure and inventory orders. As of December 31, 2025, the total for these commitments was $149.1 billion, of which $113.0 billion was short-term, mostly related to technical infrastructure and inventory orders ...."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.67",
+      "value": 2.67,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... An early sign of pressure is the Q3 2026 EPS miss of 10.5% (actual $2.67 against $2.98 estimate), a single quarter...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.98",
+      "value": 2.98,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of pressure is the Q3 2026 EPS miss of 10.5% (actual $2.67 against $2.98 estimate), a single quarter reported after the...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "70%",
+      "value": 70.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...concentration is the largest risk. Advertising produced more than 70% of 2025 revenues, and advertisers, distribution...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "We generated more than 70% of total revenues from online advertising in 2025. Many of our advertisers, companies that distribute our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...spending tends to correlate with economic conditions, so a 10% fall in advertising would cut total revenue by...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...so a 10% fall in advertising would cut total revenue by roughly 7% on an illustrative basis  . The filing also...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52%",
+      "value": 52.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...could reduce monetization  . International revenue, at about 52% of the total, reduces country concentration but...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...income, and we plan to continue growing internationally. International revenues accounted for approximately 52% of consolidated revenues in 2025. In addition to risks described elsewhere in this section, our..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10.5%",
+      "value": 10.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...certain  . An early sign of pressure is the Q3 2026 EPS miss of 10.5% (actual $2.67 against $2.98 estimate), a single...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2026-09-30: EPS $2.67 vs estimate $2.98 (surprise -10.5%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "13.87",
+      "value": 13.87,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...after the       . Quality scores are mixed: the Altman Z-score of 13.87 is in the safe zone and the Beneish M-score of...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Altman Z-Score: 13.87 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "-2.64",
+      "value": 2.64,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Z-score of 13.87 is in the safe zone and the Beneish M-score of -2.64 shows no manipulation warning, while the...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Quarter ending 2025-12-31: EPS $2.82 vs estimate $2.64 (surprise +6.8%)"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "6",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...-2.64 shows no manipulation warning, while the Piotroski F-score of 6 of 9 shows failed tests on asset turnover and...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "6."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...shows no manipulation warning, while the Piotroski F-score of 6 of 9 shows failed tests on asset turnover and...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "9."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$389",
+      "value": 389.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...15.38, and below Microsoft's 23.98  . The consensus Buy rating and $389 target, dated after the     , suggest the market...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "389.00 (range 320.00 - 460.00), current consensus as of 2026-11-24, not as of 2026-02-05"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.7%",
+      "value": 28.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...leads on returns and growth but trails on margin. Its 2025 ROIC of 28.7% is above Microsoft's 26.8%, Meta's 22.2% and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "28.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.8%",
+      "value": 26.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...but trails on margin. Its 2025 ROIC of 28.7% is above Microsoft's 26.8%, Meta's 22.2% and Amazon's 16.8%  . Its EBITDA...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "26.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin. Its 2025 ROIC of 28.7% is above Microsoft's 26.8%, Meta's 22.2% and Amazon's 16.8%  . Its EBITDA margin of 44.9%...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.8%",
+      "value": 16.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...ROIC of 28.7% is above Microsoft's 26.8%, Meta's 22.2% and Amazon's 16.8%  . Its EBITDA margin of 44.9% is above Amazon's...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...for income taxes $ 119,815 $ 158,826 Provision for income taxes $ 19,697 $ 26,656 Effective tax rate 16.4 % 16.8 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.9%",
+      "value": 44.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...26.8%, Meta's 22.2% and Amazon's 16.8%  . Its EBITDA margin of 44.9% is above Amazon's 23.1% but below Meta's 52.6%...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "44.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23.1%",
+      "value": 23.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and Amazon's 16.8%  . Its EBITDA margin of 44.9% is above Amazon's 23.1% but below Meta's 52.6% and Microsoft's 55.2%  ....",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "23.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "52.6%",
+      "value": 52.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Its EBITDA margin of 44.9% is above Amazon's 23.1% but below Meta's 52.6% and Microsoft's 55.2%  . Gross margin of 59.7%...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "outstanding Class B stock, which represented approximately 52.7% of the voting power of our outstanding common stock. Through their stock ownership, Larry and Sergey have..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "55.2%",
+      "value": 55.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is above Amazon's 23.1% but below Meta's 52.6% and Microsoft's 55.2%  . Gross margin of 59.7% is below Meta's 82.0%...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "55.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.7%",
+      "value": 59.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...but below Meta's 52.6% and Microsoft's 55.2%  . Gross margin of 59.7% is below Meta's 82.0% and Microsoft's 68.8%, but...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "82.0%",
+      "value": 82.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and Microsoft's 55.2%  . Gross margin of 59.7% is below Meta's 82.0% and Microsoft's 68.8%, but above Amazon's 50.3%...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "82.0%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68.8%",
+      "value": 68.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Gross margin of 59.7% is below Meta's 82.0% and Microsoft's 68.8%, but above Amazon's 50.3%  . Revenue growth of...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "68.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.3%",
+      "value": 50.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is below Meta's 82.0% and Microsoft's 68.8%, but above Amazon's 50.3%  . Revenue growth of 15.1% trails Meta's 22.2%...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "50.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.1%",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Microsoft's 68.8%, but above Amazon's 50.3%  . Revenue growth of 15.1% trails Meta's 22.2% and Microsoft's 17.8% (a...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "22.2%",
+      "value": 22.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...but above Amazon's 50.3%  . Revenue growth of 15.1% trails Meta's 22.2% and Microsoft's 17.8% (a 2026 label in the peer...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "22.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.8%",
+      "value": 17.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Revenue growth of 15.1% trails Meta's 22.2% and Microsoft's 17.8% (a 2026 label in the peer data), but is above...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "17.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...17.8% (a 2026 label in the peer data), but is above Amazon's 12.4%  . The Microsoft and Alphabet year labels are...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.0%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...market already expects strong growth  . The reverse DCF implies a 9.0% return below the 11.0% WACC  . Alphabet's...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.0% per year (-2.1 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.0%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...strong growth  . The reverse DCF implies a 9.0% return below the 11.0% WACC  . Alphabet's premium is justified only if...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.5x",
+      "value": 0.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Meta is the closest model, an ad-funded internet platform at 0.5x Alphabet's revenue  . Microsoft combines cloud...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "0.55"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.7x",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...combines cloud and AI infrastructure with enterprise software, at 0.7x  . Amazon, at 1.7x, is the other large cloud...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "0.73"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "1.7x",
+      "value": 1.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...AI infrastructure with enterprise software, at 0.7x  . Amazon, at 1.7x, is the other large cloud operator with a major...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...net 3,714 24,080 Income (loss) and impairment from equity method investments, net (188) 281 Other 1,137 1,667 Other income (expense), net $ 7,425 $ 29,787 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "0.2x",
+      "value": 0.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was excluded despite its cloud focus, because its revenue is only 0.2x Alphabet's  .  Alphabet leads on returns and...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "In April 2025, the company's Board of Directors increased the quarterly cash dividend by 5% to $0.21 per share of outstanding Class A, Class B, and Class C shares."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.55",
+      "value": 0.55,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...conversion is the weak point. The FCF conversion ratio fell to 0.55 in 2025, against 0.76 for Meta, 0.70 for...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "0.55"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.76",
+      "value": 0.76,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...weak point. The FCF conversion ratio fell to 0.55 in 2025, against 0.76 for Meta, 0.70 for Microsoft and 0.10 for Amazon...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "0.76"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.70",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...FCF conversion ratio fell to 0.55 in 2025, against 0.76 for Meta, 0.70 for Microsoft and 0.10 for Amazon  . On...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "0.7"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.10",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...fell to 0.55 in 2025, against 0.76 for Meta, 0.70 for Microsoft and 0.10 for Amazon  . On valuation, Alphabet's EV/EBITDA...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "0.1"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "21.15",
+      "value": 21.15,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...and 0.10 for Amazon  . On valuation, Alphabet's EV/EBITDA of 21.15 is above Meta's 16.25 and Amazon's 15.38, and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "21.15"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "16.25",
+      "value": 16.25,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... On valuation, Alphabet's EV/EBITDA of 21.15 is above Meta's 16.25 and Amazon's 15.38, and below Microsoft's 23.98...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...% Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15.38",
+      "value": 15.38,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...Alphabet's EV/EBITDA of 21.15 is above Meta's 16.25 and Amazon's 15.38, and below Microsoft's 23.98  . The consensus...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "15.38"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "23.98",
+      "value": 23.98,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is above Meta's 16.25 and Amazon's 15.38, and below Microsoft's 23.98  . The consensus Buy rating and $389 target,...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...notes with a weighted-average coupon rate of 4.89%, and a weighted-average maturity of approximately 24 years. We also issued €6.75 billion of euro-denominated fixed-rate senior unsecured notes with a..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$58.7 billion",
+      "value": 58.7,
+      "unit": "billion",
+      "money_mn": 58700.0,
+      "decimals": 1,
+      "context": "...profit pillar alongside Services. Cloud revenue rose 36% to $58.7 billion and operating income more than doubled to $13.9...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$13.9 billion",
+      "value": 13.9,
+      "unit": "billion",
+      "money_mn": 13900.0,
+      "decimals": 1,
+      "context": "...rose 36% to $58.7 billion and operating income more than doubled to $13.9 billion, an illustrative margin of about 24% against 14%...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Ended December 31, 2024 2025 Operating income (loss): Google Services $ 121,263 $ 139,404 Google Cloud 6,112 13,910 Other Bets (4,444) (7,515) Alphabet-level activities (1)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$26.4 billion",
+      "value": 26.4,
+      "unit": "billion",
+      "money_mn": 26400.0,
+      "decimals": 1,
+      "context": "...funding the AI build-out. Google Search and other revenue rose $26.4 billion to $224.5 billion, driven by paid clicks up 6%...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Google Search & other revenues increased $26.4 billion from 2024 to 2025. The overall growth was driven by interrelated factors including increases in search..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$224.5 billion",
+      "value": 224.5,
+      "unit": "billion",
+      "money_mn": 224500.0,
+      "decimals": 1,
+      "context": "...AI build-out. Google Search and other revenue rose $26.4 billion to $224.5 billion, driven by paid clicks up 6% and cost-per-click...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 Google Search & other $ 198,084 $ 224,532 YouTube ads 36,147 40,367 Google Network 30,359 29,792 Google advertising 264,590 294,691 Google..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$499.7 billion",
+      "value": 499.7,
+      "unit": "billion",
+      "money_mn": 499700.0,
+      "decimals": 1,
+      "context": "...is dated after the     . FY2026 revenue at or above the consensus $499.7 billion, reported in early 2027. FY2026 revenue growth...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "499713"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$91.4 billion",
+      "value": 91.4,
+      "unit": "billion",
+      "money_mn": 91400.0,
+      "decimals": 1,
+      "context": "...free cash flow stays flat and debt keeps rising. Capex rose 74% to $91.4 billion, operating cash flow rose 31% to $164.7 billion,...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Capital expenditures, which primarily reflected investments in technical infrastructure, were $91.4 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$164.7 billion",
+      "value": 164.7,
+      "unit": "billion",
+      "money_mn": 164700.0,
+      "decimals": 1,
+      "context": "...Capex rose 74% to $91.4 billion, operating cash flow rose 31% to $164.7 billion, and free cash flow was $73.3 billion, nearly...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Operating cash flow was $164.7 billion for the year ended December 31, 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73.3 billion",
+      "value": 73.3,
+      "unit": "billion",
+      "money_mn": 73300.0,
+      "decimals": 1,
+      "context": "...cash flow rose 31% to $164.7 billion, and free cash flow was $73.3 billion, nearly flat  . Total debt rose to $59.3 billion...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "73,266,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$59.3 billion",
+      "value": 59.3,
+      "unit": "billion",
+      "money_mn": 59300.0,
+      "decimals": 1,
+      "context": "...free cash flow was $73.3 billion, nearly flat  . Total debt rose to $59.3 billion from $22.6 billion  . The latest quarter shows...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "59,296,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$22.6 billion",
+      "value": 22.6,
+      "unit": "billion",
+      "money_mn": 22600.0,
+      "decimals": 1,
+      "context": "...$73.3 billion, nearly flat  . Total debt rose to $59.3 billion from $22.6 billion  . The latest quarter shows total debt of $141.9...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "22,574,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$141.9 billion",
+      "value": 141.9,
+      "unit": "billion",
+      "money_mn": 141900.0,
+      "decimals": 1,
+      "context": "...from $22.6 billion  . The latest quarter shows total debt of $141.9 billion and net cash of $123.2 billion  . FY2026 free...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$123.2 billion",
+      "value": 123.2,
+      "unit": "billion",
+      "money_mn": 123200.0,
+      "decimals": 1,
+      "context": "...latest quarter shows total debt of $141.9 billion and net cash of $123.2 billion  . FY2026 free cash flow at or above $73.3...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...(2026-09-30): cash and short-term investments $265,098.0 million, total debt $141,917.0 million, net cash $123,181.0 million, TTM free cash flow $19,747.0 million, cash runway at that burn self-funded, current ratio 2.8x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$73.3 billion",
+      "value": 73.3,
+      "unit": "billion",
+      "money_mn": 73300.0,
+      "decimals": 1,
+      "context": "...and net cash of $123.2 billion  . FY2026 free cash flow at or above $73.3 billion, with net cash still positive, in the FY2026...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "73,266,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$70 billion",
+      "value": 70.0,
+      "unit": "billion",
+      "money_mn": 70000.0,
+      "decimals": 0,
+      "context": "...FY2026      filed in early 2027. FY2026 free cash flow falls below $70 billion, or net cash turns negative.",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "In April 2024, the company's Board of Directors authorized a $70.0 billion share repurchase program for its Class A and Class C shares. In April 2025, the company's Board of Directors..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "36%",
+      "value": 36.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...a meaningful profit pillar alongside Services. Cloud revenue rose 36% to $58.7 billion and operating income more than...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...more than doubled to $13.9 billion, an illustrative margin of about 24% against 14% a year earlier  . Cloud operating...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to $13.9 billion, an illustrative margin of about 24% against 14% a year earlier  . Cloud operating margin at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and development expenses $ 49,326 $ 61,087 Research and development expenses as a percentage of revenues 14 % 15 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...against 14% a year earlier  . Cloud operating margin at or above 20% in the FY2026     , filed in early 2027. Cloud...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.3% from 2024 to 2025, primarily due to a revenue mix shift from Google Network properties to Google Search &..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...2027. Cloud operating margin falls back to the 2024 level of about 14%, or Cloud revenue growth drops below 20%. Search...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and development expenses $ 49,326 $ 61,087 Research and development expenses as a percentage of revenues 14 % 15 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to the 2024 level of about 14%, or Cloud revenue growth drops below 20%. Search monetization holds up despite regulatory...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.3% from 2024 to 2025, primarily due to a revenue mix shift from Google Network properties to Google Search &..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "6%",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose $26.4 billion to $224.5 billion, driven by paid clicks up 6% and cost-per-click up 7%  . Google Services...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$224.5 billion, driven by paid clicks up 6% and cost-per-click up 7%  . Google Services operating margin was about...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "41%",
+      "value": 41.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cost-per-click up 7%  . Google Services operating margin was about 41%  . Search and other revenue growth of at least...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "8%",
+      "value": 8.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin was about 41%  . Search and other revenue growth of at least 8% in the FY2026     , filed in early 2027. Search...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2025 Sales and marketing expenses $ 27,808 $ 28,693 Sales and marketing expenses as a percentage of revenues 8 % 7 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5%",
+      "value": 5.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...FY2026     , filed in early 2027. Search revenue growth falls below 5%, or a final Search remedy restricting...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...expenses $ 14,188 $ 21,482 General and administrative expenses as a percentage of revenues 4 % 5 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21%",
+      "value": 21.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...during 2026. At the current valuation the shares need roughly 21% annual growth for a decade, so returns depend on...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...to distribution partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.3% from 2024 to 2025, primarily due to a revenue mix shift from Google Network properties to Google..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "21.2%",
+      "value": 21.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth path rather than the 2025 run-rate. The reverse DCF implies 21.2% growth for ten years, against a 12.5% three-year...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $3,339,797.9 million implies revenue growth of 21.2% per year for 10 years (FY2025 revenue $402,836.0 million -> about $2,759,541.2 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.5%",
+      "value": 12.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...The reverse DCF implies 21.2% growth for ten years, against a 12.5% three-year CAGR and 24.0% FY2026 consensus...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- For comparison: historical 3-year revenue CAGR 12.5%. Compare the implied growth with the consensus growth above and with the historical growth. This is a..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "24.0%",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...21.2% growth for ten years, against a 12.5% three-year CAGR and 24.0% FY2026 consensus growth  . The implied return of...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $499,713.4 million (range $496,163.7 million to $505,324.0 million, 49 analysts), growth +24.0%; EPS $12.76 (range $11.13 to $19.35); forward P/E 21.7x; EV/Sales 6.7x"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9.0%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...CAGR and 24.0% FY2026 consensus growth  . The implied return of 9.0% is below the 11.0% WACC  . Consensus data is...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 9.0% per year (-2.1 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.0%",
+      "value": 11.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...FY2026 consensus growth  . The implied return of 9.0% is below the 11.0% WACC  . Consensus data is dated after the     ....",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Change Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 % Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 % Operating expenses $ 91,322 $ 111,262 $ 19,940 22 % Operating income $ 112,390 $ 129,039 $ 16,649 15 %..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$499.7 billion, reported in early 2027. FY2026 revenue growth below 15%, or FY2026 consensus revenue or EPS is cut, with...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate. In January 2026, the OECD announced a \"Side-by-Side Safe Harbor\" that exempts US..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "74%",
+      "value": 74.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...so free cash flow stays flat and debt keeps rising. Capex rose 74% to $91.4 billion, operating cash flow rose 31%...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "31%",
+      "value": 31.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rising. Capex rose 74% to $91.4 billion, operating cash flow rose 31% to $164.7 billion, and free cash flow was $73.3...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or EPS is cut, with more downward than upward revisions over 30 days  . Capex growth outpaces operating cash...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "30."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$342.7 million",
+      "value": 342.7,
+      "unit": "million",
+      "money_mn": 342.7,
+      "decimals": 1,
+      "context": "Google Services: $342.7 million, prior $304.9 million; Google Cloud: $58.7...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$304.9 million",
+      "value": 304.9,
+      "unit": "million",
+      "money_mn": 304.9,
+      "decimals": 1,
+      "context": "Google Services: $342.7 million, prior $304.9 million; Google Cloud: $58.7 million, prior $43.2...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$58.7 million",
+      "value": 58.7,
+      "unit": "million",
+      "money_mn": 58.7,
+      "decimals": 1,
+      "context": "Google Services: $342.7 million, prior $304.9 million; Google Cloud: $58.7 million, prior $43.2 million; Other Bets: $1.5 million,...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$43.2 million",
+      "value": 43.2,
+      "unit": "million",
+      "money_mn": 43.2,
+      "decimals": 1,
+      "context": "...million, prior $304.9 million; Google Cloud: $58.7 million, prior $43.2 million; Other Bets: $1.5 million, prior $1.6 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.5 million",
+      "value": 1.5,
+      "unit": "million",
+      "money_mn": 1.5,
+      "decimals": 1,
+      "context": "...Google Cloud: $58.7 million, prior $43.2 million; Other Bets: $1.5 million, prior $1.6 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$1.6 million",
+      "value": 1.6,
+      "unit": "million",
+      "money_mn": 1.6,
+      "decimals": 1,
+      "context": "...$58.7 million, prior $43.2 million; Other Bets: $1.5 million, prior $1.6 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "40,340 48,030 Google Services total 304,930 342,721 Google Cloud 43,229 58,705 Other Bets 1,648 1,537 Hedging gains (losses) 211 (127) Total revenues $ 350,018 $ 402,836 ##TABLE_END"
+      }
+    }
+  ],
+  "peer_tickers": [
+    "META",
+    "MSFT",
+    "AMZN"
+  ],
+  "build_round": 1,
+  "self_correct": true
+}

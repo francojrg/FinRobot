@@ -1,0 +1,65 @@
+C:\Users\franc\dev\FinRobot\.venv\Lib\site-packages\flaml\__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+
+=== ASML ===
+  [ok] Jahresbericht: 20-F fuer 2025-12-31, eingereicht 2026-02-25, https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm
+  [ok] EDGAR-Status (Plan): {'error': None, 'tenk_filed': '2026-02-25', 'tenk_period': '2025-12-31', 'fyear': 2025, 'annual_form': '20-F', 'releases (letzte 4)': ['2026-01-28', '2026-04-15', '2026-07-15', '2026-10-14']}
+Sec Api initialized
+  [ok] Abschnitt 1: 150,071 Zeichen | [Item 4 Information on the Company (20-F); located by section heading]
+Sec Api initialized
+  [ok] Abschnitt 1A: 33,049 Zeichen | [Item 3D Risk Factors (20-F); located by section heading]
+Sec Api initialized
+  [ok] Abschnitt 7: 79,886 Zeichen | [Item 5 Operating and Financial Review and Prospects (20-F); located by section heading]
+  [ok] Letzte Quartalsmitteilung: eingereicht 2026-10-14, 12,319 Zeichen, https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm | 'EX-99.1\n 2\n pressreleasefinancialresul.htm\n EX-99.1\n\n Document \n Exhibit 99.1 \n\n ASML reports €11.7 billion total net sales and €5.0 billion net incom'
+  [ok] Mitteilungen seit Jahresbericht: 2026-04-15: ok 11,834 Z.; 2026-07-15: ok 14,000 Z.; 2026-10-14: ok 12,319 Z.
+  [ok] Kennzahlen (Yahoo, Berichtswaehrung): 
+                2022   2023   2024   2025
+Revenue        21173  27558  28263  32667
+EBITDA Margin  33.5%  36.2%  35.8%  38.4%
+EV/EBITDA      28.06  26.73  25.08  27.29
+PE Ratio       35.96  34.32  34.59  36.53
+PB Ratio       22.95   20.0  14.18   17.9
+  [ok] Reverse DCF: EV 461,313 Mio. | Umsatz FY2025 32,667 Mio. | FCF-Marge 33.8% | WACC 11.5% | implizites Wachstum 0.20975342839393407
+  [ok] Konsens: FY2026: Umsatz 44490.9892, Fwd P/E None, Fwd EV/Sales 10.368691483670242; FY2027: Umsatz 57389.46811, Fwd P/E 23.67465957687345, Fwd EV/Sales 8.038292669552058 | reporting currency EUR, quote in USD; EV converted, forward P/E only if consistent with Yahoo's forward P/E
+
+=== TSM ===
+  [ok] Jahresbericht: 20-F fuer 2025-12-31, eingereicht 2026-04-16, https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+  [ok] EDGAR-Status (Plan): {'error': None, 'tenk_filed': '2026-04-16', 'tenk_period': '2025-12-31', 'fyear': 2025, 'annual_form': '20-F', 'releases (letzte 4)': ['2026-01-15', '2026-04-16', '2026-07-13', '2026-10-15']}
+Sec Api initialized
+  [ok] Abschnitt 1: 53,895 Zeichen | [Item 4 Information on the Company (20-F); located by item heading]
+Sec Api initialized
+  [ok] Abschnitt 1A: 61,050 Zeichen | [Item 3D Risk Factors (20-F); located by item heading]
+Sec Api initialized
+  [ok] Abschnitt 7: 36,807 Zeichen | [Item 5 Operating and Financial Review and Prospects (20-F); located by item heading]
+  [ok] Letzte Quartalsmitteilung: eingereicht 2026-11-13, 30,000 Zeichen, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm | 'EX-99.1\n 2\n a2026q3consolidatedreport-.htm\n EX-99.1\n\n 2026 Q3Consolidated Report- Document Template(ENG) - PRD (For SEC) \n\n English Translation of Fin'
+  [ok] Mitteilungen seit Jahresbericht: 2026-04-16: ok 3,874 Z.; 2026-07-16: ok 4,028 Z.; 2026-10-15: ok 3,967 Z.
+  [ok] Kennzahlen (Yahoo, Berichtswaehrung): 
+                  2022     2023     2024     2025
+Revenue        2263891  2161736  2894308  3809054
+EBITDA Margin    70.4%    70.5%    71.8%    72.0%
+EV/EBITDA         7.15    10.53    15.62    17.34
+PE Ratio         11.94    19.44    28.97    29.01
+PB Ratio          4.08     4.83     7.91      9.2
+  [ok] Reverse DCF: EV 58,125,352 Mio. | Umsatz FY2025 3,809,054 Mio. | FCF-Marge 26.1% | WACC 11.0% | implizites Wachstum 0.24690352182308273
+  [ok] Konsens: FY2026: Umsatz 5582137.42167, Fwd P/E 19.949429453173114, Fwd EV/Sales 10.412741178787488; FY2027: Umsatz 7696020.73748, Fwd P/E 14.932463954904984, Fwd EV/Sales 7.552650152461323 | reporting currency TWD, quote in USD; EV converted, forward P/E only if consistent with Yahoo's forward P/E
+
+=== MA ===
+  [ok] Jahresbericht: 10-K fuer 2025-12-31, eingereicht 2026-02-11, https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm
+  [ok] EDGAR-Status (Plan): {'error': None, 'tenk_filed': '2026-02-11', 'tenk_period': '2025-12-31', 'fyear': 2025, 'annual_form': '10-K', 'releases (letzte 4)': ['2026-01-29', '2026-04-30', '2026-07-30', '2026-10-29']}
+Sec Api initialized
+  [ok] Abschnitt 1: 86,185 Zeichen |  ITEM 1. BUSINESS 
+Sec Api initialized
+  [ok] Abschnitt 1A: 83,619 Zeichen |  ITEM 1A. RISK FACTORS 
+Sec Api initialized
+  [ok] Abschnitt 7: 55,435 Zeichen |  
+  [ok] Letzte Quartalsmitteilung: eingereicht 2026-10-29, 30,000 Zeichen, https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm | 'EX-99.1\n 2\n ma09302026-exx991xearnings.htm\n EX-99.1\n\n Document \n\n Earnings Release \n\n Mastercard Incorporated Reports Third Quarter 2026 Financial Res'
+  [ok] Mitteilungen seit Jahresbericht: 2026-04-30: ok 14,000 Z.; 2026-07-30: ok 14,000 Z.; 2026-10-29: ok 14,000 Z.
+  [ok] Kennzahlen (Yahoo, Berichtswaehrung): 
+                2022   2023   2024   2025
+Revenue        22237  25098  28167  32791
+EBITDA Margin  58.2%  59.8%  59.6%  62.3%
+EV/EBITDA      26.21  27.01  29.22  25.38
+PE Ratio       34.02  36.05  37.91  34.56
+PB Ratio       52.78  57.49  74.17  65.97
+  [ok] Reverse DCF: EV 577,495 Mio. | Umsatz FY2025 32,791 Mio. | FCF-Marge 50.1% | WACC 8.7% | implizites Wachstum 0.13572826249593872
+  [ok] Konsens: FY2026: Umsatz 37372.34565, Fwd P/E 32.28291529524278, Fwd EV/Sales 15.452474993578575; FY2027: Umsatz 42086.22098, Fwd P/E 27.9539483484054, Fwd EV/Sales 13.721717539867369

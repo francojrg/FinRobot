@@ -1,0 +1,49 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2026",
+    "quarters": [
+      "Q1 FY2027",
+      "Q2 FY2027"
+    ],
+    "report": "../reports/ADSK_earnings_multi_claude-haiku-5.5\\ADSK_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: AECO growth keeps total revenue growth above 15% in FY2027.",
+        "signpost": "Each FY2027 quarterly report shows total revenue growth of at least 15% and AECO growth of at least 18%. Invalidation: revenue growth below 12% for two consecutive quarters, or AECO growth below 15% [4].",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T2: GAAP operating margin rises above 22% in FY2027 as restructuring costs fall from $216 million.",
+        "signpost": "FY2027 annual report shows GAAP operating margin above 23% and restructuring below $100 million. Invalidation: restructuring above $150 million in FY2027, or GAAP operating margin at or below 22% [4].",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "strengthened"
+        },
+        "current_status": "strengthened"
+      },
+      {
+        "thesis": "T3: At the current price, the stock returns less than its cost of capital unless growth beats consensus.",
+        "signpost": "FY2027 consensus revenue holds at or above $8.37 billion through the next two quarterly updates, and FY2027 EPS estimates rise above $12.80. Invalidation: FY2027 consensus revenue cut below $8.2 billion [4].",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Free cash flow stays above $2.0 billion in FY2027 even as billings move to annual installments.",
+        "signpost": "FY2027 annual report shows free cash flow of at least $2.0 billion and deferred revenue growing at least as fast as revenue. Invalidation: free cash flow below $2.0 billion, or buybacks funded with new debt rather than operating cash flow [4].",
+        "statuses": {
+          "Q1 FY2027": "intact",
+          "Q2 FY2027": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

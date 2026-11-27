@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/ADBE_earnings_multi_claude-haiku-5.5\\ADBE_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: ARR growth stays near 11%, so consensus fiscal 2026 revenue growth of 11.9% is achievable.",
+        "signpost": "Total ARR growth at or above 11% in each fiscal 2026 quarterly report.",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T2: Margins hold as AI hosting and inference costs grow, because pricing and mix offset the cost increase.",
+        "signpost": "Gross margin at or above 89% in each fiscal 2026 quarterly report.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "broken"
+        },
+        "current_status": "broken"
+      },
+      {
+        "thesis": "T3: The shares are undervalued because the current price implies far less growth than consensus expects.",
+        "signpost": "EPS consensus for fiscal 2026 holds at or above $24.47, with another quarterly EPS beat in the next reported quarter.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "strengthened",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T4: Funding is adequate despite buybacks, because free cash flow covers most of the capital return and debt is manageable.",
+        "signpost": "Operating cash flow of at least $10 billion for fiscal 2026, with the current ratio at or above 1.0x by the fiscal 2026 year-end.",
+        "statuses": {
+          "Q1 FY2026": "weakened",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      }
+    ]
+  }
+]

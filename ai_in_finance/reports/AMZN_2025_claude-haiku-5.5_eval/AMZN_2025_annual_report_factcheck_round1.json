@@ -1,0 +1,2691 @@
+{
+  "total_claims": 160,
+  "matched": 145,
+  "match_rate": 0.906,
+  "by_kind": {
+    "money": {
+      "total": 68,
+      "matched": 68
+    },
+    "pct": {
+      "total": 75,
+      "matched": 62
+    },
+    "plain": {
+      "total": 16,
+      "matched": 14
+    },
+    "multiple": {
+      "total": 1,
+      "matched": 1
+    }
+  },
+  "by_source": {
+    "[1] 10-K": 75,
+    "[2] Yahoo Finance": 38,
+    "[2][3] Liquidity and consensus": 16,
+    "[4] Peer data": 16
+  },
+  "unmatched": [
+    {
+      "kind": "pct",
+      "text": "35.4%",
+      "value": 35.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin is slipping: sales rose 20% while operating margin fell to 35.4%  . Capex should start converting to cash, but...",
+      "section": "Key Takeaways",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Capex should start converting to cash, but free cash flow fell 71% to $11.2 billion as spending reached $128.3...",
+      "section": "Key Takeaways",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...12% to $716.9 billion, AWS grew 20%, and operating margin reached 11.2%  . Normalized income rose 7% to $65.4 billion,...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "1.05",
+      "value": 1.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...cash. Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities  , but...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is the main cost pressure  . Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "10.8%",
+      "value": 10.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite $5.2 billion of FTC...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to $139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion  .  Segment results show where...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.4%",
+      "value": 35.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.0%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed much of the...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "1.05",
+      "value": 1.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities  . The...",
+      "section": "Risk Assessment",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35.4%",
+      "value": 35.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 20% to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0%  . AWS sales growth at or above 15%...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.0%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0%  . AWS sales growth at or above 15% and...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... AWS sales growth at or above 15% and operating margin at or above 35% in each 2026 quarterly report. AWS growth below...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...each 2026 quarterly report. AWS growth below 15%, or margin below 33% in any 2026 quarter. Capex starts converting to...",
+      "section": "Investment Thesis",
+      "source": null
+    }
+  ],
+  "name_issues": [],
+  "claims": [
+    {
+      "kind": "money",
+      "text": "$11.2 billion",
+      "value": 11.2,
+      "unit": "billion",
+      "money_mn": 11200.0,
+      "decimals": 1,
+      "context": "...should start converting to cash, but free cash flow fell 71% to $11.2 billion as spending reached $128.3 billion  . Valuation...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and equipment, net of proceeds from sales and incentives (77,658) (128,320) Free cash flow $ 38,219 $ 11,194 Net cash provided by (used in) investing activities $ (94,342) $ (142,545) Net cash provided by (used in)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$128.3 billion",
+      "value": 128.3,
+      "unit": "billion",
+      "money_mn": 128300.00000000001,
+      "decimals": 1,
+      "context": "...but free cash flow fell 71% to $11.2 billion as spending reached $128.3 billion  . Valuation looks demanding: the current...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$271.9 billion",
+      "value": 271.9,
+      "unit": "billion",
+      "money_mn": 271900.0,
+      "decimals": 1,
+      "context": "...FY2026 consensus  . Funding is the watch item: total debt rose to $271.9 billion by September 2026 while trailing free cash flow...",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...funding the capex cycle, though its margin is slipping: sales rose 20% while operating margin fell to 35.4%  . Capex...",
+      "section": "Key Takeaways",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35.4%",
+      "value": 35.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...margin is slipping: sales rose 20% while operating margin fell to 35.4%  . Capex should start converting to cash, but...",
+      "section": "Key Takeaways",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... Capex should start converting to cash, but free cash flow fell 71% to $11.2 billion as spending reached $128.3...",
+      "section": "Key Takeaways",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "19.2%",
+      "value": 19.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Valuation looks demanding: the current enterprise value implies 19.2% revenue growth, above 15.7% FY2026 consensus  ....",
+      "section": "Key Takeaways",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $2,952,182.4 million implies revenue growth of 19.2% per year for 10 years (FY2025 revenue $716,924.0 million -> about $4,156,307.5 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the current enterprise value implies 19.2% revenue growth, above 15.7% FY2026 consensus  . Funding is the watch item:...",
+      "section": "Key Takeaways",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "15.6%"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$716.9 billion",
+      "value": 716.9,
+      "unit": "billion",
+      "money_mn": 716900.0,
+      "decimals": 1,
+      "context": "...higher margins, but weaker cash generation. Net sales rose 12% to $716.9 billion, AWS grew 20%, and operating margin reached...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13 AWS 19 20 Consolidated 11 12..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$65.4 billion",
+      "value": 65.4,
+      "unit": "billion",
+      "money_mn": 65400.00000000001,
+      "decimals": 1,
+      "context": "...and operating margin reached 11.2%  . Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "65,354,930,994 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.2 billion",
+      "value": 11.2,
+      "unit": "billion",
+      "money_mn": 11200.0,
+      "decimals": 1,
+      "context": "...income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3 billion  .  The...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and equipment, net of proceeds from sales and incentives (77,658) (128,320) Free cash flow $ 38,219 $ 11,194 Net cash provided by (used in) investing activities $ (94,342) $ (142,545) Net cash provided by (used in)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$128.3 billion",
+      "value": 128.3,
+      "unit": "billion",
+      "money_mn": 128300.00000000001,
+      "decimals": 1,
+      "context": "...but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3 billion  .  The valuation asks for more than consensus....",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$123.0 billion",
+      "value": 123.0,
+      "unit": "billion",
+      "money_mn": 123000.0,
+      "decimals": 1,
+      "context": "...was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities  , but total debt has...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...cash, cash equivalents, and marketable securities balances, which, at fair value, were $101.2 billion and $123.0 billion as of December 31, 2024 and 2025. Amounts held in foreign currencies were $25.5 billion and $29.7 billion as..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...and higher margins, but weaker cash generation. Net sales rose 12% to $716.9 billion, AWS grew 20%, and operating...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Sales increased 12% in 2025, compared to the prior year. Changes in foreign exchange rates increased net sales by $4.4 billion..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...cash generation. Net sales rose 12% to $716.9 billion, AWS grew 20%, and operating margin reached 11.2%  ....",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...12% to $716.9 billion, AWS grew 20%, and operating margin reached 11.2%  . Normalized income rose 7% to $65.4 billion,...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...20%, and operating margin reached 11.2%  . Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to...",
+      "section": "Investment Summary",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...4,639 Total operating expenses $ 569,366 $ 636,949 Year-over-year Percentage Growth (Decline): Cost of sales 7 % 9 % Fulfillment 9 11 Technology and infrastructure 3 23 Sales and marketing (1) 7 General and administrative..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Normalized income rose 7% to $65.4 billion, but free cash flow fell 71% to $11.2 billion as cash capex reached $128.3...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "19.2%",
+      "value": 19.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus. The reverse DCF at the current enterprise value implies 19.2% annual revenue growth for ten years, above...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $2,952,182.4 million implies revenue growth of 19.2% per year for 10 years (FY2025 revenue $716,924.0 million -> about $4,156,307.5 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...revenue growth for ten years, above FY2026 consensus growth of 15.7% and the 11.7% three-year historical CAGR  ....",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "15.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.7%",
+      "value": 11.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...for ten years, above FY2026 consensus growth of 15.7% and the 11.7% three-year historical CAGR  . Consensus and...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "11.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.3%",
+      "value": 8.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...post-filing figures are dated after the     . The implied return of 8.3% sits below a 12.4% WACC  . The current price...",
+      "section": "Investment Summary",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 8.3% per year (-4.1 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...are dated after the     . The implied return of 8.3% sits below a 12.4% WACC  . The current price therefore needs AWS...",
+      "section": "Investment Summary",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "12.4%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.05",
+      "value": 1.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...cash. Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities  , but...",
+      "section": "Investment Summary",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$128.3 billion",
+      "value": 128.3,
+      "unit": "billion",
+      "money_mn": 128300.00000000001,
+      "decimals": 1,
+      "context": "...with some one-off items. Cash capital expenditures rose to $128.3 billion from $77.7 billion, mostly for technology...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$77.7 billion",
+      "value": 77.7,
+      "unit": "billion",
+      "money_mn": 77700.0,
+      "decimals": 1,
+      "context": "...items. Cash capital expenditures rose to $128.3 billion from $77.7 billion, mostly for technology infrastructure supporting...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and maturities of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.5 billion",
+      "value": 2.5,
+      "unit": "billion",
+      "money_mn": 2500.0,
+      "decimals": 1,
+      "context": "...technology infrastructure supporting AWS  . The company recorded a $2.5 billion FTC settlement charge and $2.7 billion of...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.7 billion",
+      "value": 2.7,
+      "unit": "billion",
+      "money_mn": 2700.0,
+      "decimals": 1,
+      "context": ".... The company recorded a $2.5 billion FTC settlement charge and $2.7 billion of severance tied to planned role eliminations...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2025, which primarily reflect investments in convertible notes from Anthropic, PBC (“Anthropic”), including $2.7 billion we invested in 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.7 billion",
+      "value": 2.7,
+      "unit": "billion",
+      "money_mn": 2700.0,
+      "decimals": 1,
+      "context": "...of severance tied to planned role eliminations  . It invested $2.7 billion in Anthropic convertible notes, and a price...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...2025, which primarily reflect investments in convertible notes from Anthropic, PBC (“Anthropic”), including $2.7 billion we invested in 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15.2 billion",
+      "value": 15.2,
+      "unit": "billion",
+      "money_mn": 15200.0,
+      "decimals": 1,
+      "context": "...notes, and a price adjustment on that stake drove most of the $15.2 billion of other income  . Planned 2026 initiatives...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Other income (expense), net was $(2.3) billion and $15.2 billion during 2024 and 2025. The primary components of other income (expense), net are related to equity securities..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$426.3 billion",
+      "value": 426.3,
+      "unit": "billion",
+      "money_mn": 426300.0,
+      "decimals": 1,
+      "context": "...the economics sit. North America generated 59% of 2025 net sales ($426.3 billion), International 23% ($161.9 billion), and AWS...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Year Ended December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$161.9 billion",
+      "value": 161.9,
+      "unit": "billion",
+      "money_mn": 161900.0,
+      "decimals": 1,
+      "context": "...59% of 2025 net sales ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion)  . AWS...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Year Ended December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$128.7 billion",
+      "value": 128.7,
+      "unit": "billion",
+      "money_mn": 128699.99999999999,
+      "decimals": 1,
+      "context": "...($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion)  . AWS contributed $45.6 billion of the $80.0...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45.6 billion",
+      "value": 45.6,
+      "unit": "billion",
+      "money_mn": 45600.0,
+      "decimals": 1,
+      "context": "...($161.9 billion), and AWS 18% ($128.7 billion)  . AWS contributed $45.6 billion of the $80.0 billion total segment operating...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...December 31, 2024 2025 Operating Income North America $ 24,967 $ 29,619 International 3,792 4,750 AWS 39,834 45,606 Consolidated $ 68,593 $ 79,975 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$80.0 billion",
+      "value": 80.0,
+      "unit": "billion",
+      "money_mn": 80000.0,
+      "decimals": 1,
+      "context": "...AWS 18% ($128.7 billion)  . AWS contributed $45.6 billion of the $80.0 billion total segment operating income, about 57%,...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Operating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59%",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...segment mix shows where the economics sit. North America generated 59% of 2025 net sales ($426.3 billion),...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...North America 10 % 10 % International 10 10 AWS 19 20 Consolidated 11 12 Net Sales Mix: North America 61 % 59 % International 22 23 AWS 17 18 Consolidated 100 % 100 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...generated 59% of 2025 net sales ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion)...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "23.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...sales ($426.3 billion), International 23% ($161.9 billion), and AWS 18% ($128.7 billion)  . AWS contributed $45.6...",
+      "section": "Business Overview",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "18.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "57%",
+      "value": 57.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion of the $80.0 billion total segment operating income, about 57%, although it is under a fifth of sales  .",
+      "section": "Business Overview",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "56.6%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1,576,000",
+      "value": 1576000.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to its strategy. At December 31, 2025, the company employed about 1,576,000 people  .  Its core offer combines scale with...",
+      "section": "Business Overview",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...mission of being Earth’s most customer-centric company. As of December 31, 2025, we employed approximately 1,576,000 full-time and part-time employees. Additionally, we use independent contractors and temporary personnel to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$829.2 billion",
+      "value": 829.2,
+      "unit": "billion",
+      "money_mn": 829200.0,
+      "decimals": 1,
+      "context": "...view of the stock is on the record. Consensus FY2026 revenue is $829.2 billion, implying 15.7% growth, with a forward EV/Sales...",
+      "section": "Market Position",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- FY2026E: revenue $829,229.0 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$326.34",
+      "value": 326.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...value  . Consensus rating is Buy, with a mean target price of $326.34 (range $230 to $405)  . These consensus figures...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "326.34 (range 230.00 - 405.00), current consensus as of 2026-11-24, not as of 2026-02-06"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$230",
+      "value": 230.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...Consensus rating is Buy, with a mean target price of $326.34 (range $230 to $405)  . These consensus figures are dated...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "326.34 (range 230.00 - 405.00), current consensus as of 2026-11-24, not as of 2026-02-06"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$405)",
+      "value": 405.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rating is Buy, with a mean target price of $326.34 (range $230 to $405)  . These consensus figures are dated after the...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...allowance as of December 31, 2025, we would have recorded an additional cost of sales of approximately $405 million."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59%",
+      "value": 59.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...but weighted toward the United States. North America generated 59% of 2025 net sales, International 23%, and AWS...",
+      "section": "Market Position",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...North America 10 % 10 % International 10 10 AWS 19 20 Consolidated 11 12 Net Sales Mix: North America 61 % 59 % International 22 23 AWS 17 18 Consolidated 100 % 100 % ##TABLE_END"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...North America generated 59% of 2025 net sales, International 23%, and AWS 18%  . The filing does not disclose...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "23.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18%",
+      "value": 18.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...America generated 59% of 2025 net sales, International 23%, and AWS 18%  . The filing does not disclose market share for...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "18.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on the record. Consensus FY2026 revenue is $829.2 billion, implying 15.7% growth, with a forward EV/Sales of 3.6x at the...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "15.6%"
+      }
+    },
+    {
+      "kind": "multiple",
+      "text": "3.6x",
+      "value": 3.6,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$829.2 billion, implying 15.7% growth, with a forward EV/Sales of 3.6x at the current enterprise value  . Consensus...",
+      "section": "Market Position",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "3.55"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$716.9 billion",
+      "value": 716.9,
+      "unit": "billion",
+      "money_mn": 716900.0,
+      "decimals": 1,
+      "context": "Net sales rose 12% to $716.9 billion from $638.0 billion in 2025  . AWS (+20%) and...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13 AWS 19 20 Consolidated 11 12..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$638.0 billion",
+      "value": 638.0,
+      "unit": "billion",
+      "money_mn": 638000.0,
+      "decimals": 1,
+      "context": "Net sales rose 12% to $716.9 billion from $638.0 billion in 2025  . AWS (+20%) and International (+13%)...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13 AWS 19 20 Consolidated..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$80.0 billion",
+      "value": 80.0,
+      "unit": "billion",
+      "money_mn": 80000.0,
+      "decimals": 1,
+      "context": "...rose 23% and is the main cost pressure  . Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Operating income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.2 billion",
+      "value": 5.2,
+      "unit": "billion",
+      "money_mn": 5200.0,
+      "decimals": 1,
+      "context": "...billion, an 11.2% margin against 10.8% a year earlier, despite $5.2 billion of FTC settlement and severance charges...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "5,177,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$15 billion",
+      "value": 15.0,
+      "unit": "billion",
+      "money_mn": 15000.0,
+      "decimals": 0,
+      "context": "...below operating income. Net income includes a net gain of about $15 billion in other income, tied mainly to the Anthropic...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Other income (expense), net was $(2.3) billion and $15.2 billion during 2024 and 2025. The primary components of other income (expense), net are related to equity securities..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$7.17",
+      "value": 7.17,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...tied mainly to the Anthropic investment, so diluted EPS rose to $7.17 from $5.53  . Normalized income, which excludes...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "7 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$5.53",
+      "value": 5.53,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...to the Anthropic investment, so diluted EPS rose to $7.17 from $5.53  . Normalized income, which excludes that gain,...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "6 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$65.4 billion",
+      "value": 65.4,
+      "unit": "billion",
+      "money_mn": 65400.00000000001,
+      "decimals": 1,
+      "context": "...$5.53  . Normalized income, which excludes that gain, rose 7% to $65.4 billion, and that is the better measure of operating...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "65,354,930,994 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$8.3 billion",
+      "value": 8.3,
+      "unit": "billion",
+      "money_mn": 8300.0,
+      "decimals": 1,
+      "context": "...better measure of operating earnings growth  . Cash taxes fell to $8.3 billion from $12.3 billion under the 2025 Tax Act, which...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Cash paid for U.S. (federal and state) and foreign income taxes (net of refunds) totaled $12.3 billion and $8.3 billion for 2024 and 2025. We expect the 2025 Tax Act to have a similar effect on our cash taxes in 2026. See Item 8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.3 billion",
+      "value": 12.3,
+      "unit": "billion",
+      "money_mn": 12300.0,
+      "decimals": 1,
+      "context": "...operating earnings growth  . Cash taxes fell to $8.3 billion from $12.3 billion under the 2025 Tax Act, which flattered...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...taxes in 2025. Cash paid for U.S. (federal and state) and foreign income taxes (net of refunds) totaled $12.3 billion and $8.3 billion for 2024 and 2025. We expect the 2025 Tax Act to have a similar effect on our cash taxes in..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$139.5 billion",
+      "value": 139.5,
+      "unit": "billion",
+      "money_mn": 139500.0,
+      "decimals": 1,
+      "context": "...which flattered operating cash flow  . Operating cash flow rose to $139.5 billion from $115.9 billion, but free cash flow fell 71%...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Cash provided by (used in) operating activities was $115.9 billion and $139.5 billion in 2024 and 2025. Our operating cash flows result primarily from cash received from our consumer, seller,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$115.9 billion",
+      "value": 115.9,
+      "unit": "billion",
+      "money_mn": 115900.0,
+      "decimals": 1,
+      "context": "...cash flow  . Operating cash flow rose to $139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Cash provided by (used in) operating activities was $115.9 billion and $139.5 billion in 2024 and 2025. Our operating cash flows result primarily from cash received from our..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.2 billion",
+      "value": 11.2,
+      "unit": "billion",
+      "money_mn": 11200.0,
+      "decimals": 1,
+      "context": "...$139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion  .  Segment results show where the margin came...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and equipment, net of proceeds from sales and incentives (77,658) (128,320) Free cash flow $ 38,219 $ 11,194 Net cash provided by (used in) investing activities $ (94,342) $ (142,545) Net cash provided by (used in)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$29.6 billion",
+      "value": 29.6,
+      "unit": "billion",
+      "money_mn": 29600.0,
+      "decimals": 1,
+      "context": "...the margin came from. North America operating income rose 19% to $29.6 billion, lifting its margin to about 7.0%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "##TABLE_START Year Ended December 31, 2024 2025 Operating Income North America $ 24,967 $ 29,619 International 3,792 4,750 AWS 39,834 45,606 Consolidated $ 68,593 $ 79,975 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$4.8 billion",
+      "value": 4.8,
+      "unit": "billion",
+      "money_mn": 4800.0,
+      "decimals": 1,
+      "context": "...margin to about 7.0%  . International operating income rose 25% to $4.8 billion, but foreign exchange contributed $903 million,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Year Ended December 31, 2024 2025 Operating Income North America $ 24,967 $ 29,619 International 3,792 4,750 AWS 39,834 45,606 Consolidated $ 68,593 $ 79,975 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$903 million",
+      "value": 903.0,
+      "unit": "million",
+      "money_mn": 903.0,
+      "decimals": 0,
+      "context": "...income rose 25% to $4.8 billion, but foreign exchange contributed $903 million, and excluding it the gain was about 1.5%  . AWS...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...fulfillment and shipping costs. Changes in foreign exchange rates positively impacted operating income by $903 million in 2025."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$45.6 billion",
+      "value": 45.6,
+      "unit": "billion",
+      "money_mn": 45600.0,
+      "decimals": 1,
+      "context": "...it the gain was about 1.5%  . AWS operating income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...December 31, 2024 2025 Operating Income North America $ 24,967 $ 29,619 International 3,792 4,750 AWS 39,834 45,606 Consolidated $ 68,593 $ 79,975 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$16.5",
+      "value": 16.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the sales gain  . First-quarter 2026 operating income guidance of $16.5 to $21.5 billion compares with $18.4 billion a...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Operating income is expected to be between $16.5 billion and $21.5 billion, compared with $18.4 billion in first quarter 2025. This guidance includes approximately..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$21.5 billion",
+      "value": 21.5,
+      "unit": "billion",
+      "money_mn": 21500.0,
+      "decimals": 1,
+      "context": "...gain  . First-quarter 2026 operating income guidance of $16.5 to $21.5 billion compares with $18.4 billion a year earlier  .",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Operating income is expected to be between $16.5 billion and $21.5 billion, compared with $18.4 billion in first quarter 2025. This guidance includes approximately $1 billion of..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$18.4 billion",
+      "value": 18.4,
+      "unit": "billion",
+      "money_mn": 18400.0,
+      "decimals": 1,
+      "context": "...operating income guidance of $16.5 to $21.5 billion compares with $18.4 billion a year earlier  .",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Operating income is expected to be between $16.5 billion and $21.5 billion, compared with $18.4 billion in first quarter 2025. This guidance includes approximately $1 billion of higher year-over-year Amazon Leo..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12%",
+      "value": 12.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "Net sales rose 12% to $716.9 billion from $638.0 billion in 2025  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Sales increased 12% in 2025, compared to the prior year. Changes in foreign exchange rates increased net sales by $4.4 billion..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose 12% to $716.9 billion from $638.0 billion in 2025  . AWS (+20%) and International (+13%) grew faster than North...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "13%",
+      "value": 13.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $638.0 billion in 2025  . AWS (+20%) and International (+13%) grew faster than North America (+10%)  . Cost...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "International sales increased 13% in 2025, compared to the prior year. The sales growth primarily reflects increased unit sales, including..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "10%",
+      "value": 10.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(+20%) and International (+13%) grew faster than North America (+10%)  . Cost of sales grew 9%, slower than sales,...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13 AWS 19 20 Consolidated 11 12 Year-over-year Percentage Growth, excluding the effect..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "9%",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(+13%) grew faster than North America (+10%)  . Cost of sales grew 9%, slower than sales, and fell to 49.7% of sales...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Total operating expenses $ 569,366 $ 636,949 Year-over-year Percentage Growth (Decline): Cost of sales 7 % 9 % Fulfillment 9 11 Technology and infrastructure 3 23 Sales and marketing (1) 7 General and administrative (4)..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "49.7%",
+      "value": 49.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...(+10%)  . Cost of sales grew 9%, slower than sales, and fell to 49.7% of sales from 51.1%, lifting gross margin to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...(4) (2) Other operating expense (income), net (1) 508 Percent of Net Sales: Cost of sales 51.1 % 49.7 % Fulfillment 15.4 15.2 Technology and infrastructure 13.9 15.1 Sales and marketing 6.9 6.6 General and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "51.1%",
+      "value": 51.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...sales grew 9%, slower than sales, and fell to 49.7% of sales from 51.1%, lifting gross margin to 50.3% from 48.9%  ....",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and administrative (4) (2) Other operating expense (income), net (1) 508 Percent of Net Sales: Cost of sales 51.1 % 49.7 % Fulfillment 15.4 15.2 Technology and infrastructure 13.9 15.1 Sales and marketing 6.9 6.6 General and..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.3%",
+      "value": 50.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and fell to 49.7% of sales from 51.1%, lifting gross margin to 50.3% from 48.9%  . Technology and infrastructure...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "50.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "48.9%",
+      "value": 48.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to 49.7% of sales from 51.1%, lifting gross margin to 50.3% from 48.9%  . Technology and infrastructure spending rose...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "48.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23%",
+      "value": 23.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...to 50.3% from 48.9%  . Technology and infrastructure spending rose 23% and is the main cost pressure  . Operating...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "23.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "11.2%",
+      "value": 11.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is the main cost pressure  . Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "10.8%",
+      "value": 10.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": ".... Operating income was $80.0 billion, an 11.2% margin against 10.8% a year earlier, despite $5.2 billion of FTC...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "7%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...from $5.53  . Normalized income, which excludes that gain, rose 7% to $65.4 billion, and that is the better measure...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...4,639 Total operating expenses $ 569,366 $ 636,949 Year-over-year Percentage Growth (Decline): Cost of sales 7 % 9 % Fulfillment 9 11 Technology and infrastructure 3 23 Sales and marketing (1) 7 General and administrative..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "71%",
+      "value": 71.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...rose to $139.5 billion from $115.9 billion, but free cash flow fell 71% to $11.2 billion  .  Segment results show where...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "19%",
+      "value": 19.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...where the margin came from. North America operating income rose 19% to $29.6 billion, lifting its margin to about...",
+      "section": "Operating Results",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "19.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.0%",
+      "value": 7.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 19% to $29.6 billion, lifting its margin to about 7.0%  . International operating income rose 25% to...",
+      "section": "Operating Results",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...4,639 Total operating expenses $ 569,366 $ 636,949 Year-over-year Percentage Growth (Decline): Cost of sales 7 % 9 % Fulfillment 9 11 Technology and infrastructure 3 23 Sales and marketing (1) 7 General and administrative..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...its margin to about 7.0%  . International operating income rose 25% to $4.8 billion, but foreign exchange...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "25.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "1.5%",
+      "value": 1.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...contributed $903 million, and excluding it the gain was about 1.5%  . AWS operating income rose 14% to $45.6...",
+      "section": "Operating Results",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...EPS consensus next fiscal year: $10.67 today, $10.58 30 days ago, $10.51 90 days ago, change vs 90 days ago +1.5%; analysts raising/cutting in last 30 days: 28/16"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...excluding it the gain was about 1.5%  . AWS operating income rose 14% to $45.6 billion, but its margin fell to 35.4%...",
+      "section": "Operating Results",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "13.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35.4%",
+      "value": 35.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...operating income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.0%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...income rose 14% to $45.6 billion, but its margin fell to 35.4% from 37.0% as infrastructure spending absorbed much of the...",
+      "section": "Operating Results",
+      "source": null
+    },
+    {
+      "kind": "money",
+      "text": "$128.3 billion",
+      "value": 128.3,
+      "unit": "billion",
+      "money_mn": 128300.00000000001,
+      "decimals": 1,
+      "context": "...falls in the fourth quarter  . The stakes are rising with capex: $128.3 billion of cash capex in 2025 adds to fixed commitments...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of marketable securities and cash capital expenditures. Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$2.5 billion",
+      "value": 2.5,
+      "unit": "billion",
+      "money_mn": 2500.0,
+      "decimals": 1,
+      "context": "...unpredictable and losses above recorded amounts are possible  . The $2.5 billion FTC settlement charge in 2025 shows the cost can...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...income was $68.6 billion and $80.0 billion for 2024 and 2025. Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$65.6 billion",
+      "value": 65.6,
+      "unit": "billion",
+      "money_mn": 65600.0,
+      "decimals": 1,
+      "context": "...balance sheet adds a funding dimension. Long-term debt rose to $65.6 billion from $52.6 billion  . Yahoo shows total debt of...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$78.3 billion and $87.3 billion as of December 31, 2024 and 2025. Our long-term debt was $52.6 billion and $65.6 billion as of December 31, 2024 and 2025. See Item 8 of Part II, “Financial Statements and Supplementary Data — Note..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$52.6 billion",
+      "value": 52.6,
+      "unit": "billion",
+      "money_mn": 52600.0,
+      "decimals": 1,
+      "context": "...adds a funding dimension. Long-term debt rose to $65.6 billion from $52.6 billion  . Yahoo shows total debt of $153.0 billion at...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...liabilities were $78.3 billion and $87.3 billion as of December 31, 2024 and 2025. Our long-term debt was $52.6 billion and $65.6 billion as of December 31, 2024 and 2025. See Item 8 of Part II, “Financial Statements and..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153.0 billion",
+      "value": 153.0,
+      "unit": "billion",
+      "money_mn": 153000.0,
+      "decimals": 1,
+      "context": "...to $65.6 billion from $52.6 billion  . Yahoo shows total debt of $153.0 billion at FY2025 and $271.9 billion at September 30,...",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "152,987,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$271.9 billion",
+      "value": 271.9,
+      "unit": "billion",
+      "money_mn": 271900.0,
+      "decimals": 1,
+      "context": "...billion  . Yahoo shows total debt of $153.0 billion at FY2025 and $271.9 billion at September 30, 2026, with trailing free cash...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$37.6 billion",
+      "value": 37.6,
+      "unit": "billion",
+      "money_mn": 37600.0,
+      "decimals": 1,
+      "context": "...billion at September 30, 2026, with trailing free cash flow of -$37.6 billion  . Those later figures are dated after the     ....",
+      "section": "Risk Assessment",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "37,601,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$123.0 billion",
+      "value": 123.0,
+      "unit": "billion",
+      "money_mn": 123000.0,
+      "decimals": 1,
+      "context": "...was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities  . The Piotroski F-Score...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...cash, cash equivalents, and marketable securities balances, which, at fair value, were $101.2 billion and $123.0 billion as of December 31, 2024 and 2025. Amounts held in foreign currencies were $25.5 billion and $29.7 billion as..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "1.05",
+      "value": 1.05,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": ".... Liquidity was adequate at year-end, with a current ratio of 1.05 and $123.0 billion of cash and securities  . The...",
+      "section": "Risk Assessment",
+      "source": null
+    },
+    {
+      "kind": "plain",
+      "text": "6",
+      "value": 6.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...$123.0 billion of cash and securities  . The Piotroski F-Score of 6 of 9 and Altman Z-Score of 5.74 show no distress...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...provide fulfillment and logistics services for themselves or for third parties, whether online or offline; (6) companies that provide information technology services or products, including on-premises or cloud-based..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "9",
+      "value": 9.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...billion of cash and securities  . The Piotroski F-Score of 6 of 9 and Altman Z-Score of 5.74 show no distress...",
+      "section": "Risk Assessment",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...electronic devices and services; (8) companies that sell grocery products online and in physical stores; (9) companies that provide advertising services, whether in digital or other formats; and (10) providers of..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "5.74",
+      "value": 5.74,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...securities  . The Piotroski F-Score of 6 of 9 and Altman Z-Score of 5.74 show no distress signal  , though the Z-Score is...",
+      "section": "Risk Assessment",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Altman Z-Score: 5.74 (safe zone; >2.99 safe, <1.81 distress; designed for manufacturers, less reliable for young growth companies)"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$326.34",
+      "value": 326.34,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...rather than a clear mispricing  . The consensus Buy rating and $326.34 mean target price are dated after the      and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "326.34 (range 230.00 - 405.00), current consensus as of 2026-11-24, not as of 2026-02-06"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "43.8%",
+      "value": 43.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...smaller than Amazon.  Amazon's gross margin rose each year, from 43.8% in 2022 to 50.3% in 2025, but it remained well...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "43.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "50.3%",
+      "value": 50.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...gross margin rose each year, from 43.8% in 2022 to 50.3% in 2025, but it remained well below Microsoft...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "50.3%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "68.8%",
+      "value": 68.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2022 to 50.3% in 2025, but it remained well below Microsoft (68.8%) and Alphabet (59.7%) in 2025 and well above...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "68.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "59.7%",
+      "value": 59.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2025, but it remained well below Microsoft (68.8%) and Alphabet (59.7%) in 2025 and well above Walmart's 24–25% range...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "59.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "25%",
+      "value": 25.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(68.8%) and Alphabet (59.7%) in 2025 and well above Walmart's 24–25% range  . Its EBITDA margin rose from 7.5% to...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "25.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "7.5%",
+      "value": 7.5,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...well above Walmart's 24–25% range  . Its EBITDA margin rose from 7.5% to 23.1% over the same period, still below...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "7.5%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "23.1%",
+      "value": 23.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...above Walmart's 24–25% range  . Its EBITDA margin rose from 7.5% to 23.1% over the same period, still below Alphabet's...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "23.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "44.9%",
+      "value": 44.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 7.5% to 23.1% over the same period, still below Alphabet's 44.9% and Microsoft's 55.2% in 2025  . Revenue growth...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "44.9%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "55.2%",
+      "value": 55.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...over the same period, still below Alphabet's 44.9% and Microsoft's 55.2% in 2025  . Revenue growth of 12.4% in 2025 was...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "55.2%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Alphabet's 44.9% and Microsoft's 55.2% in 2025  . Revenue growth of 12.4% in 2025 was below Microsoft's 14.9% growth in...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "12.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14.9%",
+      "value": 14.9,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in 2025  . Revenue growth of 12.4% in 2025 was below Microsoft's 14.9% growth in the same year and below Alphabet's...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180 basis..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.1%",
+      "value": 15.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...Microsoft's 14.9% growth in the same year and below Alphabet's 15.1%, though above Walmart's 5.1%  .  Return on...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180 basis..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "5.1%",
+      "value": 5.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...in the same year and below Alphabet's 15.1%, though above Walmart's 5.1%  .  Return on invested capital is the clearest...",
+      "section": "Competitors Analysis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...flow margin moves from 1.1% to 15.0% by year 10, a WACC of 12.4% (10y US Treasury (^TNX) 4.9% + beta 1.50 x 5.0% equity risk premium) and 2.5% terminal growth."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "16.8%",
+      "value": 16.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...on invested capital is the clearest weakness. Amazon's ROIC was 16.8% in 2025, down from 18.1% in 2024, and trailed...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "16.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "18.1%",
+      "value": 18.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the clearest weakness. Amazon's ROIC was 16.8% in 2025, down from 18.1% in 2024, and trailed Microsoft (26.8%) and...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "18.1%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "26.8%",
+      "value": 26.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...was 16.8% in 2025, down from 18.1% in 2024, and trailed Microsoft (26.8%) and Alphabet (28.7%), with Walmart at 17.1%  ....",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "26.8%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "28.7%",
+      "value": 28.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...from 18.1% in 2024, and trailed Microsoft (26.8%) and Alphabet (28.7%), with Walmart at 17.1%  . Free cash flow...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "28.7%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "17.1%",
+      "value": 17.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...and trailed Microsoft (26.8%) and Alphabet (28.7%), with Walmart at 17.1%  . Free cash flow conversion of 0.10 was the...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "17.1%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "24",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...(68.8%) and Alphabet (59.7%) in 2025 and well above Walmart's 24–25% range  . Its EBITDA margin rose from 7.5% to...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "326.34 (range 230.00 - 405.00), current consensus as of 2026-11-24, not as of 2026-02-06"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.10",
+      "value": 0.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...(28.7%), with Walmart at 17.1%  . Free cash flow conversion of 0.10 was the lowest of the four in 2025, below...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...15.1 Sales and marketing 6.9 6.6 General and administrative 1.8 1.6 Other operating expense (income), net 0.1 0.6 ##TABLE_END"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.65",
+      "value": 0.65,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...of 0.10 was the lowest of the four in 2025, below Walmart's 0.65, Alphabet's 0.55, and Microsoft's 0.70  . The...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "0.65"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.55",
+      "value": 0.55,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...the lowest of the four in 2025, below Walmart's 0.65, Alphabet's 0.55, and Microsoft's 0.70  . The stated conversion...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "0.55"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "0.70",
+      "value": 0.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...in 2025, below Walmart's 0.65, Alphabet's 0.55, and Microsoft's 0.70  . The stated conversion values do not reconcile...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "0.7"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "15.4",
+      "value": 15.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...is where the picture reverses. Amazon's EV/EBITDA fell to 15.4 in 2025, the lowest of the four, against...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...Other operating expense (income), net (1) 508 Percent of Net Sales: Cost of sales 51.1 % 49.7 % Fulfillment 15.4 15.2 Technology and infrastructure 13.9 15.1 Sales and marketing 6.9 6.6 General and administrative 1.8 1.6..."
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "24.0",
+      "value": 24.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...fell to 15.4 in 2025, the lowest of the four, against Microsoft at 24.0, Alphabet at 21.1, and Walmart at 20.0  . Read...",
+      "section": "Competitors Analysis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "326.34 (range 230.00 - 405.00), current consensus as of 2026-11-24, not as of 2026-02-06"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "21.1",
+      "value": 21.1,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...the lowest of the four, against Microsoft at 24.0, Alphabet at 21.1, and Walmart at 20.0  . Read against the     ,...",
+      "section": "Competitors Analysis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "21.1"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "20.0",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...four, against Microsoft at 24.0, Alphabet at 21.1, and Walmart at 20.0  . Read against the     , the lower multiple...",
+      "section": "Competitors Analysis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...accelerated depreciation deductions on qualified property, with retroactive application beginning January 20, 2025 and immediate expensing of domestic research and development costs, with retroactive application..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$128.7 billion",
+      "value": 128.7,
+      "unit": "billion",
+      "money_mn": 128699.99999999999,
+      "decimals": 1,
+      "context": "...growing fast enough to justify its spending. AWS sales rose 20% to $128.7 billion in 2025, but operating margin fell to 35.4% from...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$11.2 billion",
+      "value": 11.2,
+      "unit": "billion",
+      "money_mn": 11200.0,
+      "decimals": 1,
+      "context": "...converting to free cash flow in 2026. 2025 free cash flow was $11.2 billion versus $38.2 billion in 2024  . Yahoo trailing...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...and equipment, net of proceeds from sales and incentives (77,658) (128,320) Free cash flow $ 38,219 $ 11,194 Net cash provided by (used in) investing activities $ (94,342) $ (142,545) Net cash provided by (used in)..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$38.2 billion",
+      "value": 38.2,
+      "unit": "billion",
+      "money_mn": 38200.0,
+      "decimals": 1,
+      "context": "...cash flow in 2026. 2025 free cash flow was $11.2 billion versus $38.2 billion in 2024  . Yahoo trailing free cash flow at...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...of property and equipment, net of proceeds from sales and incentives (77,658) (128,320) Free cash flow $ 38,219 $ 11,194 Net cash provided by (used in) investing activities $ (94,342) $ (142,545) Net cash provided by..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$37.6 billion",
+      "value": 37.6,
+      "unit": "billion",
+      "money_mn": 37600.0,
+      "decimals": 1,
+      "context": "...billion in 2024  . Yahoo trailing free cash flow at            was -$37.6 billion  . Trailing-twelve-month free cash flow is...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "37,601,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.93",
+      "value": 12.93,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...is 8.3% versus a 12.4% WACC  . Current-year EPS consensus fell from $12.93 to $12.80 over 30 days  . FY2026 revenue...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- EPS consensus current fiscal year: $12.80 today, $12.93 30 days ago, $12.82 90 days ago, change vs 90 days ago -0.2%; analysts raising/cutting in last 30 days: 17/29"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$12.80",
+      "value": 12.8,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 2,
+      "context": "...a 12.4% WACC  . Current-year EPS consensus fell from $12.93 to $12.80 over 30 days  . FY2026 revenue consensus stays...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...$829,229.0 million (range $824,285.0 million to $837,435.0 million, 57 analysts), growth +15.7%; EPS $12.80 (range $12.04 to $13.08); forward P/E 19.7x; EV/Sales 3.6x"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$153.0 billion",
+      "value": 153.0,
+      "unit": "billion",
+      "money_mn": 153000.0,
+      "decimals": 1,
+      "context": "...outpaces cash generation, adding funding risk. Total debt rose from $153.0 billion at FY2025 to $271.9 billion at           , and...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "152,987,000,000 USD"
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$271.9 billion",
+      "value": 271.9,
+      "unit": "billion",
+      "money_mn": 271900.0,
+      "decimals": 1,
+      "context": "...funding risk. Total debt rose from $153.0 billion at FY2025 to $271.9 billion at           , and net cash fell to -$157.7...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "-$157.7 billion",
+      "value": 157.7,
+      "unit": "billion",
+      "money_mn": 157700.0,
+      "decimals": 1,
+      "context": "...at FY2025 to $271.9 billion at           , and net cash fell to -$157.7 billion  . Total debt stops rising and stays below $272...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...(2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years, current ratio 1.0x, shares..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$272 billion",
+      "value": 272.0,
+      "unit": "billion",
+      "money_mn": 272000.0,
+      "decimals": 0,
+      "context": "...fell to -$157.7 billion  . Total debt stops rising and stays below $272 billion at the FY2026     . Debt keeps rising while...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- Latest quarter (2026-09-30): cash and short-term investments $114,226.0 million, total debt $271,949.0 million, net cash -$157,723.0 million, TTM free cash flow -$37,641.0 million, cash runway at that burn 3.0 years,..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "20%",
+      "value": 20.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "AWS keeps growing fast enough to justify its spending. AWS sales rose 20% to $128.7 billion in 2025, but operating margin...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35.4%",
+      "value": 35.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...rose 20% to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0%  . AWS sales growth at or above 15%...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "37.0%",
+      "value": 37.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...to $128.7 billion in 2025, but operating margin fell to 35.4% from 37.0%  . AWS sales growth at or above 15% and...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...margin fell to 35.4% from 37.0%  . AWS sales growth at or above 15% and operating margin at or above 35% in each...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180 basis..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "35%",
+      "value": 35.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": ".... AWS sales growth at or above 15% and operating margin at or above 35% in each 2026 quarterly report. AWS growth below...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "15%",
+      "value": 15.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...at or above 35% in each 2026 quarterly report. AWS growth below 15%, or margin below 33% in any 2026 quarter. Capex...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "• Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180 basis..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "33%",
+      "value": 33.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...each 2026 quarterly report. AWS growth below 15%, or margin below 33% in any 2026 quarter. Capex starts converting to...",
+      "section": "Investment Thesis",
+      "source": null
+    },
+    {
+      "kind": "pct",
+      "text": "19.2%",
+      "value": 19.2,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...consensus, so any slowdown hits the stock. The reverse DCF implies 19.2% growth versus 15.7% FY2026 consensus; implied...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "- The current enterprise value of $2,952,182.4 million implies revenue growth of 19.2% per year for 10 years (FY2025 revenue $716,924.0 million -> about $4,156,307.5 million in FY2035), assuming..."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...hits the stock. The reverse DCF implies 19.2% growth versus 15.7% FY2026 consensus; implied IRR is 8.3% versus a...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "15.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "8.3%",
+      "value": 8.3,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...implies 19.2% growth versus 15.7% FY2026 consensus; implied IRR is 8.3% versus a 12.4% WACC  . Current-year EPS...",
+      "section": "Investment Thesis",
+      "source": "[2][3] Liquidity and consensus",
+      "evidence": {
+        "source": "[2][3] Liquidity and consensus",
+        "origin": null,
+        "snippet": "...assuming consensus revenue for two years, growth fading to 2.5% by year 10 and the same margin path yields 8.3% per year (-4.1 percentage points vs the WACC)."
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "12.4%",
+      "value": 12.4,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...growth versus 15.7% FY2026 consensus; implied IRR is 8.3% versus a 12.4% WACC  . Current-year EPS consensus fell from...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "12.4%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "15.7%",
+      "value": 15.7,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 1,
+      "context": "...$12.80 over 30 days  . FY2026 revenue consensus stays at or above 15.7% in the Q4 2026 update. Consensus growth falls...",
+      "section": "Investment Thesis",
+      "source": "[2] Yahoo Finance",
+      "evidence": {
+        "source": "[2] Yahoo Finance",
+        "origin": null,
+        "snippet": "15.6%"
+      }
+    },
+    {
+      "kind": "pct",
+      "text": "14%",
+      "value": 14.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...or above 15.7% in the Q4 2026 update. Consensus growth falls below 14%, or EPS revisions stay negative for two more...",
+      "section": "Investment Thesis",
+      "source": "[4] Peer data",
+      "evidence": {
+        "source": "[4] Peer data",
+        "origin": null,
+        "snippet": "13.9%"
+      }
+    },
+    {
+      "kind": "plain",
+      "text": "30",
+      "value": 30.0,
+      "unit": "",
+      "money_mn": null,
+      "decimals": 0,
+      "context": "...WACC  . Current-year EPS consensus fell from $12.93 to $12.80 over 30 days  . FY2026 revenue consensus stays at or...",
+      "section": "Investment Thesis",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...$123.0 billion as of December 31, 2024 and 2025. Amounts held in foreign currencies were $25.5 billion and $29.7 billion as of December 31, 2024 and 2025. Our foreign currency balances include British Pounds, Canadian Dollars,..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$426300.0 million",
+      "value": 426300.0,
+      "unit": "million",
+      "money_mn": 426300.0,
+      "decimals": 1,
+      "context": "North America: $426300.0 million, prior $387500.0 million; International:...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Year Ended December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$387500.0 million",
+      "value": 387500.0,
+      "unit": "million",
+      "money_mn": 387500.0,
+      "decimals": 1,
+      "context": "North America: $426300.0 million, prior $387500.0 million; International: $161900.0 million, prior...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Year Ended December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$161900.0 million",
+      "value": 161900.0,
+      "unit": "million",
+      "money_mn": 161900.0,
+      "decimals": 1,
+      "context": "...America: $426300.0 million, prior $387500.0 million; International: $161900.0 million, prior $142900.0 million; AWS: $128700.0...",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Year Ended December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$142900.0 million",
+      "value": 142900.0,
+      "unit": "million",
+      "money_mn": 142900.0,
+      "decimals": 1,
+      "context": "...prior $387500.0 million; International: $161900.0 million, prior $142900.0 million; AWS: $128700.0 million, prior $107600.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "Year Ended December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$128700.0 million",
+      "value": 128700.0,
+      "unit": "million",
+      "money_mn": 128700.0,
+      "decimals": 1,
+      "context": "...International: $161900.0 million, prior $142900.0 million; AWS: $128700.0 million, prior $107600.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 % International 9 13..."
+      }
+    },
+    {
+      "kind": "money",
+      "text": "$107600.0 million",
+      "value": 107600.0,
+      "unit": "million",
+      "money_mn": 107600.0,
+      "decimals": 1,
+      "context": "...million, prior $142900.0 million; AWS: $128700.0 million, prior $107600.0 million",
+      "section": "Segment table",
+      "source": "[1] 10-K",
+      "evidence": {
+        "source": "[1] 10-K",
+        "origin": null,
+        "snippet": "...December 31, 2024 2025 Net Sales: North America $ 387,497 $ 426,305 International 142,906 161,894 AWS 107,556 128,725 Consolidated $ 637,959 $ 716,924 Year-over-year Percentage Growth: North America 10 % 10 %..."
+      }
+    }
+  ],
+  "peer_tickers": [
+    "MSFT",
+    "GOOGL",
+    "WMT"
+  ],
+  "build_round": 1,
+  "self_correct": true
+}

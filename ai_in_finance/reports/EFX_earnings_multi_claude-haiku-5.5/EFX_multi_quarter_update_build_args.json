@@ -1,0 +1,134 @@
+{
+  "ticker_symbol": "EFX",
+  "fyear": "2025",
+  "save_dir": "../reports/EFX_earnings_multi_claude-haiku-5.5",
+  "headline": "Revenue grew 14%, 11% and 10% in the first three quarters of 2026; Q3 cut FY2026 revenue guidance as U.S. mortgage activity weakened.",
+  "summary": "Equifax (EFX) has reported three quarters since its FY2025 10-K. Reported revenue grew 14% in Q1 FY2026 to $1,648.9 million, 11% in Q2 to $1,700.1 million and 10% in Q3 to $1,692.5 million [1][2]. Diluted EPS was $1.42, $1.54 and $1.79, against $1.06, $1.53 and $1.29 a year earlier [1]. Q1 growth was lifted by a 38% rise in U.S. Mortgage revenue in January and February. In the Q3 release the company cut FY2026 reported revenue guidance at the midpoint to $6.661 billion as mortgage activity weakened in late Q3 [1]. The USIS margin thesis (T1) broke in Q1, when the operating margin fell to 20.2 percent, below the 21.4 percent line, and recovered to 22.5 percent in Q2 and 24.3 percent in Q3 [1][4]. Workforce Solutions (T2) held, with segment margin between 44.1 and 45.3 percent [1]. Liquidity (T4) held, with the current ratio at 1.09x in Q3 [2][3]. The valuation thesis (T3) weakened: FY2026 guidance now implies about 9.4 to 9.9 percent reported growth, close to the 9 percent signpost [1][4]. At $185.68 the shares trade at 21.8x FY2026 consensus EPS of $8.50 [3]. Consensus and price data are dated after the 10-K.",
+  "results_commentary": "Q1 FY2026 had the strongest top line and the weakest USIS margin. Revenue rose 14% to $1,648.9 million from $1,442.0 million, and diluted EPS rose to $1.42 from $1.06 [1][2]. Growth came mainly from U.S. Mortgage revenue, up 38%, in January and February, before mortgage rates rose after the Iran conflict [1]. USIS revenue grew 21%, but its operating margin fell to 20.2 percent from 21.1 percent, and its adjusted EBITDA margin fell to 30.3 percent from 34.1 percent [1]. The release does not name the cause of the cost increase, but the EBITDA decline shows segment costs grew faster than revenue. This quarter took USIS margin below the 21.4 percent invalidation line in T1. Workforce Solutions moved the other way: operating margin rose to 45.3 percent from 42.7 percent, and Verification Services grew 14% [1].\n\nQ2 FY2026 slowed to 11% reported revenue growth, to $1,700.1 million, and diluted EPS was almost flat at $1.54 against $1.53 [1]. Net income fell 4% to $183.9 million, so EPS held up only because the share count fell to 117.6 million [1][3]. The slowdown was in Workforce Solutions. Its revenue grew 7%, Verification Services grew 7% against 14% in Q1, and operating margin fell to 44.9 percent from 46.4 percent [1]. USIS recovered to a 22.5 percent margin (22.6 percent a year earlier) as Diversified Markets growth accelerated to 6% and U.S. Mortgage revenue grew 25% [1]. Cash fell to $170.1 million and net debt widened to $5,297.0 million, the highest in the window [3]. The company returned $366 million to shareholders [1]. Illustratively, a 12.0 percent free cash flow margin on Q2 revenue gives about $204 million, below the cash returned [3].\n\nQ3 FY2026 was the strongest quarter for profit. Revenue rose 10% to $1,692.5 million, or 9% in local currency, and diluted EPS rose 39% to $1.79 from $1.29 [1]. Operating margin was 21.0 percent against 17.1 percent a year earlier [3]. USIS margin reached 24.3 percent (23.2 percent a year earlier) and Workforce Solutions reached 44.1 percent (43.8 percent) [1]. The mortgage market turned in late Q3: Workforce Solutions mortgage revenue was flat, and total U.S. Mortgage revenue growth slowed to 15% from 25% in Q2 [1]. Management cut FY2026 reported revenue guidance at the midpoint to $6.661 billion, from about $6.745 billion at the Q2 range midpoint, a reduction of roughly $84 million (illustrative, from the stated ranges). It guided Q4 reported growth to 3.5% to 5.4% [1]. Cash returned fell to $158 million, with buybacks of $92 million, and the current ratio was 1.09x against 0.74x a year earlier [1][2][3].",
+  "thesis_check": [
+    {
+      "thesis": "T1: USIS margin expansion persists through the 2026 mortgage slowdown, because product pricing and diversified growth offset lower credit inquiry volumes.",
+      "signpost": "USIS operating margin at or above 22% in each quarterly report through Q1 2027.",
+      "statuses": {
+        "Q1 FY2026": "broken",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "USIS operating margin was 20.2 percent in Q1 FY2026 against 21.1 percent a year earlier, below the 21.4 percent invalidation line, with adjusted EBITDA margin at 30.3 percent against 34.1 percent [1][2]. It recovered to 22.5 percent in Q2 (22.6 percent a year earlier) and 24.3 percent in Q3 (23.2 percent) with Diversified Markets growth of 6% [1]. The 22 percent signpost was met in Q2 and Q3, but the Q1 breach has not been reversed by a sustained run, so the status stays weakened until the margin holds through Q1 2027."
+    },
+    {
+      "thesis": "T2: Workforce Solutions remains the profit anchor even as U.S. mortgage activity falls in 2026.",
+      "signpost": "Verification Services revenue growth of at least 5% reported in the Q1 2027 quarterly report.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "Workforce Solutions operating margin was 45.3 percent in Q1 (42.7 percent a year earlier) with Verification Services up 14% to $571.4 million [1]. In Q2 Verification Services growth slowed to 7% and segment margin fell to 44.9 percent from 46.4 percent, still above the 43 percent floor [1]. In Q3 Verification Services grew 9% to $603.2 million and margin was 44.1 percent, with Workforce Solutions mortgage revenue flat [1]."
+    },
+    {
+      "thesis": "T3: At $185.68 the shares price in faster growth than history supports, so the stock needs re-acceleration to earn its cost of capital.",
+      "signpost": "FY2026 reported revenue growth of at least 9%, shown in the FY2026 annual filing expected around February 2027.",
+      "statuses": {
+        "Q1 FY2026": "strengthened",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Q1 revenue growth of 14% and FY2026 reported growth guidance of 10.0 to 12.0 percent supported the re-acceleration case [1]. In Q3 the company cut the FY2026 reported revenue midpoint to $6.661 billion, which is about 9.7 percent growth on FY2025 revenue of $6,074.5 million (illustrative), and guided FY2026 reported growth to 9.4 to 9.9 percent with Q4 at 3.5 to 5.4 percent [1][4]. Consensus FY2027 EPS fell 6.3 percent in 90 days to $9.46, and the FY2027 low estimate of $8.97 is just under the $9.00 invalidation level [3]. The reverse DCF still needs 12.4 percent growth against 9.7 percent FY2026 consensus [3][4]."
+    },
+    {
+      "thesis": "T4: Debt due within twelve months is refinanced without strain, so the liquidity squeeze does not force cuts to buybacks or dividends.",
+      "signpost": "The FY2026 annual filing shows the current debt refinanced or repaid, with cash and revolver capacity above the remaining maturities.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "intact",
+        "Q3 FY2026": "intact"
+      },
+      "current_status": "intact",
+      "evidence": "The current ratio was 0.61x in Q1, 0.60x in Q2 and 1.09x in Q3, against 0.74x a year earlier [2][3]. Cash and short-term investments were $183.4 million, $170.1 million and $192.9 million [3]. Buybacks were $260 million, $300 million and $92 million, all above the $66-67 million quarterly dividend, so the buyback invalidation test was not met [1]. Net debt was $5,013.8 million at Q3 against $4,624.1 million a year earlier, so the refinancing signpost stays open until the FY2026 annual filing [3]."
+    }
+  ],
+  "risk_update": "Two annual-report risks have materialised. First, the U.S. mortgage slowdown: rates rose during Q1 after the Iran conflict, Q2 mortgage revenue still grew 25%, and in late Q3 Workforce Solutions mortgage revenue was flat and FY2026 revenue guidance was cut [1]. Second, the USIS cost base: the Q1 margin fell to 20.2 percent, and the release does not name the cause [1]. Funding risk eased: the current ratio rose to 1.09x in Q3 from 0.60x in Q2 [2][3]. Net debt, however, widened to $5,013.8 million from $4,624.1 million a year earlier [3]. A new risk is the $750 million acquisition of Círculo de Crédito in Mexico, expected to close in Q4 FY2026, which adds integration and funding exposure [1]. Cybersecurity and regulatory risk were not re-assessed: the Q2 and Q3 10-Q MD&A and the latest risk factor update could not be retrieved (API limit), so this section relies on the releases and the annual report [2][4].",
+  "outlook": "Management guides FY2026 reported revenue to $6.646-6.676 billion (9.4 to 9.9 percent growth) and adjusted EPS to $8.45-8.55 [1]. Consensus FY2026 EPS is $8.50 and FY2027 EPS is $9.46, down 6.3 percent in 90 days [3]. Q4 guidance implies 3.5 to 5.4 percent reported growth, a sharp slowdown from Q3's 10% [1]. Watch the Q4 mortgage line and the USIS margin in Q1 2027, which must hold at 22 percent or above for T1 to recover. Verification Services growth of at least 5 percent in Q1 2027 is the T2 test. A FY2027 consensus EPS below $9.00 would breach T3 [3][4]. The Círculo de Crédito closing and its effect on net debt are the next balance-sheet checkpoints [1]. Consensus and price data are dated after the 10-K.",
+  "company_kpis": [
+    {
+      "name": "USIS operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 20.2,
+        "Q2 FY2026": 22.5,
+        "Q3 FY2026": 24.3
+      },
+      "prior_values": {
+        "Q1 FY2026": 21.1,
+        "Q2 FY2026": 22.6,
+        "Q3 FY2026": 23.2
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Workforce Solutions operating margin",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 45.3,
+        "Q2 FY2026": 44.9,
+        "Q3 FY2026": 44.1
+      },
+      "prior_values": {
+        "Q1 FY2026": 42.7,
+        "Q2 FY2026": 46.4,
+        "Q3 FY2026": 43.8
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Diluted EPS attributable to Equifax",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1.42,
+        "Q2 FY2026": 1.54,
+        "Q3 FY2026": 1.79
+      },
+      "prior_values": {
+        "Q1 FY2026": 1.06,
+        "Q2 FY2026": 1.53,
+        "Q3 FY2026": 1.29
+      },
+      "source": "[1] earnings releases"
+    },
+    {
+      "name": "Reported revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1648.9,
+        "Q2 FY2026": 1700.1,
+        "Q3 FY2026": 1692.5
+      },
+      "prior_values": {
+        "Q1 FY2026": 1442.0
+      },
+      "source": "[1] earnings releases; Q1 prior-year from [2] 10-Q"
+    },
+    {
+      "name": "Current ratio",
+      "unit": "x",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 0.61,
+        "Q2 FY2026": 0.6,
+        "Q3 FY2026": 1.09
+      },
+      "prior_values": {
+        "Q3 FY2026": 0.74
+      },
+      "source": "[3] Yahoo Finance scorecard"
+    }
+  ]
+}

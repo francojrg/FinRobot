@@ -23,6 +23,8 @@ from finrobot.functional.reportlab import ReportLabUtils, reset_build_rounds
 
 from .outlook_tools import get_consensus_and_liquidity
 from .peer_tools import get_peer_candidates
+from .style import STYLE_RULES
+from . import agent_settings as _AS  # Prompts/Parameter aus der App (research/agent_settings.json)
 
 # Analyse-Tools, die im Original nur eine Auftragsdatei schreiben
 INSTRUCTION_TOOLS = [
@@ -33,7 +35,8 @@ INSTRUCTION_TOOLS = [
 PREFIX = "instruction & resources saved to "
 ANALYST_SYSTEM = (
     "You are a senior equity research analyst. Answer the instruction using only the resources provided "
-    "(10-K text and financial tables). Do not add facts that are not in the resources. Write in English prose."
+    "(10-K text and financial tables). Do not add facts that are not in the resources. Write in English prose.\n"
+    + STYLE_RULES
 )
 
 
@@ -58,7 +61,7 @@ def _wrap_analysis_tool(func, llm_config):
         path = result[len(PREFIX):].strip()
         with open(path, encoding="utf-8") as f:
             instruction = f.read()
-        response = client.create(messages=[{"role": "system", "content": ANALYST_SYSTEM},
+        response = client.create(messages=[{"role": "system", "content": _AS.get("annual.analyst", ANALYST_SYSTEM)},
                                            {"role": "user", "content": instruction}], cache=None)
         text = (client.extract_text_or_completion_object(response) or [""])[0] or ""
         analysis_path = path[:-4] + "_analysis.txt" if path.endswith(".txt") else path + "_analysis.txt"
@@ -111,13 +114,69 @@ def make_agent_config(llm_config):
     return cfg
 
 
+ACCEPT_REPLY = ("Accept the report as it is: it has been built and fact-checked, and the evaluation allows exactly one "
+                "revision round. Do not rebuild it again and do not ask further questions. Reply TERMINATE now.")
+REVISE_REPLY = ("Do the self-check revision now: correct or remove the figures listed by the fact check and call "
+                "build_annual_report exactly once more. Then reply TERMINATE.")
+
+
+def _after_build_reply(recipient, messages=None, sender=None, config=None):
+    """Nach dem Bau des Reports: Rueckfragen des Agenten beantworten statt leerer Auto-Antworten (sonst baut er
+    endlos weiter). Vor dem ersten Bau und bei Tool-Aufrufen gilt das normale Verhalten."""
+    msgs = messages or []
+    last = msgs[-1] if msgs else {}
+    if last.get("tool_calls") or last.get("function_call"):
+        return False, None
+    if str(last.get("content") or "").rstrip().rstrip("*.").endswith("TERMINATE"):
+        return False, None  # Abbruch der normalen Pruefung ueberlassen (sonst Ping-Pong)
+    builds = [str(m.get("content") or "") for m in msgs if "Annual report generated successfully" in str(m.get("content") or "")]
+    if not builds:
+        return False, None
+    if len(builds) == 1 and "SELF-CHECK" in builds[-1]:
+        return True, REVISE_REPLY
+    return True, ACCEPT_REPLY
+
+
 def build_agent(llm_config, max_rounds=30):
-    return SingleAssistant(
+    agent = SingleAssistant(
         make_agent_config(llm_config),
         llm_config,
         max_consecutive_auto_reply=max_rounds,
         human_input_mode="NEVER",
+        is_termination_msg=lambda x: str(x.get("content") or "").rstrip().rstrip("*.").endswith("TERMINATE"),
     )
+    try:
+        from autogen import Agent
+        agent.user_proxy.register_reply([Agent, None], _after_build_reply, position=0)
+    except Exception as e:  # aeltere autogen-Version: Standardverhalten
+        print(f"Hinweis: Abschluss-Antwort nicht registriert ({e})")
+    return agent
+
+
+def foreign_issuer_note(company):
+    """Hinweis fuer 20-F-Emittenten (ASML, TSMC ...): Formular, Abschnitte und Berichtswaehrung. Leer bei 10-K-Firmen."""
+    try:
+        from finrobot.data_source.fmp_utils import _find_10k
+        form = _find_10k(company, "latest").get("form", "10-K")
+    except Exception:
+        return ""
+    if not form.startswith(("20-F", "40-F")):
+        return ""
+    cur = ""
+    try:
+        import yfinance as yf
+        info = yf.Ticker(company).info or {}
+        fin, trd = info.get("financialCurrency"), info.get("currency")
+        if fin and fin != trd:
+            sym = {"EUR": "€", "TWD": "NT$", "USD": "$", "GBP": "£", "JPY": "¥", "CHF": "CHF "}.get(fin, fin + " ")
+            cur = (f" Its financial statements are reported in {fin}, while the share (ADR) trades in {trd}: write all "
+                   f"company amounts in {fin} with the symbol '{sym}' (e.g. '{sym}32.7 billion'), never as '$', and only "
+                   f"use {trd} for the share price.")
+    except Exception:
+        pass
+    return (f"- {company} is a foreign private issuer: its annual report is a Form {form}, not a 10-K. The '10-K' tools "
+            f"return the matching {form} sections (Item 4 business, Item 3D risk factors, Item 5 operating and financial "
+            f"review); refer to the filing as 'the {form}' and cite it as [1].{cur}\n")
 
 
 def default_message(company, fyear, work_dir, peers=None):
@@ -151,6 +210,7 @@ def default_message(company, fyear, work_dir, peers=None):
           "Neutron first launch by Q4 2026" or "Subscription ARR growth above 30%") and invalidation (what would prove it
           wrong). The earnings reviewer will check these signposts after each quarter.
         - Cite sources inline as [1] 10-K, [2] Yahoo Finance financials/prices, [3] analyst consensus, [4] peer financials.
+        {foreign_issuer_note(company)}
         - When calling build_annual_report, pass peer_tickers with the chosen peers, segment_data with the segment
           revenues for the last two fiscal years as stated in the 10-K (USD millions), key_takeaways as a list and
           investment_theses as a list of objects.

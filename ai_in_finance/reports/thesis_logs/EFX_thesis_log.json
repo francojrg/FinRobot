@@ -1,0 +1,54 @@
+[
+  {
+    "date": "2026-11-26",
+    "fyear": "2025",
+    "quarters": [
+      "Q1 FY2026",
+      "Q2 FY2026",
+      "Q3 FY2026"
+    ],
+    "report": "../reports/EFX_earnings_multi_claude-haiku-5.5\\EFX_multi_quarter_update.pdf",
+    "theses": [
+      {
+        "thesis": "T1: USIS margin expansion persists through the 2026 mortgage slowdown, because product pricing and diversified growth offset lower credit inquiry volumes.",
+        "signpost": "USIS operating margin at or above 22% in each quarterly report through Q1 2027.",
+        "statuses": {
+          "Q1 FY2026": "broken",
+          "Q2 FY2026": "weakened",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T2: Workforce Solutions remains the profit anchor even as U.S. mortgage activity falls in 2026.",
+        "signpost": "Verification Services revenue growth of at least 5% reported in the Q1 2027 quarterly report.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      },
+      {
+        "thesis": "T3: At $185.68 the shares price in faster growth than history supports, so the stock needs re-acceleration to earn its cost of capital.",
+        "signpost": "FY2026 reported revenue growth of at least 9%, shown in the FY2026 annual filing expected around February 2027.",
+        "statuses": {
+          "Q1 FY2026": "strengthened",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "weakened"
+        },
+        "current_status": "weakened"
+      },
+      {
+        "thesis": "T4: Debt due within twelve months is refinanced without strain, so the liquidity squeeze does not force cuts to buybacks or dividends.",
+        "signpost": "The FY2026 annual filing shows the current debt refinanced or repaid, with cash and revolver capacity above the remaining maturities.",
+        "statuses": {
+          "Q1 FY2026": "intact",
+          "Q2 FY2026": "intact",
+          "Q3 FY2026": "intact"
+        },
+        "current_status": "intact"
+      }
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "ticker_symbol": "MCO",
+  "fyear": "2025",
+  "save_dir": "../reports/MCO_earnings_multi_claude-haiku-5.5",
+  "headline": "Q2 issuance surge lifted MCO's margin and EPS; Q3 revenue grew only 1%, operating margin fell 90 bps, and total debt rose above $7.35bn.",
+  "summary": "Moody's (MCO) has reported three quarters since the FY2025 10-K. Q1 revenue rose 8% to $2,079 million, Q2 rose 15% to $2,185 million, and Q3 rose 1% to $2,023 million [2]. Operating margin was 44.3%, 47.9% and 44.8% in the three quarters [2]. Q2 was driven by MIS external revenue, up 25% on leveraged finance and AI-related investment-grade and project-finance issuance [2]. Q3 MIS external revenue fell 1% as leveraged finance issuance weakened against a strong prior-year quarter [2]. Total debt was $7,492 million at 30 September 2026 on a Yahoo basis, above the $7.35 billion baseline [3][4]. Consensus expects FY2026 revenue growth of 6.5% and EPS of $16.76, with the EPS estimate cut 1.3% over 90 days [3]. No earnings releases were available for any quarter, so this update relies on the 10-Qs and Yahoo data [2][3]. Against the logged statuses, T2 is weakened for Q2 and strengthened for Q3, T1 is strengthened for Q2 and weakened for Q3, T3 stays weakened, and T4 stays strengthened for Q2 and Q3.",
+  "results_commentary": "Q1 FY2026 was steady. Revenue rose 8% to $2,079 million, with MA and MIS each up 8% (organic constant currency growth 6%) [2]. GAAP operating margin rose 30 bps to 44.3%, and adjusted operating margin rose 150 bps to 53.2% [2]. Operating and SG&A expenses grew 8%, as fast as revenue. The drivers were salaries, unfavorable foreign exchange, and a reserve for an international non-income tax obligation booked in SG&A [2]. Adjusted diluted EPS rose 13% to $4.33 [2][3].\n\nQ2 FY2026 accelerated sharply. Revenue rose 15% to $2,185 million. MIS external revenue rose 25% to $1,260 million on higher leveraged finance issuance in the U.S., investment-grade issuance tied to AI-related financing by hyperscalers, and data-center project finance [2]. MA grew 4% after the divestitures of MA Learning Solutions and MA Regulatory Solutions [2]. Operating and SG&A costs rose 5%, so operating margin rose 480 bps to 47.9% [2]. Adjusted diluted EPS rose 31% to $4.68, a 10% beat against a $4.25 estimate [2][3]. GAAP diluted EPS of $5.03 includes an $181 million gain on the MA Regulatory Solutions divestiture, which sits outside operating income [2].\n\nQ3 FY2026 deteriorated. Revenue grew 1% to $2,023 million. MIS fell 1% to $1,087 million as leveraged finance issuance declined against a strong prior-year quarter and market volatility late in the period. Investment-grade and project-finance issuance partly offset this [2]. MA grew 3% [2]. Operating and SG&A costs rose 2%, driven by technology infrastructure and AI usage costs and higher incentive compensation, while restructuring rose 29% to $27 million. Operating margin fell 90 bps to 44.8% because cost growth outpaced revenue growth [2]. Adjusted diluted EPS rose 6% to $4.14, a 2.5% miss against a $4.25 estimate [2][3]. Share count fell 3.3% y/y to 172.4 million [3]. Cash and short-term investments fell to $1,621 million from $2,259 million a year earlier, and net cash moved to -$5,871 million from -$5,104 million [3]. The Yahoo scorecard reports Q3 operating margin at 46.1%, not the 10-Q's 44.8%; this update uses the 10-Q figures [2][3].",
+  "thesis_check": [
+    {
+      "thesis": "T1: Operating leverage keeps margins expanding, because operating and SG&A cost growth stays well below revenue growth.",
+      "signpost": "FY2026 operating margin above 43.4% in the FY2026 10-K (filed about February 2027). Invalidation: below 40.6%, or restructuring rising again without a matching margin gain.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Q2 operating margin rose 480 bps to 47.9% with operating and SG&A costs up 5% against revenue up 15% [2]. Q3 margin fell 90 bps to 44.8% as operating and SG&A costs rose 2% against revenue up 1%, and restructuring rose 29% to $27 million [2]. The Q3 result is the first quarter where cost growth outpaced revenue growth, and the 43.4% signpost cannot be checked until the FY2026 10-K."
+    },
+    {
+      "thesis": "T2: The share price assumes growth well above consensus, so at consensus growth the implied return falls short of the cost of capital.",
+      "signpost": "FY2026 revenue growth of at least 9%, matching the FY2025 pace, reported in the FY2026 10-K (about February 2027). Invalidation: FY2026 revenue growth of 12% or more.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "Q2 revenue growth of 15% was the strongest quarter, which the logged Q2 status already treats as weakening the thesis [2]. Q3 growth slowed to 1%, below the 9% signpost, which supports the thesis that growth at the current price is not sustained [2]. Consensus FY2026 growth is 6.5% and the reverse DCF implies 18.1% per year [3][4]."
+    },
+    {
+      "thesis": "T3: Deleveraging continues, but payouts near 94% of free cash flow will limit further debt reduction.",
+      "signpost": "FY2026 total debt below $7.35 billion, with buybacks plus dividends at or below free cash flow, in the FY2026 10-K. Invalidation: total debt rising above $7.35 billion, or payouts exceeding free cash flow for a second consecutive year.",
+      "statuses": {
+        "Q1 FY2026": "weakened",
+        "Q2 FY2026": "weakened",
+        "Q3 FY2026": "weakened"
+      },
+      "current_status": "weakened",
+      "evidence": "Total debt was $7,492 million at 30 September 2026, above the $7,351 million FY2025 level and the $7.35 billion signpost [3][4]. Net cash moved to -$5,871 million from -$5,104 million a year earlier, and cash fell to $1,621 million from $2,259 million [3]. Shares outstanding fell 3.3% y/y [3]. Buyback and dividend dollars for FY2026 are not in the data, so the payout test cannot be confirmed. The 10-Q cites lower interest income from higher repurchases [2]."
+    },
+    {
+      "thesis": "T4: Debt-issuance cyclicality will show up in MIS earnings within a year, so the stock is exposed to a weaker issuance cycle.",
+      "signpost": "Corporate Finance (CFG) revenue growth of at least 5% in FY2026, against 9% in FY2025, reported in the FY2026 10-K. Invalidation: CFG revenue growth at or above 9% in FY2026 even if debt issuance is flat. CFG is not reported separately in the 10-Qs, so MIS external revenue is the proxy.",
+      "statuses": {
+        "Q1 FY2026": "intact",
+        "Q2 FY2026": "strengthened",
+        "Q3 FY2026": "strengthened"
+      },
+      "current_status": "strengthened",
+      "evidence": "MIS external revenue grew 8% in Q1, 25% in Q2 and fell 1% in Q3 [2]. The Q2 surge runs against the thesis's near-term prediction, but the logged Q2 status is kept because the issuance-driven swing in Q3 confirms the cyclicality the thesis describes [2]. The Q3 10-Q cites lower leveraged finance issuance and market volatility as the cause [2]. A full-year MIS decline is not yet visible, so the FY2026 CFG test remains open until the 10-K."
+    }
+  ],
+  "risk_update": "Materialised: issuance cyclicality appeared in Q3, when MIS external revenue fell 1% on lower leveraged finance issuance and market volatility [2]. New: a reserve for an international non-income tax obligation was booked in SG&A in Q1 FY2026, with interest and penalties in non-operating expense [2]. AI usage and technology infrastructure costs rose in Q3 and are now a cost line to track [2]. Divestitures of MA Learning Solutions and MA Regulatory Solutions reduce reported MA growth and produced gains of $181 million in Q2 and $115 million in Q3, which lift GAAP EPS but not adjusted EPS [2]. Eased: the July 31, 2026 goodwill review used qualitative assessments for all three reporting units, and none was judged more likely than not impaired [2]. The 10-Qs state no material changes to the FY2025 risk factors [2]. Data gap: no earnings releases were available for any quarter.",
+  "outlook": "Consensus FY2026 revenue is $8,218.3 million, up 6.5%, with EPS of $16.76, and the 90-day EPS revision is -1.3% [3]. FY2027 EPS is $18.59, revised -1.7% over 90 days [3]. At $485.69 the forward P/E is 29.0x [3]. Consensus data is dated 26 November 2026, after the 10-K. No company guidance appears in the releases or 10-Qs provided, so none is cited. Watch: Q4 MIS issuance, which must be much stronger than Q3's 1% decline for FY2026 growth to approach the 9% signpost; FY2026 operating margin against 43.4%; year-end total debt against $7.35 billion; and buybacks plus dividends against free cash flow ($2,977 million trailing twelve months, Yahoo) [3][4]. A Q4 at or near Q3's pace would support T2 and T4. A full-year growth rate of 9% or more would weaken T2.",
+  "company_kpis": [
+    {
+      "name": "Total revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 2079,
+        "Q2 FY2026": 2185,
+        "Q3 FY2026": 2023
+      },
+      "prior_values": {
+        "Q1 FY2026": 1924,
+        "Q2 FY2026": 1898,
+        "Q3 FY2026": 2007
+      },
+      "source": "[2] 10-Q MD&A executive summary"
+    },
+    {
+      "name": "Operating margin (GAAP)",
+      "unit": "%",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 44.3,
+        "Q2 FY2026": 47.9,
+        "Q3 FY2026": 44.8
+      },
+      "prior_values": {
+        "Q1 FY2026": 44.0,
+        "Q2 FY2026": 43.1,
+        "Q3 FY2026": 45.7
+      },
+      "source": "[2] 10-Q MD&A"
+    },
+    {
+      "name": "MIS external revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 1153,
+        "Q2 FY2026": 1260,
+        "Q3 FY2026": 1087
+      },
+      "prior_values": {
+        "Q1 FY2026": 1065,
+        "Q2 FY2026": 1010,
+        "Q3 FY2026": 1098
+      },
+      "source": "[2] 10-Q MD&A (CFG not reported separately; proxy for T4)"
+    },
+    {
+      "name": "MA external revenue",
+      "unit": "USD mn",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 926,
+        "Q2 FY2026": 925,
+        "Q3 FY2026": 936
+      },
+      "prior_values": {
+        "Q1 FY2026": 859,
+        "Q2 FY2026": 888,
+        "Q3 FY2026": 909
+      },
+      "source": "[2] 10-Q MD&A (reported, includes divestiture effects)"
+    },
+    {
+      "name": "Adjusted diluted EPS",
+      "unit": "USD",
+      "good_direction": "up",
+      "values": {
+        "Q1 FY2026": 4.33,
+        "Q2 FY2026": 4.68,
+        "Q3 FY2026": 4.14
+      },
+      "prior_values": {
+        "Q1 FY2026": 3.83,
+        "Q2 FY2026": 3.56,
+        "Q3 FY2026": 3.92
+      },
+      "source": "[2] 10-Q MD&A non-GAAP measure"
+    }
+  ]
+}
